@@ -1,0 +1,12 @@
+[package]
+name = "rculock"
+version = "0.1.2"
+authors = ["Kevin Liu <mail@nivekuil.com>"]
+description = "A synchronization primitive for unlimited lock-free reads with one concurrent writer."
+repository = "https://github.com/nivekuil/rculock"
+categories = ["concurrency"]
+license = "MIT"
+
+[dependencies]
+crossbeam = "0.2"
+parking_lot = "0.3"

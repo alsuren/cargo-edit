@@ -1,0 +1,26 @@
+[package]
+name = "pipelines"
+version = "0.4.0"
+authors = ["David King <dking@ketralnis.com>"]
+license = "BSD-2-Clause"
+description = "A tool for constructing multi-threaded pipelines of execution"
+repository = "https://github.com/ketralnis/pipelines-rs"
+readme = "README.md"
+keywords = ["pipeline", "pipelines", "parallel", "concurrent", "mapreduce"]
+
+[features]
+default = ["chan"]
+
+[dependencies]
+chan = {version="0.1.19", optional=true}
+
+[dev-dependencies]
+# for examples/compression-tester.rs:
+env_logger = "0.4.3"
+flate2 = "0.2.19"
+humansize = "1.0.1"
+log = "0.3.8"
+num_cpus = "1.0"
+walkdir = "1.0.7"
+# for examples/mr_tools.rs
+clap = "2.25.0"

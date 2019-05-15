@@ -1,0 +1,29 @@
+[package]
+name = "candy"
+version = "0.1.3"
+authors = ["danielhenrymantilla <daniel.henry.mantilla@gmail.com>"]
+edition = "2018"
+
+description = "Syntaxic sugar for Rust: macros for lighter error handling code, and more."
+
+documentation = "https://docs.rs/candy/"
+homepage = "https://github.com/danielhenrymantilla/candy-rs"
+repository = "https://github.com/danielhenrymantilla/candy-rs"
+
+readme = "README.md"
+
+keywords = ["candy", "sugar", "sweet", "macros", "fallible"]
+
+categories = ["no-std", "rust-patterns", "api-bindings"]
+
+license = "MIT"
+
+[dependencies]
+
+[features]
+default = []
+nightly = []
+try-trait = ["nightly"]
+
+[package.metadata.docs.rs]
+features = [ "nightly" ]

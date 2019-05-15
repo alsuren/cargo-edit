@@ -1,0 +1,21 @@
+[package]
+name = "ullage"
+version = "0.1.0"
+authors = ["Will Speak <will@willspeak.me>"]
+description = "The Ullage Programming Language"
+license = "MIT"
+# documentation = "no public docs yet"
+repository = "https://github.com/iwillspeak/ullage"
+readme = "README.md"
+keywords = [ "llvm", "parser", "compiler" ]
+categories = [ "parsing" ]
+edition = "2018"
+
+[dependencies]
+llvm-sys = "80"
+docopt = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tempfile = "3.0"
+failure = "0.1"
+libc = "0.2"
+indexmap = "1.0"

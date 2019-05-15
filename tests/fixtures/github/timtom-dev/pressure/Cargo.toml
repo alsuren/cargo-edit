@@ -1,0 +1,15 @@
+[package]
+name = "pressure"
+version = "0.1.0"
+authors = ["TimTom <timtom.business@gmail.com>"]
+edition = "2018"
+description = "Pressure is a Rust library for pen and touch input on desktop platforms."
+documentation = "https://github.com/timtom-dev/pressure"
+homepage = "https://github.com/timtom-dev/pressure"
+repository = "https://github.com/timtom-dev/pressure"
+readme = "README.md"
+keywords = ["GUI"]
+categories = ["gui"]
+license = "MIT"
+
+[dependencies]

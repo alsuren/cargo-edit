@@ -1,0 +1,25 @@
+[package]
+name = "blindsign"
+version = "0.0.6"
+authors = ["boojies"]
+repository = "https://github.com/boojies/blindsign"
+readme = "README.md"
+license = "MIT"
+description = "A package for creating blind signatures cryptography ECC"
+categories = ["cryptography"]
+keywords = ["blind", "signature", "cryptography", "mix", "ECC"]
+
+[dev-dependencies]
+sha3 = "0.7.3"
+
+[dependencies]
+digest = "0.7.2"
+rand = "0.5.0"
+failure = "0.1.1"
+failure_derive = "0.1.1"
+typenum = "1.10.0"
+subtle = "0.6.2"
+
+[dependencies.curve25519-dalek]
+version = "^0.17"
+features = ["nightly"]

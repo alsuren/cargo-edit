@@ -1,0 +1,31 @@
+[package]
+name = "cargo-ebuild"
+version = "0.1.6-pre"
+authors = ["Doug Goldstein <cardoe@cardoe.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/cardoe/cargo-ebuild"
+homepage = "https://github.com/cardoe/cargo-ebuild"
+documentation = "https://github.com/cardoe/cargo-ebuild"
+readme = "README.md"
+keywords = ["cargo-subcommand", "ebuild", "gentoo"]
+categories = ["command-line-utilities"]
+description = """
+Generates an ebuild for a package using the in-tree eclasses.
+"""
+
+[[bin]]
+name = "cargo-ebuild"
+path = "src/main.rs"
+
+[lib]
+name = "cargo_ebuild"
+path = "src/lib.rs"
+
+[badges]
+travis-ci = { repository = "cardoe/cargo-ebuild" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+cargo = "^0.21"
+structopt = "^0.2"
+time = "^0.1"

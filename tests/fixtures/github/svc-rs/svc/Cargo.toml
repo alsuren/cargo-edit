@@ -1,0 +1,10 @@
+[package]
+name = "svc"
+version = "0.0.0"
+authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
+description = "Services framework"
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/svc"
+repository = "https://github.com/svc-rs/svc"
+
+[dependencies]

@@ -1,0 +1,17 @@
+[package]
+authors = ["Alex Maslakov <me@gildedhonour.com>, <abc@nothingness.xyz>"]
+description = "Implementation of JSON JWT"
+documentation = "https://github.com/GildedHonour/frank_jwt"
+homepage = "https://github.com/GildedHonour/frank_jwt"
+keywords = ["jwt", "json", "token", "encryption", "auth0-jwt"]
+license = "Apache-2.0"
+name = "frank_jwt"
+readme = "README.md"
+repository = "https://github.com/GildedHonour/frank_jwt"
+version = "3.1.0"
+
+[dependencies]
+base64 = "0.10.0"
+openssl = "0.10.15"
+serde = "1.0.80"
+serde_json = "1.0.33"

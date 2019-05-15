@@ -1,0 +1,38 @@
+[package]
+name = "rustlearn"
+version = "0.5.0"
+description = "A machine learning package for Rust."
+documentation = "https://maciejkula.github.io/rustlearn/doc/rustlearn/"
+homepage = "https://github.com/maciejkula/rustlearn"
+repository = "https://github.com/maciejkula/rustlearn"
+readme = "readme.md"
+license = "Apache-2.0"
+keywords = ["machine-learning"]
+authors = ["Maciej Kula <maciej.kula@gmail.com>"]
+exclude = [
+	"scripts/*",
+	"examples/*",
+	"test_data/*",
+]
+links = "libsvm"
+build = "build.rs"
+
+[dependencies]
+rand = "0.3"
+crossbeam = "0.2.9"
+serde = "1.0"
+serde_derive = "1.0"
+
+[build-dependencies]
+cc = "1.0"
+
+[dev-dependencies]
+bincode = "1.0"
+csv = "0.14"
+hyper = "0.7.0"
+serde_json = "1.0"
+time = "0.1"
+
+[features]
+all_tests = []
+bench = []

@@ -1,0 +1,24 @@
+[package]
+name = "termcandy"
+version = "0.1.0"
+authors = ["Andrew Cann <shum@canndrew.org>"]
+edition = "2018"
+documentation = "https://docs.rs/termcandy"
+repository = "https://github.com/canndrew/termcandy"
+license = "LGPL-2.0-only"
+description = "terminal GUI library"
+
+[dependencies]
+futures = "0.1"
+termcandy-macros = { path = "termcandy-macros", version = "0.1.0" }
+tokio = "0.1.17"
+libc = "0.2.50"
+mio = "0.6.16"
+unicode-width = "0.1.5"
+tokio-signal = "0.2.7"
+termion = "1.5.1"
+log = "0.4.6"
+failure = "0.1.5"
+lazy_static = "1.3.0"
+slab = "0.4.2"
+

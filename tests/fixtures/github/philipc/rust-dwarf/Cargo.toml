@@ -1,0 +1,18 @@
+[package]
+name = "dwarf"
+version = "0.0.3"
+authors = ["Philip Craig <philipjcraig@gmail.com>"]
+description = "Read and write DWARF debugging information"
+repository = "https://github.com/philipc/rust-dwarf"
+documentation = "https://philipc.github.io/rust-dwarf/dwarf/index.html"
+keywords = ["DWARF", "ELF"]
+license = "MIT/Apache-2.0"
+
+[dependencies]
+elf = "0.0.9"
+
+[features]
+clippy = []
+
+[profile.bench]
+debug = true

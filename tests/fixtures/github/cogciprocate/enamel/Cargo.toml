@@ -1,0 +1,20 @@
+[package]
+name = "enamel"
+version = "0.3.0"
+authors = ["Nick Sanders <cogciprocate@gmail.com>"]
+description = "A simple OpenGL interface overlay for use with Glium."
+documentation = "https://github.com/cogciprocate/enamel"
+homepage = "https://github.com/cogciprocate/enamel"
+repository = "https://github.com/cogciprocate/enamel"
+readme = "README.md"
+keywords = ["opengl", "interface"]
+license = "MIT"
+exclude = ["target/*", "*.png", "bak/*"]
+
+[dependencies]
+glium = "0.20"
+glium_text_rusttype = "0.3"
+find_folder = "0.3"
+
+[dev-dependencies]
+colorify = "0.1"

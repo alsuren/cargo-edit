@@ -1,0 +1,16 @@
+[package]
+authors = ["Jack Grigg <str4d@i2pmail.org>"]
+description = "BLS signatures"
+documentation = "https://github.com/str4d/bls"
+homepage = "https://github.com/str4d/bls"
+license = "MIT/Apache-2.0"
+name = "bls"
+repository = "https://github.com/str4d/bls"
+version = "0.0.1"
+
+[dependencies]
+rand = "0.3"
+
+[dependencies.pairing]
+git = "https://github.com/mmaker/pairing"
+branch = "feature/hashing"

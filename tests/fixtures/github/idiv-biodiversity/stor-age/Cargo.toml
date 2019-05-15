@@ -1,0 +1,24 @@
+[package]
+name = "stor-age"
+version = "0.1.1"
+authors = ["Christian Krause <christian.krause@mailbox.org>"]
+description = "show aging of directories"
+license = "GPL-3.0-or-later"
+readme = "README.md"
+documentation = "https://github.com/idiv-biodiversity/stor-age"
+homepage = "https://github.com/idiv-biodiversity/stor-age"
+repository = "https://github.com/idiv-biodiversity/stor-age"
+keywords = ["storage", "age"]
+categories = ["command-line-utilities"]
+edition = "2018"
+
+[dependencies]
+atty = "^0.2"
+bytesize = "^1"
+lazy_static = "^1"
+mktemp = "^0.4"
+regex = "^1"
+
+[dependencies.clap]
+version = "^2"
+features = ["wrap_help"]

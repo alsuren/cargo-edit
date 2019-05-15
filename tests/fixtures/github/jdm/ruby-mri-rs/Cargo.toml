@@ -1,0 +1,10 @@
+[package]
+name = "ruby-mri"
+version = "0.1.0"
+authors = ["Josh Matthews <josh@joshmatthews.net>"]
+license = "MIT"
+
+build = "build.rs"
+
+[dependencies]
+libc = "*"

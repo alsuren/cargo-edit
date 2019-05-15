@@ -1,0 +1,23 @@
+[package]
+name = "trait_tests"
+description="A compiler plugin to allow tests to be defined agaist traits."
+version = "0.3.3"
+authors = ["Giles Cope <gilescope@gmail.com>"]
+repository = "https://github.com/gilescope/trait_tests"
+readme="README.md"
+keywords=["testing", "test", "traits"]
+categories=["development-tools::testing"]
+license="MIT"
+
+[lib]
+proc-macro = true
+crate-type = ["proc-macro"]
+
+
+[dependencies]
+syn="0.14"
+quote="0.6"
+proc-macro2={ version="0.4", features = ["nightly"] }  # Nightly feature preserves span information.
+
+[features]
+default=["syn/full"]

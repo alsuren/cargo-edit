@@ -1,0 +1,21 @@
+[package]
+
+name = "hash_ring"
+version = "0.1.7"
+authors = ["Matt McCoy <mattnenterprise@yahoo.com>"]
+documentation = "https://docs.rs/hash_ring"
+repository = "https://github.com/mattnenterprise/rust-hash-ring"
+homepage = "https://github.com/mattnenterprise/rust-hash-ring"
+description = "Consistent Hashing library for Rust"
+readme = "README.md"
+license = "MIT"
+
+keywords = ["consistent-hashing", "hash-ring"]
+categories = ["data-structures"]
+
+[badges]
+travis-ci = { repository = "mattnenterprise/rust-hash-ring" }
+coveralls = { repository = "mattnenterprise/rust-hash-ring", branch = "master", service = "github" }
+
+[dependencies]
+md5 = "0.3.5"

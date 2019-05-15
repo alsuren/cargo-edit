@@ -1,0 +1,20 @@
+[package]
+name = "build_metadata"
+version = "0.1.0"
+authors = ["Geoffroy Couprie <contact@geoffroycouprie.com>"]
+description = "embed repository metadata in your code at compile time"
+license = "MIT"
+repository = "https://github.com/Geal/build-metadata"
+readme = "README.md"
+documentation = "http://docs.rs/build-metadata/"
+keywords = ["build", "git"]
+categories = ["development-tools"]
+
+[lib]
+name = "build_metadata"
+plugin = true
+
+[dependencies]
+git2 = { version = "0.4", default-features = false, features = [] }
+lazy_static = "^0.2"
+time = "^0.1"

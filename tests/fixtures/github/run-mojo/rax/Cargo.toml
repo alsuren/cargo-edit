@@ -1,0 +1,28 @@
+[package]
+name = "rax"
+version = "0.1.5"
+authors = ["Clay Molocznik <clay@mojo.run>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/run-mojo/rax"
+homepage = "https://github.com/run-mojo/rax"
+documentation = "https://docs.rs/rax"
+description = """
+Rust wrapper for the ANSI C Radix Tree "rax" https://github.com/antirez/rax implementation used in Redis
+"""
+build = "build.rs"
+
+[lib]
+name = "rax"
+crate-type = ["dylib", "rlib"]
+
+[[bench]]
+name = "rax"
+path = "benches/bench.rs"
+
+[dependencies]
+libc = "0.2"
+nix = "0.11.0"
+
+[build-dependencies]
+gcc = "0.3"

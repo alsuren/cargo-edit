@@ -1,0 +1,25 @@
+[package]
+name = "atarashii_imap"
+version = "1.0.0"
+authors = ["Alex Maslakov <me@gildedhonour.com>, <gilded.honour@protonmail.com>"]
+license = "Apache-2.0"
+
+repository = "https://github.com/GildedHonour/atarashii_imap"
+homepage = "https://github.com/GildedHonour/atarashii_imap"
+documentation = "https://github.com/GildedHonour/atarashii_imap"
+
+description = "IMAP client written in Rust"
+keywords = ["imap", "email", "mail"]
+readme = "README.md"
+
+[dependencies]
+native-tls = "0.1.4"
+regex = "0.2.1"
+
+[lib]
+name = "atarashii_imap"
+path = "src/lib.rs"
+
+[[bin]]
+name = "atarashii_imap"
+path = "examples/app.rs"

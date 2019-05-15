@@ -1,0 +1,21 @@
+[package]
+name = "hashconsing"
+version = "1.0.0"
+authors = ["Adrien Champion <adrien.champion@email.com>"]
+description = "A hash consing library."
+documentation = "https://docs.rs/hashconsing"
+homepage = "https://github.com/AdrienChampion/hashconsing"
+repository = "https://github.com/AdrienChampion/hashconsing"
+readme = "README.md"
+categories = ["caching", "concurrency", "memory-management", ]
+keywords = ["hashconsing", "hash", "consing", "sharing", "caching"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "AdrienChampion/hashconsing", service = "github" }
+appveyor = { repository = "AdrienChampion/hashconsing" }
+codecov = { repository = "AdrienChampion/hashconsing", service = "github" }
+
+[dependencies]
+lazy_static="1.*"

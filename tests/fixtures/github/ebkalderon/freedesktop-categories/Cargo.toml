@@ -1,0 +1,27 @@
+[package]
+name = "freedesktop-categories"
+version = "0.2.0"
+authors = ["Eyal Kalderon <ebkalderon@gmail.com>"]
+description = "Static hash map of all Freedesktop.org categories"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/ebkalderon/freedesktop-categories"
+repository = "https://github.com/ebkalderon/freedesktop-categories"
+documentation = "https://docs.rs/freedesktop-categories"
+readme = "README.md"
+keywords = ["freedesktop", "menu", "categories"]
+
+[badges]
+circle-ci = { repository = "ebkalderon/freedesktop-categories" }
+maintenance = { status = "passively-maintained" }
+
+[features]
+default = []
+generate-map = ["freedesktop-categories-codegen"]
+
+[dependencies]
+phf = "0.7.24"
+
+[build-dependencies.freedesktop-categories-codegen]
+version = "0.2.0"
+path = "./codegen"
+optional = true

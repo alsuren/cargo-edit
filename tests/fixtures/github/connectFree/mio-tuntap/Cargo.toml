@@ -1,0 +1,7 @@
+[package]
+name = "mio-tuntap"
+version = "0.0.0"
+authors = ["kristopher tate <kt@connectfree.co.jp>"]
+description = "Various TUNTAP bindings that interface with mio"
+
+[dependencies]

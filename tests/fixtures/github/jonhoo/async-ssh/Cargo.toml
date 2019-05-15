@@ -1,0 +1,28 @@
+[package]
+name = "async-ssh"
+version = "0.1.2"
+
+description = "High-level library for asynchronous SSH connections"
+readme = "README.md"
+
+authors = ["Jon Gjengset <jon@thesquareplanet.com>"]
+
+documentation = "https://docs.rs/async-ssh"
+homepage = "https://github.com/jonhoo/async-ssh"
+repository = "https://github.com/jonhoo/async-ssh.git"
+
+keywords = ["ssh", "asynchronous"]
+categories = ["network-programming", "api-bindings"]
+
+license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "jonhoo/async-ssh" }
+maintenance = { status = "experimental" }
+
+[dependencies]
+futures = "0.1"
+thrussh = "0.19"
+tokio-core = "0.1"
+tokio-io = "0.1"
+thrussh-keys = "0.9"

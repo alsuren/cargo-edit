@@ -1,0 +1,47 @@
+[package]
+name = "arangors"
+version = "0.1.2"
+edition = "2018"
+authors = ["Guoli Lyu <guoli-lv@hotmail.com>"]
+readme = "README.md"
+license = "MIT"
+description = "Rust driver for ArangoDB"
+repository = "https://github.com/Guoli-Lyu/arangors"
+documentation = "https://guoli-lyu.github.io/arangors/"
+keywords = ["nosql", "database", "client", "driver", "arangoDB"]
+
+[badges]
+travis-ci = { repository = "Guoli-Lyu/arangors", branch = "master" }
+maintenance = { status = "actively-developed" }
+
+[features]
+default = ["rocksdb"]
+cluster = []
+enterprise = []
+mmfiles = []
+rocksdb = []
+
+[dependencies]
+base64 = "^0.10"
+failure = "^0.1"
+reqwest = "^0.9"
+serde = "^1.0"
+serde_json = "^1.0"
+serde_derive = "^1.0"
+log = "^0.4"
+url = "^1.7"
+
+[dev-dependencies]
+env_logger = "^0.5"
+pretty_assertions = "0.5.1"
+dotenv = "0.13.0"
+regex = "^1.1"
+
+[package.metadata.docs.rs]
+all-features = true
+features = [
+    "cluster",
+    "enterprise",
+    "mmfiles",
+    "rocksdb",
+]

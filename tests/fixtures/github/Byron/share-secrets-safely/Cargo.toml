@@ -1,0 +1,92 @@
+[package]
+authors = ["Sebastian Thiel <byronimo@gmail.com>"]
+name = "sheesy-cli"
+version = "4.0.4"
+
+description = "The 'share-secrets-safely' CLI to interact with GPG/pass-like vaults."
+license = "LGPL-2.1"
+repository = "https://github.com/share-secrets-safely/cli"
+homepage = "https://github.com/share-secrets-safely/cli"
+documentation = "https://share-secrets-safely.github.io/cli"
+keywords = ["gnupg", "pgp", "crypto"]
+readme = "README.md"
+exclude = ["HomebrewFormula", "tests/**", "pkg/**", "lib/**", "etc/**", "doc/**", "bin/**"]
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = true
+debug-assertions = false
+codegen-units = 1
+panic = 'unwind'
+incremental = false
+overflow-checks = true
+
+[badges]
+travis-ci = { repository = "share-secrets-safely/cli" }
+
+[features]
+default = []
+completions = []
+vault = ["sheesy-vault", "conv", "gpgme", "lazy_static"]
+process = ["sheesy-tools/process", "atty", "glob"]
+extract = ["sheesy-tools/process", "atty", "glob"]
+substitute = ["sheesy-tools/substitute", "itertools"]
+
+[[bin]]
+name = "sy"
+path = "src/sy.rs"
+required-features = ["vault", "extract", "completions", "substitute", "process"]
+doctest = false
+doc = false
+
+[[bin]]
+name = "syv"
+path = "src/syv.rs"
+required-features = ["vault"]
+doctest = false
+doc = false
+
+[[bin]]
+name = "syp"
+path = "src/syp.rs"
+required-features = ["process"]
+doctest = false
+doc = false
+
+[[bin]]
+name = "sye"
+path = "src/sye.rs"
+required-features = ["extract"]
+doctest = false
+doc = false
+
+[[bin]]
+name = "sys"
+path = "src/sys.rs"
+required-features = ["substitute"]
+doctest = false
+doc = false
+
+[dependencies]
+clap = "2.31"
+failure = "0.1.1"
+lazy_static = {version = "1.0.0", optional = true}
+atty = {version = "0.2.8", optional = true}
+glob = {version = "0.2.11", optional = true}
+conv = {version = "0.3.3", optional = true}
+gpgme = {version = "0.8.0", optional = true}
+itertools = {version = "0.8.0", optional = true}
+
+[dependencies.sheesy-tools]
+path = "lib/tools"
+version = "4.0.4"
+optional = true
+
+[dependencies.sheesy-vault]
+path = "lib/vault"
+version = "4.0.4"
+optional = true
+
+[workspace]

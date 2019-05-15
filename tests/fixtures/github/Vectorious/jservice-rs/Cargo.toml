@@ -1,0 +1,24 @@
+[package]
+name = "jservice"
+version = "0.1.4"
+authors = ["Brandon King <wektorious@gmail.com>"]
+
+description = "A jService API wrapper."
+
+documentation = "https://vectorious.github.io/jservice-rs/"
+repository = "https://github.com/Vectorious/jservice-rs"
+keywords = ["trivia", "jeopardy"]
+
+readme = "README.md"
+
+license = "Apache-2.0"
+
+[dependencies]
+hyper = "0.9"
+serde = "0.9"
+serde_derive = "0.9"
+serde_json = "0.9"
+
+[dependencies.chrono]
+version = "0.3"
+features = ["serde"]

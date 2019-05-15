@@ -1,0 +1,64 @@
+[package]
+name = "attohttpc"
+version = "0.4.1"
+authors = ["Simon Bernier St-Pierre <git@sbstp.ca>"]
+edition = "2018"
+license = "MPL-2.0"
+
+readme = "README.md"
+description = "Small and lightweight HTTP client"
+documentation = "https://docs.rs/attohttpc"
+homepage = "https://github.com/sbstp/attohttpc"
+repository = "https://github.com/sbstp/attohttpc"
+keywords = ["http", "client", "tls", "http/1.0", "http/1.1"]
+categories = ["network-programming", "web-programming", "web-programming::http-client"]
+
+[dependencies]
+http = "0.1"
+log = "0.4"
+url = "1"
+encoding_rs = { version = "0.8", optional = true }
+libflate = { version = "0.1", optional = true }
+native-tls = { version = "0.2", optional = true }
+serde = { version = "1", optional = true }
+serde_json = { version = "1", optional = true }
+
+[dev-dependencies]
+env_logger = "0.5"
+lazy_static = "1"
+rouille = "3"
+
+[features]
+charsets = ["encoding_rs"]
+compress = ["libflate"]
+tls = ["native-tls"]
+json = ["serde", "serde_json"]
+default = ["compress", "tls"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[[example]]
+name = "cat"
+path = "examples/cat.rs"
+required-features = ["default"]
+
+[[example]]
+name = "imdb"
+path = "examples/imdb.rs"
+required-features = ["tls"]
+
+[[example]]
+name = "nhlapi"
+path = "examples/nhlapi.rs"
+required-features = ["tls"]
+
+[[example]]
+name = "post_json"
+path = "examples/post_json.rs"
+required-features = ["json"]
+
+[[example]]
+name = "post"
+path = "examples/post.rs"
+required-features = ["tls"]

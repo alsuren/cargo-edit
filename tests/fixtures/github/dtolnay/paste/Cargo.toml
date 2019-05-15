@@ -1,0 +1,16 @@
+[package]
+name = "paste"
+version = "0.1.5"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Macros for all your token pasting needs"
+repository = "https://github.com/dtolnay/paste"
+readme = "README.md"
+
+[dependencies]
+paste-impl = { version = "0.1", path = "impl" }
+proc-macro-hack = "0.5"
+
+[workspace]
+members = ["impl"]

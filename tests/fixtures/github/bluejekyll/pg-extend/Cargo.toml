@@ -1,0 +1,13 @@
+[profile.release]
+debug = true
+
+[workspace]
+members = [
+    "pg-extend", 
+    "pg-extern-attr", 
+    "examples/adding", 
+    "examples/panicking",
+    "examples/fdw",
+    "examples/fdw-rw",
+    "integration-tests",
+]

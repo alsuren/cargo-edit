@@ -1,0 +1,42 @@
+[package]
+name = "cpp_codegen"
+version = "0.2.0"
+description = "Generate Code from C++ classes"
+homepage = "https://github.com/jupp0r/cpp-codegen-rs"
+repository = "https://github.com/jupp0r/cpp-codegen-rs"
+readme = "README.md"
+authors = ["Jupp Müller <jupp0r@gmail.com>"]
+license = "MIT"
+
+[features]
+runtime = ["clang/runtime"]
+static = ["clang/static"]
+
+clang_3_5 = ["clang/clang_3_5"]
+clang_3_6 = ["clang/clang_3_6", "gte_clang_3_6"]
+clang_3_7 = ["clang/clang_3_7", "gte_clang_3_6", "gte_clang_3_7"]
+clang_3_8 = ["clang/clang_3_8", "gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8"]
+clang_3_9 = ["clang/clang_3_9", "gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8", "gte_clang_3_9"]
+
+gte_clang_3_6 = []
+gte_clang_3_7 = []
+gte_clang_3_8 = []
+gte_clang_3_9 = []
+
+[dev-dependencies]
+tempdir = "0.3"
+
+
+[dependencies]
+serde = "0.9"
+serde_derive = "0.9"
+serde_json = "0.9"
+clap = "2"
+rand = "0.3"
+log = "0.3"
+env_logger = "0.4"
+clang = "0.14"
+
+[dependencies.handlebars]
+version = "0.25"
+features = ["serde_type"]

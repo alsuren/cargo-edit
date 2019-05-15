@@ -1,0 +1,18 @@
+[package]
+name = "batch-loader"
+version = "0.1.0"
+authors = ["KOBA789 <kobahide789@gmail.com>"]
+description = "The contracts and implementation for query batching."
+license = "MIT"
+license-file = "LICENSE"
+documentation = "https://docs.rs/batch-loader"
+repository = "https://github.com/KOBA789/batch-loader-rs"
+readme = "README.md"
+
+[dependencies]
+itertools = "0.7"
+futures = "0.1"
+crossbeam-channel = "0.1"
+error-chain = "0.11"
+worker-sentinel = "0.3"
+batch-recv = { version = "0.1", features = ["crossbeam"] }

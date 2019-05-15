@@ -1,0 +1,38 @@
+[package]
+name = "apis"
+version = "0.4.3"
+authors = ["Shane Pearman <spearman@github.com>"]
+license = "MPL-2.0"
+description = "Reactive, session-oriented, asynchronous process-calculus framework"
+repository = "https://github.com/spearman/apis"
+readme = "README.md"
+
+[lib]
+name = "apis"
+
+[dependencies]
+colored = "1.*"
+either = "1.*"
+log = "0.4.*"
+marksman_escape = "0.1.*"
+num-traits = "0.2.*"
+smallvec = "0.6.*"
+vec_map = "0.8.*"
+
+# local dependencies
+enum-unitary = "0.3.*"
+macro-machines = "0.8.*"
+unbounded-spsc = "0.1.*"
+
+# dev dependencies
+[dev-dependencies]
+# bump glutin -> 0.18
+glium = { version = "0.23.*", git = "git://github.com/Lycowolf/glium.git" }
+rand = "0.6.*"
+simplelog = "0.5.*"
+unwrap = "1.*"
+
+[features]
+# The reason we do this is because doctests don't get cfg(test) See:
+# https://github.com/rust-lang/rust/issues/45599
+test = []

@@ -1,0 +1,39 @@
+[package]
+name = "bittrex"
+version = "0.5.2"
+authors = [
+  "Razican <razican@protonmail.ch>"
+]
+edition = "2018"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/Razican/bittrex-rs"
+homepage = "https://bittrex.com/"
+documentation = "https://docs.rs/bittrex/"
+description = """\
+Bittrex API bindings for Rust.
+"""
+readme = "README.md"
+keywords = ["bittrex", "bitcoin", "API", "exchange"]
+
+[badges]
+travis-ci = { repository = "Razican/bittrex-rs", branch = "master" }
+codecov = { repository = "Razican/bittrex-rs", branch = "master", service = "github" }
+is-it-maintained-issue-resolution = { repository = "Razican/bittrex-rs" }
+is-it-maintained-open-issues = { repository = "Razican/bittrex-rs" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+lazy_static = "1.2.0"
+reqwest = "0.9.5"
+sha2 = "0.8.0"
+hmac = "0.7.0"
+serde = { version = "1.0.83", features = ["derive"] }
+hex = "0.3.2"
+failure = "0.1.3"
+
+[dependencies.chrono]
+version = "0.4.6"
+features = ["serde"]
+
+[dev-dependencies]
+dotenv = "0.13.0"

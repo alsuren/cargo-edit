@@ -1,0 +1,59 @@
+[package]
+name = "mio_httpc"
+version = "0.8.6"
+authors = ["sergej jurecko <sergej.jurecko@gmail.com>"]
+description = "mio_httpc is a fully async and sync http client running on top of mio only. "
+repository = "https://github.com/SergejJurecko/mio_httpc"
+readme = "README.md"
+keywords = ["mio", "http", "client", "async", "websocket"]
+categories = ["web-programming::http-client"]
+license = "MIT/Apache-2.0"
+documentation = "http://docs.rs/mio_httpc"
+homepage = "https://github.com/SergejJurecko/mio_httpc"
+build = "build.rs"
+edition = "2018"
+
+[features]
+# Default does not work for https.
+default = []
+native = ["native-tls","crypto-hash"]
+rtls = ["webpki-roots", "webpki", "ring","rustls"]
+
+
+[dependencies]
+mio = "0.6"
+httparse = "1"
+byteorder = "1"
+libc = "0.2"
+fxhash = "0.2"
+rand = "0.6"
+itoa = "0.4"
+data-encoding = "2.1"
+failure = "0.1"
+smallvec = "0.6"
+pest = "2"
+pest_derive = "2"
+libflate = "0.1"
+slab = "0.4"
+percent-encoding = "1"
+url = "1"
+md5 = "0.6"
+crypto-hash = {git = "https://github.com/SergejJurecko/crypto-hash", optional = true}
+ring = {version = "^0.14", optional = true}
+webpki = {version = "0.19", optional = true}
+webpki-roots = {version = "0.16", optional = true}
+rustls = { version = "0.15.1", features = ["dangerous_configuration"], optional = true}
+openssl      = { version = "0.10.*", optional = true, features = ["v102", "v110"] }
+# native-tls   = { version = "0.2", optional = true}
+native-tls   = { version = "0.2", optional = true}
+
+
+[target.'cfg(any(target_os = "macos", target_os = "ios"))'.dependencies]
+core-foundation = "0.6"
+core-foundation-sys = "0.6"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+ipconfig = "0.1"
+
+[dev-dependencies]
+matches = "0.1"

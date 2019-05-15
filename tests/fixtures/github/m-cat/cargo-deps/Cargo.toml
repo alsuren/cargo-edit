@@ -1,0 +1,22 @@
+[package]
+authors = [
+    "Marcin S. <marcin.swieczkowski@gmail.com>",
+    "Kevin K. <kbknapp@gmail.com>",
+    "Max New <maxsnew@gmail.com>",
+]
+categories = ["development-tools", "development-tools::cargo-plugins"]
+description = "Cargo subcommand for building dependency graphs of Rust projects."
+exclude = ["*.png"]
+homepage = "https://github.com/m-cat/cargo-deps"
+keywords = ["cargo", "dependencies", "graph", "visualization", "graphviz"]
+license = "MIT"
+name = "cargo-deps"
+readme = "README.md"
+repository = "https://github.com/m-cat/cargo-deps.git"
+version = "1.0.3"
+
+edition = "2018"
+
+[dependencies]
+clap = "2"
+toml = "0.4"

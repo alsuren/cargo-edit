@@ -1,0 +1,37 @@
+[package]
+name = "prom-attire"
+version = "0.1.1"
+authors = ["Wim Looman <wim@nemo157.com>"]
+
+description = "Procedural Macro for Procedural Macros to parse attributes"
+
+repository = "https://github.com/Nemo157/prom-attire-rs"
+
+readme = "README.md"
+keywords = ["proc_macro", "derive", "attributes"]
+categories = ["development-tools::procedural-macro-helpers"]
+
+license = "MIT/Apache-2.0"
+
+build = "build.rs"
+
+[badges]
+travis-ci = { repository = "Nemo157/prom-attire-rs" }
+
+[lib]
+proc-macro = true
+
+[workspace]
+members = ["prom-attire-bootstrap", "prom-attire-impl"]
+
+[dependencies]
+error-chain = "0.8.1"
+syn = "0.11.4"
+prom-attire-bootstrap = { version = "=0.1.1", path = "prom-attire-bootstrap" }
+prom-attire-impl = { version = "=0.1.1", path = "prom-attire-impl" }
+
+[build-dependencies]
+rustc_version = "0.2.2"
+
+[dev-dependencies]
+quote = "0.3.12"

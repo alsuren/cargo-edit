@@ -1,0 +1,22 @@
+[package]
+authors = ["Scott Godwin <sgodwincs@gmail.com>"]
+categories = ["parsing"]
+description = "A URI parser including relative references"
+edition = "2018"
+homepage = "https://github.com/sgodwincs/uriparse-rs"
+license = "MIT"
+name = "uriparse"
+readme = "README.md"
+repository = "https://github.com/sgodwincs/uriparse-rs"
+version = "0.6.1"
+
+[[bench]]
+harness = false
+name = "parse"
+
+[dependencies]
+fnv = "1.0.6"
+lazy_static = "1.3.0"
+
+[dev-dependencies]
+criterion = "0.2.10"

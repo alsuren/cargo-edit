@@ -1,0 +1,22 @@
+[package]
+name = "dcpu16-gui"
+version = "0.2.0"
+authors = ["Gustav Larsson <gustav.m.larsson@gmail.com>"]
+description = "DCPU-16 emulator GUI"
+repository = "https://github.com/gustavla/dcpu16-gui"
+readme = "README.md"
+keywords = ["dcpu16", "gui", "cpu", "emulator", "simulator"]
+license = "MIT"
+
+[dependencies]
+time = "0.1.35"
+image = "0.10.4"
+piston = "0.27.0"
+pistoncore-event_loop = "0.27.0"
+piston2d-graphics = "0.19.0"
+piston2d-opengl_graphics = "0.36.1"
+piston_window = "0.58.0"
+gl = "0.6.1"
+libc = "0.1.8"
+getopts = "0.2.11"
+dcpu16 = "0.3.0"

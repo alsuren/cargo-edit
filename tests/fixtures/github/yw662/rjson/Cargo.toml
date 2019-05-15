@@ -1,0 +1,19 @@
+[package]
+name = "rjson"
+version = "0.3.1"
+authors = ["yw662 <yw662@njit.edu>"]
+edition = "2018"
+description = "A minimal json parser"
+repository = "https://github.com/yw662/rjson"
+readme = "readme.md"
+license = "MIT"
+
+[lib]
+name = "rjson"
+path = "src/lib.rs"
+doctest = false
+
+[profile.release]
+lto = true
+
+[dependencies]

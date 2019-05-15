@@ -1,0 +1,26 @@
+[package]
+name = "density"
+description = "Find the average size of files in a directory"
+
+repository = "https://github.com/Alexendoo/density"
+
+version = "0.5.2"
+authors = ["Alex Macleod <alex@macleod.io>"]
+license = "MIT"
+
+categories = [ "command-line-utilities" ]
+keywords = [
+    "file",
+    "directory",
+    "size"
+]
+
+[[bin]]
+name = "ds"
+path = "src/main.rs"
+
+[badges]
+travis-ci = { repository = "Alexendoo/density" }
+
+[dependencies]
+getopts = "0.2"

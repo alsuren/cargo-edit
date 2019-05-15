@@ -1,0 +1,19 @@
+[package]
+
+name = "chipmunk"
+version = "0.0.2"
+authors = ["TyOverby <ty@pre-alpha.com>"]
+license = "MIT"
+
+repository = "https://github.com/TyOverby/chipmunk"
+description = "Rust bindings to the chipmunk-2d physics engine.  This crate is a work in progress."
+
+[dependencies.chipmunk-sys]
+path = "../chipmunk-sys"
+
+[dependencies]
+void = "*"
+#chipmunk-sys = "*"
+
+[dev-dependencies]
+lux = "*"

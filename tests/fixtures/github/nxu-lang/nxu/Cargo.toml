@@ -1,0 +1,10 @@
+[package]
+name = "nxu"
+version = "0.0.0"
+description = "A little language with big dreams"
+authors = ["James Dyson <theavitex@gmail.com.au>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/nxu-lang/nxu"
+
+[dependencies]

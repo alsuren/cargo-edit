@@ -1,0 +1,42 @@
+[package]
+name = "swerve"
+version = "0.3.0"
+description = "Quick and easy multithreaded file server for local front end development"
+
+authors = ["Louis Capitanchik <contact@louiscap.co>"]
+homepage = "https://github.com/commander-lol/rust-swerve"
+repository = "https://github.com/commander-lol/rust-swerve"
+
+readme = "README.md"
+license = "GPL-3.0+"
+
+categories = ["command-line-utilities", "web-programming::http-server"]
+keywords = ["file-server", "executable"]
+
+exclude = [
+	".travis.yml",
+	"example/*",
+]
+
+[badges]
+travis-ci = { repository = "Commander-lol/rust-swerve", branch = "master" }
+
+[profile.release]
+lto = true
+
+[dependencies]
+
+rocket = "0.3.16"
+rocket_codegen = "0.3.16"
+rocket_contrib = "0.3.16"
+serde = "1"
+serde_derive = "1"
+docopt = "0.8"
+formdata = "0.12.2"
+hyper = "0.10"
+rand = "0.3"
+serde_yaml = "0.7.3"
+rlua = "0.13.0"
+
+[dev-dependencies]
+interpolate_idents = "0.2.4"

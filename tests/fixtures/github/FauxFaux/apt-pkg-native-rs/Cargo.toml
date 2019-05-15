@@ -1,0 +1,32 @@
+[package]
+authors = ["Chris West (Faux) <git@goeswhere.com>"]
+categories = [
+    "api-bindings",
+    "os",
+]
+description = "Bindings for libapt-pkg"
+license = "MIT"
+name = "apt-pkg-native"
+readme = "README.md"
+repository = "https://github.com/FauxFaux/apt-pkg-native-rs"
+version = "0.3.0"
+
+edition = "2018"
+
+[badges.travis-ci]
+repository = "FauxFaux/apt-pkg-native-rs"
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies]
+lazy_static = "1"
+libc = "0.2"
+
+[dev-dependencies]
+boolinator = "2"
+itertools = "0.8"
+
+[features]
+default = []
+ye-olde-apt = []

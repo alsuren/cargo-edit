@@ -1,0 +1,19 @@
+[package]
+name = "dicom_dictionary_parser"
+description = "Library that parses the data dictionary (part 6) of the DICOM standard and provides access to all data elements"
+version = "0.2.0"
+authors = ["Robert Habrich <r.habrich@googlemail.com>"]
+license = "MIT"
+keywords = ["dicom"]
+readme ="README.md"
+homepage = "https://github.com/Blubbz0r/dicom_dictionary_parser"
+repository = "https://github.com/Blubbz0r/dicom_dictionary_parser"
+
+[dependencies]
+
+reqwest = "0.9.2"
+xmltree = "0.8.0"
+
+[badges]
+
+travis-ci = { repository = "Blubbz0r/dicom_dictionary_parser" }

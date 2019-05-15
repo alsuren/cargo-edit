@@ -1,0 +1,29 @@
+# ------------------------------------------------------------------------------
+# Copyright 2019 Uwe Arzt, mail@uwe-arzt.de
+# SPDX-License-Identifier: Apache-2.0
+# ------------------------------------------------------------------------------
+
+[package]
+name = "knx_examples_rs"
+version = "0.0.5"
+edition = "2018"
+authors = ["Uwe Arzt <mail@uwe-arzt.de>"]
+
+description = "Examples for KNX Library"
+
+repository = "https://github.com/uwearzt/knx_examples_rs"
+readme = "README.md"
+
+categories = ["network-programming", "embedded"]
+keywords = ["KNX", "Network"]
+license = "Apache-2.0"
+
+[dependencies]
+#knx_rs = { path="../knx_rs" }
+knx_rs = "0.0.5"
+#knx_ets_rs = { path="../knx_ets_rs" }
+knx_ets_rs = "0.0.5"
+
+serial = "0.4"
+clap = "2.32.0"
+log4rs ="0.8.1"

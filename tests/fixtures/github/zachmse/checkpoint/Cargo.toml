@@ -1,0 +1,23 @@
+[package]
+name = "checkpoint"
+version = "0.1.5"
+authors = ["Zach Miller <25236373+zachmse@users.noreply.github.com>"]
+description = "Provides checkpointing of application data for the Rust Programming Language."
+documentation = "https://docs.rs/checkpoint"
+repository = "https://github.com/zachmse/checkpoint"
+keywords = ["checkpoint", "rollback", "recovery"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
+publish = true
+
+[dependencies]
+bincode = "1.0.0"
+failure = "0.1.1"
+hmac = "0.6.2"
+serde = "1.0.37"
+serde_derive = "1.0.37"
+sha2 = "0.7.0"
+tempfile = "3.0.1"
+
+[features]
+filestorage-tests = []

@@ -1,0 +1,19 @@
+[package]
+name = "simple-stream"
+version = "0.10.1"
+authors = ["Nathan Sizemore <nathanrsizemore@gmail.com>"]
+description = "Provides various building blocks, abstractions, and types for streams."
+readme = "README.md"
+keywords = ["socket", "stream", "non-blocking", "websocket", "ssl"]
+license = "MPL-2.0"
+repository = "https://github.com/nathansizemore/simple-stream"
+documentation = "https://nathansizemore.github.io/simple-stream/simple_stream/index.html"
+
+[lib]
+name = "simple_stream"
+
+[dependencies]
+log = "^0.3"
+libc = "^0.2"
+openssl = "^0.7"
+bitflags = "^0.7"

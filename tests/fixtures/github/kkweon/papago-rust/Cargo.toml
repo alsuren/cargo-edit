@@ -1,0 +1,18 @@
+[package]
+name = "papago"
+version = "0.1.1"
+authors = ["Kyung Mo Kweon <kkweon@gmail.com>"]
+edition = "2018"
+description = "Papago API Wrapper"
+license = "MIT"
+documentation = "https://kkweon.github.io/papago-rust/"
+homepage = "https://github.com/kkweon/papapgo-rust"
+repository = "https://github.com/kkweon/papago-rust"
+keywords = ["papago", "translation"]
+
+[dependencies]
+reqwest = "0.9.5"                # higher level HTTP client library
+serde = "1.0.82"                          # A generic serialization/deserialization framework
+serde_urlencoded = "0.5.4"
+serde_derive = "1.0.82"                   # Macros 1.1 implementation of #[derive(Serialize, Deserialize)]
+clap = "2.32.0"

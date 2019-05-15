@@ -1,0 +1,25 @@
+[package]
+name = "paper"
+version = "0.3.0"
+authors = ["Justin Simerly <jsim2010@gmail.com>"]
+description = "A terminal-based editor with goals to maximize simplicity and efficiency."
+license = "MIT"
+repository = "https://github.com/jsim2010/paper"
+readme = "README.md"
+keywords = ["editor", "mode", "filter"]
+categories = ["command-line-utilities", "text-editors"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+either = "1.5.2"
+jsonrpc-core = "11.0.0"
+lsp_msg = "0.1.0"
+pancurses = { version = "0.16", features = ["win32"] }
+rec = "0.4.0"
+regex = "1.1.6"
+serde = { version = "1.0.90", features = ["derive"] }
+serde_json = "1.0.39"
+try_from = "0.3.2"
+url = "1.1.0"
+version-sync = "0.8.1"

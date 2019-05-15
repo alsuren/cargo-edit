@@ -1,0 +1,36 @@
+[package]
+name = "city-spellcheck"
+version = "0.1.1"
+authors = ["Peter Farr <Peter@PrismaPhonic.com>"]
+edition = "2018"
+license = "MIT"
+description = "city-spellcheck is a library that gives city spelling corrections using a fuzzy search that takes distance from supplied gps coordinates into weighting"
+keywords = ["city", "spellcheck", "fuzzy", "search", "geo"]
+repository = "https://github.com/PrismaPhonic/city-spellcheck"
+documentation = "https://docs.rs/city-spellcheck"
+readme = "README.md"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+]
+
+[badges]
+travis-ci = { repository = "PrismaPhonic/city-spellcheck", branch = "master" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+rayon = "1.0.3"
+distance = "0.4.0"
+serde_derive = "1.0.84"
+serde = "1.0.84"
+lazy_static = "1.1.0"
+redis = "0.9.1"
+sift4 = "0.1.2"
+
+[dev-dependencies]
+criterion = "0.2.7"
+
+[[bench]]
+name = "my_benchmark"
+harness = false

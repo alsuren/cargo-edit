@@ -1,0 +1,19 @@
+[package]
+
+name = "readline-sys"
+version = "0.0.12"
+authors = ["Nicole Mazzuca <npmazzuca@gmail.com>"]
+build = "build.rs"
+
+description = "Declarations for `libreadline` or `libedit`"
+repository = "https://github.com/ubsan/readline-sys"
+readme = "README.md"
+keywords = ["readline", "input"]
+license = "MIT/Apache-2.0"
+
+[lib]
+name = "readline_sys"
+path = "src/lib.rs"
+
+[dependencies]
+libc = "0.2.11"

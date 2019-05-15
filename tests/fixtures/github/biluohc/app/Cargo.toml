@@ -1,0 +1,23 @@
+[package]
+name = "app"
+version = "0.6.5"
+authors = ["biluohc <biluohc@qq.com>"]
+description = "A easy-to-use command-line-parser."
+
+repository = "https://github.com/biluohc/app"
+documentation = "https://docs.rs/app/"
+readme = "readme.md"
+categories = ["command-line-interface"]
+keywords = ["command","argument","parser","command-line","command-line-parser"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "biluohc/app" }
+
+[dependencies]
+quick-error = "^1.2.0"
+term = "^0.5" 
+stderr ="0.8.0"
+# stderr = {path = "../stderr"}
+# stderr = { git = "https://github.com/biluohc/stderr", branch = "master", version = "0.8.0"}
+

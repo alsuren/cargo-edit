@@ -1,0 +1,14 @@
+[package]
+name = "blc"
+version = "0.6.0"
+authors = ["ljedrz <ljedrz@gmail.com>"]
+description = "An implementation of the binary lambda calculus."
+repository = "https://github.com/ljedrz/blc"
+documentation = "https://docs.rs/blc"
+readme = "README.md"
+license = "CC0-1.0"
+keywords = ["lambda", "calculus", "church", "functional", "binary"]
+categories = ["encoding"]
+
+[dependencies]
+lambda_calculus = "^2.0"

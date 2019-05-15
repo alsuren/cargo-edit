@@ -1,0 +1,25 @@
+[package]
+
+name = "vgmdb"
+version = "0.3.1"
+authors = ["Bilal Syed Hussain <bilalshussain@gmail.com>"]
+
+description = "Retag mp3s using vgmdb "
+homepage = "https://github.com/Bilalh/vgmdb-rust"
+repository= "https://github.com/Bilalh/vgmdb-rust"
+license = "Apache-2.0"
+readme = "readme.md"
+
+keywords = ["mp3", "vgmdb", "id3", "id3v2", "music" ]
+
+[dependencies]
+id3 = "0.1.10"
+rustc-serialize = "0.3"
+url = "1.2.0"
+argparse = "0.2.1"
+simple_parallel = "0.2"
+rand = "0.3.14"
+
+
+[profile.dev]
+debug = true   # Controls whether the compiler passes -g or `--cfg ndebug`

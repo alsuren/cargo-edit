@@ -1,0 +1,24 @@
+[package]
+name = "tokio-coap"
+version = "0.2.0"
+authors = ["Patrick Barrett <patrick@psbarrett.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/azdle/tokio-coap"
+description = """
+An implementaion of the Constrained Application Prorocol (CoAP) built on top of
+tokio.
+"""
+
+[dependencies]
+futures = "0.1.19"
+tokio = "0.1.4"
+tokio-io = "0.1.6"
+tokio-dns-unofficial = "0.3.0"
+bytes = "0.4.5"
+arrayvec = "0.4.7"
+log = "0.4.1"
+url = "1.7.0"
+percent-encoding = "1.0.1"
+
+[dev-dependencies]
+pretty_env_logger = "0.2.2"

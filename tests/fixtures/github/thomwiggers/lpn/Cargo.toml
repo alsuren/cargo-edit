@@ -1,0 +1,38 @@
+[package]
+name = "lpn"
+version = "0.1.1"
+description = "Software to study attacks on the Learning Parity with Noise problem"
+repository = "https://github.com/thomwiggers/lpn"
+homepage = "https://thomwiggers.nl/research/msc-thesis/"
+authors = ["Thom Wiggers <thom@thomwiggers.nl>"]
+license = 'MIT'
+edition = '2018'
+
+[dependencies]
+rand = "0.6.0"
+fnv = "1.0"
+itertools = "^0.8"
+rayon = "1.0"
+lazy_static = "1"
+binomial-iter = "0.1"
+num-rational = "0.2"
+num-bigint = "0.2"
+num-traits = "0.2"
+factorial = "0.1"
+time = "0.1"
+m4ri-rust = { version = "*", features = ["serde"] }
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+sha2 = "0.8"
+
+[features]
+default = ['nodebug']
+nodebug = []
+
+[profile.release]
+opt-level = 3
+lto = true
+debug-assertions = false
+#codegen-units = 1
+overflow-checks = false

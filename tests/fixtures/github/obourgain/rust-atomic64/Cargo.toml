@@ -1,0 +1,17 @@
+[package]
+name = "atomic64"
+version = "0.1.1"
+authors = ["olivier bourgain <olivierbourgain02@gmail.com>"]
+license       = "Apache-2.0"
+description   = "Atomic 64-bits types"
+homepage = "https://github.com/obourgain/rust-atomic64"
+repository = "https://github.com/obourgain/rust-atomic64"
+keywords      = ["concurrency", "atomic"]
+readme        = "README.md"
+exclude       = [
+  ".gitignore",
+]
+
+[lib]
+name = "atomic64"
+path = "src/lib.rs"

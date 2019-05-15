@@ -1,0 +1,14 @@
+[package]
+name = "lossyq"
+version = "0.1.19"
+authors = ["David Beck <david.beck.priv@gmail.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/dbeck/lossyq_rs"
+description = "This is a concurrent single publisher, single consumer queue with fixed length, that never blocks the writer."
+keywords = ["spsc", "queue"]
+readme = "README.md"
+homepage = "https://github.com/dbeck/lossyq_rs"
+#documentation = "..."
+
+[dev-dependencies]
+time = "0.1"

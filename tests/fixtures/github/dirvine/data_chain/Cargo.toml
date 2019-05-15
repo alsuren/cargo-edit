@@ -1,0 +1,25 @@
+[package]
+authors = ["David Irvine <david.irvine@maidsafe.net>"]
+description = "Method of recording data securely on decentralised networks"
+license = "GPL-3.0"
+name = "data_chain"
+readme = "README.md"
+repository = "https://github.com/dirvine/data_chain"
+version = "0.1.1"
+
+[dependencies]
+bincode = "~0.6.1"
+fs2 = "0.4.1"
+itertools = "0.5.8"
+log = "~0.3.6"
+maidsafe_utilities = "~0.10.0"
+rayon = "~0.6.0"
+rust_sodium = "~0.1.1"
+rustc-serialize = "~0.3.19"
+tiny-keccak = "~1.1.1"
+
+[dev-dependencies]
+env_logger = "~0.4.0"
+rand = "~0.3.15"
+tempdir = "~0.3.5"
+unwrap = "~1.1.0"

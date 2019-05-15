@@ -1,0 +1,44 @@
+[package]
+name = "borsholder"
+version = "0.9.5"
+authors = ["kennytm <kennytm@gmail.com>"]
+description = "Dashboard of rust-lang/rust's bors queue."
+license = "MIT"
+repository = "https://github.com/kennytm/borsholder"
+keywords = ["bors", "homu"]
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "kennytm/borsholder" }
+is-it-maintained-issue-resolution = { repository = "kennytm/borsholder" }
+is-it-maintained-open-issues = { repository = "kennytm/borsholder" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+env_logger = "0.6"
+failure = "0.1"
+failure_derive = "0.1"
+flate2 = "1.0"
+futures = "0.1"
+hyper = "0.11"
+kuchiki = "0.7"
+lazy_static = "1"
+log = "0.4"
+lru_time_cache = "0.8"
+maplit = "1"
+markup5ever = "0.7"
+mime = "0.3"
+regex = "1.0"
+reqwest = { version = "0.9", features = ["hyper-011"] }
+serde = { version = "1", features = ["rc"] }
+serde_derive = "1"
+serde_json = "1"
+structopt = "0.2"
+structopt-derive = "0.2"
+tendril = "0.4"
+tera = "0.11"
+tokio-core = "0.1"
+
+[[bin]]
+name = "borsholder"

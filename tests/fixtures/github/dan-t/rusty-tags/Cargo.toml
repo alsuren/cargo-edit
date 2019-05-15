@@ -1,0 +1,23 @@
+[package]
+
+name = "rusty-tags"
+version = "3.5.1"
+authors = ["Daniel Trstenjak <daniel.trstenjak@gmail.com>"]
+license = "BSD-3-Clause"
+description = "Create ctags/etags for a cargo project and all of its dependencies"
+repository = "https://github.com/dan-t/rusty-tags"
+readme = "README.md"
+
+[dependencies]
+toml = "0.4.10"
+clap = "2.32.0"
+lazy_static = "1.2.0"
+tempfile = "3.0.6"
+scoped_threadpool = "0.1.9"
+num_cpus = "1.10.0"
+serde = "1.0.87"
+serde_derive = "1.0.87"
+serde_json = "1.0.38"
+fnv = "1.0.6"
+semver = "0.9.0"
+dirs = "1.0.4"

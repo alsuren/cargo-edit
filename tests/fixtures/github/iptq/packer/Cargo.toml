@@ -1,0 +1,26 @@
+[workspace]
+members = [".", "packer_derive"]
+
+[package]
+authors = ["Michael Zhang <iptq@protonmail.com>", "Nathan Ringo <remexre@protonmail.com>"]
+description = "Pack static files into your binary at compile time"
+documentation = "https://docs.rs/packer"
+edition = "2018"
+exclude = ["static/*", "tests/*"]
+license = "MIT"
+name = "packer"
+readme = "README.md"
+repository = "https://github.com/iptq/packer"
+version = "0.4.1"
+
+[features]
+default = ["ignore"]
+always_pack = ["packer_derive/always_pack"]
+ignore = ["packer_derive/ignore"]
+
+[dependencies]
+lazy_static = "1.2"
+packer_derive = { version = "0.4", path = "packer_derive" }
+
+[dev-dependencies]
+sha2 = "0.8"

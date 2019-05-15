@@ -1,0 +1,33 @@
+[package]
+name    = "phonenumber"
+version = "0.2.3+8.10.6"
+
+authors = ["meh. <meh@1aim.com>"]
+license = "Apache-2.0"
+
+description = "Library for parsing, formatting and validating international phone numbers."
+repository  = "https://github.com/1aim/rust-phonenumber"
+keywords    = ["phonenumber", "phone", "number", "parser", "formatter"]
+
+[dependencies]
+regex       = "1.1"
+regex-cache = "0.2"
+lazy_static = "1.2"
+fnv         = "1.0"
+failure     = "0.1"
+quick-xml   = "0.13"
+itertools   = "0.8"
+either      = "1.5"
+nom         = "4.2"
+
+serde        = "1.0"
+serde_derive = "1.0"
+bincode      = "1.0"
+
+[build-dependencies]
+quick-xml    = "0.13"
+failure      = "0.1"
+regex        = "1.1"
+serde        = "1.0"
+serde_derive = "1.0"
+bincode      = "1.0"

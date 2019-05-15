@@ -1,0 +1,40 @@
+[package]
+name = "cntr"
+description = "A container debugging tool based on FUSE"
+version = "1.2.0"
+authors = ["Jörg Thalheim <joerg@thalheim.io>"]
+categories = ["development-tools::debugging", "os::unix-apis"]
+repository = "https://github.com/Mic92/cntr"
+license = "MIT"
+
+[dependencies]
+cpuprofiler = {version = "0.0.3", optional = true}
+argparse = "0.2.*"
+log = "0.3.*"
+time = "0.1"
+tempdir = "0.*"
+num_cpus = "1.*"
+libc = "0.2.*"
+parking_lot = "0.5"
+void = "1"
+cntr-nix = "0.11.0-pre1"
+cntr-fuse = "0.3.6"
+thread-scoped = "1"
+
+[dependencies.concurrent-hashmap]
+version = "0.2.*"
+default-features = false
+
+[[bin]]
+name = "cntr"
+path = "src/bin/main.rs"
+
+[profile.release]
+lto = true
+
+[features]
+default = ["splice_read"]
+verbose_fuse_test_log = []
+splice_read = []
+splice_write = []
+profiling = []

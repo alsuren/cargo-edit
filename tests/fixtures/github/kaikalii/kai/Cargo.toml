@@ -1,0 +1,14 @@
+[package]
+name = "kai"
+version = "0.7.0"
+authors = ["Kai Schmidt <kaikaliischmidt@gmail.com>"]
+edition = "2018"
+description = "My personal prelude and utilities"
+categories = []
+keywords = ["utilities", "utility", "prelude"]
+license = "MIT"
+readme = "readme.md"
+documentation = "https://docs.rs/kai"
+repository = "https://github.com/kaikalii/kai"
+
+[dependencies]

@@ -1,0 +1,25 @@
+[package]
+name = "drug"
+version = "0.0.2"
+authors = ["Casper Neo <casperneo@uchicago.edu>"]
+license = "MIT"
+repository = "https://github.com/CasperN/drug"
+description = "A differentiable computation graph for neural networks."
+readme = "readme.md"
+keywords = ["differentiable", "neural", "network", "compuation", "graph"]
+categories = ["science"]
+exclude = ["examples/data/*", "doc/**/*.html"]
+# publish = false
+
+[dependencies]
+ndarray = { version="0.11.2", features=["serde-1"] }
+rand = "0.5.4"
+debug_stub_derive = "0.3.0"
+serde = "1.0"
+erased-serde = "0.3"
+serde_derive = "1.0"
+
+[dev-dependencies]
+byteorder = "1.2.4"
+itertools = "0.7.8"
+ron = "0.4.0"

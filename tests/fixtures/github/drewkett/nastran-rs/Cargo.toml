@@ -1,0 +1,20 @@
+[package]
+name = "nastran"
+version = "0.0.1"
+authors = ["Andrew Burkett <burkett.andrew@gmail.com>"]
+repository = "https://github.com/drewkett/nastran-rs"
+description = "Rust library for reading NASTRAN files"
+license = "GPL-3.0"
+
+[dependencies]
+memmap = "0.5"
+quick-error = "1.2"
+ascii = "0.8"
+clap = "2.24"
+dtoa = "0.4"
+itertools = "0.6"
+num = "0.1"
+num-traits = "0.1"
+
+[dependencies.nom]
+version = "^3.0"

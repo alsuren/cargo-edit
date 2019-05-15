@@ -1,0 +1,25 @@
+[package]
+name = "rain"
+version = "1.0.1"
+license = "MIT"
+readme = "README.md"
+keywords = ["log", "logger", "vertical", "terminal", "graph"]
+authors = ["Sascha Grunert <mail@saschagrunert.de>"]
+repository = "https://github.com/saschagrunert/rain"
+homepage = "https://github.com/saschagrunert/rain"
+documentation = "https://docs.rs/rain"
+description = "Visualize vertical data inside your terminal."
+categories = ["command-line-utilities"]
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "saschagrunert/rain", branch = "master" }
+
+[dependencies]
+failure = "0.1.2"
+log = "0.4.5"
+mowl = "2.0.0"
+termion = "1.5.1"
+
+[dev-dependencies]
+rand = "0.6.4"

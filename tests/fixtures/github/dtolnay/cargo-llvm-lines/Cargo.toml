@@ -1,0 +1,20 @@
+[package]
+name = "cargo-llvm-lines"
+version = "0.1.6"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Count the number of lines of LLVM IR across all instantiations of a generic function."
+repository = "https://github.com/dtolnay/cargo-llvm-lines"
+documentation = "https://github.com/dtolnay/cargo-llvm-lines"
+categories = ["development-tools::cargo-plugins", "development-tools::debugging"]
+edition = "2018"
+
+[dependencies]
+atty = "0.2"
+rustc-demangle = "0.1"
+tempdir = "0.3"
+structopt = "0.2.10"
+clap = "2.32.0"
+
+[badges]
+travis-ci = { repository = "dtolnay/cargo-llvm-lines" }

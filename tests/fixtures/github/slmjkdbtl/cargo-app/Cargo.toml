@@ -1,0 +1,21 @@
+# wengwengweng
+
+[package]
+name        = "cargo-app"
+description = "cargo subcommand to generate macos .app bundles"
+version     = "0.1.0"
+authors     = ["t <voygagaga@outlook.com>"]
+edition     = "2018"
+license     = "Zlib"
+repository  = "https://github.com/slmjkdbtl/cargo-app/"
+readme      = "README.md"
+
+[dependencies]
+clap         = "~2.32"
+packapp      = "~0.1"
+toml         = "~0.4"
+
+[dependencies.serde]
+version  = "~1.0"
+features = ["derive"]
+

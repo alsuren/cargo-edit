@@ -1,0 +1,18 @@
+[package]
+name = "binary-reader"
+version = "0.2.0"
+authors = ["MPThLee <mpthlee@gmail.com>"]
+description = "A binary reader for rust-lang. for step by step."
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/MPThLee/binary-reader.rs"
+
+publish = true
+
+[badges]
+travis-ci = { repository = "MPThLee/binary-reader.rs" }
+coveralls = { repository = "MPThLee/binary-reader.rs" }
+
+
+[dependencies]
+byteorder = "1.1"

@@ -1,0 +1,36 @@
+[package]
+name = "pikmin"
+version = "0.1.6"
+authors = ["esplo <esplo@users.noreply.github.com>"]
+edition = "2018"
+
+description = "An extensible downloader for obtaining trade data simultaneously from exchanges' API."
+repository = "https://github.com/esplo/pikmin"
+readme = "README.md"
+keywords = ["cryptocurrency", "downloader", "util"]
+categories = ["command-line-utilities"]
+license = "MIT"
+
+exclude = [
+    ".travis.yml",
+]
+
+[dependencies]
+log = "^0.4"
+reqwest = "^0.9"
+serde = "^1.0"
+serde_derive = "^1.0"
+serde_json = "^1.0"
+chrono = { version = "^0.4", features = ["serde"] }
+mysql = { version = "15.0", features = ["ssl"] }
+smallvec = "^0.6.8"
+
+[dev-dependencies]
+env_logger = "^0.6"
+
+[[example]]
+name = "main"
+
+[badges]
+travis-ci = { repository = "esplo/pikmin", branch = "master" }
+codecov = { repository = "esplo/pikmin", branch = "master", service = "github" }

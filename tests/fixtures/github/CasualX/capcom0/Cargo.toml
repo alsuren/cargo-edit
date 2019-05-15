@@ -1,0 +1,39 @@
+[package]
+name = "capcom0"
+version = "0.1.1"
+edition = "2018"
+license = "MIT"
+readme = "readme.md"
+
+authors = ["Casper <CasualX@users.noreply.github.com>"]
+description = "Rust bindings to the infamous Capcom driver."
+
+documentation = "https://docs.rs/capcom0/"
+repository = "https://github.com/CasualX/capcom0"
+
+[profile.release]
+lto = true
+
+[dependencies]
+ntapi = "0.3"
+
+[dependencies.winapi]
+version = "0.3"
+features = [
+	"errhandlingapi",
+	"fileapi",
+	"handleapi",
+	"ioapiset",
+	"memoryapi",
+	"processenv",
+	"securitybaseapi",
+	"shellapi",
+	"winerror",
+	"winnt",
+	"winreg",
+	"winbase",
+]
+
+[dev-dependencies]
+pelite = "0.7"
+obfstr = { version = "0.1", default-features = false }

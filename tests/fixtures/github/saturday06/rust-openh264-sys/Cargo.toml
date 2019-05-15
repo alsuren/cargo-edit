@@ -1,0 +1,33 @@
+[package]
+name = "openh264-sys"
+version = "1.0.3"
+authors = ["Isamu Mogi"]
+build = "build.rs"
+description = "Bindings to OpenH264"
+license = "BSD-2-Clause"
+readme = "README.md"
+repository = "https://github.com/saturday06/rust-openh264-sys"
+
+[features]
+# Download and build openh264 source
+build = []
+
+# Use static library
+static = []
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0"
+cc = "1"
+reqwest = "0.8"
+libflate = "0.1"
+tar = "0.4"
+glob = "0.2"
+pkg-config = "0.3"
+url = "1"
+bzip2 = "0.3"
+
+[badges]
+travis-ci = { repository = "saturday06/rust-openh264-sys" }
+appveyor = { repository = "saturday06/rust-openh264-sys" }

@@ -1,0 +1,17 @@
+[package]
+name = "release"
+version = "0.8.1"
+authors = ["sourcepirate <plasmashadowx@gmail.com>"]
+description = "Clean up your release git workflow"
+repository = "https://github.com/sourcepirate/release"
+readme = "README.md"
+keywords = ["git"]
+license = "MIT"
+
+[dependencies]
+git2 = "0.6.8"
+regex = "0.2.3"
+
+[[bin]]
+name = "release"
+path = "src/main.rs"

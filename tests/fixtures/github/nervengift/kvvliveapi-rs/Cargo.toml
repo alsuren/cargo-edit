@@ -1,0 +1,17 @@
+[package]
+name = "kvvliveapi"
+version = "0.1.0"
+authors = ["Clemens Wallrath <dev@nervengiftlabs.de>"]
+description = "Rust bindings for the Karlsruher Verkehrsverbund live data API"
+repository = "https://github.com/nervengift/kvvliveapi-rs"
+license = "WTFPL"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = { version = "0.4", features = ["serde"] }
+regex = "0.2"
+url = "1.7"
+reqwest = "0.9"

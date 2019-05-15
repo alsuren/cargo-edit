@@ -1,0 +1,17 @@
+[package]
+name = "efw"
+description = "Framework for writing UEFI applications"
+version = "0.2.0"
+authors = ["Richard Wiedenhöft <richard@wiedenhoeft.xyz>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/richard-w/efw"
+
+[lib]
+path = "src/lib.rs"
+test = false
+
+[dependencies]
+late-static = "0.3"
+r-efi = "2.1"
+ucs2 = "0.1"

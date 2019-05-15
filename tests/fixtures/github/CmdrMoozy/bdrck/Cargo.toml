@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "bdrck/",
+    "flaggy/codegen",
+    "flaggy/lib",
+    "flaggy/values",
+]

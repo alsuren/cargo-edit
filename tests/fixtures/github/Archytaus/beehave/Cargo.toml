@@ -1,0 +1,26 @@
+[package]
+name = "beehave"
+description = "A simple library for defining and evaluating a hierarchical state machine (behaviour tree)."
+version = "0.0.4"
+authors = ["Ryan Scott <atthealma@gmail.com>"]
+
+readme = "README.md"
+license = "MIT"
+keywords = ["behaviour", "fsm", "ai", "state", "game"]
+
+homepage = "https://github.com/Archytaus/beehave"
+repository = "https://github.com/Archytaus/beehave"
+documentation = "https://docs.rs/beehave/"
+
+[dev-dependencies]
+rand = "0.3.14"
+
+[lib]
+
+name = "beehave"
+path = "src/lib.rs"
+doctest = false
+bench = false
+
+[[test]]
+name = "tests"

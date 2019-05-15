@@ -1,0 +1,27 @@
+[package]
+name = "geoq"
+version = "0.0.13"
+authors = ["Horace Williams <horace@worace.works>"]
+license = "MIT"
+description = "Geospatial utility CLI"
+homepage = "https://github.com/worace/geoq"
+repository = "https://github.com/worace/geoq"
+documentation = "https://github.com/worace/geoq/blob/master/manual.md"
+
+[dependencies]
+clap = "2.31.2"
+regex = "1.0.0"
+lazy_static = "1.0.1"
+geo = "0.9.1"
+geo-types = "0.1"
+geohash = "0.7.1"
+geoq_wkt = "0.2.0"
+geojson = "0.11.1"
+serde_json = "1.0.22"
+percent-encoding = "1.0.1"
+os_type="1.0.0"
+num_cpus = "1.0"
+reqwest = "0.9.7"
+
+[dev-dependencies]
+assert_cli = "0.6.2"

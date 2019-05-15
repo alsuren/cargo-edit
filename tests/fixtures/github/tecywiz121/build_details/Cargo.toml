@@ -1,0 +1,26 @@
+[package]
+name = "build_details"
+version = "0.1.2"
+authors = ["Sam Wilson <tecywiz121@hotmail.com>"]
+description = "build.rs helper that provides build information at runtime"
+repository = "https://github.com/tecywiz121/build_details"
+license = "MPL-2.0"
+keywords = ["build", "codegen", "profile", "build-dependencies"]
+categories = ["development-tools", "development-tools::build-utils"]
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "tecywiz121/build_status", branch = "master" }
+appveyor = { repository = "tecywiz121/build_status" }
+
+[workspace]
+members = ["test_crate"]
+default-members = ["test_crate"]
+
+[dependencies]
+maplit = "1.0.1"
+phf_codegen = "0.7.22"
+
+[dev-dependencies]
+tempfile = "3.0.3"
+lazy_static = "1.0.0"

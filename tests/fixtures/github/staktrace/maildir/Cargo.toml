@@ -1,0 +1,20 @@
+[package]
+name = "maildir"
+version = "0.1.2"
+authors = ["Kartikaya Gupta <kats@seldon.staktrace.com>"]
+description = "A simple library for maildir manipulation"
+documentation = "https://docs.rs/maildir/"
+homepage = "https://github.com/staktrace/maildir/blob/master/README.md"
+repository = "https://github.com/staktrace/maildir"
+readme = "README.md"
+keywords = ["maildir", "email", "rfc822", "mime"]
+categories = ["email", "filesystem"]
+license = "0BSD"
+exclude = ["target/doc/**", ".gitattributes"]
+
+[badges]
+travis-ci = { repository = "staktrace/maildir", branch = "master" }
+
+[dependencies]
+mailparse = "0.6"
+nix  = "^0.8"

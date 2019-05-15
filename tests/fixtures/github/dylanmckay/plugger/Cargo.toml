@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "plugger",
+  "core",
+  "ruby",
+  "test",
+]
+

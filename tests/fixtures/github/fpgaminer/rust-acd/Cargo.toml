@@ -1,0 +1,22 @@
+[package]
+authors = ["fpgaminer <fpgaminer@bitcoin-mining.com>"]
+description = "Unofficial Amazon Cloud Drive SDK"
+license = "MIT OR Apache-2.0"
+name = "rust-acd"
+repository = "https://github.com/fpgaminer/rust-acd"
+version = "0.1.0"
+
+[dependencies]
+hyper = "^0.8"
+mime = "^0.2"
+multipart = "^0.7"
+rand = "0.3"
+rusqlite = "^0.6"
+rust-crypto = "^0.2"
+rustc-serialize = "^0.3"
+tempdir = "0.3"
+time = "^0.1"
+url = "^0.5"
+
+[lib]
+name = "acd"

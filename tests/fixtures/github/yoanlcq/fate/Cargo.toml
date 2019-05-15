@@ -1,0 +1,20 @@
+# cargo-features = ["profile-overrides"]
+
+[workspace]
+members = [
+    "lab",
+    "dmap",
+    "math",
+    "font",
+    "img",
+    "gx",
+    "mt",
+    "main-loop",
+    "fate",
+    "game",
+]
+
+# [profile.dev.overrides.image]
+# opt-level = 3
+# [profile.dev.overrides.image."*"]
+# opt-level = 3

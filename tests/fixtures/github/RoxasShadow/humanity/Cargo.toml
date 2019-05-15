@@ -1,0 +1,20 @@
+[package]
+name    = "humanity"
+version = "0.1.0"
+
+authors = ["Giovanni Capuano <webmaster@giovannicapuano.net>"]
+license = "WTFPL"
+
+description = "Generate humans.txt from given repository's contributors list."
+repository  = "https://github.com/RoxasShadow/humanity"
+keywords    = ["github"]
+
+[dependencies]
+hyper = "0.9"
+serde = "0.7"
+serde_json   = "0.7"
+serde_macros = "0.7"
+
+[[bin]]
+name = "humanity"
+path = "src/main.rs"

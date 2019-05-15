@@ -1,0 +1,13 @@
+[package]
+name = "baal"
+version = "0.5.1"
+authors = ["thiolliere <guillaume.thiolliere@opmbx.org>"]
+license = "MIT OR Apache-2.0"
+description = "high level audio library"
+documentation = "https://docs.rs/crate/baal"
+repository = "https://github.com/thiolliere/baal"
+readme = "README.md"
+keywords = ["audio","simple","game","basic","sound"]
+
+[dependencies]
+rodio = { git = "https://github.com/tomaka/rodio" }

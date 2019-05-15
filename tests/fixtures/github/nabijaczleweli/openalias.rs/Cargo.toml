@@ -1,0 +1,32 @@
+[package]
+name = "openalias"
+description = "Look up and parse OpenAlias data"
+documentation = "https://rawcdn.githack.com/nabijaczleweli/openalias.rs/doc/openalias/index.html"
+repository = "https://github.com/nabijaczleweli/openalias.rs"
+readme = "README.md"
+keywords = ["cargo", "update", "plugin", "subcommand"]
+categories = ["command-line-utilities", "parser-implementations", "authentication"]
+license = "MIT"
+build = "build.rs"
+# Remember to also update in appveyor.yml
+version = "0.2.0"
+# Remember to also update in openalias.rs.md
+authors = ["nabijaczleweli <nabijaczleweli@gmail.com>"]
+exclude = ["*.enc"]
+
+
+[dependencies]
+resolve = "0.1"
+clap = "2.26"
+crc = "1.5"
+
+[build-dependencies]
+peg = "0.5"
+rustfmt = "0.9"
+embed-resource = "1.1"
+
+
+[[bin]]
+name = "openalias"
+test = false
+doc = false

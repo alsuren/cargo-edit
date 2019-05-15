@@ -1,0 +1,26 @@
+[workspace]
+members = ["openexr-sys"]
+
+[package]
+name = "openexr"
+version = "0.6.0"
+authors = ["Nathan Vegdahl <cessen@cessen.com>"]
+repository = "https://github.com/cessen/openexr-rs"
+documentation = "https://docs.rs/crate/openexr/"
+readme = "README.md"
+license = "MIT"
+description = "Rust bindings for OpenEXR"
+keywords = ["OpenEXR", "exr"]
+
+[dependencies]
+libc = "0.2"
+half = "1"
+clippy = { version = "0.0", optional = true }
+
+[dependencies.openexr-sys]
+path = "openexr-sys"
+version = "0.6.0"
+
+[features]
+unstable = ["clippy"]
+

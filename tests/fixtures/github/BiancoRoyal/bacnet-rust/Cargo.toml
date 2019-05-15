@@ -1,0 +1,18 @@
+[package]
+name = "bacnet"
+version = "0.1.0"
+authors = ["Klaus Landsdorf <klaus.landsdorf@bianco-royal.de>"]
+repository = "https://github.com/BiancoRoyal/bacnet-rust.git"
+license = "MPL-2.0"
+description="A pure Rust library for BACnet."
+keywords = ["bacnet", "fieldbus", "iiot", "opcua", "automation"]
+homepage = "https://bianco-royal.cloud/"
+readme = "README.md"
+
+[dependencies]
+
+[badges]
+travis-ci = { repository = "BiancoRoyal/bacnet-rust" }
+coveralls = { repository = "BiancoRoyal/bacnet-rust", branch = "master", service = "github" }
+is-it-maintained-issue-resolution = { repository = "BiancoRoyal/bacnet-rust" }
+is-it-maintained-open-issues = { repository = "BiancoRoyal/bacnet-rust" }

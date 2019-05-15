@@ -1,0 +1,16 @@
+[package]
+authors = ["Forrest L Norvell <ogd@aoaioxxysz.net>"]
+description = "find the mountpoint (or prefix, on Windows) for a provided path"
+documentation = "https://docs.rs/find_mountpoint"
+homepage = "https://github.com/othiym23/find_mountpoint"
+license = "MIT"
+name = "find_mountpoint"
+repository = "https://github.com/othiym23/find_mountpoint"
+version = "1.0.3"
+
+[target]
+
+[target."cfg(target_os = \"macos\")"]
+
+[target."cfg(target_os = \"macos\")".dependencies]
+libc = "0.2.22"

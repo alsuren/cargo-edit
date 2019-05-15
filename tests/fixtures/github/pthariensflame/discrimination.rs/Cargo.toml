@@ -1,0 +1,19 @@
+[package]
+authors = ["Alexander Ronald Altman <alexanderaltman@me.com>"]
+categories = ["algorithms"]
+description = "Generic worst-case-linear-time sorting and partitioning algorithms based on discriminators"
+documentation = "https://docs.rs/crate/discrimination"
+keywords = ["discriminators", "sorting", "partitioning", "generic", "algorithms"]
+license = "Apache-2.0"
+name = "discrimination"
+readme = "README.md"
+repository = "https://github.com/pthariensflame/discrimination.rs"
+version = "0.0.2"
+
+[dependencies]
+either = "1.0.2"
+parking_lot = "0.3.6"
+
+[lib]
+name = "discrimination"
+path = "src/lib.rs"

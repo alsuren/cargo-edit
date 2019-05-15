@@ -1,0 +1,18 @@
+[package]
+name = "guerrilla"
+version = "0.1.5-alpha.0"
+description = "Guerrilla (or Monkey) Patching in Rust for (unsafe) fun and profit."
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/mehcode/guerrilla"
+documentation = "https://docs.rs/guerrilla"
+authors = ["Ryan Leckey <leckey.ryan@gmail.com>"]
+
+[target.'cfg(any(unix, macos))'.dependencies]
+libc = "0.2.43"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3.6", features = [ "memoryapi" ] }
+
+[dev-dependencies]
+chrono = "0.4.6"

@@ -1,0 +1,13 @@
+[package]
+name = "gdb"
+description = "Library for controlling GDB"
+version = "0.1.0"
+authors = ["Lipka Boldizsár <lipkab@zoho.com>"]
+repository = "https://github.com/lipk/rust-gdb"
+readme = "README.md"
+keywords = ["gdb", "debugger"]
+license = "GPL-3.0"
+
+[dependencies]
+regex = "0.1"
+lazy_static = "0.2.2"

@@ -1,0 +1,37 @@
+[package]
+name = "threema-gateway"
+version = "0.9.1"
+authors = ["Danilo Bargen <mail@dbrgn.ch>"]
+documentation = "https://docs.rs/threema-gateway"
+repository = "https://github.com/dbrgn/threema-gateway-rs"
+license = "MIT OR Apache-2.0"
+description = "A client library for the Threema Gateway."
+readme = "README.md"
+keywords = ["threema", "end-to-end", "e2e", "e2ee", "gateway"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE-MIT",
+    "LICENSE-APACHE",
+]
+edition = "2018"
+
+[features]
+dev = []
+
+[dependencies]
+byteorder = "1.0"
+data-encoding = "2.1"
+log = "0.4"
+mime = "0.3"
+quick-error = "1.1"
+reqwest = "0.9"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sodiumoxide = "0.2.0"
+
+[dev-dependencies]
+docopt = "~1.0"
+mime_guess = "2.0.0-alpha.6"

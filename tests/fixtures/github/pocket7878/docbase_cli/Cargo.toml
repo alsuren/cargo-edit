@@ -1,0 +1,22 @@
+[package]
+name = "docbase_io"
+version = "0.2.1"
+authors = ["Pocket7878 <poketo7878@gmail.com>"]
+description = "Docbase.io client"
+readme = "README.md"
+homepage = "https://github.com/pocket7878/docbase_cli"
+repository = "https://github.com/pocket7878/docbase_cli"
+documentation = "https://pocket7878.github.io/docbase_cli/docbase_io/index.html"
+license = "Apache-2.0"
+
+[[bin]]
+name = "docbase_cli"
+
+[dependencies]
+hyper = "0.11.10"
+reqwest = "0.8.2"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+tempfile = "2.2.0"
+getopts = "0.2.15"

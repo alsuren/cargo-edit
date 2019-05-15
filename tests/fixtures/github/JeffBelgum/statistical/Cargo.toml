@@ -1,0 +1,17 @@
+[package]
+name = "statistical"
+description = "A simple statistics library"
+version = "1.0.0"
+authors = ["Jeff Belgum <jeffbelgum@gmail.com>"]
+
+repository = "https://github.com/JeffBelgum/statistical"
+documentation = "https://jeffbelgum.github.io/statistical/statistical/"
+homepage = "https://github.com/JeffBelgum/statistical"
+
+license = "MIT"
+readme = "README.md"
+keywords = ["statistics", "statistical", "analysis", "math", "algorithm"]
+
+[dependencies]
+rand = "0.6"
+num = "0.2"

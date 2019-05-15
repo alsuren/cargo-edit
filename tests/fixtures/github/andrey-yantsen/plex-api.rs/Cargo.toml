@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "plex-api",
+    "tools-bootstrap-plex",
+]

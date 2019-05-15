@@ -1,0 +1,20 @@
+[package]
+name = "gtfs-rt"
+description = "Read, write, and manipulate GTFS-Realtime data"
+version = "0.1.0"
+authors = ["Erin Moon <erin@hashbang.sh>"]
+license = "MIT AND Apache-2.0"
+repository = "https://github.com/barzamin/gtfs-rt"
+
+edition = "2018"
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]
+bytes = "0.4"
+prost = "0.4"
+prost-derive = "0.4"
+
+[build-dependencies]
+prost-build = "0.4"

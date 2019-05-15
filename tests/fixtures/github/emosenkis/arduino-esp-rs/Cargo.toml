@@ -1,0 +1,7 @@
+[package]
+name = "arduino-esp"
+version = "0.0.2"
+authors = ["Eitan Mosenkis <eitan@mosenkis.net>"]
+description = "[DEPRECATED] See https://github.com/emosenkis/esp-rs for replacement."
+keywords = ["esp8266", "arduino"]
+license = "MIT"

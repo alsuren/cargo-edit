@@ -1,0 +1,29 @@
+[package]
+authors = ["Rikard Anglerud <rikard@anglerud.com>"]
+name = "hootie"
+version = "0.5.0"
+description = """
+Terminal viewer of Alerta alerts.
+"""
+homepage = "https://github.com/anglerud/hootie"
+repository = "https://github.com/anglerud/hootie"
+readme = "README.md"
+keywords = ["alerta", "alerting"]
+categories = ["command-line-interface"]
+license = "GPL-3.0"
+edition = "2018"
+exclude = [
+    "fake_alerta/*"
+]
+
+[badges]
+travis-ci = { repository = "anglerud/hootie" }
+
+[dependencies]
+failure = "0.1.3"
+reqwest = "0.9.5"
+serde = "1.0.80"
+serde_derive = "1.0.80"
+structopt = "0.2.13"
+structopt-derive = "0.2.13"
+termion = "1.5.1"

@@ -1,0 +1,19 @@
+[workspace]
+
+members = [
+    "btree",
+    "diff",
+    "graph",
+    "ojo",
+    "ojo_wasm",
+    "libojo",
+    "multimap",
+    "partition",
+]
+
+# This shouldn't really be here -- it's specific to the ojo_wasm package because
+# we want the wasm to be small. But cargo doesn't support target-dependent
+# profiles or profiles defined within the members.
+#[profile.release]
+#lto = true
+#opt-level = "z"

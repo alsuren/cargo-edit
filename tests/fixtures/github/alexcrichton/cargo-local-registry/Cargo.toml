@@ -1,0 +1,31 @@
+[package]
+name = "cargo-local-registry"
+version = "0.1.6"
+authors = ["Alex Crichton <alex@alexcrichton.com>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["cargo-subcommand"]
+repository = "https://github.com/alexcrichton/cargo-local-registry"
+homepage = "https://github.com/alexcrichton/cargo-local-registry"
+documentation = "http://alexcrichton.com/cargo-local-registry"
+description = """
+A Cago subcommand for managing local registries.
+"""
+edition = "2018"
+
+[dependencies]
+cargo = "0.35.0"
+docopt = "1.1.0"
+env_logger = "0.6.0"
+failure = "0.1.0"
+flate2 = "1.0.0"
+serde = { version = "1.0.91", features = ['derive'] }
+serde_json = "1.0.0"
+tar = "0.4.25"
+openssl = { version = '0.10.22', optional = true }
+
+[dev-dependencies]
+tempfile = "3.0.0"
+
+[features]
+vendored-openssl = ['openssl/vendored']

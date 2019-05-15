@@ -1,0 +1,39 @@
+[package]
+name = "tic"
+version = "0.6.1-alpha.0"
+authors = ["Brian Martin <brayniac@gmail.com>"]
+
+license = "MIT OR Apache-2.0"
+
+description = "a high-performance stats library focused on rates and latencies from timestamped events"
+
+homepage = "https://github.com/brayniac/tic"
+documentation = "https://docs.rs/tic"
+repository = "https://github.com/brayniac/tic"
+
+readme = "README.md"
+
+keywords = ["stats", "metrics", "telemetry", "interval"]
+
+[dependencies]
+allan = "0.2.2"
+clocksource = "0.4.0"
+fnv = "1.0.5"
+getopts = "0.2.14"
+heatmap = "0.6.5"
+histogram = "0.6.6"
+log = "0.3.8"
+mio = "0.6.9"
+mio-extras = "2.0.5"
+mpmc = "0.1.2"
+tiny_http = "0.5.8"
+time = "0.1.37"
+waterfall = "0.7.0"
+
+[dev-dependencies]
+rand = "0.3.16"
+
+[features]
+default = []
+benchmark = []
+rdtsc = ["clocksource/rdtsc"]

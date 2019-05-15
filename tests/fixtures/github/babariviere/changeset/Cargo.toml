@@ -1,0 +1,14 @@
+[package]
+name = "changeset"
+version = "0.1.1"
+authors = ["babariviere <babariviere@protonmail.com>"]
+description = "A small library to generate changeset"
+repository = "https://github.com/babariviere/changeset"
+keywords = [ "changeset" ]
+license = "MIT"
+
+[dependencies]
+
+[features]
+default = [ "std" ]
+std = []

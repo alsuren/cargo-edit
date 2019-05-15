@@ -1,0 +1,23 @@
+[package]
+name = "government_id"
+version = "0.1.0"
+authors = ["Andreev Alexander <andreevlex.as@gmail.com>"]
+
+description = "The checksum values of distinct identifiers of legal entities of the Russian Federation for Rust"
+homepage = "https://github.com/andreevlex/goverment-id"
+repository = "https://github.com/andreevlex/goverment-id"
+keywords = ["nalogru", "taxservice"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+regex = "0.2.2"
+
+[[example]]
+name = "cli-tax-id"
+
+[[example]]
+name = "cli-rrc"
+
+[[example]]
+name = "cli-bic"

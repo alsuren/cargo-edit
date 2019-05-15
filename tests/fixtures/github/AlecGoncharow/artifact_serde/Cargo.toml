@@ -1,0 +1,19 @@
+[package]
+name = "artifact_serde"
+version = "0.3.1"
+authors = ["Alec Goncharow <Alec.Goncharow@gmail.com>"]
+description= "A small library used to deserializing and serializing the Artifact Deck Codes from Valve's DotA Card Game Artifact"
+repository = "https://github.com/AlecGoncharow/artifact_serde"
+license = "MIT"
+edition = "2018"
+categories = ["encoding"]
+
+[badges]
+maintenance = {status = "experimental"}
+
+[dependencies]
+ammonia = "1.2.0"
+base64 = "0.10.0"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"

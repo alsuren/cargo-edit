@@ -1,0 +1,41 @@
+[package]
+name = "bakervm"
+version = "0.9.0"
+authors = ["Julian Laubstein <contact@julianlaubstein.de>"]
+description = "A virtual machine for building and running retro games"
+repository = "https://github.com/bakervm/bakervm"
+homepage = "http://bakervm.org"
+readme = "README.md"
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "bakervm/bakervm" }
+
+[dependencies]
+structopt = "0.2"
+error-chain = "^0.11.0"
+serde_derive = "^1.0.6"
+serde = "^1.0.6"
+rmp-serde = "^0.13.3"
+sdl2 = "^0.31.0"
+rand = "^0.4.2"
+regex = "^0.2.2"
+lazy_static = "1"
+image = "^0.18.0"
+pest = "1"
+pest_derive = "1"
+
+[lib]
+name = "core"
+path = "core/lib.rs"
+doctest = false
+
+[[bin]]
+name = "bakervm"
+path = "bakervm/main.rs"
+doctest = false
+
+[[bin]]
+name = "hudson"
+path = "hudson/main.rs"
+doctest = false

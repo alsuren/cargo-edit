@@ -1,0 +1,37 @@
+[package]
+name = "aries"
+version = "0.1.0"
+authors = ["Jitang Zheng <jitang.zheng@gmail.com>"]
+description = "A web framwork for rust language(ONDER DEVELOPMENT, NOT STABLE)."
+documentation = "https://github.com/itpkg/aries/src/doc"
+homepage = "https://github.com/itpkg/aries"
+repository = "https://github.com/itpkg/aries.git"
+readme = "README.md"
+keywords = ["web", "frameword", "orm", "aries"]
+license = "MIT"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+[dependencies]
+rand = "0.3"
+uuid = {version = "0.2", features = ["v4"]}
+time = "0.1"
+regex = "0.1"
+docopt = "0.6"
+rustc-serialize = "0.3"
+jwt = "0.4"
+toml = "0.2"
+log = "0.3"
+env_logger = "0.3"
+
+hyper = "0.9"
+mustache = {git = "https://github.com/nickel-org/rust-mustache.git"}
+rust-crypto = "0.2"
+
+postgres = "0.11"
+mysql = "6.0"
+
+redis = "0.5"
+memcached-rs = "0.1"

@@ -1,0 +1,21 @@
+[package]
+name = "dalek"
+version = "0.0.0"
+authors = ["Isis Lovecruft <isis@patternsinthevoid.net>",
+           "Henry de Valence <hdevalence@hdevalence.ca>"]
+description = "Meta-crate for dalek crypto packages."
+license = "CC0-1.0"
+repository = "https://github.com/isislovecruft/dalek"
+homepage = "https://code.ciph.re/isis/dalek"
+documentation = "https://docs.rs/dalek"
+categories = ["cryptography", "no-std"]
+keywords = ["cryptography", "curve25519", "elliptic", "curve", "ECC"]
+exclude = [
+    ".gitignore"
+]
+
+[dependencies]
+curve25519-dalek = "^0.9"
+ed25519-dalek = "^0.3"
+dalek-credentials = "^0.0"
+dalek-rangeproofs = "^0.1"

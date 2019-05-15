@@ -1,0 +1,38 @@
+[package]
+
+name = "crtq"
+authors = ["Kyle Mayes <kyle@mayeses.com>"]
+
+version = "0.1.1"
+
+readme = "README.md"
+license = "Apache-2.0"
+
+description = "A MPMC wait-free queue."
+
+documentation = "https://docs.rs/crtq"
+repository = "https://github.com/KyleMayes/crtq"
+
+keywords = ["queue", "unbounded", "mpmc", "lock-free", "wait-free"]
+
+[features]
+
+valgrind = []
+
+[dependencies]
+
+hazard = "0.3.0"
+
+[dev-dependencies]
+
+queuecheck = "0.1.1"
+
+[[test]]
+
+name = "tests"
+harness = false
+
+[[bench]]
+
+name = "benches"
+harness = false

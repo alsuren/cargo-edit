@@ -1,0 +1,24 @@
+[package]
+name        = "cryptouri"
+description = """
+              URN-like namespace for cryptographic objects (keys, signatures,
+              etc) with Bech32 encoding/checksums
+              """
+version     = "0.1.0" # Also update html_root_url in lib.rs when bumping this
+authors     = ["Tony Arcieri <bascule@gmail.com>"]
+license     = "Apache-2.0 OR MIT"
+homepage    = "https://cryptouri.org"
+repository  = "https://github.com/cryptouri/cryptouri.rs/"
+readme      = "README.md"
+edition     = "2018"
+categories  = ["cryptography", "encoding"]
+keywords    = ["bech32", "cryptography", "keys", "security", "uri"]
+
+[badges]
+travis-ci = { repository = "cryptouri/cryptouri.rs" }
+
+[dependencies]
+failure = "0.1"
+generic-array = "0.12"
+subtle-encoding = { version = "0.3", features = ["bech32-preview"] }
+zeroize = "0.5"

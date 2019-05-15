@@ -1,0 +1,17 @@
+[package]
+name = "opensource"
+version = "0.2.0"
+authors = ["Daniele Tricoli <eriol@mornie.org>"]
+license = "BSD-3-Clause"
+description = "API Wrapper for the Open Source License API."
+keywords = ["api", "opensource"]
+repository = "https://github.com/OpenSourceOrg/rust-opensource"
+documentation = "https://docs.rs/crate/opensource"
+readme = "README.md"
+
+[dependencies]
+reqwest = "0.9.*"
+serde = "1.0.*"
+serde_derive = "1.0.*"
+serde_json = "1.0.*"
+url = "1.7.*"

@@ -1,0 +1,6 @@
+[package]
+name = "caspaxos"
+version = "0.1.0"
+authors = ["ZHAO Yijun <recursion@null.net>"]
+
+[dependencies]

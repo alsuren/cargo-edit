@@ -1,0 +1,14 @@
+[package]
+name = "metriqs"
+version = "0.1.6"
+authors = ["Dirk Gadsden <dirk@esherido.com>"]
+description = "Metrics infrastructure framework"
+license = "BSD-3-Clause"
+repository = "https://github.com/dirk/metriqs"
+
+[dependencies]
+string_cache = "0.7.1"
+
+[dependencies.nom]
+version = "3.2.1"
+features = ["verbose-errors"]

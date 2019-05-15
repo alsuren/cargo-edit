@@ -1,0 +1,26 @@
+[package]
+authors = ["Pollen Robotics <contact@pollen-robotics.com>"]
+categories = [
+    "hardware-support",
+    "no-std",
+]
+description = "Mockup HAL API for the STM32 boards"
+keywords = [
+    "embedded",
+    "STM32",
+]
+license = "Apache-2.0"
+name = "mockup_hal"
+repository = "https://github.com/pollen/stm32-mockup-hal"
+version = "0.1.0"
+
+[badges.travis-ci]
+repository = "pollen/stm32-mockup-hal"
+
+[dependencies]
+num = "0.1.40"
+rand = "0.3.17"
+
+[dependencies.clippy]
+optional = true
+version = "*"

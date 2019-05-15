@@ -1,0 +1,23 @@
+[package]
+name          = "os_utils"
+version       = "0.0.1"
+authors       = ["The Ocean Project Developers"]
+license       = "MIT/Apache-2.0"
+readme        = "README.md"
+homepage      = "https://github.com/oceanpkg/os-utils"
+repository    = "https://github.com/oceanpkg/os-utils"
+documentation = "https://docs.rs/os_utils/"
+keywords      = ["os", "util", "version", "info"]
+categories    = ["os"]
+description   = "Utilities for querying information about the host operating system."
+include       = ["Cargo.toml", "src/**/*.rs", "README.md", "CHANGELOG.md", "LICENSE*"]
+
+[dependencies]
+cfg-if = "0.1"
+
+[target.'cfg(target_os="macos")'.dependencies]
+cocoa = "0.18"
+objc = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["minwindef", "sysinfoapi", "winnt"] }

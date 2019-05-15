@@ -1,0 +1,16 @@
+[package]
+name = "xmlJSON"
+version = "0.2.0"
+authors = ["Scott Cooper <scott@sacooper.io>"]
+
+description = "Conversions from XML to JSON"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/sacooper/xmlJSON-rs"
+documentation = "http://sacooper.github.io/xmlJSON-rs/xmlJSON/index.html"
+homepage = "http://sacooper.github.io/xmlJSON-rs/xmlJSON/index.html"
+keywords = ["XML", "JSON", "xml", "json", "conversion"]
+
+[dependencies]
+xml-rs = "0.3.0"
+rustc-serialize = "0.3.16"

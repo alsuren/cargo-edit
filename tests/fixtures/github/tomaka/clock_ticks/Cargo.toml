@@ -1,0 +1,10 @@
+[package]
+
+name = "clock_ticks"
+version = "0.1.1"
+authors = ["Pierre Krieger <pierre.krieger1708@gmail.com>"]
+description = "Contains precise_time_s() and precise_time_ns() without any C code"
+readme = "README.md"
+keywords = ["time", "clock"]
+repository = "https://github.com/tomaka/clock_ticks"
+license = "MIT/Apache-2.0"

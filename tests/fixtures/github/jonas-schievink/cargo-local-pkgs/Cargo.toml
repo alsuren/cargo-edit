@@ -1,0 +1,16 @@
+[package]
+name = "cargo-local-pkgs"
+version = "0.3.2"
+authors = ["Jonas Schievink <jonasschievink@gmail.com>"]
+license = "Apache-2.0/MIT"
+repository = "https://github.com/jonas-schievink/cargo-local-pkgs"
+description = "Run cargo commands on all local packages"
+
+[dependencies]
+log = "0.3"
+env_logger = { version = "0.3", optional = true }
+clap = "2.6"
+serde_json = "0.7"
+
+[features]
+logging = ["env_logger"]

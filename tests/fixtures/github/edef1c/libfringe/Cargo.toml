@@ -1,0 +1,32 @@
+[package]
+authors = ["edef <edef@edef.eu>"]
+name = "fringe"
+description = "safe, lightweight userland context switches"
+version = "1.2.1"
+license = "Apache-2.0/MIT"
+homepage = "https://github.com/edef1c/libfringe"
+repository = "https://github.com/edef1c/libfringe"
+documentation = "https://edef1c.github.io/libfringe"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2.14"
+
+[dependencies.valgrind_request]
+optional = true
+version = "1.0.0"
+
+[target.'cfg(unix)'.dev-dependencies]
+simd = "0.1"
+
+[features]
+default = ["alloc", "valgrind"]
+alloc = []
+valgrind = ["valgrind_request"]
+
+# These apply only to tests within this library; assembly at -O0 is completely
+# unreadable, so use -O1.
+[profile.dev]
+opt-level = 1
+
+[profile.test]
+opt-level = 1

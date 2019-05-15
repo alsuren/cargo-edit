@@ -1,0 +1,25 @@
+[package]
+name = "plotka"
+description = "Plotka lets you easily visualize data in your browser."
+version = "0.1.0"
+authors = ["micouay povierjja <szpontaniczny@gmail.com>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/micouy/plotka"
+readme = "README.md"
+keywords = ["cli", "plot", "chart", "visualization"]
+categories = ["command-line-utilities", "visualization"]
+
+[dependencies]
+serde_json = "^1.0"
+serde = "^1.0"
+csv = "^1.0"
+actix = "^0.7"
+actix-web = "^0.7"
+rand = "^0.6"
+clap = "2.33.0"
+
+pretty_env_logger = "^0.3"
+log = "^0.4"
+pretty_assertions = "^0.5"
+color-backtrace = "^0.1"

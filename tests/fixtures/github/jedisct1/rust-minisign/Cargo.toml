@@ -1,0 +1,19 @@
+[package]
+name = "minisign"
+version = "0.5.5"
+authors = ["Frank Denis <github@pureftpd.org>", "Daniel Rangel <daniel@rangel.in>"]
+description = "A crate to sign files and verify signatures."
+license = "MIT"
+readme = "README.md"
+categories = ["cryptography"]
+keywords = ["command-line", "sign", "publickey", "cryptography", "minisign"]
+repository = "https://github.com/jedisct1/rust-minisign"
+homepage = "https://github.com/jedisct1/rust-minisign"
+
+[dependencies]
+base64 = "0.10"
+getrandom = "0.1.2"
+scrypt = { version = "0.2", default-features = false }
+
+[target.'cfg(any(windows, unix))'.dependencies]
+rpassword = "3.0"

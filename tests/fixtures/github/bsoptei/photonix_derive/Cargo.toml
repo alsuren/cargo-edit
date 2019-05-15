@@ -1,0 +1,20 @@
+[package]
+name = "photonix_derive"
+version = "0.1.1"
+authors = ["bsoptei <bsoptei@gmail.com>"]
+description = "Derive macros for optics traits defined in photonix."
+license = "MIT"
+edition = "2018"
+repository = "https://github.com/bsoptei/photonix_derive"
+
+[dependencies]
+proc-macro2 = "0.4.26"
+quote = "0.6.11"
+
+[dependencies.syn]
+version = "0.15.26"
+features = ["full"]
+
+[lib]
+proc-macro = true
+

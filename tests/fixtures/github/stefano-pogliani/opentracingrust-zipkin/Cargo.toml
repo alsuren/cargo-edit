@@ -1,0 +1,30 @@
+[package]
+name = "opentracingrust_zipkin"
+version = "0.1.2"
+authors = ["Stefano Pogliani <stefano@spogliani.net>"]
+
+description = "Zipkin tracer for OpenTracingRust"
+documentation = "https://docs.rs/opentracingrust_zipkin/"
+homepage = "https://github.com/stefano-pogliani/opentracingrust_zipkin"
+repository = "https://github.com/stefano-pogliani/opentracingrust-zipkin"
+readme = "Readme.md"
+keywords = ["opentracing", "tracing", "zipkin"]
+license = "MIT"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+byteorder = "^1.2.1"
+crossbeam-channel = "^0.1.2"
+data-encoding = "^2.1.1"
+kafka = "^0.7.0"
+opentracingrust = "^0.3.0"
+rand = "^0.4.0"
+serde = "^1.0.27"
+serde_json = "^1.0.9"
+
+# Needed by thrift.
+ordered-float = "^0.5.0"
+thrift = "^0.0.4"
+try_from = "^0.2.0"

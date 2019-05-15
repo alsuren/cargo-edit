@@ -1,0 +1,19 @@
+[package]
+name = "radix-router"
+version = "0.1.3"
+description = "Rust port of httprouter."
+readme = "README.md"
+documentation = "https://docs.rs/radix-router"
+repository = "https://github.com/SunDoge/radix-router"
+license = "BSD-3-Clause"
+authors = ["SunDoge <384813529@qq.com>"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.12"
+futures = "0.1"
+tokio-fs = "0.1"
+tokio-io = "0.1"
+
+[dev-dependencies]
+pretty_env_logger = "0.3"

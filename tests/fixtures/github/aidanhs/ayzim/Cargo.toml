@@ -1,0 +1,43 @@
+[package]
+name = "ayzim"
+version = "0.1.3-pre"
+authors = ["Aidan Hobson Sayers <aidanhs@cantab.net>"]
+description = "A Rust rewrite of the Emscripten asm.js optimizer"
+license = "MIT/NCSA"
+repository = "https://github.com/aidanhs/ayzim/"
+exclude = ["ayzim-macros/**/*"]
+build = "build.rs"
+
+[[bin]]
+name = "ayzim-opt"
+
+[dependencies]
+lazy_static = "0.1.*"
+odds = "0.2.11"
+serde = "0.8"
+serde_json = "0.8"
+string_cache = { version = "0.3.0", features = ["unstable"] }
+smallvec = "0.1.7"
+libc = "0.2.11"
+cfor = "1.1"
+#typed-arena = "1.1"
+conv = "0.3.2"
+vgrs = { version = "0.1", optional = true }
+
+interpolate_idents = "0.1.5"
+ayzim-macros = { path = "ayzim-macros", version = "0.1.1-pre" }
+
+[build-dependencies]
+string_cache_codegen = "0.3.1"
+
+[features]
+profiling = ["vgrs"]
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = true
+debug-assertions = true
+# codegen-units = 1 # (ignored with lto)
+panic = 'abort'

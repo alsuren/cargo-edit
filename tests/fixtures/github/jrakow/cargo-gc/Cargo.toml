@@ -1,0 +1,14 @@
+[package]
+name = "cargo-gc"
+version = "0.0.0"
+authors = ["Julius Rakow <julius@rakow.me>"]
+description = """
+Cleanup outdated build files
+"""
+repository = "https://github.com/jrakow/cargo-gc"
+readme = "README.md"
+keywords = ["cargo", "plugin", "subcommand", "cleanup", "build"]
+categories = ["development-tools", "development-tools::cargo-plugins"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]

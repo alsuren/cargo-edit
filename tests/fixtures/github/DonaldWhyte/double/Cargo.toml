@@ -1,0 +1,22 @@
+[package]
+name = "double"
+version = "0.2.2"
+authors = ["Donald Whyte <donsoft@donsoft.io>"]
+repository = "https://github.com/DonaldWhyte/double"
+homepage = "https://github.com/DonaldWhyte/double"
+documentation = "https://docs.rs/double"
+license = "MIT"
+readme = "README.md"
+keywords = [ "mock", "testing", "double", "matchers", "expectation" ]
+categories= [
+    "development-tools::testing"
+]
+description="Full-featured mocking library in Rust, including rich failure messages and argument matchers"
+build="build.rs"
+
+[build-dependencies]
+maplit = "1.0.1"
+
+[dependencies]
+lazysort = "0.2.0"
+float-cmp = "0.2.5"

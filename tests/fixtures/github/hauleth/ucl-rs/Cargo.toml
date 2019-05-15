@@ -1,0 +1,20 @@
+[package]
+name = "ucl"
+version = "0.1.4"
+description = "Rust bindings to libucl"
+documentation = "http://lukasz.niemier.pl/ucl-rs"
+authors = ["Łukasz Niemier <lukasz@niemier.pl>"]
+license = "MIT"
+repository = "https://github.com/hauleth/ucl-rs"
+
+[features]
+default = []
+unstable = [] # in case of nightly build
+
+[dependencies]
+libc = "*"
+bitflags = "*"
+
+[dependencies.libucl-sys]
+path = "libucl-sys"
+version = "*"

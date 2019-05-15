@@ -1,0 +1,30 @@
+[package]
+name = "cidr"
+# also bump version in html_root_url in src/lib.rs
+version = "0.1.0"
+authors = ["Stefan Bühler <stbuehler@web.de>"]
+description = "IP network and IP host withing network types"
+documentation = "https://docs.rs/cidr"
+homepage = "https://github.com/stbuehler/rust-cidr"
+repository = "https://github.com/stbuehler/rust-cidr"
+categories = ["data-structures","network-programming"]
+keywords = ["cidr", "network"]
+readme = "README.md"
+license = "MIT"
+exclude = ["CHECKLIST.md"]
+
+[badges]
+travis-ci = { repository = "stbuehler/rust-cidr" }
+appveyor = { repository = "stbuehler/rust-cidr" }
+
+[features]
+default = ["serde"]
+
+[dependencies]
+bitstring = "0.1.0"
+serde = { version = "1.0.27", optional = true }
+
+[dev-dependencies]
+serde_test = "1.0.27"
+bincode = "1.0.1"
+version-sync = "0.5"

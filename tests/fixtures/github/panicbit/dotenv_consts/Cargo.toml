@@ -1,0 +1,16 @@
+[package]
+name = "dotenv_consts"
+version = "0.1.1"
+authors = ["panicbit <panicbit.dev@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "A macro that expands dotenv variables to constants"
+repository = "https://github.com/panicbit/dotenv_consts"
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+dotenv = "0.13.0"
+quote = "0.6.12"
+proc-macro2 = "0.4.29"

@@ -1,0 +1,28 @@
+[package]
+name = "build_id"
+version = "0.1.2"
+license = "Apache-2.0"
+authors = ["Alec Mocatta <alec@mocatta.net>"]
+categories = ["development-tools","rust-patterns"]
+keywords = ["build","buildid","uuid"]
+description = """
+Obtain a UUID uniquely representing the build of the current binary.
+"""
+repository = "https://github.com/alecmocatta/build_id"
+homepage = "https://github.com/alecmocatta/build_id"
+documentation = "https://docs.rs/build_id/0.1.2"
+readme = "README.md"
+
+[badges]
+appveyor = { repository = "alecmocatta/build_id" }
+circle-ci = { repository = "alecmocatta/build_id" }
+#gitlab = { repository = "alecmocatta/build_id" }
+travis-ci = { repository = "alecmocatta/build_id" }
+
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+uuid = {version = "0.7", features = ["const_fn"]}
+twox-hash = "1.1"
+byteorder = "1.2"
+proc_self = { version =  "0.1" } #, path = "../proc_self" }

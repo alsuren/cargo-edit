@@ -1,0 +1,14 @@
+[package]
+name = "xcolors"
+description = "A very rudimentary library to access Xresources colours from Rust"
+version = "0.1.0"
+authors = ["Tim Alberdingk Thijm <tim.thijm@gmail.com>"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/alberdingk-thijm/xcolors"
+
+[dependencies]
+x11 = { version = "2.18", features = ["xlib"] }
+libc = "0.2.48"
+scopeguard = "1.0"

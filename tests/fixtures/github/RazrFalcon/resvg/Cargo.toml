@@ -1,0 +1,49 @@
+[package]
+name = "resvg"
+version = "0.6.1"
+authors = ["Evgeniy Reizner <razrfalcon@gmail.com>"]
+keywords = ["svg", "render", "raster"]
+license = "MPL-2.0"
+edition = "2018"
+description = "An SVG rendering library."
+documentation = "https://docs.rs/resvg/"
+repository = "https://github.com/RazrFalcon/resvg"
+readme = "README.md"
+categories = ["multimedia::images"]
+
+[workspace]
+members = [
+    "capi",
+    "tools/rendersvg",
+    "tools/usvg",
+    "examples/cairo-rs",
+    "usvg",
+    "resvg-qt",
+]
+
+[badges]
+travis-ci = { repository = "RazrFalcon/resvg" }
+
+[dependencies]
+log = "0.4"
+rgb = "0.8"
+usvg = { path = "usvg", version = "0.6" }
+
+# cairo backend
+cairo-rs = { version = "0.6", features = ["png"], optional = true }
+gdk-pixbuf = { version = "0.6", optional = true }
+pango = { version = "0.6", optional = true }
+pangocairo = { version = "0.7", optional = true }
+
+# qt backend
+resvg-qt = { path = "resvg-qt", version = "0.6", optional = true }
+
+[features]
+cairo-backend = ["cairo-rs", "gdk-pixbuf", "pango", "pangocairo"]
+qt-backend = ["resvg-qt"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lib]
+doctest = false

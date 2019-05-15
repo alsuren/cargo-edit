@@ -1,0 +1,55 @@
+
+[package]
+name = "oil"
+version = "0.1.0"
+authors = ["Nemikolh <joan.varvenne@gmail.com>", "Vaelden <maugan.villatel@gmail.com>"]
+homepage = "http://oil-lang.github.io/"
+repository = "https://github.com/oil-lang/oil-rs"
+readme = "README.md"
+license = "MIT"
+keywords = ["ui", "opengl", "gamedev"]
+description = "User interface library oriented for games. It includes user interface languages."
+exclude = [
+    ".travis.yml",
+    "examples/*",
+    "docs/*",
+    "mkdocs.yml"
+]
+
+[profile.release]
+opt-level = 3
+debug = true
+rpath = false
+lto = false
+debug-assertions = false
+
+[dependencies]
+bitflags = "0.1"
+phf = "*"
+phf_macros = "*"
+image = "0.3.9"
+cgmath = "0.2.0" # Needs to be the same version than the one used by glium.
+num = "*"
+
+[dependencies.oil_parsers]
+path = "./parsers"
+version = "=0.1.0"
+
+[dependencies.oil_shared]
+path = "./shared"
+version = "=0.1.0"
+
+[dependencies.oil_databindings]
+path = "./data_bindings"
+version= "=0.2.0"
+
+[dependencies.glium]
+version = "=0.4.0"
+features = ["image", "cgmath", "gl_read_buffer", "gl_depth_textures"]
+default-features = false
+
+[dev-dependencies.glutin]
+version = "0.1.4"
+
+[dev-dependencies]
+clock_ticks = "*"

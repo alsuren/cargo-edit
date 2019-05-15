@@ -1,0 +1,25 @@
+[package]
+name = "joseki"
+version = "0.0.1"
+authors = ["Kevin Yap <me@kevinyap.ca>"]
+description = "Go/Baduk engine."
+keywords = ["go", "baduk"]
+homepage = "https://github.com/iKevinY/joseki"
+repository = "https://github.com/iKevinY/joseki"
+readme = "README.md"
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "iKevinY/joseki" }
+
+[[bin]]
+name = "joseki"
+path = "src/main.rs"
+test = false
+doc = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+regex = "0.2"

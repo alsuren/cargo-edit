@@ -1,0 +1,12 @@
+[package]
+name = "arg-soup"
+version = "2.0.0"
+authors = ["matrizx <lazhh@protonmail.com>"]
+edition = "2018"
+description = "A super simple command line parsing tool"
+repository = "https://github.com/matrizx/arg-soup"
+keywords = ["arg", "command", "line", "parse", "argument"]
+categories = ["command-line-interface"]
+license = "Apache-2.0"
+
+[dependencies]

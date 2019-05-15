@@ -1,0 +1,48 @@
+[package]
+name = "fse_dump"
+description = "Dumps the fseventsd entries from a mac"
+
+version = "0.4.3"
+edition = "2018"
+
+authors = ["Adam Lesperance <lespea@gmail.com>"]
+categories = ["os::macos-apis", "command-line-utilities"]
+keywords = ["mac", "fseventsd", "security", "forensics"]
+
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+homepage = "https://github.com/lespea/fse_dump"
+repository = "https://github.com/lespea/fse_dump"
+
+[badges]
+maintenance = { status = "actively-developed" }
+travis-ci = { repository = "lespea/fse_dump" }
+
+[dependencies]
+bus = "2"
+byteorder = "1"
+clap = "2"
+crossbeam = "0"
+crossbeam-channel = "0"
+csv = "1"
+env_logger = "0"
+flate2 = "1.0"
+hashbrown = "0"
+lazy_static = "1"
+log = { version = "0.4", features = ["max_level_debug", "release_max_level_info"] }
+parking_lot = "0"
+serde = { version = "1", features = ["rc"] }
+serde_derive = "1"
+serde_json = "1"
+structopt = "0"
+walkdir = "2"
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+codegen-units = 1
+incremental = false
+lto = true
+

@@ -1,0 +1,8 @@
+[package]
+name = "cmd-pandoc"
+version = "0.2.0"
+authors = ["Felix S. Klock II <pnkfelix@pnkfx.org>"]
+description = "Wrapper around `pandoc` command, for use with tango."
+license = "MIT/Apache-2.0"
+repository = "https://github.com/pnkfelix/cmd-pandoc"
+documentation = "https://github.com/pnkfelix/cmd-pandoc/blob/master/README.md"

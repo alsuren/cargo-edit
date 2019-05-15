@@ -1,0 +1,19 @@
+[package]
+name = "cmdtree"
+version = "0.5.0"
+authors = ["kurt <kurtlawrence92@gmail.com>"]
+description = "(Rust) commands tree"
+license = "MIT"
+homepage = "https://github.com/kurtlawrence/cmdtree"
+repository = "https://github.com/kurtlawrence/cmdtree"
+documentation = "https://docs.rs/cmdtree/"
+readme = "README.md"
+keywords = [ "cli", "command", "tree" ]
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "kurtlawrence/cmdtree" }
+
+[dependencies]
+colored = "1.7"
+linefeed = "0.5"

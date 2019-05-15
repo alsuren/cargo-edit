@@ -1,0 +1,13 @@
+[package]
+name = "zarrebin"
+version = "0.1.1"
+authors = ["Hosein Khansari <hrk.x11@gmail.com>"]
+description = "find files from terminal"
+keywords = ["cli"]
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/hkh12/zarrebin"
+
+[dependencies]
+clap = "2.32"
+colored = "1.6"

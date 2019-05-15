@@ -1,0 +1,19 @@
+[package]
+name = "pow"
+version = "0.1.4"
+authors = ["Andrew Dirksen <andrew@dirksen.com>"]
+description = """
+Generate or verify sha256 based proofs of work over arbitrary typed data.
+"""
+edition = "2018"
+documentation = "https://docs.rs/pow"
+keywords = ["pwset", "powtag", "tag"]
+readme = "readme.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/bddap/pow"
+categories = [] # pr me!
+
+[dependencies]
+sha2 = "0.8.0"
+serde = { version = "1", features = ["derive"] }
+bincode = "1.1.3"

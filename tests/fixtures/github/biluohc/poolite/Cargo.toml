@@ -1,0 +1,24 @@
+[package]
+name = "poolite"
+version = "0.7.1"
+authors = ["biluohc <biluohc@qq.com>"]
+description = "A lite threadpool library."
+repository = "https://github.com/biluohc/poolite"
+documentation = "https://docs.rs/poolite/"
+readme = "readme.md"
+keywords = ["thread","thread-pool","threadpool","scoped"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "biluohc/poolite" }
+
+[dependencies]
+crossbeam-channel = "^0.1.1"
+mxo_env_logger = "^0.1"
+num_cpus = "^1.2.1"
+log = "^0.3.8"
+
+[[test]]
+name ="poolite_test_fibs"
+path="tests/poolite_test_fibs.rs"
+

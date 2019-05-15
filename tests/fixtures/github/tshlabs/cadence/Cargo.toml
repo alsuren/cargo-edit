@@ -1,0 +1,21 @@
+[package]
+name = "cadence"
+version = "0.17.1"
+authors = ["TSH Labs"]
+description = "An extensible Statsd client for Rust"
+homepage = "https://github.com/tshlabs/cadence"
+documentation = "https://docs.rs/cadence/"
+repository = "https://github.com/tshlabs/cadence.git"
+readme = "README.md"
+license = "Apache-2.0/MIT"
+keywords = ["statsd", "metrics"]
+
+[dependencies]
+crossbeam-channel = "0.3.8"
+
+[lib]
+name = "cadence"
+path = "src/lib.rs"
+
+[badges]
+travis-ci = { repository = "tshlabs/cadence" }

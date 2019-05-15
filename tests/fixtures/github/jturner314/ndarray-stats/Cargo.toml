@@ -1,0 +1,36 @@
+[package]
+name = "ndarray-stats"
+version = "0.2.0"
+authors = ["Jim Turner <ndarray-stats@turner.link>", "LukeMathWalker <rust@lpalmieri.com>"]
+edition = "2018"
+
+license = "MIT/Apache-2.0"
+
+repository = "https://github.com/rust-ndarray/ndarray-stats"
+documentation = "https://docs.rs/ndarray-stats/"
+readme = "README.md"
+
+description = "Statistical routines for ArrayBase, the n-dimensional array data structure provided by ndarray."
+
+keywords = ["array", "multidimensional", "statistics", "matrix", "ndarray"]
+categories = ["data-structures", "science"]
+
+[dependencies]
+ndarray = "0.12.1"
+noisy_float = "0.1.8"
+num-integer = "0.1"
+num-traits = "0.2"
+rand = "0.6"
+itertools = { version = "0.8.0", default-features = false }
+indexmap = "1.0"
+
+[dev-dependencies]
+criterion = "0.2"
+quickcheck = { version = "0.8.1", default-features = false }
+ndarray-rand = "0.9"
+approx = "0.3"
+quickcheck_macros = "0.8"
+
+[[bench]]
+name = "sort"
+harness = false

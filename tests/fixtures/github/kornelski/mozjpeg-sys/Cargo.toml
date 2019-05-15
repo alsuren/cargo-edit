@@ -1,0 +1,51 @@
+[package]
+name = "mozjpeg-sys"
+description = "FFI bindings for MozJPEG v3.3.1.\n\nMozJPEG is automatically built and linked statically. Requires nasm and a C compiler."
+categories = [ "external-ffi-bindings", "multimedia::images" ]
+authors = ["Kornel <pornel@pornel.net>"]
+include = ["src/**/*", "vendor/**/*", "Cargo.toml", "README.md"]
+keywords = ["JPEG", "mozjpeg", "libjpeg", "static"]
+readme = "README.md"
+repository = "https://github.com/kornelski/mozjpeg-sys.git"
+homepage = "https://github.com/kornelski/mozjpeg-sys"
+license = "IJG"
+build = "src/build.rs"
+links = "jpeg"
+version = "0.10.1"
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "kornelski/mozjpeg-sys" }
+
+[build-dependencies]
+dunce = "1.0.0"
+
+[build-dependencies.cc]
+features = ["parallel"]
+version = "1.0.29"
+
+[build-dependencies.nasm-rs]
+optional = true
+version = "0.1.4"
+
+[[example]]
+name = "reencode"
+path = "examples/reencode.rs"
+
+[dependencies]
+libc = "0.2.49"
+
+[features]
+default = ["nasm_simd"]
+with_simd = [] # nasm is required for x86, but not ARM
+nasm_simd = ["with_simd", "nasm-rs", "nasm-rs/parallel"]
+unwinding = []
+arith_dec = []
+arith_enc = []
+turbojpeg_api = []
+jpeg70_abi = ["arith_dec", "arith_enc"]
+jpeg80_abi = ["jpeg70_abi"]
+
+[lib]
+name = "mozjpeg_sys"
+crate-type = ["staticlib", "cdylib", "lib"]

@@ -1,0 +1,10 @@
+[package]
+name = "orthoproj"
+version = "0.1.0"
+authors = ["Rory McCann <rory@technomancy.org>"]
+license = "AGPL-3.0"
+repository = "https://github.com/rory/orthoproj-rs"
+description = "Create orthographic projection images"
+keywords = ["gis", "projection"]
+
+[dependencies]

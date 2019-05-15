@@ -1,0 +1,16 @@
+[package]
+name = "cansi"
+description = "Catergorise ANSI - ANSI escape code parser and categoriser"
+version = "1.1.1"
+authors = ["kurt <kurtlawrence92@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/kurtlawrence/cansi"
+repository = "https://github.com/kurtlawrence/cansi"
+documentation = "https://docs.rs/cansi/"
+readme = "README.md"
+keywords = [ "ansi", "parsing", "terminal" ]
+edition = "2018"
+
+[dependencies]
+parse-ansi = "0.1.6"
+colored = "1.7.0"

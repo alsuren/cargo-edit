@@ -1,0 +1,13 @@
+[package]
+name = "sun"
+version = "0.2.0"
+authors = ["Markus Kohlhase <mail@markus-kohlhase.de>"]
+license = "MIT"
+homepage = "https://github.com/flosse/rust-sun"
+repository = "https://github.com/flosse/rust-sun"
+description = "calculate the position of the sun"
+keywords = ["sun", "position"]
+
+[badges]
+travis-ci = { repository = "flosse/rust-sun", branch = "master" }
+appveyor = { repository = "flosse/rust-sun", branch = "master" }

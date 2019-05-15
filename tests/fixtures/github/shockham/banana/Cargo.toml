@@ -1,0 +1,14 @@
+[package]
+name = "banana"
+version = "0.0.2"
+authors = ["shockham <samuel.hockham@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/shockham/banana"
+homepage = "https://github.com/shockham/banana"
+description = "web micro framework"
+
+[dependencies]
+regex = "0.2"
+lazy_static = "0.2.2"
+num_cpus = "1.2.1"

@@ -1,0 +1,35 @@
+[package]
+name = "alert"
+version = "0.0.2"
+authors = ["Eric Kidd <git@randomhacks.net>"]
+
+description = "Run commands and report their results to your phone or desktop"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/faradayio/alert"
+#documentation = "https://docs.rs/alert/"
+#homepage = ""
+
+[features]
+default = ["desktop"]
+# Build desktop notifications.
+desktop = ["notify-rust"]
+
+[dev-dependencies]
+cli_test_dir = "0.1.1"
+
+[dependencies]
+clap = "2.24.1"
+# Enable this by passing `--features "clippy"` to cargo.  Needs nightly Rust.
+clippy = { version = "0.0.*", optional = true }
+colored = "1.5.1"
+error-chain = "0.10.0"
+env_logger = "0.4.2"
+log = "0.3.7"
+notify-rust = { version = "3.3.1", optional = true }
+regex = "0.2.1"
+reqwest = "0.5.2"
+serde = "1.0"
+serde_derive = "1.0"
+shell-escape = "0.1.3"
+toml = "0.4"

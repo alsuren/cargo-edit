@@ -1,0 +1,16 @@
+[package]
+
+name = "RustyEmitter"
+version = "2.2.0"
+authors = ["Cristian Carlesso <@kentaromiura> (http://github.com/kentaromiura)"]
+description = "RustyEmitter is a basic implementation of a simple emitter. The module expose a Events trait with the on, off and emit methods, and a default implementation of that trait, called Emitter."
+homepage = "https://github.com/kentaromiura/RustyEmitter/blob/master/README.md"
+repository = "https://github.com/kentaromiura/RustyEmitter/"
+readme = "README.md"
+keywords = ["emitter"]
+license = "MIT"
+license-file = "LICENSE"
+
+[rust]
+
+version = "1.7.0"

@@ -1,0 +1,23 @@
+[package]
+name = "rrt"
+version = "0.3.0"
+authors = ["Takashi Ogura <t.ogura@gmail.com>"]
+description = "Path finding using dual-RRT connect"
+license = "Apache-2.0"
+keywords = ["search", "path-finding", "rrt", "robotics"]
+categories = ["algorithms"]
+repository = "https://github.com/OTL/rrt"
+documentation = "http://docs.rs/rrt"
+readme = "README.md"
+
+[dependencies]
+kdtree = "0.5.1"
+rand = "0.4"
+log = "0.3.8"
+env_logger = "0.4.3"
+num-traits = "0.2"
+
+[dev-dependencies]
+nalgebra = "0.14"
+ncollide = "0.14.1"
+kiss3d = "0.14"

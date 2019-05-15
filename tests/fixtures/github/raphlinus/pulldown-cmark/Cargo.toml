@@ -1,0 +1,41 @@
+[package]
+name = "pulldown-cmark"
+version = "0.5.1"
+authors = [ "Raph Levien <raph.levien@gmail.com>" ]
+license = "MIT"
+description = "A pull parser for CommonMark"
+repository = "https://github.com/raphlinus/pulldown-cmark"
+keywords = ["markdown", "commonmark"]
+categories = ["text-processing"]
+edition = "2018"
+readme = "README.md"
+
+build = "build.rs"
+
+[[bin]]
+name = "pulldown-cmark"
+required-features = ["getopts"]
+doc = false
+
+[[bench]]
+name = "html_rendering"
+harness = false
+
+[dependencies]
+bitflags = "1.0"
+unicase = "2.4"
+memchr = "2.2"
+getopts = { version = "0.2", optional = true }
+
+[dev-dependencies]
+html5ever = "0.23"
+lazy_static = "1.3"
+regex = "1.1"
+tendril = "0.4"
+criterion = "0.2"
+
+[features]
+default = ["getopts"]
+gen-tests = []
+simd = []
+

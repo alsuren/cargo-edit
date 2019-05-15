@@ -1,0 +1,17 @@
+[package]
+
+name = "augeas"
+version = "0.0.1"
+authors = ["panicbit <panicbit.dev@gmail.com>"]
+description = "High level bindings for augeas"
+license = "MIT"
+keywords = ["augeas", "bindings"]
+repository = "https://github.com/panicbit/rust-augeas"
+
+
+[dependencies]
+libc = "0.2.4"
+
+[dependencies.augeas_sys]
+path = "augeas_sys/"
+version = "0.0.2"

@@ -1,0 +1,15 @@
+[package]
+name = "kahan"
+version = "0.1.3"
+authors = ["Mark Sherry <mdsherry@gmail.com>"]
+description = "Provides types to perform Kahan summation"
+documentation = "https://docs.rs/kahan/0.1.0/kahan/"
+repository = "https://github.com/mdsherry/kahan"
+readme = "README.md"
+keywords = ["sum", "kahan", "numeric"]
+categories = ["algorithms"]
+license = "Apache-2.0"
+
+[dependencies]
+num-traits = "0.1"
+

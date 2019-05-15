@@ -1,0 +1,18 @@
+[package]
+authors = ["Ernestas Poskus <ernestas.poskus@gmail.com>"]
+build = "build.rs"
+description = """
+Top Level domain static hash map, tld list is obtained from of iana.org
+"""
+documentation = "https://docs.rs/tld"
+homepage = "https://github.com/linkosmos/tld"
+license = "BSD-3-Clause"
+name = "tld"
+repository = "https://github.com/linkosmos/tld"
+version = "2.3.0"
+
+[dependencies]
+phf = "0.7.24"
+
+[build-dependencies]
+phf_codegen = "0.7.24"

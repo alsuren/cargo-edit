@@ -1,0 +1,19 @@
+[package]
+name = "binutils"
+version = "0.1.0"
+build = "build.rs"
+authors = ["Guillaume Valadon <guillaume@valadon.net>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/guedou/binutils-rs/"
+description = "A Rust library that ease interacting with the binutils disassembly engine"
+keywords = ["ffi", "binutils", "disassemble", "reverse"]
+categories = ["api-bindings", "external-ffi-bindings"]
+exclude = ["resources/*"]
+
+[dependencies]
+libc = "0.2.40"
+
+[build-dependencies]
+cc = "1.0"
+sha2 = "0.7.1"

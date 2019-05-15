@@ -1,0 +1,38 @@
+[package]
+name = "cargo-sphinx"
+version = "1.2.0"
+authors = ["Ning Sun <sunng@about.me>", "Pascal Hartig <i@passy.me>", "Daithi O Crualaoich <daithi.ocrualaoich@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Cargo subcommand for building and publishing Sphinx documentation to GitHub Pages."
+edition = "2018"
+
+homepage = "https://woofwoofinc.github.io/cargo-sphinx"
+documentation = "https://docs.rs/crate/cargo-sphinx"
+repository = "https://github.com/woofwoofinc/cargo-sphinx"
+readme = "README.md"
+
+keywords = ["cargo", "documentation", "github", "sphinx"]
+
+include = [
+    "src/*",
+    "AUTHORS",
+    "Cargo.lock",
+    "Cargo.toml",
+    "LICENSE-*",
+    "README.md",
+]
+
+[package.metadata.sphinx]
+docs-path = "docs"
+commit-message = "(cargo-sphinx) Generate docs."
+sign-commit = false
+push-remote = "origin"
+push-branch = "gh-pages"
+
+[dependencies]
+toml = "0.5.0"
+failure = "0.1.5"
+failure_derive = "0.1.2"
+clap = "2.33.0"
+cargo = "0.35.0"
+termcolor = "1.0.4"

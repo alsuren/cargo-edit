@@ -1,0 +1,20 @@
+[package]
+name = "ordinal"
+version = "0.2.2"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Formatting of ordinals (1st, 2nd, 3rd etc)"
+repository = "https://github.com/dtolnay/ordinal"
+documentation = "https://docs.rs/ordinal"
+readme = "README.md"
+
+[dependencies]
+num-integer = "0.1"
+
+[dev-dependencies]
+num-bigint = "0.2"
+num-traits = "0.2"
+
+[badges]
+travis-ci = { repository = "dtolnay/ordinal" }

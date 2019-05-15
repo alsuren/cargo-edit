@@ -1,0 +1,34 @@
+[package]
+name = "clj_rub"
+version = "0.0.5-pre"
+authors = ["Jason Ozias <jason.ozias@ipaper.com>"]
+description = "Rust Builder for Clojure"
+documentation = "http://rust-builder.github.io/clj-rub"
+homepage = "http://rust-builder.github.io/clj-rub"
+repository = "https://github.com/rust-builder/clj-rub"
+readme = "README.md"
+license = "MIT"
+keywords = ["clojure","clj_rub","buildable","rub"]
+build = "build.rs"
+
+[build-dependencies]
+time = "*"
+
+[dependencies]
+docopt = "*"
+rustc-serialize = "*"
+
+[dependencies.buildable]
+git = "https://github.com/rust-builder/buildable.git"
+
+[dependencies.commandext]
+git = "https://github.com/rust-builder/commandext.git"
+
+[dependencies.scm]
+git = "https://github.com/rust-builder/scm.git"
+
+[dependencies.utils]
+git = "https://github.com/rust-builder/utils.git"
+
+[lib]
+name = "clj_rub"

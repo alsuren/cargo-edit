@@ -1,0 +1,22 @@
+[package]
+name = "cmail"
+version = "0.3.0"  #:version
+authors = ["Andrew Gallant <jamslam@gmail.com>"]
+description = "Send email with the output of long running commands."
+homepage = "https://github.com/BurntSushi/rust-cmail"
+repository = "https://github.com/BurntSushi/rust-cmail"
+readme = "README.md"
+keywords = ["email", "cli", "command"]
+license = "Unlicense/MIT"
+
+[dependencies]
+crossbeam-channel = "0.2"
+docopt = "1"
+libc = "0.2"
+serde = "1"
+serde_derive = "1"
+signal-hook = "0.1"
+
+[[bin]]
+name = "cmail"
+path = "cmail.rs"

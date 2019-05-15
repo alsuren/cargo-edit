@@ -1,0 +1,44 @@
+[package]
+name = "snatch"
+version = "0.1.1"
+authors = ["Antonin Carette <antonin@derniercri.io", "Jean-Serge Monbailly <jean-serge@derniercri.io>"]
+description = "A simple, fast and interruptable download accelerator"
+
+[lib]
+name = "libsnatch"
+path = "src/lib.rs"
+
+[[bin]]
+name = "snatch"
+path = "src/main.rs"
+
+[dependencies]
+ansi_term = "0.9.0"
+argparse = "0.2.1"
+hyper = "0.9"
+pbr = "1.0.0-alpha.2"
+num_cpus = "1.0"
+
+[profile.dev]
+opt-level = 0
+debug = true
+rpath = false
+lto = false
+debug-assertions = true
+panic = 'unwind'
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = false
+debug-assertions = false
+panic = 'unwind'
+
+[profile.test]
+opt-level = 0
+debug = true
+rpath = false
+lto = false
+debug-assertions = true
+panic = 'unwind'

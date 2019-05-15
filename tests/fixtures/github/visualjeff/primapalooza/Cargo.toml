@@ -1,0 +1,15 @@
+[package]
+name = "primapalooza"
+version = "0.3.4"
+authors = ["visualjeff@linux.com"]
+description = "prime number calculations implemented in rust"
+documentation = "https://github.com/visualjeff/primapalooza"
+homepage = "https://github.com/visualjeff/primapalooza"
+repository = "https://github.com/visualjeff/primapalooza.git"
+readme = "README.md"
+keywords = ["prime", "common", "factor", "gcf", "lcm"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+# rand = "0.3.8"
+num = "0.1.30"

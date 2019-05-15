@@ -1,0 +1,28 @@
+[package]
+name = "piske"
+description = "The piske programming langauge for generative art"
+version = "0.1.0"
+authors = ["Jamie Blondin <jblondin@gmail.com>"]
+build = "build.rs"
+exclude = [ "mandelbrot.png" ]
+repository = "https://github.com/jblondin/piske"
+license = "MIT"
+
+[[bin]]
+name = "piske"
+path = "src/bin/piske.rs"
+
+[build-dependencies]
+wee-peg = "0.5"
+
+[dependencies]
+sindra = "0.1"
+regex = "0.2"
+lazy_static = "0.2"
+wee-rl = "1.0"
+clap = "2.19.0"
+quote = "0.3"
+psk_std = "0.1"
+
+[dev-dependencies]
+tempfile = "2.2.0"

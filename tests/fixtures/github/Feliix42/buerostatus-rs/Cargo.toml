@@ -1,0 +1,16 @@
+[package]
+name = "buerostatus"
+version = "0.1.1"
+authors = ["Felix Wittwer <dev@felixwittwer.de>"]
+
+description = "A Rust crate that wraps the buerostatus API from https://github.com/fsr"
+documentation = "https://feliix42.github.io/buerostatus-rs/"
+homepage = "https://github.com/Feliix42/buerostatus-rs"
+repository = "https://github.com/Feliix42/buerostatus-rs"
+
+readme = "README.md"
+keywords = ["buerostatus", "ifsr", "fsr"]
+license = "MIT"
+
+[dependencies]
+reqwest = "0.3.0"

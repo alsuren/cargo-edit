@@ -1,0 +1,15 @@
+[package]
+name = "cuo"
+version = "0.3.0"
+authors = ["shockham <samuel.hockham@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/shockham/cuo"
+homepage = "https://github.com/shockham/cuo"
+documentation = "https://docs.rs/cuo"
+description = "Automated updating and git commiting of cargo project dependencies"
+
+[dependencies]
+git2 = "0.8"
+cargo = "0.35"
+dirs = "1.0"

@@ -1,0 +1,14 @@
+[package]
+name = "citra-scripting"
+version = "0.1.1"
+authors = ["James <jselby@jselby.net>"]
+description = "A Rust interface to Citra's scripting interface."
+repository = "https://github.com/j-selby/citra-scripting"
+readme = "README.md"
+license = "MIT"
+keywords = ["emulation", "citra", "scripting"]
+
+[dependencies]
+zmq = "0.8.2"
+byteorder = "1"
+rand = "0.5.5"

@@ -1,0 +1,23 @@
+[package]
+name = "galois_2p8"
+description = "Basic Arithmetic over all GF(2^8) fields"
+license = "MIT"
+version = "0.1.1"
+
+authors = ["Daniel Sweet <danieljsweet@icloud.com>"]
+readme = "README.md"
+repository = "https://github.com/djsweet/galois_2p8"
+
+categories = ["algorithms", "science"]
+keywords = ["field", "galois"]
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "0.8.7"
+lazy_static = "1.2.0"
+
+[features]
+# SIMD isn't a default feature because Rust 1.27+ currently only exports
+# x86/_64 ASM. For maximum generality, it'll stay off by default.
+simd = []

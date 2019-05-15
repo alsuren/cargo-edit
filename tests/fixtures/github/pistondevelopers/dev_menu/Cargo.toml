@@ -1,0 +1,18 @@
+[package]
+
+name = "dev_menu"
+version = "0.26.0"
+authors = ["Steve Jahns <s.t.jahns@gmail.com>"]
+keywords = ["menu", "gfx"]
+description = "A simple in-engine developer menu library."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PistonDevelopers/dev_menu"
+homepage = "https://github.com/PistonDevelopers/dev_menu"
+documentation = "http://www.piston.rs/docs/dev_menu/dev_menu/"
+
+[dependencies]
+
+pistoncore-input = "0.24.0"
+gfx = "0.17.0"
+gfx_debug_draw = "0.22.0"

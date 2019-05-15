@@ -1,0 +1,27 @@
+[package]
+name = "pinyin"
+version = "0.6.0"
+authors = ["mozillazg <mozillazg101@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mozillazg/rust-pinyin"
+repository = "https://github.com/mozillazg/rust-pinyin"
+description = "Convert Chinese to pinyin"
+documentation = "https://docs.rs/pinyin/"
+keywords = ["pinyin", "hanzi", "Chinese"]
+exclude = ["pinyin-data/**/*", "src/bin/mk_dict.rs"]
+
+[badges]
+travis-ci = { repository = "mozillazg/rust-pinyin", branch = "master" }
+appveyor = { repository = "mozillazg/rust-pinyin", branch = "master", service = "github" }
+coveralls = { repository = "mozillazg/rust-pinyin", branch = "master" }
+
+[[example]]
+name = "main"
+path = "./examples/main.rs"
+
+[dependencies]
+lazy_static = "1"
+
+[features]
+unstable = []

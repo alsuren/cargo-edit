@@ -1,0 +1,21 @@
+[package]
+name = "rocketchat-hooks"
+version = "0.2.0"
+description = "Post to rocketchat hooks"
+authors = ["kpcyrd <git@rxv.cc>"]
+license = "MIT"
+repository = "https://github.com/kpcyrd/rocketchat-hooks"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "kpcyrd/rocketchat-hooks" }
+
+[dependencies]
+hyper = "0.11"
+hyper-rustls = "0.11"
+futures = "0.1.14"
+tokio-core = "0.1.8"
+error-chain = "0.11"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"

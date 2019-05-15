@@ -1,0 +1,35 @@
+[package]
+name = "raptorq"
+description = "RaptorQ (RFC6330)"
+license = "Apache-2.0"
+repository = "https://github.com/cberner/raptorq"
+version = "0.11.1"
+edition = "2018"
+authors = ["Christopher Berner <christopherberner@gmail.com>"]
+
+[dev-dependencies]
+criterion = "0.2"
+primal = "0.2"
+rand = "0.6"
+
+[[bench]]
+name = "codec_benchmark"
+harness = false
+
+[[bench]]
+name = "matrix_sparsity"
+harness = false
+
+[[bench]]
+name = "encode_benchmark"
+harness = false
+
+[[bench]]
+name = "decode_benchmark"
+harness = false
+
+[profile.release]
+debug = true
+
+[features]
+benchmarking = []

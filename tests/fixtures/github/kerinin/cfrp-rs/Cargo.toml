@@ -1,0 +1,16 @@
+[package]
+name = "cfrp"
+version = "0.0.4"
+authors         = ["Ryan Michael <kerinin@gmail.com>"]
+description     = "Concurrent Functional Reactive Programming for Rust"
+documentation   = "http://kerinin.github.io/cfrp-rs/cfrp/"
+repository      = "https://github.com/kerinin/cfrp-rs"
+readme          = "README.md"
+keywords        = ["FRP", "concurrency", "threading", "gui"]
+license         = "MIT"
+
+[dependencies]
+time = "*"
+log = "*"
+rand = "*"
+env_logger = "*"

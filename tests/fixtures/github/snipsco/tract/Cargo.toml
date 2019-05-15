@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "linalg",
+    "core",
+    "tensorflow",
+    "onnx",
+    "cli",
+    "examples/tensorflow-mobilenet-v2",
+    "harness/lstm-proptest-onnx-vs-tf",
+    "harness/onnx-test-suite",
+    "harness/tf-inceptionv3",
+    "harness/tf-mobilenet-v2",
+    "harness/tf-moz-deepspeech",
+]
+
+[profile.release]
+lto = true
+
+[profile.bench]
+debug = true

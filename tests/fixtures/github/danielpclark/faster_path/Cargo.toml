@@ -1,0 +1,21 @@
+[package]
+name = "faster_path"
+version = "0.0.1"
+authors = ["Daniel P. Clark <6ftdan@gmail.com>"]
+description = "Alternative to Pathname"
+homepage = "https://github.com/danielpclark/faster_path"
+repository = "https://github.com/danielpclark/faster_path"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[package.metadata.thermite]
+github_releases = true
+
+[lib]
+name = "faster_path"
+crate-type = ["dylib"]
+
+[dependencies]
+rutie = "0.3.2"
+lazy_static = "1.0"
+memchr = "2.0.1"

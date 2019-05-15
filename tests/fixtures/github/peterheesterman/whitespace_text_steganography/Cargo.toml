@@ -1,0 +1,15 @@
+[package]
+name = "whitespace_text_steganography"
+version = "0.2.1"
+authors = ["Peter Heesterman <heesterman.peter@gmail.com>"]
+
+description = "A steganography strategy that uses whitespace to hide text in other text"
+repository = "https://github.com/peterheesterman/whitespace_text_steganography"
+readme = "./README.md"
+keywords = ["steganography", "steg", "hiding", "text"]
+categories = ["command-line-interface", "encoding", "text-processing"]
+license = "MIT"
+
+[dependencies]
+
+regex = "1.0.5"

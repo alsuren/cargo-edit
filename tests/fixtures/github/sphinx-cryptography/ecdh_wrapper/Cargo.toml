@@ -1,0 +1,24 @@
+[package]
+name = "ecdh_wrapper"
+version = "0.0.9"
+authors = ["David Stainton <dawuud@riseup.net>"]
+description = "ECDH wrapper library"
+homepage = "https://github.com/sphinx-cryptography/ecdh_wrapper"
+repository = "https://github.com/sphinx-cryptography/ecdh_wrapper"
+documentation = "https://docs.rs/ecdh_wrapper/"
+readme = "README.md"
+keywords = ["cryptography", "ecdh"]
+license = "AGPL-3.0-only"
+
+[dependencies]
+clear_on_drop = "0.2.3"
+rand = "^0.4.2"
+pem = "0.4"
+base64 = "0.10.0"
+
+[dependencies.x25519-dalek]
+version = "^0.4.2"
+
+[dev-dependencies]
+rand = "^0.4.2"
+tempfile = "3.0.4"

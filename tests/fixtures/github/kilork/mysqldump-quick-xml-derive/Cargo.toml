@@ -1,0 +1,22 @@
+[package]
+name = "mysqldump-quick-xml-derive"
+version = "0.1.3"
+authors = ["Alexander Korolev <kilork@yandex.ru>"]
+license = "Unlicense OR MIT"
+description = """
+A derive macro to convert from mysqldump in xml format to struct using quick-xml.
+"""
+readme = "README.md"
+homepage = "https://github.com/kilork/mysqldump-quick-xml-derive"
+repository = "https://github.com/kilork/mysqldump-quick-xml-derive"
+keywords = ["mysql", "mysqldump", "parser", "macros", "derive"]
+categories = ["database", "parsing"]
+edition = "2018"
+
+[dependencies]
+syn = "0.15"
+quote = "0.6"
+proc-macro2 = "0.4"
+
+[lib]
+proc-macro = true

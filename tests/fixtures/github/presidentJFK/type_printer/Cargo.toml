@@ -1,0 +1,7 @@
+[package]
+name = "type_printer"
+version = "0.0.1"
+authors = ["David Begin <davidmichaelbe@gmail.com>"]
+description = "a function for printer the type"
+license = "Unlicense"
+repository = "https://github.com/presidentJFK/type_printer"

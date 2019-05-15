@@ -1,0 +1,15 @@
+[package]
+name = "anybar"
+version = "0.2.0"
+authors = ["Felix Wittwer <dev@felixwittwer.de>"]
+
+description = "A Rust crate to interact with Anybar."
+documentation = "https://feliix42.github.io/anybar-rs/"
+homepage = "https://github.com/Feliix42/anybar-rs"
+repository = "https://github.com/Feliix42/anybar-rs"
+
+readme = "README.md"
+keywords = ["anybar", "osx", "menubar"]
+license = "MIT"
+
+[dependencies]

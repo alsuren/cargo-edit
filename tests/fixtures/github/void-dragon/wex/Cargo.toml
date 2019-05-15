@@ -1,0 +1,16 @@
+[package]
+name = "wex"
+version = "0.1.2"
+authors = ["Arne Simon <arne_simon@gmx.de>"]
+description = "REST API for the WEX market place."
+license = "MIT"
+documentation = "https://docs.rs/wex"
+homepage = "https://github.com/void-dragon/wex"
+repository = "https://github.com/void-dragon/wex"
+
+[dependencies]
+curl = "0.4.14"
+rust-crypto = "0.2.36"
+serde = "1"
+serde_derive = "1"
+serde_json = "1"

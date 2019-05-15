@@ -1,0 +1,17 @@
+[package]
+authors = ["Konstantin Stepanov <me@kstep.me>"]
+build = "build.rs"
+description = "Crontab files parser"
+documentation = "http://kstep.me/cronparse.rs/cronparse/index.html"
+keywords = ["cron", "crontab", "parser"]
+license = "MIT/Apache-2.0"
+name = "cronparse"
+readme = "README.md"
+repository = "https://github.com/kstep/cronparse.rs.git"
+version = "0.5.1"
+
+[build-dependencies]
+skeptic = "0.5.0"
+
+[dev-dependencies]
+skeptic = "0.5.0"

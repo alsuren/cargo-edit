@@ -1,0 +1,18 @@
+[package]
+name = "futures-async-combinators"
+version = "0.2.0"
+authors = ["Roman Proskuryakov <humbug@deeptown.org>"]
+description = "toy futures combinators"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/kpp/futures-async-combinators"
+repository = "https://github.com/kpp/futures-async-combinators"
+keywords = ["async", "await", "futures"]
+edition = "2018"
+
+[dependencies]
+pin-utils = "=0.1.0-alpha.4"
+
+[dependencies.futures]
+version = "=0.3.0-alpha.15"
+package = "futures-preview"

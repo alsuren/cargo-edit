@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "mail",
+    "core",
+    "headers",
+    "internals",
+    "smtp",
+    "template"
+]
+
+
+# [patch.crates-io]
+# mail = { path="./mail" }
+# mail-core = { path="./core" }
+# mail-headers = { path="./headers" }
+# mail-internals = { path="./internals" }
+
+

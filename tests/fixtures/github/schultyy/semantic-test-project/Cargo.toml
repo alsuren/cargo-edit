@@ -1,0 +1,9 @@
+[package]
+name = "semantic-test-project"
+version = "2.0.0"
+license = "MIT"
+authors = ["Jan Schulte"]
+description = "test project"
+repository = "https://github.com/schultyy/semantic-test-project"
+
+[dependencies]

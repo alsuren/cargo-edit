@@ -1,0 +1,6 @@
+[workspace]
+members = [
+	"px4",
+	"px4_macros",
+	"example",
+]

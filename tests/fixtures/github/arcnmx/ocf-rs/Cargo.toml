@@ -1,0 +1,18 @@
+[package]
+name = "ocf"
+version = "0.2.0-alpha.6"
+authors = ["arcnmx"]
+
+description = "Open Container Specification"
+documentation = "http://arcnmx.github.io/ocf-rs/ocf/"
+repository = "https://github.com/arcnmx/ocf-rs"
+readme = "README.md"
+keywords = ["oci", "open", "container", "docker", "runc"]
+license = "MIT"
+
+[dependencies]
+serde = "0.9"
+serde_derive = "0.9"
+serde_json = "0.9"
+serde-value = "0.4"
+semver = "0.6"

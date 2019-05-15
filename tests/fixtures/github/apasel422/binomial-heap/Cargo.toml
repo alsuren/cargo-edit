@@ -1,0 +1,20 @@
+[package]
+name = "binomial-heap"
+version = "0.2.0"
+authors = ["Andrew Paseltiner <apaseltiner@gmail.com>"]
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/apasel422/binomial-heap"
+repository = "https://github.com/apasel422/binomial-heap"
+documentation = "https://docs.rs/binomial-heap/"
+keywords = ["collection", "priority-queue"]
+description = "A priority queue based on a binomial heap."
+
+[features]
+binary_heap_extras = []
+
+[dev-dependencies]
+quickcheck = "0.2"
+
+[lib]
+bench = false
+test = false

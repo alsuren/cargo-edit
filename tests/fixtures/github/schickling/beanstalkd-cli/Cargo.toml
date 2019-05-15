@@ -1,0 +1,18 @@
+[package]
+
+name = "beanstalkd-cli"
+version = "0.4.0"
+authors = ["Johannes Schickling <schickling.j@gmail.com>"]
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/schickling/beanstalkd-cli"
+repository = "https://github.com/schickling/beanstalkd-cli"
+description = "Command line Beanstalkd tool"
+keywords = ["beanstalkd", "cli", "queue", "worker", "ironmq"]
+readme = "README.md"
+
+[dependencies]
+
+beanstalkd = "0.4"
+docopt = "1.0"
+serde = "1.0"
+serde_derive = "1.0"

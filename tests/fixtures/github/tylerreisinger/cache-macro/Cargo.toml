@@ -1,0 +1,35 @@
+[package]
+name = "cache-macro"
+version = "0.4.1"
+authors = ["Tyler Reisinger <reisinger.tyler@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/tylerreisinger/cache-macro"
+homepage = "https://github.com/tylerreisinger/cache-macro"
+readme = "README.md"
+documentation = "https://docs.rs/cache-macro"
+categories = ["caching"]
+keywords = ["lru", "procedural-macro", "cache", "memoization"]
+license = "MIT"
+description = "A procedural macro for automatically caching the output of functions."
+
+[dependencies]
+quote = "0.6"
+lazy_static = "1.2.0"
+
+[dependencies.proc-macro2]
+version = "0.4"
+features = ["nightly"]
+
+[dependencies.syn]
+version = "0.15"
+features = ["full", "extra-traits"]
+
+[dev-dependencies]
+lru-cache = "0.1.1"
+expiring_map = "0.1.0"
+
+[lib]
+proc-macro = true
+
+[badges]
+travis-ci = { repository = "tylerreisinger/cache-macro", branch = "master" }

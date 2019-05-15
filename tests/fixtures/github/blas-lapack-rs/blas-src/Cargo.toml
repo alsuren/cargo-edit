@@ -1,0 +1,37 @@
+[package]
+name = "blas-src"
+version = "0.2.1"
+license = "Apache-2.0/MIT"
+authors = [
+    "Ivan Ukhov <ivan.ukhov@gmail.com>",
+    "Toshiki Teramura <toshiki.teramura@gmail.com>",
+]
+description = "The package provides a BLAS source of choice."
+documentation = "https://docs.rs/blas-src"
+homepage = "https://github.com/blas-lapack-rs/blas-src"
+repository = "https://github.com/blas-lapack-rs/blas-src"
+readme = "README.md"
+categories = ["science"]
+keywords = ["linear-algebra"]
+
+[features]
+accelerate = ["accelerate-src"]
+intel-mkl = ["intel-mkl-src"]
+netlib = ["netlib-src"]
+openblas = ["openblas-src"]
+
+[dependencies.accelerate-src]
+version = "0.3"
+optional = true
+
+[dependencies.intel-mkl-src]
+version = "0.2"
+optional = true
+
+[dependencies.netlib-src]
+version = "0.7"
+optional = true
+
+[dependencies.openblas-src]
+version = "0.6"
+optional = true

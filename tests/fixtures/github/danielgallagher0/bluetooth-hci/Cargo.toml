@@ -1,0 +1,25 @@
+[package]
+edition = "2018"
+name = "bluetooth-hci"
+version = "0.0.4"
+authors = ["Daniel Gallagher <pdanielgallagher@gmail.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Implementation of the Bluetooth HCI"
+keywords = ["ble", "bluetooth"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/danielgallagher0/bluetooth-hci"
+readme = "README.md"
+
+[dependencies]
+nb = "0.1.1"
+bitflags = "1.0"
+
+[dependencies.byteorder]
+version = "1"
+default-features = false
+
+[features]
+default = ["version-4-1"]
+version-4-1 = []
+version-4-2 = []
+version-5-0 = []

@@ -1,0 +1,14 @@
+[package]
+name = "closer"
+version = "0.1.2"
+license = "MIT/Apache-2.0"
+authors = ["Bob <nottxy@gmail.com>"]
+keywords = ["signal"]
+description = "simple signal for closing process"
+homepage = "https://github.com/nottxy/closer"
+repository = "https://github.com/nottxy/closer"
+documentation = "https://docs.rs/closer"
+
+[dependencies]
+nix = "0.9"
+lazy_static = "1.0"

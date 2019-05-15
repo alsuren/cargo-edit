@@ -1,0 +1,14 @@
+[package]
+name = "ssdeep"
+version = "0.2.0"
+authors = ["Petr Zemek <s3rvac@gmail.com>"]
+description = "A Rust wrapper for ssdeep"
+homepage = "https://github.com/s3rvac/ssdeep-rs"
+repository = "https://github.com/s3rvac/ssdeep-rs"
+documentation = "https://docs.rs/ssdeep/"
+keywords = ["ssdeep", "fuzzy", "hash"]
+license = "GPL-3.0+"
+
+[dependencies]
+libc = "0.2.40"
+libfuzzy-sys = { path = "libfuzzy-sys", version = "0.2.0" }

@@ -1,0 +1,23 @@
+[package]
+name = "fast_fmt"
+version = "0.1.3"
+authors = ["Martin Habovštiak <martin.habovstiak@gmail.com>"]
+license = "MITNFA"
+description = "This crate provides faster, more flexible and more correct alternative to core::fmt"
+homepage = "https://github.com/Kixunil/fast_fmt"
+repository = "https://github.com/Kixunil/fast_fmt"
+readme = "README.md"
+keywords = ["fmt", "fast", "formatting", "Display"]
+categories = ["no-std", "rust-patterns", "value-formatting"]
+
+[features]
+default = ["with_std"]
+nightly = []
+with_std = ["void/std"]
+
+[dependencies]
+numtoa = "0.0.7"
+
+[dependencies.void]
+version = "1"
+default-features = false

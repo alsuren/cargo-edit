@@ -1,0 +1,15 @@
+[package]
+name = "network_bridge"
+description = "Library for creating networking bridges"
+repository = "https://github.com/levex/network-bridge-rs"
+keywords = ["linux", "network", "networking", "bridge", "bridges"]
+categories = ["os", "api-bindings", "os::unix-apis", "network-programming"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+version = "0.1.2-alpha.0"
+edition = "2018"
+authors = ["Levente Kurusa <lkurusa@acm.org>"]
+
+[dependencies]
+nix = "0.11.0"
+libc = "0.2.43"

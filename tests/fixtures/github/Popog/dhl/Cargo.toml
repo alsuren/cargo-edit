@@ -1,0 +1,30 @@
+[package]
+name = "dhl"
+version = "0.1.2"
+authors = ["Popog"]
+description = "Dependency Hijacking Library"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/Popog/dhl"
+readme = "README.md"
+keywords = ["dependency", "injection", "build"]
+build = "build.rs"
+
+[features]
+default = ["rustc_version", "handlebars", "reqwest"]
+
+[dependencies]
+rustc_version = { version = "^0.2", optional = true }
+handlebars = { version = "^0.28", optional = true }
+reqwest = { version = "^0.7", optional = true }
+quick-error = "^1.2"
+toml = "^0.4"
+serde_derive = "^1.0"
+serde = "^1.0"
+libflate = "^0.1"
+tar = "^0.4"
+
+[dev-dependencies]
+tempdir = "^0.3"
+dhltest = { path = "dhltest", version = "1.0.0" }
+dhltest-dash = { path = "dhltest-dash", version = "1.0.0"  }
+dhltest_underscore = { path = "dhltest_underscore", version = "1.0.0"  }

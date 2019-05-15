@@ -1,0 +1,29 @@
+[package]
+name = "meta_diff"
+version = "0.0.1"
+authors = ["Alexander Botev <botevmg@gmail.com>"]
+description = "Autodiff tool for developing scalable Machine Learning algorithms across different platforms with a single source file."
+documentation = "http://botev.github.io/meta_diff/index.html"
+homepage = "https://github.com/Botev/meta_diff"
+repository = "https://github.com/Botev/meta_diff"
+readme = "README.md"
+keywords = ["autodiff","machine-learning","deep-learning"]
+license = "GPL-3.0+"
+
+[lib]
+name = "meta_diff"
+path = "src/lib.rs"
+test = true
+doctest = true
+bench = true
+doc = true
+
+[[bin]]
+name = "diff"
+path = "src/main.rs"
+test = false
+
+[dependencies]
+docopt = "*"
+rustc-serialize = "*"
+tempdir = "0.3.4"

@@ -1,0 +1,45 @@
+[package]
+authors = ["Danilo Bargen <mail@dbrgn.ch>"]
+description = "Fetch and show tldr help pages for many CLI commands. Full featured offline client with caching support."
+homepage = "https://github.com/dbrgn/tealdeer/"
+license = "MIT/Apache-2.0"
+name = "tealdeer"
+readme = "README.md"
+repository = "https://github.com/dbrgn/tealdeer/"
+version = "1.1.0"
+include = ["/src/**/*", "/tests/**/*", "/Cargo.toml", "/README.md", "/LICENSE-*", "/screenshot.png", "/bash_tealdeer"]
+edition = "2018"
+
+[[bin]]
+name = "tldr"
+path = "src/main.rs"
+
+[dependencies]
+ansi_term = "0.11.0"
+app_dirs = "1.2.1"
+clippy = { version = "0.0.174", optional = true }
+docopt = "0.8.1"
+env_logger = { version = "0.5", optional = true }
+flate2 = "1.0"
+log = "0.4"
+pager = "0.15"
+reqwest = "0.9.5"
+serde = "1.0.21"
+serde_derive = "1.0.21"
+tar = "0.4.14"
+toml = "0.4.6"
+walkdir = "2.0.1"
+xdg = "2.1.0"
+
+[dev-dependencies]
+assert_cmd = "0.10"
+escargot = "0.3"
+predicates = "1.0"
+tempdir = "^0.3"
+utime = "0.2.0"
+
+[features]
+logging = ["env_logger"]
+
+[profile.release]
+lto = true

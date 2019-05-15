@@ -1,0 +1,30 @@
+[package]
+name = "process_viewer"
+version = "0.2.3"
+authors = ["Guillaume Gomez <guillaume1.gomez@gmail.com>"]
+
+description = "A process viewer GUI"
+repository = "https://github.com/GuillaumeGomez/process-viewer"
+license = "MIT"
+homepage = "https://github.com/GuillaumeGomez/process-viewer"
+
+readme = "README.md"
+
+keywords = ["GUI", "process", "viewer", "gtk"]
+
+[dependencies]
+cairo-rs = "0.6"
+gdk = "0.10"
+gdk-pixbuf = "0.6"
+gio = "0.6"
+glib = "0.7"
+gtk = "0.6"
+pango = "0.6"
+sysinfo = "0.8"
+libc = "0.2"
+serde = "1.0"
+serde_any = "0.5"
+
+[[bin]]
+name = "process_viewer"
+path = "src/process_viewer.rs"

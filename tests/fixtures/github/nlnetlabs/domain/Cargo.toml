@@ -1,0 +1,3 @@
+[workspace]
+members = ["domain", "domain-core", "domain-resolv", "interop"]
+

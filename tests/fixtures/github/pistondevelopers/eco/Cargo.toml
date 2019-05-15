@@ -1,0 +1,21 @@
+[package]
+name = "eco"
+version = "0.20.0"
+authors = [
+    "bvssvni <bvssvni@gmail.com>"
+]
+keywords = ["piston", "ecosystem", "dependencies", "analysis"]
+description = "A tool for reasoning about breaking changes in Rust ecosystems"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pistondevelopers/eco.git"
+homepage = "https://github.com/pistondevelopers/eco"
+
+[lib]
+name = "eco"
+path = "src/lib.rs"
+
+[dependencies]
+piston_meta = "0.30.0"
+hyper = "0.9.7"
+range = "0.3.0"
+semver = "0.2.3"

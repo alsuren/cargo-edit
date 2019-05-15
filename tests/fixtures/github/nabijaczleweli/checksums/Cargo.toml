@@ -1,0 +1,41 @@
+[package]
+name = "checksums"
+description = "Tool for making/verifying checksums of directory trees"
+documentation = "https://rawcdn.githack.com/nabijaczleweli/checksums/doc/checksums/index.html"
+repository = "https://github.com/nabijaczleweli/checksums"
+readme = "README.md"
+keywords = ["checksums", "checksum", "directory", "verification", "hash"]
+categories = ["authentication", "filesystem"]
+license = "MIT"
+# Remember to also update in appveyor.yml
+version = "0.5.5"
+# Remember to also update in checksums.md
+authors = ["nabijaczleweli <nabijaczleweli@gmail.com>", "Zachary Dremann <dremann@gmail.com>"]
+exclude = ["*.enc"]
+
+
+[dependencies]
+futures-cpupool = "0.1"
+lazy_static = "0.2"
+tiny-keccak = "1.2"
+blake2-rfc = "0.2"
+tabwriter = "1.0"
+num_cpus = "1.4"
+futures = "0.1"
+walkdir = "1.0"
+shaman = "0.1"
+blake = "1.1"
+crc16 = "0.3"
+regex = "0.2"
+clap = "2.23"
+crc8 = "0.1"
+crc = "1.4"
+pbr = "1.0"
+md6 = "1.1"
+md5 = "0.3"
+
+
+[[bin]]
+name = "checksums"
+test = false
+doc = false

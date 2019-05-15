@@ -1,0 +1,33 @@
+[package]
+name = "bosun_emitter"
+version = "1.2.0"
+authors = ["Lukas Pustina <lukas@pustina.net>"]
+description = "A command line tool and Rust library to emit metric data to StackExchange's monitoring and alerting system Bosun."
+repository = "https://github.com/lukaspustina/bosun_emitter.git"
+documentation = "http://lukaspustina.github.io/bosun_emitter"
+readme = "README.md"
+license = "MIT"
+keywords = ["bosun", "command", "line", "metric"]
+include = [
+  "README.md",
+  "LICENSE",
+  "**/*.rs",
+  "Cargo.toml",
+]
+
+[[bin]]
+name = "emit_bosun"
+path = "src/main.rs"
+
+[dependencies]
+clap = "2"
+chrono = "0.4"
+env_logger = "0.3"
+log = "0.3"
+reqwest = "0.9"
+rustc-serialize = "0.3"
+toml = "0.1"
+
+[dev-dependencies]
+mktemp = "0.1.2"
+

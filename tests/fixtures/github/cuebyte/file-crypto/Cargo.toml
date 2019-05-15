@@ -1,0 +1,28 @@
+[package]
+name = "file-crypto"
+version = "0.3.0"
+edition = "2018"
+authors = ["William <william.hng@outlook.com>"]
+repository = "https://github.com/cuebyte/file-crypto/"
+description = "A high performace command line tool for encrypting / decrypting any file"
+keywords = ["file-crypto", "crypto"]
+license = "Apache-2.0/MIT"
+
+[dependencies]
+ring = "0.13"
+base64 = "0"
+memmap = "0"
+rayon = "1"
+clap = "2"
+byteorder = "1"
+
+[dev-dependencies]
+walkdir = "2"
+
+[lib]
+name = "file_crypto"
+path = "src/lib.rs"
+
+[[bin]]
+name = "file-crypto"
+path = "src/main.rs"

@@ -1,0 +1,13 @@
+[package]
+name = "bobbytables"
+version = "0.2.0"
+authors = ["Ross Delinger <rossdylan@fastmail.com>"]
+description = "Atomic hashmap for incrementing integers"
+repository = "https://github.com/rossdylan/bobbytables"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+log = "0.3.8"
+env_logger = "0.4.3"
+rand = "0.3"

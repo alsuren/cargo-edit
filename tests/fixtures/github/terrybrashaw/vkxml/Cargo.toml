@@ -1,0 +1,15 @@
+[package]
+name = "vkxml"
+description = "Parse vulkan's XML API registry."
+version = "0.3.1"
+license = "MIT"
+documentation = "https://docs.rs/vkxml"
+keywords = ["vulkan", "xml", "registry"]
+repository = "https://github.com/terrybrashaw/vkxml"
+authors = ["Terry Brashaw <terrybrashaw@gmail.com>"]
+categories = ["rendering::graphics-api", "api-bindings"]
+readme = "README.md"
+
+[dependencies]
+serde = "^1.0.34"
+serde_derive = "^1.0.34"

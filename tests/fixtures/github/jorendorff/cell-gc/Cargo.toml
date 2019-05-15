@@ -1,0 +1,31 @@
+[package]
+authors = ["Jason Orendorff <jason.orendorff@gmail.com>", "Nick Fitzgerald <fitzgen@gmail.com>"]
+description = "A fun garbage collector for that virtual machine you're writing in Rust"
+license = "MIT"
+name = "cell-gc"
+repository = "https://github.com/jorendorff/cell-gc/"
+version = "0.2.1"
+
+[dependencies]
+
+[dependencies.cell-gc-derive]
+path = "cell-gc-derive"
+version = "0.2.1"
+
+[dependencies.signpost]
+optional = true
+version = "0.1.0"
+
+[dev-dependencies]
+compiletest_rs = "0.2.9"
+
+[dev-dependencies.lisp]
+path = "lisp"
+
+[features]
+default = [ "signpost" ]
+
+[profile.release]
+debug = true  # enable debug symbols in release builds
+
+[workspace]

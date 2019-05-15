@@ -1,0 +1,66 @@
+[package]
+name = "archery"
+description = "Abstract over the atomicity of reference-counting pointers"
+version = "0.2.2-pre"
+authors = ["Diogo Sousa <diogogsousa@gmail.com>"]
+
+edition = "2018"
+
+homepage = "https://github.com/orium/archery"
+repository = "https://github.com/orium/archery"
+documentation = "https://docs.rs/archery"
+readme = "README.md"
+
+keywords = [
+    "rc",
+    "arc",
+    "reference-counting",
+]
+
+categories = [
+    "concurrency",
+    "memory-management",
+    "rust-patterns",
+]
+
+license = "MPL-2.0"
+
+# What to include when packaging.
+include = [
+    "/src/**/*.rs",
+    "/Cargo.toml",
+    "/LICENSE.md",
+    "/README.md",
+    "/release-notes.md",
+]
+
+[badges]
+travis-ci = { repository = "orium/archery", branch = "master" }
+codecov = { repository = "orium/archery", branch = "master", service = "github" }
+
+[dependencies]
+static_assertions = "0.3"
+
+[dev-dependencies]
+criterion = "0.2"
+pretty_assertions = "0.6"
+compiletest_rs = { version = "0.3", features = [ "tmp", "stable" ] }
+
+[features]
+fatal-warnings = []
+
+[[bench]]
+name = "std_rc"
+harness = false
+
+[[bench]]
+name = "std_arc"
+harness = false
+
+[[bench]]
+name = "archery_shared_pointer_rc"
+harness = false
+
+[[bench]]
+name = "archery_shared_pointer_arc"
+harness = false

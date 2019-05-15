@@ -1,0 +1,13 @@
+[workspace]
+members = [
+  "bitcoin-parser",
+]
+
+[badges]
+appveyor = { repository = "Akagi201/pwasm-libs" }
+travis-ci = { repository = "Akagi201/pwasm-libs" }
+
+is-it-maintained-issue-resolution = { repository = "Akagi201/pwasm-libs" }
+is-it-maintained-open-issues = { repository = "Akagi201/pwasm-libs" }
+
+maintenance = { status = "passively-maintained" }

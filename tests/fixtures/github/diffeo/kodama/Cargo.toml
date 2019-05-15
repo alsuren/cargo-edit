@@ -1,0 +1,40 @@
+[package]
+name = "kodama"
+version = "0.2.2"  #:version
+authors = ["Diffeo <support@diffeo.com>"]
+description = """
+Agglomerative hierarchical clustering.
+"""
+documentation = "https://github.com/diffeo/kodama"
+homepage = "https://github.com/diffeo/kodama"
+repository = "https://github.com/diffeo/kodama"
+readme = "README.md"
+keywords = ["agglomerative", "hierarchical", "cluster", "fastcluster", "linkage"]
+license = "MIT"
+exclude = ["data/locations/*.dist"]
+
+[lib]
+name = "kodama"
+
+[dependencies]
+# For writing generic floating point code.
+num-traits = "0.2"
+
+[dev-dependencies]
+# For reading benchmark data.
+byteorder = "1.2.6"
+# For random number generation.
+rand = "0.5"
+# For simple global initialization.
+lazy_static = "1"
+# For property based testing.
+quickcheck = { version = "0.7", default-features = false }
+
+[profile.release]
+debug = true
+
+[profile.bench]
+debug = true
+
+[profile.test]
+opt-level = 3

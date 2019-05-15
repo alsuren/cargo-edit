@@ -1,0 +1,13 @@
+[package]
+name = "atomic_ref"
+version = "0.1.2"
+authors = ["Michael Layzell <michael@thelayzells.com>"]
+
+description = "Atomic &'a T types with support for static allocation"
+repository = "https://github.com/mystor/atomic_ref"
+documentation = "https://docs.rs/atomic_ref/"
+readme = "README.md"
+license = "MIT"
+keywords = ["atomic", "reference", "static"]
+
+[dependencies]

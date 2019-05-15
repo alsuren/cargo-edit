@@ -1,0 +1,17 @@
+[package]
+name = "circbuf"
+version = "0.1.4"
+authors = ["Jerome Froelich <jeromefroelich@hotmail.com>"]
+description = "A growable circular buffer for working with bytes"
+homepage = "https://github.com/jeromefroe/circbuf-rs"
+repository = "https://github.com/jeromefroe/circbuf-rs.git"
+documentation = "https://docs.rs/circbuf/"
+readme = "README.md"
+license = "MIT"
+keywords = ["buffer", "bytes", "circular", "ring"]
+
+[features]
+nightly = []
+
+[dev-dependencies]
+vecio = "0.1.0"

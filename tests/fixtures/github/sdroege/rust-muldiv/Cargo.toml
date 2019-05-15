@@ -1,0 +1,28 @@
+[package]
+name = "muldiv"
+version = "0.2.0"
+authors = ["Sebastian Dröge <sebastian@centricular.com>"]
+repository = "https://github.com/sdroege/rust-muldiv"
+license = "MIT"
+keywords = ["integer", "arithmetic", "numerics"]
+categories = ["algorithms"]
+description = """
+Provides a trait for numeric types to perform combined multiplication and
+division with overflow protection
+"""
+readme = "README.md"
+include = [
+    "src/lib.rs",
+    "LICENSE",
+    "README.md",
+    "Cargo.toml",
+    "CHANGELOG.md",
+]
+
+[dependencies]
+
+[dev-dependencies]
+rand = "0.4"
+
+[badges]
+travis-ci = { repository = "sdroege/rust-muldiv", branch = "master" }

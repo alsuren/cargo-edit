@@ -1,0 +1,26 @@
+[package]
+
+name = "strava"
+version = "0.2.0"
+authors = ["Joe Wilm <jdwilm@gmail.com>", "Hunter Werlla <hunter@werlla.com>"]
+description = "Strava API v3 Client"
+repository = "https://github.com/jwilm/strava-rs"
+documentation = "http://jwilm.io/strava-rs/strava/"
+readme = "README.md"
+keywords = ["strava", "client", "api"]
+license = "MPL-2.0"
+
+[features]
+# The api_test feature is for running tests against the strava API. It requires
+# the STRAVA_ACCESS_TOKEN environment variable to be set or else all of the
+# tests will fail.
+api_test = []
+
+[dependencies.hyper]
+version = "~0.10.8"
+
+[dependencies.rustc-serialize]
+version = "~0.3"
+
+[dependencies.hyper-native-tls]
+version = "~0.2.2"

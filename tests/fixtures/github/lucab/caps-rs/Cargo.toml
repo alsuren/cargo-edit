@@ -1,0 +1,27 @@
+[package]
+name = "caps"
+version = "0.3.1-alpha.0"
+authors = ["Luca Bruno <lucab@debian.org>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/lucab/caps-rs"
+documentation = "https://docs.rs/caps"
+description = "A pure-Rust library to work with Linux capabilities"
+keywords = ["Linux", "capabilities", "POSIX", "getcap", "setcap"]
+exclude = [
+".gitignore",
+".travis.yml",
+]
+
+[dependencies]
+errno = "0.2"
+error-chain = {version = "0.12", default-features = false}
+libc = "0.2"
+
+[package.metadata.release]
+sign-commit = true
+upload-doc = false
+disable-publish = true
+disable-push = true
+pre-release-commit-message = "cargo: caps release {{version}}"
+pro-release-commit-message = "cargo: version bump to {{version}}"
+tag-message = "caps {{version}}"

@@ -1,0 +1,34 @@
+[package]
+edition = "2018"
+name = "wurst"
+description = "Webby UI Rust abstraction"
+license = "MIT OR Apache-2.0"
+version = "0.2.0"
+authors = ["Jonathan Kingston <jonathan@jooped.co.uk>"]
+build = "build/build.rs"
+repository = "https://github.com/jonathanKingston/wurst"
+
+[workspace]
+members = [
+    "examples/dom",
+    "examples/form-example",
+]
+
+[profile.release]
+debug = false
+lto = true
+opt-level = 'z'
+
+[build-dependencies]
+sourcefile = "0.1"
+failure = "0.1.2"
+weedle = "0.6"
+proc-macro2 = "0.4.19"
+quote = "0.6.8"
+wasm-bindgen = "0.2.23"
+heck = "0.3.0"
+
+[dependencies]
+wasm-bindgen = "0.2.23"
+js-sys = { version = "0.3.0" }
+web-sys = { version = "0.3.0", features = ['console', 'Element', 'Node', 'Window', 'HtmlElement', 'Document', 'HtmlDivElement', 'HtmlLabelElement', 'HtmlImageElement', 'HtmlInputElement', 'HtmlFormElement', 'HtmlTitleElement', 'HtmlBodyElement', 'HtmlHeadElement', 'HtmlMetaElement', 'HtmlButtonElement', 'HtmlTextAreaElement', 'HtmlSelectElement', 'HtmlBrElement', 'HtmlUListElement', 'HtmlOListElement', 'HtmlLiElement', 'HtmlHrElement', 'HtmlDListElement', 'HtmlOptionElement', 'HtmlCanvasElement', 'HtmlPreElement', 'HtmlFieldSetElement', 'HtmlSpanElement', 'HtmlParagraphElement', 'HtmlHtmlElement', 'HtmlFontElement', 'HtmlScriptElement', 'HtmlStyleElement', 'HtmlMapElement', 'HtmlSourceElement', 'HtmlDataElement', 'HtmlAreaElement', 'HtmlOutputElement', 'HtmlLinkElement', 'HtmlAnchorElement', 'HtmlEmbedElement', 'HtmlTableCellElement', 'HtmlLegendElement', 'HtmlTableRowElement', 'HtmlVideoElement', 'HtmlBaseElement', 'HtmlParamElement', 'HtmlTableSectionElement', 'HtmlOptGroupElement', 'HtmlTimeElement', 'HtmlFrameSetElement', 'HtmlDialogElement', 'HtmlDialogElement', 'HtmlMenuElement', 'HtmlObjectElement', 'HtmlSlotElement', 'HtmlTrackElement', 'HtmlMenuItemElement', 'HtmlModElement', 'HtmlIFrameElement', 'HtmlQuoteElement', 'HtmlFrameElement', 'HtmlTableElement'] }

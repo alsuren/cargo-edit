@@ -1,0 +1,17 @@
+[package]
+name = "secret"
+version = "0.2.0"
+authors = ["Nicolas Koch <nioko1337@gmail.com>"]
+description = "Libsecret bindings for Rust"
+documentation = "https://nicokoch.github.io/secret-rs/secret/"
+repository = "https://github.com/nicokoch/secret-rs"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+libc = "*"
+glib = "*"
+
+[dependencies.secret-sys]
+path = "secret-sys"
+version = "0.2.0"

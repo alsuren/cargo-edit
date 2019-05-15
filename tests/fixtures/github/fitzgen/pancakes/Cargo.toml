@@ -1,0 +1,26 @@
+[package]
+authors = ["Nick Fitzgerald <fitzgen@gmail.com>"]
+description = "Still a WIP"
+license = "Apache-2.0/MIT"
+name = "pancakes"
+readme = "./README.md"
+repository = "https://github.com/fitzgen/pancakes"
+version = "0.1.0"
+
+[build-dependencies]
+bindgen = "0.30.0"
+
+[dependencies]
+cfg-if = "0.1.2"
+
+[dependencies.findshlibs]
+path = "../findshlibs"
+
+[dependencies.gimli]
+path = "../gimli"
+
+[dev-dependencies]
+diff = "0.1.10"
+
+[features]
+nightly = []

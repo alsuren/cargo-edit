@@ -1,0 +1,15 @@
+[package]
+name = "float-traits"
+version = "0.0.3"
+authors = ["GNQG <my.t.gnq@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+description = "Abstraction for general floating point numbers."
+repository = "https://github.com/GNQG/float-traits"
+keywords = ["math", "number", "float", "traits"]
+categories = ["science"]
+
+
+[dependencies]
+num-traits = "^0.1.40"
+num-integer = "^0.1.32"

@@ -1,0 +1,32 @@
+[package]
+name = "bitcask-rs"
+version = "0.1.1"
+authors = ["gfreezy <gfreezy@gmail.com>"]
+description = "Bitcask implemented in rust."
+license = "MIT"
+homepage = "https://github.com/gfreezy/bitcask-rs"
+repository = "https://github.com/gfreezy/bitcask-rs"
+readme = "README.md"
+keywords = ["bitcask", "kv"]
+
+[dependencies]
+failure = "0.1.2"
+derive_builder = "0.5.1"
+log = "0.4.4"
+itertools = "0.7.8"
+io-at = "0.4.1"
+log4rs = "0.8.0"
+integer-encoding = "1.0.5"
+lazy_static = "1.1.0"
+regex = "1.0.4"
+serde = "1.0.75"
+serde_derive = "1.0.75"
+serde_yaml = "0.8.2"
+twox-hash = "1.1.1"
+uuid = { version = "0.6.5", features = ["v4"] }
+
+[dev-dependencies]
+rand = "0.5.5"
+
+[badges]
+travis-ci = { repository = "gfreezy/bitcask-rs", branch = "master" }

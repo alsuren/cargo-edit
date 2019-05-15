@@ -1,0 +1,25 @@
+[package]
+name = "fantoccini-stable"
+version = "0.7.2"
+
+description = "High-level API for programmatically interacting with web pages through WebDriver."
+readme = "README.md"
+
+authors = ["Jon Gjengset <jon@thesquareplanet.com>", "Robert Lord <hello@lord.io>"]
+
+documentation = "https://docs.rs/fantoccini-stable"
+repository = "https://github.com/lord/fantoccini-stable"
+
+keywords = ["webdriver", "chromedriver", "geckodriver", "phantomjs", "automation"]
+categories = ["api-bindings", "development-tools::testing", "web-programming::http-client"]
+
+license = "MIT/Apache-2.0"
+
+[dependencies]
+webdriver = "0.31.0"
+url = "1.5.0"
+rustc-serialize = "0.3.24"
+futures = "0.1.14"
+tokio-core = "0.1.8"
+hyper = "0.11.0"
+hyper-tls = "0.1.0"

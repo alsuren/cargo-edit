@@ -1,0 +1,15 @@
+[package]
+name = "ama"
+version = "0.1.4"
+authors = ["Pierre Talbot <ptalbot@hyc.io>"]
+
+description = "Quasi-quotation system for designing procedural macros mixed with Rust code."
+repository = "https://github.com/ptal/ama"
+readme = "README.md"
+keywords = ["syntax", "quasiquote", "macro", "EDSL"]
+license = "MIT/Apache-2.0"
+
+[lib]
+
+name = "ama"
+path = "src/libama/lib.rs"

@@ -1,0 +1,126 @@
+[package]
+authors = ["Jason Ozias <jason.g.ozias@gmail.com>"]
+build = "build.rs"
+description = "git-box executable implementation"
+documentation = "http://rustyhorde.github.io/git-box"
+homepage = "http://rustyhorde.github.io/git-box"
+keywords = ["rust", "rustyhorde", "git-box"]
+license = "MIT"
+name = "git-box"
+readme = "README.md"
+repository = "https://github.com/rustyhorde/git-box"
+version = "0.2.1-pre"
+
+[[bin]]
+name = "git-box"
+path = "src/main.rs"
+
+[[bin]]
+name = "git-box-smudge"
+path = "git-box-smudge/src/main.rs"
+
+[[bin]]
+name = "git-box-clean"
+path = "git-box-clean/src/main.rs"
+
+[build-dependencies]
+vergen = "~0.1.0"
+
+[dependencies]
+docopt = "~0.6.78"
+git2 = "~0.3.4"
+log = "~0.3.5"
+regex = "~0.1.48"
+rustc-serialize = "~0.3.17"
+sodium-sys = "~0.0.4"
+
+[dependencies.chrono]
+optional = true
+version = "~0.2.19"
+
+[dependencies.clippy]
+optional = true
+version = "~0.0.48"
+
+[dependencies.curl]
+optional = true
+version = "~0.2.16"
+
+[dependencies.env_logger]
+optional = true
+version = "0.3.2"
+
+[dependencies.hyper]
+optional = true
+path = "./hyper"
+
+[dependencies.mysql]
+optional = true
+version = "1.2.1"
+
+[dependencies.openssl]
+optional = true
+version = "0.7.6"
+
+[dependencies.postgres]
+features = ["bit-vec", "chrono", "openssl", "unix_socket", "uuid"]
+optional = true
+version = "~0.11.1"
+
+[dependencies.rusqlite]
+features = ["blob"]
+optional = true
+version = "~0.6.0"
+
+[dependencies.serde]
+optional = true
+version = "~0.7.0"
+
+[dependencies.serde_json]
+optional = true
+version = "~0.7.0"
+
+[dependencies.serde_macros]
+optional = true
+version = "~0.7.0"
+
+[dependencies.sha1]
+optional = true
+version = "~0.1.1"
+
+[dependencies.ssh2]
+optional = true
+version = "~0.2.10"
+
+[dependencies.url]
+optional = true
+version = "~0.5.5"
+
+[dependencies.url_open]
+optional = true
+path = "./url_open"
+
+[dependencies.urlparse]
+optional = true
+version = "0.7.3"
+
+[dependencies.warheadhateus]
+optional = true
+version = "~0.2.0"
+
+[features]
+all = ["archiva", "artifactory", "dropbox", "file", "google", "mysql", "nexus", "psql", "rusqlite", "s3", "ssh2"]
+archiva = []
+artifactory = ["curl", "sha1"]
+default = ["archiva", "artifactory", "file", "mysql", "nexus", "psql", "rusqlite", "s3", "ssh2"]
+dropbox = ["hyper", "serde", "serde_json", "serde_macros", "url", "url_open"]
+file = []
+google = ["hyper", "serde", "serde_json", "serde_macros", "url", "url_open"]
+lint = ["clippy"]
+nexus = ["curl"]
+psql = ["openssl", "postgres"]
+s3 = ["chrono", "curl", "env_logger", "urlparse", "warheadhateus"]
+
+[lib]
+name = "libgitbox"
+path = "src/lib.rs"

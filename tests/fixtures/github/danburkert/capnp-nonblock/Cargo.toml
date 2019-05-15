@@ -1,0 +1,19 @@
+[package]
+name = "capnp-nonblock"
+# NB: When modifying, also modify html_root_url in lib.rs
+version = "0.4.0"
+authors = ["Dan Burkert <dan@danburkert.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/danburkert/capnp-nonblock"
+readme = "README.md"
+documentation = "https://docs.rs/capnp-nonblock/0.4.0/capnp_nonblock/"
+description = "[deprecated] A Cap'n Proto message serializer and deserializer that works with non-blocking streams."
+keywords = ["capnproto", "mio", "async", "non-blocking"]
+
+[dependencies]
+capnp = "0.6"
+byteorder = "1.0"
+
+[dev-dependencies]
+capnp = { version = "0.6", features = ["quickcheck"] }
+quickcheck = "0.2"

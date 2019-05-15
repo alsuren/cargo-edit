@@ -1,0 +1,24 @@
+[package]
+name = "mini-fs"
+version = "0.2.0"
+authors = ["german gomez <germangb42@gmail.com>"]
+description = "Application filesystem to simplify reading files from both the native filesystem and file archives (tar, tar.gz & zip)."
+repository = "https://github.com/germangb/mini-fs"
+readme = "README.md"
+keywords = ["filesystem", "virtual", "mini", "tar", "zip"]
+categories = ["filesystem"]
+license = "MIT"
+exclude = [".pages/*"]
+edition = "2018"
+
+[dependencies]
+failure = "0.1.5"
+tar_ = { package = "tar", version = "0.4.23", optional = true }
+zip_ = { package = "zip", version = "0.5.2", optional = true }
+flate2 = { version = "1.0.7", optional = true }
+
+[features]
+default = ["tar", "zip"]
+
+tar = ["tar_", "flate2"]
+zip = ["zip_"]

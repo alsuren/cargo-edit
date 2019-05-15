@@ -1,0 +1,22 @@
+[package]
+name = "mccs"
+version = "0.1.0"
+authors = ["arcnmx"]
+
+description = "VESA Monitor Control Command Set"
+keywords = ["ddc", "mccs", "vcp", "vesa"]
+
+documentation = "http://arcnmx.github.io/mccs-rs/mccs"
+repository = "https://github.com/arcnmx/mccs-rs"
+readme = "README.md"
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "arcnmx/mccs-rs" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+void = { version = "^1.0.2", optional = true }
+
+[features]
+default = ["void"]

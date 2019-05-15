@@ -1,0 +1,10 @@
+[package]
+name = "bytewise"
+version = "0.2.0"
+authors = ["Andrew Dudney <andrew.dudney@gmail.com>"]
+description = "An endian aware bytewise extension to readers and writers"
+keywords = ["endian", "byte"]
+license = "MIT"
+repository = "https://github.com/adudney/bytewise"
+
+[dependencies]

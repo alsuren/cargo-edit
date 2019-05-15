@@ -1,0 +1,17 @@
+[package]
+
+name = "firebase-db-access"
+version = "0.1.1"
+description = "Rust based library for working with Firebase, currently still under heavy development. Pulled from package rust-firebase"
+readme = "README.md"
+repository = "https://github.com/Micnubinub/rust-firebase"
+#documentation = "http://icanteden.com/rust-firebase/firebase/index.html"
+license = "MIT"
+authors = ["Lindelwe Ncube <lindelwencube.ln@gmail.com>","David White <david.white@spry-soft.com>", "Michael Eden <themichaeleden@gmail.com>"]
+exclude = ["examples/*", "tests/*"]
+keywords = ["firebase", "rest", "api"]
+
+[dependencies]
+url  = "1.7.2"
+knock = "0.1.8"
+curl = "0.4.19"

@@ -1,0 +1,32 @@
+[package]
+name = "rados_hi"
+version = "0.2.4"
+authors = ["Artem <artemciy@gmail.com>"]
+description = "Opinionated high-level wrapper for librados (Ceph)."
+repository = "https://github.com/ArtemGr/rados.hi.rs"
+license = "MIT"
+keywords = ["ceph", "database", "distributed"]
+# https://crates.io/category_slugs
+# TODO: Add "database" once we have the key-value RADOS operations implemeted.
+categories = ["asynchronous", "filesystem"]
+
+[lib]
+name = "rados_hi"
+path = "src/lib.rs"
+crate-type = ["rlib"]
+doctest = false
+
+[dependencies]
+ceph-rust = "0.1"
+futures = "0.1"
+gstuff = "0.4"
+libc = "0.2"
+
+[[example]]
+name = "bench"
+path = "examples/bench.rs"
+
+[dev-dependencies]
+rand = "0.3"
+scoped-pool = "1"
+timeit = "0.1"

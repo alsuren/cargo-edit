@@ -1,0 +1,28 @@
+[package]
+name = "coap"
+version = "0.7.4"
+description = "A CoAP library"
+readme = "README.md"
+documentation = "http://covertness.github.io/coap-rs/master/coap/index.html"
+repository = "https://github.com/covertness/coap-rs"
+license = "MIT"
+authors = ["Yang Zhang <wuyingfengsui@gmail.com>"]
+keywords = ["CoAP"]
+edition = "2018"
+
+[dependencies]
+bincode = "1.1.2"
+serde = { version= "1.0.88", features= [ "derive" ] }
+mio = "0.5"
+url = "1.7.2"
+num = "0.2.0"
+num-derive = "0.2.4"
+num-traits = "0.2.6"
+rand = "0.3"
+log = "0.4.6"
+threadpool = "1.7.1"
+enum_primitive = "0.1.1"
+regex = "1.1.0"
+
+[dev-dependencies]
+quickcheck = "0.8.2"

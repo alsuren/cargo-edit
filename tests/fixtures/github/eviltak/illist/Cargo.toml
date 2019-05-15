@@ -1,0 +1,15 @@
+[package]
+name = "illist"
+version = "0.1.0"
+edition = '2018'
+authors = ["Arav Singhal <singhal.arav@gmail.com>"]
+description = "An indexable linked list implementation backed by a Vec"
+repository = "https://github.com/eviltak/illist"
+readme = "README.md"
+keywords = ["collection", "linked-list", "list", "index"]
+license = "MIT/Apache-2.0"
+
+[dependencies]
+
+[dev-dependencies]
+rand = "0.4.2"

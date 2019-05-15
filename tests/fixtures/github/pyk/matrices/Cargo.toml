@@ -1,0 +1,12 @@
+[package]
+name = "matrices"
+version = "0.1.0"
+authors = ["Bayu Aldi Yansyah <bayualdiyansyah@gmail.com>"]
+description = "Simple & easy to use matrix arithmetic library for Rust"
+repository = "https://github.com/pyk/matrices"
+readme = "README.md"
+keywords = ["math", "matrix"]
+license = "BSD-3-Clause"
+license-file = "LICENSE"
+
+[dependencies]

@@ -1,0 +1,18 @@
+[package]
+name = "bench_timer"
+version = "0.1.1"
+authors = ["biluohc <biluohc@qq.com>"]
+license = "MIT"
+description = "bench library for rust"
+
+repository = "https://github.com/biluohc/bench_timer"
+documentation = "https://docs.rs/bench_timer/"
+readme = "readme.md"
+categories = ["development-tools::profiling"]
+keywords = ["bench","timer"]
+
+[badges]
+travis-ci = { repository = "biluohc/bench_timer" }
+
+[dependencies]
+stderr = "0.8.0"

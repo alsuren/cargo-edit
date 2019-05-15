@@ -1,0 +1,16 @@
+[package]
+name = "solvent"
+version = "0.8.1"
+authors = [ "mike@mikedilger.com" ]
+description = "Dependency Resolver library"
+repository = "https://github.com/mikedilger/solvent"
+readme = "README.md"
+keywords = [ "dependency", "graph", "solver", "resolver" ]
+license = "MIT"
+
+[lib]
+name = "solvent"
+path = "src/lib.rs"
+test = true
+doctest = true
+doc = true

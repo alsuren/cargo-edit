@@ -1,0 +1,23 @@
+[package]
+name = "boron"
+version = "0.0.2"
+description = "web framwork made with <3"
+readme = "README.md"
+repository = "https://github.com/troposphere/boron"
+license = "MIT"
+authors = [
+    "Sankha Narayan Guria <sankha93@gmail.com>",
+    "Aseem Raj Baranwal <aseemraj@protonmail.com>"
+]
+
+[lib]
+name = "boron"
+path = "src/lib.rs"
+test = true
+
+[dependencies]
+hyper = "0.9"
+url = "1.1.1"
+regex = "0.1"
+typemap = "0.3.3"
+

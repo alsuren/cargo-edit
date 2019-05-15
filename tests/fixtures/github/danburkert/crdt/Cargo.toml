@@ -1,0 +1,23 @@
+[package]
+
+name = "crdt"
+version = "0.5.0"
+authors = ["Dan Burkert <dan@danburkert.com>"]
+license = "Apache-2.0"
+
+description = "Conflict-free Replicated Data Types for Rust"
+repository = "https://github.com/danburkert/crdt.git"
+readme = "README.md"
+keywords = ["library", "distributed", "crdt"]
+
+[features]
+default = ["quickcheck"]
+
+[dependencies.quickcheck]
+  version = "*"
+  optional = true
+
+[dev-dependencies]
+  quickcheck = "*"
+  quickcheck_macros = "*"
+  rand = "*"

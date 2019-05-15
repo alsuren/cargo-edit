@@ -1,0 +1,15 @@
+[package]
+name = "b64"
+version = "0.4.0"
+authors = ["The Rust Project Developers"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/jethrogb/b64"
+homepage = "https://github.com/jethrogb/b64"
+documentation = "https://docs.rs/b64"
+description = """
+Base64 encoding/decoding support. Originally from rustc-serialize.
+"""
+
+[dev-dependencies]
+rand = "0.3"

@@ -1,0 +1,19 @@
+[workspace]
+members = [
+  "crates/pagecache",
+  "crates/sled",
+  "tests",
+]
+exclude = [
+  "benchmarks/stress2",
+  "bindings/sled-native",
+  "examples/crdt_merge_store",
+  "examples/pessimistic_transactions",
+  "examples/playground",
+]
+
+[profile.release]
+debug = 2
+
+[profile.dev]
+opt-level = 0

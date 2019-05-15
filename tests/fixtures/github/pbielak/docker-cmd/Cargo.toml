@@ -1,0 +1,20 @@
+[package]
+name = "docker-cmd"
+version = "0.2.0"
+authors = ["pbielak"]
+license = "MIT"
+description = "A simple CLI tool for running commands in Docker containers."
+readme = "README.md"
+homepage = "https://github.com/pbielak/docker-cmd"
+repository = "https://github.com/pbielak/docker-cmd"
+keywords = ["cli", "docker", "command"]
+categories = ["command-line-utilities"]
+edition = "2018"
+
+[dependencies]
+console = "0.7.5"
+dialoguer = "0.3.0"
+derive_more = "0.13.0"
+nix = "0.13.0"
+structopt = "0.2"
+tabwriter = "1.1.0"

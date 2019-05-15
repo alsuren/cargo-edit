@@ -1,0 +1,15 @@
+[package]
+name = "stm32l0x3"
+version = "0.0.1"
+authors = ["Ferdia McKeogh <chocol4te@users.noreply.github.com>"]
+description = "Peripheral access API for STM32L0x3 microcontrollers"
+documentation = "https://docs.rs/stm32l0x3"
+keywords = ["arm", "cortex-m", "stm32", "svd2rust"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/chocol4te/stm32l0x3"
+
+
+[dependencies]
+cortex-m = "0.4.3"
+vcell = "0.1.0"
+bare-metal = "0.1.1"

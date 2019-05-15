@@ -1,0 +1,17 @@
+[package]
+name = "merkle-tree-stream"
+description = "A stream that generates a merkle tree based on the incoming data."
+version = "0.9.0"
+repository = "https://github.com/datrs/merkle-tree-stream"
+documentation = "https://docs.rs/merkle-tree-stream"
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+flat-tree = "4.0.1"
+
+[dev-dependencies]
+hex = "0.3.2"
+quickcheck = "0.8.1"
+crypto-hash = "0.3.1"

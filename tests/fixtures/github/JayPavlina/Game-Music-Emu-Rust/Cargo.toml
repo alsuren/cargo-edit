@@ -1,0 +1,35 @@
+[package]
+name = "gme"
+version = "0.1.1"
+authors = ["Jay Pavlina <jaypavlina@gmail.com>"]
+edition = "2018"
+build = "build.rs"
+readme = "README.md"
+license = "MIT AND LGPL-2.1-or-later"
+description = "Rust bindings for Game Music Emu"
+keywords = ["NSF", "game", "music", "emulation", "audio"]
+categories = ["api-bindings", "multimedia::audio"]
+repository = "https://github.com/JayPavlina/Game-Music-Emu-Rust"
+homepage = "https://github.com/JayPavlina/Game-Music-Emu-Rust"
+
+[features]
+default = ["ay", "gbs", "gym", "hes", "kss", "nsf", "nsfe", "sap", "spc", "vgm", "ym2612_emu_nuked"]
+ay = []
+gbs = []
+gym = []
+hes = []
+kss = []
+nsf = []
+nsfe = []
+sap = []
+spc = []
+vgm = []
+# choose one ym2612_emu or none. If none chosen, Ym2612_GENS.cpp is used
+ym2612_emu_nuked = []
+ym2612_emu_mame = []
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"

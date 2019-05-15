@@ -1,0 +1,38 @@
+[package]
+name = "monero"
+description = "Rust Monero Library."
+version = "0.2.0"
+authors = ["h4sh3d <h4sh3d@truelevel.io>"]
+license-file = "LICENSE"
+homepage = "https://github.com/monero-rs/monero-rs"
+repository = "https://github.com/monero-rs/monero-rs"
+documentation = "https://docs.rs/monero"
+readme = "README.md"
+
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = ["full"]
+full = ["fixed-hash/std", "fixed-hash/rand"]
+
+[dependencies]
+hex = "0.3"
+byteorder = "1"
+keccak-hash = "0.1"
+base58-monero = "0.1"
+
+[dependencies.curve25519-dalek]
+version = "1"
+features = ["nightly"]
+
+[dependencies.serde]
+version = "1"
+optional = true
+
+[dependencies.fixed-hash]
+version = "0.3"
+features = ["libc"]
+default-features = false

@@ -1,0 +1,16 @@
+[package]
+name = "speck"
+description = "The dotfiles manager nobody asked for"
+version = "0.1.0"
+authors = [
+    "Federico Damián Schonborn <schonbornfedericodamian@gmail.com>"
+]
+license = "Apache-2.0"
+repository = "https://github.com/feddamisch/speck"
+edition = "2018"
+
+[lib]
+name = "speck"
+
+[[bin]]
+name = "speck"

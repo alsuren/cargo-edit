@@ -1,0 +1,22 @@
+[package]
+name = "peel"
+version = "0.8.0"
+license = "MIT"
+readme = "README.md"
+keywords = ["packets", "ip", "tree", "parser", "trie"]
+authors = ["Sascha Grunert <mail@saschagrunert.de>"]
+repository = "https://github.com/saschagrunert/peel"
+homepage = "https://github.com/saschagrunert/peel"
+documentation = "https://docs.rs/peel"
+description = "Dynamic packet parsing within trees"
+categories = ["parsing"]
+
+[badges]
+travis-ci = { repository = "saschagrunert/peel", branch = "master" }
+appveyor = { repository = "saschagrunert/peel", branch = "master", service = "github" }
+
+[dependencies]
+petgraph = "0"
+log = "0"
+mowl = "1"
+nom = {version = "3", features = ["verbose-errors"]}

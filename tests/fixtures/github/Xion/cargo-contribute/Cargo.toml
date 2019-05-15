@@ -1,0 +1,52 @@
+[package]
+name = "cargo-contribute"
+version = "0.2.2"
+description = "Cargo subcommand for contributing to development of your dependencies"
+authors = ["Karol Kuczmarski <karol.kuczmarski@gmail.com>"]
+keywords = [
+    "cargo",
+    "subcommand",
+    "issues",
+    "GitHub",
+    "community",
+]
+license = "GPL-3.0"
+readme = "README.md"
+documentation = "https://docs.rs/cargo-contribute"
+homepage = "https://github.com/Xion/cargo-contribute"
+repository = "https://github.com/Xion/cargo-contribute.git"
+
+[dependencies]
+ansi_term = "0.9"
+chrono = { version = "0.4", features = ["serde"] }
+clap = "2.26.0"
+conv = "0.3"
+derive-error = "0.0.3"
+dirs = "1.0"
+enum_derive = "0.1"
+exitcode = "1.1.2"
+futures = "0.1.17"
+glob = "0.2"
+hubcaps = "0.4.3"
+hyper = "0.11"
+hyper-tls = "0.1"
+isatty = "0.1.1"
+itertools = "0.8"
+lazy_static = "0.2"
+log = "0.3"
+macro-attr = "0.2"
+maplit = "0.1"
+rand = "0.3"
+regex = "0.2"
+semver = "0.9"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+strfmt = "0.1.5"
+slog = "1.5.2"
+slog-envlogger = "0.5"
+slog-stdlog = "1.1"
+slog-stream = "1.2"
+tokio-core = "0.1.10"
+toml = "0.4"
+url = "1.6"

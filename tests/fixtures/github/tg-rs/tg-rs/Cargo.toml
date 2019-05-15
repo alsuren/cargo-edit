@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "carapax",
+    "carapax-access",
+    "carapax-i18n",
+    "carapax-ratelimit",
+    "carapax-session",
+    "tgbot",
+]

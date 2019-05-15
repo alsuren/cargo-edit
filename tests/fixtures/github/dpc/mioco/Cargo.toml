@@ -1,0 +1,29 @@
+[package]
+name = "mioco"
+version = "0.9.0-pre"
+authors = ["Dawid Ciężarkiewicz <dpc@dpc.pw>"]
+description = "Scalable, coroutine-based fibers/green-threads for Rust (aka MIO COroutines)."
+keywords = ["mio", "asynchronous", "coroutine", "async", "fiber"]
+license = "MPL-2.0"
+documentation = "https://dpc.github.io/mioco/"
+homepage = "https://github.com/dpc/mioco"
+repository = "https://github.com/dpc/mioco"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+mio = "0.6"
+lazy_static = "*"
+num_cpus = "*"
+context = "2"
+#slog = { version = "2", features = ["max_level_trace", "release_max_level_trace"] }
+slog = "2"
+slog-term = "~2.0.0-4"
+slog-async = "2"
+slab = "*"
+
+[dev-dependencies]
+env_logger = "0.6"
+httparse = "1"
+net2 = "0.2"
+rand = "0.6"

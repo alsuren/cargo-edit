@@ -1,0 +1,15 @@
+[package]
+
+name    = "epsilonz_algebra"
+version = "0.0.1"
+authors = [ "Darin Morrison <darinmorrison+epsilonz@gmail.com>" ]
+description = "Abstract Algebra in Rust. (NOTE: this crate is merging with https://github.com/bjz/algebra)"
+documentation = "http://www.rust-ci.org/epsilonz/algebra.rs/doc/algebra/"
+keywords = ["algebra", "category-theory", "monoids", "functional", "math"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/epsilonz/algebra.rs"
+
+[lib]
+name = "epsilonz_algebra"
+path = "src/lib.rs"

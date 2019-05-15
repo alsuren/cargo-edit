@@ -1,0 +1,15 @@
+[package]
+
+name = "redispool"
+version = "0.1.0"
+authors = ["Zach Pomerantz <zach@terminal.com>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/terminalcloud/rust-redispool"
+homepage = "https://github.com/terminalcloud/rust-redispool"
+description = """
+A redis thread pool for maintaining open connections for jobs on a fixed set of worker threads.
+"""
+
+[dependencies]
+redis = "0.3"

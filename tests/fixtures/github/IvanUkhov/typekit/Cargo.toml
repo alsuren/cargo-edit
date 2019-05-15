@@ -1,0 +1,8 @@
+[package]
+name = "typekit"
+version = "0.0.1"
+authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/IvanUkhov/typekit"
+homepage = "https://github.com/IvanUkhov/typekit"
+description = "The library provides a client for the Typekit service."

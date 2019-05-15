@@ -1,0 +1,28 @@
+[package]
+name = "nettfiske"
+version = "0.2.2"
+authors = ["Flavio Oliveira <flavio@wisespace.io>"]
+license = "MIT OR Apache-2.0"
+
+description = "Detect Phishing fetching Certificate Transparency Logs"
+keywords = ["phishing", "security", "idna", "punycode"]
+documentation = "https://github.com/wisespace-io/nettfiske"
+repository = "https://github.com/wisespace-io/nettfiske"
+readme = "README.md"
+
+[dependencies]
+url = "1.7"
+log = "0.4"
+fern = "0.5"
+clap = "2.31"
+chrono = "0.4"
+publicsuffix = "1.5"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+console = "0.6"
+strsim = "0.7"
+idna = "0.1"
+unicode_skeleton = "0.1"
+error-chain = "0.12"
+tungstenite = "0.5"

@@ -1,0 +1,12 @@
+[package]
+name = "mc-varint"
+version = "0.1.3"
+authors = ["luojia65 <me@luojia.cc>"]
+description = "Minecraft's VarInt and VarLong implemetation in Rust, providing minimum memory usage and maximum performance."
+license = "WTFPL"
+readme = "README.md"
+repository = "https://github.com/luojia65/mc-varint"
+documentation = "https://docs.rs/mc-varint"
+keywords = ["minecraft"]
+
+[dependencies]

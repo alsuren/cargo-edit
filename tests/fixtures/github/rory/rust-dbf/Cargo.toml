@@ -1,0 +1,12 @@
+[package]
+name = "dbf"
+version = "0.1.1"
+authors = ["Rory McCann <rory@technomancy.org>"]
+description = "Read (and write) DBF files"
+license = "AGPL-3.0+"
+license-file = "LICENCE"
+repository = "https://github.com/rory/rust-dbf"
+homepage = "https://github.com/rory/rust-dbf"
+
+[dependencies]
+nom = "^2.0"

@@ -1,0 +1,11 @@
+[package]
+authors = ["Antoni Boucher <bouanto@zoho.com>"]
+description = "gopass wrapper library."
+documentation = "https://docs.rs/password-store/"
+license = "MIT"
+name = "password-store"
+repository = "https://github.com/antoyo/password-store-rs"
+version = "0.3.0"
+
+[dependencies]
+json = "^0.11.13"

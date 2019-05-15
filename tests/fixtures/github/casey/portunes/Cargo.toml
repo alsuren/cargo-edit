@@ -1,0 +1,12 @@
+[package]
+name        = "portunes"
+version     = "0.0.2"
+description = "Generate passwords"
+authors     = ["Casey Rodarmor <casey@rodarmor.com>"]
+license     = "CC0-1.0"
+repository  = "https://github.com/casey/portunes"
+edition     = "2018"
+
+[dependencies]
+clap = "2.20.1"
+rand = "0.3.15"

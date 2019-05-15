@@ -1,0 +1,24 @@
+[package]
+name = "odbc-sys"
+version = "0.8.1"
+authors = ["Markus Klein <markus-klein@live.de>"]
+license = "MIT"
+description = "ODBC ffi bindings"
+repository = "https://github.com/pacman82/odbc-sys"
+documentation = "https://docs.rs/odbc-sys/"
+readme = "README.md"
+keywords = ["sql","database","odbc","ffi"]
+build = "build.rs"
+categories = ["external-ffi-bindings", "database"]
+
+[dependencies]
+
+[features]
+default = ["odbc_version_3_80"]
+
+odbc_version_3_50 = []
+odbc_version_3_80 = ["odbc_version_3_50"]
+odbc_version_4 = ["odbc_version_3_80"]
+
+[badges]
+travis-ci = { repository = "pacman82/odbc-sys", branch = "master" }

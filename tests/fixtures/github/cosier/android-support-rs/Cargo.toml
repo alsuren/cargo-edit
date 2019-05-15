@@ -1,0 +1,10 @@
+[package]
+name = "android_support"
+version = "0.1.0"
+authors = ["Bailey Cosier <bailey@cosier.ca>"]
+license = "MIT"
+description = "Android Support Glue"
+repository = "https://github.com/cosier/android-support-rs"
+
+[dependencies]
+android_ffi = "0.1.0"

@@ -1,0 +1,37 @@
+[package]
+name = "yamlette"
+version = "0.0.6"
+authors = ["dnsl48 <dnsl48@gmail.com>"]
+
+description = "Comprehensive and user friendly YAML 1.2 processor"
+keywords = ["parser", "yaml", "json", "serialization"]
+categories = ["config", "encoding", "parser-implementations"]
+
+license = "MIT/Apache-2.0"
+
+homepage = "https://github.com/dnsl48/yamlette.git"
+repository = "https://github.com/dnsl48/yamlette.git"
+documentation = "https://docs.rs/yamlette/"
+readme = "README.md"
+
+[dependencies]
+skimmer = "0.0.2"
+fraction = "0.6"
+
+[dependencies.num]
+version = "0.2"
+default-features = false
+features = ["num-bigint", "std"]
+
+[features]
+
+dev = []
+
+onetest = []
+
+test_reader = ["onetest"]
+test_savant = ["onetest"]
+test_sage = ["onetest"]
+test_book = ["onetest"]
+test_orchestra = ["onetest"]
+test_face = ["onetest"]

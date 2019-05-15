@@ -1,0 +1,32 @@
+[package]
+name = "casimir-fdfd"
+version = "0.2.0"
+authors = ["Thomas den Hollander <denhollander.thomas@gmail.com>"]
+edition = "2018"
+description = "An implementation of a stress-tensor based FDFD method for computing Casimir forces"
+license = "MIT"
+documentation = "https://docs.rs/crate/casimir-fdfd/"
+repository = "https://github.com/ThomasdenH/casimir-fdfd/"
+
+[dependencies]
+pbr = "1"
+rayon = "1"
+serde_json = "1"
+serde = { version = "1", features = ["derive"] }
+clap = "2"
+snafu = "0.3.1"
+
+[dependencies.nalgebra]
+version = "0.18"
+features = ["serde-serialize"]
+
+[dev-dependencies]
+assert_approx_eq = "1.1"
+
+[profile.release]
+opt-level = 3
+lto = true
+debug-assertions = false
+codegen-units = 1
+panic = 'unwind'
+overflow-checks = false

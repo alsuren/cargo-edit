@@ -1,0 +1,23 @@
+[package]
+name = "foreman"
+version = "0.4.0"
+authors = ["Alex Burka <rust@alexburka.com>"]
+description = "Rust build script assistant"
+license = "MIT"
+
+homepage = "https://github.com/durka/foreman"
+repository = "https://github.com/durka/foreman"
+documentation = "https://docs.rs/foreman"
+
+categories = ["development-tools"]
+keywords = ["cargo", "build", "environment"]
+
+[badges]
+travis-ci = { repository = "durka/foreman" }
+
+[dependencies]
+error-chain = "0.11.0-rc.2"
+strum = "0.8"
+strum_macros = "0.8"
+walkdir = "1.0"
+

@@ -1,0 +1,32 @@
+[package]
+name = "nickel-jwt-session"
+version = "0.10.0"
+authors = [
+	"Rasmus Kaj <kaj@kth.se>",
+	"Carol Nichols <carol.nichols@gmail.com>"
+]
+description = "A nickel middleware for jwt-based user sessions."
+repository = "https://github.com/kaj/nickel-jwt-session"
+keywords = ["nickel", "jwt", "jsonwebtoken", "web", "authorization"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/nickel-jwt-session/"
+categories = ["web-programming"]
+
+[dependencies]
+nickel = "^0.10"
+hyper = { version = "^0.10", default-features = false }
+plugin = "^0.2"
+typemap = "^0.3"
+jwt = "^0.4"
+cookie = { version = "^0.9", default-features = false }
+rust-crypto = "^0.2"
+log = "^0.3"
+rustc-serialize = "^0.3"
+time = "^0.1"
+
+[dev-dependencies]
+env_logger = "^0.4"
+
+[badges]
+travis-ci = { repository = "kaj/nickel-jwt-session" }

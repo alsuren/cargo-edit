@@ -1,0 +1,18 @@
+[package]
+name = "pbft"
+version = "0.0.0"
+authors = ["losfair <zhy20000919@hotmail.com>"]
+description = "Practical Byzantine Fault Tolerance implemented in Rust."
+license = "MIT"
+repository = "https://github.com/losfair/pbft-rs"
+edition = "2018"
+
+[profile.release]
+debug = 1
+
+[dependencies]
+serde = "1"
+serde_derive = "1"
+bincode = "1"
+sha2 = "0.8"
+rand = "0.6"

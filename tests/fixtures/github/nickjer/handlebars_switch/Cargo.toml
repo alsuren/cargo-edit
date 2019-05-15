@@ -1,0 +1,15 @@
+[package]
+name = "handlebars_switch"
+version = "0.3.0"
+authors = ["Jeremy Nicklas <jeremywnicklas@gmail.com>"]
+description = "Adds a `{{#switch}}` helper to handlebars-rust."
+license = "MIT"
+keywords = ["handlebars", "templating", "web"]
+homepage = "https://github.com/nickjer/handlebars_switch"
+repository = "https://github.com/nickjer/handlebars_switch"
+documentation = "https://docs.rs/handlebars_switch/"
+readme = "README.md"
+
+[dependencies]
+handlebars = "0.32"
+serde_json = "1.0"

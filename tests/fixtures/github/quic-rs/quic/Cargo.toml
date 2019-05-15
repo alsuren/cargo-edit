@@ -1,0 +1,20 @@
+[package]
+name = "quic"
+version = "0.0.3"
+authors = ["xushuai <dyxushuai@gmail.com>", "cssivision <cssivision@gmail.com>"]
+description = "QUIC rust implemention"
+homepage = "https://github.com/quic-rs/quic"
+repository = "https://github.com/quic-rs/quic"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+bytes = "^0.4.0"
+failure = "^0.1.0"
+failure_derive = "^0.1.0"
+rand = "^0.5.0"
+
+[dependencies.rustls]
+git = "https://github.com/ctz/rustls"
+branch = "jbp-tls13-draft-28"
+features = ["quic"]

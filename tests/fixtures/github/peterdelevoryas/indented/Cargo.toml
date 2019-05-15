@@ -1,0 +1,9 @@
+[package]
+name = "indented"
+version = "0.1.0"
+authors = ["Peter Delevoryas <peterdelevoryas@gmail.com>"]
+description = "Format data with indentation"
+repository = "https://github.com/peterdelevoryas/indented.git"
+readme = "README.md"
+keywords = ["indent", "indentation", "format"]
+license-file = "LICENSE"

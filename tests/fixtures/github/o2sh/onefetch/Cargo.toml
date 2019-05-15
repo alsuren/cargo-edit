@@ -1,0 +1,15 @@
+[package]
+name = "onefetch"
+description = "Neofetch for your source code"
+version = "1.5.4"
+authors = ["o2sh <ossama-hjaji@live.fr>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/o2sh/onefetch"
+
+[dependencies]
+colored= "1.6.1"
+git2 = {version = "0.7.5", default-features = false}
+tokei = "8.0"
+license = "0.7.1"
+bytecount = "0.5.1"

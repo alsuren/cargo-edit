@@ -1,0 +1,18 @@
+[package]
+name = "iron_requestid"
+version = "0.1.1"
+authors = ["Donald Whyte <donsoft@donsoft.io>"]
+repository = "https://github.com/DonaldWhyte/iron_requestid"
+homepage = "https://github.com/DonaldWhyte/iron_requestid"
+documentation = "https://docs.rs/iron_requestid"
+license = "MIT"
+readme = "README.md"
+keywords = [ "iron", "service", "request", "id", "correlation" ]
+categories= [
+    "web-programming::http-server"
+]
+description="Iron middleware for generating unique IDs for requests"
+
+[dependencies]
+"iron" = "0.5.1"
+"uuid" = {version = "0.4.0", features = ["v4"]}

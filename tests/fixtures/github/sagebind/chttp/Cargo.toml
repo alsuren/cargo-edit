@@ -1,0 +1,62 @@
+[package]
+name = "chttp"
+version = "0.4.2"
+description = "The practical HTTP client that is fun to use."
+authors = ["Stephen M. Coakley <me@stephencoakley.com>"]
+license = "MIT"
+keywords = ["http", "request", "client"]
+categories = ["web-programming::http-client"]
+repository = "https://github.com/sagebind/chttp"
+documentation = "https://docs.rs/chttp/"
+readme = "README.md"
+edition = "2018"
+
+[badges.maintenance]
+status = "actively-developed"
+
+[features]
+default = ["cookies", "http2", "psl"]
+cookies = ["chrono"]
+http2 = ["curl/http2"]
+async-api = []
+middleware-api = []
+
+[dependencies]
+bytes = "0.4"
+crossbeam-channel = "0.3"
+curl = "^0.4.20"
+futures-preview = "0.2.2"
+http = "0.1"
+lazy_static = "1"
+lazycell = "1.2"
+log = "0.4"
+regex = "1.1"
+slab = "0.4"
+withers_derive = "0.2"
+
+[dependencies.chrono]
+version = "0.4"
+optional = true
+
+[dependencies.json]
+version = "0.11"
+optional = true
+
+[dependencies.psl]
+version = "0.4"
+optional = true
+
+[target.'cfg(unix)'.dependencies]
+nix = "0.13"
+
+[dev-dependencies]
+env_logger = "0.6"
+rayon = "1"
+rouille = "3.0"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[[example]]
+name = "async"
+required-features = ["async-api"]

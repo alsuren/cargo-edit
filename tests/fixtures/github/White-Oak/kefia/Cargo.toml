@@ -1,0 +1,18 @@
+[package]
+name = "kefia"
+version = "0.1.0"
+authors = ["White-Oak <lpzhelud@gmail.com>"]
+exclude = [
+    "res/*"
+]
+description = "A GUI for yaourt package manager on Arch systems"
+repository = "https://github.com/White-Oak/kefia"
+readme = "./README.md"
+keywords = ["arch", "yaourt", "pacman", "qml", "gui"]
+categories = ["gui"]
+license = "MIT"
+
+[dependencies]
+regex = "0.2.1"
+lazysort = "0.1.1"
+qml = "0.0.9"

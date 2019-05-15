@@ -1,0 +1,33 @@
+[package]
+edition = "2018"
+name = "bluenrg"
+version = "0.0.4"
+authors = ["Daniel Gallagher <pdanielgallagher@gmail.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Interface to ST Micro BlueNRG Bluetooth radios"
+keywords = ["spi", "bare-metal", "embedded-hal-driver"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/danielgallagher0/bluenrg"
+readme = "README.md"
+
+[features]
+default = ["ms"]
+
+# The chip implements the newer BlueNRG-MS version of the HCI.
+ms = []
+
+[dependencies]
+nb = "0.1.1"
+bluetooth-hci = "0.0.4"
+bitflags = "1.0"
+
+[dependencies.embedded-hal]
+version = "0.2.0"
+features = ["unproven"]
+
+[dependencies.byteorder]
+version = "1"
+default-features = false
+
+[patch.crates-io]
+bluetooth-hci = { git = "https://github.com/danielgallagher0/bluetooth-hci", branch = "master" }

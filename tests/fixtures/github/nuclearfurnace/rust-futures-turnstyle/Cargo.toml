@@ -1,0 +1,11 @@
+[package]
+name = "futures-turnstyle"
+version = "3.0.0"
+authors = ["Toby Lawrence <toby@nuclearfurnace.com>"]
+description = "Futures-aware turnstyle-esque, sequential notifications to waiters."
+repository = "https://github.com/nuclearfurnace/rust-futures-turnstyle"
+readme = "README.md"
+license-file = "LICENSE"
+
+[dependencies]
+futures = "^0.1"

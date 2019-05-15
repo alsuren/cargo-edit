@@ -1,0 +1,11 @@
+[package]
+name = "rightname"
+version = "0.2.0"
+authors = ["booyaa <booyaabooyaabooyaa@gmail.com>"]
+repository = "https://github.com/booyaa/wrongname"
+keywords = ["sorry","pizza"]
+license = "Apache-2.0"
+description = "This is a test for renaming crates please ignore."
+
+
+[dependencies]

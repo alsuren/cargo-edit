@@ -1,0 +1,16 @@
+[package]
+name = "cpp-typecheck"
+version = "0.4.0"
+authors = ["Daniel Trstenjak <daniel.trstenjak@gmail.com>"]
+license = "BSD-3-Clause"
+description = "Type check a C++ source file with a clang compilation database"
+repository = "https://github.com/dan-t/cpp-typecheck"
+readme = "README.md"
+
+[dependencies]
+serde_json = "1.0.9"
+error-type = "0.1.2"
+lazy_static = "1.0.0"
+clap = "2.29.0"
+tempfile = "2.2.0"
+atomicwrites = "0.1.4"

@@ -1,0 +1,28 @@
+[package]
+name = "roboime-next"
+version = "0.1.0"
+authors = ["Jan Segre <jan@segre.in>"]
+license = "MPL-2.0"
+keywords = ["robocup", "ssl", "roboime", "soccer", "ai"]
+readme = "README.md"
+repository = "https://github.com/roboime/roboime-next/"
+documentation = "http://www.roboime.com/roboime-next/"
+description = """
+RoboIME's core software stack for the RoboCup Small Size League.
+"""
+
+[features]
+default = []
+unstable = []
+
+[dependencies]
+roboime-next-protocol = { path = "protocol", version = "0.1" }
+net2 = "0.2"
+log = "0.3"
+clap = "^2.5.0"
+clock_ticks = "~0.1.0"
+env_logger = "0.3"
+glium = "~0.14.0"
+#image = "~0.10.0"
+rusttype = "0.2"
+unicode-normalization = "~0.1.2"

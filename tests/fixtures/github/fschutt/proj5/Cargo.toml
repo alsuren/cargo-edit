@@ -1,0 +1,19 @@
+[package]
+name = "proj5"
+version = "0.1.6"
+authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
+repository = "https://github.com/fschutt/proj5"
+homepage = "https://github.com/fschutt/proj5"
+license = "MIT"
+readme = "README.md"
+description = "Pure Rust, type-safe alternative to PROJ.4"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+scoped_threadpool = { version = "0.1.9", optional = true }
+
+[features]
+multithreading = ["scoped_threadpool"]

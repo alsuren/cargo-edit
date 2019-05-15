@@ -1,0 +1,16 @@
+[package]
+name = "netdb"
+version = "0.1.0"
+authors = ["Martin Hoffmann <hn@nvnc.de>"]
+description = "Access to network-related name databases"
+documentation = "https://docs.rs/netdb/"
+homepage = "https://github.com/partim/netdb"
+repository = "https://github.com/partim/netdb"
+readme = "README.md"
+keywords = ["dns", "hostname", "futures", "tokio"]
+license = "MIT"
+
+[dependencies]
+domain     = "0.2.0"
+futures    = "0.1.11"
+tokio-core = "0.1.6"

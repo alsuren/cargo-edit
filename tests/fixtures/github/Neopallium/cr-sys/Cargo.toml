@@ -1,0 +1,31 @@
+[package]
+name = "cr-sys"
+version = "0.1.1"
+license = "MIT/Apache-2.0"
+authors = ["Robert G. Jakabosky <rjakabosky+neopallium@neoawareness.com>"]
+description = "Rust raw bindings for cr.h: A Simple C Hot Reload Header-only Library"
+keywords = ["live", "dynamic", "reload", "addins", "plugins"]
+repository = "https://github.com/Neopallium/cr-sys"
+homepage = "https://github.com/Neopallium/cr-sys"
+edition = "2018"
+links = "cr"
+build = "build.rs"
+
+[features]
+# Optional feature to build cr-sys wihtout host side code.
+# Use this feature when building a guest plugin.
+guest = []
+
+[dependencies]
+
+[[example]]
+name = "raw_host"
+crate-type = ["bin"]
+
+[[example]]
+name = "raw_guest"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+bindgen = "0.49"
+cc = "1.0"

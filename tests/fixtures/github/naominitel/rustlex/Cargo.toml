@@ -1,0 +1,18 @@
+[package]
+name = "rustlex"
+version = "0.4.0"
+authors = ["Naomi Nitel <naominitel@gmail.com>", "Mathieu Poumeyrol <kali@zoy.org>"]
+description = "Lexical analysers generator for Rust, written in Rust"
+homepage = "https://github.com/naominitel/rustlex"
+repository = "https://github.com/naominitel/rustlex"
+readme = "README.md"
+keywords = [ "lexer", "lexical", "analyser", "generator" ]
+license = "MIT"
+
+[lib]
+name = "rustlex"
+path = "lib.rs"
+plugin = true
+
+[dependencies]
+rustlex_codegen = { version = "0.4.0", path = "codegen" }

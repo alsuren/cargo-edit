@@ -1,0 +1,33 @@
+[package]
+name = "lrg"
+version = "0.3.0"
+authors = ["Noah Rinehart <rinehart.noah@gmail.com>"]
+description = "A utility to help find the largest file(s) in a directory"
+documentation = "https://docs.rs/lrg/"
+homepage = "https://github.com/noahrinehart/lrg"
+repository = "https://github.com/noahrinehart/lrg"
+readme = "README.md"
+keywords = ["lrg", "largest", "smallest", "file", "find"]
+categories = ["command-line-utilities", "filesystem"]
+license = "MIT"
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "noahrinehart/lrg" }
+coveralls = { repository = "noahrinehart/lrg" }
+
+[lib]
+name = "lrg"
+path = "src/lib.rs"
+
+[[bin]]
+name = "lrg"
+path = "src/bin/main.rs"
+
+[dependencies]
+walkdir = "2.2"
+humansize = "1.1"
+log = "0.4"
+env_logger = "0.6"
+clap = "2.32"
+pathdiff = "0.1.0"

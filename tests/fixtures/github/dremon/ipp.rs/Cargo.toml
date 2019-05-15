@@ -1,0 +1,2 @@
+[workspace]
+members = [ "ipp-proto", "ipp-client", "ipp-server", "ipp-util" ]

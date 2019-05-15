@@ -1,0 +1,23 @@
+[package]
+name = "unix"
+version = "0.6.7"
+authors = ["M Farkas-Dyck <strake888@gmail.com>"]
+description = "Interface to Unix system facilities"
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/unix/"
+repository = "https://github.com/strake/unix.rs"
+
+[dependencies]
+flags = "0.1"
+fallible = "0.1.2"
+i-o = "0.4"
+idem = "0.1"
+libc = { version = "0.2", default-features = false }
+null-terminated = "0.3.3"
+rand = { version = "0.6.0", default-features = false }
+system-call = "0.1"
+tempus = { version = "0.2.2", features = ["libc"] }
+void = { version = "1", default-features = false }
+
+[build-dependencies]
+libc = { version = "0.2", default-features = false }

@@ -1,0 +1,17 @@
+[package]
+name = "weighted-regexp"
+description = "Rust port of 'A Play on Regular Expressions'"
+version = "0.1.0"
+authors = ["Jamey Sharp <jamey@minilop.net>"]
+repository = "https://github.com/jameysharp/weighted-regexp-rs"
+readme = "README.md"
+license = "BSD-2-Clause"
+
+[dependencies]
+# This uses only the compatible subset of 0.1 and 0.2.
+num-traits = ">= 0.1, < 0.3"
+
+[dev-dependencies]
+# The quickcheck! macro was introduced in 0.3.
+quickcheck = ">= 0.3, < 0.9"
+itertools = "0.8.0"

@@ -1,0 +1,25 @@
+[package]
+name = "flight"
+version = "0.1.0"
+authors = [
+    "Sumner Evans <jonathanevans@mines.edu>",
+    "Sam Sartor <ssartor@mines.edu>",
+    "Robbie Merillat <rdmerillat@mines.edu>",
+]
+
+[dependencies]
+nalgebra = "0.14"
+gfx = "0.17"
+log = "0.3"
+obj = "0.8"
+fnv = "^1.0"
+image = "0.18"
+rust-webvr = "0.9"
+failure = "0.1"
+failure_derive = "0.1"
+
+[dev-dependencies]
+approx = "0.1"
+
+[workspace]
+members = ["examples/*"]

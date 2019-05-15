@@ -1,0 +1,16 @@
+[package]
+name = "filepath"
+version = "0.1.1"
+authors = ["Tom Schuster <evilpies@gmail.com>"]
+categories = ["filesystem"]
+keywords = ["path", "file"]
+license = "Apache-2.0/MIT"
+readme = "./README.md"
+repository = "https://github.com/evilpie/filepath"
+description = "Get the filesystem path of a file."
+
+[target.'cfg(target_os="macos")'.dependencies]
+libc = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["std", "fileapi"] }

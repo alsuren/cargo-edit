@@ -1,0 +1,25 @@
+[package]
+authors = ["Sean Bruton <sean@uberfoo.net>"]
+name = "cryptonomicon"
+version = "0.1.0"
+description = "unified crypto library"
+repository = "https://github.com/uber-foo/cryptonomicon"
+license = "MIT OR Apache-2.0"
+keywords = ["crypto", "encryption", "signature", "pki", "certificate"]
+categories = ["authentication", "cryptography"]
+
+[dependencies]
+error-chain = "0.11.0"
+
+[dependencies.ed25519-dalek]
+optional = true
+version = "0.6.2"
+
+[features]
+asymmetric = []
+default = ["elliptic_curve_25519", "x509_v3"]
+elliptic_curve = ["asymmetric"]
+elliptic_curve_25519 = ["elliptic_curve", "ed25519-dalek"]
+pki = ["asymmetric"]
+x509 = ["pki"]
+x509_v3 = ["x509"]

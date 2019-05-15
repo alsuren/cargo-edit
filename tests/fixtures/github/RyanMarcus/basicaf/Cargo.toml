@@ -1,0 +1,25 @@
+[package]
+name = "basicaf"
+version = "0.1.2"
+description = "A (Dartmouth) BASIC to Brainf**k compiler"
+homepage = "https://github.com/RyanMarcus/basicaf"
+repository = "https://github.com/RyanMarcus/basicaf"
+authors = ["Ryan Marcus <ryan@ryanmarc.us>"]
+
+readme = "README.md"
+
+license="GPL-3.0"
+
+[[bin]]
+bench = false
+path = "src/main.rs"
+name = "basicaf"
+
+[dependencies]
+regex = "^0.2"
+unescape = "^0.1.0"
+clap = "^2.29.0"
+
+[dependencies.nom]
+version = "^3.2"
+features = ["verbose-errors"]

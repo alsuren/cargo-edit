@@ -1,0 +1,23 @@
+[package]
+name = "regtest"
+version = "0.3.5"
+authors = ["Lucas Salibian <lucas.salibian@gmail.com>"]
+homepage = "https://github.com/tqoitc/regtest"
+repository = "https://github.com/tqoitc/regtest"
+documentation = "https://github.com/tqoitc/regtest"
+readme = "README.md"
+keywords = ["regex", "command"]
+license = "GPL-3.0"
+description = "regtest is an easy to use interactive frontend for the regex crate."
+
+[dependencies]
+regex = "^1.0"
+rustyline = "1.0.0"
+time = "^0.1.35"
+bitflags = "^0.7.0"
+clap = "2.13.0"
+app_dirs = "1.1.1"
+
+[profile.release]
+lto = true
+opt-level = 3

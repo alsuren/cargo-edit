@@ -1,0 +1,18 @@
+[package]
+name = "enumn"
+version = "0.1.0"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Convert number to enum"
+repository = "https://github.com/dtolnay/enumn"
+documentation = "https://docs.rs/enumn"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "0.4"
+quote = "0.6"
+syn = "0.15"

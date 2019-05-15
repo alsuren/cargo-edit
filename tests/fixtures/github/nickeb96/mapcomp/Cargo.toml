@@ -1,0 +1,16 @@
+[package]
+name = "mapcomp"
+version = "0.1.3"
+authors = ["Nicholas Boyle <nickboyle5496@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+description = "Python-like list comprehensions for standard containers"
+categories = ["rust-patterns"]
+keywords = ["vector", "comprehension", "macro", "generator", "python"]
+repository = "https://github.com/nickeb96/mapcomp"
+documentation = "https://docs.rs/mapcomp"
+
+[badges]
+cravis-ci = { repository = "nickeb96/mapcomp" }
+
+[dependencies]

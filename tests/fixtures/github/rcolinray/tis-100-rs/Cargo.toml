@@ -1,0 +1,28 @@
+[package]
+name = "tis-100"
+version = "0.2.2"
+authors = ["Colin Ray <r.colinray@gmail.com>"]
+description = "An emulator for the TIS-100"
+homepage = "https://github.com/rcolinray/tis-100-rs"
+repository = "https://github.com/rcolinray/tis-100-rs"
+license = "MIT"
+
+[lib]
+name = "tis_100"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sandbox"
+path = "src/bin/sandbox.rs"
+test = false
+doctest = false
+
+[[bin]]
+name = "puzzle"
+path = "src/bin/puzzle.rs"
+test = false
+doctest = false
+
+[dependencies]
+hlua = "0.1"
+vec_map = "0.6.0"

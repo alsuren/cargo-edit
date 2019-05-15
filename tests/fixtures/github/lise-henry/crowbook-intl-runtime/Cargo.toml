@@ -1,0 +1,14 @@
+[package]
+name = "crowbook-intl-runtime"
+version = "0.1.0"
+authors = ["Elisabeth Henry <liz.henry@ouvaton.org>"]
+description = "Runtime functions for crowbook-intl"
+readme = "README.md"
+keywords = ["localization", "internationalization"]
+repository = "https://github.com/lise-henry/crowbook-intl-runtime/"
+documentation = "https://docs.rs/crowbook-intl-runtime"
+license = "MPL-2.0"
+publish = true
+
+[dependencies]
+lazy_static = "0.2"

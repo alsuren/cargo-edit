@@ -1,0 +1,20 @@
+[package]
+name = "stache"
+version = "0.3.0"
+authors = ["David Graham <david.malcom.graham@gmail.com>"]
+description = "A Mustache template compiler."
+repository = "https://github.com/dgraham/stache"
+license = "MIT"
+
+[dependencies]
+getopts = "0.2"
+pest = "0.4"
+regex = "0.2"
+tempdir = "0.3"
+yaml-rust = "0.3"
+
+[lib]
+name = "stache"
+
+[[bin]]
+name = "stache"

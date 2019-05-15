@@ -1,0 +1,23 @@
+[package]
+name = "auto_correct"
+version = "0.1.9"
+authors = ["Jacob Zuo <chopinsky@live.com>"]
+description = "A library to provide auto correct suggestions. Currently supporting EN-US."
+documentation = "https://docs.rs/auto_correct/"
+repository = "https://github.com/Chopinsky/auto_correct.git"
+build = "build.rs"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+lazy_static = "^1.0"
+threads_pool = "^0.1.16"
+crossbeam-channel = "^0.3.0"
+hashbrown = "0.1"
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "bench"
+harness = false

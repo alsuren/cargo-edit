@@ -1,0 +1,37 @@
+[workspace]
+
+members = [
+        "cognitive/dharma",
+        "cognitive/timber",
+        "cognitive/graphics",
+        "cognitive/qualia",
+        "cognitive/renderer_gl",
+        "cognitive/inputs",
+        "cognitive/outputs",
+        "cognitive/frames",
+        "cognitive/aesthetics",
+        "cognitive/device_manager",
+        "cognitive/exhibitor",
+        "cognitive/wayland_frontend",
+        "cognitive/cognitive",
+
+        "perceptia/gears",
+        "perceptia/coordination",
+        "perceptia/skylane_simple_framework",
+        "perceptia/perceptia",
+        "perceptia/perceptiactl",
+    ]
+
+[replace]
+"dharma:0.1.0" = { path = 'cognitive/dharma' }
+"timber:0.1.0" = { path = 'cognitive/timber' }
+"cognitive-graphics:0.1.0" = { path = 'cognitive/graphics' }
+"cognitive-qualia:0.1.0" = { path = 'cognitive/qualia' }
+"cognitive-renderer-gl:0.1.0" = { path = 'cognitive/renderer_gl' }
+"cognitive-inputs:0.1.0" = { path = 'cognitive/inputs' }
+"cognitive-outputs:0.1.0" = { path = 'cognitive/outputs' }
+"cognitive-frames:0.1.0" = { path = 'cognitive/frames' }
+"cognitive-aesthetics:0.1.0" = { path = 'cognitive/aesthetics' }
+"cognitive-device-manager:0.1.0" = { path = 'cognitive/device_manager' }
+"cognitive-exhibitor:0.1.0" = { path = 'cognitive/exhibitor' }
+"cognitive-wayland-frontend:0.1.0" = { path = 'cognitive/wayland_frontend' }

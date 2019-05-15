@@ -1,0 +1,64 @@
+[workspace]
+members = ["wlroots-sys", "wlroots-dehandle"]
+
+[package]
+name = "wlroots"
+version = "0.4.0"
+authors = ["Timidger <APragmaticPlace@gmail.com>"]
+repository = "https://github.com/swaywm/wlroots-rs"
+documentation = "https://docs.rs/wlroots"
+description = "Wayland compositor framework"
+keywords = ["wayland", "compositor", "bindings"]
+categories = ["external-ffi-bindings", "gui"]
+license = "MIT"
+exclude = [".travis.yml"]
+autoexamples = true
+edition = "2018"
+
+[dependencies]
+wlroots-sys = { path = "wlroots-sys", default-features = false, version = "0.4.0"  }
+wlroots-dehandle = { path = "wlroots-dehandle", version = "2.0" }
+xkbcommon = "0.3"
+bitflags = "1.0"
+vsprintf = "1.0.1"
+log = "0.4"
+
+[features]
+default = ["libcap", "systemd", "elogind", "xwayland", "x11_backend"]
+static = ["wlroots-sys/static"]
+libcap = ["wlroots-sys/libcap"]
+systemd = ["wlroots-sys/systemd"]
+elogind = ["wlroots-sys/elogind"]
+x11_backend = ["wlroots-sys/x11_backend"]
+xwayland = ["wlroots-sys/xwayland"]
+xcb_errors = ["wlroots-sys/xcb_errors"]
+xcb_icccm = ["wlroots-sys/xcb_icccm"]
+unstable = ["wlroots-sys/unstable"]
+
+[[example]]
+name = "minimal"
+required-features = ["unstable"]
+
+[[example]]
+name = "pointer"
+required-features = ["unstable"]
+
+[[example]]
+name = "rotation"
+required-features = ["unstable"]
+
+[[example]]
+name = "touch"
+required-features = ["unstable"]
+
+[[example]]
+name = "tablet"
+required-features = ["unstable"]
+
+[[example]]
+name = "xdg_shell_v6_test"
+required-features = ["unstable"]
+
+# This will build the unstable features for documentation on docs.rs
+[package.metadata.docs.rs]
+features = ["libcap", "systemd", "elogind", "unstable"]

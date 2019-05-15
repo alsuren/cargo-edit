@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "meilies",
+    "meilies-client",
+    "meilies-cli",
+    "meilies-server",
+    "meilies-transhumance",
+]
+
+[profile.release]
+debug = true

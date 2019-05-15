@@ -1,0 +1,18 @@
+[package]
+name = "lbry-rs"
+version = "0.0.1"
+authors = ["zxawry <zxawry@gmail.com>"]
+edition = "2018"
+description = "A Rust API wrapper for lbrynet"
+documentation = "https://github.com/zxawry/lbry-rs#usage"
+homepage = "https://github.com/zxawry/lbry-rs"
+repository = "https://github.com/zxawry/lbry-rs"
+readme = "README.md"
+keywords = ["http", "json", "api", "lbry"]
+categories = ["network-programming"]
+license = "MIT"
+
+[dependencies]
+jsonrpc-client-core = "0.5.0"
+jsonrpc-client-http = "0.5.0"
+serde_json = "1.0.34"

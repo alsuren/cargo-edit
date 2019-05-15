@@ -1,0 +1,51 @@
+[package]
+authors = ["Łukasz Jan Niemier <lukasz@niemier.pl>"]
+description = "Highly modular crypto & hash library written in pure Rust. WARNING!!! Not suitable for production."
+documentation = "http://liboctavo.github.io/octavo"
+homepage = "http://liboctavo.github.io/"
+keywords = ["cryptography", "hash", "meta"]
+license = "MIT"
+name = "octavo"
+readme = "README.md"
+repository = "https://github.com/libOctavo/octavo"
+version = "0.1.1"
+
+[dependencies]
+
+[dependencies.octavo-crypto]
+optional = true
+path = "./crypto"
+version = "0.1.0"
+
+[dependencies.octavo-digest]
+optional = true
+path = "./digest"
+version = "0.1.0"
+
+[dependencies.octavo-kdf]
+optional = true
+path = "./kdf"
+version = "0.1.0"
+
+[dependencies.octavo-mac]
+optional = true
+path = "./mac"
+version = "0.1.0"
+
+[features]
+crypto = ["octavo-crypto"]
+default = ["crypto", "digest", "kdf", "mac"]
+digest = ["octavo-digest"]
+kdf = ["octavo-kdf"]
+mac = ["octavo-mac"]
+unstable = []
+
+[profile]
+
+[profile.bench]
+lto = true
+opt-level = 3
+
+[profile.release]
+lto = true
+opt-level = 3

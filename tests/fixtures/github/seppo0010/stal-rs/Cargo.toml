@@ -1,0 +1,10 @@
+[package]
+name = "stal"
+version = "0.1.2"
+authors = ["Sebastian Waisbrot <seppo0010@gmail.com>"]
+description = "Set algebra solver for Redis"
+documentation = "http://seppo0010.github.io/stal-rs/"
+repository = "https://github.com/seppo0010/stal-rs"
+readme = "README.md"
+keywords = [ "redis" ]
+license-file = "LICENSE"

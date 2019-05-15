@@ -1,0 +1,44 @@
+[package]
+name = "cuda"
+version = "0.4.0-pre.2"
+edition = "2018"
+authors = ["Peter Jin <peterhaijin@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "CUDA bindings."
+documentation = "https://docs.rs/cuda"
+repository = "https://github.com/peterhj/libcuda"
+readme = "README.md"
+keywords = ["cuda"]
+
+[package.metadata.docs.rs]
+features = ["cuda_10_0"]
+default-target = "x86_64-unknown-linux-gnu"
+
+[features]
+default         = []
+cuda_6_5        = []
+cuda_7_0        = ["cuda_gte_7_0"]
+cuda_7_5        = ["cuda_gte_7_0", "cuda_gte_7_5"]
+cuda_8_0        = ["cuda_gte_7_0", "cuda_gte_7_5", "cuda_gte_8_0"]
+cuda_9_0        = ["cuda_gte_7_0", "cuda_gte_7_5", "cuda_gte_8_0", "cuda_gte_9_0"]
+cuda_9_1        = ["cuda_gte_7_0", "cuda_gte_7_5", "cuda_gte_8_0", "cuda_gte_9_0", "cuda_gte_9_1"]
+cuda_9_2        = ["cuda_gte_7_0", "cuda_gte_7_5", "cuda_gte_8_0", "cuda_gte_9_0", "cuda_gte_9_1", "cuda_gte_9_2"]
+cuda_10_0       = ["cuda_gte_7_0", "cuda_gte_7_5", "cuda_gte_8_0", "cuda_gte_9_0", "cuda_gte_9_1", "cuda_gte_9_2", "cuda_gte_10_0"]
+cuda_10_1       = ["cuda_gte_7_0", "cuda_gte_7_5", "cuda_gte_8_0", "cuda_gte_9_0", "cuda_gte_9_1", "cuda_gte_9_2", "cuda_gte_10_0", "cuda_gte_10_1"]
+cuda_gte_7_0    = []
+cuda_gte_7_5    = []
+cuda_gte_8_0    = []
+cuda_gte_9_0    = []
+cuda_gte_9_1    = []
+cuda_gte_9_2    = []
+cuda_gte_10_0   = []
+cuda_gte_10_1   = []
+cuda_sys        = ["cuda-sys", "cuda_8_0"]
+fresh           = ["bindgen"]
+
+[build-dependencies]
+bindgen = { version = "^0.48", optional = true }
+
+[dependencies]
+cuda-sys = { version = "~0.2.0", optional = true }
+static_assertions = "^0.3.1"

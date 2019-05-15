@@ -1,0 +1,27 @@
+[package]
+name = "uncbv"
+version = "0.2.5-pre"
+authors = ["Antoni Boucher <bouanto@zoho.com>"]
+description = "CBV archive extractor written in Rust."
+license = "GPL-3.0"
+repository = "https://github.com/antoyo/uncbv"
+
+[features]
+nightly = []
+legacy = []
+
+[dependencies]
+des = "^0.0.4"
+docopt = "^0.6"
+encoding = "^0.2"
+huffman = "^0.0.3"
+memmap = "^0.4"
+nom = "^2.0"
+rustc-serialize = "^0.3"
+
+[dev-dependencies]
+rand = "^0.3"
+walkdir = "^0.1"
+
+[profile.release]
+lto = true

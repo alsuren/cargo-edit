@@ -1,0 +1,22 @@
+[package]
+name = "tiny-hderive"
+version = "0.2.0"
+authors = ["Parity Technologies <admin@parity.io>"]
+edition = "2018"
+license = "GPL-3.0"
+description = "Tiny BIP44/BIP32 derivation for BIP39 seeds"
+documentation = "https://docs.rs/tiny-hderive"
+homepage = "https://github.com/maciejhirsz/tiny-hderive"
+repository = "https://github.com/maciejhirsz/tiny-hderive"
+keywords = ["bitcoin", "ethereum", "bip32", "bip39", "bip44"]
+
+[dependencies]
+libsecp256k1 = "0.2"
+base58 = "0.1.0"
+sha2 = "0.8.0"
+hmac = "0.7.0"
+memzero = "0.1.0"
+
+[dev-dependencies]
+ethsign = { version = "0.3", default-features = false, features = ["secp256k1-rs"] }
+tiny-bip39 = "0.6"

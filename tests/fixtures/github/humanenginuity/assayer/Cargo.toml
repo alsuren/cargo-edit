@@ -1,0 +1,29 @@
+[package]
+authors = ["Human Enginuity <hello@humanenginuity.com>"]
+description = "A static (compile-time) validation library for Rust"
+documentation = "https://github.com/humanenginuity/assayer/blob/master/README.md"
+homepage = "https://github.com/humanenginuity/assayer"
+keywords = [
+    "validator",
+    "validation",
+    "input_validator",
+    "input_validation",
+    "fluent_validator",
+]
+license = "Apache-2.0/MIT"
+name = "assayer"
+readme = "README.md"
+repository = "https://github.com/humanenginuity/assayer"
+version = "0.3.0"
+
+[badges]
+[profile.release]
+lto = true
+opt-level = 3
+
+[dependencies.derive-fail]
+git = "https://github.com/withoutboats/derive-fail"
+
+[dependencies.failure]
+git = "https://github.com/withoutboats/failure"
+

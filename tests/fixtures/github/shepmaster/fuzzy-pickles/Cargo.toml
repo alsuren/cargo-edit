@@ -1,0 +1,27 @@
+[package]
+authors = ["Jake Goulding <jake.goulding@gmail.com>"]
+name = "fuzzy-pickles"
+version = "0.1.0"
+edition = "2018"
+
+description = "A low-level parser of Rust source code with high-level visitor implementations"
+
+documentation = "https://docs.rs/fuzzy-pickles"
+repository = "https://github.com/shepmaster/fuzzy-pickles"
+readme = "README.md"
+
+keywords = ["rust", "parser", "tokenizer"]
+categories = ["parser-implementations"]
+
+license = "MIT/Apache-2.0"
+
+[workspace]
+members = ["dump", "stats", "tokenizer"]
+
+[dependencies]
+unicode-xid = "0.1.0"
+peresil = "0.4.0-alpha"
+
+[dependencies.fuzzy-pickles-derive]
+path = "fuzzy-pickles-derive"
+version = "0.1.0"

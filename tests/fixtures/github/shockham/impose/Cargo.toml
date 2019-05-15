@@ -1,0 +1,13 @@
+[package]
+name = "impose"
+version = "0.3.0"
+authors = ["shockham <samuel.hockham@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/shockham/impose"
+homepage = "https://github.com/shockham/impose"
+documentation = "https://docs.rs/impose/"
+description = "Minimalist audio lib"
+
+[dependencies]
+rodio = "0.8"

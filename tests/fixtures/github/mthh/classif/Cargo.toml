@@ -1,0 +1,15 @@
+[package]
+name = "classif"
+version = "0.0.2"
+authors = ["Matthieu Viry <matthieu.viry@cnrs.fr>"]
+description = "Library for one-dimensional data classification and basic statistics"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/mthh/classif"
+readme = "README.md"
+keywords = ["statistics", "classification", "natural-breaks", "cartography"]
+
+[dependencies]
+num-traits = "0.2"
+assert_approx_eq = "1.0.0"
+failure = "*"
+failure_derive = "*"

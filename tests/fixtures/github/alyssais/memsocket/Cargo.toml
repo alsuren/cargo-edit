@@ -1,0 +1,14 @@
+[package]
+name = "memsocket"
+version = "0.1.4-alpha.0"
+authors = ["Alyssa Ross <hi@alyssa.is>"]
+description = "An asynchronous in-memory socket-like interface."
+repository = "https://github.com/alyssais/memsocket"
+keywords = ["socket", "in-memory", "asynchronous"]
+categories = ["asynchronous", "network-programming"]
+license = "MPL-2.0"
+readme = "README.md"
+
+[dependencies]
+tokio = "0.1.7"
+futures = "0.1.21"

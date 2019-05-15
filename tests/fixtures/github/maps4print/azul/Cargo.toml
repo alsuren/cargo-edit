@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "azul",
+    "azul-css",
+    "azul-css-parser",
+    "azul-native-style",
+]

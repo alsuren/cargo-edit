@@ -1,0 +1,27 @@
+[package]
+authors = ["Jonathan Creekmore <jonathan@thecreekmores.org>"]
+description = "Parse and encode PEM-encoded data."
+documentation = "https://docs.rs/pem/"
+homepage = "https://github.com/jcreekmore/pem-rs.git"
+license = "MIT"
+name = "pem"
+readme = "README.md"
+repository = "https://github.com/jcreekmore/pem-rs.git"
+version = "0.6.1-alpha.0"
+categories = [ "cryptography" ]
+
+[dependencies]
+base64 = "0.9.0"
+failure = "0.1"
+lazy_static = "1.0"
+regex = "1"
+
+[dev-dependencies]
+criterion = "0.2.3"
+
+[[bench]]
+name = "pem_benchmark"
+harness = false
+
+[badges]
+travis-ci = { repository = "jcreekmore/pem-rs" }

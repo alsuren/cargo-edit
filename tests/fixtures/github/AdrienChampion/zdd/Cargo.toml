@@ -1,0 +1,24 @@
+[package]
+name = "zdd"
+version = "0.2.0"
+authors = ["Adrien Champion <adrien.champion@email.com>"]
+description = "A Zero-suppressed BDD library."
+documentation = "https://docs.rs/zdd"
+homepage = "https://github.com/AdrienChampion/zdd"
+repository = "https://github.com/AdrienChampion/zdd"
+readme = "README.md"
+keywords = ["ZDD", "BDD", "diagram"]
+license = "MIT/Apache-2.0"
+
+[profile.test]
+opt-level = 3
+debug = true
+rpath = false
+lto = false
+debug-assertions = true
+codegen-units = 1
+panic = 'unwind'
+
+[dependencies]
+rand = "^0"
+hashconsing = "^0"

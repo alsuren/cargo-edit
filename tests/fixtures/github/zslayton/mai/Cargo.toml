@@ -1,0 +1,10 @@
+[package]
+name = "mai"
+version = "0.1.0"
+authors = ["Zack Slayton <zack.slayton@gmail.com>"]
+
+[dependencies]
+lifeguard="0.5"
+mio="0.5"
+slab="0.1"
+log="0.3"

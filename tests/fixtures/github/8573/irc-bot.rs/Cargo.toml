@@ -1,0 +1,34 @@
+[package]
+name = "irc-bot"
+version = "0.2.1"
+authors = ["c74d <8573dd@gmail.com>"]
+description = "A library for writing Internet Relay Chat (IRC) bots in Rust"
+documentation = "https://docs.rs/irc-bot"
+homepage = "https://docs.rs/crate/irc-bot"
+repository = "https://github.com/8573/irc-bot.rs"
+readme = "README.md"
+keywords = ["irc", "internet-relay-chat", "internet_relay_chat", "bot", "bots"]
+categories = ["network-programming"]
+license = "Apache-2.0"
+
+[dependencies]
+clap = "2.32.0"
+crossbeam-channel = "0.1.3"
+env_logger = "0.4.3"
+error-chain = "0.11.0"
+irc = "0.13.5"
+itertools = "0.7.8"
+lazy_static = "1.0.0"
+log = "0.4.1"
+rand = "0.5.0"
+rando = "0.2.0"
+regex = "1.0.0"
+serde = "1.0.59"
+serde_derive = "1.0.59"
+serde_yaml = "0.8.4"
+smallvec = "0.6.1"
+uuid = {version = "0.6.5", features = ["v4"]}
+yaml-rust = "0.4.1"
+
+[build-dependencies]
+foreman = "0.4.0"

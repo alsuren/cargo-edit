@@ -1,0 +1,38 @@
+[package]
+authors = ["Josh Marlow <joshmarlow@gmail.com>"]
+build = "build.rs"
+categories = ["algorithms", ]
+description = "Collection of classic AI algorithms with convenient interfaces"
+documentation = "https://joshmarlow.github.io/ai_kit-rs/"
+keywords = ["ai", "inference", "planning", "constraint", "backtrack"]
+license = "MIT"
+name = "ai_kit"
+repository = "https://github.com/joshmarlow/ai_kit-rs.git"
+version = "0.1.0"
+
+[badges]
+travis-ci = { repository = "joshmarlow/ai_kit-rs" }
+
+[dependencies]
+itertools = "0.5.1"
+serde = "0.9.5"
+serde_derive = "0.9.5"
+serde_json = "0.9"
+uuid = { version = "0.4", features = ["v4"] }
+
+[build-dependencies]
+skeptic = "0.11"
+
+[dev-dependencies]
+skeptic = "0.11"
+
+[features]
+default = ["with-planner", "with-forward-inference", "with-datum", "with-rule", "with-pedigree"]
+
+with-planner = ["with-constraint"]
+with-forward-inference = ["with-planner"]
+with-datum = []
+with-rule = ["with-constraint"]
+with-constraint = []
+with-pedigree = []
+unstable = []

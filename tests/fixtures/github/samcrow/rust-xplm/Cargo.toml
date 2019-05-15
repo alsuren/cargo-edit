@@ -1,0 +1,24 @@
+[package]
+authors = ["Sam Crow <samcrow@uw.edu>"]
+name = "xplm"
+version = "0.3.0"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/samcrow/rust-xplm"
+keywords = ["X-Plane", "plugin"]
+description = "High-level interfaces to the X-Plane plugin SDK"
+readme = "README.md"
+
+[dependencies]
+quick-error = "^1.1.0"
+xplm-sys = "^0.3.1"
+
+[profile.release]
+lto = true
+
+[[example]]
+name = "dataref_test"
+crate-type = ["cdylib"]
+
+[[example]]
+name = "basic_plugin"
+crate-type = ["cdylib"]

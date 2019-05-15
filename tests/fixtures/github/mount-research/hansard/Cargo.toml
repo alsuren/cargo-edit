@@ -1,0 +1,18 @@
+[package]
+name = "hansard"
+version = "0.1.3"
+authors = ["shockham <samuel.hockham@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/mount-research/hansard"
+homepage = "https://github.com/mount-research/hansard"
+documentation = "https://docs.rs/hansard"
+description = "Gets the last 20 Hansard Bound Volumes for the UK Parliament"
+
+[dependencies]
+atom_syndication = "0.6"
+hyper = "0.12"
+futures = "0.1"
+tokio-core = "0.1"
+zip = "0.5"
+log = "0.4"

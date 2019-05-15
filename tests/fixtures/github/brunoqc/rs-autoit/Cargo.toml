@@ -1,0 +1,23 @@
+[package]
+name = "autoit"
+version = "0.1.2"
+authors = ["Bruno Bigras <bigras.bruno@gmail.com>"]
+description = """
+bindings for AutoItX
+"""
+repository = "https://github.com/brunoqc/rs-autoit"
+readme = "README.md"
+license = "Unlicense/MIT"
+keywords = ["autoit", "autoitx"]
+
+[badges]
+maintenance = { status = "passively-maintained" }
+is-it-maintained-issue-resolution = { repository = "bbigras/rs-autoit" }
+is-it-maintained-open-issues = { repository = "bbigras/rs-autoit" }
+
+[dependencies]
+failure = "0.1"
+widestring = "0.4"
+
+[build-dependencies]
+bindgen = "0.39"

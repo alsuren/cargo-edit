@@ -1,0 +1,64 @@
+[package]
+name = "cargo-web"
+version = "0.6.25"
+authors = ["Jan Bujak <j@exia.io>"]
+repository = "https://github.com/koute/cargo-web"
+homepage = "https://github.com/koute/cargo-web"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+description = "A Cargo subcommand for the client-side Web"
+keywords = ["cargo", "subcommand", "web", "asmjs", "webasm"]
+categories = ["development-tools", "development-tools::cargo-plugins", "web-programming"]
+
+exclude = ["build-scripts/**"]
+
+[dependencies]
+clap = "2"
+notify = "4"
+tempfile = "3"
+cargo_metadata = "0.6"
+ansi_term = "0.11"
+reqwest = "0.9"
+pbr = "1"
+libflate = "0.1"
+tar = "0.4"
+sha1 = "0.6"
+sha2 = "0.8"
+digest = "0.8"
+toml = "0.4"
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+handlebars = "1"
+unicode_categories = "0.1.1"
+indexmap = "1"
+websocket = "0.21"
+regex = "1"
+walkdir = "2"
+base-x = "0.2"
+memmap = "0.7"
+atty = "0.2"
+directories = "1"
+lazy_static = "1"
+percent-encoding = "1"
+
+parity-wasm = "0.35"
+log = "0.4"
+rustc-demangle = "0.1.5"
+env_logger = "0.6"
+hyper = "0.12.12"
+http = "0.1.13"
+futures = "0.1.17"
+open = "1"
+failure = "0.1"
+structopt = "0.2.14"
+
+[dependencies.semver]
+features = ["serde"]
+version = "0.9"
+
+[target.'cfg(not(any(target_os = "windows", target_os = "macos", target_os = "ios")))'.dependencies]
+openssl-sys = { version = "= 0.9.45", features = ["vendored"] }
+
+[features]
+development-mode = []

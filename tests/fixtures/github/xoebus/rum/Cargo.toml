@@ -1,0 +1,13 @@
+[package]
+
+name = "rum"
+version = "0.0.1"
+authors = ["Chris Brown <xoebus@xoeb.us>"]
+license = "MIT"
+documentation = "https://github.com/xoebus/rum"
+repository = "https://github.com/xoebus/rum"
+homepage = "https://github.com/xoebus/rum"
+description = "An implementation of the Cloud Foundry lager logging system for Rust."
+
+[dependencies]
+rustc-serialize = "0.2.3"

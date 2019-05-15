@@ -1,0 +1,15 @@
+[package]
+name = "pig"
+description = "A very simple PostgreSQL data migration tool."
+version = "0.0.4"
+authors = ["richardanaya"]
+license = "MIT"
+repository = "https://github.com/richardanaya/pig"
+
+
+[dependencies]
+quicli = "0.3"
+postgres = "0.15"
+chrono = "0.4.6"
+glob = "0.2"
+colored = "1.6"

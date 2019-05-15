@@ -1,0 +1,25 @@
+[package]
+name = "cpufreq"
+version = "0.1.6"
+authors = ["Renat Galimov <renat2017@gmail.com>"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+build = "build.rs"
+description = "Rust interface to the linux cpufreq library"
+documentation = "https://femdom.github.io/cpufreq/cpupower/"
+repository = "https://github.com/femdom/cpufreq"
+keywords = ["ffi", "bindings", "linux", "cpufreq", "cpupower"]
+license = "MIT/Apache-2.0"
+libs = "cpupower"
+
+
+[dependencies]
+libc = "~0.2"
+
+[dependencies.errno]
+version = "~0.1"
+
+[build-dependencies]
+gcc = "~0.3"

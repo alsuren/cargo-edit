@@ -1,0 +1,83 @@
+[package]
+
+description = "A usable Cassandra CQL driver (this replaces the previous cql-ffi package).\nWraps the DataStax c++ native driver and uses cql-bindgen via rust-bindgen.\nWorks with nightly"
+keywords = ["cassandra"]
+license = "Apache-2.0"
+homepage = "https://github.com/tupshin/cassandra-rust"
+repository = "https://github.com/tupshin/cassandra-rust"
+name = "cassandra"
+version = "0.8.2-pre"
+authors = ["Tupshin Harper <tupshin@tupshin.com>"]
+build = "build.rs"
+
+[lib]
+name = "cassandra"
+
+[dependencies]
+clippy = {version = "0.0", optional = true}
+libc = "0.2"
+num = "0.1"
+log = "0.3"
+cassandra-sys = "0.8"
+decimal = "0.2"
+chrono = "0.2"
+ip = "1.0"
+time = "0.1"
+clap = "1"
+uuid = "0.1"
+error-chain="0.7"
+
+[build-dependencies]
+rusty-cheddar = "0.3"
+
+[[bin]]
+name="async"
+path="src/examples/async.rs"
+
+[[bin]]
+name="basic"
+path="src/examples/basic.rs"
+
+[[bin]]
+name="batch"
+path="src/examples/batch.rs"
+
+[[bin]]
+name="bind_by_name"
+path="src/examples/bind_by_name.rs"
+
+[[bin]]
+name="collections"
+path="src/examples/collections.rs"
+
+# [[bin]]
+# name="logging"
+# path="src/examples/logging.rs"
+
+[[bin]]
+name="maps"
+path="src/examples/maps.rs"
+
+[[bin]]
+name="paging"
+path="src/examples/paging.rs"
+
+[[bin]]
+name="prepared"
+path="src/examples/prepared.rs"
+
+[[bin]]
+name="schema_meta"
+path="src/examples/schema_meta.rs"
+
+[[bin]]
+name="simple"
+path="src/examples/simple.rs"
+
+# [[bin]]
+# name="udt"
+# path="src/examples/udt.rs"
+
+[[bin]]
+name="uuids"
+path="src/examples/uuids.rs"

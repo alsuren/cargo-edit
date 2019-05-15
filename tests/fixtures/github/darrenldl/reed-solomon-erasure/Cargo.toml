@@ -1,0 +1,45 @@
+[package]
+name= "reed-solomon-erasure"
+version = "4.0.0"
+authors = ["Darren Ldl <darrenldldev@gmail.com>"]
+edition = "2018"
+build = "build.rs"
+exclude = [
+    "appveyor.yml",
+    ".travis.yml"
+]
+
+description = "Rust implementation of Reed-Solomon erasure coding"
+
+documentation = "https://docs.rs/reed-solomon-erasure"
+homepage= "https://github.com/darrenldl/reed-solomon-erasure"
+repository= "https://github.com/darrenldl/reed-solomon-erasure"
+
+readme= "README.md"
+
+keywords= ["reed-solomon", "erasure"]
+
+categories= ["encoding"]
+
+license = "MIT"
+
+[features]
+default = [] # simd off by default
+simd-accel = ["cc", "libc"]
+
+[badges]
+travis-ci = { repository = "darrenldl/reed-solomon-erasure" }
+appveyor= { repository = "darrenldl/reed-solomon-erasure" }
+codecov = { repository = "darrenldl/reed-solomon-erasure" }
+coveralls = { repository = "darrenldl/reed-solomon-erasure" }
+
+[dependencies]
+smallvec = "0.6"
+libc = { version = "0.2", optional = true }
+
+[dev-dependencies]
+rand = "0.5.4"
+quickcheck = "0.7"
+
+[build-dependencies]
+cc = { version = "1.0", optional = true }

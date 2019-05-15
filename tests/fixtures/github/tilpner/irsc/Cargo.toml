@@ -1,0 +1,28 @@
+[package]
+
+name = "irsc"
+version = "0.2.0"
+authors = ["Till Hoeppner <till@hoeppner.ws>"]
+description = "A lightweight library for building IRC bots."
+documentation = "https://tilpner.github.io/irsc"
+repository = "https://github.com/tilpner/irsc"
+keywords = ["irc", "internet", "protocol"]
+license = "MIT"
+
+[dependencies]
+log = "^0.3"
+regex = "^0.1"
+regex_macros = "^0.1"
+openssl = "^0.6"
+encoding = "^0.2"
+linear-map = "^0.0"
+
+[features]
+lints = ["clippy"]
+
+[dependencies.clippy]
+version = "*"
+optional = true
+
+[dev-dependencies]
+env_logger = "*"

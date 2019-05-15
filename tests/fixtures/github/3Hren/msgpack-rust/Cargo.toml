@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "rmp",
+    "rmp-serde",
+    "rmp-serialize",
+    "rmpv",
+    "rmpv-tests"
+]

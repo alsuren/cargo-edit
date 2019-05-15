@@ -1,0 +1,18 @@
+[package]
+name = "screenshot"
+version = "0.2.4"
+authors = ["Michael Zhang <failed.down@gmail.com>"]
+
+[workspace]
+members = [".", "slop-sys"]
+
+[dependencies]
+clap = "2.31.2"
+cairo-rs = { version = "0.4.1", features = ["png"] }
+failure = "0.1.1"
+gdk = "0.8.0"
+gdk-pixbuf = "0.4.0"
+gio = "0.4.0"
+gtk = { version = "0.4.1", features = ["v3_16"] }
+time = "0.1.40"
+slop-sys = { path = "slop-sys" }

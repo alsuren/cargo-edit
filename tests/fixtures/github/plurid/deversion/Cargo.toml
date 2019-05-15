@@ -1,0 +1,16 @@
+[package]
+name = "deversion"
+version = "0.1.0"
+authors = ["Jan Cavel <caveljan@gmail.com>"]
+edition = "2018"
+description = "Always-Active, Character-for-Character Distributed Version Control System"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/plurid/deversion"
+
+[[bin]]
+name = "dev"
+path = "src/main.rs"
+
+[dependencies]
+clap = "2.32.0"

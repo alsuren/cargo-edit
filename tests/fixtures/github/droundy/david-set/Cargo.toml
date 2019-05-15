@@ -1,0 +1,20 @@
+[package]
+name = "david-set"
+version = "0.1.2"
+authors = ["David Roundy <daveroundy@gmail.com>"]
+
+description = "Sets optimized for small or large numbers of Copy elements"
+license = "MPL-2.0"
+repository = "https://github.com/droundy/david-set"
+
+[dev-dependencies]
+
+rand = "^0.3.15"
+quickcheck = "^0.4.1"
+
+[badges]
+travis-ci = { repository = "droundy/david-set" }
+appveyor = { repository = "droundy/david-set" }
+
+[dependencies]
+fnv = "^1.0.3"

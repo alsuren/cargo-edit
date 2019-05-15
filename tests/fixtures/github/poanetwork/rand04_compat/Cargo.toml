@@ -1,0 +1,20 @@
+[package]
+name = "rand04_compat"
+description = "Wrappers for compatibility with rand 0.4."
+version = "0.1.1"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/poanetwork/rand04_compat"
+readme = "README.md"
+keywords = ["random", "rng"]
+categories = ["algorithms", "no-std"]
+authors = ["Andreas Fackler <AndreasFackler@gmx.de>"]
+edition = "2018"
+
+
+[dependencies]
+rand = { version = "0.6.1", default-features = false }
+rand04 = { version = "0.1.0", default-features = false }
+
+[features]
+default = ["std"]
+std = ["rand04/std", "rand/std"]

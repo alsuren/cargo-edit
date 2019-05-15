@@ -1,0 +1,19 @@
+[package]
+name = "pg_interval"
+version = "0.3.0"
+authors = ["Ryan Piper <piper.ryan235@gmail.com>"]
+license = "MIT"
+description = "A native PostgreSQL interval type"
+repository = "https://github.com/piperRyan/rust-postgres-interval"
+readme = "README.md"
+keywords = ["database", "postgres", "postgresql", "sql", "interval"]
+include = ["src/*", "Cargo.toml", "LICENSE", "README.md"]
+categories = ["date-and-time"]
+
+[features]
+default = ["postgres"]
+
+[dependencies]
+postgres = { version = "^0.15", optional=true }
+byteorder = { version = "1.2.4" }
+chrono = { version = "^0.4" }

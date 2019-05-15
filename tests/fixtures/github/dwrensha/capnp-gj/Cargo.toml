@@ -1,0 +1,15 @@
+[package]
+name = "capnp-gj"
+version = "0.2.1"
+authors = ["David Renshaw <david@sandstorm.io>"]
+license = "MIT"
+description = "asynchronous I/O for Cap'n Proto"
+repository = "https://github.com/dwrensha/capnp-gj"
+
+keywords = ["async"]
+
+[dependencies]
+byteorder = "0.4"
+capnp = "0.7"
+gj = "0.2"
+gjio = "0.1"

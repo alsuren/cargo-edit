@@ -1,0 +1,26 @@
+[package]
+name = "bitter"
+version = "0.3.2-pre"
+authors = ["Nick Babcock <nbabcock19@hotmail.com>"]
+description = "Swiftly extracts unaligned bit-level data from a byte slice"
+repository = "https://github.com/nickbabcock/bitter"
+readme = "README.md"
+keywords = ["bitstream", "little-endian", "binary"]
+categories = ["parsing"]
+license = "MIT"
+
+[[bench]]
+name = "bench_bits"
+harness = false
+
+[dev-dependencies]
+criterion = "0.2"
+bitreader = "0.3"
+bitstream-io = "0.6"
+nom = "4"
+quickcheck = "0.8"
+quickcheck_macros = "0.8"
+
+[dev-dependencies.bitterv1]
+package = "bitter"
+version = "=0.1.0"

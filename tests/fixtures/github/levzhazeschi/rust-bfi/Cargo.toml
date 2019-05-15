@@ -1,0 +1,23 @@
+[package]
+name = "bfi"
+version = "0.2.2"
+description = "Brainfuck for your machine learning needs"
+authors = ["Mikhail Antonenko <levzhazeschi@gmail.com>"]
+repository = "https://github.com/levzhazeschi/rust-bfi"
+readme = "README.md"
+keywords = ["brainfuck", "interpreter"]
+categories = ["emulators", "science"]
+license = "LGPL-3.0"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "LICENCE"
+]
+
+[badges]
+travis-ci = { repository = "levzhazeschi/rust-bfi", branch = "master" }
+
+
+[profile.test]
+opt-level = 3

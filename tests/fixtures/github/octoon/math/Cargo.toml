@@ -1,0 +1,18 @@
+[package]
+name = "octoon-math"
+version = "0.1.8"
+license = "MIT"
+authors = ["Rui <2221870259@qq.com>"]
+edition = "2018"
+description = "Graphics utilities for Rust."
+repository = "https://github.com/octoon/math.git"
+
+[lib]
+name = "octoon_math"
+
+[dependencies.serde]
+optional = true
+version = "1.0"
+
+[features]
+serialize = ["serde"]

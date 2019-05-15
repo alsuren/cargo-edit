@@ -1,0 +1,17 @@
+[package]
+name = "ternary"
+description = "Kleene Logic within Rust's type system"
+version = "0.1.4"
+authors = ["Andre Bogus <bogusandre@gmail.com>"]
+readme = "README.md"
+keywords = ["ternary", "types"]
+license = "MIT"
+repository = "https://github.com/llogiq/ternary"
+documentation = "https://llogiq.github.io/ternary"
+
+[lib]
+name = "ternary"
+path = "src/lib.rs"
+
+[features]
+unstable = []

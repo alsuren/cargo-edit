@@ -1,0 +1,29 @@
+[package]
+name = "cinema_feed"
+version = "0.1.4"
+authors = ["apiraino <apiraino@users.noreply.github.com>"]
+description = "Scrape a cinema website and store the schedule into a DB, export it as RSS feed"
+keywords = ["rss", "feed", "cinema", "scraping"]
+license = " GPL-2.0-or-later"
+homepage = "https://github.com/apiraino/rust-cinema-scraper"
+repository = "https://github.com/apiraino/rust-cinema-scraper"
+readme = "README.md"
+exclude = [
+    ".*"
+]
+edition = "2018"
+
+[dependencies]
+uuid = "0.7.1"
+clap = "2.32.0"
+# fixes serde serialization on Movie struct!
+chrono = { version = "0.4.6", features = ["serde"] }
+log = "0.4.6"
+env_logger = "0.6.0"
+reqwest = "0.9.5"
+scraper = "0.9.0"
+tera = "0.11.20"
+serde = "1.0.84"
+serde_derive = "1.0.84"
+# http://kracekumar.com/post/153116176705/my-experience-with-rust
+rusqlite = { version = "0.16.0", features = ["chrono", "bundled"] }

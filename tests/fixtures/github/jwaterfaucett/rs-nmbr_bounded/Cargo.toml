@@ -1,0 +1,11 @@
+[package]
+name = "nmbr-bounded"
+version = "0.0.1"
+authors = ["John Faucett <jwaterfaucett@gmail.com>"]
+description = "Min and max values for bounded number types"
+license = "MIT"
+homepage = "https://github.com/jwaterfaucett/rs-nmbr_bounded"
+repository = "https://github.com/jwaterfaucett/rs-nmbr_bounded.git"
+keywords = ["mathematics", "numerics", "numbers", "bounds", "limits"]
+
+[dependencies]

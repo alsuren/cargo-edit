@@ -1,0 +1,18 @@
+[package]
+name = "punch"
+version = "0.1.2"
+authors = ["Mark Price <mark@epickrram.com>"]
+homepage = "https://github.com/epickrram/punch"
+repository = "https://github.com/epickrram/punch"
+keywords = ["tracker", "punchcard", "time", "management"]
+license = "Apache-2.0"
+description = "A very simple time-management application"
+
+
+[dependencies]
+clap = "2.15.0"
+chrono = "0.2"
+
+[[bin]]
+name = "punch"
+path = "src/main.rs"

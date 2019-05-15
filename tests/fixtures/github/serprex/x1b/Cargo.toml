@@ -1,0 +1,10 @@
+[package]
+name = "x1b"
+version = "0.7.0"
+authors = ["serprex"]
+repository = "https://github.com/serprex/x1b"
+description = "State tracker for 0x1b terminal escape codes. Also gives random characters names."
+license = "MIT"
+
+[dependencies]
+bitflags = "1.0.4"

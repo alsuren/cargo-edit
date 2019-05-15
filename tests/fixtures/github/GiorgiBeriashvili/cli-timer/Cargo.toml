@@ -1,0 +1,28 @@
+[package]
+name = "cli-timer"
+version = "0.3.80"
+authors = ["Giorgi Beriashvili <giorgi.beriashvili@outlook.com>"]
+edition = "2018"
+description = "Program used to set a timer."
+documentation = "https://docs.rs/cli-timer"
+homepage = "https://github.com/GiorgiBeriashvili/cli-timer"
+repository = "https://github.com/GiorgiBeriashvili/cli-timer"
+readme = "README.md"
+keywords = ["rust", "cli", "timer", "application", "beginner-friendly"]
+categories = ["command-line-utilities"]
+license = "Apache-2.0 OR MIT"
+
+[badges]
+azure-devops = { project = "giorgiberiashvili/cli-timer", pipeline = "GiorgiBeriashvili.cli-timer", build = "2" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+chrono = "0.4.6"
+color-backtrace = "0.1.3"
+dirs = "1.0.5"
+log = "0.4.6"
+pbr = "1.0.1"
+rodio = "0.8.1"
+spin_sleep = "0.3.7"
+structopt = "0.2.15"
+termcolor = "1.0.4"

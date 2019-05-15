@@ -1,0 +1,23 @@
+[package]
+name = "carboxyl"
+version = "0.2.2"
+authors = ["Eduard Bopp <eduard.bopp@aepsil0n.de>"]
+description = "Library for functional reactive programming"
+documentation = "https://aepsil0n.github.io/carboxyl/"
+homepage = "https://github.com/aepsil0n/carboxyl"
+repository = "https://github.com/aepsil0n/carboxyl"
+readme = "README.md"
+keywords = ["frp", "reactive", "event", "concurrency"]
+license = "MPL-2.0"
+build = "build.rs"
+
+[dependencies]
+lazy_static = "0.1"
+
+[dev-dependencies]
+rand = "0.3"
+quickcheck = "0.2"
+skeptic = "0.6"
+
+[build-dependencies]
+skeptic = "0.6"

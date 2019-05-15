@@ -1,0 +1,27 @@
+[package]
+
+name = "rust_erl_ext"
+version = "0.2.1"
+authors = ["Sergey Prokhorov <me@seriyps.ru>"]
+
+description = "Erlang external term format codec."
+repository = "https://github.com/seriyps/rust-erl-ext"
+readme = "README.md"
+keywords = ["serialization", "encoding", "erlang", "bert", "term_to_binary"]
+license = "Apache-2.0"
+
+[lib]
+
+name = "erl_ext"
+# path = "src/erl_ext.rs"
+
+
+[dependencies]
+
+num = ">=0.1.25"
+byteorder = ">=0.5.1"
+
+[dev-dependencies]
+
+getopts = ">=0.2.12"
+rustc-serialize = ">=0.3.15"

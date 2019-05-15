@@ -1,0 +1,22 @@
+[package]
+name = "mux"
+version = "0.2.0"
+authors = ["Bryce Anderson <bryce.anderson22@gmail.com>"]
+
+license = "Apache-2.0"
+
+description = "mux codecs for rust"
+keywords = ["protocol", "network", "session"]
+homepage = "https://github.com/bryce-anderson/rust-mux"
+repository = "https://github.com/bryce-anderson/rust-mux"
+documentation = "http://bryce-anderson.github.io/rust-mux"
+
+readme = "README.md"
+
+exclude = ["./examples"]
+
+[profile.release]
+debug = true
+
+[dependencies]
+byteorder = "0.5"

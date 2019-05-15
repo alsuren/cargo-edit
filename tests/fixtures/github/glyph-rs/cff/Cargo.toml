@@ -1,0 +1,37 @@
+[package]
+
+edition = "2018"
+
+name = "cff"
+authors = ["Kyle Mayes <kyle@mayeses.com>"]
+
+version = "0.5.0"
+
+readme = "README.md"
+license = "Apache-2.0"
+
+description = "A zero-allocation CFF parser."
+
+documentation = "https://docs.rs/cff"
+repository = "https://github.com/glyph-rs/cff"
+
+autotests = false
+
+[dependencies]
+
+tarrasque = "0.10"
+
+[dev-dependencies]
+
+microbench = "0.3"
+sfnt = "0.12"
+
+[[test]]
+
+name = "lib"
+harness = true
+
+[[bench]]
+
+name = "bin"
+harness = false

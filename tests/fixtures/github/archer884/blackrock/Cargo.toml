@@ -1,0 +1,23 @@
+[package]
+name = "blackrock"
+version = "0.2.0"
+authors = ["J/A <archer884@gmail.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/archer884/blackrock"
+homepage = "https://github.com/archer884/blackrock"
+keywords = ["video", "youtube"]
+categories = ["multimedia::video"]
+readme = "README.md"
+description = """
+Bitreel-based video downloader.
+"""
+
+[[bin]]
+bench = false
+path = "src/main.rs"
+name = "brd"
+
+[dependencies]
+bitreel = "0.2"
+clap = "2.25"
+reqwest = "0.7"

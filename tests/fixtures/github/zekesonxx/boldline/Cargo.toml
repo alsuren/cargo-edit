@@ -1,0 +1,19 @@
+[package]
+authors = ["Zeke Sonxx <zeke@zekesonxx.com>"]
+name = "boldline"
+version = "0.1.1"
+description = "Small utility to generate a bold line in a repeated line of text"
+license = "Apache-2.0"
+repository = "https://github.com/zekesonxx/boldline"
+exclude = ["README.md"]
+
+[[bin]]
+doc = false
+name = "boldline"
+
+[dependencies]
+clap = { version = "2.11.3", features = ["unstable"] }
+
+[profile.release]
+lto = true
+panic = 'abort'

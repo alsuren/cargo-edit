@@ -1,0 +1,20 @@
+[package]
+name = "uncon"
+readme = "README.md"
+version = "1.1.0"
+authors = ["Nikolai Vazquez"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/nvzqz/uncon-rs"
+categories = ["no-std"]
+keywords = ["unchecked", "unsafe", "convert"]
+description = "Traits for unchecked conversions between types."
+include = ["Cargo.toml", "src/**/*.rs", "README.md", "CHANGELOG.md", "LICENSE*"]
+
+[badges]
+travis-ci = { repository = "nvzqz/uncon-rs" }
+
+[features]
+default = ["std"]
+nightly = ["alloc"]
+alloc = []
+std = []

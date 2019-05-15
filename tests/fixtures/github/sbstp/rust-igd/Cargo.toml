@@ -1,0 +1,52 @@
+[package]
+name = "igd"
+version = "0.8.2"
+authors = ["Simon Bernier St-Pierre <sbernierstpierre@gmail.com>"]
+description = "Internet Gateway Protocol client"
+homepage = "https://github.com/sbstp/rust-igd"
+repository = "https://github.com/sbstp/rust-igd"
+documentation = "https://docs.rs/igd/"
+readme = "README.md"
+keywords = ["igd", "upnp"]
+license = "MIT"
+
+[dependencies]
+xmltree = "0.8"
+rand = "0.4"
+attohttpc = { version = "0.4", default-features = false }
+url = "1"
+futures = { version = "0.1", optional = true }
+tokio-core = { version = "0.1", optional = true }
+tokio-timer = { version = "0.1", optional = true }
+tokio-retry = { version = "0.1", optional = true }
+
+[dependencies.hyper]
+version = "0.11"
+default-features = false
+optional = true
+
+[features]
+default = []
+async = ["futures", "tokio-core", "tokio-timer", "tokio-retry", "hyper"]
+
+[[example]]
+name = "add_any_port"
+
+[[example]]
+name = "add_port"
+
+[[example]]
+name = "add_remove"
+
+[[example]]
+name = "async"
+required-features = ["async"]
+
+[[example]]
+name = "external_ip"
+
+[[example]]
+name = "remove_port"
+
+[package.metadata.docs.rs]
+all-features = true

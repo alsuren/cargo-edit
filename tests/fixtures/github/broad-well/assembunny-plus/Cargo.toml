@@ -1,0 +1,18 @@
+[package]
+name = "assembunny_plus"
+version = "0.0.3"
+authors = ["broad-well <michael@mcmoo.org>"]
+description = "A compiler/interpreter of a language that's extended from the Assembunny concept introduced in Advent of Code 2016"
+repository = "https://github.com/broad-well/assembunny-plus"
+documentation = "https://github.com/broad-well/assembunny-plus/tree/master/doc/spec.md"
+license = "Unlicense"
+keywords = ["aoc2016", "language", "compiler", "interpreter"]
+
+[dependencies]
+lazy_static = "0.1.*"
+maplit = "0.1.4"
+clap = "~2.19.0"
+regex = "0.2.1"
+ansi_term = "0.9.0"
+byteorder = "1.0.0"
+enum_primitive = "0.1.1"

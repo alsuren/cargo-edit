@@ -1,0 +1,19 @@
+[package]
+
+name = "rustspec"
+version = "0.1.16"
+authors = ["Unai Orbe <unai@orbe.me>"]
+description = "BDD style test library"
+keywords = ["testing", "bdd", "expect", "describe"]
+license = "MIT"
+homepage = "https://github.com/uorbe001/rustspec"
+repository = "https://github.com/uorbe001/rustspec"
+readme = "Readme.md"
+
+[dependencies]
+rustspec_assertions = "~0.1.0"
+
+[lib]
+name = "rustspec"
+path = "src/rustspec/lib.rs"
+crate_type = ["dylib"]

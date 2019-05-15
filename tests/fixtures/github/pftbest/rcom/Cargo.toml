@@ -1,0 +1,17 @@
+[package]
+name = "rcom"
+version = "0.1.1"
+authors = ["Vadzim Dambrouski <vadzim.dambrouski@promwad.com>"]
+description = "A communication program for accessing serial ports"
+repository = "https://github.com/pftbest/rcom"
+readme = "README.md"
+keywords = ["serial", "minicom"]
+categories = ["command-line-utilities"]
+license = "MIT"
+
+[dependencies]
+clap = "2.24"
+mio = "0.6"
+serial = "0.3"
+termios = "0.2"
+time = "0.1"

@@ -1,0 +1,27 @@
+[package]
+name = "hawktracer-converter"
+version = "0.0.1"
+authors = ["Marcin Kolny <marcin.kolny@gmail.com>"]
+description = "Converts HawkTracer output format to human-readable/well-known trace event viewers format"
+edition = "2018"
+license = "MIT"
+maintenance = { status = "actively-developed" }
+homepage = "https://www.hawktracer.org"
+repository = "https://github.com/loganek/hawktracer-converter"
+
+travis-ci = { repository = "loganek/hawktracer-converter" }
+
+[lib]
+name = "hawktracer_converter_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hawktracer-converter"
+path = "src/main.rs"
+
+[dependencies]
+hawktracer-parser = "0.2.2"
+clap = "2.32.0"
+chrono = "0.4.6"
+indicatif = "0.11.0"
+ctrlc = "3.1.1"

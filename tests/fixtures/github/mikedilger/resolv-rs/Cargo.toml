@@ -1,0 +1,18 @@
+[package]
+name = "resolv"
+version = "0.1.4"
+authors = ["Mike Dilger <mike@optcomp.nz>"]
+license = "MIT/Apache-2.0"
+keywords = ["resolv", "dns"]
+readme = "README.md"
+repository = "https://github.com/mikedilger/resolv-rs"
+homepage = "https://github.com/mikedilger/resolv-rs"
+documentation = "https://mikedilger.github.io/resolv-rs"
+description = """
+DNS resolution via glibc
+"""
+
+[dependencies]
+libc = "0.2"
+libresolv-sys = { path = "libresolv-sys", version = "0.1.0" }
+byteorder = "1.0"

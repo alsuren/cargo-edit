@@ -1,0 +1,15 @@
+[package]
+name = "asprim"
+version = "0.2.0"
+authors = ["bluss"]
+license = "MIT/Apache-2.0"
+
+description = "Cast any primitive numeric type to any other using `as` with the AsPrim trait."
+
+repository = "https://github.com/bluss/asprim"
+documentation = "https://docs.rs/asprim/"
+
+keywords = ["cast", "numerics", "no_std"]
+
+[package.metadata.release]
+no-dev-version = true

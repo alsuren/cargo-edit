@@ -1,0 +1,21 @@
+[package]
+authors = ['Jerahmeel Cosinas <me@jerahmeelcosinas.net>']
+name = 'calcver_example'
+description = 'An example crate'
+documentation = 'https://github.com/easy-semver/calcver-example-rs'
+license = 'Apache-2.0'
+repository = 'https://github.com/easy-semver/calcver-example-rs'
+version = '0.0.0'
+
+
+[lib]
+name = 'calcver_example'
+path = 'src/lib.rs'
+
+[[bin]]
+name = 'calcver_example'
+path = 'src/bin.rs'
+
+[badges]
+travis-ci = { repository = "easy-semver/calcver-example-rs" }
+maintenance = { status = "none" }

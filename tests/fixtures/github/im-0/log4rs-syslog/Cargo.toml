@@ -1,0 +1,34 @@
+[package]
+name = "log4rs-syslog"
+description = "Syslog appender for log4rs based on libc's syslog() function (*nix only)"
+version = "3.0.0"
+authors = ["Ivan Mironov <mironov.ivan@gmail.com>"]
+license = "MIT/Apache-2.0"
+keywords = ["logger", "log", "logging", "nix", "syslog"]
+categories = ["os::unix-apis"]
+publish = false
+repository = "https://github.com/im-0/log4rs-syslog"
+documentation = "https://docs.rs/crate/log4rs-syslog"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "im-0/log4rs-syslog", branch = "master" }
+
+[features]
+default = ["file"]
+file = ["log4rs/file", "log/serde", "serde", "serde_derive"]
+unstable = []
+
+[dependencies]
+bitflags = { version = "*", default_features = false }
+lazy_static = { version = "*", default_features = false }
+libc = { version = "*", default_features = false }
+log = { version = "*", default_features = false }
+log4rs = { version = "*", default_features = false, features = ["pattern_encoder"] }
+serde = { version = "*", default_features = false, optional = true }
+serde_derive = { version = "*", default_features = false, optional = true }
+
+[dev-dependencies]
+glob = { version = "*", default_features = false }
+tempfile = { version = "*", default_features = false }
+which = { version = "*", default_features = false }

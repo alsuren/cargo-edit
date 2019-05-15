@@ -1,0 +1,19 @@
+[package]
+name = "ralf"
+version = "0.1.1"
+authors = ["Germain <germain.gau@gmail.com>"]
+repository = "https://github.com/Xide/ralf.git"
+homepage = "https://github.com/Xide/ralf.git"
+license = "MIT"
+readme = "README.md"
+documentation = "https://xide.github.io/ralf"
+description = "Distributed state machine built on top of raft-rs"
+
+
+[dependencies]
+raft = "0.1.0"
+log = "0.4"
+
+[badges]
+travis-ci = { repository = "Xide/ralf", branch = "master" }
+coveralls = { repository = "Xide/ralf", branch = "master", service = "github" }

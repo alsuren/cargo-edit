@@ -1,0 +1,15 @@
+[package]
+
+name = "hkt"
+version = "0.0.3"
+authors = ["Darin Morrison <darinmorrison+rust@gmail.com>"]
+description = "Simulated higher-kinded types for Rust"
+documentation = "http://darinmorrison.github.io/hkt.rs/doc/hkt/"
+keywords = ["higher-kinded-types"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/darinmorrison/hkt.rs"
+
+[dependencies]
+
+shoggoth = "*"

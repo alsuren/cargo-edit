@@ -1,0 +1,40 @@
+[package]
+name = "neovim-ctrl"
+version = "0.1.0"
+edition = "2018"
+authors = ["Daniel Mueller <deso@posteo.net>"]
+license = "GPL-3.0-or-later"
+homepage = "https://github.com/d-e-s-o/neovim-ctrl"
+repository = "https://github.com/d-e-s-o/neovim-ctrl.git"
+readme = "README.md"
+categories = [
+  "command-line-utilities",
+  "text-editors",
+  "development-tools",
+  "os::unix-apis",
+]
+keywords = ["neovim", "tmux", "linux", "proc", "procfs"]
+description = """
+A program for controlling with a Neovim instance, typically from a tmux
+environment.
+"""
+
+[badges]
+gitlab = { repository = "d-e-s-o/neovim-ctrl", branch = "master" }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+incremental = false
+panic = "abort"
+
+[[bin]]
+name = "nvim-ctrl"
+path = "src/main.rs"
+
+[dependencies.libc]
+version = "0.2"
+
+[dependencies.neovim-lib]
+version = "0.6"

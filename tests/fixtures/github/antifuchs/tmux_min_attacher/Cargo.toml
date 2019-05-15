@@ -1,0 +1,17 @@
+[package]
+
+name = "tmux_min_attacher"
+version = "1.0.0"
+authors = ["Andreas Fuchs <asf@boinkor.net>"]
+license = "MIT"
+description = "A tool that re-attaches you to the lowest detached TMUX session number"
+repository = "https://github.com/antifuchs/tmux_min_attacher"
+
+keywords = ["tmux", "terminal"]
+
+[badges]
+circle-ci = { repository = "antifuchs/ssh_bookmarker", branch = "master" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+nix = "0.5.0"

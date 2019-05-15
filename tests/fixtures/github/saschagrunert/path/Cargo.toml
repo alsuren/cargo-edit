@@ -1,0 +1,23 @@
+[package]
+name = "path"
+version = "0.8.2"
+authors = ["Sascha Grunert <mail@saschagrunert.de>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["connection", "tracking", "trace", "identification"]
+repository = "https://github.com/saschagrunert/path"
+homepage = "https://github.com/saschagrunert/path"
+documentation = "https://docs.rs/path"
+description = "IP based connection identification and tracing"
+categories = ["network-programming"]
+
+[badges]
+travis-ci = { repository = "saschagrunert/path", branch = "master" }
+appveyor = { repository = "saschagrunert/path", branch = "master", service = "github" }
+
+[dependencies]
+fnv = "1"
+linked-hash-map = "0.5"
+log = "0.3"
+mowl = "1"
+time = "0.1"

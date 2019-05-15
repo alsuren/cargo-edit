@@ -1,0 +1,30 @@
+[package]
+name = "pmem"
+version = "0.1.0"
+authors = ["Ignacio Corderi <icorderi@msn.com>"]
+license = "MIT/Apache-2.0"
+
+keywords = ["libpmem", "memory", "nvm", "nvml", "pmemio"]
+description = """
+Rust abstractions over the NVM Library http://pmem.io
+"""
+
+repository = "https://github.com/icorderi/rust-pmem"
+homepage = "https://github.com/icorderi/rust-pmem"
+documentation = "https://icorderi.github.io/rust-pmem/index.html"
+
+[dependencies]
+pmem-sys = { path = "sys/pmem-sys", version = "0.0" }
+libc = "0.2"
+bitflags = "0.7"
+
+[workspace]
+members = [
+  "pmem-obj",
+  "pmem-log",
+  "pmem-blk",
+  "sys/pmem-sys",
+  "sys/pmemobj-sys",
+  "sys/pmemlog-sys",
+  "sys/pmemblk-sys",
+]

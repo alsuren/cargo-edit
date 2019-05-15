@@ -1,0 +1,28 @@
+[package]
+authors = [
+  "Jeff Smits <jeff.smits@gmail.com>",
+  "Andrew Gallant <jamslam@gmail.com>",
+]
+name = "cargo-benchcmp"
+version = "0.4.2"  #:version
+description = "A utility for comparing Rust micro-benchmark output."
+homepage = "https://github.com/BurntSushi/cargo-benchcmp"
+repository = "https://github.com/BurntSushi/cargo-benchcmp"
+readme = "README.md"
+keywords = ["benchmark", "compare", "bench", "micro"]
+license = "Unlicense/MIT"
+
+[dependencies]
+docopt = "1"
+lazy_static = "1"
+regex = "1"
+serde = "1.0"
+serde_derive = "1.0"
+
+[dependencies.prettytable-rs]
+version = "0.6.6"
+default-features = false # Don't use crlf on windows
+
+[dev-dependencies]
+quickcheck = "0.8"
+rand = "0.6"

@@ -1,0 +1,18 @@
+[package]
+
+name = "ferrum-plugin"
+version = "0.3.0"
+authors = [
+    "Jonathan Reem <jonathan.reem@gmail.com>",
+    "Matthew Dawson <github_public@mjdsystems.ca>",
+    "Alexander Meshcheryakov <freecoder.xx@gmail.com>"
+]
+description = "Lazily evaluated, order-independent plugins for extensible types."
+repository = "https://github.com/ferrum-rs/ferrum-plugin"
+license = "MIT"
+
+[dependencies]
+unsafe-any = "0.4"
+
+[dev-dependencies]
+void = "1.0"

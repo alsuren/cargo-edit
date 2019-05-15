@@ -1,0 +1,22 @@
+[package]
+name = "approvals"
+version = "0.0.7"
+authors = ["alekspak <alekspak@icloud.com>"]
+
+description = "A simple library allowing to compare strings in unit-tests. Currently in development stage and not usable."
+
+homepage = "https://github.com/aleksandrpak/approvals"
+documentation = "https://github.com/aleksandrpak/approvals"
+repository = "https://github.com/aleksandrpak/approvals"
+
+license = "MIT OR Apache-2.0"
+
+exclude = [
+    ".travis.yml",
+    ".appveyor.yml",
+    ".appveyor.bat"
+]
+
+[dependencies]
+backtrace = "0.1"
+

@@ -1,0 +1,17 @@
+[package]
+name = "nfd-sys"
+description = "Low-level Rust bindings to nativefiledialog"
+license = "MIT"
+repository = "https://github.com/izgzhen/nfd-sys"
+version = "0.1.5"
+authors = ["Zhen Zhang <izgzhen@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.0"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+gtk = "0.0.7"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+cocoa = "0.2.5"

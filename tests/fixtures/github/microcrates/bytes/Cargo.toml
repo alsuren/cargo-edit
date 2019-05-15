@@ -1,0 +1,37 @@
+[package]
+
+name          = "microcrates-bytes"
+version       = "0.4.8" # don't forget to update html_root_url
+license       = "MIT/Apache-2.0"
+authors       = ["Carl Lerche <me@carllerche.com>"]
+description   = "Types and traits for working with bytes (with no_std support by default)"
+documentation = "https://docs.rs/microcrates-bytes"
+homepage      = "https://github.com/microcrates/bytes"
+repository    = "https://github.com/microcrates/bytes"
+readme        = "README.md"
+keywords      = ["buffers", "zero-copy", "io", "no-std"]
+exclude       = [
+    ".gitignore",
+    ".travis.yml",
+    "deploy.sh",
+    "bench/**/*",
+    "test/**/*"
+]
+categories = ["network-programming", "data-structures", "no-std"]
+
+[dependencies]
+byteorder = "1.0.0"
+serde = { version = "1.0", optional = true }
+
+[dependencies.iovec]
+version = "0.1"
+optional = true
+
+[dev-dependencies]
+serde_test = "1.0"
+
+[features]
+alloc = []
+default = ["nightly"]
+nightly = ["alloc"]
+std = ["alloc", "iovec"]

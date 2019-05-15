@@ -1,0 +1,14 @@
+[package]
+name = "matrix_display"
+description = "A library to display a matrix in command line with pretty unicode separators"
+version = "1.0.0"
+authors = ["Pierre Chevalier <pierrechevalier83@gmail.com>"]
+license = "MIT"
+documentation = "https://pierrechevalier83.github.io/matrix_display/"
+repository = "https://github.com/pierrechevalier83/matrix_display"
+edition = "2018"
+
+[dependencies]
+ansi_term= "0.11.0"
+unicode-width= "0.1.5"
+unicode_types = "0.2.0"

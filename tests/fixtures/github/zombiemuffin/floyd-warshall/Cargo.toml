@@ -1,0 +1,18 @@
+[package]
+name = "floyd-warshall"
+version = "0.0.3"
+authors = ["Marvin Böcker <marvin.boecker@tu-dortmund.de>"]
+
+description = "Efficient all-pairs-shortest-paths algorithm for the petgraph library using the floyd-warshall algorithm."
+repository = "https://github.com/zombiemuffin/floyd-warshall/"
+documentation = "https://docs.rs/floyd-warshall"
+readme = "README.md"
+keywords = ["floyd", "warshall", "graph", "petgraph", "asap"]
+license = "MIT"
+
+[dependencies]
+petgraph = "0.4.10"
+
+[dev-dependencies]
+rand = "0.3.17"
+text_io = "0.1.6"

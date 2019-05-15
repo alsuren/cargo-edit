@@ -1,0 +1,13 @@
+[package]
+name = "net-literals"
+version = "0.1.1"
+authors = ["Andrew Cann <shum@canndrew.org>"]
+description = "Literals for IP/socket addresses"
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/canndrew/net-literals"
+
+[dependencies]
+proc-macro-hack = "0.4"
+net-literals-impl = { version = "0.1.0", path = "./net-literals-impl" }
+

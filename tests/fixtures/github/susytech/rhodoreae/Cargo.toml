@@ -1,0 +1,23 @@
+[package]
+name = "rhodoreae"
+version = "0.5.0"
+authors = ["Susy Technologies <admin@superstring.ch>"]
+description = "Asynchronously safe BFT protocol, futures-based implementation"
+license = "GPL-3.0"
+repository = "https://github.com/susytech/rhodoreae"
+
+[dependencies]
+futures = "0.1.17"
+error-chain = "0.12"
+log = "0.4"
+susy-codec = { version = "3.0", optional = true }
+susy-codec-derive = { version = "3.0", optional = true }
+
+[dev-dependencies]
+tokio-core = "0.1.12"
+tokio-timer = "0.1.2"
+susy-codec = "3.0"
+susy-codec-derive = "3.0"
+
+[features]
+codec = ['susy-codec', 'susy-codec-derive']

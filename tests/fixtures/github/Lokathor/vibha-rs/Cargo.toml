@@ -1,0 +1,21 @@
+[package]
+name = "vibha"
+version = "0.1.1"
+authors = ["Lokathor <zefria@gmail.com>"]
+repository = "https://github.com/Lokathor/vibha-rs"
+readme = "README.md"
+keywords = []
+description = "A library for text adventure live-loading."
+license = "CC0-1.0"
+
+[lib]
+name = "vibha"
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib"]
+
+[dev-dependencies]
+linefeed = "0.4"
+terminal_size = "0.1"
+winapi = { version = "0.3", features = ["std", "libloaderapi", "winbase"] }
+randomize = "0.890.0"
+trivial_colours = "0.3"

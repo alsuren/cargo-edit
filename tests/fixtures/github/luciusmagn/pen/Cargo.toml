@@ -1,0 +1,21 @@
+[package]
+name = "pen"
+version = "0.1.0"
+authors = ["Shipeng Feng <fsp261@gmail.com>", "Pyry Kontio <pyry.kontio@drasa.eu>", "Lukáš Hozda <luk.hozda@gmail.com>"]
+keywords = ["web", "framework", "server", "http"]
+license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/luciusmagn/pen"
+homepage = "https://github.com/luciusmagnn/pen"
+description = "A micro web framework for Rust. (A different fork of a very light fork of a Pencil fork)"
+categories = ["web-programming::http-server"]
+
+[dependencies]
+regex = "0.2.2"
+url = "1.5.1"
+typemap = "0.3.3"
+mime = "0.3.5"
+mime_guess = "1.8.2"
+hyper = "0.10"
+formdata = "0.12.2"
+lazycell = "0.5.1"

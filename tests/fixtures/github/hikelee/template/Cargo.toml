@@ -1,0 +1,13 @@
+[package]
+name = "template"
+version = "0.1.0"
+authors = ["Hike Li <hikelee@gmail.com>"]
+description = "rust template"
+repository = "https://github.com/hikelee/template"
+license = "MIT"
+
+[dependencies]
+rustc-serialize="0.3"
+handlebars="0.20"
+notify = "2.6"
+log="0.3"

@@ -1,0 +1,14 @@
+[package]
+name = "monotonic_solver"
+version = "0.2.1"
+authors = ["Sven Nilsen <bvssvni@gmail.com>"]
+keywords = ["monotonic", "solver", "theorem", "proving", "reasoning"]
+description = "A monotonic solver designed to be easy to use with Rust enum expressions"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/advancedresearch/monotonic_solver.git"
+homepage = "https://github.com/advancedresearch/monotonic_solver"
+documentation = "https://docs.rs/monotonic_solver"
+categories = ["algorithms", "science"]
+
+[dependencies]

@@ -1,0 +1,37 @@
+[package]
+name = "rayon_logs"
+version = "0.1.2"
+authors = ["frederic wagner <frederic.wagner@imag.fr>", "Quentin Guilloteau <quentin.guilloteau@grenoble-inp.org>"]
+description = "Traces for the rayon work-stealing library"
+license = "Apache-2.0/MIT"
+repository = "https://github.com/wagnerf42/rayon-logs"
+readme = "README.md"
+keywords = ["parallel", "thread", "concurrency", "join", "performance"]
+categories = ["concurrency"]
+edition = "2018"
+
+[profile.release]
+debug = true
+
+[features]
+# enable this to bind using thread_binder
+bind = ["thread_binder"]
+
+[target.bind.dependencies]
+thread_binder={git="https://github.com/wagnerf42/thread_binder", optional=true}
+# thread_binder={version="*", optional=true}
+
+[dependencies]
+rayon="^1"
+time="^0"
+serde="^1"
+serde_json="^1"
+serde_derive="^1"
+itertools="^0"
+rand="^0"
+libc="^0.2"
+# thread_binder={version="*", optional=true}
+thread_binder={git="https://github.com/wagnerf42/thread_binder", optional=true}
+
+[dev-dependencies]
+criterion="^0.2"

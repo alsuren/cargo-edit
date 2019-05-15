@@ -1,0 +1,35 @@
+[package]
+authors = ["Marcin S. <scatman@bu.edu>"]
+description = "A WIP roguelike game being developed in Rust."
+license = "MIT"
+name = "taurus"
+readme = "README.md"
+repository = "https://github.com/m-cat/taurus"
+version = "0.1.1"
+
+edition = "2018"
+
+[[bin]]
+name = "taurus"
+path = "src/bin/main.rs"
+
+[dependencies]
+failure = "0.1"
+flame = { version = "0.1.9", optional = true }
+flamer = { version = "0.2.0", optional = true }
+lazy_static = "1.0"
+num = "0.2"
+num-traits = "0.2"
+over = "0.6.4"
+rand = "0.4"
+tcod = "0.13"
+
+[features]
+default = []
+dev = ["flame", "flamer"]
+
+[profile.dev]
+codegen-units = 4
+
+[profile.release]
+# lto = true # TODO: Check if setting this makes the code faster.

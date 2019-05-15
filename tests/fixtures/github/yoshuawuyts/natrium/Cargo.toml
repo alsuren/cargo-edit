@@ -1,0 +1,15 @@
+[package]
+name = "natrium"
+version = "0.2.1-alpha.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yoshuawuyts/natrium"
+documentation = "https://docs.rs/natrium"
+description = "Cryptography lib"
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+readme = "README.md"
+
+[dependencies]
+byteorder = "1.2.3"
+failure = "0.1.1"
+
+[dev-dependencies]

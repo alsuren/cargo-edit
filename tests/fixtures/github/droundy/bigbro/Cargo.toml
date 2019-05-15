@@ -1,0 +1,62 @@
+[package]
+name = "bigbro"
+version = "0.5.0"
+authors = ["David Roundy <daveroundy@gmail.com>"]
+
+description = "Library for tracking file accesses of processes"
+license = "GPL-2.0+"
+repository = "https://github.com/droundy/bigbro"
+homepage = "https://facio.gitlab.io/bigbro"
+
+[badges]
+gitlab = { repository = "facio/bigbro", branch = "master" }
+travis-ci = { repository = "droundy/bigbro", branch = "master" }
+appveyor = { repository = "droundy/bigbro", branch = "master", service = "github"}
+
+[lib]
+name = "bigbro"
+path = "src/lib.rs"
+
+[[bin]]
+name = "test-bigbro"
+path = "src/bin.rs"
+
+[[bin]]
+name = "test-bigbro-twostep"
+path = "src/twostep.rs"
+
+[[bin]]
+name = "test-bigbro-chan"
+path = "src/test-chan.rs"
+
+[[bin]]
+name = "test-bigbro-scaling"
+path = "src/test-scaling.rs"
+
+[[bin]]
+name = "echo"
+path = "src/bin/echo.rs"
+[[bin]]
+name = "false"
+path = "src/bin/false.rs"
+[[bin]]
+name = "ls"
+path = "src/bin/ls.rs"
+[[bin]]
+name = "touch"
+path = "src/bin/touch.rs"
+
+[dependencies]
+
+libc = "^0.2"
+cpuprofiler = { version = "^0.0.3", optional = true}
+
+[target.'cfg(target_os = "linux")'.dependencies]
+seccomp-droundy = "0.1"
+
+[features]
+# Treat warnings as a build error.
+strict = []
+
+# Use profiling
+noprofile = ["cpuprofiler"]

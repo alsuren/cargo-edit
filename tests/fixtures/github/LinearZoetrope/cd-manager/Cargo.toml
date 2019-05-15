@@ -1,0 +1,17 @@
+[package]
+name = "cd-manager"
+description = "A small crate for ensuring directories are popped to restore a base directory on Drop."
+version = "0.1.1"
+authors = ["Zoe Juozapaitis <Jragonmiris@gmail.com>"]
+readme = "README.md"
+keywords = ["cd", "pathbuf", "fs", "filesystem", "directory"]
+categories = ["filesystem"]
+license="MIT AND Apache-2.0"
+repository="https://github.com/Zaerei/cd-manager"
+
+
+[badges]
+travis-ci = { repository = "Zaerei/cd-manager" }
+
+[dependencies]
+failure = "0.1.2"

@@ -1,0 +1,72 @@
+# Cargo.toml -- Cargo definition file for Tectonic.
+# Copyright 2016-2019 the Tectonic Project
+# Licensed under the MIT License.
+
+[package]
+name = "tectonic"
+version = "0.1.12-dev"
+authors = ["Peter Williams <peter@newton.cx>"]
+build = "build.rs"
+description = """
+A modernized, complete, embeddable TeX/LaTeX engine. Tectonic is forked from the XeTeX
+extension to the classic “Web2C” implementation of TeX and uses the TeXLive distribution
+of support files.
+"""
+homepage = "https://tectonic-typesetting.github.io/"
+documentation = "https://docs.rs/tectonic"
+repository = "https://github.com/tectonic-typesetting/tectonic/"
+readme = "README.md"
+keywords = ["tex", "latex", "typesetting", "font"]
+categories = ["command-line-interface", "parser-implementations", "rendering", "science", "text-processing"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "tectonic-typesetting/tectonic" }
+codecov = { repository = "tectonic-typesetting/tectonic", service = "github" }
+
+[workspace]
+members = ["xdv"]
+
+[lib]
+name = "tectonic"
+crate-type = ["rlib"]
+
+[build-dependencies]
+cc = "^1.0"
+pkg-config = "^0.3"  # note: sync dist/docker/*/pkg-config-rs.sh with the version in Cargo.lock
+regex = "^1.1"
+sha2 = "^0.8"
+
+[dependencies]
+aho-corasick = "^0.7"
+app_dirs = "^1.1"
+clap = "^2.33"
+error-chain = "^0.12"
+flate2 = "^1.0"
+fs2 = "^0.4"
+hyper = "^0.10"
+hyper-native-tls = "^0.3"
+lazy_static = "^1.2"
+libc = "^0.2"
+tempfile = "^3.0"
+md-5 = "^0.8"
+sha2 = "^0.8"
+serde = { version = "^1.0", features = ["derive"], optional = true }
+tectonic_xdv = { path = "xdv", version = "0.1.9-dev" }
+termcolor = "^1.0"
+toml = "^0.5"
+zip = "^0.5"
+
+[features]
+default = ["serialization"]
+# Note: we used to have this to couple "serde" and "serde-derive", but we've
+# adopted the newer scheme to avoid having to depend on both -- should maybe
+# just get rid of this feature:
+serialization = ["serde"]
+
+# freetype-sys = "^0.4"
+# harfbuzz-sys = "^0.1"
+# libz-sys = "^1.0"
+
+[dev-dependencies]
+tempdir = "^0.3"

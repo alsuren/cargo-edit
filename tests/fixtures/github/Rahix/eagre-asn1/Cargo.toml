@@ -1,0 +1,15 @@
+[package]
+name = "eagre-asn1"
+version = "0.3.0"
+authors = ["Rahix <rahix@rahix.de>"]
+description = "A asn1 library, currently only supporting DER"
+documentation = "https://docs.rs/crate/eagre-asn1"
+homepage = "https://github.com/Rahix/eagre-asn1"
+repository = "https://github.com/Rahix/eagre-asn1"
+readme = "README.md"
+keywords = ["asn1", "der", "serialization"]
+license = "MIT/Apache-2.0"
+
+
+[dependencies]
+byteorder = "0.4.2"

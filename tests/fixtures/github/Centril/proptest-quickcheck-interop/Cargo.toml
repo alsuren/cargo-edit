@@ -1,0 +1,20 @@
+[package]
+name          = "proptest-quickcheck-interop"
+version       = "2.0.0"
+authors       = ["Mazdak Farrokhzad <twingoow@gmail.com>"]
+license       = "MIT/Apache-2.0"
+readme        = "README.md"
+
+repository    = "https://github.com/Centril/proptest-quickcheck-interop"
+documentation = "https://docs.rs/proptest-quickcheck-interop"
+
+keywords      = ["property", "testing", "quickcheck", "hypothesis"]
+categories    = ["development-tools::testing"]
+
+description = """
+Provides an interoperability layer for reuse of quickcheck::Arbitrary impls in proptest
+"""
+
+[dependencies]
+proptest   = "0.4.1"
+quickcheck = "0.6.0"

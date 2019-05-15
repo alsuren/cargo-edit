@@ -1,0 +1,26 @@
+[package]
+name = "nuklear-rust"
+version = "0.6.2"
+authors = ["Serhii Plyhun <snuk188@gmail.com>"]
+keywords = ["ui", "widgets", "gui", "interface", "graphics"]
+description = "Rust wrapper for Nuklear 2D GUI library (github.com/vurtun/nuklear)"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/snuk182/nuklear-rust.git"
+homepage = "https://github.com/snuk182/nuklear-rust"
+edition = "2018"
+
+[lib]
+name = "nuklear"
+path = "src/lib.rs"
+
+[dependencies]
+log = "~0.3"
+
+[features]
+default = []
+rust_allocator = []
+
+[dependencies.nuklear-sys]
+path = "nuklear-sys"
+version = "~4.0"

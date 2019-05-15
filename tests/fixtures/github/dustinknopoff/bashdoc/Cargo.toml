@@ -1,0 +1,33 @@
+[package]
+name = "bashdoc"
+version = "0.5.1"
+authors = ["Dustin Knopoff <dustinknopoff@gmail.com>"]
+description = """
+A tool for generating documentation/help menu for user defined bash functions.
+"""
+edition = "2018"
+homepage = "https://github.com/dustinknopoff/bashdoc"
+repository = "https://github.com/dustinknopoff/bashdoc"
+documentation = "https://docs.rs/crate/bashdoc"
+readme = "README.md"
+keywords = ["bash", "docs", "documentation"]
+categories = ["command-line-utilities", "text-processing"]
+license = "MIT"
+exclude = ["example/**", ".idea/**", "backdocrc.toml", ".clog.toml"]
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]
+colored = "1.7.0"
+dirs = "1.0.4"
+clap = { version = "2.32.0", features = ["yaml"] }
+glob = "0.2.11"
+rayon = "1.0.3"
+serde = { version = "1.0.87", features = ["derive"] }
+serde_json = "1.0.38"
+toml = "0.4.10"
+nom = "4.2.0"
+handlebars = "1.1.0"
+notify = "4.0.9"
+nom_locate = "0.3.1"

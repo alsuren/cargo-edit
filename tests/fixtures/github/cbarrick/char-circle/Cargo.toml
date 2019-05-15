@@ -1,0 +1,15 @@
+[package]
+name = "char-circle"
+description = "A circular buffer for strings and traits for in-place string transforms."
+version = "0.1.0"
+authors = ["Chris Barrick <cbarrick1@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+readme = "README.md"
+homepage = "https://github.com/cbarrick/char-circle"
+documentation = "https://docs.rs/char-circle"
+repository = "https://github.com/cbarrick/char-circle"
+
+keywords = ["circular", "buffer", "string", "in-place", "copy-on-write"]
+categories = ["data-structures", "parsing"]

@@ -1,0 +1,36 @@
+[package]
+name = "rusthesia"
+version = "0.1.17"
+authors = ["Jochen Kiemes <jochen@kiemes.de>"]
+edition = "2018"
+license = "MIT"
+description = "Reads midi files and create piano notes waterfall."
+homepage = "https://github.com/gin66/rusthesia"
+repository = "https://github.com/gin66/rusthesia"
+keywords = ["music", "midi", "piano", "learning", "sdl2"]
+readme = "README.md"
+documentation = "https://docs.rs/releases/search?query=rusthesia"
+
+[dependencies]
+midir = "0.5"
+midly = "0.1"
+clap = "2.32"
+indoc = "0.3"
+font-kit = "0.1"
+piano_keyboard = "0.2"
+sdl2_timing = { path = "./sdl2_timing" }
+
+# Dependencies for hacked stderrlog
+chrono = "0.4"
+termcolor = "0.3.3"
+thread_local = "0.3"
+
+[dependencies.sdl2]
+version = "0.31"
+default-features = false
+features = ["gfx","ttf"]
+
+[dependencies.log]
+version = "0.4"
+features = ["std"]
+

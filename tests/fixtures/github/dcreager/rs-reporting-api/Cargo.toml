@@ -1,0 +1,16 @@
+[package]
+name = "reporting-api"
+version = "0.3.1"
+description = "Reporting API and Network Error Logging"
+authors = ["Douglas Creager <dcreager@dcreager.net>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/dcreager/rs-reporting-api/"
+edition = "2018"
+
+[badges]
+travis-ci = { repository="dcreager/rs-reporting-api" }
+
+[dependencies]
+serde = { version="^1.0", features=["derive"] }
+serde_json = "^1.0"

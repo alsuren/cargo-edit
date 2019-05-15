@@ -1,0 +1,48 @@
+[package]
+name = "izanami"
+description = "An HTTP server implementation powered by hyper and tower-service."
+version = "0.1.0-preview.3"
+edition = "2018"
+authors = ["Yusuke Sasaki <yusuke.sasaki.nuem@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ubnt-intrepid/izanami.git"
+readme = "README.md"
+
+include = [
+  "/Cargo.toml",
+  "/src/**/*.rs",
+  "/tests/**/*.rs",
+]
+
+[dependencies]
+izanami-http = { version = "0.1.0-preview.1", path = "izanami-http" }
+izanami-server = { version = "0.1.0-preview.1", path = "izanami-server" }
+izanami-service = { version = "0.1.0-preview.1", path = "izanami-service" }
+izanami-util = { version = "0.1.0-preview.1", path = "izanami-util" }
+
+bytes = { version = "0.4", features = ["either"] }
+cookie2 = { version = "0.12", features = ["percent-encode"] }
+either = "1"
+failure = "0.1.5"
+futures = "0.1"
+http = "0.1"
+tokio = "0.1"
+tokio-buf = "0.1"
+tokio-executor = "0.1"
+tokio-threadpool = "0.1"
+
+[dev-dependencies]
+version-sync = "0.7"
+
+[dev-dependencies.cargo-husky]
+version = "1"
+default-features = false
+features = ["user-hooks"]
+
+[workspace]
+members = [
+  "izanami-http",
+  "izanami-service",
+  "izanami-server",
+  "izanami-util",
+]

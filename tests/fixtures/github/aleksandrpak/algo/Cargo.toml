@@ -1,0 +1,20 @@
+[package]
+name = "algo"
+version = "0.1.9"
+authors = ["Aleksandr Pak <alekspak@icloud.com>"]
+
+description = "Algorithms & Data Structure implementations"
+repository = "https://github.com/aleksandrpak/algo"
+
+license = "MIT OR Apache-2.0"
+
+readme = "README.md"
+
+keywords = ["algorithm"]
+
+exclude = [
+    ".travis.yml",
+    ".appveyor.yml",
+    ".appveyor.bat"
+]
+

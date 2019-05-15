@@ -1,0 +1,22 @@
+[package]
+name = "qcow2-fuse"
+version = "0.1.0"
+authors = ["Dave Vasilevsky <dave@vasilevsky.ca>"]
+description = "Mounting qcow2 virtual disk images"
+keywords = ["qcow2", "qemu", "disk", "fuse"]
+license = "MIT"
+documentation = "https://github.com/vasi/qcow2-fuse"
+repository = "https://github.com/vasi/qcow2-fuse"
+homepage = "https://github.com/vasi/qcow2-fuse"
+readme = "README.md"
+
+[dependencies]
+fuse = "0.2"
+time = "0.1.35"
+libc = "0.2.13"
+log = "0.3"
+env_logger = "0.3.4"
+daemonize = "0.2.2"
+positioned-io = "0.2.0"
+qcow2 = "0.1.2"
+getopts = "0.2.14"

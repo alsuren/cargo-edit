@@ -1,0 +1,11 @@
+[package]
+name = "aud"
+version = "0.1.3"
+authors = ["Heinz N. Gies <heinz@project-fifo.net>"]
+description = "A minimal implementation of Sagas"
+repository = "https://github.com/project-fifo/aud"
+keywords = ["saga", "transaction", "error-handling"]
+categories = ["algorithms"]
+license = "BSD-3-Clause"
+
+[dependencies]

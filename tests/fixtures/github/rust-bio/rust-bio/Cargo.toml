@@ -1,0 +1,57 @@
+[package]
+
+name = "bio"
+version = "0.26.2-alpha.0"
+authors = ["Johannes Köster <johannes.koester@tu-dortmund.de>"]
+description = "A bioinformatics library for Rust. This library provides implementations of many algorithms and data structures that are useful for bioinformatics, but also in other fields."
+homepage = "https://rust-bio.github.io"
+repository = "https://github.com/rust-bio/rust-bio"
+documentation = "https://docs.rs/bio"
+readme = "README.md"
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+
+
+[features]
+avx-accel = ["bytecount/avx-accel"]
+simd-accel = ["bytecount/simd-accel"]
+
+[dependencies]
+bytecount = "0.3.1"
+csv = "1.0.0-beta.5"
+num-traits = "0.2"
+num-integer = "0.1"
+itertools = "0.7"
+itertools-num = "0.1"
+bv = { version = "0.10", features = ["serde"] }
+bit-set = "0.5"
+ndarray= "0.12"
+lazy_static = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
+approx = "0.3"
+custom_derive = "0.1"
+newtype_derive = "0.1"
+ordered-float = "1.0"
+quick-error = "1.2"
+regex = "1.0"
+multimap = "0.4"
+fxhash = "0.2"
+statrs = "0.9.0"
+bio-types = ">=0.5.1"
+fnv = "1.0"
+strum = "0.13"
+strum_macros = "0.13"
+
+[dependencies.vec_map]
+version = "0.8"
+features = ["eders"]
+
+[dependencies.petgraph]
+version = "0.4"
+features = ["stable_graph"]
+
+[package.metadata.release]
+pre-release-commit-message = "release version {{version}}"
+tag-message = "Version {{version}} of Rust-Bio."

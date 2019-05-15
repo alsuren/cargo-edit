@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "akaze",
+    "akaze-util",
+]
+
+[profile.release]
+codegen-units = 1

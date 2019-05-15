@@ -1,0 +1,42 @@
+[package]
+name = "amethyst_tools"
+version = "0.7.6"
+authors = ["Eyal Kalderon <ebkalderon@gmail.com>"]
+description = "Game development tools for the Amethyst engine"
+keywords = ["game", "engine", "tool", "editor", "amethyst"]
+
+repository = "https://github.com/ebkalderon/amethyst_tools"
+
+readme = "README.md"
+license = "MIT/Apache-2.0"
+
+include = ["src/**", "templates/**", "Cargo.toml", "LICENSE-*", "README.md"]
+
+[lib]
+name = "amethyst_cli"
+path = "src/lib.rs"
+
+[[bin]]
+name = "amethyst"
+path = "src/main.rs"
+
+[dependencies]
+ansi_term = "0.11.0"
+clap = "2.32.0"
+env_proxy = "0.2.0"
+error-chain = "0.12.0"
+lazy_static = "1.1.0"
+liquid = "0.15.0"
+regex = "1.0.5"
+reqwest = "0.9.2"
+serde = "1.0.79"
+serde_derive = "1.0.79"
+serde_json = "1.0.31"
+walkdir = "2.2.5"
+
+[dependencies.semver]
+features = ["serde"]
+version = "0.9.0"
+
+[build-dependencies]
+ron = "0.4.0"

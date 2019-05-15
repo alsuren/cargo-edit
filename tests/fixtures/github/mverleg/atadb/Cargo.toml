@@ -1,0 +1,43 @@
+[package]
+name = "atadb"
+description = "atadb will be a simple but fast relational database that supports a subset of SQL"
+version = "0.2.0"
+authors = ["Mark <mverleg.noreply@gmail.com>"]
+repository = "https://github.com/mverleg/atadb"
+include = [
+    "**/*.rst",
+    "**/*.rs",
+    "Cargo.toml",
+]
+license = "Apache-2.0"
+
+[lib]
+name = "atadb"
+path = "src/lib.rs"
+
+[[bin]]
+# TODO change to atadb-cli if possible
+name = "atadb"
+path = "src/cli/main.rs"
+
+[[bin]]
+# TODO change to atadb-cli if possible
+name = "atadb-cli-daemon"
+path = "src/cli/daemon.rs"
+
+[[bin]]
+name = "atadb-planner"
+path = "src/planner/main.rs"
+
+[[bin]]
+name = "atadb-librarian"
+path = "src/librarian/main.rs"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+#sha2 = "0.7.1"  # has to be stable
+app_dirs = "1.2"
+log = "0.4"
+rand = "0.5"
+clap = "2.32"

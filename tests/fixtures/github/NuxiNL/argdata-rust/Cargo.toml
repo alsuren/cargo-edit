@@ -1,0 +1,18 @@
+[package]
+name = "argdata"
+description = "Argdata: A binary serialization format."
+version = "0.1.2"
+keywords = ["argdata", "cloudabi"]
+authors = ["Mara Bos <m-ou.se@m-ou.se>"]
+license = "BSD-2-Clause"
+repository = "https://github.com/NuxiNL/argdata-rust"
+edition = "2018"
+
+[dependencies]
+byteorder = { version = "1.2.3", features = ["i128"] }
+
+[features]
+nightly = []
+
+[badges]
+travis-ci = { repository = "NuxiNL/argdata-rust" }

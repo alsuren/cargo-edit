@@ -1,0 +1,23 @@
+[package]
+name = "selenium-rs"
+version = "0.1.1"
+authors = ["saresend <saresend@usc.edu>"]
+description = """
+selenium-rs is a client for the selenium webdriver spec (https://www.w3.org/TR/webdriver1/). It 
+is aimed to simplify behavior driven testing in rust, and for automating browser interaction. 
+"""
+documentation = "https://github.com/saresend/selenium-rs"
+homepage = "https://github.com/saresend/selenium-rs"
+repository = "https://github.com/saresend/selenium-rs"
+readme = "README.md"
+license = "MIT"
+keywords = ["selenium", "testing", "browser", "automation"]
+
+
+
+[dependencies]
+reqwest = "0.9.5"
+url = "1.7.1"
+serde = "1.0.71"
+serde_json = "1.0.26"
+serde_derive = "1.0.71"

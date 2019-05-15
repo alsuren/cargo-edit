@@ -1,0 +1,92 @@
+[package]
+name = "rustml"
+version = "0.0.7"
+authors = ["Daniel <git.daniele@gmail.com>"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/daniel-e/rustml"
+homepage = "http://daniel-e.github.io/rustml/rustml/"
+documentation = "http://daniel-e.github.io/rustml/rustml/"
+description = """
+A library for doing maching learning in Rust.
+"""
+build = "build.rs"
+
+# Currently we can only upload up to 10MB. So we need to remove
+# everything that is not required for building the library.
+exclude = [
+	"atlas/*",
+	"build/*",
+	"build_all.sh",
+	"build_examples.sh",
+	"build_tests",
+	"doc.sh",
+	"examples/*",
+	"datasets/*",
+	"prototyping/*",
+]
+
+[lib]
+name = "rustml"
+path = "src/lib.rs"
+
+[[example]]
+name = "vector_addition"
+path = "examples/vector_addition.rs"
+
+[[example]]
+name = "mnist_digits"
+path = "examples/mnist_digits.rs"
+
+[[example]]
+name = "matrix_multiplication"
+path = "examples/matrix_multiplication.rs"
+
+[[example]]
+name = "scale_matrix"
+path = "examples/scale_matrix.rs"
+
+[[example]]
+name = "video_histogram"
+path = "examples/video_histogram.rs"
+
+[[example]]
+name = "gradient_descent"
+path = "examples/gradient_descent.rs"
+
+[[example]]
+name = "octave_plot"
+path = "examples/octave_plot.rs"
+
+[[example]]
+name = "linear_regression"
+path = "examples/linear_regression.rs"
+
+[[example]]
+name = "image_grid"
+path = "examples/image_grid.rs"
+
+[[example]]
+name = "plots"
+path = "examples/plots.rs"
+
+[[example]]
+name = "neuralnetwork"
+path = "examples/neuralnetwork.rs"
+
+[[example]]
+name = "mnistdigits2matrix"
+path = "examples/mnistdigits2matrix.rs"
+
+[[example]]
+name = "opencv"
+path = "examples/opencv.rs"
+
+[dependencies]
+libc = "0.2.36"
+rand = "0.4.2"
+num = "0.1.41"
+flate2 = "0.2.20"
+time = "0.1.39"
+regex = "0.1.8"
+getopts = "0.2.17"

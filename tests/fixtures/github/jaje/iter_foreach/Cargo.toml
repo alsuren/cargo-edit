@@ -1,0 +1,10 @@
+[package]
+name = "foreach"
+version = "0.3.0"
+authors = ["Jan Jedelský <hjajet@gmail.com>"]
+repository = "https://github.com/jaje/iter_foreach"
+license = "MIT"
+description = "ForEach trait and for_each! macro allow you to use iterator inside iteration loop, which is not posible when using for-in loop."
+documentation = "https://docs.rs/foreach"
+
+[dependencies]

@@ -1,0 +1,17 @@
+[package]
+name = "scm"
+version = "0.0.4-pre"
+authors = ["Jason Ozias <jason.g.ozias@gmail.com>"]
+description = "Common SCM operations for use with Rust Builders"
+documentation = "http://rust-builder.github.io/scm"
+homepage = "http://rust-builder.github.io/scm"
+repository = "https://github.com/rust-builder/scm"
+readme = "README.md"
+license = "MIT"
+keywords = ["commandext","rub","scm"]
+
+[dependencies.commandext]
+git = "https://github.com/rust-builder/commandext.git"
+
+[lib]
+name = "scm"

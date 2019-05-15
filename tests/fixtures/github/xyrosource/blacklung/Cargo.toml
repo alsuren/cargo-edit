@@ -1,0 +1,25 @@
+[package]
+name = "blacklung"
+version = "0.0.1"
+authors = ["Michael Leandersson <tripokey@gmail.com>", "Niklas Thörne <notrupertthorne@gmail.com>"]
+build = "build.rs"
+
+description = "Minecraft server"
+repository = "https://github.com/xyrosource/blacklung"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+tokio-core = "0.1.4"
+futures = "0.1"
+rustyline = "1.0.0"
+docopt = "0.7"
+rustc-serialize = "0.3"
+slog = "1.5"
+slog-term = "1.5"
+toml = "0.3"
+serde = "0.9"
+serde_derive = "0.9"
+
+[dependencies.error-chain]
+version = "0.8.1"
+default-features = false

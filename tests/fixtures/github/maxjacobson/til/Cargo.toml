@@ -1,0 +1,14 @@
+[package]
+name = "til"
+version = "0.1.1"
+authors = ["Max Jacobson <max@hardscrabble.net>"]
+description = "CLI for storing TILs (today I learneds)"
+license = "MIT"
+homepage = "https://github.com/maxjacobson/til"
+repository = "https://github.com/maxjacobson/til"
+
+[dependencies]
+diesel = { version = "1.0.0", features = ["sqlite", "chrono"] }
+diesel_migrations = "1.1.0"
+xdg = "^2.1"
+chrono = "0.4"

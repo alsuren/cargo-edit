@@ -1,0 +1,21 @@
+[package]
+name = "time-tweet"
+version = "0.1.9"
+authors = ["kgtkr <kgtkr.jp@gmail.com>"]
+
+license = "AGPL-3.0"
+description = "正確な時間にツイート"
+repository = "https://github.com/kgtkr/time-tweet"
+readme = "README.md"
+keywords = ["twitter"]
+
+[dependencies]
+egg-mode = "0.12.0"
+clap = "2.29"
+tokio-core = "0.1"
+futures = "0.1.14"
+chrono = "0.4"
+cron = "0.6.0"
+iter-merge-sort = "0.1.1"
+error-chain = "0.11"
+time = "0.1.36"

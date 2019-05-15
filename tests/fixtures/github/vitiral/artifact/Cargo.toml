@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "artifact-ser",
+    "artifact-lib",
+    "artifact-data",
+    "artifact-app",
+    "artifact-frontend",
+    "artifact-test",
+]

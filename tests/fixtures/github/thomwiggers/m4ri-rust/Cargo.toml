@@ -1,0 +1,10 @@
+[workspace]
+members= [
+    "m4ri-sys",
+    "m4ri-rust",
+]
+
+
+[profile.release]
+opt-level = 3
+lto = true

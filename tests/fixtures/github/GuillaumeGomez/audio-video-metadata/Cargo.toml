@@ -1,0 +1,18 @@
+[package]
+name = "audio-video-metadata"
+version = "0.1.7"
+authors = [
+  "Guillaume Gomez <guillaume1.gomez@gmail.com>"
+]
+
+description = "Audio/Video metadata parser"
+repository = "https://github.com/GuillaumeGomez/audio-video-metadata"
+license = "MIT"
+
+[lib]
+name = "audio_video_metadata"
+
+[dependencies]
+ogg_metadata = "0.4"
+mp3-metadata = "0.3"
+mp4parse = "0.10"

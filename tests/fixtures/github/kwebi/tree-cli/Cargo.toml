@@ -1,0 +1,10 @@
+[package]
+name = "tree-cli"
+version = "0.1.1"
+authors = ["kwebi <1565718281@qq.com>"]
+edition = "2018"
+license = "MIT"
+description = "the unix tree command"
+repository = "https://github.com/kwebi/tree-cli"
+
+[dependencies]

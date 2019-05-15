@@ -1,0 +1,90 @@
+[package]
+name = "node-sys"
+version = "0.1.0"
+authors = ["Darin Morrison <freebroccolo@users.noreply.github.com>"]
+license = "(Apache-2.0 OR MIT)"
+readme = "README.md"
+categories = ["wasm"]
+repository = "https://github.com/freebroccolo/node-sys"
+description = """
+Raw bindings to the Node.js API for projects using wasm-bindgen.
+"""
+edition = "2018"
+
+[package.metadata.docs.rs]
+features = ['serde-serialize']
+
+[badges]
+maintenance = { status = "experimental" }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+assert = []
+async_hooks = []
+buffer = []
+child_process = []
+cluster = []
+console = []
+constants = []
+crypto = []
+dgram = []
+dns = []
+domain = []
+events = []
+fs = []
+http = []
+http2 = []
+https = []
+inspector = []
+module = []
+net = []
+os = []
+path = []
+perf_hook = []
+process = []
+punycode = []
+querystring = []
+readline = []
+repl = []
+stream = []
+string_decoder = []
+timers = []
+tls = []
+trace_events = []
+tty = []
+url = []
+util = []
+v8 = []
+vm = []
+worker_threads = []
+zlib = []
+
+[dependencies]
+serde = "1.0.91"
+serde_derive = "1.0.91"
+
+[dependencies.js-sys]
+version = "0.3.20"
+features = []
+
+[dependencies.web-sys]
+version = "0.3.20"
+features = []
+
+[dependencies.wasm-bindgen]
+version = "0.2.43"
+features = ["serde-serialize", "nightly", "strict-macro"]
+
+[dev-dependencies]
+wasm-bindgen-test = "0.2.43"
+
+[patch.crates-io.node-sys]
+path = "."
+
+[workspace]
+members = [
+  "examples/cwd"
+]

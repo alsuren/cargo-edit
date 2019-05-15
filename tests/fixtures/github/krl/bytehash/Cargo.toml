@@ -1,0 +1,12 @@
+[package]
+authors = ["Kristoffer Ström <kristoffer@rymdkoloni.se>"]
+description = "Trait abstracting over hash-functions, allowing digests to be viewed as byte slices."
+documentation = "https://docs.rs/bytehash"
+license = "MIT OR Apache-2.0"
+name = "bytehash"
+repository = "https://github.com/krl/bytehash"
+version = "3.0.0"
+
+[dependencies]
+blake2-rfc = "0.2.17"
+byteorder = "1.2.4"

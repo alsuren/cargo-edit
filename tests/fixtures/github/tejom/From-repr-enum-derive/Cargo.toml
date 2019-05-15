@@ -1,0 +1,21 @@
+[package]
+name = "from-repr-enum-derive"
+version = "0.1.2"
+authors = ["matthew <matthew.tejo@gmail.com>"]
+license = "MIT"
+description = "Derive From for an enum with a repr"
+repository = "https://github.com/tejom/From-repr-enum-derive"
+documentation = "https://github.com/tejom/From-repr-enum-derive"
+readme = "README.md"
+
+
+[dependencies]
+quote = "0.4.2"
+
+[dependencies.syn]
+version = "0.12.14"
+features = ["extra-traits"]
+
+[lib]
+proc-macro = true
+

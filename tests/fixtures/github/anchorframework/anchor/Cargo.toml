@@ -1,0 +1,14 @@
+[package]
+name = "anchor"
+version = "0.0.1"
+authors = ["Jay Nagpaul <hi@jaynagpaul.com>"]
+repository = "https://github.com/anchorframework/anchor"
+description = "TODO"
+readme = "README.md"
+keywords = ["web"]
+categories = ["web-programming"]
+license = "MIT"
+
+exclude = [".gitignore"]
+
+[dependencies]

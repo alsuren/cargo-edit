@@ -1,0 +1,12 @@
+[package]
+name = "milstian-internet-framework"
+version = "0.3.0"
+authors = ["Christian Johansson <christian@cvj.se>"]
+description = "My first experiment with a lightweight and dynamic internet application framework in Rust"
+license = "GPL-3.0-only"
+repository = "https://github.com/cjohansson/milstian-internet-framework"
+
+[dependencies]
+chrono = "0.4"
+milstian-http = "0.1.*"
+milstian-feedback = "0.1.*"

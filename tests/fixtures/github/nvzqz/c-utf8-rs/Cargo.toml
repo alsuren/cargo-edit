@@ -1,0 +1,23 @@
+[package]
+name          = "c_utf8"
+version       = "0.1.0"
+authors       = ["Nikolai Vazquez"]
+license       = "MIT/Apache-2.0"
+categories    = ["no-std"]
+description   = "UTF-8 encoded C string types"
+documentation = "https://docs.rs/c_utf8"
+homepage      = "https://github.com/nvzqz/c-utf8-rs"
+repository    = "https://github.com/nvzqz/c-utf8-rs"
+keywords      = ["c", "string", "utf-8", "unicode", "text"]
+include       = ["Cargo.toml", "src/**/*.rs", "README*", "CHANGELOG*", "LICENSE*"]
+
+[badges]
+travis-ci = { repository = "nvzqz/c-utf8-rs" }
+
+[build-dependencies]
+version_check = "0.1"
+
+[features]
+default  = ["std"]
+std      = []
+try_from = []

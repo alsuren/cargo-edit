@@ -1,0 +1,19 @@
+[package]
+name = "ghp"
+version = "0.1.2"
+license = "MIT/Apache-2.0"
+authors = ["Lucio Franco <lucio.franco@du.edu>"]
+
+description="Import a folder to gh-pages branch easily!"
+
+documentation = "https://luciofran.co/ghp-rs"
+repository = "https://github.com/LucioFranco/ghp-rs"
+
+[[bin]]
+doc = false
+name = "ghp"
+
+[dependencies]
+getopts = "0.2"
+walkdir = "0.1.5"
+clippy = {version="0.0", optional=true}

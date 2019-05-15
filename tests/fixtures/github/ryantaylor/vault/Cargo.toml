@@ -1,0 +1,39 @@
+[package]
+name = "vault"
+version = "1.0.0"
+authors = ["Ryan Taylor <ryan@ryantaylordev.ca>"]
+
+description = "A parser for Company of Heroes 2 replay files. Valid for replays generated since UKF release (version 19545)."
+homepage = "http://ryantaylordev.ca"
+repository = "https://github.com/ryantaylor/vault"
+readme = "README.md"
+keywords = ["coh", "coh2", "company", "heroes", "replay"]
+license = "MIT"
+
+exclude = ["replays/*", "build-doc.sh", ".travis.yml"]
+
+[lib]
+name = "vault"
+crate-type = ["dylib", "rlib"]
+
+[dependencies]
+log = "0.3"
+rustc-serialize = "0.3"
+
+[dependencies.clippy]
+version = "^0.0"
+optional = true
+
+[dependencies.libc]
+version = "0.2"
+optional = true
+
+[dependencies.zip]
+version = "0.1"
+optional = true
+
+[features]
+ffi = ["libc"]
+dev = ["clippy"]
+parse-archive = ["zip"]
+parse-all = ["parse-archive"]

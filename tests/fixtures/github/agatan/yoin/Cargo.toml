@@ -1,0 +1,18 @@
+[package]
+name = "yoin"
+version = "0.0.1"
+authors = ["Naomichi Agata <agatan039@gmail.com>"]
+readme = "README.md"
+license-file = "LICENSE"
+keywords = ["japanese", "analyze", "morphological", "morpheme", "NLP"]
+description = """
+Yoin is a Japanese morphological analyzer written in pure Rust.
+This is under development.
+"""
+homepage = "https://github.com/agatan/yoin"
+repository = "https://github.com/agatan/yoin"
+
+[dependencies]
+yoin-core = { version = "0.0.1", path = "yoin-core" }
+yoin-ipadic = { version = "0.0.1", path = "yoin-ipadic" }
+clap = "2.20"

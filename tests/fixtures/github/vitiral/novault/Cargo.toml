@@ -1,0 +1,34 @@
+[package]
+authors = ["Garrett Berg <vitiral@gmail.com>"]
+description = "vaultless password management cli"
+keywords = [
+    "cmdline",
+    "tool",
+    "password",
+    "manager",
+]
+license = "MIT"
+name = "novault"
+readme = "README.md"
+repository = "https://github.com/vitiral/novault"
+version = "0.4.1"
+
+[dependencies]
+ansi_term = "0.9.0"
+argon2rs = "0.2.5"
+base64 = "0.6.0"
+byteorder = "1.1.0"
+dialoguer = "0.1.0"
+enigo = "0.0.11"
+error-chain = "0.11.0"
+file-lock = "0.0.17"
+openssl = "0.9.17"
+serde = "1.0.14"
+serde_derive = "1.0.14"
+strfmt = "0.1.5"
+structopt = "0.1.0"
+structopt-derive = "0.1.0"
+tabwriter = "1.0.3"
+shlex = "0.1.1"
+ergo = "0.0.1"
+rustyline = "1.0.0"

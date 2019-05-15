@@ -1,0 +1,39 @@
+[package]
+name = "insta"
+version = "0.8.1"
+license = "Apache-2.0"
+authors = ["Armin Ronacher <armin.ronacher@active-4.com>"]
+description = "A snapshot testing library for Rust"
+edition = "2018"
+homepage = "https://github.com/mitsuhiko/insta"
+repository = "https://github.com/mitsuhiko/insta"
+keywords = ["snapshot", "testing", "jest", "approval"]
+readme = "README.md"
+exclude = [
+    "assets/*"
+]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[workspace]
+members = [".", "cargo-insta"]
+
+[features]
+# This feature is now just always enabled because we use yaml internally now.
+serialization = []
+
+[dependencies]
+difference = "2.0.0"
+serde = { version = "1.0.85", features = ["derive"] }
+failure = "0.1.5"
+serde_yaml = "0.8.8"
+console = "0.7.5"
+chrono = { version = "0.4.6", features = ["serde"] }
+serde_json = "1.0.36"
+lazy_static = "1.2.0"
+ci_info = "0.3.1"
+pest = "2.1.0"
+pest_derive = "2.1.0"
+ron = "0.4.1"
+uuid = { version = "0.7.1", features = ["serde", "v4"] }

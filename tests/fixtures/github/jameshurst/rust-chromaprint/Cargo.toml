@@ -1,0 +1,13 @@
+[package]
+name = "chromaprint"
+version = "0.1.2"
+authors = ["James Hurst <jh.jameshurst@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jameshurst/rust-chromaprint"
+repository = "https://github.com/jameshurst/rust-chromaprint"
+documentation = "https://jameshurst.github.io/rust-chromaprint"
+description = "Bindings to Chromaprint"
+
+[dependencies]
+libc = "0.2.15"

@@ -1,0 +1,128 @@
+[package]
+name = "asciii"
+version = "3.6.0"
+authors = ["Hendrik Sollich <hendrik@hoodie.de>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+description = """The advanced but simple commandline interface for invoice invocation.
+This is an internal tool of the Studentencafe ascii in Dresden and therefore specialized for our use cases."""
+homepage = "https://github.com/ascii-dresden/asciii/"
+repository = "https://github.com/ascii-dresden/asciii/"
+documentation = "https://docs.rs/asciii/"
+edition = "2018"
+
+build = true
+autobins = false
+
+include = [
+    "Cargo.toml",
+    ".gitignore",
+    ".travis.yml",
+    "./Cargo.toml",
+    "./History.md",
+    "./README.md",
+    "build.rs",
+    "lang/*",
+    "src/default_config.yml",
+    "src/**/*.rs",
+    "tests/**/*.rs",
+    "webapp/public/*",
+]
+exclude = [
+    "*.pdf",
+    "webapp/**/*",
+    "pkg"
+]
+
+[dependencies]
+log = "0.4"
+env_logger = "0.6" # default feature requires regex
+yaml-rust = "0.4"
+chrono = "0.4"
+regex = "1.1"
+lazy_static = "1.2"
+maplit = "1.0"
+clap = "2"
+enum_derive = "0.1"
+custom_derive = "0.1"
+open = "1.2"
+crowbook-intl-runtime = "0.1"
+rayon = "1.0"
+itertools = "0.8"
+base64 = "0.10"
+rustyline = {version = "1.0.0", optional = true }
+linked-hash-map = {version = "0.5", features = ["serde_impl"]}
+dirs = "1.0"
+failure = "0.1"
+
+actix = { version = "0.8.0-betsa", optional = true }
+actix-web = { version = "1.0.0-beta", optional = true }
+actix-files = { version = "0.1.0-beta", optional = true }
+actix-web-actors = { version = "1.0.0-alpha", optional = true }
+
+bill = {version= "0.4", features=["serialization"]}
+icalendar = "0.6"
+
+slug = "0.1"
+tempdir = "0.3"
+semver = "0.9"
+term_size = "0.3"
+
+prettytable-rs = { version = "0.7", default-features = false}
+
+# feature: document_export
+handlebars = {version = "1.1", optional = true}
+
+serde         = {version = "1.0", optional = true}
+serde_json    = {version = "1.0", optional = true}
+serde_yaml    = {version = "0.8", optional = true}
+serde_derive  = {version = "1.0", optional = true}
+ordered-float = {version = "1.0", optional = true}
+num-traits    = {version = "0.2", optional = true}
+toml          = "0.5"
+
+# feature: git_statuses
+git2 = {version = "0.8", default-features = false, optional = true}
+
+[dev-dependencies]
+pretty_assertions = "0.5"
+
+[features]
+default = ["cli", "document_export", "git_statuses", "serialization", "deserialization", "server"]
+travis_compatible = ["cli", "document_export", "git_statuses", "serialization", "deserialization", "shell", "meta", "version_string"]
+full_tool = ["travis_compatible", "localize"]
+server= ["actix", "actix-files", "actix-web", "actix-web-actors"]
+webapp = ["server"]
+
+document_export = ["handlebars", "serialization"]
+serde_base = ["serde", "serde_derive"]
+serialization = ["serde_base", "serde_json"]
+deserialization = ["serde_base","serde_yaml", "ordered-float", "num-traits"]
+
+meta = [ "serialization", "deserialization" ]
+git_statuses = ["git2"]
+shell = ["rustyline"]
+version_string = []
+localize = []
+cli= []
+nightly = []
+manual = []
+
+[profile.release]
+lto = true
+
+[[bin]]
+test = false
+doc = false
+name = "asciii"
+required-features = ["cli"]
+
+[[bin]]
+test = false
+doc = false
+name = "asciii-web"
+required-features = ["server"]
+
+[build-dependencies]
+chrono = "0.4"
+crowbook-intl = "0.2"

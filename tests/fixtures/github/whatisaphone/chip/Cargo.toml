@@ -1,0 +1,20 @@
+[package]
+name = "chip"
+version = "0.0.6"
+authors = ["John Simon <john@whatisaph.one>"]
+include = ["Cargo.toml", "build.rs", "src/**/*", "upstream/**/*"]
+description = "RLUtilities bindings for Rust"
+documentation = "https://docs.rs/chip/"
+repository = "https://github.com/whatisaphone/chip"
+readme = "README-crates-io.md"
+keywords = ["rlbot", "rlutilities", "simulation", "rocket-league", "game"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "whatisaphone/chip" }
+
+[dependencies]
+nalgebra = "0.18.0"
+
+[features]
+strict = []

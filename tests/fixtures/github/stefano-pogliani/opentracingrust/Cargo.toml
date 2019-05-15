@@ -1,0 +1,19 @@
+[package]
+name = "opentracingrust"
+version = "0.3.1" # Remember to update html_root_url
+authors = ["Stefano Pogliani <stefano@spogliani.net>"]
+
+description = "opentracing.io library for rust"
+documentation = "https://docs.rs/opentracingrust/"
+homepage = "https://github.com/stefano-pogliani/opentracingrust"
+repository = "https://github.com/stefano-pogliani/opentracingrust"
+readme = "Readme.md"
+keywords = ["opentracing", "tracing"]
+license = "MIT"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+crossbeam-channel = "^0.1.2"
+rand = "^0.4.0"

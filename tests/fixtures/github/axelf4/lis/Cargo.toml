@@ -1,0 +1,18 @@
+[package]
+name = "lis"
+version = "0.2.0"
+authors = ["Axel Forsman <axelsfor@gmail.com>"]
+description = "Longest increasing subsequence algorithm"
+license = "MIT"
+repository = "https://github.com/axelf4/lis"
+readme = "README.md"
+keywords = ["longest", "increasing", "subsequence", "diff"]
+categories = ["algorithms"]
+exclude = [".travis.yml"]
+edition = "2018"
+
+[dependencies]
+fxhash = "0.2.1"
+
+[badges]
+travis-ci = { repository = "axelf4/lis" }

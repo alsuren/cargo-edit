@@ -1,0 +1,18 @@
+[package]
+name = "heif-sys"
+version = "0.1.1"
+authors = ["oussama <md.oussama@gmail.com>"]
+build = "build.rs"
+edition = "2018"
+links = "heif"
+description = "libheif bindings"
+repository = "https://github.com/oussama/heif-sys"
+keywords = ["heic","heif","libheif"]
+license = "Apache-2.0"
+documentation = "https://docs.rs/heif-sys"
+
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.45"

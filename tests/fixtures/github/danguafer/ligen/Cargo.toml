@@ -1,0 +1,17 @@
+[package]
+name = "ligen"
+version = "0.1.0"
+authors = ["Danilo Guanabara Fernandes <danguafer@silexars.org>"]
+description = "Rust Language Interface Generator"
+license = "Apache-2.0"
+license-file = "LICENSE"
+documentation = "https://github.com/danguafer/ligen"
+homepage = "https://github.com/danguafer/ligen"
+repository = "https://github.com/danguafer/ligen"
+
+[dependencies]
+syn = { version = "0.12.7", features = [ "full" ] }
+quote = "0.4.2"
+
+[lib]
+proc-macro = true

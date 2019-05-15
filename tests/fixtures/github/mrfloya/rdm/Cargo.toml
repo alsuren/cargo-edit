@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "libcommon",
+    "libgreeter",
+    "rdm",
+    "rdm-greeter"
+]
+
+[profile.release]
+lto = true
+
+[replace]
+#"rdmgreeter:0.0.1" = { path = "./libgreeter" }
+#"rdmcommon:0.0.1" = { path = "./libcommon" }

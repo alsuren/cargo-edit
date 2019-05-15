@@ -1,0 +1,14 @@
+[package]
+name = "cachy"
+version = "0.2.0"
+authors = ["Bobhostern <bob.hostern@gmail.com>"]
+description = "Creates a cache for resources"
+repository = "https://github.com/Bobhostern/Cachy"
+homepage = "https://github.com/Bobhostern/Cachy"
+documentation = "https://docs.rs/cachy"
+license = "MIT"
+license-file = "LICENSE"
+
+[dependencies]
+futures = "^0.1"
+bus = "^1.1"

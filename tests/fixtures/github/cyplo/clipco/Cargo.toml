@@ -1,0 +1,11 @@
+[package]
+name = "clipco"
+version = "0.1.0"
+authors = ["Cyryl Płotnicki <cyplo@cyplo.net>"]
+edition = "2018"
+description= "Copy contents of the stdin to the OS clipboard"
+readme = "README.md"
+repository = "https://github.com/cyplo/clipco"
+license = "AGPL-3.0"
+
+[dependencies]

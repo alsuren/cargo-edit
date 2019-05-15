@@ -1,0 +1,25 @@
+[package]
+name = "dotenv-shell"
+version = "1.0.1"
+authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
+
+keywords = ["dotenv", "shell", "launcher"]
+description = "Launch a new shell (or another program) with your loaded dotenv"
+
+readme = "README.md"
+license = "MIT"
+
+repository = "https://github.com/badboy/dotenv-shell"
+
+include = [
+  "README.md",
+  "LICENSE",
+  "Cargo.toml",
+  "src/**/*",
+]
+
+[dependencies]
+dotenv = "0.8.0"
+libc = "0.2.6"
+log = "0.3"
+env_logger = "0.3"

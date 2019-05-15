@@ -1,0 +1,31 @@
+[package]
+name = "genie"
+version = "0.2.0"
+authors = ["Renée Kooi <renee@kooi.me>"]
+edition = "2018"
+license = "GPL-3.0"
+description = "Libraries for reading/writing Age of Empires II data files"
+homepage = "https://github.com/SiegeEngineers/genie-rs"
+repository = "https://github.com/SiegeEngineers/genie-rs"
+readme = "README.md"
+
+[dependencies]
+chariot_palette = "^0.1.5"
+genie-cpx = { version = "0.2.0", path = "crates/genie-cpx" }
+genie-drs = { version = "0.1.1", path = "crates/genie-drs" }
+genie-hki = { version = "0.1.0", path = "crates/genie-hki" }
+genie-lang = { version = "0.1.0", path = "crates/genie-lang" }
+genie-scx = { version = "1.0.0", path = "crates/genie-scx" }
+
+[dev-dependencies]
+quicli = "^0.4.0"
+structopt = "^0.2.0"
+
+[workspace]
+members = [
+  "crates/genie-cpx",
+  "crates/genie-drs",
+  "crates/genie-hki",
+  "crates/genie-lang",
+  "crates/genie-scx"
+]

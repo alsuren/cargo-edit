@@ -1,0 +1,31 @@
+[package]
+name = "listpack"
+version = "0.1.7"
+authors = ["Clay Molocznik <clay@mojo.run>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/run-mojo/listpack"
+homepage = "https://github.com/run-mojo/listpack"
+documentation = "https://docs.rs/listpack"
+description = """
+Rust wrapper for the "listpack" data structure created and maintained for Redis
+"""
+build = "build.rs"
+
+[lib]
+bench = false
+crate-type = ["dylib", "rlib"]
+
+[[bench]]
+name = "listpack"
+path = "benches/bench.rs"
+
+[dependencies]
+libc = "0.2"
+#jemallocator = "0.1.8"
+
+[dev-dependencies]
+bencher = "0.1.5"
+
+[build-dependencies]
+gcc = "0.3"

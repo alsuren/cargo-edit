@@ -1,0 +1,33 @@
+[package]
+name = "kube"
+version = "0.6.0"
+description = "Opinionated Kubernetes client with reflectors"
+authors = [
+  "clux <sszynrae@gmail.com>",
+  "ynqa <un.pensiero.vano@gmail.com>",
+]
+license-file = "LICENSE"
+repository = "https://github.com/clux/kube-rs"
+readme = "README.md"
+keywords = ["kubernetes"]
+categories = ["web-programming::http-client"]
+edition = "2018"
+
+[dependencies]
+base64 = "0.9.3"
+dirs = "1.0.4"
+failure = "0.1.2"
+reqwest = "0.9.2"
+serde = "1.0.90"
+serde_derive = "1.0.90"
+serde_json = "1.0.39"
+serde_yaml = "0.8.8"
+openssl = "0.10.12"
+http = "0.1.17"
+url = "1.7.2"
+log = "0.4.6"
+
+[dev-dependencies]
+k8s-openapi = { version = "0.4.0", features = ["v1_13"] }
+tempfile = "3.0.7"
+env_logger = "0.6.1"

@@ -1,0 +1,22 @@
+[package]
+name = "rust-http-logger"
+description = "Logs HTTP API calls to a file."
+homepage = "https://github.com/lunemec/rust-http-logger"
+repository = "https://github.com/lunemec/rust-http-logger"
+keywords = ["log", "http", "logging", "json"]
+license = "WTFPL"
+readme = "README.md"
+version = "0.2.0"
+authors = ["Nemec Lukas <lu.nemec@gmail.com>"]
+
+[dependencies]
+chrono = "0.2"
+clap = "2.10"
+hyper = "0.9"
+router = "0.2"
+params = "0.3"
+persistent = "0.2"
+rustc-serialize = "0.3"
+
+[dependencies.iron]
+version="0.4"

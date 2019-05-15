@@ -1,0 +1,24 @@
+[package]
+name = "gw2"
+version = "0.1.1"
+authors = ["Joe Maguire <derpydeveloper@gmail.com>"]
+repository = "https://github.com/derpydev/gw2.git"
+homepage = "https://github.com/derpydev/gw2.git"
+license = "MIT"
+readme = "README.md"
+description = "A library for interfacing with the Guild Wars 2 official API"
+build = "build.rs"
+
+[features]
+default = ["serde_codegen"]
+nightly = ["serde_macros"]
+
+[build-dependencies]
+serde_codegen = { version = "0.7.2", optional = true }
+syntex = "0.31.0"
+
+[dependencies]
+hyper = "0.8.0"
+serde = "0.7.0"
+serde_json = "0.7.0"
+serde_macros = { version = "0.7.2", optional = true }

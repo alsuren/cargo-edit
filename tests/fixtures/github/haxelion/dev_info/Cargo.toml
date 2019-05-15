@@ -1,0 +1,19 @@
+[package]
+name = "dev_info"
+version = "0.1.0"
+authors = ["Charles Hubain <github@haxelion.eu>"]
+
+description = "A simple utility to display git related info in a CLI prompt"
+homepage = "https://github.com/haxelion/dev_info"
+repository = "https://github.com/haxelion/dev_info"
+categories = ["command-line-utilities", "development-tools"]
+license = "MIT"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "haxelion/dev_info" }
+
+[dependencies]
+ansi_term = "0.11"
+getopts   = "0.2"
+git2      = "0.7"

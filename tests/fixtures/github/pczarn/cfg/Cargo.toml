@@ -1,0 +1,18 @@
+[package]
+name = "cfg"
+version = "0.3.1"
+
+authors = [ "Piotr Czarnecki <pioczarn@gmail.com>" ]
+description = "Library for manipulating context-free grammars."
+keywords = ["grammar", "parsing", "language"]
+documentation = "http://pczarn.github.io/cfg/"
+homepage = "http://pczarn.github.io/cfg/"
+repository = "https://github.com/pczarn/cfg"
+license = "MIT/Apache-2.0"
+
+[lib]
+name = "cfg"
+
+[dependencies]
+bit-matrix = "0.2"
+bit-vec = "0.4"

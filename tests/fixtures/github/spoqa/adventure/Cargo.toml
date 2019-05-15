@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "adventure",
+    "adventure-test",
+    "vendors/*",
+]
+
+[patch.crates-io]
+adventure = { path = "./adventure" }
+adventure-rusoto-ecs = { path = "./vendors/rusoto-ecs" }

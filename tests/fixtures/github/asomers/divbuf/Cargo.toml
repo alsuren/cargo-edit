@@ -1,0 +1,31 @@
+[package]
+name = "divbuf"
+version = "0.3.2-pre"
+authors = ["Alan Somers <asomers@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/asomers/divbuf"
+description = """
+Buffer object that can be recursively divided into smaller buffers
+"""
+documentation = "https://docs.rs/divbuf"
+categories = ["data-structures"]
+keywords = ["buffers", "io", "zero-copy"]
+exclude       = [
+    ".gitignore",
+    ".travis.yml"
+]
+
+[dependencies]
+
+[dev-dependencies]
+lazy_static = "1"
+version_check = "0.1.4"
+
+[[test]]
+name = "functional"
+path = "tests/test_divbuf.rs"
+
+[[test]]
+name = "thread_race"
+path = "tests/thread_race.rs"

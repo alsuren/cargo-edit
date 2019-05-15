@@ -1,0 +1,11 @@
+[package]
+name = "scp"
+version = "0.2.1"
+authors = ["Foskel <fredank@tutamail.com>"]
+include = ["**/*.rs", "Cargo.toml"]
+license = "AML"
+description = "A Rust library that converts raw user input to command data and handlers."
+keywords = ["commands", "cli", "parse"]
+repository = "https://github.com/foskel/scp"
+categories = ["command-line-interface"]
+readme = "README.md"

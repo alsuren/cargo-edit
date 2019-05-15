@@ -1,0 +1,47 @@
+[package]
+
+name = "shiplift"
+version = "0.5.0"
+authors = ["softprops <d.tangren@gmail.com>"]
+description = "A Rust interface for maneuvering Docker containers"
+documentation = "https://docs.rs/shiplift"
+homepage = "https://github.com/softprops/shiplift"
+repository = "https://github.com/softprops/shiplift"
+keywords = ["docker", "unix", "containers", "hyper", "ship"]
+license = "MIT"
+edition = "2018"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "softprops/shiplift" }
+coveralls = { repository = "softprops/shipflit" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+base64 = "0.10"
+byteorder = "1.3.1"
+bytes = "0.4"
+flate2 = "1.0"
+futures = "0.1"
+http = "0.1"
+hyper = "0.12"
+hyper-openssl = { version = "0.7", optional = true }
+hyperlocal = { version = "0.6", optional = true }
+log = "0.4.6"
+mime = "0.3.13"
+openssl = { version = "0.10", optional = true }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tar = "0.4"
+tokio = "0.1"
+tokio-codec = "0.1"
+tokio-io = "0.1"
+url = "1.7"
+
+[dev-dependencies]
+env_logger = "0.6"
+
+[features]
+default = ["unix-socket", "tls"]
+unix-socket = ["hyperlocal"]
+tls = ["openssl", "hyper-openssl"]

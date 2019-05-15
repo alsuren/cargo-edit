@@ -1,0 +1,77 @@
+[package]
+name = "mdcat"
+description = "cat for markdown: Show markdown documents in terminals"
+readme = "README.md"
+homepage = "https://github.com/lunaryorn/mdcat"
+repository = "https://github.com/lunaryorn/mdcat"
+documentation = "https://docs.rs/mdcat"
+keywords = ["markdown", "less"]
+version = "0.13.1-pre"
+categories = ["command-line-utilities", "text-processing"]
+license = "Apache-2.0"
+authors = ["Sebastian Wiesner <sebastian@swsnr.de>"]
+edition = "2018"
+
+[features]
+default = ["vte50", "iterm2", "terminology", "remote_resources"]
+
+resources = ["url"]
+remote_resources = ["reqwest", "resources"]
+
+# Special terminal features
+osc8_links = ["resources", "gethostname"]
+
+# Terminal emulators
+iterm2 = ["osc8_links", "resources", "mime", "base64"]
+terminology = ["osc8_links", "resources", "immeta"]
+vte50 = ["osc8_links"]
+
+[dependencies]
+failure = "^0.1"
+term_size = "^0.3"
+ansi_term = "^0.11"
+
+# URL type to parse URLs in markdown and reference external resources
+url = {version = "^1.7", optional = true}
+
+# For OSC8 links, to query the system hostname
+gethostname = {version="^0.2", optional = true}
+
+# Dependencies for iTerm2
+# Fetch images over HTTP for iTerm2
+reqwest = {version = "^0.9", optional = true}
+# Mime type definitions
+mime = {version = "^0.3", optional = true}
+# base64 encoding for image data
+base64 = {version = "^0.10", optional = true}
+
+# Dependencies for Terminology
+# Detect image dimensions to configure Terminology for image display
+immeta = {version = "^0.4", optional = true}
+
+[dependencies.clap]
+version = "^2.33"
+default-features = false
+features = ["color", "wrap_help"]
+
+[dependencies.pulldown-cmark]
+version = "^0.4"
+default-features = false
+features = []
+
+[dependencies.syntect]
+version = "^3"
+default-features = false
+features = ["parsing", "assets", "dump-load"]
+
+[dev-dependencies]
+pretty_assertions = "^0.6"
+
+[package.metadata.release]
+upload-doc = false
+dev-version-ext = "pre"
+pre-release-commit-message = "Release {{version}}"
+pro-release-commit-message = "Bump version to {{version}}"
+tag-message = "mdcat {{version}}"
+tag-prefix = "mdcat-"
+pre-release-hook = "./scripts/prerelease-hook.py"

@@ -1,0 +1,22 @@
+[package]
+
+name = "rtrace"
+version = "1.0.0"
+authors = ["Sebastian Thiel <byronimo@gmail.com>"]
+description = "A pet raytracer to test overall pseudo-performance and multi-threading"
+repository = "https://github.com/Byron/rust-tracer"
+readme = "README.md"
+license = "BSD-3-Clause"
+keywords = ["raytracing", "rendering", "CGI"]
+
+[lib]
+name = "sphere_tracer"
+path = "src/rust/lib.rs"
+
+[[bin]]
+name = "rtrace"
+path = "src/rust/main.rs"
+
+[dependencies]
+threadpool = "1"
+clap = "2"

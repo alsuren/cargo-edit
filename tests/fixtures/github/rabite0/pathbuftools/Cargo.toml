@@ -1,0 +1,15 @@
+[package]
+name = "pathbuftools"
+version = "0.1.2"
+authors = ["rabite <rabite@posteo.de>"]
+edition = "2018"
+description = "Additional helper methods for PathBuf"
+homepage = "https://github.com/rabite0/pathbuftools"
+repository = "https://github.com/rabite0/pathbuftools"
+readme = "README.md"
+license = "WTFPL"
+keywords = ["unix", "linux", "filename", "path", "pathbuf"]
+categories = ["filesystem", "value-formatting"]
+
+[dependencies]
+dirs = "1.0"

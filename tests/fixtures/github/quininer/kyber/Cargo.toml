@@ -1,0 +1,25 @@
+[package]
+name = "kyber"
+version = "0.2.0-alpha.4"
+authors = ["quininer kel <quininer@live.com>"]
+description = "a CCA-secure module-lattice-based KEM"
+repository = "https://github.com/quininer/kyber"
+license = "MIT"
+
+[features]
+default = [ "kyber768" ]
+kyber512 = []
+kyber768 = []
+kyber1024 = []
+
+[dependencies]
+rand_core = { version = "0.3", default-features = false }
+sha3 = "0.8"
+digest = "0.8"
+subtle = "2"
+arrayref = "0.3"
+byteorder = "1.1"
+
+[dev-dependencies]
+rand = "0.6"
+hex = "0.3"

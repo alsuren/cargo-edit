@@ -1,0 +1,14 @@
+[package]
+name = "memoization"
+version = "0.1.0"
+authors = ["William Cody Laeder <codylaeder@gmail.com>"]
+repository = "https://github.com/valarauca/memoization.git"
+homepage = "https://github.com/valarauca/memoization"
+license = "Apache-2.0"
+readme = "Readme.md"
+documentation = "https://valarauca.github.io/memoization/memoization/index.html"
+description = "Allows for structure fields to be memoized"
+keywords = ["memoize","memoized", "memoization", "memory"]
+
+
+[dependencies]

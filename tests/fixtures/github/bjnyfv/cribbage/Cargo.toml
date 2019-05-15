@@ -1,0 +1,13 @@
+[package]
+name = "cribbage"
+version = "0.1.1"
+authors = ["bjnyfv <bjnyfv@users.noreply.github.com>"]
+description = "Placeholder for a Rust library providing the core functionality of the game Cribbage."
+repository = "https://github.com/bjnyfv/cribbage"
+readme = "README.md"
+license = "MIT"
+publish = false
+
+[dependencies]
+cribbage-core = "0.1.0"
+

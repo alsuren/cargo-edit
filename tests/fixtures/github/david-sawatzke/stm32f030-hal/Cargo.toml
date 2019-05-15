@@ -1,0 +1,67 @@
+[package]
+authors = ["David Sawatzke <david@sawatzke.de>"]
+categories = [
+    "embedded",
+    "hardware-support",
+    "no-std",
+]
+description = "Peripheral access API for STM32F030 microcontrollers"
+documentation = "https://docs.rs/stm32f030-hal"
+keywords = [
+    "arm",
+    "cortex-m",
+    "stm32f030",
+    "hal",
+]
+license = "0BSD"
+name = "stm32f030-hal"
+readme = "README.md"
+repository = "https://github.com/david-sawatzke/stm32f030-hal"
+version = "0.7.1"
+
+[dependencies]
+bare-metal = "0.2.4"
+cortex-m = "0.5.8"
+cortex-m-rt = "0.6.5"
+nb = "0.1.1"
+void = { version = "1.0.2", default-features = false }
+
+[dependencies.cast]
+default-features = false
+version = "0.2.2"
+
+[dependencies.embedded-hal]
+features = ["unproven"]
+version = "0.2.2"
+
+[dependencies.stm32f0]
+features = [
+    "stm32f0x0",
+    "rt",
+]
+version = "0.4.0"
+
+[dev-dependencies]
+ina260 = "0.2.3"
+numtoa = "0.2.3"
+panic-halt = "0.2.0"
+
+[features]
+default = ["rt", "stm32f030rc"]
+rt = []
+stm32f030f4 = []
+stm32f030k6 = []
+stm32f030c6 = []
+stm32f030c8 = []
+stm32f030cc = []
+stm32f030r8 = []
+stm32f030rc = []
+
+
+[profile.dev]
+debug = true
+
+[profile.release]
+debug = true
+lto = true
+opt-level = "s"

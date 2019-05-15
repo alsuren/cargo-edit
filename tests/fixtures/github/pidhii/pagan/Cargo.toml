@@ -1,0 +1,23 @@
+[package]
+name = "pagan"
+version = "0.2.1"
+authors = ["Ivan <ivanpidhurskyi1997@gmail.com>"]
+build = "build.rs"
+description = "Data analysis library."
+license = "MIT"
+repository = "https://github.com/pidhii/pagan.git"
+exclude = ["images/*"]
+
+[dependencies]
+libc = "0.2.40"
+gnuplot = "0.0.24"
+itertools-num = "0.1.1"
+colored = "1.6.0"
+rand = "0.4.2"
+log = "0.4.1"
+
+[dev-dependencies]
+simple_logger = "0.5.0"
+
+[build-dependencies]
+gcc = "0.3.54"

@@ -1,0 +1,28 @@
+[package]
+name = "pushover"
+version = "0.3.0"
+authors = ["Steven Blake <s.blake.08@aberdeen.ac.uk>"]
+
+description = "A wrapper for the Pushover API."
+documentation = "https://docs.rs/pushover"
+keywords = ["pushover", "notification", "api", "wrapper"]
+license = "MIT"
+homepage = "https://github.com/sb89/pushover"
+repository = "https://github.com/sb89/pushover.git"
+
+[dependencies]
+tokio-core = "0.1"
+error-chain = "0.10"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+futures = "0.1"
+urlencoding = "1.0"
+url = "1.5"
+
+[dependencies.reqwest]
+version = "0.8"
+features = ["unstable"]
+
+[dev-dependencies]
+mockito = "0.8"

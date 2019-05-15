@@ -1,0 +1,34 @@
+[package]
+name = "git-brws"
+version = "0.11.1"
+authors = ["rhysd <lin90162@yahoo.co.jp>"]
+description = "Command line tool to open a repository, file, commit, diff, tag, pull request, issue or project's website in your web browser from command line"
+categories = ["command-line-utilities", "development-tools"]
+repository = "https://github.com/rhysd/git-brws"
+readme = "README.md"
+include = ["src/**/*.rs", "Cargo.toml", "LICENSE.txt"]
+edition = "2018"
+license = "MIT"
+
+[package.metadata.release]
+no-dev-version = true
+
+[badges]
+travis-ci = { repository = "rhysd/git-brws" }
+appveyor = { repository = "rhysd/git-brws" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+getopts = "0.2"
+url = "1.7"
+open = "1.2"
+reqwest = "0.9"
+serde_derive = "1.0"
+serde = "1.0"
+path-slash = "0.1"
+envy = "0.4.0"
+
+[dev-dependencies.cargo-husky]
+version = "1.3"
+default-features = false
+features = ["run-for-all", "prepush-hook", "run-cargo-test", "run-cargo-clippy", "run-cargo-fmt"]

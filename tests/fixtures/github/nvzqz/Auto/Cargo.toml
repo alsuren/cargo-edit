@@ -1,0 +1,30 @@
+[package]
+name = "auto"
+version = "0.0.8"
+authors = ["Nikolai Vazquez"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/nvzqz/Auto"
+documentation = "https://docs.rs/auto/"
+keywords = ["cross-platform", "automation"]
+description = "Cross-platform UI/input event automation facilities."
+readme = "README.md"
+include = ["Cargo.toml", "src/**/*.rs", "README.md", "CHANGELOG.md", "LICENSE*"]
+
+[badges]
+travis-ci = { repository = "nvzqz/Auto" }
+appveyor  = { repository = "nvzqz/Auto" }
+
+[dependencies]
+bitflags    = "1.0"
+cfg-if      = "0.1"
+lazy_static = "1.0"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+libc = "0.2"
+objc = "0.2"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+winapi = { version = "0.3.4", features = ["windef", "winuser"] }
+
+[build-dependencies]
+version_check = "0.1"

@@ -1,0 +1,14 @@
+[package]
+authors = ["Gio d'Amelio <giodamelio@gmail.com>"]
+name = "edo"
+version = "0.3.0"
+description = "A super simple templating library for Rust"
+license = "MIT"
+documentation = "https://docs.rs/edo"
+homepage = "https://github.com/giodamelio/edo"
+repository = "https://github.com/giodamelio/edo"
+readme = "./README.md"
+keywords = ["template"]
+
+[dependencies]
+nom = "1.2.4"

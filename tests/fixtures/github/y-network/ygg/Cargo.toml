@@ -1,0 +1,21 @@
+[package]
+name = "ygg"
+version = "0.1.1"
+authors = ["Colin Moore <colin@moore.one>"]
+edition = "2018"
+
+description = "ygg"
+
+documentation = "https://y-network.github.io/documentation"
+homepage = "https://y-network.github.io"
+repository = "https://github.com/y-network/ygg"
+
+readme = "README.md"
+
+keywords = []
+
+categories = ["cryptography::cryptocurrencies"]
+
+license = "GPL-3.0+"
+
+[dependencies]

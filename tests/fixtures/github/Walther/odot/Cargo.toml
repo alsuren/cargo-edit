@@ -1,0 +1,22 @@
+[package]
+name = "odot"
+version = "0.1.1"
+authors = ["Veeti Haapsamo <veeti.haapsamo@gmail.com>"]
+edition = "2018"
+description = "Reverse todo: Write down things that you've done."
+repository = "https://github.com/Walther/odot"
+license = "MIT"
+
+[badges]
+maintenance = { status = "experimental" }
+travis-ci = { repository = "Walther/odot", branch = "master" }
+codecov = { repository = "Walther/odot", branch = "master", service = "github" }
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+clap = "2.32"
+dirs = "1.0"
+serde = "1.0.89"
+serde_derive = "1.0.89"
+serde_json = "1.0.39"
+uuid = { version = "0.7.1", features = ["v4", "serde"] }

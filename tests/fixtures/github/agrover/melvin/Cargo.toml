@@ -1,0 +1,30 @@
+[package]
+name = "melvin"
+version = "0.2.0"
+authors = ["Andy Grover <agrover@redhat.com>"]
+description = "A library for configuring an LVM-style volume manager"
+documentation = "http://agrover.github.io/melvin/doc/melvin/index.html"
+# homepage = "..."
+repository = "https://github.com/agrover/melvin"
+readme = "README.md"
+keywords = ["Linux", "volume", "management", "storage"]
+license = "MPL-2.0"
+
+[[bin]]
+name = "mlv"
+path = "src/main.rs"
+
+[lib]
+name = "melvin"
+path = "src/lib.rs"
+
+[dependencies]
+libc = "*"
+byteorder = "0.3.10"
+crc = "^0.3.1"
+unix_socket = "*"
+nix = "0.3.9"
+uuid = "*"
+time = "*"
+#docopt = "*"
+#regex = "*"

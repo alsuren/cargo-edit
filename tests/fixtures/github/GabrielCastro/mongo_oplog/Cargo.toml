@@ -1,0 +1,26 @@
+[package]
+name = "mongo_oplog"
+version = "0.0.1"
+authors = ["Gabriel Castro <dev@GabrielCastro.ca>"]
+exclude = [
+    ".travis.yml",
+    "scripts/",
+    "docker_cargo"
+]
+
+description = "Provides a Strongly typed interface to the mongo oplog"
+license = "MIT"
+license-file = "LICENSE.txt"
+documentation = "https://github.com/GabrielCastro/mongo_oplog/"
+homepage = "https://github.com/GabrielCastro/mongo_oplog/"
+repository = "https://github.com/GabrielCastro/mongo_oplog/"
+
+[dependencies]
+mongo_driver = "0.4.*"
+bson = "0.3.*"
+log = "0.3.*"
+regex = "0.1"
+backtrace = "0.2"
+
+[dev-dependencies]
+env_logger = "0.3.*"

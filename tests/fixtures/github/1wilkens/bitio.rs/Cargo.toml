@@ -1,0 +1,12 @@
+[package]
+
+name = "bitio"
+version = "0.0.4"
+authors = ["Florian Wilkens <gh@1wilkens.org>"]
+license = "MIT"
+repository = "https://github.com/1wilkens/bitio.rs"
+
+description = "Basic bitwise IO for Rust."
+
+[dependencies]
+log = "0.3.6"

@@ -1,0 +1,26 @@
+[package]
+name = "cargo-build-deps"
+version = "0.1.4"
+authors = ["Nick Cardin <nick@cardin.email>"]
+categories = [
+    "development-tools",
+    "development-tools::cargo-plugins",
+]
+keywords = [
+    "cargo",
+    "cargo-subcommand",
+    "cli",
+    "dependencies",
+    "crates",
+]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/nacardin/cargo-build-deps"
+description = """
+A cargo subcommand to build dependencies, helps speed up docker builds by 
+allowing dependencies to be built earlier and cached.
+"""
+readme = "README.md"
+
+[dependencies]
+toml = "0.4"
+clap = "2.31"

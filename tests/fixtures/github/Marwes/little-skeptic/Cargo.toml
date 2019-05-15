@@ -1,0 +1,19 @@
+[package]
+name = "little-skeptic-readme"
+version = "0.1.0"
+authors = ["Markues Westerlind <marwes91@gmail.com>"]
+build = "build.rs"
+
+# This is needed for the build script, 'build.rs'
+[build-dependencies.little-skeptic]
+path = "src/skeptic"
+
+[dev-dependencies.serde_json]
+version = "1"
+
+# This makes the tests that link to Skeptic in README.md work.
+# It is not needed for normal uses of Skeptic.
+[dependencies.little-skeptic]
+path = "src/skeptic"
+
+[workspace]

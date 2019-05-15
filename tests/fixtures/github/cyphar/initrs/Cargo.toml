@@ -1,0 +1,21 @@
+[package]
+name = "initrs"
+version = "0.1.1"
+description = "Simple init and signal forwarder for containers."
+authors = ["Aleksa Sarai <asarai@suse.de>"]
+repository = "https://github.com/cyphar/initrs"
+readme = "README.md"
+keywords = ["init", "container"]
+categories = ["command-line-utilities"]
+license = "GPL-3.0+"
+
+[dependencies]
+libc = "~0.2"
+clap = "~2.23"
+log = "~0.4"
+env_logger = "~0.5"
+
+[dependencies.nix]
+version = "^0.8.1"
+default-features = true
+features = ["signalfd"]

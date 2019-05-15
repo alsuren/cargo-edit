@@ -1,0 +1,33 @@
+[package]
+name = "recless"
+version = "0.3.0"
+authors = ["Richard Janis Goldschmidt <janis.beckert@gmail.com>"]
+license = "MIT/Apache-2.0"
+
+repository = "https://github.com/SuperFluffy/rust-recless"
+
+description = "A Rust implementation of the recursive least squares algorithm with exponential forgetting"
+categories = ["algorithms", "science"]
+keywords = ["filters", "learning", "regression", "data", "kalman"]
+
+
+[lib]
+name = "recless"
+
+[dependencies]
+blas = { version = "0.16", default-features = false }
+
+[dependencies.ndarray]
+version = "0.10"
+features = ["blas"]
+
+[dependencies.serde]
+version = "1.0"
+optional = true
+
+[dependencies.serde_derive]
+version = "1.0"
+optional = true
+
+[features]
+serde_support = ["serde", "serde_derive", "ndarray/serde"]

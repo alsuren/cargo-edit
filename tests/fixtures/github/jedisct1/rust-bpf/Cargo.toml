@@ -1,0 +1,17 @@
+[package]
+name = "bpf"
+version = "0.1.1"
+authors = ["Frank Denis <github@pureftpd.org>"]
+description = "Attach BPF filters"
+license = "ISC"
+homepage = "https://github.com/jedisct1/rust-bpf"
+repository = "https://github.com/jedisct1/rust-bpf"
+categories = ["os::unix-apis"]
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "jedisct1/rust-bpf" }
+
+[dependencies]
+clippy = {version = "~0", optional = true}
+libc = "~0.2"

@@ -1,0 +1,21 @@
+[package]
+name = "mtree"
+version = "0.5.1"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+readme = "./README.md"
+description = "A crate for iterating through the entries of an mtree record file."
+categories = ["parsing", "os::unix-apis", "filesystem"]
+license = "Apache-2.0/MIT"
+repository = "https://github.com/derekdreery/mtree-rs"
+edition = "2018"
+
+[dependencies]
+smallvec = "0.6"
+newtype_array = "0.1"
+bitflags = "1"
+
+[badges]
+travis-ci = { repository = "derekdreery/mtree-rs" }
+is-it-maintained-issue-resolution = { repository = "derekdreery/mtree-rs" }
+is-it-maintained-open-issues = { repository = "derekdreery/mtree-rs" }
+maintenance = { status = "passively-maintained" }

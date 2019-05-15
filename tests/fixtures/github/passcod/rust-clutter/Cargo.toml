@@ -1,0 +1,11 @@
+[package]
+name = "clutter"
+version = "1.20.0"
+description = "Clutter bindings"
+license = "LGPL"
+homepage = "https://github.com/passcod/rust-clutter"
+repository = "https://github.com/passcod/rust-clutter.git"
+authors = ["Félix Saparelli <me@passcod.name>"]
+
+[dependencies]
+cairo = "*"

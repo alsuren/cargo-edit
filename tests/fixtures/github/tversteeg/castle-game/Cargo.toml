@@ -1,0 +1,42 @@
+[package]
+name = "castle-game"
+version = "0.1.32"
+authors = ["Thomas Versteeg <thomasversteeg@gmx.com>"]
+license = "GPL-3.0"
+homepage = "https://github.com/tversteeg/castle-game"
+
+readme = "README.md"
+description = "2D destructible terrain strategy game"
+
+repository = "https://github.com/tversteeg/castle-game.git"
+keywords = ["game", "2d", "destructible"]
+categories = ["games"]
+
+build = "build.rs"
+
+[badges]
+travis-ci = {repository = "tversteeg/castle-game"}
+is-it-maintained-issue-resolution = { repository = "tversteeg/castle-game" }
+
+[dependencies]
+direct-gui = "0.1"
+minifb = "0.11"
+specs = "0.10"
+specs-derive = "0.1"
+rand = "0.6"
+line_drawing = "0.7"
+cgmath = "0.17"
+collision = "0.20"
+rust-embed = "4.4"
+
+[dependencies.blit]
+version = "0.5"
+default-features = false
+features = ["aseprite"]
+
+[build-dependencies]
+git2 = "0.8"
+blit = "0.5"
+image = "0.20"
+aseprite = "0.1"
+serde_json = "1.0"

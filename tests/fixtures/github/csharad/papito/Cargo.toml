@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "papito_dom",
+    "papito",
+    "papito_codegen"
+]

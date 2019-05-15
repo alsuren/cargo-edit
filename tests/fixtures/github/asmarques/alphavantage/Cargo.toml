@@ -1,0 +1,24 @@
+[package]
+name = "alphavantage"
+version = "0.5.0"
+description = "Alpha Vantage API client"
+authors = ["António Marques <me@antoniomarques.eu>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/asmarques/alphavantage"
+readme = "README.md"
+keywords = ["finance", "stocks", "alpha", "vantage"]
+categories = ["api-bindings", "web-programming::http-client"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0.82", features = ["derive"] }
+serde_json = "1.0.33"
+reqwest = "0.8.6"
+failure = "0.1.1"
+failure_derive = "0.1.1"
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = "0.4"
+
+[dev-dependencies]
+structopt = "0.2.10"
+exitfailure = "0.5.1"

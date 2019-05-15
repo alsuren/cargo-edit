@@ -1,0 +1,10 @@
+[package]
+name = "science"
+version = "0.1.0"
+authors = ["sora-0314 <sora.minase.0314@gmail.com>"]
+description = "Scientific computing (under dev)"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/sora-0314/science"
+
+[dependencies]

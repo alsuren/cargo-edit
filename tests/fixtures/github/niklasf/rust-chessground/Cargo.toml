@@ -1,0 +1,24 @@
+[package]
+name = "chessground"
+version = "0.9.0" # remember to update html_root_url
+description = "A chessboard widget for Relm/GTK"
+repository = "https://github.com/niklasf/rust-chessground"
+readme = "README.md"
+license = "GPL-3.0+"
+authors = ["Niklas Fiekas <niklas.fiekas@backscattering.de>"]
+categories = ["games", "gui"]
+keywords = ["chess"]
+
+[dependencies]
+gtk = "0.6.0"
+gdk = "0.10.0"
+cairo-rs = "0.6.0"
+rsvg = { git = "https://github.com/1aim/rsvg-rs.git", rev = "0a24ef8c7b8472b116fbcd44654eb896f279b608" }
+time = "0.1"
+relm = "0.16"
+relm-derive = "0.16"
+shakmaty = "0.14"
+
+[dev-dependencies]
+rand = "0.6"
+relm-attributes = "0.16"

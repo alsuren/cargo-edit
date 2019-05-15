@@ -1,0 +1,51 @@
+[package]
+name = "racer"
+version = "2.1.22"
+license = "MIT"
+description = "Code completion for Rust"
+authors = ["Phil Dawes <phil@phildawes.net>", "The Racer developers"]
+homepage = "https://github.com/racer-rust/racer"
+repository = "https://github.com/racer-rust/racer"
+
+[lib]
+name = "racer"
+path = "src/racer/lib.rs"
+
+[[bin]]
+name = "racer"
+path = "src/bin/main.rs"
+doc = false
+required-features = ["metadata"]
+
+[profile.release]
+debug = false # because of #1005
+
+[dependencies]
+bitflags = "1.0"
+log = "0.4"
+rustc-ap-syntax = "407.0.0"
+env_logger = "0.6"
+clap = "2.32"
+lazy_static = "1.2"
+humantime = "1.1"
+derive_more = "0.13.0"
+rls-span = "0.5.1"
+lazycell = { version = "1.2", optional = true }
+
+[dependencies.racer-cargo-metadata]
+version = "0.1"
+optional = true
+path = "metadata"
+
+[dev-dependencies.racer-testutils]
+version = "0.1"
+path = "testutils"
+
+
+[features]
+default = ["metadata"]
+metadata = ["lazycell", "racer-cargo-metadata"]
+nightly = []
+
+[workspace]
+members = ["interner", "metadata", "testutils"]

@@ -1,0 +1,15 @@
+[profile.release]
+lto = true
+
+[workspace]
+members = [
+  "lib/",
+  "examples/hello",
+  "examples/json",
+  "examples/proxy",
+  "examples/stateful",
+  "examples/redirect",
+  "examples/templates_askama",
+  "examples/postgres",
+  "examples/managed_state",
+]

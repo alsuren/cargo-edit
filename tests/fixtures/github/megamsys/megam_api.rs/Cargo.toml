@@ -1,0 +1,40 @@
+[package]
+name = "megam_api"
+version = "0.1.9"
+authors = ["Raj thilak <rajthilak@megam.io>,Kishorekumar Neelamegam <nkishore@megam.io>"]
+description = """
+A rust lang api to talk to https://www.megam.io.
+"""
+
+documentation = "https://github.com/megamsys/megam_api.rs"
+homepage = "https://www.megam.io"
+repository = "https://github.com/megamsys/megam_api.rs"
+
+readme = "README.md"
+
+keywords = ["api", "rest", "excon", "megam"]
+
+license = "Apache-2.0"
+
+[lib]
+name = "megam_api"
+path = "src/megam_api/lib.rs"
+
+[dependencies]
+rustc-serialize = "0.3.14"
+curl = "0.2.10"
+log = "0.3.1"
+env_logger = "0.3.1"
+regex = "0.1.30"
+libc = "0.1.8"
+rust-crypto = "0.2.31"
+time = "0.1.25"
+
+#[dev-dependencies]
+#tempdir = "0.3.4"
+
+#[dependencies.hamcrest]
+#git = "https://github.com/carllerche/hamcrest-rust.git"
+
+[[test]]
+name = "tests"

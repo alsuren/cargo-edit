@@ -1,0 +1,22 @@
+[package]
+name = "readonly"
+version = "0.1.4" # remember to update number in readme for major versions
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Struct fields that are made read-only accessible to other modules"
+repository = "https://github.com/dtolnay/readonly"
+documentation = "https://docs.rs/readonly"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "0.4"
+quote = "0.6"
+syn = { version = "0.15", features = ["visit-mut"] }
+
+[dev-dependencies]
+trybuild = "1.0"
+version_check = "0.1"

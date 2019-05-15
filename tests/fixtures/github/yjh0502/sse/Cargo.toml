@@ -1,0 +1,34 @@
+[package]
+name = "sse"
+version = "0.2.0"
+authors = ["yjh0502 <yjh0502@gmail.com>"]
+
+description = """
+simple SSE server/client
+"""
+
+repository = "https://github.com/yjh0502/sse"
+license = "MIT/Apache-2.0"
+
+readme = "README.md"
+keywords = ["http", "sse"]
+
+[badges]
+travis-ci = { repository = "yjh0502/sse" }
+
+[dependencies]
+bitflags = "1"
+bytes = "0.4"
+error-chain = "0.12"
+futures = "0.1"
+http = "0.1"
+hyper = "0.12"
+log = "0.4"
+tokio = "0.1"
+tokio-timer = "0.2"
+
+[dev-dependencies]
+env_logger = "0.5"
+rand = "0.4"
+structopt = "0.2"
+structopt-derive = "0.2"

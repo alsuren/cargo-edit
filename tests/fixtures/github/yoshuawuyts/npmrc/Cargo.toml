@@ -1,0 +1,14 @@
+[package]
+name = "npmrc"
+description = "Read and parse .npmrc files."
+version = "0.2.0"
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+repository = "https://github.com/yoshuawuyts/npmrc"
+documentation = "https://docs.rs/npmrc"
+license = "Apache-2.0"
+
+[dependencies]
+serde_ini = "0.1.3"
+serde = "1.0.27"
+serde_derive = "1.0.27"
+failure = "0.1.1"

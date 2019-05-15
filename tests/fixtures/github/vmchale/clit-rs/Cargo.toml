@@ -1,0 +1,30 @@
+[package]
+name = "tw-rs"
+description = "Command line tool allow you to access twitter"
+version = "0.1.35-pre"
+authors = ["Vanessa McHale <tmchale@wisc.edu>"]
+license-file = "LICENSE"
+exclude = [ ".gitignore" ]
+readme = "README.md"
+repository = "https://github.com/vmchale/tw-rs"
+documentation = "https://github.com/vmchale/tw-rs#README"
+homepage = "https://github.com/vmchale/tw-rs"
+test = false
+
+[dependencies]
+oauth-client-fix = "0.1"
+nom = "3.0"
+colored = "1.5"
+clap = {version = "2.24", features = ["yaml"]}
+base64 = "0.6"
+
+[profile.release]
+lto = true
+
+[lib]
+name = "tweet"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tw"
+path = "src/main.rs"

@@ -1,0 +1,16 @@
+[package]
+name = "qcow2"
+version = "0.1.2"
+authors = ["Dave Vasilevsky <dave@vasilevsky.ca>"]
+description = "Reading qcow2 virtual disk images"
+keywords = ["qcow2", "qemu", "disk", "image"]
+license = "MIT"
+documentation = "http://vasi.github.io/qcow2-rs/qcow2/"
+repository = "https://github.com/vasi/qcow2-rs"
+homepage = "https://github.com/vasi/qcow2-rs"
+readme = "README.md"
+
+[dependencies]
+byteorder = "0.5"
+lru-cache = "0.0.7"
+positioned-io = "0.2.0"

@@ -1,0 +1,38 @@
+[package]
+name = "bui-backend"
+description = "Brower User Interfaces (BUIs) with Tokio"
+version = "0.6.0"
+authors = ["Andrew Straw <strawman@astraw.com>"]
+documentation = "https://docs.rs/bui-backend/"
+repository = "https://github.com/astraw/bui-backend"
+readme = "README.md"
+keywords = ["server", "user-interface", "server-sent-events", "futures", "tokio"]
+license = "MIT/Apache-2.0"
+categories = ["gui", "web-programming::http-server"]
+
+[dependencies]
+bui-backend-codegen = {version="0.1.1", default-features = false, path="codegen"}
+futures = "0.1.11"
+includedir = "0.2.0"
+hyper = "0.11"
+rand = "0.4"
+raii-change-tracker = "0.1"
+log = "0.4"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = {version = "1.0"}
+jsonwebtoken = "4"
+uuid = { version = "0.6", features = ["v4", "serde"] }
+failure = "0.1"
+failure_derive = "0.1"
+
+[features]
+default = ["bundle_files"]
+bundle_files = ["bui-backend-codegen/bundle_files"]
+serve_files = ["bui-backend-codegen/serve_files"]
+
+[workspace]
+members = [
+    "codegen",
+    "bui-demo",
+]

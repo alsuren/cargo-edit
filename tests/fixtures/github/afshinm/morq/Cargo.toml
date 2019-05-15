@@ -1,0 +1,14 @@
+[package]
+name = "morq"
+version = "0.3.0"
+readme = "README.md"
+keywords = ["bdd", "tdd", "unit-test", "unit-testing"]
+categories = ["development-tools::testing", "development-tools"]
+homepage = "http://morq.rs"
+repository = "https://github.com/afshinm/morq"
+description = "TDD/BDD assertion interface"
+license = "MIT"
+authors = ["Afshin Mehrabani <afshin.meh@gmail.com>"]
+
+[dependencies]
+num = "0.1.40"

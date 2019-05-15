@@ -1,0 +1,12 @@
+[package]
+name = "boiler-generated"
+version = "0.1.0"
+description = "Generated files for the boiler steam connection library."
+homepage = "https://github.com/TF2Maps/boiler-generated"
+repository = "https://github.com/TF2Maps/boiler-generated"
+authors = ["Layl <LaylConway@users.noreply.github.com>"]
+license = "MIT OR Apache-2.0"
+exclude = ["proto/*"]
+
+[dependencies]
+protobuf = "1.0.18"

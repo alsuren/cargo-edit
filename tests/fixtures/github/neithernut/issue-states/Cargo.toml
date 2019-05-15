@@ -1,0 +1,12 @@
+[package]
+name = "issue-states"
+version = "0.2.0"
+description = "A library for managing issue states"
+authors = ["Julian Ganz <neither@nut.email>"]
+
+repository    = "https://github.com/neithernut/issue-states"
+readme        = "README.md"
+license       = "MIT"
+
+[dependencies]
+yaml-rust = { version = "0.4.0", optional = true }

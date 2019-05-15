@@ -1,0 +1,13 @@
+[package]
+name = "redis-client"
+version = "0.5.0"
+authors = ["gautier.tanguy"]
+keywords = ["redis", "database", "async", "sync"]
+description = "Redis client in Rust"
+homepage = "https://github.com/AsoSunag/redis-client"
+repository = "https://github.com/AsoSunag/redis-client"
+documentation = "https://asosunag.github.io/redis-client/redis_client/index.html"
+license = "MIT"
+
+[dependencies]
+rand="0.3.0"

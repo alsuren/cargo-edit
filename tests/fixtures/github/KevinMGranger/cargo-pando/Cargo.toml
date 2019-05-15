@@ -1,0 +1,28 @@
+[package]
+name = "cargo-pando"
+version = "0.2.0"
+description = "Perform tasks concurrently over multiple copies of your repo, over multiple toolchains and/or git revisions."
+authors = ["Kevin M Granger <git@kevinmgranger.me>"]
+license = "MPL-2.0"
+readme = "README.md"
+repository = "https://github.com/KevinMGranger/cargo-pando"
+edition = "2018"
+categories = ["command-line-utilities", "development-tools", "development-tools::cargo-plugins"]
+
+[badges.maintenance]
+status = "experimental"
+
+[badges.travis-ci]
+repository = "KevinMGranger/cargo-pando"
+
+[dependencies]
+git2 = "0.8.0"
+structopt = "0.2.14"
+failure = "0.1.5"
+crossbeam = "0.6.0"
+num_cpus = "1.9.0"
+indicatif = "0.11.0"
+console = "0.7.2"
+serde = "1.0.84"
+serde_derive = "1.0.84"
+serde_yaml = "0.8.8"

@@ -1,0 +1,73 @@
+[package]
+name = "cldr"
+repository = "https://github.com/mrhota/cldr-rs"
+homepage = "https://github.com/mrhota/cldr-rs"
+version = "0.0.1"
+authors = ["A.J. Gardner <aaron.j.gardner@gmail.com>"]
+license = "Unlicense"
+keywords = ["cldr", "unicode", "l10n", "locale", "i18n"]
+build = "build.rs"
+description = """
+cldr provides raw data and a thin wrapper around Unicode's Common
+Language Data Repository (CLDR).
+"""
+
+[package.metadata]
+cldr-version = "32.0.0"
+
+[build-dependencies]
+bzip2 = "0.3"
+git2 = "0.6"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+bzip2 = { version = "0.3", optional = true }
+
+[features]
+default = ["all-modern", "compress"]
+# choose modern or full, but not both
+all-modern = ["modern", "core", "dates", "localenames", "misc", "rbnf", "segments", "units"]
+all-full = ["full", "core", "dates", "localenames", "misc", "rbnf", "segments", "units"]
+all-calendars = [
+    # "dates" includes gregorian data
+    "dates",
+    "bud",
+    "chi",
+    "cop",
+    "dan",
+    "eth",
+    "heb",
+    "ind",
+    "isl",
+    "jap",
+    "per",
+    "roc"
+]
+
+modern = []
+full = []
+
+compress = ["bzip2"]
+
+core = []
+dates = ["numbers"]
+localenames = []
+misc = []
+numbers = []
+rbnf = []
+segments = []
+units = []
+
+bud = []
+chi = []
+cop = []
+dan = []
+eth = []
+heb = []
+ind = []
+isl = []
+jap = []
+per = []
+roc = []

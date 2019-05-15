@@ -1,0 +1,13 @@
+[package]
+name = "musical_keyboard"
+version = "0.6.0"
+authors = ["mitchmindtree <mitchell.nordine@gmail.com>"]
+description = "A small lib for converting keyboard input into musical notes."
+readme = "README.md"
+keywords = ["keyboard", "music", "note", "pitch", "conversion"]
+license = "MIT"
+repository = "https://github.com/RustAudio/musical_keyboard.git"
+homepage = "https://github.com/RustAudio/musical_keyboard"
+
+[dependencies]
+pitch_calc = "0.11"

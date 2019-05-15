@@ -1,0 +1,14 @@
+[package]
+name = "allehanda"
+version = "0.1.4"
+authors = ["ramn <github@rymdimperiet.org>"]
+description = "Miscellaneous data structures and algorithms"
+
+documentation = "https://docs.rs/allehanda"
+homepage = "https://github.com/ramn/allehanda-rs"
+repository = "https://github.com/ramn/allehanda-rs"
+readme = "README.md"
+license = "MIT/Apache-2.0"
+keywords = []
+
+[dependencies]

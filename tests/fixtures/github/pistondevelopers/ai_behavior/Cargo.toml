@@ -1,0 +1,27 @@
+[package]
+
+name = "piston-ai_behavior"
+version = "0.27.0"
+authors = [
+    "bvssvni <bvssvni@gmail.com>",
+    "Coeuvre <coeuvre@gmail.com>"
+]
+keywords = ["ai", "behavior", "piston", "game", "logic"]
+description = "AI behavior tree"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/pistondevelopers/ai_behavior.git"
+homepage = "https://github.com/pistondevelopers/ai_behavior"
+
+[lib]
+
+name = "ai_behavior"
+
+[dependencies]
+pistoncore-input = "0.24.0"
+serde_derive = "1.0"
+serde = "1.0"
+
+[[test]]
+
+name = "tests"

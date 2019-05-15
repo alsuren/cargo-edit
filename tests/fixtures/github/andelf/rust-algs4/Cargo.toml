@@ -1,0 +1,29 @@
+[package]
+name = "algs4"
+version = "0.7.0"
+authors = ["Shuyu Wang <andelf@gmail.com>"]
+description = "Algorithms, 4ed. MOOC in Coursera. in Rust."
+homepage = "https://github.com/andelf/rust-algs4"
+repository = "https://github.com/andelf/rust-algs4.git"
+keywords = [
+  "algorithm",
+  "mooc",
+  "coursera"
+]
+license = "MIT"
+
+[dependencies]
+rand = "0.3"
+adivon = "0.2"
+byteorder = "0.3"
+mtl = "0.1"
+
+
+# [dev-dependencies.piston_window]
+# piston_window = "*"
+
+[dev-dependencies.sdl2]
+sdl2 = "0.10"
+
+[dev-dependencies.sdl2_gfx]
+sdl2_gfx = "0.7.0"

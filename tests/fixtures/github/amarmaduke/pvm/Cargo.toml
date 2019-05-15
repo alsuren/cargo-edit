@@ -1,0 +1,29 @@
+[package]
+name = "pvm"
+version = "0.1.0"
+authors = ["Andrew Marmaduke <marmaduke.andrew@gmail.com>"]
+
+description = "A parsing virtual machine with a focus on expressibility of grammars."
+repository = "https://github.com/amarmaduke/pvm"
+readme = "README.md"
+
+keywords = ["parser", "parsing", "peg", "virtual", "machine"]
+categories = ["parsing"]
+
+license = "MIT"
+
+include = [
+    "LICENSE",
+    ".gitignore",
+    ".travis.yml",
+    "Cargo.toml",
+    "src/*.rs",
+    "tests/*.rs",
+    "tests/grammars/*.peg"
+]
+
+[dependencies]
+
+
+[dev-dependencies]
+rand = "0.3"

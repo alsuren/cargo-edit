@@ -1,0 +1,20 @@
+[package]
+
+name = "bassert"
+version = "0.0.6"
+license = "MIT"
+authors = ["scialex"]
+readme = "README.md"
+keywords = ["assert", "bassert"]
+repository = "https://github.com/scialex/bassert"
+description = """
+A Better Assert macro
+
+This macro will print out the values of each side of an expression and also the
+values of function arguments.
+"""
+
+[lib]
+name = "bassert"
+crate-type = ["dylib"]
+plugin = true

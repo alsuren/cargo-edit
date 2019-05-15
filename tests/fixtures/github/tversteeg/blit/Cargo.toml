@@ -1,0 +1,43 @@
+[package]
+name = "blit"
+version = "0.5.5"
+authors = ["Thomas Versteeg <thomasversteeg@gmx.com>"]
+license = "GPL-3.0"
+homepage = "https://github.com/tversteeg/blit"
+
+readme = "README.md"
+description = "Blit sprites on a buffer with a mask"
+documentation = "https://docs.rs/blit"
+
+repository = "https://github.com/tversteeg/blit.git"
+keywords = ["image", "gamedev", "sprite", "blitting"]
+categories = ["games", "rendering::data-formats", "game-engines", "multimedia::images"]
+
+[badges]
+travis-ci = {repository = "tversteeg/blit"}
+
+[features]
+default = ["image", "aseprite"]
+
+[dependencies]
+rayon = "1.0"
+bincode = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
+quick-error = "1.2"
+num-traits = "0.2"
+image = { version = "0.20", optional = true }
+aseprite = { version = "0.1", optional = true }
+
+[[example]]
+name = "smiley"
+path = "examples/smiley.rs"
+
+[[example]]
+name = "aseprite"
+path = "examples/aseprite.rs"
+
+[dev-dependencies]
+image = "0.20"
+minifb = "0.11"
+serde_json = "1.0"

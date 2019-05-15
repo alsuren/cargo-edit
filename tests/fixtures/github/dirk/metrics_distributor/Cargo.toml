@@ -1,0 +1,24 @@
+[package]
+name = "metrics_distributor"
+version = "0.5.1"
+authors = ["Dirk Gadsden <dirk@esherido.com>"]
+description = "Ingest logs and forward aggregated data to APIs/services."
+license = "BSD-3-Clause"
+repository = "https://github.com/dirk/metrics_distributor"
+
+[dependencies]
+hyper = "0.10.13"
+iron = "0.5.1"
+router = "0.5.1"
+reqwest = "0.6.2"
+regex = "0.2.1"
+lazy_static = "0.1.16"
+nom = "2.2.1"
+chrono = "0.3.0"
+rustc-serialize = "0.3.21"
+
+[[example]]
+name = "http_server"
+
+[[example]]
+name = "statsd_server"

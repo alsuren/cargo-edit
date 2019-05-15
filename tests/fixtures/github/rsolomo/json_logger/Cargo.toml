@@ -1,0 +1,18 @@
+[package]
+name = "json_logger"
+version = "0.1.0"
+authors = ["Ray Solomon <raybsolomon@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/rsolomo/json_logger"
+homepage = "https://github.com/rsolomo/json_logger"
+documentation = "https://docs.rs/json_logger/0.0.2/json_logger/"
+description = """
+A JSON logging implementation.
+"""
+
+[dependencies]
+libc = "0.2"
+log = { version = "0.4", features = ["std"] }
+rustc-serialize = "0.3"
+time = "0.1"

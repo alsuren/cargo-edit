@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "intercom-common",
+    "intercom-attributes",
+    "intercom",
+    "intercom-cli",
+    "intercom-build",
+    "intercom-fmt",
+]
+exclude = [ "test" ]

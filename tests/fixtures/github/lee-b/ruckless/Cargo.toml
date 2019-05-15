@@ -1,0 +1,14 @@
+[package]
+name = "rinit"
+version = "0.1.1"
+authors = ["Lee Braiden <leebraid@gmail.com>"]
+description = "The Suckless tools implementation of System V init, ported to Rust."
+repository = "https://github.com/lee-b/ruckless"
+license = "AGPL-3.0"
+
+[dependencies]
+libc = "^0"
+
+[badges]
+travis-ci = { repository = "lee-b/ruckless", branch = "master" }
+

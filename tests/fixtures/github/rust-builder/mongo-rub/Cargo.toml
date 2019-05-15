@@ -1,0 +1,35 @@
+[package]
+name = "mongo_rub"
+version = "0.0.3-pre"
+authors = ["Jason Ozias <jason.g.ozias@gmail.com>"]
+description = "Rust Builder for MongoDB"
+documentation = "http://rust-builder.github.io/mongo-rub"
+homepage = "http://rust-builder.github.io/mongo-rub"
+repository = "https://github.com/rust-builder/mongo-rub"
+readme = "README.md"
+license = "MIT"
+keywords = ["mongo","mongo_rub","buildable","rub"]
+build = "build.rs"
+
+[build-dependencies]
+time = "*"
+
+[dependencies]
+docopt = "*"
+regex = "*"
+rustc-serialize = "*"
+
+[dependencies.buildable]
+git = "https://github.com/rust-builder/buildable.git"
+
+[dependencies.commandext]
+git = "https://github.com/rust-builder/commandext.git"
+
+[dependencies.scm]
+git = "https://github.com/rust-builder/scm.git"
+
+[dependencies.utils]
+git = "https://github.com/rust-builder/utils.git"
+
+[lib]
+name = "mongo_rub"

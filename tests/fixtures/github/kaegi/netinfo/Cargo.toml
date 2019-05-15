@@ -1,0 +1,25 @@
+[package]
+name = "netinfo"
+version = "0.5.1"
+authors = ["kaegi <kaegi.dev@gmail.com>"]
+description = "Groups network usage by process"
+repository = "https://github.com/kaegi/netinfo"
+documentation = "https://docs.rs/netinfo"
+readme = "README.md"
+keywords = ["network", "profile", "usage", "nethogs", "pid"]
+license = "MIT"
+
+[lib]
+name = "netinfo"
+path = "src/lib.rs"
+
+[[bin]]
+name = "netinfo"
+path = "src/main.rs"
+doc = false
+
+[dependencies]
+pnet = "0.21.0"
+byteorder = "1.0"
+error-chain = "0.12"
+log = "0.4.5"

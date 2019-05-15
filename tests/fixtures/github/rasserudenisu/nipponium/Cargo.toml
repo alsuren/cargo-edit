@@ -1,0 +1,22 @@
+[package]
+name = "nipponium"
+version = "0.1.1"
+authors = ["Dennis Russell <aobajisho@yahoo.com>"]
+description = "Toolkit for Japanese text."
+documentation = "https://github.com/rasserudenisu/nipponium"
+homepage = "https://github.com/rasserudenisu/nipponium"
+repository = "https://github.com/rasserudenisu/nipponium"
+keywords = ["japanese"]
+license = "MIT"
+
+exclude = [
+    "assets/*",
+    "README.md"
+]
+
+[dependencies]
+regex = "0.2.1"
+
+[lib]
+name = "nipponium"
+path = "src/lib.rs"

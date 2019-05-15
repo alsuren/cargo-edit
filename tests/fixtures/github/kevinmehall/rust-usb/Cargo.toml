@@ -1,0 +1,20 @@
+[package]
+
+name = "usb"
+version = "0.2.2"
+authors = [ "Kevin Mehall <km@kevinmehall.net>", "Ian Daniher <it.daniher@gmail.com>" ]
+description = "Library for low-level access to USB devices via libusb"
+license = "MIT"
+keywords = ["USB", "hardware", "bindings"]
+repository = "https://github.com/kevinmehall/rust-usb"
+
+[lib]
+name = "usb"
+doctest = false
+
+[[example]]
+name = "test"
+path = "examples/test/main.rs"
+
+[dependencies]
+libc = "0.1"

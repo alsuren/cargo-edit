@@ -1,0 +1,29 @@
+[package]
+name = "docktape"
+version = "0.3.7"
+authors = ["spicheaubin <spicheaubin@devolutions.net>"]
+description = "Wrapping the Docker API"
+documentation = "https://docs.rs/docktape"
+homepage = "https://github.com/wayk/docktape-rs"
+repository = "https://github.com/wayk/docktape-rs"
+keywords = ["Docker", "unix", "api", "tcp", "socket"]
+license = "MIT"
+
+[dependencies]
+hyper = "0.11"
+futures = "0.1.21"
+tokio-core = "0.1"
+tokio-io = "0.1"
+tokio-service = "0.1"
+tokio-uds = "0.1"
+serde_json = "1.0.19"
+percent-encoding = "1.0.1"
+log = "0.4.1"
+url = "1.7"
+
+[target.'cfg(not(windows))'.dependencies]
+hyperlocal = "0.4"
+
+[[test]]
+name = "server"
+path = "tests/docker.rs"

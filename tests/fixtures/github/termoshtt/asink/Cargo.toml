@@ -1,0 +1,22 @@
+[package]
+name = "asink"
+version = "0.1.3-alpha.0"
+authors = ["Toshiki Teramura <toshiki.teramura@gmail.com>"]
+
+description   = "Async sink for timeseries data"
+documentation = "https://docs.rs/asink/"
+repository    = "https://github.com/termoshtt/asink"
+license       = "MIT"
+readme        = "README.md"
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+mongodb = "0.3.10"
+bson = "0.12"
+derive-new = "0.5"
+rmp = "0.8"
+rmp-serde = "0.13"
+
+[dev-dependencies]
+serde_derive = "1.0"

@@ -1,0 +1,19 @@
+[package]
+name = "rust-rethinkdb"
+version = "0.0.1"
+authors = ["abraaoisvi <abraao.isvi@gmail.com>", "paulo suzart <paulosuzart@gmail.com>"]
+license = "MIT"
+homepage = "http://sourust.rs/rust_docs/rethinkdb/index.html"
+repository = "https://github.com/avraamisvi/rethinkdbrust"
+description = """
+Rust native driver for RethinkDB 2.0. WIP.
+"""
+
+[dependencies]
+rustc-serialize = "*"
+byteorder = "*"
+rand = "*"
+
+[lib]
+name = "rethinkdb"
+path = "src/lib/mod.rs"

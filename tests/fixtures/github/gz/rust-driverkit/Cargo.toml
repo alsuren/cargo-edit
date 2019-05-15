@@ -1,0 +1,24 @@
+[package]
+name = "driverkit"
+version = "0.2.0"
+authors = ["Gerd Zellweger <mail@gerdzellweger.com>"]
+readme = "README.md"
+description = "A driver framework defining standard types and interfaces for writing device drivers."
+keywords = ["driver", "os", "framework"]
+repository = "https://github.com/gz/rust-driverkit"
+license = "MIT/Apache-2.0"
+
+[target.'cfg(target_family = "unix")'.dependencies]
+mmap = "0.1.*"
+libc = "0.2.*"
+byteorder = "0.5"
+matches = "0.1.8"
+
+[dependencies]
+x86 = "0.11.*"
+log = "0.4"
+bit_field = "0.9"
+
+[[bin]]
+name = "testdrive"
+path = "src/bin/testdrive.rs"

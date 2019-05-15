@@ -1,0 +1,33 @@
+[package]
+authors = ["Eduardo Pinho <enet4mikeenet@gmail.com>"]
+categories = ["development-tools::cargo-plugins"]
+description = "Navigate to a crate's informative site (homepage, repository, documentation or crates.io)."
+keywords = ["cargo", "navigate", "browser", "repository", "homepage"]
+name = "cargo-navigate"
+documentation = "https://docs.rs/cargo-navigate"
+repository = "https://github.com/Enet4/cargo-navigate"
+version = "0.1.1"
+license = "Apache-2.0/MIT"
+
+[[bin]]
+name = "cargo-navigate"
+path = "src/main.rs"
+
+[[bin]]
+name = "cargo-repo"
+path = "src/repo.rs"
+
+[[bin]]
+name = "cargo-home"
+path = "src/home.rs"
+
+[badges]
+travis-ci = { repository = "Enet4/cargo-navigate" }
+
+[dependencies]
+clap = "2.32.0"
+open = "1.2.2"
+serde = "1.0.84"
+serde_json = "1.0.34"
+toml = "0.4.10"
+reqwest = "0.9.5"

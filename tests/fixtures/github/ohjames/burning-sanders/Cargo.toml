@@ -1,0 +1,14 @@
+[package]
+name = "burning-sanders"
+version = "0.1.0"
+authors = ["James Pike <jpike@chilon.net>"]
+description = "A selector like fzu and fzy"
+repository = "https://github.com/ohjames/burning-sanders"
+license = "MIT"
+
+[dependencies]
+pancurses = "0.8"
+libc = "0.2"
+
+[[bin]]
+name = "sdr"

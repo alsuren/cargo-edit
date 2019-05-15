@@ -1,0 +1,17 @@
+[package]
+
+name = "hashids"
+version = "1.0.0"
+authors = [ "charsyam <charsyam@gmail.com>" ]
+description = "HashIds Rust Implementation"
+repository = "https://github.com/charsyam/hashids_rust"
+keywords = ["rust", "hashids"]
+license = "MIT"
+
+include = [
+  "**/*.rs",
+  "Cargo.toml",
+]
+
+[dependencies]
+regex = "0.1"

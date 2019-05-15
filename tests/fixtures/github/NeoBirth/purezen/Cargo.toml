@@ -1,0 +1,32 @@
+[package]
+name        = "purezen"
+version     = "0.0.2" # Also update html_root_url in lib.rs when bumping this
+authors     = ["Tony Arcieri <bascule@gmail.com>", "Martin Roth <mhroth@rjdj.me>"]
+license     = "LGPL-3.0"
+edition     = "2018"
+readme      = "README.md"
+repository  = "https://github.com/neobirth/purezen"
+categories  = ["embedded", "multimedia::audio", "no-std"]
+keywords    = ["audio", "music", "puredata", "signal-processing", "sound"]
+description = """
+              Runtime for the Pure Data (Pd) audio programming language,
+              implemented as an extensible audio library allowing full control
+              over signal processing, message passing, and graph manipulation.
+              Pure Data is a graph-based programming language environment
+              creating interactive music and multimedia works.
+              """
+
+[badges]
+travis-ci = { repository = "NeoBirth/PureZen" }
+
+[dependencies]
+failure = { version = "0.1", default-features = false }
+failure_derive = "0.1"
+generic-array = "0.11"
+heapless = "0.4"
+typenum = { version = "1", default-features = false }
+
+[features]
+default = ["std"]
+alloc = []
+std = ["alloc"]

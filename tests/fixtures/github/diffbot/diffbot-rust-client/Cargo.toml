@@ -1,0 +1,20 @@
+[package]
+authors = ["Alexandre Bury <alexandre.bury@gmail.com>"]
+description = "A client library for the Diffbot API"
+documentation = "http://diffbot.github.io/diffbot-rust-client/diffbot/index.html"
+keywords = ["diffbot", "web-scraping", "api"]
+license = "MIT"
+name = "diffbot"
+readme = "Readme.md"
+repository = "https://github.com/diffbot/diffbot-rust-client"
+version = "1.0.0"
+
+[dependencies]
+reqwest = "0.6.2"
+serde = "1.0.9"
+serde_json = "1.0.2"
+url = "1.5"
+
+[features]
+default = []
+real_test = []

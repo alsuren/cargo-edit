@@ -1,0 +1,31 @@
+[workspace]
+members = ["macros", "cortex-m"]
+
+[package]
+name = "drone-sx1276"
+version = "0.2.0"
+authors = ["Valentine Valyaeff <valentine.valyaeff@gmail.com>"]
+description = "Semtech SX1276/77/78/79 driver for Drone."
+readme = "README.md"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/drone-os/drone-sx1276"
+
+[features]
+default = []
+std = ['futures/use_std']
+
+[dependencies.drone-sx1276-macros]
+version = "0.2.0"
+path = "macros"
+
+[dependencies.drone-core]
+version = "0.8"
+path = "../drone-core"
+
+[dependencies.futures]
+version = "0.1"
+default-features = false
+
+[dependencies.clippy]
+version = "0.0"
+optional = true

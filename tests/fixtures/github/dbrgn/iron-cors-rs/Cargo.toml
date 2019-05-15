@@ -1,0 +1,18 @@
+[package]
+name = "iron-cors"
+version = "0.8.0"
+authors = ["Danilo Bargen <mail@dbrgn.ch>"]
+repository = "https://github.com/dbrgn/iron-cors-rs/"
+homepage = "https://github.com/dbrgn/iron-cors-rs/"
+documentation = "https://docs.rs/iron-cors/"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+description = "A CORS middleware implementation for Iron."
+
+[dependencies]
+log = "0.4"
+iron = "0.6"
+
+[dev-dependencies]
+iron-test = "0.6.0"
+unicase = "1.4.0"

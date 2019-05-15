@@ -1,0 +1,25 @@
+[package]
+name = "sqa"
+version = "0.1.0"
+authors = ["eeeeeta <eeeeeta@users.noreply.github.com>"]
+
+[dependencies]
+libc = "0.2.8"
+enum_primitive = "0.1.0"
+num = "0.1.31"
+portaudio = { git = "https://github.com/RustAudio/rust-portaudio" }
+simplemad = { git = "https://github.com/eeeeeta/simple-mad.rs", rev = "a0eaa56" }
+uuid = { git = "https://github.com/rust-lang-nursery/uuid", rev = "34ff260", features = ["use_std", "v4"] }
+time = "0.1.35"
+chrono = "0.2.22"
+rustbox = "0.8.1"
+gtk = { git = "https://github.com/gtk-rs/gtk", features = ["v3_12"] }
+gdk = { git = "https://github.com/gtk-rs/gdk", features = ["v3_12"] }
+glib = { git = "https://github.com/gtk-rs/glib" }
+mopa = "0.2.2"
+bounded-spsc-queue = "0.1.2"
+mio = "0.5.0"
+parking_lot = {version = "0.3", features = ["nightly"]}
+
+[profile.release]
+debug = true

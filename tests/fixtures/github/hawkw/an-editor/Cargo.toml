@@ -1,0 +1,41 @@
+[package]
+name = "an-rope"
+description = "an rope for large text documents."
+version = "0.3.1"
+authors = [ "Eliza Weisman <hi@hawkweisman.me>"
+          , "Chris McDonald <mail.chris.mcdonald@gmail.com>"
+          , "Rachel McLaughlin <rleighmac@gmail.com>"]
+repository = "https://github.com/hawkw/an-editor"
+homepage = "https://github.com/hawkw/an-editor"
+readme = "README.md"
+license = "MIT"
+
+[features]
+# no features by default
+default = []
+rebalance = []
+atomic = []
+# if building against unstable Rust
+unstable = []
+
+[dependencies.unicode-segmentation]
+version = "1.0.1"
+
+[dependencies.tendril]
+version = "0.2.3"
+optional = true
+
+[dev-dependencies]
+quickcheck = "0.3"
+
+[dependencies.clippy]
+version = "0.0.106"
+optional = true
+
+[dependencies.macro-attr]
+version = "0.2.0"
+# git = "https://github.com/DanielKeep/rust-custom-derive.git"
+
+[dependencies.newtype_derive]
+version = "0.1.6"
+# git = "https://github.com/DanielKeep/rust-custom-derive.git"

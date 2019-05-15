@@ -1,0 +1,14 @@
+[package]
+name = "boolean_expression"
+version = "0.3.8"
+authors = ["Chris Fallin <cfallin@c1f.net>"]
+description = "A library for manipulating and evaluating Boolean expressions and BDDs"
+repository = "https://github.com/cfallin/boolean_expression"
+documentation = "https://cfallin.github.io/boolean_expression/boolean_expression/"
+license = "MIT"
+
+[dependencies]
+rand = "0.3"
+smallvec = "0.1"
+itertools = "0.4"
+indoc = "0.2"

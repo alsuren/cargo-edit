@@ -1,0 +1,29 @@
+[package]
+name = "tflite"
+version = "0.1.2"
+authors = ["Boncheol Gu <boncheol.gu@gmail.com>"]
+
+description = "Rust bindings for TensorFlow Lite"
+keywords = ["tensorflow", "tflite", "bindings"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/boncheolgu/tflite-rs"
+readme = "README.md"
+
+[dependencies]
+cpp = "0.5"
+failure = "0.1"
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.43"
+cpp_build = "0.5"
+curl = "0.4"
+failure = "0.1"
+flate2 = "1.0"
+hex = "0.3"
+reqwest = "0.9"
+sha2 = "0.8"
+tar = "0.4"
+
+[features]
+debug_tflite = [] # use "libtensorflow-lite.a" built in debug mode

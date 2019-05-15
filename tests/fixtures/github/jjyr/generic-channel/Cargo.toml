@@ -1,0 +1,19 @@
+[package]
+name = "generic-channel"
+version = "0.2.0"
+authors = ["jjy <jjyruby@gmail.com>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/jjyr/generic-channel"
+description = "Generic `Sender` and `Receiver` abstract between several channel implementations: std, crossbeam-channel, futures"
+
+[features]
+all = ["futures", "crossbeam-channel"]
+
+[dependencies]
+crossbeam-channel = {version="0.3", optional=true}
+futures = {version="0.1", optional=true}
+
+[dev-dependencies]
+crossbeam-channel = "0.3"
+futures = "0.1"

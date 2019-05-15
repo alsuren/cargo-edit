@@ -1,0 +1,28 @@
+[package]
+name = "cellsplit"
+version = "0.2.2"
+authors = ["Alex Burka <aburka@seas.upenn.edu>"]
+
+description = "Utility for dissecting MATLAB Cell Mode scripts"
+categories = ["development-tools", "command-line-utilities"]
+homepage = "https://github.com/durka/cellsplit"
+repository = "https://github.com/durka/cellsplit"
+readme = "README.md"
+license = "MIT"
+keywords = ["matlab", "cell", "script"]
+
+[badges]
+travis-ci = { repository = "durka/cellsplit" }
+
+[[bin]]
+name = "cellsplit"
+doc = false
+
+[dependencies]
+clap       = { version = "2.20.0", features = ["color"] }
+error-chain            = "0.8"
+unborrow               = "0.3"
+slug                   = "0.1"
+regex                  = "0.2"
+lazy_static            = "0.2"
+

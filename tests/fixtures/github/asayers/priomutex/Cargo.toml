@@ -1,0 +1,25 @@
+[package]
+name = "priomutex"
+version = "0.3.1"
+authors = ["Alex Sayers <alex.sayers@gmail.com>"]
+description = "A mutex where waiting threads specify a priority"
+documentation = "https://docs.rs/priomutex/"
+repository = "https://github.com/asayers/priomutex"
+readme = "README"
+keywords = ["mutex"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+
+[dev-dependencies]
+env_logger = "0.5"
+log = "0.4"
+rand = "0.4"
+
+[[bench]]
+name = "simple"
+harness = false
+
+[[bench]]
+name = "spin_one"
+harness = false

@@ -1,0 +1,28 @@
+[package]
+name = "gbm"
+description = "libgbm bindings for rust"
+license = "MIT"
+documentation = "https://docs.rs/gbm"
+repository = "https://github.com/Smithay/gbm.rs"
+version = "0.5.0"
+keywords = ["wayland", "gbm", "drm", "bindings"]
+categories = ["external-ffi-bindings"]
+authors = ["Victor Brekenfeld <github@drakulix.de>"]
+exclude = [".travis.yml", ".rustfmt.toml"]
+
+[dependencies]
+gbm-sys = { version = "0.1", path = "./gbm-sys" }
+libc = "0.2"
+bitflags = "1.0.0"
+wayland-server = { version = "0.12", optional = true }
+drm = { version = "0.3", optional = true }
+
+[dev-dependencies]
+drm = "0.3.0"
+
+[features]
+default = ["import-wayland", "import-egl", "drm-support"]
+import-wayland = ["wayland-server"]
+import-egl = []
+drm-support = ["drm"]
+gen = ["gbm-sys/gen"]

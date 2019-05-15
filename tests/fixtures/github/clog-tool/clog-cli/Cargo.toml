@@ -1,0 +1,33 @@
+[package]
+repository = "https://github.com/clog-tool/clog-cli"
+readme = "README.md"
+keywords = ["git", "log", "changelog", "parser", "parse"]
+license = "MIT"
+name = "clog-cli"
+version = "0.9.3"
+authors = ["Christoph Burgdorf <christoph.burgdorf@bvsn.org>"]
+description = "A conventional changelog for the rest of us"
+exclude = ["docs/*"]
+
+[[bin]]
+name = "clog"
+
+[dependencies]
+semver = "~0.6.0"
+clap = "~2.21.1"
+time = "~0.1.32"
+clog = "~0.9.1"
+
+[dependencies.ansi_term]
+version = "~0.9.0"
+optional = true
+
+[features]
+default = ["color"]
+
+color = ["ansi_term"]
+
+# For debugging output
+debug = []
+
+unstable = []

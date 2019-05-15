@@ -1,0 +1,12 @@
+[package]
+name = "mine_sweeper"
+version = "0.2.2"
+authors = ["VitalyR <vitalyankh@gmail.com>"]
+edition = "2018"
+license="MIT"
+description="Minesweeper written in Rust, an adaption of the cursive's example"
+repository="https://github.com/VitalyAnkh/mine_sweeper"
+
+[dependencies]
+rand = "0.6.5"
+cursive = "0.11.1"

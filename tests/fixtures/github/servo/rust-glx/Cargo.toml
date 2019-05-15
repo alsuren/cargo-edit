@@ -1,0 +1,15 @@
+[package]
+name = "glx"
+version = "0.2.5"
+license = "MIT / Apache-2.0"
+authors = ["Servo developers"]
+description = "GLX 1.4 bindings for Linux"
+documentation = "https://doc.servo.org/glx/"
+build = "build.rs"
+repository = "https://github.com/servo/rust-glx"
+
+[build-dependencies]
+gl_generator = "0.11"
+
+[dependencies]
+libc = "0.2"

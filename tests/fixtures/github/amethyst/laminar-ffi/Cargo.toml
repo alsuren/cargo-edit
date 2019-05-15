@@ -1,0 +1,28 @@
+[package]
+name = "laminar-ffi"
+version = "0.0.1"
+authors = [
+    "Lucio Franco <luciofranco14@gmail.com>",
+    "Fletcher Haynes <fletcher@capitalprawn.com>",
+    "TimonPost <timonpost@hotmail.nl>",
+    "Justin LeFevre <jstnlefebvre@gmail.com>"
+]
+
+edition = "2018"
+
+readme = "README.md"
+license = "MIT/Apache-2.0"
+
+description = "FFI crate that exposes Laminar for use in other languages"
+keywords = ["gamedev", "networking", "udp", "amethyst"]
+categories = ["game-engines", "network-programming"]
+exclude = ["examples/*", "docs/*", "benches/*"]
+repository = "https://github.com/amethyst/laminar-ffi"
+
+[lib]
+name = "laminar_ffi"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+libc = "0.2.50"
+laminar = "0.1.0"

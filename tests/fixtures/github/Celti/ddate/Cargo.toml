@@ -1,0 +1,28 @@
+[package]
+name = "ddate"
+version = "0.4.0"
+authors = ["Celti Burroughs <celti@celti.name>"]
+edition = "2018"
+
+description = "Discordian date output for Chrono."
+documentation = "https://docs.rs/ddate"
+homepage = "https://github.com/Celti/ddate"
+repository = "https://github.com/Celti/ddate"
+
+readme = "README.md"
+license = "Unlicense"
+
+keywords = ["discordia", "calendar", "date", "chrono"]
+categories = ["date-and-time"]
+
+[dependencies]
+chrono = "0.4"
+dtparse = { version = "1.0", optional = true }
+
+[features]
+bin = ["dtparse"]
+
+[[bin]]
+name = "ddate"
+path = "src/bin/ddate.rs"
+required-features = ["bin"]

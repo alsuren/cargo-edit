@@ -1,0 +1,31 @@
+[package]
+name = "amiwo"
+version = "0.2.3"
+authors = ["Boris <boris@humanenginuity.com>"]
+description = "Various utility types & functions for Rust. Named after a famous Beninese dish"
+repository = "https://github.com/bgbahoue/amiwo"
+documentation = "https://docs.rs/crate/amiwo/0.2.0"
+readme = "README.md"
+#categories = ["web-programming::http-server", "development-tools"]
+license = "MIT"
+
+[features]
+default = []
+all = ["amiwo_hyper", "amiwo_rocket", "amiwo_serde"]
+amiwo_hyper = []
+amiwo_rocket = ["amiwo_serde"]
+amiwo_serde = []
+
+[dependencies]
+hyper = "0.10"
+log = "0.3.7"
+rocket = "0.2.7"
+rocket_codegen = "0.2.7"
+
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+
+[dev-dependencies]
+compiletest_rs = "0.2.6"
+rocket = { version = "0.2.6", features = ["testing"] }

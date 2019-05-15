@@ -1,0 +1,25 @@
+[package]
+name = "rsdocs2docset"
+version = "0.4.1"
+authors = ["Daniel Bornkessel"]
+description = "This is a small tool to generate a docsets for Dash / Velocity / Zeal / LovelyDocs out of Rust docs."
+homepage = "https://github.com/kesselborn/rsdocs2docset"
+repository = "https://github.com/kesselborn/rsdocs2docset"
+readme = "README.md"
+keywords = ["docs", "docset", "rsdoc"]
+license = "MIT"
+
+[[bin]]
+name = "rsdocs2docset"
+doc = false
+
+[dependencies]
+html5ever = "^0"
+html5ever-atoms = "^0"
+string_cache = "^0"
+sqlite = "^0"
+tendril = "^0"
+clap = "^2"
+quick-error = "^1"
+regex = "^0"
+url = "^1"

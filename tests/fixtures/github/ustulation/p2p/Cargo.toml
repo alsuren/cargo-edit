@@ -1,0 +1,36 @@
+[package]
+authors = ["ustulation <ustulation@gmail.com>"]
+description = "NAT Traversal for P2P communication"
+documentation = "https://docs.rs/p2p/"
+license = "MIT OR BSD-3-Clause"
+name = "p2p"
+readme = "README.md"
+repository = "https://github.com/ustulation/p2p"
+version = "0.6.0"
+
+[dependencies]
+bincode = "~0.8.0"
+byteorder = "~1.1.0"
+log = "~0.3.8"
+mio = "~0.6.9"
+mio-extras = "~2.0.5"
+net2 = "~0.2.30"
+quick-error = "~1.2.0"
+rand = "~0.3.16"
+rust_sodium = "~0.5.0"
+serde = "~1.0.11"
+serde_derive = "~1.0.11"
+unwrap = "~1.1.0"
+
+[dependencies.socket-collection]
+version = "~0.3.0"
+#git = "https://github.com/maidsafe/socket-collection"
+#branch = "community-release-1"
+
+[dev-dependencies]
+env_logger = "~0.5.13"
+maidsafe_utilities = "~0.15.0"
+serde_json = "~1.0.2"
+
+#[features]
+#enable-udt = ["socket-collection/enable-udt"]

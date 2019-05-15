@@ -1,0 +1,16 @@
+[package]
+name = "simple-bind"
+version = "0.1.6"
+authors = ["Will Crichton <wcrichto@cs.stanford.edu>"]
+description = "One-line non-exhaustive binds"
+license = "Apache-2.0"
+repository = "https://github.com/willcrichton/simple-bind"
+documentation = "https://docs.rs/simple-bind"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = { version = "0.3.8", features = ["nightly"] }
+syn = {version = "0.13", features = ["full", "extra-traits"]}
+quote = "0.5"

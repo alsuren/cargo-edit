@@ -1,0 +1,29 @@
+[package]
+name = "dnsoverhttps"
+version = "0.6.0"
+description = "Resolve hostnames by sending DNS queries over HTTPS"
+authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
+
+readme = "README.md"
+license = "MIT"
+
+homepage = "https://github.com/badboy/dnsoverhttps"
+documentation = "https://docs.rs/dnsoverhttps"
+repository = "https://github.com/badboy/dnsoverhttps"
+
+include = [
+  "Cargo.toml",
+  "README*",
+  "LICENSE*",
+  "src/**/*",
+  "tests/**/*",
+  "examples/**/*",
+]
+
+[dependencies]
+reqwest = "0.9.1"
+trust-dns = "0.14.0"
+trust-dns-proto = "0.4.0"
+failure = "0.1.2"
+log = "0.4"
+env_logger = "0.5"

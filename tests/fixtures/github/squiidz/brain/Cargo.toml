@@ -1,0 +1,29 @@
+[package]
+name        = "brain-rs"
+version     = "0.1.0"
+authors     = ["jchaput <piinkyz05@gmail.com>"]
+description = "Embeddable brainfuck interpreter"
+readme      = "README.md"
+homepage    = "https://github.com/squiidz/brain"
+repository  = "https://github.com/squiidz/brain"
+license     = "MIT"
+keywords    = ["parser", "cli", "compiler", "brainfuck"]
+exclude     = [
+    "ruby_brain",
+    "web_brain",
+    "brainfuck",
+    "benches",
+]
+
+[lib]
+name = "brain"
+crate-type = ["rlib", "dylib"]
+path = "src/lib.rs"
+
+[[bin]]
+doc = false
+name = "brain"
+path = "src/bin/brain.rs"
+
+[dependencies]
+clap = "2.21.1"

@@ -1,0 +1,16 @@
+[package]
+name = "openni2"
+version = "0.3.0"
+authors = ["Jesse Bees <jesse@toomanybees.com>"]
+description = "Rust interface to OpenNI2"
+repository = "https://github.com/TooManyBees/rust-openni2"
+readme = "README.md"
+keywords = ["openni2", "computer-vision", "natural-interaction", "kinect", "xtion"]
+categories = ["multimedia::video", "hardware-support"]
+license = "MIT"
+
+[dependencies]
+openni2-sys = "1.0"
+
+[dev-dependencies]
+minifb = "0.10"

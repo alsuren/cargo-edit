@@ -1,0 +1,14 @@
+[package]
+name = "tak"
+version = "0.6.1"
+authors = ["Matt Wismer <mattwis86@gmail.com>"]
+repository = "https://github.com/MattWis/tak-rs.git"
+homepage = "https://github.com/MattWis/tak-rs.git"
+license = "MIT"
+readme = "README.md"
+description = "Implementation of Tak (from the Kingkiller Chronicles)"
+
+[dependencies]
+rustc-serialize = "0.3"
+enum_primitive = "0.1"
+twiddle = "0.1.2"

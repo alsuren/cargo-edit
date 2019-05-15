@@ -1,0 +1,28 @@
+[package]
+name = "sized-vec"
+version = "0.3.1-alpha.0"
+edition = "2018"
+authors = ["Bodil Stokke <bodil@bodil.org>"]
+license = "MPL-2.0+"
+description = "Type level sized vectors"
+repository = "https://github.com/bodil/sized-vec"
+documentation = "https://docs.rs/sized-vec"
+readme = "README.md"
+categories = ["data-structures"]
+keywords = ["typelevel"]
+
+[badges]
+travis-ci = { repository = "bodil/sized-vec" }
+
+[dependencies]
+typenum = "1.10"
+serde = { version = "1.0", optional = true }
+proptest = { version = "0.9", optional = true }
+generic-array = { version = "0.13", optional = true }
+
+[dev-dependencies]
+pretty_assertions = "0.6"
+serde = "1.0"
+serde_json = "1.0"
+proptest = "0.9"
+generic-array = "0.13"

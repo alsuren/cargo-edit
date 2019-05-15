@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "typed-html",
+    "macros",
+    "examples/stdweb",
+    "examples/iron",
+    "examples/dodrio/counter",
+    "examples/dodrio/todomvc",
+    "ui",
+]

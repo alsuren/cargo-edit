@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "oauth1-request",
+  "oauth1-request-derive",
+]
+
+[patch.crates-io]
+oauth1-request = { path = "oauth1-request" }
+oauth1-request-derive = { path = "oauth1-request-derive" }

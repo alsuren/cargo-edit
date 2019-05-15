@@ -1,0 +1,16 @@
+[package]
+description = "Parser for the RADIUS protocol"
+license = "MIT/Apache-2.0"
+keywords = ["RADIUS","parser","nom"]
+homepage = "https://github.com/rusticata/radius-parser"
+repository = "https://github.com/rusticata/radius-parser.git"
+name = "radius-parser"
+version = "0.2.0"
+authors = ["Pierre Chifflier <chifflier@wzdftpd.net>"]
+categories = ["parsing"]
+
+[dependencies]
+nom = {version = "4.0", features = ["verbose-errors"]}
+
+[badges]
+travis-ci = { repository = "rusticata/radius-parser" }

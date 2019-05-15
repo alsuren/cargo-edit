@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "named_type",
+    "named_type_derive",
+    "named_type_test",
+]

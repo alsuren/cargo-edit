@@ -1,0 +1,20 @@
+[package]
+name = "oath"
+version = "0.10.1"
+authors = ["Andrei Vacariu <andrei@avacariu.me>", "crypto-universe <ykp@protonmail.ch>"]
+license = "MIT"
+description = """
+An implementation of OATH algorithms in Rust. Includes TOTP, HOTP, and OCRA.
+"""
+homepage = "https://github.com/avacariu/rust-oath"
+repository = "https://github.com/avacariu/rust-oath"
+documentation = "https://docs.rs/oath/"
+keywords = ["oath", "totp", "hotp", "ocra"]
+categories = ["cryptography"]
+
+[dependencies]
+sha-1 = "0.3"
+sha2 = "0.5"
+digest = "0.5"
+hmac = "0.1"
+rustc-hex = "1.0"

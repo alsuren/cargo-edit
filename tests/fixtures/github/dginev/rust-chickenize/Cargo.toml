@@ -1,0 +1,23 @@
+[package]
+name = "chickenize"
+version = "0.3.3"
+edition = "2018"
+authors = ["Deyan Ginev <d.ginev@jacobs-university.de>"]
+description = "Chickenize everything"
+repository = "https://github.com/dginev/rust-chickenize"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+
+[lib]
+name = "chickenize"
+crate-type = ["rlib", "dylib"]
+
+[[bin]]
+name = "chickenize"
+path = "bin/chickenize.rs"
+
+[[bin]]
+name = "loremize"
+path = "bin/loremize.rs"

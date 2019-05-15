@@ -1,0 +1,15 @@
+[package]
+
+name = "cli"
+version = "0.0.2"
+authors = ["Shipeng Feng <fsp261@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/fengsp/cli"
+homepage = "https://github.com/fengsp/cli"
+documentation = "http://fengsp.github.io/cli"
+description = "One Rust crate for creating beautiful command line applications."
+
+[dependencies]
+getopts = "*"
+time = "*"

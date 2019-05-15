@@ -1,0 +1,39 @@
+[package]
+name         = "obofoundry"
+version      = "0.1.2"
+authors      = ["Martin Larralde <martin.larralde@ens-cachan.fr>"]
+edition      = "2018"
+license      = "MIT"
+description  = "Structures to deserialize OBO Foundry listings into."
+repository   = "https://github.com/althonos/obofoundry.rs"
+readme       = "README.md"
+keywords     = ["obo", "ontology", "obofoundry", "foundry", "serde"]
+categories   = ["science"]
+
+[lib]
+name = "obofoundry"
+path = "src/lib.rs"
+
+[badges.travis-ci]
+repository = "althonos/obofoundry.rs"
+[badges.codecov]
+repository = "althonos/obofoundry.rs"
+service    = "github"
+[badges.is-it-maintained-issue-resolution]
+repository = "althonos/obofoundry.rs"
+[badges.maintenance]
+status     = "as-is"
+
+[dependencies.serde]
+version  = "1.0"
+features = ["derive"]
+[dependencies.url]
+version  = "1.7"
+features = ["serde"]
+[dependencies.url_serde]
+version = "0.2"
+
+[dev-dependencies]
+serde_yaml = "0.8"
+serde_json = "1.0"
+reqwest    = "0.9"

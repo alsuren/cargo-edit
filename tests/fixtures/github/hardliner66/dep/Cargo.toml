@@ -1,0 +1,38 @@
+[package]
+name = "dep"
+description = "A very basic, git based, flat dependency manager"
+version = "0.2.0"
+authors = ["hardliner66"]
+edition = "2018"
+
+homepage = "https://github.com/hardliner66/dep"
+repository = "https://github.com/hardliner66/dep"
+
+license = "MIT"
+
+readme = "README.md"
+categories = [
+    "development-tools",
+    "development-tools::build-utils"
+]
+
+keywords = ["dependency", "dependencies", "manager"]
+
+exclude = [
+    "VENDOR",
+    "deps.toml",
+]
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]
+toml = "0.4.10"
+serde = "1.0.87"
+serde_derive = "1.0.87"
+git2 = "0.7"
+argparse = "0.2.2"
+remove_dir_all = "0.5.1"
+rpassword = "2.1.0"
+whoami = "0.4.1"
+path-clean = "0.1.0"

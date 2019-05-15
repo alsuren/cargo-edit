@@ -1,0 +1,47 @@
+[package]
+name = "schema_registry_converter"
+version = "1.0.0"
+authors = ["Gerard Klijs <g.klijs@gmail.com>"]
+include = ["src/**/*", "Cargo.toml"]
+description = "Encode/decode data from/to kafka using the Confluent Schema Registry"
+homepage = "https://github.com/gklijs/schema_registry_converter"
+repository = "https://github.com/gklijs/schema_registry_converter"
+readme = "README.md"
+keywords = ["kafka", "encode", "decode", "schema", "avro"]
+categories = ["encoding", "parsing"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+[features]
+default = []
+kafka_test = []
+
+[dependencies.avro-rs]
+version = ">= 0.6"
+
+[dependencies.byteorder]
+version = ">= 1.0"
+
+[dependencies.curl]
+version = ">= 0.4"
+
+[dependencies.serde_json]
+version = ">=0.8.0, <2.0"
+
+[dev-dependencies]
+mockito = "0.16.0"
+rdkafka = "0.20.0"
+futures = "^0.1.25"
+rand = "0.6.5"
+
+[badges.travis-ci]
+repository = "gklijs/schema_registry_converter"
+
+[badges.codecov]
+repository = "gklijs/schema_registry_converter"
+
+[badges.is-it-maintained-open-issues]
+repository = "gklijs/schema_registry_converter"
+
+[badges.maintenance]
+status = "passively-maintained"

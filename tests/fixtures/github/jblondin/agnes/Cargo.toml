@@ -1,0 +1,56 @@
+[package]
+name = "agnes"
+version = "0.3.2"
+description = "A data wrangling library for Rust"
+authors = ["Jamie Blondin <jblondin@gmail.com>"]
+license-file = "LICENSE"
+repository = "https://github.com/agnes-rs/agnes"
+exclude = ["tests/data/*"]
+autoexamples = true
+
+[features]
+default = ["serialize", "test-utils"]
+# serlization feature (on by default) -- provides data serialization functionality
+serialize = []
+# test utility feature (on by default) -- provides various test utilitys
+test-utils = []
+# compilation tests feature (off by default) -- uses compiletest_rs package to check for expected
+# compilation failures
+compiletests = []
+# experimental features (off by default) -- adds experimental features (undocumented, unttested)
+experimental = []
+# arithmetic operation features (off by default) -- adds arithmetic operation implementations
+# (scalar-field and field-field) for field data structures
+ops = []
+
+[[example]]
+name = "exp_gdp_life"
+path = "exp_examples/gdp_life.rs"
+required-features = ["experimental"]
+
+[dependencies]
+csv = "1.0.0-beta.5"
+serde = "1.0"
+serde_derive = "1.0"
+futures = "0.1"
+hyper-tls = "0.3"
+hyper = "0.12"
+tokio-core = "0.1"
+tokio-io = "0.1"
+native-tls = "0.2"
+encoding = "0.2"
+indexmap = "0.4"
+bit-vec = "0.4.4"
+prettytable-rs = "0.6"
+csv-sniffer = "0.1"
+tempfile = "3"
+num-traits = "0.2.5"
+typenum = "1.10.0"
+
+[dev-dependencies]
+serde_json = "1.0"
+rand = "0.5"
+
+[dev-dependencies.compiletest_rs]
+version = "0.3"
+features = ["stable", "tmp"]

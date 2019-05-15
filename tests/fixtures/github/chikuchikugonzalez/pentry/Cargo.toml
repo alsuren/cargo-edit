@@ -1,0 +1,34 @@
+[package]
+name          = "pentry"
+version       = "0.1.1"
+authors       = ["chikuchikugonzalez <chikuchikugonzalez@gmail.com>"]
+description   = "Inspect Process ID and Executable File."
+documentation = "https://chikuchikugonzalez.github.io/pentry/pentry/"
+repository    = "https://github.com/chikuchikugonzalez/pentry"
+readme        = "README.md"
+license       = "MIT"
+
+[lib]
+name    = "pentry"
+path    = "src/lib.rs"
+test    = true
+doctest = true
+bench   = false
+doc     = true
+
+[[bin]]
+name    = "pentry"
+path    = "src/bin/pentry.rs"
+test    = false
+doctest = false
+bench   = false
+doc     = false
+
+[dependencies]
+libc    = "0.2"
+getopts = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+
+[target.'cfg(unix)'.dependencies]
+procinfo = "0.3"

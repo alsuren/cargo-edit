@@ -1,0 +1,18 @@
+[package]
+name = "smc"
+version = "0.1.0"
+
+authors = ["Domenico Shura <shura1991@gmail.com>"]
+license = "WTFPL"
+edition = "2018"
+
+description = "macOS SMC implementation."
+repository = "https://github.com/shurizzle/rust-smc"
+keywords = ["macos", "smc", "cpu", "gpu", "fan", "themal"]
+
+[dependencies]
+
+[target.'cfg(target_os = "macos")'.dependencies]
+libc = "0.2.50"
+core-foundation = "0.6.3"
+ctor = "0.1.8"

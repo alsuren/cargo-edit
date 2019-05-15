@@ -1,0 +1,27 @@
+[package]
+authors = ["Doug Goldstein <cardoe@cardoe.com>"]
+categories = ["command-line-utilities"]
+description = "Generates a BitBake recipe for a package utilizing meta-rust's classes."
+documentation = "https://github.com/cardoe/cargo-bitbake"
+homepage = "https://github.com/cardoe/cargo-bitbake"
+keywords = ["cargo-subcommand", "bitbake", "yocto", "recipe"]
+license = "MIT/Apache-2.0"
+name = "cargo-bitbake"
+readme = "README.md"
+repository = "https://github.com/cardoe/cargo-bitbake"
+version = "0.3.11-pre"
+
+[badges]
+
+[badges.travis-ci]
+repository = "cardoe/cargo-bitbake"
+
+[dependencies]
+cargo = "^0.24"
+git2 = "^0.6.4"
+itertools = "^0.5.0"
+lazy_static = "^0.2"
+md5 = "^0.3"
+regex = "^0.2"
+serde = "1"
+serde_derive = "1"

@@ -1,0 +1,10 @@
+[package]
+name = "tokio-tuntap"
+version = "0.0.0"
+authors = ["kristopher tate <kt@connectfree.co.jp>"]
+description = "tokio bindings to mio-tuntap"
+repository = "https://github.com/connectFree/tokio-tuntap"
+homepage = "https://github.com/connectFree/tokio-tuntap"
+license = "Apache-2.0"
+
+[dependencies]

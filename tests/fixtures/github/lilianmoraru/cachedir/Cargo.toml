@@ -1,0 +1,16 @@
+[package]
+name          = "cachedir"
+version       = "0.1.1"
+authors       = ["Lilian A. Moraru <lilian.moraru90@gmail.com>"]
+license       = "Unlicense/MIT"
+readme        = "README.md"
+homepage      = "https://github.com/lilianmoraru/cachedir"
+repository    = "https://github.com/lilianmoraru/cachedir"
+documentation = "https://docs.rs/cachedir"
+categories    = ["caching", "filesystem"]
+
+description   = """
+A library that helps with cache directories creation in a system-agnostic way.
+
+Note: even though the crate is at version `0.1`, it should be stable and its API is not expected to change soon.
+"""

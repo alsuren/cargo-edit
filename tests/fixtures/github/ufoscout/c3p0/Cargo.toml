@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "c3p0",
+    "c3p0_diesel_macro",
+    "c3p0_diesel",
+    "c3p0_migrate",
+]

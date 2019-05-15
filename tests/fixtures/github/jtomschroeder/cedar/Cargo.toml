@@ -1,0 +1,23 @@
+[package]
+name = "cedar"
+version = "0.1.1"
+authors = ["Tom Schroeder <j.tom.schroeder@gmail.com>"]
+description = "Reactive, functional library for creating UI applications"
+
+documentation = "https://docs.rs/crate/cedar"
+homepage = "https://github.com/jtomschroeder/cedar"
+repository = "https://github.com/jtomschroeder/cedar"
+
+readme = "README.md"
+license = "MIT"
+keywords = ["frp", "ui"]
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+
+web-view = "0.2"
+sass-rs = "0.2"
+
+cedar-hypertext = { path = "hypertext" }

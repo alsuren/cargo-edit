@@ -1,0 +1,29 @@
+[workspace]
+
+[package]
+name = "swc"
+version = "0.1.0"
+authors = ["강동윤 <kdy1@outlook.kr>"]
+license = "Apache-2.0/MIT"
+repository = "https://github.com/swc-project/swc.git"
+documentation = "https://swc-project.github.io/rustdoc/swc/"
+description = "Speedy web compiler"
+
+[lib]
+name = "swc"
+
+[dependencies]
+swc_atoms = { path ="./atoms" }
+swc_common = { path ="./common" }
+swc_ecmascript = { path ="./ecmascript" }
+sourcemap = "2.2"
+
+[profile.bench]
+lto = true
+
+[profile.release]
+lto = true
+
+[patch.crates-io]
+# This reduces compile time
+sourcemap = { git = "https://github.com/kdy1/rust-sourcemap.git" }

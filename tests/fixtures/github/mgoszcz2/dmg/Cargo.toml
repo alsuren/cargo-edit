@@ -1,0 +1,21 @@
+[package]
+name = "dmg"
+version = "0.1.1"
+license = "MIT/Apache-2.0"
+authors = ["Maciej Goszczycki <mgoszcz2@gmail.com>"]
+readme = "README.md"
+description = "Simple attaching/detaching of macOS disk images"
+repository = "https://github.com/mgoszcz2/dmg"
+homepage = "https://github.com/mgoszcz2/dmg"
+documentation = "https://docs.rs/dmg/"
+keywords = ["dmg", "file", "mount", "osx"]
+
+[dependencies]
+plist = { version = "0.2.2", default-features = false }
+log = "0.3.8"
+
+[dev-dependencies]
+env_logger = "0.4.3"
+
+[[bin]]
+name = "demo"

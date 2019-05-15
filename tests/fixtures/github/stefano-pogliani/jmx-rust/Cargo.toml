@@ -1,0 +1,35 @@
+[package]
+name = "jmx"
+version = "0.2.0"
+authors = ["Stefano Pogliani <stefano@spogliani.net>"]
+description = "JMX client library for Rust"
+keywords = ["jmx"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/stefano-pogliani/jmx-rust"
+readme = "README.md"
+
+# This is needed to make cargo compile all tests/*.rs
+# even though a [[test]] section is present in this file.
+autotests = true
+
+
+[features]
+thread-support = ["crossbeam-channel", "serde_json"]
+
+
+[dependencies]
+crossbeam-channel = { version = "^0.3.8", optional = true }
+failure = "^0.1.5"
+j4rs = "^0.5.1"
+serde = "^1.0.0"
+serde_derive = "^1.0.0"
+serde_json = { version = "^1.0.26", optional = true }
+
+
+[[test]]
+name = "6-multi-threaded"
+required-features = ["thread-support"]
+
+[[test]]
+name = "7-multi-threaded-reconnect"
+required-features = ["thread-support"]

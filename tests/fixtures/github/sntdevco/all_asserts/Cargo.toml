@@ -1,0 +1,14 @@
+[package]
+name = "all_asserts"
+version = "0.1.4"
+authors = ["sntdevco <nandansayan@outlook.com>"]
+edition = "2018"
+description = "A crate for multiple types of asserts that don't exist in the standard library"
+documentation = "https://docs.rs/all_asserts/0.1.4"
+readme = "CRATE.md"
+keywords = ["assert", "test", "testing", "asserts", "compare"]
+categories = ["development-tools"]
+license = "Apache-2.0"
+license-file = "LICENSE"
+repository = "https://github.com/sntdevco/all_asserts"
+[dependencies]

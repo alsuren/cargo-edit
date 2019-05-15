@@ -1,0 +1,22 @@
+[package]
+name = "glusterfs-exporter"
+description = "A prometheus exporter for glusterfs' volumes profile information"
+homepage = "https://github.com/ibotty/glusterfs-exporter"
+repository = "https://github.com/ibotty/glusterfs-exporter.git"
+readme = "Readme.md"
+license = "MIT"
+version = "0.1.1"
+authors = ["Tobias Florek <tob@butter.sh>"]
+build = "build.rs"
+
+[dependencies]
+prometheus = "0.2"
+serde = "0.8"
+serde_xml = "0.9"
+env_logger = "0.3"
+hyper = "0.9"
+log = "0.3"
+lazy_static = "0.2"
+
+[build-dependencies]
+serde_codegen = "0.8"

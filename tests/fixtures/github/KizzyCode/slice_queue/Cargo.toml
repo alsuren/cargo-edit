@@ -1,0 +1,17 @@
+[package]
+name = "slice_queue"
+version = "0.3.2"
+authors = ["KizzyCode Software Labs./Keziah Biermann <development@kizzycode.de>"]
+description = "This library provides an VecQueue for efficient working with (byte-)slices"
+license = "BSD-2-Clause OR MIT"
+repository = "https://github.com/KizzyCode/slice_queue"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "KizzyCode/slice_queue" }
+appveyor = { repository = "KizzyCode/slice_queue" }
+
+[features]
+default = ["deref", "unsafe_fast_code"]
+deref = []
+unsafe_fast_code = []

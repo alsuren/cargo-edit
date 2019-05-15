@@ -1,0 +1,36 @@
+[package]
+name = "drop_guard"
+version = "0.2.1"
+authors = ["Stefan Schindler <dns2utf8@estada.ch>"]
+
+description = """
+The drop_guard crate enables you to implement the Drop trait on any type.
+So you can run a closure on any value running out of scope.
+"""
+categories = [
+    "rust-patterns",
+    "data-structures",
+]
+keywords = [ "type-system", "container", "callback", "lambda", "closure" ]
+
+readme = "README.md"
+documentation = "https://docs.rs/drop_guard"
+repository = "https://github.com/dns2utf8/drop_guard"
+
+license = "MIT/Apache-2.0"
+
+include = [
+    "**/*.rs",
+    "README.md",
+    "CHANGELOG.md",
+    "Cargo.toml",
+]
+
+[badges]
+travis-ci = { repository = "dns2utf8/drop_guard", branch = "master" }
+appveyor = { repository = "dns2utf8/drop-guard", branch = "master", service = "github" }
+
+[dependencies]
+
+[dev-dependencies]
+threadpool = "1.4"

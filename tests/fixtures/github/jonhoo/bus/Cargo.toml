@@ -1,0 +1,33 @@
+[package]
+name = "bus"
+version = "2.2.1"
+authors = ["Jon Gjengset <jon@thesquareplanet.com>"]
+edition = "2018"
+license = "MIT"
+homepage = "https://github.com/jonhoo/bus"
+repository = "https://github.com/jonhoo/bus.git"
+description = "A lock-free, bounded, single-producer, multi-consumer, broadcast channel."
+categories = ["concurrency"]
+
+keywords = ["channel","broadcast","lock-free"]
+
+[badges]
+travis-ci = { repository = "jonhoo/bus" }
+codecov = { repository = "jonhoo/bus", branch = "master", service = "github" }
+maintenance = { status = "passively-maintained" }
+
+[features]
+bench = []
+
+[dependencies]
+atomic-option = "0.1"
+num_cpus = "1.6.2"
+parking_lot_core = "0.4"
+crossbeam-channel = "0.3"
+
+[profile.release]
+debug = true
+
+[[bin]]
+name = "bench"
+path = "src/bench.rs"

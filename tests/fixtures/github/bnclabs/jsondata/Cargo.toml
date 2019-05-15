@@ -1,0 +1,25 @@
+[package]
+name = "jsondata"
+version = "0.6.0"
+authors = ["prataprc <prataprc@gmail.com>"]
+edition = "2018"
+description = "JSON processing package for document databases"
+documentation = "https://docs.rs/jsondata"
+homepage = "https://github.com/bnclabs/jsondata"
+repository = "https://github.com/bnclabs/jsondata"
+keywords = ["json", "json5"]
+categories = ["encoding"]
+license = "AGPL-3.0"
+exclude = ["template/**"]
+readme = "README.md"
+
+[dependencies]
+lazy_static = "1.2.0"
+unicode_reader = "0.1.1"
+
+[dev-dependencies]
+quickcheck = "0.7"
+
+[badges]
+maintenance = { status = "actively-developed" }
+travis-ci = { repository = "bnclabs/jsondata" }

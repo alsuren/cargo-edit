@@ -1,0 +1,31 @@
+[package]
+description = "A verbose, readable implementation of Keccak in Rust"
+homepage = "https://github.com/botagar/keccakrs"
+repository = "https://github.com/botagar/keccakrs"
+name = "keccakrs"
+version = "0.1.6"
+authors = ["John Geddes <botagar@gmail.com>"]
+keywords = ["keccak", "crypto", "hash"]
+categories = ["cryptography"]
+license = "MPL-2.0"
+readme = "README.md"
+
+[dependencies]
+crunchy = "0.1.6"
+
+[lib]
+path = "src/lib.rs"
+
+[[bench]]
+path = "tests/perf.rs"
+name = "perf"
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.release]
+opt-level = 3
+debug = false
+
+# More fields: http://doc.crates.io/manifest.html#package-metadata

@@ -1,0 +1,30 @@
+[package]
+authors = ["Brayden Banks <bb010g@gmail.com>"]
+build = "build.rs"
+categories = ["no-std"]
+description = "ISO-4217–compliant currency library"
+documentation = "https://docs.rs/penny/0.2.0/penny"
+keywords = ["currency", "iso-4217", "money", "no_std"]
+license = "MIT"
+name = "penny"
+readme = "README.md"
+repository = "https://github.com/bb010g/penny"
+version = "0.2.0"
+
+[badges.travis-ci]
+repository = "bb010g/penny"
+
+[build-dependencies]
+phf_codegen = "0.7.21"
+quick-xml = "0.11.0"
+
+[dependencies]
+mitochondria = "1.1.2"
+phf = "0.7.21"
+serde = { version = "1.0.8", optional = true }
+serde_derive = { version = "1.0.8", optional = true }
+
+[features]
+default = ["serde-serialize", "std"]
+serde-serialize = ["serde", "serde_derive"]
+std = []

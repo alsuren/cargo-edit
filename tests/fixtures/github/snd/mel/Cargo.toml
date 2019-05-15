@@ -1,0 +1,21 @@
+[package]
+authors = ["Maximilian Krüger <kruemaxi@gmail.com>"]
+description = "convert scalars and vectors from hertz to mel scale"
+documentation = "https://snd.github.io/mel/mel/index.html"
+homepage = "https://github.com/snd/mel"
+keywords = ["mel", "mfcc", "hertz"]
+license = "MIT OR Apache-2.0"
+name = "mel"
+readme = "README.md"
+repository = "https://github.com/snd/mel.git"
+version = "0.3.0"
+
+[dependencies]
+apodize = "0.2.0"
+hertz = "0.2.0"
+itertools-num = "0.1.1"
+num = "0.1.40"
+
+[dev-dependencies]
+approx = "0.1.1"
+nalgebra = "0.13.0"

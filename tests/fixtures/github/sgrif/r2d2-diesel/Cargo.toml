@@ -1,0 +1,12 @@
+[package]
+name = "r2d2-diesel"
+version = "1.0.0"
+authors = ["Sean Griffin <sean@seantheprogrammer.com>"]
+license = "MIT"
+description = "r2d2 support for Diesel"
+homepage = "https://github.com/sgrif/r2d2-diesel"
+repository = "https://github.com/sgrif/r2d2-diesel"
+
+[dependencies]
+r2d2 = ">= 0.7, < 0.9"
+diesel = "1.0"

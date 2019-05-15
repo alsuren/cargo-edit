@@ -1,0 +1,33 @@
+[package]
+name = "fui"
+version = "1.0.0"
+description = "Add CLI & form interface to your program."
+keywords = ["TUI", "forms", "CLI", "ncurses", "termion"]
+documentation = "https://docs.rs/fui"
+authors = ["xliiv <tymoteusz.jankowski@gmail.com>"]
+exclude = ["examples/**", "docs/**"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/xliiv/fui"
+
+[dependencies]
+clap = "2"
+# linux requires `sudo apt-get install xorg-dev`
+clipboard = "0.4"
+dirs = "1.0"
+glob = "0.2"
+regex = "0.2"
+serde_json = "1.0"
+
+[dependencies.cursive]
+version = "0.11"
+default-features = false
+
+[features]
+default = ["ncurses-backend"]
+ncurses-backend = ["cursive/ncurses-backend"]
+pancurses-backend = ["cursive/pancurses-backend"]
+termion-backend = ["cursive/termion-backend"]
+crossterm-backend = ["cursive/crossterm-backend"]
+blt-backend = ["cursive/blt-backend"]
+markdown = ["cursive/markdown"]

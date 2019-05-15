@@ -1,0 +1,12 @@
+[package]
+name = "emu"
+version = "0.1.3"
+authors = ["ferris <jake@fusetools.com>"]
+description = "A set of libraries for writing emulators in Rust."
+homepage = "https://github.com/emu-rs/emu"
+repository = "https://github.com/emu-rs/emu"
+keywords = ["emu", "emulator"]
+license = "BSD-2-Clause"
+
+[dependencies]
+emu-audio = "0.1.2"

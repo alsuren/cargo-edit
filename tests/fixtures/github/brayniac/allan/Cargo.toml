@@ -1,0 +1,20 @@
+[package]
+name = "allan"
+version = "0.2.5-pre"
+authors = ["Brian Martin <brayniac@gmail.com>"]
+
+license = "MIT/Apache-2.0"
+
+description = "allan variance and deviation"
+
+homepage = "https://github.com/brayniac/allan"
+documentation = "https://docs.rs/allan"
+repository = "https://github.com/brayniac/allan"
+
+readme = "README.md"
+
+keywords = [ "stability", "allan", "deviation", "variance" ]
+
+[dev-dependencies]
+probability = "0.15.8"
+rand = "0.3.16"

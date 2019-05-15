@@ -1,0 +1,30 @@
+[package]
+name = "docket"
+version = "0.4.0"
+description = "Simple markdown to HTML documentation rendering"
+readme = "README.md"
+license-file = "LICENSE"
+homepage = "https://iwillspeak.github.io/docket"
+repository = "https://github.com/iwillspeak/docket"
+authors = ["Will Speak <lithiumflame@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pulldown-cmark = { version= "0.4", default_features = false }
+docopt = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+env_logger = "0.6"
+failure = "0.1"
+notify = { version = "4.0", optional = true }
+rayon = { version = "1.0", optional = true }
+
+[features]
+
+default = [ "par_render", "watch" ]
+
+# Parallel page rendering uses the rayon crate
+par_render = [ "rayon" ]
+
+# File system watching
+watch = [ "notify" ]

@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "ramhorns",
+    "ramhorns-derive",
+    "tests",
+]
+
+[profile]
+release = { lto = true }
+bench = { lto = true }

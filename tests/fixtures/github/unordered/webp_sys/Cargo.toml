@@ -1,0 +1,12 @@
+[package]
+name = "webp_sys"
+description = "libwebp bindings for rust"
+version = "0.1.0"
+authors = ["Yechao Li <liyechao@unordered.xyz>"]
+edition = "2018"
+repository = "https://github.com/unordered/webp_sys"
+license = "MIT"
+
+[build-dependencies]
+bindgen = "0.47"
+cmake = "0.1"

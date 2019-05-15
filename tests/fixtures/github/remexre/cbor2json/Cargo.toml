@@ -1,0 +1,14 @@
+[package]
+authors = ["Nathan Ringo <remexre@gmail.com>"]
+description = "A simple tool to convert CBOR to JSON (and back)."
+homepage = "https://github.com/remexre/cbor2json"
+license = "MIT"
+name = "cbor2json"
+repository = "https://github.com/remexre/cbor2json"
+version = "0.1.0"
+
+[dependencies]
+failure = "0.1.1"
+serde_cbor = "0.8.2"
+serde_json = "1.0.24"
+structopt = "0.2.10"

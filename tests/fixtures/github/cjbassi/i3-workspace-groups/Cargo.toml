@@ -1,0 +1,24 @@
+[package]
+name = "i3-workspace-groups"
+version = "0.2.2"
+authors = ["Caleb Bassi <calebjbassi@gmail.com>"]
+description = "Organize i3 (and Sway) workspaces into groups."
+documentation = "https://github.com/cjbassi/i3-workspace-groups"
+homepage = "https://github.com/cjbassi/i3-workspace-groups"
+repository = "https://github.com/cjbassi/i3-workspace-groups"
+readme = "README.md"
+keywords = ["i3", "groups", "workspace", "tiling", "wm"]
+license = "MIT"
+
+edition = "2018"
+
+[[bin]]
+name = "i3-workspace-groups"
+path = "src/main.rs"
+
+[dependencies]
+i3ipc = "0.9.0"
+structopt = "0.2.14"
+log = "0.4.6"
+env_logger = "0.6.0"
+lazy_static = "1.2.0"

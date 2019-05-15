@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "enumx",
+    "enumx_derive",
+    "cex",
+    "cex_derive",
+]

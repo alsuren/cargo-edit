@@ -1,0 +1,17 @@
+[package]
+name = "static_assert"
+version = "0.3.1"
+authors = ["Oliver Schneider <rust-sa8217693178821785@oli-obk.de>"]
+description = "static assertions"
+homepage = "https://github.com/oli-obk/rust-sa"
+repository = "https://github.com/oli-obk/rust-sa"
+readme = "README.md"
+keywords = ["compile", "time", "static", "assert"]
+license-file = "LICENSE"
+
+[lib]
+name = "static_assert"
+plugin = true
+
+[dev-dependencies]
+compiletest_rs = "0.2"

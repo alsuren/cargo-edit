@@ -1,0 +1,12 @@
+[package]
+name = "site_checker"
+version = "0.2.1"
+authors = ["Daan Porru <daan@porru.nl>"]
+description = "Simple site status checker written in Rust"
+repository = "https://github.com/dporru/rust-site-checker"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+hyper = "0.6.16"
+argparse = "0.2.1"

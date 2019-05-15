@@ -1,0 +1,11 @@
+[package]
+name = "globule"
+version = "0.0.1"
+authors = ["Gio d'Amelio <giodamelio@gmail.com>"]
+description = "A simple blobstore"
+homepage = "https://github.com/giodamelio/globule"
+repository = "https://github.com/giodamelio/globule"
+readme = "README.md"
+keywords = ["blobstore", "blob"]
+license = "MIT"
+

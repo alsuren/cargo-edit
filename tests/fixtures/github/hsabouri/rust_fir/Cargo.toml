@@ -1,0 +1,10 @@
+[package]
+name = "fir"
+description = "Tiny decision tree library"
+version = "0.1.0"
+authors = ["Hugo Sabourin <hsabouri@student.42.fr>"]
+repository = "https://github.com/hsabouri/rust_fir"
+license = "MIT"
+license-file = "LICENSE"
+
+[dependencies]

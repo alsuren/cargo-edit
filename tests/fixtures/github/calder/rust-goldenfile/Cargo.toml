@@ -1,0 +1,21 @@
+[package]
+name = "goldenfile"
+version = "1.0.3"
+description = "Simple goldenfile testing library"
+keywords = ["goldenfile", "test", "library"]
+documentation = "https://docs.rs/goldenfile"
+repository = "https://github.com/calder/rust-goldenfile"
+readme = "README.md"
+license = "MIT"
+license-file = "LICENSE"
+authors = ["Calder Coalson <caldercoalson@gmail.com>"]
+
+exclude = [
+  "*.sublime-project",
+  ".travis.yml",
+  "scripts/*",
+]
+
+[dependencies]
+difference = "2.0"
+tempdir = "0.3.7"

@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "siquery",
+    "siquery_cli"
+]

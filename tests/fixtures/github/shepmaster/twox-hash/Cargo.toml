@@ -1,0 +1,25 @@
+[package]
+name = "twox-hash"
+version = "1.2.0"
+authors = ["Jake Goulding <jake.goulding@gmail.com>"]
+
+description = "A Rust implementation of the XXHash algorithm"
+readme = "README.md"
+keywords = ["hash"]
+categories = ["algorithms"]
+
+repository = "https://github.com/shepmaster/twox-hash"
+documentation = "https://docs.rs/twox-hash/"
+
+license = "MIT"
+
+[dependencies]
+rand = ">= 0.3.10, < 0.7"
+serde = { version = "1.0", features = ["derive"], optional = true}
+
+[dev-dependencies]
+serde_json = "1.0"
+
+[features]
+serialize = ["serde"]
+

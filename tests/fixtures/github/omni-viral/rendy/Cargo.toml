@@ -1,0 +1,18 @@
+[workspace]
+
+members = [
+    "command",
+    "descriptor",
+    "factory",
+    "frame",
+    "memory",
+    "mesh",
+    "rendy",
+    "resource",
+    "shader",
+    "wsi",
+    "chain",
+    "graph",
+    "util",
+    "texture",
+]

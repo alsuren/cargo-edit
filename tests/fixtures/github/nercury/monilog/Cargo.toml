@@ -1,0 +1,13 @@
+[package]
+name = "monilog"
+version = "0.1.1"
+authors = ["Nerijus Arlauskas <nercury@gmail.com>"]
+description = "Displays your logs nicely"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Nercury/monilog"
+
+[dependencies]
+clap = "*"
+term = "*"
+regex = "*"

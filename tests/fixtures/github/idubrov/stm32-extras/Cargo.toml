@@ -1,0 +1,25 @@
+[package]
+authors = ["Ivan Dubrov <dubrov.ivan@gmail.com>"]
+categories = ["embedded", "no-std"]
+keywords = ["no-std", "arm", "cortex-m", "stm32"]
+description = "Bit-banding access for STM32 peripherals"
+documentation = "https://docs.rs/stm32-hal"
+repository = "https://github.com/idubrov/stm32-hal"
+name = "stm32-hal"
+version = "0.2.1-alpha.0"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+[package.metadata.release]
+pre-release-hook = "./update-readme.sh"
+
+[dependencies.stm32f103xx]
+optional = true
+version = "0.7.5"
+
+[dependencies.vcell]
+optional = true
+version = "0.1.0"
+
+[features]
+use-stm32f103xx = ["stm32f103xx", "vcell"]

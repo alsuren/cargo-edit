@@ -1,0 +1,8 @@
+[package]
+name = "nbconf"
+version = "0.9.0"
+authors = ["Nicholas Bishop <nicholasbishop@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/nicholasbishop/nbconf"
+license = "Apache-2.0"
+description = "Simple configuration file reader/writer"

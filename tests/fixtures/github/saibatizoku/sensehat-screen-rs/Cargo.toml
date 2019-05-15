@@ -1,0 +1,39 @@
+[package]
+name = "sensehat-screen"
+description = "A library for using the 8x8-LED matrix, with RGB565 coloring, on the Raspberry Pi Sense HAT device."
+version = "0.2.2"
+authors = ["Joaquin Rosales <globojorro@gmail.com>"]
+keywords = ["sensehat", "screen", "8x8", "raspberry-pi", "framebuffer"]
+categories = ["embedded", "rendering", "visualization", "encoding"]
+homepage = "https://github.com/saibatizoku/sensehat-screen-rs"
+repository = "https://github.com/saibatizoku/sensehat-screen-rs"
+readme = "README.md"
+license = "MIT"
+build = "build.rs"
+
+[dependencies]
+framebuffer = { version = "0.1", optional = true }
+font8x8 = { version = "0.2.3", optional = true }
+lazy_static = "1.0"
+serde = { version = "1.0", optional = true }
+serde_derive = { version = "1.0", optional = true }
+
+[features]
+default = ["basic", "linux-framebuffer"]
+
+# features that don't depend on the hardware
+basic = ["clip", "fonts", "offset", "rotate", "scroll", "serde-support"]
+clip = []
+fonts = ["font8x8"]
+offset = []
+rotate = []
+scroll = ["clip"]
+serde-support = ["serde", "serde_derive"]
+
+# feature for using the LED Matrix via the linux framebuffer (/dev/fb*)
+linux-framebuffer = ["framebuffer"]
+# feature for compatibility with big-endian architectures.
+big-endian = []
+
+[build-dependencies]
+rustc_version = "0.2"

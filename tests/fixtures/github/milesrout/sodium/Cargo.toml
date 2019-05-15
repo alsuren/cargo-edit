@@ -1,0 +1,10 @@
+[package]
+name = "sodium"
+description = "placeholder"
+version = "0.1.0"
+authors = ["Miles Rout <miles.rout@gmail.com>"]
+repository = "https://github.com/milesrout/sodium"
+license = "MIT"
+homepage = "https://miles.rout.co.nz/sodium"
+
+[dependencies]

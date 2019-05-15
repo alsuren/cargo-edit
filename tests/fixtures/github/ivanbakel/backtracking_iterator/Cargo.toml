@@ -1,0 +1,23 @@
+[package]
+name = "backtracking_iterator"
+description = "A simple implementation of a generic iterator with an item history, capable of backtracking and forgetting."
+version = "0.4.4"
+authors = ["Isaac van Bakel <ivb@vanbakel.io>"]
+edition = "2018"
+
+keywords = ["iterator", "backtracking", "history"]
+categories = ["data-structures"]
+license = "MIT"
+
+readme = "README.md"
+repository = "https://github.com/ivanbakel/backtracking_iterator"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[features]
+slice = []
+
+[dev-dependencies]
+matches = "^0.1.8"
+

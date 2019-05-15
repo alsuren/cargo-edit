@@ -1,0 +1,16 @@
+[package]
+name = "rtt"
+version = "0.4.4"
+description = "Rapidly-Exploring random trees path planning algorithm."
+homepage = "https://github.com/swizard0/rtt"
+repository = "https://github.com/swizard0/rtt"
+keywords = [ "pathfinding", "rtt", "path", "route", "router" ]
+categories = ["algorithms"]
+readme = "README.md"
+license = "MIT"
+authors = ["Alexey Voznyuk <me@swizard.info>"]
+
+[dependencies]
+
+[dev-dependencies]
+rand = "0.4"

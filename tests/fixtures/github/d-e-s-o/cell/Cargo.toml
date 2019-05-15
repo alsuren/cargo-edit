@@ -1,0 +1,18 @@
+[package]
+name = "cell"
+version = "0.1.7"
+edition = "2018"
+authors = ["Daniel Mueller <deso@posteo.net>"]
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/d-e-s-o/cell"
+repository = "https://github.com/d-e-s-o/cell.git"
+readme = "README.md"
+keywords = ["cell"]
+description = """
+A replacement of std::cell::RefCell adding advanced support for mapping borrows.
+"""
+
+[badges]
+gitlab = { repository = "d-e-s-o/cell", branch = "master" }
+
+[dependencies]

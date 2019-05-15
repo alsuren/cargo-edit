@@ -1,0 +1,14 @@
+[package]
+name = "evmasm"
+version = "0.1.3"
+authors = ["Hélio Rosa <spinny666@gmail.com>"]
+description = "evmasm converts between evm bytecode and text"
+repository = "https://github.com/heliorosa/evmasm"
+documentation = "https://docs.rs/evmasm/0.1.3/evmasm/"
+keywords = ["evm"]
+license = "MIT"
+
+[dependencies]
+lazy_static = "0.2.8"
+hex = "0.2.0"
+num = "0.1.40"

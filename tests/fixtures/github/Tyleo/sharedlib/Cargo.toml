@@ -1,0 +1,42 @@
+[dependencies]
+kernel32-sys = "0.2"
+lazy_static = "0.2"
+winapi = "0.2"
+
+[dependencies.error-chain]
+version = "0.10"
+default-features = false
+
+[package]
+authors = ["Simonas Kazlauskas <git@kazlauskas.me>", "Tyler Wolf Leonhardt <tyler.wolf.leonhardt@gmail.com>"]
+build = "build.rs"
+description = "A cross-platform shared library loader."
+documentation = "https://tyleo.github.io/sharedlib/"
+exclude = [
+    ".build",
+    ".git",
+    ".gitignore",
+    ".gradle",
+    ".travis.yml",
+    "appveyor.yml",
+    "build.gradle",
+    "cargo.lock",
+    "gradle",
+    "gradlew",
+    "gradlew.bat",
+    "README.md",
+    "settings.gradle",
+    "target",
+    "test"
+]
+keywords = [
+    "dll",
+    "dylib",
+    "libloading",
+    "library",
+    "shared"
+]
+license = "ISC"
+name = "sharedlib"
+repository = "https://github.com/Tyleo/sharedlib.git"
+version = "7.0.0"

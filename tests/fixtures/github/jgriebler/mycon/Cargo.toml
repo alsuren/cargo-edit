@@ -1,0 +1,23 @@
+[package]
+name = "mycon"
+version = "0.2.0"
+authors = ["Johannes M. Griebler <johannes.griebler@gmail.com>"]
+description = "Befunge-98 interpreter"
+repository = "https://github.com/jgriebler/mycon"
+readme = "README.md"
+keywords = ["befunge", "funge-98", "interpreter", "esoteric"]
+license = "GPL-3.0-or-later"
+edition = "2018"
+
+[dependencies]
+ansi_term = "0.11"
+clap = "2.32"
+chrono = "0.4"
+rand = "0.5"
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "example_programs"
+harness = false

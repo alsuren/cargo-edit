@@ -1,0 +1,24 @@
+[package]
+name          = "umio"
+version       = "0.3.0"
+description   = "Message Based Readiness API In Rust"
+
+authors       = ["Andrew <amiller4421@gmail.com>"]
+
+homepage      = "https://github.com/GGist/umio-rs"
+repository    = "https://github.com/GGist/umio-rs"
+documentation = "http://ggist.github.io/umio-rs/umio/index.html"
+
+keywords      = ["udp"]
+
+license       = "MIT/Apache-2.0"
+
+[dependencies]
+mio           = "0.5.0"
+
+[features]
+unstable      = []
+
+[[test]]
+name = "test"
+path = "test/mod.rs"

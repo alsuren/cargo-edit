@@ -1,0 +1,27 @@
+[package]
+name = "alectro"
+version = "0.0.1"
+description = "A textual IRC client."
+authors = ["Aaron Weiss <awe@pdgn.co>"]
+license = "GPL-3.0"
+keywords = ["irc", "client", "tui", "termion"]
+categories = ["command-line-interface", "command-line-utilities"]
+documentation = "https://docs.rs/alectro/"
+repository = "https://github.com/aatxe/alectro"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "aatxe/alectro" }
+
+[dependencies]
+failure = "0.1"
+futures = "0.1"
+irc = { git = "https://github.com/aatxe/irc", branch = "0.14", features = ["ctcp", "toml"] }
+termion = "1.4"
+tokio-core = "0.1"
+unicode-segmentation = "0.1"
+unicode-width = "0.1"
+
+[[bin]]
+name = "alectro"
+doc = false

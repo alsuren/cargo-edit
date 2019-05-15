@@ -1,0 +1,56 @@
+[package]
+authors = ["Afonso Bordado <afonsobordado@az8.co>"]
+license-file = "LICENSE"
+name = "dbgp"
+readme = "README.md"
+version = "0.0.1"
+repository = "https://github.com/afonso360/dbgp"
+documentation = "https://docs.rs/dbgp/"
+homepage = "https://github.com/afonso360/dbgp"
+description = """
+An implmenetation of the DBGp protocol
+
+This crate is licensed under the GPL v2 with a Linking Exception
+See LICENSE for details
+"""
+categories = ["development-tools::debugging"]
+keywords = ["dbgp", "dbgp-server", "dbgp-client", "c-api"]
+
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "LICENSE",
+    "README.md",
+]
+
+[features]
+default = ["backtrace"]
+
+backtrace = ["error-chain/backtrace"]
+
+[dependencies]
+base64 = "0.9"
+
+url = "1.6"
+url_serde = "0.2"
+
+serde = "1.0"
+serde_derive = "1.0"
+serde-xml-rs = { git = "https://github.com/RReverser/serde-xml-rs.git" }
+
+[dependencies.error-chain]
+version = "0.11"
+default-features = false
+
+[dev-dependencies]
+quickcheck = "0.6"
+
+[lib]
+crate-type = ["rlib"]
+name = "dbgp"
+
+
+[badges]
+travis-ci = { repository = "afonso360/dbgp" }
+appveyor = { repository = "afonso360/dbgp" }
+coveralls = { repository = "afonso360/dbgp" }

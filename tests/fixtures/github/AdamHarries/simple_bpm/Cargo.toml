@@ -1,0 +1,24 @@
+[package]
+name = "simple_bpm"
+version = "0.2.0"
+authors = ["Adam Harries <harries.adam@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+description = "A simple bpm algorithm"
+repository = "https://github.com/AdamHarries/simple_bpm"
+
+[dependencies]
+rand = "0.6.5"
+itertools-num = "0.1.3"
+
+[dev-dependencies]
+criterion = "0.2"
+hodges = "0.1.0"
+
+[lib]
+bench = false
+
+[[bench]]
+name = "performance_tests"
+harness = false

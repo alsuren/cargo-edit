@@ -1,0 +1,8 @@
+[package]
+name = "mcmc"
+version = "0.0.1"
+authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/IvanUkhov/mcmc"
+homepage = "https://github.com/IvanUkhov/mcmc"
+description = "MCMC."

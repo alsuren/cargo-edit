@@ -1,0 +1,13 @@
+[package]
+name = "checkpoint_derive"
+version = "0.1.2"
+authors = ["Zach Miller <25236373+zachmse@users.noreply.github.com>"]
+description = "Currently unused"
+documentation = "https://docs.rs/checkpoint_derive"
+repository = "https://github.com/zachmse/checkpoint_derive"
+keywords = ["checkpoint", "rollback", "recovery"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
+publish = true
+
+[dependencies]

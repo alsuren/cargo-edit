@@ -1,0 +1,24 @@
+[package]
+name = "nkeys"
+version = "0.0.6"
+authors = ["Kevin Hoffman <alothien@gmail.com>"]
+edition = "2018"
+description = "Rust implementation of the NATS nkeys library"
+license = "Apache-2.0"
+homepage = "https://github.com/encabulators/nkeys"
+documentation = "https://docs.rs/nkeys"
+repository = "https://github.com/encabulators/nkeys"
+readme = "README.md"
+keywords = ["crypto", "nats", "ed25519", "cryptography"]
+categories = ["cryptography", "authentication"]
+
+travis-ci = { repository = "encabulators/nkeys", branch = "master" }
+
+[dependencies]
+clap = "2.32.0"
+signatory = "0.11.3"
+signatory-dalek = "0.11.0"
+rand = "0.6.5"
+byteorder = "1.3.1"
+data-encoding = "2.1.2"
+

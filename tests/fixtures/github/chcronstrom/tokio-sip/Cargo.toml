@@ -1,0 +1,16 @@
+[package]
+name = "tokio-sip"
+version = "0.0.0"
+authors = ["Christoffer Cronström <christoffer@xn--cronstrm-t4a.se>"]
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/chcronstrom/tokio-sip"
+homepage = "https://github.com/chcronstrom/tokio-sip"
+license = "MIT/Apache-2.0"
+description = """
+A low-level Session Initiation Protocol library using Tokio
+"""
+
+[dependencies]
+sip = "0.0.0"
+tokio = "0.1.14"

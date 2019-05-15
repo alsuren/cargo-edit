@@ -1,0 +1,23 @@
+[package]
+name = "dft"
+version = "0.5.5"
+license = "Apache-2.0/MIT"
+authors = [
+    "Christopher J. Woodall <chris.j.woodall@gmail.com>",
+    "Ivan Ukhov <ivan.ukhov@gmail.com>",
+    "Karol Harasim <karol.harasim@gmail.com>",
+]
+description = "The package provides an algorithm to compute the discrete Fourier transform."
+documentation = "https://docs.rs/dft"
+homepage = "https://github.com/stainless-steel/dft"
+repository = "https://github.com/stainless-steel/dft"
+readme = "README.md"
+categories = ["algorithms", "science"]
+keywords = ["fourier", "transform"]
+
+[dependencies]
+num-complex = { version = "0.1.35", default-features = false }
+num-traits = { version = "0.1.35", default-features = false }
+
+[dev-dependencies]
+assert = "0.7"

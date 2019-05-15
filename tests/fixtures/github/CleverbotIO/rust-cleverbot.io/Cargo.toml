@@ -1,0 +1,19 @@
+[package]
+name = "cleverbot_io"
+version = "1.0.1"
+authors = ["Eli Clemente Gordillo Foster <elifosterwy@gmail.com>"]
+documentation = "https://docs.cleverbot.io/docs/getting-started-with-rust"
+homepage = "https://cleverbot.io/"
+description = "A Rust interface for the cleverbot.io API"
+repository = "https://github.com/CleverbotIO/rust-cleverbot.io"
+keywords = ["cleverbot", "api", "AI"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+hyper = "0.10"
+url = "1.4"
+serde = "0.9"
+serde_json = "0.9"
+hyper-native-tls = "0.2.1"
+lazy_static = "0.2"

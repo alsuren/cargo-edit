@@ -1,0 +1,26 @@
+[package]
+name = "dmd_core"
+description = "AT&T / Teletype DMD 5620 Terminal Emulator - Core Library"
+version = "0.6.3"
+authors = ["Seth Morabito <web@loomcom.com>"]
+homepage = "https://github.com/sethm/dmd_core"
+repository = "https://github.com/sethm/dmd_core"
+readme = "README.md"
+edition = "2018"
+license = "MIT"
+categories = ["simulation"]
+
+[dependencies]
+lazy_static = "^1.2.0"
+libc = "^0.2.45"
+
+[profile.release]
+debug = true
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[badges]
+travis-ci = { repository = "https://github.com/sethm/dmd_core", branch = "master" }
+
+maintenance = { status = "actively-developed" }

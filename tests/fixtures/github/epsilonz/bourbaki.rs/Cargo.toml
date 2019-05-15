@@ -1,0 +1,11 @@
+[package]
+
+name = "bourbaki"
+version = "0.0.0"
+authors = ["Darin Morrison <darinmorrison+git@gmail.com>"]
+description = "Algebra in Rust"
+documentation = "http://epsilonz.github.io/bourbaki.rs/doc/bourbaki/"
+keywords = ["algebra"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/epsilonz/bourbaki.rs"

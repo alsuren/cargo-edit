@@ -1,0 +1,29 @@
+[package]
+name = "rustyle"
+version = "0.1.0"
+authors = ["RanolP <public.ranolp@gmail.com>"]
+repository = "https://github.com/RanolP/rustyle"
+description = "A new way to represent the CSS stylesheet in Rust"
+license = "MIT"
+readme = "README.md"
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "RanolP/rustyle" }
+
+[lib]
+proc-macro = true
+
+[dependencies]
+lazy_static = "1.3.0"
+quote = "0.6.12"
+fasthash = "0.4.0"
+proc-macro2 = "0.4.30"
+codegen = { path = "./codegen" }
+csstype = { path = "./csstype" }
+metadata = { path = "./metadata" }
+node = { path = "./node" }
+runtime = { path = "./runtime" }
+property = { path = "./property" }
+runtime_facade = { path = "./runtime_facade" }
+parse = { path = "./parse" }

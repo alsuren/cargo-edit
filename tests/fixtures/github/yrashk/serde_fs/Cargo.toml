@@ -1,0 +1,20 @@
+[package]
+name = "serde_fs"
+version = "0.2.0"
+authors = ["Yurii Rashkovskii <yrashk@gmail.com>"]
+description = "[De]serializing data structures as files"
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/serde_fs"
+repository = "https://github.com/yrashk/serde_fs"
+exclude = [ ".sit/**/**" ]
+
+[dependencies]
+serde = "1.0"
+derive-error = "0.0"
+
+[dev-dependencies]
+serde_derive = "1.0"
+serde_bytes = "0.10"
+serde_json = "1.0"
+tempdir = "0.3"
+assert_matches = "1.2"

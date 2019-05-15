@@ -1,0 +1,19 @@
+[package]
+
+name = "capturing-glob"
+version = "0.1.1"
+authors = ["Paul Colomiets",
+           "The Rust Project Developers"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/tailhook/capturing-glob"
+repository = "https://github.com/tailhook/capturing-glob"
+documentation = "http://docs.rs/capturing-glob"
+description = """
+    An extension for unix shell style globs that allow to capture groups
+    (i.e. remember matching character ranges) while matching.
+"""
+categories = ["filesystem"]
+
+[dev-dependencies]
+tempdir = "0.3"

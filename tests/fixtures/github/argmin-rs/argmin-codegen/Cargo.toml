@@ -1,0 +1,28 @@
+[package]
+name = "argmin_codegen"
+version = "0.1.8"
+authors = ["Stefan Kroboth <stefan.kroboth@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Pure Rust optimization tools (code generation)"
+documentation = "https://argmin-rs.github.io/argmin-codegen/argmin_codegen/"
+homepage = "https://github.com/argmin-rs/argmin-codegen"
+repository = "https://github.com/argmin-rs/argmin-codegen"
+readme = "README.md"
+keywords = ["optimization", "math", "science", "HPC"]
+categories = ["science"]
+#license-file = "LICENSE-APACHE"
+exclude = [ 
+	".travis.yml",
+	"push_docs",
+]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "0.15.22", features = ["full"] }
+quote = "0.6.10"
+
+[badges]
+travis-ci = { repository = "argmin-rs/argmin-codegen", branch = "master" }

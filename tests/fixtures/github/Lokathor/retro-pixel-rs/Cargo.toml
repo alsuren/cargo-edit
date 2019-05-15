@@ -1,0 +1,42 @@
+[package]
+name = "retro-pixel"
+version = "0.3.2"
+authors = ["Lokathor <zefria@gmail.com>"]
+repository = "https://github.com/Lokathor/retro-pixel-rs"
+readme = "README.md"
+keywords = ["retro","bitmap"]
+description = "Bitmaps types for getting that retro visual."
+license = "0BSD"
+
+#publish = false
+
+[badges]
+appveyor = { repository = "Lokathor/retro-pixel-rs" }
+travis-ci = { repository = "Lokathor/retro-pixel-rs" }
+
+[features]
+default = ["std"]
+std = []
+
+[lib]
+name = "retro_pixel"
+path = "src/lib.rs"
+
+[[example]]
+name = "glutin_bitmap"
+path = "examples/glutin_bitmap.rs"
+required-features = ["std"]
+
+[[example]]
+name = "glutin_gba"
+path = "examples/glutin_gba.rs"
+required-features = ["std"]
+
+[[example]]
+name = "glutin_indexmap"
+path = "examples/glutin_indexmap.rs"
+required-features = ["std"]
+
+[dev-dependencies]
+gl = "0.10"
+glutin = "0.16"

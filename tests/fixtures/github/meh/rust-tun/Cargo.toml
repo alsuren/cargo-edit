@@ -1,0 +1,18 @@
+[package]
+name    = "tun"
+version = "0.4.4"
+
+authors = ["meh. <meh@schizofreni.co>"]
+license = "WTFPL"
+
+description = "TUN device creation and handling."
+repository  = "https://github.com/meh/rust-tun"
+keywords    = ["tun", "network", "tunnel", "bindings"]
+
+[dependencies]
+libc        = "0.2"
+error-chain = "0.11"
+
+[target.'cfg(any(target_os = "linux", target_os = "macos"))'.dependencies]
+ioctl-sys = "0.5"
+mio       = { version = "0.6", optional = true }

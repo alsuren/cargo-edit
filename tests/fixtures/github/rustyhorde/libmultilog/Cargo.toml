@@ -1,0 +1,28 @@
+[package]
+name = "libmultilog"
+version = "0.1.1-pre.0"
+authors = ["Jason Ozias <jason.g.ozias@gmail.com>"]
+description = "Various logging implementations in Rust"
+documentation = "http://rustyhorde.github.io/libmultilog/libmultilog/libmultilog/index.html"
+homepage = "http://rustyhorde.github.io/libmultilog"
+repository = "https://github.com/rustyhorde/libmultilog"
+readme = "README.md"
+license = "MIT/Apache-2.0"
+keywords = ["log", "mysql", "socket", "file"]
+build = "build.rs"
+
+[build-dependencies]
+vergen = "~0.1.0"
+
+[features]
+default = []
+socket = []
+
+[dependencies]
+blastfig = "~0.3.3"
+clippy = { version = "~0.0.30", optional = true }
+log = "~0.3.4"
+mysql = { version = "~1.2.0", optional = true }
+regex = "~0.1.44"
+rusqlite = { version = "~0.6.0", optional = true }
+time = "~0.1.34"

@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "core/",
+  "lib/",
+  "codegen/",
+  "examples/uri_display",
+  "examples/from_form_value",
+  "examples/responder",
+  "examples/generics",
+]

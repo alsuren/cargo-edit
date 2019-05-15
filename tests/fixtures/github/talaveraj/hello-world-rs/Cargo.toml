@@ -1,0 +1,20 @@
+[package]
+name = "crate_hello_world"
+version = "0.1.1"
+authors = ["Julio Talavera <user@domain.com>"]
+description = "A Hello World Cargo Package Test."
+documentation = "https://github.com/talaveraj/hello-world-rs/wiki"
+homepage = "https://github.com/talaveraj/hello-world-rs/wiki"
+repository = "https://github.com/talaveraj/hello-world-rs"
+readme = "README.md"
+keywords = ["test"]
+license = "MIT"
+exclude = [".git", ".gitignore", "README.md"]
+include = ["**/*.rs", "Cargo.toml"]
+
+[lib]
+name = "crate_hello_world"
+path = "src/main.rs"
+
+[dependencies]
+

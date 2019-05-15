@@ -1,0 +1,22 @@
+[package]
+name = "cargo-fuzz"
+version = "0.5.3"
+authors = ["The rust-fuzz Project Developers"]
+license = "MIT OR Apache-2.0"
+description = "Simple wrapper around libFuzzer"
+repository = "https://github.com/rust-fuzz/cargo-fuzz/"
+
+[dependencies]
+clap            = "2.24"
+error-chain     = "0.10"
+futures         = "0.1"
+tempdir         = "0.3"
+term            = "0.4"
+tokio-core      = "0.1"
+tokio-io        = "0.1"
+tokio-process   = "0.1"
+toml            = "0.4"
+
+
+[workspace]
+members = ["."]

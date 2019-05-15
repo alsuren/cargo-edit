@@ -1,0 +1,16 @@
+[package]
+name = "opensimplex"
+version = "0.1.0"
+authors = ["Hansihe <hansihe@hansihe.com>"]
+description = "Wrappers for using OpenSimplex from Rust"
+repository = "https://github.com/hansihe/opensimplex.rs"
+readme = "README.md"
+license = "Unlicense"
+
+build = "build.rs"
+
+[dependencies]
+libc = ">=0.1"
+
+[build-dependencies]
+gcc = "0.3.13"

@@ -1,0 +1,33 @@
+[package]
+name = "easyfibers"
+version = "0.7.0"
+authors = ["sergej.jurecko@gmail.com"]
+build = "build.rs"
+description = "easyfibers is a closure-less couroutine library for executing asynchronous tasks as painlessly as possible."
+repository = "https://github.com/SergejJurecko/easyfibers"
+readme = "README.md"
+keywords = ["fibers", "coroutine", "mio", "context", "async"]
+categories = ["network-programming", "concurrency"]
+license = "MIT/Apache-2.0"
+
+[dependencies]
+mio = "0.6"
+context = "2"
+slab = "0.3"
+native-tls = "0.1"
+rand = "0.3"
+byteorder = "1"
+quick-error = "1"
+libc = "0.2"
+iovec = "0.1"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+core-foundation = "0.4"
+core-foundation-sys = "0.4"
+
+
+[build-dependencies]
+gcc = "0.3"
+
+[dev-dependencies]
+matches = "0.1"

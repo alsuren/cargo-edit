@@ -1,0 +1,19 @@
+[package]
+name = "courgette"
+description = "Colour manipulation/conversion library"
+authors = ["Timothy Davis <tmthydvs@gmail.com>"]
+
+version = "0.1.1"
+edition = "2018"
+publish = true
+
+repository = "https://github.com/flmng0/courgette"
+readme = "README.md"
+
+keywords = ["color", "colour", "conversion"]
+categories = ["data-structures", "graphics"]
+
+license-file = "LICENSE"
+
+[dependencies]
+num-traits = "0.2"

@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "core",
+    "macros/component-definition-derive",
+    "macros/actor-derive",
+    "macros/macro-test",
+    "feature-tests/protobuf-test",
+]
+

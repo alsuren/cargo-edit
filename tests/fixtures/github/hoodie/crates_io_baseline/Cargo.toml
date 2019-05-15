@@ -1,0 +1,11 @@
+[package]
+name = "crates_io_baseline"
+version = "0.1.0"
+authors = ["Hendrik Sollich <hendrik@hoodie.de>"]
+description = "Useless crate - please don't use! Only serves as baseline for crates.io download counts."
+license = "MIT/Apache-2.0"
+
+documentation = "https://docs.rs/crates_io_baseline/"
+repository = "https://github.com/hoodie/crates_io_baseline"
+
+[dependencies]

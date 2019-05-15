@@ -1,0 +1,14 @@
+[package]
+name = "units"
+version = "0.1.0"
+authors = ["Patrick Reisert"]
+description = "Units of Measure for Rust. Easy to use, type-safe and customizable."
+repository = "https://github.com/Boddlnagg/units"
+keywords = ["type-level"]
+license = "MIT"
+
+[features]
+unstable = []
+
+[dependencies]
+tylar = "0.2.*"

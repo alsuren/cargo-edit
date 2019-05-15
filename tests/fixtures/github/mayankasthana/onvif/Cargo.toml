@@ -1,0 +1,21 @@
+[package]
+name = "onvif-rs"
+version = "0.0.3"
+description = "<alpha> Onvif Client in rust. This is WIP. DO NOT USE YET!"
+authors = ["Mayank Asthana <mayankasthana1993@gmail.com>"]
+license = "MIT/Apache-2.0"
+keywords = ["camera", "onvif", "cctv"]
+homepage = "https://github.com/mayankasthana/onvif"
+repository = "https://github.com/mayankasthana/onvif.git"
+
+
+[lib]
+name = "onvif"
+
+[dependencies]
+quick-xml = "0.12.0"
+derive_builder = "0.5.1"
+
+
+[dev-dependencies]
+pretty_assertions = "0.5.1"

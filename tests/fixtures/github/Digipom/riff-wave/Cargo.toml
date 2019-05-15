@@ -1,0 +1,20 @@
+[package]
+name = "riff-wave"
+version = "0.1.2"
+authors = ["Kevin Brothaler <contact@digipom.com>"]
+description = "Simple methods for reading and writing PCM wave files."
+keywords = ["audio", "riff", "sample", "wave", "pcm"]
+license = "Apache-2.0"
+homepage = "https://github.com/Digipom/riff-wave"
+repository = "https://github.com/Digipom/riff-wave"
+documentation = "https://digipom.github.io/riff-wave/doc/riff_wave/index.html"
+readme = "README.md"
+
+[dependencies]
+byteorder = "0.5.1"
+
+[dev-dependencies]
+decibel = "0.1.2"
+
+[target.'cfg(target_os = "macos")'.dev-dependencies]
+coreaudio-rs = "0.5.0"

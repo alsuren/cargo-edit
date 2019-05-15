@@ -1,0 +1,55 @@
+# This file is part of css. It is subject to the license terms in the COPYRIGHT file found in the top-level directory of this distribution and at https://raw.githubusercontent.com/lemonrock/css/master/COPYRIGHT. No part of css, including this file, may be copied, modified, propagated, or distributed except according to the terms contained in the COPYRIGHT file.
+# Copyright © 2017 The developers of css. See the COPYRIGHT file in the top-level directory of this distribution and at https://raw.githubusercontent.com/lemonrock/css/master/COPYRIGHT.
+
+
+[package]
+name = "css"
+description = "A crate that uses the cssparser and selectors crates to provide a domain model for CSS Stylesheets. Intended to allow effective minification of CSS and CSS transformations such as autoprefixing and removal by other crates"
+keywords = ["css"]
+license = "MPL-2.0"
+authors = ["Raphael Cohn <raphael.cohn@stormmq.com>"]
+documentation = "https://docs.rs/css/"
+homepage = "https://github.com/lemonrock/css"
+repository = "https://github.com/lemonrock/css.git"
+exclude = ["*"]
+include = ["README.md", "LICENSE", "COPYRIGHT", "src/**/*.rs", "build.rs", "Cargo.toml", "rustfmt.toml", "clippy.toml"]
+readme = "README.md"
+publish = true
+version = "0.0.22"
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = true
+debug-assertions = false
+codegen-units = 1
+
+[dependencies]
+bitflags = "^1.0"
+cssparser = "0.21.3"
+either = "1.2.0"
+ordermap = "0.2.13"
+phf = "0.7.21"
+phf_macros = "0.7.21"
+precomputed-hash = "^0.1"
+quick-error = "1.2.1"
+smallvec = "0.4"
+
+# Suspended as not yet published on crates.io
+# selectors = "0.19.0"
+
+# For servo_arc temporary crate fork
+nodrop = {version = "0.1.8"}
+stable_deref_trait = "1.0.0"
+
+# For selectors temporary crate fork
+fnv = "1.0"
+log = "0.3"
+matches = "0.1"
+
+[build-dependencies]
+phf_codegen = "0.7.18"
+
+#[patch.crates-io]
+#selectors = { git = "https://github.com/servo/servo", rev = "4f984a6428a0f497e311a0800efa55166c15aac6" }

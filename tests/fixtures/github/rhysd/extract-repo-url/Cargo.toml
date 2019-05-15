@@ -1,0 +1,28 @@
+[package]
+name = "extract-repo-url"
+version = "1.0.1"
+authors = ["rhysd <lin90162@yahoo.co.jp>"]
+description = "Small CLI tool to extract repository URL from text (from clipboard by default)"
+repository = "https://github.com/rhysd/extract-repo-url"
+homepage = "https://github.com/rhysd/extract-repo-url#readme"
+readme = "README.md"
+keywords = ["github", "gitlab", "bitbucket", "url", "extract"]
+categories = ["command-line-utilities"]
+license-file = "LICENSE.txt"
+include = ["LICENSE.txt", "Cargo.toml", "src/*.rs"]
+
+[badges]
+travis-ci = { repository = "rhysd/extract-repo-url" }
+appveyor = { repository = "rhysd/extract-repo-url" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+lazy_static = "1.1"
+regex = "1.0"
+clap = "2.32"
+clipboard = "0.5"
+
+[dev-dependencies.cargo-husky]
+version = "^1.2"
+default-features = false
+features = ["user-hooks"]

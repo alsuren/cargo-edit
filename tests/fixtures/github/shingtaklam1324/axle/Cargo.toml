@@ -1,0 +1,20 @@
+[package]
+name = "axle"
+version = "0.1.1"
+authors = ["Shing Tak Lam <shingtaklam1324@gmail.com>"]
+description = "A graphics library influenced by Processing"
+categories = ["games", "gui", "rendering"]
+keywords = ["Processing", "games"]
+license = "MIT"
+license_file = "LICENSE"
+repository = "https://github.com/shingtaklam1324/axle"
+
+[features]
+default = []
+toml_cfg = ["toml", "serde_derive", "serde"]
+
+[dependencies]
+toml = {version = "0.4.5", optional = true}
+serde_derive = {version = "1.0", optional = true}
+serde = {version = "1.0", optional = true}
+sdl2 = "0.31.0"

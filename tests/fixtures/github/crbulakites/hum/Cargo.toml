@@ -1,0 +1,39 @@
+[package]
+name = "hum"
+version = "0.4.0"
+authors = ["Connor Bulakites <connor@bulakites.net>"]
+include = [
+    "**/*.rs",
+    "**/*.rustpeg",
+    "Cargo.toml",
+    "LICENSE",
+    "DISCLAIMER",
+    "README.md",
+    "EXTERNAL_DEPENDENCY_LICENSES/*",
+]
+build = "build.rs"
+description = "A music notation language and synthesizer written in Rust."
+repository = "https://github.com/crbulakites/hum"
+readme = "README.md"
+keywords = ["music", "notation", "synthesizer", "sine", "wave"]
+categories = ["multimedia", "multimedia::audio"]
+license = "GPL-3.0-or-later"
+
+[lib]
+name = "hum"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hum"
+path = "src/bin.rs"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+clap = "2.32.0"
+hound = "3.4.0"
+portaudio = "0.7.0"
+
+[build-dependencies]
+peg = "0.5"

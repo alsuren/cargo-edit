@@ -1,0 +1,13 @@
+[package]
+name = "bitvector"
+version = "0.1.1"
+authors = ["Hongjie Zhai <zhaihj@live.jp>"]
+description = "BitVector implementation in Rust"
+documentation = "http://zhaihj.github.io/doc/bitvector/index.html"
+homepage = "https://github.com/zhaihj"
+repository = "https://github.com/zhaihj/bitvector"
+readme = "Readme.md"
+license = "MIT"
+
+[features]
+unstable=[]

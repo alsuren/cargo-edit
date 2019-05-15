@@ -1,0 +1,18 @@
+[package]
+name = "automod"
+version = "0.1.1"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Pull in every source file in a directory as a module."
+repository = "https://github.com/dtolnay/automod"
+documentation = "https://docs.rs/automod"
+readme = "README.md"
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "0.4"
+quote = "0.6"
+syn = "0.15"

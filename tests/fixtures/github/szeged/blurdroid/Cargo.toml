@@ -1,0 +1,14 @@
+[package]
+name = "blurdroid"
+version = "0.1.6"
+description = "Bluetooth lib for Rust using Android's bluedroid"
+readme = "README.md"
+authors = ["Attila Dusnoki <adusnoki@inf.u-szeged.hu>"]
+repository = "https://github.com/szeged/blurdroid"
+keywords = ["bluetooth", "bluedroid", "ble", "android"]
+license = "BSD-2-Clause"
+build = "build.rs"
+
+[lib]
+name = "blurdroid"
+path = "src/rust/lib.rs"

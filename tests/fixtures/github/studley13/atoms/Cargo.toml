@@ -1,0 +1,24 @@
+[package]
+name = "atoms"
+version = "2.2.3"
+authors = ["Curtis Millar <curtis@curtism.me>", "Clark Gaebel <cg.wowus.cg@gmail.com>"]
+
+documentation = "https://docs.rs/atoms"
+homepage      = "https://docs.rs/crate/atoms"
+repository    = "https://github.com/studley13/atoms"
+
+readme = "README.md"
+
+keywords = [ "atom", "sexp", "parsing", "s-expression", "file-format" ]
+
+description = "S-expression parser and pretty-printer."
+
+license = "MIT"
+
+[badges]
+
+travis-ci = { repository = "studley13/atoms" }
+
+[dependencies]
+
+unescape = "0.1.0"

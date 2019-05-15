@@ -1,0 +1,20 @@
+[package]
+name = "sdc"
+version = "0.1.1"
+authors = ["Pete Gadomski <pete.gadomski@gmail.com>"]
+description = "Read and write Riegl's .sdc file format"
+documentation = "http://gadomski.github.io/sdc-rs"
+homepage = "https://github.com/gadomski/sdc-rs"
+repository = "https://github.com/gadomski/sdc-rs"
+readme = "README.md"
+keywords = ["pointcloud", "LiDAR"]
+license = "MIT"
+
+[[bin]]
+name = "sdc"
+doc = false
+
+[dependencies]
+byteorder = "0.4"
+docopt = "0.6"
+rustc-serialize = "0.3"

@@ -1,0 +1,16 @@
+[package]
+name = "tofu"
+version = "0.1.11"
+authors = ["Cody P Schafer <dev@codyps.com>"]
+description = "Trust On First Use helper code"
+license = "AGPL-3.0"
+repository = "https://github.com/jmesmon/tofu.git"
+
+[dependencies]
+log = "0.*"
+openssl = "0.*"
+tempdir = "0.*"
+
+[dev-dependencies]
+env_logger = "0.*"
+odds = "0.*"

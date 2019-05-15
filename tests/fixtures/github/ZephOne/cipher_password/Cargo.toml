@@ -1,0 +1,13 @@
+[package]
+name = "cipher_password"
+version = "0.1.0"
+authors = ["ZephOne <zephone@protonmail.com>"]
+edition = "2018"
+readme = "README.md"
+description = "Cipher your passwords"
+license = "GPL-3.0-only"
+repository = "https://github.com/ZephOne/cipher_password"
+
+[dependencies]
+clap = "2.32.0"
+pwhash = "0.3.0"

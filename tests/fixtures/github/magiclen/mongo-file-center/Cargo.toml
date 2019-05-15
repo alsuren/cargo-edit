@@ -1,0 +1,25 @@
+[package]
+name = "mongo-file-center"
+version = "0.1.11"
+authors = ["Magic Len <len@magiclen.org>"]
+repository = "https://github.com/magiclen/mongo-file-center"
+homepage = "https://magiclen.org/mongo-file-center"
+keywords = ["mongodb", "storage", "file"]
+categories = ["filesystem", "database"]
+description= "To store perennial files and temporary files in MongoDB."
+readme = "README.md"
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "magiclen/mongo-file-center", branch = "master" }
+
+[dependencies]
+mongodb = "0.3.12"
+bson = "0.13"
+short-crypt = "1.0.6"
+lazy_static = "1.1.0"
+chrono = "0.4.6"
+sha3 = "0.8.1"
+mime = "0.3.13"
+mime_guess = "2.0.0-alpha.6"
+rand = "0.6"

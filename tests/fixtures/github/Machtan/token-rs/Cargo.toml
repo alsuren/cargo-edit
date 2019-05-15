@@ -1,0 +1,16 @@
+[package]
+
+name            = "token"
+version         = "1.0.0-rc2"
+authors         = ["Jakob Lautrup Nysom <jaln@itu.dk>"]
+readme          = "README.md"
+documentation   = "https://machtan.github.io/token-rs/token"
+repository      = "https://github.com/Machtan/token-rs"
+keywords        = ["string", "tokenizer", "sentence", "splitter"]
+license         = "MIT"
+description     = """
+A simple string-tokenizer (and sentence splitter)
+
+Note: If you find that you would like to use the name for something more
+appropriate, please just send me a mail at jaln at itu dot dk
+"""

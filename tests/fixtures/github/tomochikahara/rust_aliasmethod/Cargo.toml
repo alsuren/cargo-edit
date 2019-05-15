@@ -1,0 +1,14 @@
+[package]
+name = "aliasmethod"
+version = "0.1.0"
+authors = ["Tomochika Hara <rust@thara.jp>"]
+description = "Implementation of Walker's Alias method."
+homepage = "https://github.com/thara/rust_aliasmethod"
+repository = "https://github.com/thara/rust_aliasmethod"
+readme = "README.md"
+keywords = ["aliasmethod", "random", "sampling", "algorithm"]
+license = "MIT"
+license-file = "LICENSE"
+
+[dependencies]
+rand = "0.3"

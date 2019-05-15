@@ -1,0 +1,19 @@
+[package]
+name = "grep_json_deserialize"
+version = "0.1.2"
+authors = ["Avi ד <avi.the.coder@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/Avi-D-coder/grep_json_deserialize"
+homepage = "https://github.com/Avi-D-coder/grep_json_deserialize"
+readme = "README.md"
+description = "A parser for the output of ripgrep --json"
+keywords = ["ripgrep", "json"]
+categories = ["command-line-interface", "parsing"]
+maintenance = { status = "passively-maintained" }
+
+
+[dependencies]
+serde = "1.0.80"
+serde_derive = "1.0.80"
+serde_json = "1.0.32"
+base64 = "0.10.0"

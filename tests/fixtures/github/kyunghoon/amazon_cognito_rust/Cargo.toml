@@ -1,0 +1,26 @@
+[package]
+authors = ["kyunghoon <kyunghoon@gmail.com>"]
+name = "amazon_cognito_rust"
+version = "0.1.4"
+description = "amazon cognito client in rust"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/kyunghoon/amazon_cognito_rust.git"
+
+[dependencies]
+base64 = "0.6.0"
+chrono = "0.4.0"
+hyper = "0.10.0"
+hyper-native-tls = { path = "hyper-native-tls", version = "0.2.4" }
+log = "0.3.8"
+num = "0.1.40"
+ring = { path = "ring", version = "0.13.0-alpha3" }
+rusoto_core = "0.31.0"
+rusoto_sts = "0.31.0"
+serde = "1.0.15"
+serde_derive = "1.0.2"
+serde_json = "1.0.3"
+sha2 = "0.6.0"
+
+[lib]
+name = "amazon_cognito_rust"
+path = "src/lib.rs"

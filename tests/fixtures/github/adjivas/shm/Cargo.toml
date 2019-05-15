@@ -1,0 +1,10 @@
+[package]
+name = "shm"
+version = "0.1.0"
+authors = ["adjivas <adjivas@users.noreply.github.com>"]
+description = "SHM Share memory"
+license = "GPL-3.0"
+documentation = "http://adjivas.github.io/shm/shm"
+repository = "https://github.com/adjivas/shm"
+readme = "README.md"
+keywords = ["XSI", "shared", "memory", "segment"]

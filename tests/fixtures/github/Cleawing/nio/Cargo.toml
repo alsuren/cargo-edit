@@ -1,0 +1,10 @@
+[package]
+name = "nio"
+version = "0.0.1"
+authors = ["Vitaliy V. Shopov <vitaliy.shopov@cleawing.com>"]
+description = "Just a stub for upcoming library"
+homepage = "https://github.com/Cleawing/nio"
+repository = "https://github.com/Cleawing/nio"
+readme = "README.md"
+keywords = ["io", "async", "non-blocking"]
+license = "Apache-2.0"

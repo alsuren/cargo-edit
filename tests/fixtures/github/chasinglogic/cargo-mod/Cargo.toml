@@ -1,0 +1,11 @@
+[package]
+name = "cargo-mod"
+description = "A cargo sub command for generating modules in your project. Reducing time spent writing boilerplate."
+version = "0.1.5"
+license = "Apache-2.0"
+repository = "https://github.com/chasinglogic/cargo-mod"
+homepage = "https://github.com/chasinglogic/cargo-mod"
+authors = ["Mathew Robinson <mathew.robinson3114@gmail.com>"]
+
+[dependencies]
+getopts = "0.2.14"

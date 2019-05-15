@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "samp-codegen",
+    "samp-sdk",
+    "samp",
+    "plugin-example",
+]

@@ -1,0 +1,47 @@
+[package]
+name = "nahpack"
+version = "0.3.0"
+description = "HPACK (RFC 7541) library"
+authors = ["ijl <ijl@mailbox.org>"]
+license = "MPL-2.0"
+readme = "README.md"
+repository = "https://github.com/ijl/nahpack"
+include = [
+    "Cargo.toml",
+    "CHANGELOG",
+    "LICENSE",
+    "README.md",
+    "src/*.h",
+    "src/*.rs",
+]
+
+[lib]
+name = "nahpack"
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib", "staticlib", ]
+
+[features]
+default = []
+
+[dependencies]
+libc = { version = "*", default-features = false }
+
+[dev-dependencies]
+rustc-serialize = "*"
+
+[profile.release]
+opt-level = 3
+lto = true
+debug = false
+debug-assertions = false
+panic = 'abort'
+
+[profile.bench]
+opt-level = 3
+lto = true
+debug = false
+debug-assertions = false
+panic = 'abort'
+
+[profile.test]
+opt-level = 0

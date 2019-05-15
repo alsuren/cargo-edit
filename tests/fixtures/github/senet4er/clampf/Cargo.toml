@@ -1,0 +1,22 @@
+[package]
+name = "clampf"
+version = "0.1.1"
+authors = ["senet4er <senet4er@gmail.com>"]
+keywords = ["clamp", "float"]
+categories = ["no-std", "data-structures"]
+description = "Clamped floating-point types."
+documentation = "https://docs.rs/clampf"
+repository = "https://github.com/senet4er/clampf"
+readme = "CRATES-IO.md"
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "senet4er/clampf" }
+
+[features]
+default = ["std"]
+std = ["num-traits/std"]
+
+[dependencies.num-traits]
+version = "0.2"
+default-features = false

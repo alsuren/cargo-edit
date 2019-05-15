@@ -1,0 +1,13 @@
+[package]
+name = "checksumdir"
+version = "0.3.0"
+authors = ["Sharaf Zaman <sharafzaz121@gmail.com>"]
+edition = "2018"
+description = "Compute deterministic hash of a directory"
+license = "MIT"
+repository = "https://github.com/sh-zam/checksumdir"
+
+[dependencies]
+blake2 = "0.8.0"
+walkdir = "2"
+base64 = "0.10"

@@ -1,0 +1,17 @@
+[package]
+name = "shuttle-sdk"
+description = "Stellar Horizon Server client."
+version = "0.1.0"
+authors = ["Francesco Ceccon <francesco@ceccon.me>"]
+license = "Apache-2.0"
+documentation = "https://docs.rs/shuttle-sdk"
+repository = "https://github.com/fracek/shuttle-sdk"
+readme = "README.md"
+keywords = ["stellar", "blockchain"]
+
+[dependencies]
+shuttle-core = "0.3.1"
+reqwest = "0.8.4"
+serde = "1.0.27"
+serde_derive = "1.0.27"
+serde_json = "1.0"

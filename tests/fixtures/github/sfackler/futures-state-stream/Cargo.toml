@@ -1,0 +1,11 @@
+[package]
+name = "futures-state-stream"
+version = "0.2.0"
+authors = ["Steven Fackler <sfackler@gmail.com>"]
+license = "MIT/Apache-2.0"
+description = "A version of the futures crate's Stream which returns state on completion"
+repository = "https://github.com/sfackler/futures-state-stream"
+readme = "README.md"
+
+[dependencies]
+futures = "0.1.3"

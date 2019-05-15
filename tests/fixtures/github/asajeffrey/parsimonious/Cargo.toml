@@ -1,0 +1,22 @@
+[package]
+
+name = "parsell"
+version = "0.6.6-SNAPSHOT"
+authors = [ "Alan Jeffrey <ajeffrey@mozilla.com>" ]
+
+description = "Parsell LL(1) streaming parser combinators"
+repository = "https://github.com/asajeffrey/parsell"
+documentation = "http://asajeffrey.github.io/parsell"
+readme = "README.md"
+keywords = [ "parser", "parsing", "streaming", "parser-combinators" ]
+license = "MPL-2.0"
+
+build = "build.rs"
+
+exclude = [ "doc/*" ]
+
+[build-dependencies]
+skeptic = "0.4.0"
+
+[dev-dependencies]
+skeptic = "0.4.0"

@@ -1,0 +1,14 @@
+[package]
+name = "rosalind-cli"
+version = "0.0.15"
+authors = ["Anton Klimenko <antklim@gmail.com>"]
+description = "CLI for `rosalind` crate"
+repository = "https://github.com/antklim/rosalind-cli.git"
+documentation = "https://antklim.github.io/docs/rosalind-cli/rosalind_cli/index.html"
+readme = "README.md"
+keywords = ["rosalind", "algorithms", "bioinformatics", "cli"]
+license = "MIT"
+
+[dependencies]
+getopts = "0.2"
+rosalind = ">=0.0.1"

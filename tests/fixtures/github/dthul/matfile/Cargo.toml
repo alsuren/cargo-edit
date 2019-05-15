@@ -1,0 +1,25 @@
+[package]
+name = "matfile"
+version = "0.2.0" # remember to update html_root_url
+authors = ["Daniel Thul <daniel.thul@gmail.com>"]
+edition = "2018"
+
+categories = ["parser-implementations"]
+description = "Matfile is a library for reading and writing Matlab \".mat\" data files."
+exclude = ["tests/*", "src/bin/*"]
+keywords = ["matlab", "mat", "file", "reader", "writer"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dthul/matfile"
+
+[dependencies]
+enum-primitive-derive = "^0.1"
+libflate = "0.1"
+num-traits = "0.2"
+
+[dependencies.nom]
+version = "^4.2"
+features = ["verbose-errors"]
+
+[workspace]
+members = ["matfile-ndarray"]

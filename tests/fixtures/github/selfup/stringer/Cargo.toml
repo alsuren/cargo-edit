@@ -1,0 +1,17 @@
+[package]
+name = "stringer"
+version = "0.1.6"
+authors = ["Regis <boudinot.regis@yahoo.com>"]
+description = "An easy way to turn an Unsafe *const c_char into a Rust String type and return a pointer."
+homepage = "https://github.com/selfup/stringer"
+repository = "https://github.com/selfup/stringer"
+readme = "README.md"
+documentation = "https://github.com/selfup/stringer/blob/master/README.md"
+keywords = ["ffi", "cstr", "string", "cstring", "ffistrings"]
+license = "MIT"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+[dependencies]

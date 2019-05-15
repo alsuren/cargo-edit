@@ -1,0 +1,13 @@
+[package]
+name = "dependy"
+version = "0.4.1"
+authors = ["Sean Cross <sean@xobs.io>"]
+license = "MIT"
+repository = "https://github.com/xobs/dependy"
+description = "Dependency resolution with variable dependency types"
+keywords = ["dependency", "resolver", "graph"]
+categories = ["data-structures"]
+
+[dependencies]
+daggy = "0.6"
+petgraph = "0.4"

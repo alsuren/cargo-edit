@@ -1,0 +1,47 @@
+[package]
+name = "voodoo"
+# [Reminder] Increment `README.md`.
+version = "0.3.1"
+authors = ["Nick Sanders <cogciprocate@gmail.com>"]
+description = "An intuitive, idiomatic, unopinionated, zero-overhead Vulkan API"
+documentation = "https://docs.rs/voodoo"
+homepage = "https://github.com/cogciprocate/voodoo"
+repository = "https://github.com/cogciprocate/voodoo"
+readme = "README.md"
+license = "MIT/Apache-2.0"
+exclude = ["target/*", "*.png", "bak/*"]
+keywords = ["vulkan", "gpu", "gpgpu", "graphics"]
+categories = ["asynchronous", "rendering", "rendering::graphics-api", "api-bindings"]
+
+[features]
+# Experimental and unstable Vulkan stuff.
+experimental = ["vks/experimental"]
+# Partially implemented and unimplemented stuff.
+unimplemented = []
+
+# default = ["experimental"]
+
+[dependencies]
+libloading = "0.4"
+smallvec = "0.4"
+vks = "0.21"
+libc = "0.2"
+bitflags = "~1.0"
+enum-primitive-derive = "0.1"
+num-traits = "0.1"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+metal-rs = "0.6"
+cocoa = "0.13"
+objc = "0.2.2"
+
+[dev-dependencies]
+# voodoo_winit = "0.1"
+voodoo_winit = { version = "0.1", path = "voodoo_winit" }
+cgmath = "0.15"
+image = "0.16"
+tobj = "0.1"
+ordered-float = "0.5"
+
+[workspace]
+members = ["voodoo_winit", "codegen"]

@@ -1,0 +1,36 @@
+[package]
+name = "redbpf"
+version = "0.2.0"
+description = "eBPF build and runtime library"
+repository = "https://github.com/redsift/redbpf"
+documentation = "https://redsift.github.io/rust/redbpf/doc/redbpf/"
+authors = ["Peter Parkanyi <peter@redsift.io>"]
+edition = "2018"
+license = "GPL-3.0"
+keywords = ["bpf", "ebpf", "build", "bindgen"]
+readme = "README.md"
+
+[workspace]
+members = ["bpf-sys"]
+
+[badges]
+circle-ci = { repository = "redsift/redbpf", branch = "master" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+bpf-sys = { path = "./bpf-sys", version = "0.2.0" }
+goblin = "^0.0.20"
+zero = "0.1"
+libc = "0.2"
+bindgen = "0.47"
+regex = "1.0"
+lazy_static = "1.0"
+
+serde = { version = "^1.0", optional = true}
+serde_derive = { version = "^1.0", optional = true}
+serde_json = { version = "^1.0", optional = true}
+ring = { version = "0.14", optional = true }
+
+[features]
+default = []
+build = ["serde", "serde_derive", "serde_json", "ring"]

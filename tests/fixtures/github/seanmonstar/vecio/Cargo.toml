@@ -1,0 +1,12 @@
+[package]
+name = "vecio"
+description = "Vector IO, scatter/gather, writev, readv"
+keywords = ["writev", "readv", "vector", "io"]
+version = "0.1.0"
+authors = ["Sean McArthur <sean.monstar@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/seanmonstar/vecio"
+
+[target.'cfg(windows)'.dependencies]
+winapi = "0.2"
+ws2_32-sys = "0.2"

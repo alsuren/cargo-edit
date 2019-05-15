@@ -1,0 +1,16 @@
+[package]
+name = "calendar_queue"
+version = "0.0.1"
+authors = ["Andrew Hobden <andrew@hoverbear.org>"]
+description = """
+This crate implements the idea of a 'Calendar Queue Scheduler' data structure.
+"""
+readme = "README.md"
+keywords = [ "queue", "fair", "scheduling" ]
+documentation = "https://hoverbear.github.io/calendar_queue/"
+homepage = "https://github.com/Hoverbear/calendar_queue"
+repository = "https://github.com/Hoverbear/calendar_queue"
+license = "MIT"
+
+[dev-dependencies]
+rand = "0.3.12"

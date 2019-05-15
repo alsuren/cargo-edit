@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+	"ofx-sys",
+	"ofx",
+	"examples/basic",
+]

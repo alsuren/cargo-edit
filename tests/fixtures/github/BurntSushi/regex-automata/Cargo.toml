@@ -1,0 +1,66 @@
+[package]
+name = "regex-automata"
+version = "0.1.6"  #:version
+authors = ["Andrew Gallant <jamslam@gmail.com>"]
+description = "Automata construction and matching using regular expressions."
+documentation = "https://docs.rs/regex-automata"
+homepage = "https://github.com/BurntSushi/regex-automata"
+repository = "https://github.com/BurntSushi/regex-automata"
+readme = "README.md"
+keywords = ["regex", "dfa", "automata", "automaton", "nfa"]
+license = "Unlicense/MIT"
+categories = ["text-processing"]
+exclude = [
+  "/.travis.yml", "/appveyor.yml", "/ci/*", "/scripts/*",
+  "/regex-automata-debug",
+]
+autotests = false
+
+[badges]
+travis-ci = { repository = "BurntSushi/regex-automata" }
+appveyor = { repository = "BurntSushi/regex-automata" }
+
+[workspace]
+members = ["bench", "regex-automata-debug"]
+
+[lib]
+bench = false
+
+[features]
+default = ["std"]
+std = ["regex-syntax", "utf8-ranges"]
+
+[dependencies]
+byteorder = { version = "1.2.7", default-features = false }
+regex-syntax = { version = "0.6.4", optional = true }
+utf8-ranges = { version = "1", optional = true }
+
+[dev-dependencies]
+lazy_static = "1.2.0"
+regex = "1.1"
+serde = "1.0.82"
+serde_bytes = "0.10.4"
+serde_derive = "1.0.82"
+toml = "0.4.10"
+
+[[test]]
+path = "tests/tests.rs"
+name = "default"
+
+[profile.dev]
+# Running tests takes too long in debug mode, so we forcefully always build
+# with optimizations. Unfortunate, but, ¯\_(ツ)_/¯.
+opt-level = 3
+debug = true
+
+[profile.test]
+# Running tests takes too long in debug mode, so we forcefully always build
+# with optimizations. Unfortunate, but, ¯\_(ツ)_/¯.
+opt-level = 3
+debug = true
+
+[profile.release]
+debug = true
+
+[profile.bench]
+debug = true

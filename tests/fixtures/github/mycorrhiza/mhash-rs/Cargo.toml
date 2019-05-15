@@ -1,0 +1,30 @@
+[package]
+name = "mhash"
+version = "0.3.0"
+authors = ["Wim Looman <wim@nemo157.com>"]
+
+description = "An implementation of the multihash format used in IPFS"
+
+repository = "https://github.com/mycorrhiza/mhash-rs"
+
+readme = "README.md"
+keywords = ["multihash", "multiformats", "hash", "sha"]
+
+license = "MIT/Apache-2.0"
+
+[features]
+default = ["io", "str", "vec"]
+io = ["varmint"]
+vec = ["varmint"]
+str = ["bs58", "vec"]
+validation = []
+generation = []
+sha2 = ["sodiumoxide"]
+all = ["validation", "generation", "sha2", "str", "vec", "io"]
+
+[dependencies]
+bs58 = { version = "0.2.0", optional = true }
+error-chain = "0.5.0"
+smallvec = "0.2.1"
+sodiumoxide = { version = "0.0.10", optional = true }
+varmint = { version = "0.1.1", optional = true }

@@ -1,0 +1,28 @@
+[package]
+name = "nobsign"
+version = "0.2.0"
+authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
+
+keywords = ["cryptography", "signature", "hmac"]
+description = "A simple but effective sign library, written in Rust"
+
+homepage = "https://github.com/badboy/nobsign"
+documentation = "http://badboy.github.io/nobsign/"
+repository = "https://github.com/badboy/nobsign"
+
+license = "BSD-3-Clause"
+readme = "README.md"
+
+include = [
+  "Cargo.toml",
+  "README*",
+  "LICENSE*",
+  "src/**/*",
+  "tests/**/*",
+  "examples/**/*",
+]
+
+[dependencies]
+byteorder = "1.2"
+ring = "0.14"
+base64 = "0.10"

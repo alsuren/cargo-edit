@@ -1,0 +1,63 @@
+[package]
+name = "cargo-update"
+description = "A cargo subcommand for checking and applying updates to installed executables"
+documentation = "https://rawcdn.githack.com/nabijaczleweli/cargo-update/doc/cargo_update/index.html"
+repository = "https://github.com/nabijaczleweli/cargo-update"
+readme = "README.md"
+keywords = ["cargo", "update", "plugin", "subcommand"]
+categories = ["development-tools::cargo-plugins"]
+license = "MIT"
+build = "build.rs"
+# Remember to also update in appveyor.yml
+version = "1.7.0"
+# Remember to also update in man/*.md
+authors = ["nabijaczleweli <nabijaczleweli@gmail.com>",
+           "Yann Simon <yann.simon.fr@gmail.com>",
+           "ven <vendethiel@hotmail.fr>",
+           "Cat Plus Plus <piotrlegnica@piotrl.pl>",
+           "Liigo <liigo@qq.com>",
+           "azyobuzin <azyobuzin@users.sourceforge.jp>",
+           "Tatsuyuki Ishi <ishitatsuyuki@gmail.com>",
+           "Tom Prince <tom.prince@twistedmatrix.com>",
+           "Mateusz Mikuła <mati865@gmail.com>",
+           "sinkuu <sinkuupump@gmail.com>",
+           "Alex Burka <aburka@seas.upenn.edu>",
+           "Matthias Krüger <matthias.krueger@famsik.de>",
+           "Daniel Holbert <dholbert@cs.stanford.edu>"]
+exclude = ["*.enc"]
+
+
+[dependencies]
+serde_derive = "1.0"
+lazy_static = "1.1"
+array_tool = "1.0"
+tabwriter = "1.1"
+lazysort = "0.2"
+regex = "1.0"
+serde = "1.0"
+git2 = "0.7"
+clap = "2.32"
+dirs = "1.0"
+json = "0.11"
+toml = "0.4"
+url = "1.7"
+
+[dependencies.semver]
+version = "0.9"
+features = ["serde"]
+
+[build-dependencies]
+embed-resource = "1.1"
+
+
+[[bin]]
+name = "cargo-install-update"
+path = "src/main.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "cargo-install-update-config"
+path = "src/main-config.rs"
+test = false
+doc = false

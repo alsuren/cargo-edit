@@ -1,0 +1,28 @@
+[package]
+name = "transport"
+version = "0.1.0"
+authors = ["MaidSafe Developers <dev@maidsafe.net>"]
+description = "Transport abstraction library with nat traversal"
+documentation = "http://maidsafe.net/transport/latest"
+homepage = "http://maidsafe.net"
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/maidsafe/transport"
+
+[dependencies]
+socket_addr = "~0.1.0"
+rustc-serialize = "~0.3.18"
+void = "~1.0.1"
+quick-error = "~1.0.0"
+nat_traversal = "~0.4.0"
+w_result = "~0.1.2"
+maidsafe_utilities = "~0.4.1"
+log = "~0.3.5"
+loggerv = "~0.2.0"
+byteorder = "~0.5.1"
+crossbeam = "~0.2.8"
+rand = "~0.3.14"
+url = "~0.5.7"
+lru_time_cache = "~0.3.0"
+net2 = "~0.2.22"
+

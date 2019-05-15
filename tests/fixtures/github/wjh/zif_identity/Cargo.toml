@@ -1,0 +1,17 @@
+[package]
+name = "zif_identity"
+version = "0.0.1"
+authors = ["Will Huxtable <w@zif.io>"]
+description = "The identity package for Zif"
+documentation = "https://docs.rs/zif_identity"
+homepage = "https://github.com/wjh/zif_identity"
+repository = "https://github.com/wjh/zif_identity"
+readme = "README.md"
+keywords = ["decentralized", "p2p", "federated", "identity", "zif"]
+license = "MIT"
+
+[dependencies]
+blake2-rfc = "0.2.18"
+ring = "0.12.1"
+untrusted = "0.5.0"
+base58 = "0.1.0"

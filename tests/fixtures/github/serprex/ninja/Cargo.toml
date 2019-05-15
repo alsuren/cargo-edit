@@ -1,0 +1,10 @@
+[package]
+name = "ninja"
+version = "0.0.1"
+authors = ["serprex"]
+repository = "https://github.com/serprex/ninja"
+description = "build.ninja clone"
+license = "MIT"
+
+[dependencies]
+fnv = "1.0.5"

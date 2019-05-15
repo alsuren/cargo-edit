@@ -1,0 +1,20 @@
+[package]
+name = "multiqueue"
+version = "0.1.0"
+authors = ["Sam Schetterer <samschet@gmail.com>, Abby <i@abby.md>"]
+license = "MIT"
+description = "A fast mpmc broadcast queue"
+repository = "https://github.com/abbychau/multiqueue"
+documentation = "https://docs.rs/multiqueue2"
+readme = "Readme.md"
+keywords = ["queue", "mpmc", "lockless", "broadcast", "message"]
+categories = ['asynchronous', 'concurrency', 'data-structures', 'algorithms']
+
+
+[dependencies]
+crossbeam = "0.2"
+futures = "0.1.9"
+smallvec = "0.3.1"
+parking_lot = "0.3"
+time = "0.1.35"
+atomic_utilities = "0.4.0"

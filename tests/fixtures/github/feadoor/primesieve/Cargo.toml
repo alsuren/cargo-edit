@@ -1,0 +1,12 @@
+[package]
+name = "primesieve"
+version = "0.2.1"
+authors = ["Sam Cappleman-Lynes <sam.capplemanlynes@gmail.com>"]
+repository = "https://github.com/feadoor/primesieve.git"
+homepage = "https://github.com/feadoor/primesieve.git"
+license = "MIT"
+readme = "README.md"
+documentation = "http://feadoor.github.io/primesieve/"
+description = "Sieve for prime numbers using a segmented sieve."
+
+[dependencies]

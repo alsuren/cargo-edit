@@ -1,0 +1,20 @@
+[package]
+name = "craigslist-scraper"
+version = "0.1.0"
+authors = ["Dylan Johnson <dylanatasmsa@gmail.com>"]
+description = "A webscraper for Craiglist. You can use this to send updates of a craigslist page to Slack."
+readme = "README.md"
+license-file="LICENSE"
+repository = "https://github.com/dcjohnson/craigslist-scraper"
+
+[dependencies]
+hyper = "0.7.2"
+html5ever = "0.5.3"
+tendril = "0.2.2"
+getopts = "0.2"
+rustc-serialize = "0.3.19"
+slack = "0.15.0"
+
+[lib]
+name = "lib"
+path = "src/lib/lib.rs"

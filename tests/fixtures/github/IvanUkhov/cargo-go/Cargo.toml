@@ -1,0 +1,21 @@
+[package]
+name = "cargo-go"
+version = "0.4.4"
+license = "Apache-2.0/MIT"
+authors = [
+  "Christopher Serr <cryze92@gmail.com>",
+  "Ivan Ukhov <ivan.ukhov@gmail.com>",
+  "pravic <ehysta@gmail.com>",
+]
+description = """
+A Cargo subcommand to ease navigation to the crates.io, documentation, home, and
+repository pages of a package."""
+homepage = "https://github.com/IvanUkhov/cargo-go"
+repository = "https://github.com/IvanUkhov/cargo-go"
+readme = "README.md"
+categories = ["command-line-utilities", "development-tools"]
+keywords = ["cargo"]
+
+[dependencies]
+curl = "0.4"
+regex = { default-features = false, version = "0.2" }

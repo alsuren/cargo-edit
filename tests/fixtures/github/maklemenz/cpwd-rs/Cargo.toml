@@ -1,0 +1,30 @@
+[package]
+name = "cpwd"
+version = "1.0.1"
+authors = ["Marcel Klemenz <maklemenz+cpwd-rs@googlemail.com>"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/maklemenz/cpwd-rs"
+description = "cpwd command (c)opies current working directory (pwd) into your clipboard, works cross platform without dependencies on installed software or libraries"
+keywords = ["cpwd", "linux", "windows", "macos"]
+categories = ["command-line-utilities", "development-tools", "filesystem", "os"]
+
+[dependencies]
+clipboard2 = "0.1.1"
+color-backtrace = "0.1.3"
+
+[profile.release]
+opt-level = "z"
+lto = true
+incremental = false
+debug = false
+debug-assertions = false
+overflow-checks = false
+rpath = false
+
+[badges]
+maintenance = { status = "actively-developed" }
+travis-ci = { repository = "maklemenz/cpwd-rs", branch = "master" }
+appveyor  = { repository = "maklemenz/cpwd-rs", branch = "master", service = "Github" }
+

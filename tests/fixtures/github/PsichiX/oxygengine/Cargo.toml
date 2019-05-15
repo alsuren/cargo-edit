@@ -1,0 +1,99 @@
+[package]
+name = "oxygengine"
+version = "0.3.10"
+authors = ["Patryk 'PsichiX' Budzynski <psichix@gmail.com>"]
+edition = "2018"
+description = "Oxygen Engine"
+license = "MIT"
+homepage = "https://github.com/PsichiX/oxygengine"
+repository = "https://github.com/PsichiX/oxygengine"
+documentation = "https://docs.rs/oxygengine"
+exclude = [
+  "demos/**",
+  "media/**",
+]
+readme = "README.md"
+
+[features]
+parallel = ["oxygengine-core/parallel"]
+web = [
+  "oxygengine-backend-web",
+  "oxygengine-core/web",
+]
+desktop = ["parallel"]
+input = ["oxygengine-input"]
+composite-renderer = ["oxygengine-composite-renderer"]
+network = ["oxygengine-network"]
+web-composite-game = [
+  "web",
+  "composite-renderer",
+  "input",
+  "network",
+  "oxygengine-composite-renderer-backend-web",
+  "oxygengine-input-device-web",
+  "oxygengine-network-backend-web",
+]
+desktop-game = [
+  "desktop",
+  "network",
+  "oxygengine-network-backend-desktop",
+]
+
+[dependencies]
+oxygengine-core = { version = "0.3", path = "./oxygengine-core" }
+
+[dependencies.oxygengine-backend-web]
+version = "0.3"
+path = "./oxygengine-backend-web"
+optional = true
+
+[dependencies.oxygengine-input]
+version = "0.3"
+path = "./oxygengine-input"
+optional = true
+
+[dependencies.oxygengine-input-device-web]
+version = "0.3"
+path = "./oxygengine-input-device-web"
+optional = true
+
+[dependencies.oxygengine-composite-renderer]
+version = "0.3"
+path = "./oxygengine-composite-renderer"
+optional = true
+
+[dependencies.oxygengine-composite-renderer-backend-web]
+version = "0.3"
+path = "./oxygengine-composite-renderer-backend-web"
+optional = true
+
+[dependencies.oxygengine-network]
+version = "0.3"
+path = "./oxygengine-network"
+optional = true
+
+[dependencies.oxygengine-network-backend-web]
+version = "0.3"
+path = "./oxygengine-network-backend-web"
+optional = true
+
+[dependencies.oxygengine-network-backend-desktop]
+version = "0.3"
+path = "./oxygengine-network-backend-desktop"
+optional = true
+
+[workspace]
+members = [
+  "oxygengine-core",
+  "oxygengine-backend-web",
+  "oxygengine-input",
+  "oxygengine-input-device-web",
+  "oxygengine-composite-renderer",
+  "oxygengine-composite-renderer-backend-web",
+  "oxygengine-network",
+  "oxygengine-network-backend-web",
+]
+exclude = [
+  "demos/hello-world",
+  "demos/rouglike",
+]

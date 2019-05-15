@@ -1,0 +1,11 @@
+[package]
+name = "pulse-simple"
+version = "1.0.0"
+authors = ["Astro <astro@spaceboyz.net>"]
+description = "Simple Pulseaudio crate for the Rust language"
+repository = "https://github.com/astro/rust-pulse-simple"
+license = "LGPL-3.0"
+
+[dependencies]
+libpulse-sys = "~0.0.0"
+libc = "~0.2.14"

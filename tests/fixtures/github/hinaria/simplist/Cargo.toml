@@ -1,0 +1,30 @@
+[package]
+name          = "simplist"
+version       = "0.0.5"
+authors       = ["hina <a@hinaria.com>"]
+description   = """
+plain and simple http, for when you just want to make a darn request!
+
+supports tokio-based async, traditional sync and async-await models.
+"""
+
+documentation = "https://docs.rs/simplist/0.0.5/simplist"
+homepage      = "https://code.hinaria.com/p/simplist.rs"
+repository    = "https://github.com/hinaria/simplist"
+
+license       = "MIT/Apache-2.0"
+categories    = ["web-programming::http-client"]
+keywords      = ["http", "https", "tokio", "hyper"]
+
+include       = ["src/*", "build.rs", "Cargo.toml"]
+exclude       = ["src/main.rs"]
+
+[features]
+nightly       = []
+scramble      = []
+
+[dependencies]
+bytes         = "0.4.5"
+futures       = "0.1.15"
+hyper         = "0.11.2"
+tokio-core    = "0.1.9"

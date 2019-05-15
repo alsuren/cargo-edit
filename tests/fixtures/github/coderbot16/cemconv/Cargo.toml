@@ -1,0 +1,16 @@
+[package]
+name = "cemconv"
+version = "0.2.1"
+authors = ["coderbot16 <coderbot16@gmail.com>"]
+description = "Tool for converting to and from Empire Earth's model format"
+license = "MIT"
+repository = "https://github.com/coderbot16/cemconv"
+
+[dependencies]
+cem = "0.1"
+collada = "0.8"
+structopt = "0.1.6"
+structopt-derive = "0.1.6"
+wavefront_obj = "5.1.0"
+cgmath = "0.16"
+RustyXML = "0.1.1"

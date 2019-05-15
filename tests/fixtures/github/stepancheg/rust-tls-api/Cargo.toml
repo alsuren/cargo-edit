@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "api",
+    "api-test",
+    "impl-native-tls",
+    "impl-openssl",
+    "impl-rustls",
+    "impl-stub",
+    "tokio-tls-api",
+    "tokio-tls-api-examples",
+    "interop",
+]

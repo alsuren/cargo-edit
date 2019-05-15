@@ -1,0 +1,36 @@
+[package]
+name = "nodes"
+version = "0.1.0"
+license = "BSL-1.0"
+authors = ["nyorain"]
+
+exclude = [".nodes/**", "docs/**"]
+description = "Library and cli of a simple node/though keeping system"
+repository = "https://github.com/nyorain/nodes"
+readme = "README.md"
+keywords = ["notes", "docs", "cli", "nodes"]
+categories = ["command-line-interface"]
+
+[lib]
+name = "nodes"
+path = "src/lib.rs"
+
+[[bin]]
+name = "nodes"
+path = "cli/main.rs"
+
+[[bin]]
+name = "migrate"
+path = "cli/migrate.rs"
+
+[dependencies]
+toml = "0.4"
+clap = "2.29"
+time = "0.1"
+regex = "0.2"
+serde = "1.0"
+serde_derive = "1.0"
+lazy_static = "1.0"
+nom = "^3.2"
+termion = "1.5"
+chrono = "0.4"

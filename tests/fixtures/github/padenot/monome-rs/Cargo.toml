@@ -1,0 +1,25 @@
+[package]
+name = "monome-rs"
+version = "0.3.0"
+authors = ["Paul Adenot <paul@paul.cx>"]
+description = "Talk to monome grid devices"
+documentation = "https://docs.rs/monome-rs/"
+repository = "https://github.com/padenot/monome-rs"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+categories = ["multimedia::audio", "hardware-support"]
+
+[lib]
+name = "monome"
+path = "src/lib.rs"
+
+[dependencies]
+tokio = "0.1"
+futures = "0.1"
+rosc = "0.1"
+log = "0.4"
+
+[dev-dependencies]
+env_logger = "0.5"
+num = "0.1"
+rand = "0.5"

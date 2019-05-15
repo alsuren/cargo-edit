@@ -1,0 +1,13 @@
+[package]
+name = "planar"
+description = "Strongly typed planar geometry"
+version = "0.1.2"
+authors = ["Miha Čančula <miha@noughmad.eu>"]
+repository = "https://github.com/Noughmad/planar"
+keywords = ["geometry"]
+license = "MIT / Apache-2.0"
+
+[badges]
+travis-ci = { repository = "Noughmad/planar", branch = "master" }
+
+[dependencies]

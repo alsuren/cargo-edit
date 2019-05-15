@@ -1,0 +1,7 @@
+[package]
+name = "origamigo"
+version = "0.1.0"
+authors = ["Hayato Ito <hayato@google.com>"]
+description = "Origami Solver"
+repository = "https://github.com/hayatoito/origamigo"
+license = "MIT"

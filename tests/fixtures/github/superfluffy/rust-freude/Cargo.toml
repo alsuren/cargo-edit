@@ -1,0 +1,39 @@
+[package]
+name = "freude"
+version = "0.6.0"
+edition = "2018"
+authors = ["Superfluffy"]
+license = "MIT/Apache-2.0"
+
+repository = "https://github.com/SuperFluffy/rust-freude"
+
+description = "An ODE library for ndarray providing some simple, fixed-step integrators"
+
+keywords = ["ODE", "numerics", "ndarray", "rungekutta", "euler"]
+categories = ["science"]
+
+[lib]
+name = "freude"
+
+[dependencies]
+ndarray = "0.12.1"
+
+[dependencies.tuple]
+version = "0.4.2"
+optional = true
+
+[dev-dependencies]
+approx = "0.3.2"
+blas-src = { version = "0.2.1", features = ["openblas"] }
+cblas = "0.2.0"
+ndarray-rand = "0.9.0"
+rand = "0.6.5"
+
+[features]
+
+# This feature is used for testing the nightly only
+nightly_test = ["tuple"]
+
+[[example]]
+name = "lorenz"
+required-features = ["tuple"]

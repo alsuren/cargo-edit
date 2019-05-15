@@ -1,0 +1,13 @@
+[package]
+name = "crawler"
+version = "0.1.0"
+authors = ["Ernestas Poskus <ernestas.poskus@gmail.com>"]
+license = "BSD-3-Clause"
+documentation = "https://github.com/ernestas-poskus/crawler.rs"
+homepage = "https://github.com/ernestas-poskus/crawler.rs"
+repository = "https://github.com/ernestas-poskus/crawler.rs"
+description = """
+Crawler - for collecting data from the Internet
+"""
+
+[dependencies]

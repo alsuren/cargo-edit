@@ -1,0 +1,23 @@
+[package]
+name = "score"
+version = "0.2.0"
+authors = ["Jesse Jones <jesse9jones@gmail.com>"]
+repository = "https://github.com/jesse99/score"
+description = "Discrete event simulation library"
+readme = "README.md"
+keywords = ["discrete", "simulation"]
+categories = ["science", "simulation"]
+license = "GPL-3.0"
+
+[[example]]
+	name = "battle_bots"
+[[example]]
+	name = "telephone"
+
+[dependencies]
+clap = "2.24.0"			# pretty nifty command line parser
+glob = "0.2.0"			# used to match paths, e.g. to log only some components
+rand = "0.3.0"			# for components that want random numbers
+rouille = "1.0.0"		# embedded web server for sdebug and later GUIs
+rustc-serialize = "0.3"	# json serialization for the web server (serde is recommended but this is what rouille uses)
+time = "0.1.0"			# std::time is kind of weak, e.g. can't get durations in ms

@@ -1,0 +1,83 @@
+[package]
+name        = "pruefung"
+version     = "0.2.1"
+authors     = ["Martin Larralde <martin.larralde@ens-cachan.fr>"]
+license     = "MIT"
+description = "Checksums in pure Rust, with no_std available, implementing the Hasher trait."
+repository  = "https://github.com/althonos/pruefung"
+readme      = "README.md"
+keywords    = ["checksum", "crc", "hash"]
+categories  = ["no-std"]
+
+[lib]
+name       = "pruefung"
+path       = "src/lib.rs"
+doctest    = true
+bench      = true
+doc        = true
+plugin     = false
+proc-macro = false
+harness    = true
+
+[dependencies]
+digest        = { version = "^0.7", optional = true, default-features = false }
+generic-array = { version = "^0.9", optional = true }
+
+[dev-dependencies]
+digest = { version = "^0.7", features = ["dev"] }
+
+[badges]
+travis-ci   = { repository = "althonos/pruefung" }
+codecov     = { repository = "althonos/pruefung" }
+maintenance = { status = "actively-developed" }
+
+[features]
+# default features: use everything
+default = ["generic", "adler32", "bsd", "crc", "fletcher16", "fnv", "unix", "sysv"]
+# generic array digests
+generic = ["generic-array", "digest"]
+# std feature to disable no_std
+std = ["digest/std"]
+# Per-checksum feature
+adler32 = []
+bsd = []
+crc = []
+fletcher16 = []
+fnv = []
+unix = []
+sysv = []
+
+[[test]]
+name = "adler32"
+path = "tests/adler32/mod.rs"
+required-features = ["adler32", "generic"]
+
+[[test]]
+name = "bsd"
+path = "tests/bsd/mod.rs"
+required-features = ["bsd", "generic"]
+
+[[test]]
+name = "crc"
+path = "tests/crc/mod.rs"
+required-features = ["crc", "generic"]
+
+[[test]]
+name = "fletcher16"
+path = "tests/fletcher16/mod.rs"
+required-features = ["fletcher16", "generic"]
+
+[[test]]
+name = "fnv"
+path = "tests/fnv/mod.rs"
+required-features = ["fnv", "generic"]
+
+[[test]]
+name = "sysv"
+path = "tests/sysv/mod.rs"
+required-features = ["sysv", "generic"]
+
+[[test]]
+name = "unix"
+path = "tests/unix/mod.rs"
+required-features = ["unix", "generic"]

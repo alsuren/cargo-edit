@@ -1,0 +1,20 @@
+[package]
+name = "enum_access"
+version = "0.3.1"
+authors = ["Boncheol Gu <boncheol.gu@gmail.com>"]
+
+description = "Custom derive for automatically generating the accessor methods for Enums"
+keywords = ["enum", "macros", "proc-macros", "accessor"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/boncheolgu/enum_access"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "0.4"
+quote = "0.6"
+syn = "0.14"
+syn_util = "0.1"
+synstructure = "0.9"

@@ -1,0 +1,22 @@
+[package]
+name = "simon"
+description = "Library for declaratively specifying and parsing command line arguments"
+version = "0.2.1"
+authors = ["Stephen Sherratt <stephen@sherra.tt>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/stevebob/simon.git"
+repository = "https://github.com/stevebob/simon.git"
+documentation = "https://docs.rs/simon"
+
+[dependencies]
+getopts = "0.2"
+
+[[example]]
+name = "dimensions"
+
+[[example]]
+name = "hello"
+
+[[example]]
+name = "area"

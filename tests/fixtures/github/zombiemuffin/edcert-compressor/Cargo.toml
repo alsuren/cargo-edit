@@ -1,0 +1,18 @@
+[package]
+name = "edcert-compressor"
+version = "1.1.6"
+authors = [ "Marvin Böcker <marvin.boecker@udo.edu>" ]
+
+description = "A crate to compress/decompress Edcert certificates."
+repository = "https://github.com/zombiemuffin/edcert-compressor/"
+documentation = "https://docs.rombie.de/edcert_compressor"
+readme = "README.md"
+keywords = ["ed25519", "lzma", "json", "network", "edcert"]
+license = "MIT"
+
+[dependencies]
+chrono = "^0.2"
+edcert = "^9.0"
+rustc-serialize = "^0.3"
+rust-lzma = "^0.2"
+semver = "^0.5.1"

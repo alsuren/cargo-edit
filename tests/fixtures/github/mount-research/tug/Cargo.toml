@@ -1,0 +1,25 @@
+[package]
+name = "tug"
+version = "0.1.0"
+authors = ["shockham <samuel.hockham@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/mount-research/tug"
+homepage = "https://github.com/mount-research/tug"
+documentation = "https://docs.rs/tug"
+description = "ALPHA easy configurable web server"
+
+[dependencies]
+hyper = "0.12"
+futures = "0.1"
+toml = "0.5"
+serde = "1.0"
+serde_derive = "1.0"
+log = "0.4"
+libflate = "0.1"
+fern = "0.5"
+chrono = "0.4"
+pulldown-cmark = "0.5"
+clap = "2.26"
+acme-client = "0.5"
+

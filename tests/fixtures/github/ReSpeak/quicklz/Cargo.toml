@@ -1,0 +1,35 @@
+[package]
+name = "quicklz"
+version = "0.2.0"
+authors = ["Flakebi <flakebi@t-online.de>"]
+description = """
+QuickLZ is a fast compression algorithm.
+This library is an implementation of the QuickLZ format in rust.
+"""
+repository = "https://github.com/ReSpeak/quicklz"
+documentation = "https://docs.rs/quicklz"
+readme = "README.md"
+keywords = ["quicklz"]
+categories = ["compression"]
+license = "MIT/Apache-2.0"
+include = [
+    "src/*",
+    "Format.md",
+    "README.md",
+    "Cargo.toml"
+]
+
+[badges]
+travis-ci = { repository = "ReSpeak/quicklz" }
+
+[lib]
+name = "quicklz"
+path = "src/lib.rs"
+
+[dependencies]
+bit-vec = "0.5"
+byteorder = "1"
+failure = "0.1"
+
+[features]
+nightly = []

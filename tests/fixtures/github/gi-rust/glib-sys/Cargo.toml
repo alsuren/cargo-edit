@@ -1,0 +1,23 @@
+[package]
+name = "glib-2-0-sys"
+version = "0.47.0-dev"
+authors = ["Mikhail Zabaluev <mikhail.zabaluev@gmail.com>"]
+description = "Import crate for GLib"
+license = "LGPL-2.1+"
+readme = "README.md"
+keywords = ["GLib", "GNOME"]
+
+repository = "https://github.com/gi-rust/glib-sys.git"
+
+build = "build.rs"
+links = "glib-2.0"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+gtypes = "0.2"
+libc = "0.2"
+
+[build-dependencies]
+pkg-config = "0.3"

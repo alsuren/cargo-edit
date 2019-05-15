@@ -1,0 +1,23 @@
+[package]
+
+name = "rust-inbox"
+version = "0.0.1"
+authors = ["Ayon Saha <ayonsaha2011@gmail.com>"]
+documentation = "https://github.com/ayonsaha2011/rust-inbox"
+repository = "https://github.com/ayonsaha2011/rust-inbox"
+homepage = "https://github.com/ayonsaha2011/rust-inbox"
+description = "IMAP client for Rust"
+readme = "README.md"
+license = "Apache-2.0/MIT"
+keywords = ["imap", "rust-inbox", "rust", "inbox"]
+
+[lib]
+name = "rust-inbox"
+path = "src/lib.rs"
+
+[dependencies]
+openssl = "0.9"
+regex = "0.2"
+
+[dev-dependencies]
+base64 = "0.2"

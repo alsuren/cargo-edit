@@ -1,0 +1,15 @@
+[package]
+name = "events_emitter"
+readme="README.md"
+version = "0.1.3"
+license = "MIT"
+keywords = [ "events" ]
+documentation="https://docs.rs/events_emitter"
+repository = "https://github.com/xivistudios/events"
+authors = ["Mr.Panda <xivistudios@gmail.com>"]
+edition = "2018"
+description = """
+Rust implementation of Node.JS event.
+"""
+
+[dependencies]

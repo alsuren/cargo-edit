@@ -1,0 +1,19 @@
+[package]
+name = "piston-timer_controller"
+version = "0.16.0"
+authors = [
+    "bvssvni <bvssvni@gmail.com>"
+]
+keywords = ["timer", "controller", "piston"]
+description = "A timer controller"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PistonDevelopers/timer_controller.git"
+homepage = "https://github.com/PistonDevelopers/timer_controller"
+
+[lib]
+name = "timer_controller"
+path = "./src/lib.rs"
+
+[dependencies]
+pistoncore-input = "0.24.0"

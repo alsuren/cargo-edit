@@ -1,0 +1,19 @@
+[package]
+name = "promptly"
+version = "0.1.5"
+authors = ["Anthony Nowell <anowell@gmail.com>"]
+license = "MIT"
+
+description = "Simple, opinionated CLI prompting helper"
+repository = "https://github.com/anowell/promptly"
+keywords = ["prompt", "cli", "readline", "autocomplete"]
+categories = ["command-line-interface"]
+readme = "README.md"
+
+[dependencies]
+rustyline = "1.0.0"
+url = { version = "1.7.0", optional = true }
+
+[features]
+default = []
+nightly = []

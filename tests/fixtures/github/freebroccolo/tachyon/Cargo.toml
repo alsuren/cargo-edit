@@ -1,0 +1,36 @@
+[package]
+name = "tachyon"
+version = "0.0.0"
+description = "A Servo application shell driven by Neon modules"
+keywords = ["electron", "javascript", "neon", "node", "servo"]
+authors = ["Darin Morrison <freebroccolo@users.noreply.github.com>"]
+license = "ISC"
+homepage = "https://github.com/freebroccolo/tachyon"
+repository = "https://github.com/freebroccolo/tachyon.git"
+readme = "README.md"
+build = "src/rust/build.rs"
+
+[lib]
+name = "tachyon"
+crate-type = ["dylib"]
+path = "src/rust/lib.rs"
+test = false
+
+[dependencies.neon]
+git = "https://github.com/freebroccolo/neon.git"
+branch = "tachyon"
+
+[dependencies.glutin_app]
+git = "https://github.com/freebroccolo/servo.git"
+branch = "tachyon"
+path = "ports/glutin"
+
+[dependencies.servo]
+git = "https://github.com/freebroccolo/servo.git"
+branch = "tachyon"
+path = "components/servo"
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = true

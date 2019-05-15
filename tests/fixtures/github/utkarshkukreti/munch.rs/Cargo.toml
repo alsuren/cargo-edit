@@ -1,0 +1,19 @@
+[package]
+name = "munch"
+version = "0.6.0"
+authors = ["Utkarsh Kukreti <utkarshkukreti@gmail.com>"]
+
+description = "Blazing fast, zero-copy parser combinator library with an elegant API for both strings and bytes."
+
+documentation = "https://docs.rs/munch"
+homepage = "https://github.com/utkarshkukreti/munch.rs"
+repository = "https://github.com/utkarshkukreti/munch.rs"
+
+categories = ["parsing"]
+
+license = "MIT/Apache-2.0"
+
+[dependencies]
+
+[badges]
+travis-ci = { repository = "utkarshkukreti/munch.rs" }

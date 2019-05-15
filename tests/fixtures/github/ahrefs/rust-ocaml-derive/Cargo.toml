@@ -1,0 +1,33 @@
+[package]
+name = "derive-ocaml"
+version = "0.1.2"
+authors = ["joris giovannangeli <joris.giovannangeli@ahrefs.com>"]
+license = "MIT"
+description = """
+Custom derive and procedural macros for easy FFI with ocaml on top of the ocaml crate
+"""
+
+categories = [ "external-ffi-bindings" ]
+keywords = [ "ocaml", "ffi", "derive" ]
+readme = "README.md"
+repository = "https://github.com/ahrefs/rust-ocaml-derive"
+homepage = "https://github.com/ahrefs/rust-ocaml-derive"
+
+
+[lib]
+proc-macro = true
+
+[features]
+default = [ "derive" ]
+
+# Implement custom derive for FromValue/ToValue ocaml traits
+derive = [ "synstructure" ]
+
+# Extperimental nightly only #[ocaml] proc_macro to generate all glue for a stub
+stubs = ["syn/full"]
+
+[dependencies]
+synstructure = { version = "0.10", optional = true }
+syn = "0.15"
+quote = "0.6"
+proc-macro2 = "0.4"

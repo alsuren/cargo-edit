@@ -1,0 +1,14 @@
+[package]
+name = "ogg_metadata"
+version = "0.4.1"
+authors = ["est31 <MTest31@outlook.com>"]
+description = "Metadata parser for various Ogg codecs"
+license = "MIT/Apache-2.0"
+keywords = ["ogg", "vorbis", "opus", "theora", "speex"]
+documentation = "https://docs.rs/ogg_metadata/0.4.1"
+repository = "https://github.com/est31/ogg-metadata"
+readme = "README.md"
+
+[dependencies]
+byteorder = "1.0"
+ogg = "0.5"

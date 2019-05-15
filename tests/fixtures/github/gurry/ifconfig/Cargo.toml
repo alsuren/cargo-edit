@@ -1,0 +1,20 @@
+[package]
+name = "ifconfig"
+version = "0.1.1"
+authors = ["Gurinder Singh <gurinder.singh@1e.com>"]
+description = "A cross platform way to get information about network adapters"
+license = "MIT"
+repository = "https://github.com/gurry/ifconfig"
+
+[dependencies]
+failure = "0.1"
+bitflags = "1.0"
+socket2 = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+winapi = "0.2"
+widestring = "0.2"
+winreg = "0.4"
+
+[target.'cfg(unix)'.dependencies]
+pnetlink = { git = "https://github.com/polachok/pnetlink.git" }

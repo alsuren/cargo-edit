@@ -1,0 +1,15 @@
+[package]
+name = "stlv"
+version = "0.1.2"
+authors = ["Vishal Patil <vishpat@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/vishpat/stl"
+repository = "https://github.com/vishpat/stl"
+documentation = "https://github.com/vishpat/stl"
+description = """
+RUST crate to parse STL files used for 3D printing.
+"""
+
+[dependencies]
+byteorder = "1.2.1"
+rayon = "1.0"

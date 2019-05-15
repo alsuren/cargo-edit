@@ -1,0 +1,40 @@
+[package]
+name = "mft"
+description = "A Fast (and safe) parser for the Windows Master File Table (MFT) format"
+homepage = "https://github.com/omerbenamram/mft"
+repository = "https://github.com/omerbenamram/mft"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+version = "0.1.2-alpha.0"
+authors = ["Omer Ben-Amram <omerbenamram@gmail.com>", "matthew seyer <matthew.seyer@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+log = {version = "0.4.6", features=["release_max_level_debug"]}
+clap = "2.33.0"
+encoding = "0.2.33"
+byteorder = "1.3.1"
+bitflags = "1.0.4"
+serde = {version = "1.0.91", features = ["derive"]}
+serde_json = "1.0.39"
+env_logger = "0.6.1"
+snafu = {version="0.3.1", features = ["backtraces", "rust_1_30"]}
+num-traits = "0.2"
+num-derive = "0.2"
+winstructs = {git = "https://github.com/omerbenamram/winstructs.git", branch = "master"}
+
+[dependencies.chrono]
+version = "0.4.6"
+features = ["serde"]
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bin]]
+name = "mft_dump"
+
+[[bench]]
+name = "benchmark"
+path = "./src/benches/benchmark.rs"
+harness = false

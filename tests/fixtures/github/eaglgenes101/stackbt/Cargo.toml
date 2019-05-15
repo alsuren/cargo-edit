@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "automata_impl",
+    "macros",
+    "behavior_tree",
+    "stackbt"
+]

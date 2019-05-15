@@ -1,0 +1,15 @@
+[package]
+name = "kic"
+version = "0.1.1"
+authors = ["ttokutake <tadatoshi.tokutake@gmail.com>"]
+
+description = "Delete uselss files automatically"
+repository = "https://github.com/ttokutake/kic"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+chrono = "0.2"
+regex = "0.1"
+toml = "0.1"
+walkdir = "0.1"

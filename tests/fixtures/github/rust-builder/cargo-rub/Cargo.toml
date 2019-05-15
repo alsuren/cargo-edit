@@ -1,0 +1,34 @@
+[package]
+name = "cargo_rub"
+version = "0.0.5-pre"
+authors = ["Jason Ozias <jason.g.ozias@gmail.com>"]
+description = "Rust Builder for Cargo"
+documentation = "http://rust-builder.github.io/cargo-rub"
+homepage = "http://rust-builder.github.io/cargo-rub"
+repository = "https://github.com/rust-builder/cargo-rub"
+readme = "README.md"
+license = "MIT"
+keywords = ["cargo","cargo_rub","buildable","rub"]
+build = "build.rs"
+
+[build-dependencies]
+time = "*"
+
+[dependencies]
+docopt = "*"
+rustc-serialize = "*"
+
+[dependencies.buildable]
+git = "https://github.com/rust-builder/buildable.git"
+
+[dependencies.commandext]
+git = "https://github.com/rust-builder/commandext.git"
+
+[dependencies.scm]
+git = "https://github.com/rust-builder/scm.git"
+
+[dependencies.utils]
+git = "https://github.com/rust-builder/utils.git"
+
+[lib]
+name = "cargo_rub"

@@ -1,0 +1,19 @@
+[package]
+name = "arraytools"
+version = "0.1.5"
+edition = "2018"
+
+license = "MIT/Apache-2.0"
+repository = "https://github.com/scottmcm/arraytools"
+documentation = "https://docs.rs/arraytools/"
+readme = "README.md"
+authors = ["scottmcm"]
+description = "A variety of helpful methods for working with fixed-size arrays."
+keywords = ["array", "no_std"]
+categories = ["no-std", "rust-patterns"]
+
+[dependencies]
+# none!
+
+[badges]
+travis-ci = { repository = "scottmcm/arraytools" }

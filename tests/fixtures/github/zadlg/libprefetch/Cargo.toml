@@ -1,0 +1,17 @@
+[package]
+name = "libprefetch"
+version = "0.1.1"
+authors = ["Thomas BAILLEUX <thomas@bailleux.me>"]
+license = "WTFPL"
+description = "Forensic library; parser and reader for Microsoft Prefetch File"
+homepage = "https://github.com/zadlg/libprefetch"
+keywords = ["forensic", "library", "parser", "parsing", "prefetch"]
+categories = ["parser-implementations", "parsing"]
+repository = "https://github.com/zadlg/libprefetch.git"
+readme = "README.md"
+
+
+[lib]
+name = "libprefetch"
+
+[dependencies]

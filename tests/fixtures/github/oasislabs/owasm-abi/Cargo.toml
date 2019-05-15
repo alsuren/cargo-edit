@@ -1,0 +1,35 @@
+[package]
+name = "owasm-abi"
+version = "0.1.14"
+authors = ["NikVolf <nikvolf@gmail.com>", "Oasis Labs <info@oasislabs.com>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/oasislabs/owasm-abi"
+homepage = "https://github.com/oasislabs/owasm-abi"
+documentation = "https://docs.rs/crate/owasm-abi/"
+description = "Rust WebAssembly Contracts ABI"
+keywords = ["wasm", "oasis", "webassembly", "blockchain", "abi"]
+categories = ["no-std", "embedded"]
+exclude = [ "tests/*", "derive/*" ]
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+owasm-std = "0.13"
+
+[dependencies.uint]
+version = "0.4"
+default-features = false
+
+[dependencies.byteorder]
+version = "1.2.3"
+default-features = false
+
+[dev-dependencies]
+hex-literal = "0.1"
+
+[features]
+default = ["std"]
+std = ["uint/std", "owasm-std/std"]
+strict = []

@@ -1,0 +1,28 @@
+[package]
+authors = ["Magnus Hoff <maghoff@gmail.com>"]
+description = "Compile time templating inspired by Mustache"
+keywords = ["web", "templating", "template-engine", "template-language", "mustache"]
+categories = ["template-engine"]
+license = "MIT"
+name = "bart"
+repository = "https://github.com/maghoff/bart"
+version = "0.1.4"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "maghoff/bart", branch = "master" }
+
+[dependencies]
+nom = "2.0.1"
+
+[dev-dependencies]
+
+[dev-dependencies.bart_derive]
+path = "libs/bart_derive"
+version = "0.1.4"
+
+[features]
+default = []
+specialization = []
+
+[workspace]

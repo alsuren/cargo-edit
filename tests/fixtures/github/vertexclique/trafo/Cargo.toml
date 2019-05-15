@@ -1,0 +1,20 @@
+[package]
+name = "trafo"
+version = "0.1.0"
+authors = ["Mahmut Bulut <mahmut@mahmutbulut.com>"]
+description = "Rust rewrite of the util-linux"
+repository = "https://github.com/vertexclique/trafo"
+readme = "README.md"
+keywords = ["util-linux", "utils", "trafo", "os"]
+license = "MIT"
+
+[dependencies.getopts]
+getopts = "*"
+
+#[[bin]]
+#name = "kill"
+#path = "src/kill/kill.rs"
+
+[[bin]]
+name = "whereis"
+path = "src/whereis/whereis.rs"

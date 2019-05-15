@@ -1,0 +1,16 @@
+[package]
+name = "newrelic-sdk"
+version = "0.0.3"
+description = "Rust bindings for New Relic."
+license = "MIT/Apache-2.0"
+authors = ["Herman J. Radtke III <herman@hermanradtke.com>",
+		   "Alexander Mihalicyn <alexander@mihalicyn.com>"]
+
+documentation = "https://github.com/mihalicyn/newrelic-rs"
+homepage = "https://github.com/mihalicyn/newrelic-rs"
+repository = "https://github.com/mihalicyn/newrelic-rs"
+
+build = "build.rs"
+
+[dependencies]
+log = "0.3.6"

@@ -1,0 +1,11 @@
+[package]
+authors = ["Mika Attila <radiantstatue@gmail.com>"]
+name = "rgmk"
+version = "0.3.0"
+repository = "https://github.com/crumblingstatue/rgmk"
+description = "Library for manipulating Game Maker Studio's \"data.win\" (GEN8) data files."
+license = "MIT"
+keywords = ["game", "maker", "studio", "GEN8"]
+
+[dependencies]
+byteorder = "1"

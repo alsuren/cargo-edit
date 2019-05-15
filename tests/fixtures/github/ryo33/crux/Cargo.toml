@@ -1,0 +1,9 @@
+[package]
+name = "crux"
+version = "0.3.0"
+authors = ["Ryo Hashiguchi <ryo12redstone@gmail.com>"]
+description = "A state container"
+repository = "https://github.com/ryo33/crux"
+readme = "README.md"
+keywords = ["state"]
+license = "MIT"

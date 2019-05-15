@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "gremlin-client",
+    "gremlin-tutorial"	
+]

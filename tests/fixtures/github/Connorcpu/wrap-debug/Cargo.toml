@@ -1,0 +1,10 @@
+[package]
+name = "wrap-debug"
+version = "0.1.1"
+authors = ["Connor Hilarides <connorcpu@live.com>"]
+description = "Implements debug by printing its type name instead"
+repository = "https://github.com/Connorcpu/wrap-debug"
+documentation = "https://docs.rs/wrap-debug"
+license = "MIT"
+
+[dependencies]

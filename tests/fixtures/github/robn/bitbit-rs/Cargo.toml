@@ -1,0 +1,8 @@
+[package]
+name = "bitbit"
+version = "0.2.0"
+edition = "2018"
+description = "Bit-at-a-time reader/writer types"
+license = "MIT"
+authors = ["Robert Norris <robn@robn.io>"]
+repository  = "https://github.com/robn/bitbit-rs"

@@ -1,0 +1,13 @@
+[package]
+name = "vad"
+version = "0.1.4"
+authors = ["seph <sephvelut@gmail.com>"]
+description = "Voice Activity Detector using WebRTC module"
+license-file = "LICENSE"
+repository= "https://github.com/SephVelut/vad-sys"
+
+links = "vad"
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.26.3"

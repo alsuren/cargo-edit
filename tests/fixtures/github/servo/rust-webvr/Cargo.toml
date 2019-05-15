@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "rust-webvr",
+    "rust-webvr-api"
+]
+
+exclude = [
+    "examples"
+]

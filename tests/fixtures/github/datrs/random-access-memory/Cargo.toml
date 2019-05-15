@@ -1,0 +1,17 @@
+[package]
+name = "random-access-memory"
+version = "1.0.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/datrs/random-access-memory"
+documentation = "https://docs.rs/random-access-memory"
+description = "Continuously read,write to memory using random offsets and lengths"
+authors = ["datrs <yoshuawuyts@gmail.com>"]
+readme = "README.md"
+
+[dependencies]
+failure = "0.1.1"
+random-access-storage = "2.0.0"
+
+[dev-dependencies]
+quickcheck = "0.8.1"
+rand = "0.6.0"

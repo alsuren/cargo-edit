@@ -1,0 +1,18 @@
+[package]
+name = "shapir"
+version = "0.5.0"
+authors = ["workanator <workanator@gmail.com>"]
+description = "Unofficial ShareFile REST API SDK"
+keywords = ["ShareFile", "SDK", "REST"]
+license = "MIT"
+repository = "https://github.com/workanator/shapir"
+documentation = "https://docs.rs/shapir"
+
+[dependencies]
+serde_json = "0.8"
+hyper = "0.9"
+url = "1.7"
+chrono = "0.4"
+md5 = "0.5"
+rustc-serialize = "0.3"
+email = "^0.0.20"

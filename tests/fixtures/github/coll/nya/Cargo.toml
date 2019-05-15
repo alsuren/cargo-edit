@@ -1,0 +1,17 @@
+[package]
+name = "ko"
+edition = "2018"
+version = "1.0.3"
+authors = ["Olivia <819880950@qq.com>"]
+description = "A simple and small file processor."
+repository = "https://github.com/komaeda/ko"
+documentation = "https://docs.rs/ko"
+homepage = "https://github.com/komaeda/ko"
+readme = "README.md"
+categories = ["filesystem"]
+keywords = ["minimal", "processor", "files"]
+license = "AGPL-3.0+"
+
+[dependencies]
+walkdir = "2.1.4"
+globset = "0.4.0"

@@ -1,0 +1,28 @@
+[package]
+name = "lapack"
+version = "0.16.0"
+license = "Apache-2.0/MIT"
+authors = [
+    "Andrew Straw <strawman@astraw.com>",
+    "David Greenberg <dsg123456789@gmail.com>",
+    "Ivan Ukhov <ivan.ukhov@gmail.com>",
+    "Pavel Potocek <pavelpotocek@gmail.com>",
+]
+description = "The package provides wrappers for LAPACK (Fortran)."
+documentation = "https://docs.rs/lapack"
+homepage = "https://github.com/blas-lapack-rs/lapack"
+repository = "https://github.com/blas-lapack-rs/lapack"
+readme = "README.md"
+categories = ["api-bindings", "science"]
+keywords = ["linear-algebra"]
+
+[dependencies]
+libc = "0.2"
+
+[dependencies.num-complex]
+version = "0.2"
+default-features = false
+
+[dependencies.lapack-sys]
+version = "0.12"
+default-features = false

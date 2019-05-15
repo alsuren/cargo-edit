@@ -1,0 +1,15 @@
+[package]
+name = "clear-coat"
+version = "0.0.3"
+authors = ["Jordan Miner <jminer7@gmail.com>"]
+description = "Clear Coat is a Rust wrapper for the IUP GUI library."
+repository = "https://github.com/jminer/clear-coat"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+iup-sys = "0.0.3"
+libc = "0.2.9"
+kernel32-sys = "0.2.1"
+winapi = "0.2.6"
+smallvec = "0.1.6"

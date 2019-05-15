@@ -1,0 +1,29 @@
+[package]
+name = "keyboard-layouts"
+version = "0.1.0"
+authors = ["chris ricketts <chris.ricketts@steribar.com>"]
+edition = "2018"
+description = "Keyboard layout keymaps with an API to generate HID packets"
+readme = "README.md"
+keywords = ["keyboard", "layouts", "hid"]
+exclude = [".gitignore"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Chris-Ricketts/keyboard-layouts"
+
+[[bin]]
+name = "kbsim"
+path = "src/kbsim.rs"
+
+[dependencies]
+gen_layouts_sys = "0.1.0"
+bytes = "0.4"
+structopt = "0.2"
+
+[dev-dependencies]
+tokio-linux-uhid = "0.3.0"
+futures = "0.1.15"
+tokio-core = "0.1.9"
+bytes = "0.4"
+pretty_assertions = "0.5.1"
+maplit = "1.0.1"
+lazy_static = "1.2.0"

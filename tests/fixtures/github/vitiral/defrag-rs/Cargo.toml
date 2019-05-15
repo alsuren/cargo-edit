@@ -1,0 +1,21 @@
+[package]
+name = "defrag"
+version = "0.1.4"
+description = "safe and low overhead defragmenting memory manager for microcontrollers"
+repository = "https://github.com/vitiral/defrag-rs"
+documentation = "https://docs.rs/defrag"
+keywords = ["no_std", "embedded", "memory", "manager", "microcontroller"]
+authors = ["Garrett Berg <vitiral@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+cbuf = "0.1.*"
+
+[dev-dependencies]
+rand = "0.3"
+stopwatch = "0.0.7"
+
+[features]
+default = []
+no_std = []

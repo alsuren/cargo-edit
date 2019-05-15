@@ -1,0 +1,14 @@
+[package]
+name = "pkgparse_rs"
+version = "0.2.111"
+authors = ["Conor Randall <ibrokemypie@bastardi.net>"]
+build = "build.rs"
+repository = "https://github.com/ibrokemypie/pkgparse_rs"
+license = "MIT"
+description = "Rust wrapper for pkgparse"
+
+[dependencies]
+libc = "^0.1.0"
+
+[build-dependencies]
+cmake = "0.1"

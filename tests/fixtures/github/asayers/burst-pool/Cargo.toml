@@ -1,0 +1,33 @@
+[package]
+name = "burst-pool"
+version = "0.5.1"
+authors = ["Alex Sayers <alex.sayers@gmail.com>"]
+description = "A SPMC channel optimised for bursts of activity"
+documentation = "https://docs.rs/burst-pool/"
+repository = "https://github.com/asayers/burst-pool"
+readme = "README.md"
+keywords = ["threadpool", "spmc", "channel"]
+license = "MIT OR Apache-2.0"
+exclude = ["benches/old/*", "benches.png"]
+
+[lib]
+name = "burst_pool"
+path = "lib.rs"
+
+[dependencies]
+byteorder = "1.1.0"
+nix = "0.9.0"
+
+[dev-dependencies]
+pbr = "1.0.0"
+spmc = "0.2.2"
+
+[[bench]]
+name = "burst_chan"
+path = "benches/burst_chan.rs"
+harness = false
+
+[[bench]]
+name = "spmc"
+path = "benches/spmc.rs"
+harness = false

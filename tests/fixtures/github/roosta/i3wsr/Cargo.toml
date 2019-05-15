@@ -1,0 +1,24 @@
+[package]
+name = "i3wsr"
+version = "1.1.1"
+description = "Change i3-wm workspace names based on its contents"
+authors = ["Daniel Berg <mail@roosta.sh>"]
+repository =  "https://github.com/roosta/i3wsr"
+documentation =  "https://github.com/roosta/i3wsr"
+readme = "README.md"
+keywords = ["i3-wm", "window-manager", "workspaces", "linux"]
+categories = ["command-line-utilities"]
+license = "MIT"
+exclude = ["TODOs.org*", "/script", "/assets/*"]
+
+[badges]
+travis-ci = { repository = "roosta/i3wsr" }
+
+[dependencies]
+xcb = "0.8"
+exitfailure = "0.5.1"
+failure = "0.1.2"
+failure_derive = "0.1.2"
+
+[dependencies.i3ipc]
+version = "0.8.2"

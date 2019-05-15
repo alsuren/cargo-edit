@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "oqs-sys",
+    "oqs",
+    "oqs-kex-rpc",
+    "mullvad-wg-establish-psk",
+]

@@ -1,0 +1,12 @@
+[package]
+name = "alien"
+version = "0.0.1"
+authors = ["Kellen Frodelius-Fujimoto <kellen@kellenfujimoto.com>"]
+description = "A typed interface to the Reddit API"
+keywords = ["reddit", "oauth", "api"]
+categories = ["api-bindings", "web-programming"]
+license = "MIT"
+repository = "https://github.com/rakenodiax/alien"
+readme = "README.md"
+
+[dependencies]

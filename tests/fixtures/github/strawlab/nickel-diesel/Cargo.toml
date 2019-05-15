@@ -1,0 +1,24 @@
+[package]
+name = "nickel-diesel"
+version = "0.9.0"
+license = "MIT"
+authors = ["Andrew Straw <strawman@astraw.com>",
+  "Robert Yokota <ryokota@yammer-inc.com>"]
+description = "Nickel middleware providing a diesel ORM with r2d2 connection pooling"
+repository = "https://github.com/strawlab/nickel-diesel"
+documentation = "https://docs.rs/nickel-diesel"
+keywords = ["diesel", "nickel", "database", "middleware"]
+readme = "README.md"
+categories = ["database", "web-programming", "web-programming::http-server"]
+
+[dependencies]
+nickel = "0.10"
+diesel = {version = "1", default-features = false, features = ["postgres", "sqlite"] }
+r2d2 = "0.8"
+r2d2-diesel = "1"
+postgres = "0.15"
+plugin = "0.2.6"
+typemap = "0.3.3"
+
+[dev-dependencies]
+dotenv = "0.10"

@@ -1,0 +1,10 @@
+[package]
+name = "symbolics_calculus"
+version = "0.1.5"
+description = "Calculus module for the symbolics computer algebra library"
+license = "MIT"
+repository = "https://github.com/nazek42/symbolics_calculus"
+authors = ["Benjamin Kulas <nazekthetweaker@gmail.com>"]
+
+[dependencies]
+symbolics_core = "0.1.5"

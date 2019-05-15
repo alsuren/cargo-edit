@@ -1,0 +1,15 @@
+[package]
+name = "rcurl"
+version = "0.1.0"
+authors = ["Sascha Hanse <shanse@gmail.com>"]
+license = "MIT"
+description = "rust implemenation of the curl ternary hash function for IOTA"
+repository = "https://github.com/knarz/rcurl"
+homepage = "https://github.com/knarz/rcurl"
+
+[dependencies]
+clippy = {version = "*", optional = true}
+
+[features]
+default = []
+dev = ["clippy"]

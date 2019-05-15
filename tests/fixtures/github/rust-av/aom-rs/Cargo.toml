@@ -1,0 +1,25 @@
+[package]
+name = "libaom"
+version = "0.1.0"
+authors = ["Luca Barbato <lu_zero@gentoo.org>"]
+license = "MIT"
+description = "libaom bindings"
+repository = "https://github.com/rust-av/aom-rs"
+readme = "README.md"
+keywords = ["libaom","av1"]
+
+[features]
+default = ["codec-trait"]
+codec-trait = ["av-codec"]
+build = ["aom-sys/build_sources"]
+
+[dependencies]
+aom-sys = { version = "0.1.0", path = "aom-sys" }
+av-data = { version = "0.1.0", git = "https://github.com/rust-av/rust-av" }
+av-codec = { version = "0.1.0", git = "https://github.com/rust-av/rust-av", optional = true }
+
+[workspace]
+members = ["aom-sys"]
+
+[dev-dependencies]
+regex ="0.2"

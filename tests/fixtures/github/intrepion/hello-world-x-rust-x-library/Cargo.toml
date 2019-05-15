@@ -1,0 +1,12 @@
+[package]
+name = "hello-world-x-rust-x-library"
+version = "0.1.2"
+authors = ["Oliver Forral <intrepion@gmail.com>"]
+description = "Hello World library in Rust"
+documentation = "https://docs.rs/hello-world-x-rust-x-library"
+repository = "https://github.com/intrepion/hello-world-x-rust-x-library"
+readme = "README.md"
+keywords = ["hello", "world"]
+license = "MIT"
+
+[dependencies]

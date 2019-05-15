@@ -1,0 +1,27 @@
+[package]
+name = "opengraph"
+version = "0.2.4"
+authors = ["Hiroki Kumamoto <kumabook@live.jp>"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+license = "MIT"
+homepage = "https://github.com/kumabook/opengraph"
+repository = "https://github.com/kumabook/opengraph.git"
+description = "Parses html and extracts Open Graph protocol markup"
+keywords = ["opengraph"]
+categories = []
+
+[dependencies]
+serde            = "^1"
+serde_derive     = "^1"
+serde_json       = "^1"
+html5ever        = "^0.22"
+
+[dependencies.reqwest]
+version = "^0.9"
+optional = true
+
+[features]
+default = ["reqwest"]

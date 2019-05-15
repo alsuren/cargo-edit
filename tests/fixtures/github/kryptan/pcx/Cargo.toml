@@ -1,0 +1,19 @@
+[package]
+name = "pcx"
+version = "0.2.3"
+authors = ["kryptan"]
+description = "Library for reading & writing PCX images."
+documentation = "https://docs.rs/pcx/"
+homepage = "https://github.com/kryptan/pcx"
+repository = "https://github.com/kryptan/pcx"
+readme = "README.md"
+keywords = ["pcx", "image", "paintbrush"]
+license = "WTFPL"
+exclude = ["/test-data"]
+
+[dependencies]
+byteorder = "1.2.6"
+
+[dev-dependencies]
+walkdir = "2.2.5"
+image = { version = "0.20.0", features = ["png_codec"], default-features = false }

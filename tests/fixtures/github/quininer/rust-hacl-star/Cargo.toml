@@ -1,0 +1,27 @@
+[package]
+name = "hacl-star"
+version = "0.0.14"
+authors = ["quininer <quininer@live.com>"]
+description = "HACL*, a formally verified cryptographic library for Rust (binding to hacl-c)."
+keywords = [ "hacl-star", "cryptography" ]
+categories = [ "cryptography" ]
+repository = "https://github.com/quininer/rust-hacl-star"
+documentation = "https://docs.rs/hacl-star/"
+license = "MIT"
+
+[workspace]
+exclude = ["examples/hacl-box-wasm"]
+
+[features]
+bindgen = [ "hacl-star-sys/bindgen" ]
+
+[badges]
+travis-ci = { repository = "quininer/rust-hacl-star" }
+appveyor = { repository = "quininer/rust-hacl-star" }
+
+[dependencies]
+rand_core = { version = "0.4", default-features = false }
+hacl-star-sys = { version = "=0.0.7", path = "hacl-star-sys" }
+
+[dev-dependencies]
+rand = "0.6"

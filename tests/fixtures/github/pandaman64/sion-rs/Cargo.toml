@@ -1,0 +1,17 @@
+[package]
+name = "sion-rs"
+version = "0.1.0"
+authors = ["pandaman <kointosudesuyo@infoseek.jp>"]
+license = "MIT OR Apache-2.0"
+description = "SION serializer/deserializer"
+documentation = "https://github.com/pandaman64/sion-rs"
+homepage = "https://github.com/pandaman64/sion-rs"
+repository = "https://github.com/pandaman64/sion-rs"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+failure = "0.1"
+base64 = "0.9"
+nom = "4.0"
+try_from = "0.2"

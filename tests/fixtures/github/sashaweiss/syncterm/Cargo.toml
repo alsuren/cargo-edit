@@ -1,0 +1,21 @@
+[package]
+name = "syncterm"
+version = "0.0.1"
+authors = ["sashaweiss <sasha@sashaweiss.coffee>", "jenniewerner <gotjennie@gmail.com>"]
+description = "A library for managing a network of synchronized command-line applications"
+repository = "https://github.com/sashaweiss/syncterm"
+readme = "README.md"
+keywords = ["networked", "command-line", "synchronized"]
+license = "MIT"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+rand = "0.5"
+chan = "0.1"
+termion = "1.5"
+
+[dev-dependencies]
+tui = "0.2"
+chrono = "0.4"

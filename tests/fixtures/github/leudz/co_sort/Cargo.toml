@@ -1,0 +1,22 @@
+[package]
+name = "co_sort"
+version = "0.2.0"
+authors = ["leudz <dylan.ancel@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/leudz/co_sort"
+keywords = ["sort", "permutation"]
+description = "Sort arrays given a permutation"
+readme = "README.md"
+categories = ["algorithms"]
+
+[dependencies]
+
+
+[dev-dependencies]
+criterion = "0.2.10"
+rand = "0.6.5"
+
+[[bench]]
+name = "co_sort"
+harness = false

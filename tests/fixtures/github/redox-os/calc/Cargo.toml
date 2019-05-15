@@ -1,0 +1,38 @@
+[package]
+authors = ["Hunter Goldstein <hunter.d.goldstein@gmail.com>"]
+categories = [
+    "science",
+    "parsing",
+]
+description = "Rust library for parsing and processing arithmetic expressions"
+homepage = "https://gitlab.redox-os.org/redox-os/calc"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+keywords = [
+    "math",
+    "calculator",
+]
+license-file = "LICENSE"
+name = "calculate"
+readme = "README.md"
+repository = "https://gitlab.redox-os.org/redox-os/calc"
+version = "0.7.0"
+
+[[bin]]
+name = "calc"
+path = "src/bin.rs"
+
+[dependencies]
+atty = "0.2.11"
+clap = "2.33.0"
+decimal = { git = "https://github.com/alkis/decimal.git", default-features = false }
+failure = "0.1.5"
+liner = "0.4.4"
+num = "0.2.0"
+rand = "0.6.5"
+
+[lib]
+name = "calc"
+path = "src/lib.rs"

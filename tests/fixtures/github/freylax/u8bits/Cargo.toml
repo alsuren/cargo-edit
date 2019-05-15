@@ -1,0 +1,19 @@
+[package]
+name = "u8bits"
+version = "0.1.0"
+authors = ["Robert Hennig <robert@freylax.de>"]
+edition = "2018"
+categories = ["embedded", "hardware-support", "no-std"]
+description = "This crate provides a macro to generate accessors for parts of newtype byte arrays."
+keywords = ["embedded", "bitfields"]
+license = "MIT"
+repository = "https://github.com/freylax/u8bits"
+
+[dependencies]
+paste = "0.1"
+
+[dev-dependencies]
+surjective-enum = "0.1"
+
+[badges]
+travis-ci = { repository = "freylax/u8bits", branch = "master" }

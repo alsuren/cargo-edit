@@ -1,0 +1,13 @@
+[package]
+name = "bitmaptrie"
+description = "Bitmapped vector trie (mutable, not persistent). Word-size path-cached indexing into essentially a sparse vector. Requires rust-nightly."
+keywords = ["trie", "vector", "sparse"]
+homepage = "https://github.com/pliniker/bitmaptrie-rs"
+repository = "https://github.com/pliniker/bitmaptrie-rs"
+documentation = "https://crates.fyi/crates/bitmaptrie/"
+version = "2.0.0"
+license = "MIT/Apache-2.0"
+authors = ["Peter Liniker <peter.liniker@gmail.com>"]
+
+[dev-dependencies]
+rand = "0.3"

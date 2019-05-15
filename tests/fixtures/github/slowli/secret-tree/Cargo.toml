@@ -1,0 +1,24 @@
+[package]
+name = "secret-tree"
+version = "0.1.1"
+authors = ["Alex Ostrovski <ostrovski.alex@gmail.com>"]
+license = "Apache-2.0"
+keywords = ["derivation", "blake2b", "cryptography"]
+readme = "README.md"
+categories = ["cryptography"]
+description = "Hierarchical secret derivation with Blake2b"
+repository = "https://github.com/slowli/secret-tree"
+documentation = "https://docs.rs/secret-tree/"
+
+[dependencies]
+byteorder = "1.2.7"
+clear_on_drop = "0.2.3"
+blake2-rfc = "0.2.18"
+rand = "0.5.5"
+
+[dev-dependencies]
+hex = "0.3.2"
+ed25519-dalek = "=1.0.0-pre.0"
+pwbox = { version = "=0.1.0", default-features = false, features = ["rust-crypto"] }
+sha2 = "0.8.0"
+toml = "0.4.10"

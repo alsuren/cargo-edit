@@ -1,0 +1,22 @@
+[package]
+name = "tfe"
+version = "0.1.2"
+authors = ["Sidney Liebrand <sidneyliebrand@gmail.com>"]
+description = "A fast implementation of 2048 in rust"
+
+documentation="https://docs.rs/tfe"
+repository = "https://github.com/SidOfc/2048-rust"
+license = "MIT"
+
+[dependencies]
+lazy_static = "1.0"
+rand        = "0.5"
+clap        = "2.31"
+
+[lib]
+name = "tfe"
+path = "src/lib.rs"
+
+[[bin]]
+name = "2048"
+path = "src/bin/2048.rs"

@@ -1,0 +1,16 @@
+[package]
+name = "rust-mpfr"
+version = "0.1.7"
+authors = [ "Bartłomiej Kamiński <fizyk20@gmail.com>" ]
+description = "Simple MPFR bindings for Rust based on rust-gmp"
+license = "MIT"
+repository = "https://github.com/fizyk20/rust-mpfr.git"
+
+[lib]
+name = "rust_mpfr"
+crate-type = ["rlib", "dylib"]
+
+[dependencies]
+libc = "~0.2"
+rust-gmp = "~0.3"
+rustc-serialize = "~0.3"

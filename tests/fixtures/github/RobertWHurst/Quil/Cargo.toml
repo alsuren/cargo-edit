@@ -1,0 +1,13 @@
+[package]
+name = "quil"
+version = "0.4.1"
+authors = ["Robert Hurst <rhurst@e-xact.com>"]
+description = "A simple logger for Rust projects"
+documentation = "https://docs.rs/quil"
+homepage = "https://github.com/RobertWHurst/Quil"
+repository = "https://github.com/RobertWHurst/Quil"
+license = "MIT"
+
+[dependencies]
+colored = "1.5"
+chrono = "0.4"

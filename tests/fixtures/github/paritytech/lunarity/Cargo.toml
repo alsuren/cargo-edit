@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "lunarity",
+    "ast",
+    "parser",
+    "lexer",
+]
+
+[profile]
+release = { lto = true }
+bench = { lto = true }

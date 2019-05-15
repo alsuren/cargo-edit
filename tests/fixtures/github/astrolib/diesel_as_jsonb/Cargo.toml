@@ -1,0 +1,16 @@
+[package]
+name = "bloom42_diesel_as_jsonb"
+version = "0.1.2"
+authors = ["Terry Raimondo <terry.raimondo@gmail.com>"]
+license = "MIT"
+description = "Use your structs as Jsonb with diesel and PG"
+repository = "https://github.com/astrolib/diesel_as_jsonb"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "0.6.10"
+syn = { version = "0.15.20", features = ["derive"] }
+proc-macro2 = "0.4.23"
+heck = "0.3.0"

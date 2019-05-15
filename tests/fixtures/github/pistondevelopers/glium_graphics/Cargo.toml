@@ -1,0 +1,37 @@
+[package]
+name = "piston2d-glium_graphics"
+version = "0.58.0"
+authors = [
+    "Eduard Bopp <eduard.bopp@aepsil0n.de>",
+    "bvssvni <bvssvni@gmail.com>"
+]
+keywords = ["graphics", "2d", "glium", "piston"]
+description = "A Glium 2D back-end for the Piston game engine"
+license = "MIT"
+repository = "https://github.com/PistonDevelopers/glium_graphics.git"
+homepage = "https://github.com/PistonDevelopers/glium_graphics"
+documentation = "https://docs.rs/piston2d-glium_graphics"
+
+[lib]
+name = "glium_graphics"
+
+[features]
+default = ["glium_window", "image", "check_current_window"]
+glium_window = ["piston", "pistoncore-glutin_window"]
+check_current_window = []
+
+[dependencies.glium]
+version = "0.23.0"
+default_features = false
+
+[dependencies]
+image = { version = "0.21.0", optional = true }
+piston-shaders_graphics2d = "0.3.1"
+piston-texture = "0.6.0"
+piston = { version = "0.42.0", optional = true }
+shader_version = "0.3.0"
+pistoncore-glutin_window = { version = "0.54.0", optional = true }
+
+[dependencies.piston2d-graphics]
+version = "0.30.0"
+features = ["glyph_cache_rusttype"]

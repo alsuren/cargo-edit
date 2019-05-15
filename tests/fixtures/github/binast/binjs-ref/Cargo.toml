@@ -1,0 +1,81 @@
+[package]
+name = "binjs"
+version = "0.4.0"
+authors = ["David Teller <D.O.Teller@gmail.com>"]
+homepage = "https://binast.github.io/ecmascript-binary-ast/"
+repository = "https://github.com/binast/binjs-ref"
+description = "Set of tools to manipulate files in the JavaScript Binary AST format."
+license = "MIT"
+build = "build.rs"
+
+[build-dependencies]
+which = "^2.0"
+
+[dependencies]
+binjs_generic = { path = "crates/binjs_generic", version = "*" }
+binjs_es6 = { path = "crates/binjs_es6", version = "*" }
+binjs_io = { path = "crates/binjs_io", version = "*" }
+binjs_meta = { path = "crates/binjs_meta", version = "*" }
+binjs_shared = { path = "crates/binjs_shared", version = "*" }
+bincode = "^1.0"
+clap = "^2.0"
+derive_more = "^0.13"
+env_logger = "^0.6"
+itertools = "^0.7"
+serde = { version = "^1.0", features = ["derive"] }
+serde_json = { version = "^1.0.38", features = ["unbounded_depth"] }
+log = "^0.4"
+which = "^2.0"
+
+[dev-dependencies]
+bencher = "^0.1"
+glob = "^0.2"
+lazy_static = "^1.2"
+rand = "^0.6"
+separator = "^0.4"
+tempdir = "^0.3"
+test-logger = { version = "^0.1", git = "https://github.com/RReverser/test-logger" }
+yaml-rust = "^0.4"
+
+[[bin]]
+# Encode a text source to a BinAST file.
+name = "binjs_encode"
+path = "src/bin/encode.rs"
+
+[[bin]]
+# Decode a BinAST file to a text source
+name = "binjs_decode"
+path = "src/bin/decode.rs"
+
+[[bin]]
+# Dump a BinAST file structure to stdout.
+name = "binjs_dump"
+path = "src/bin/dump.rs"
+
+[[bin]]
+# Convert a BinAST JSON file to other BinAST file.
+name = "binjs_convert_from_json"
+path = "src/bin/convert_from_json.rs"
+
+[[bin]]
+# From a sample of JS source files, extract the distribution
+# of probabilities for all ASTs, write this distribution to
+# disk. The distribution may then be reused by binjs_encode
+# using the entropy format to encode further files.
+name = "binjs_generate_prediction_tables"
+path = "src/bin/generate_dictionary.rs"
+
+[[bench]]
+name = "bench"
+harness = false
+
+[workspace]
+members = ["crates/*"]
+
+[features]
+default = []
+
+# If specified, activate features that require Nightly only compiler features.
+#
+# At the time of this writing, this affects only documentation generation.
+unstable = ["binjs_io/unstable"]

@@ -1,0 +1,14 @@
+[package]
+name = "rivlib"
+version = "0.3.0"
+authors = ["Pete Gadomski <pete.gadomski@gmail.com>"]
+description = "Use Riegl's RiVLib to read rxp files"
+license = "MIT"
+
+[dependencies]
+failure = "0.1"
+scanifc-sys = { path = "scanifc-sys", version = "0.1" }
+scanlib = { path = "scanlib", version = "0.1" }
+
+[workspace]
+members = ["scanifc-sys", "scanlib"]

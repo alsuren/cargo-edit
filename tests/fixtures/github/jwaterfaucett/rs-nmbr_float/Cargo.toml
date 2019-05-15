@@ -1,0 +1,11 @@
+[package]
+name = "nmbr-float"
+version = "0.0.1"
+authors = ["John Faucett <jwaterfaucett@gmail.com>"]
+description = "Floating point properties for numbers"
+license = "MIT"
+homepage = "https://github.com/jwaterfaucett/rs-nmbr_float"
+repository = "https://github.com/jwaterfaucett/rs-nmbr_float.git"
+keywords = ["mathematics", "numerics", "numbers", "floats"]
+
+[dependencies]

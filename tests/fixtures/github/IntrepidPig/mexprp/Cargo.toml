@@ -1,0 +1,22 @@
+[package]
+name = "mexprp"
+version = "0.3.0"
+authors = ["Benny A <virusdownloader7@gmail.com>"]
+
+description = "A math expression parsing and evaluation library"
+
+homepage = "https://intrepidpig.github.io/projects/mexprp"
+repository = "https://github.com/IntrepidPig/mexprp"
+license = "MPL-2.0"
+documentation = "https://docs.rs/mexprp"
+readme = "README.md"
+
+keywords = ["math", "expression", "parsing"]
+categories = ["parsing"]
+
+[features]
+default = ["rug"]
+
+[dependencies]
+failure = "0.1"
+rug = { version = "1.0", optional = true }

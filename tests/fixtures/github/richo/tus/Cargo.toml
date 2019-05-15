@@ -1,0 +1,16 @@
+[package]
+name = "tus"
+version = "0.2.0"
+authors = ["Richo Healey <richo@stripe.com>"]
+description = "rust implementation of TUS"
+repository = "https://github.com/richo/tus"
+license = "MIT"
+
+[dependencies]
+reqwest = "0.9"
+failure = "0.1.2"
+lazy_static = "1.1.0"
+
+[dev-dependencies]
+rand = "0.5.5"
+tempfile = "3.0.4"

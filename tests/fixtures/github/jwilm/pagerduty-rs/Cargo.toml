@@ -1,0 +1,15 @@
+[package]
+name = "pagerduty"
+version = "0.2.0"
+authors = ["Joe Wilm <joe@jwilm.com>"]
+license = "MIT OR Apache-2.0"
+description = "PagerDuty API Client"
+readme = "README.md"
+repository = "https://github.com/jwilm/pagerduty-rs"
+documentation = "https://jwilm.github.io/pagerduty-rs/pagerduty/"
+
+[dependencies]
+hyper = "0.8"
+serde = "1"
+serde_json = "1"
+serde_derive = "1"

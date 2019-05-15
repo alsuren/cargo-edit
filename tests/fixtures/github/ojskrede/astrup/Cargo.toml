@@ -1,0 +1,29 @@
+[package]
+name = "astrup"
+version = "0.0.9"
+authors = ["Ole-Johan Skrede <ojskrede@gmail.com>"]
+exclude = ["src/bin/"]
+
+description = "A simple plotting library"
+repository = "https://github.com/ojskrede/astrup"
+readme = "README.md"
+keywords = ["plot", "scientific", "data", "visualization", "graphing"]
+categories = ["science", "visualization"]
+license = "MIT/Apache-2.0"
+
+
+[dependencies]
+chrono = "0.4"
+failure = "0.1"
+palette = "0.3"
+time = "0.1"
+ndarray = "0.11"
+gtk = "0.3"
+cairo-rs = { version = "0.3", features = ["png"] }
+gio = "0.3"
+
+rand = "0.4"
+csv = "1.0.0-beta.5"
+serde = "1.0"
+serde_derive = "1.0"
+num-traits = "0.2"

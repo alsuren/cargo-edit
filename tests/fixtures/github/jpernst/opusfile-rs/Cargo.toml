@@ -1,0 +1,20 @@
+[package]
+name = "opusfile-rs"
+version = "0.1.4"
+authors = ["Jameson Ernst"]
+description = "Rust wrapper for libopusfile"
+license = "MIT/Apache-2.0"
+
+repository = "https://github.com/jpernst/opusfile-rs"
+documentation = "http://jpernst.github.io/opusfile-rs"
+keywords = ["opus", "opusfile", "codec", "sound", "audio"]
+
+
+[lib]
+name = "opusfile"
+
+[dependencies]
+libc = "0.1"
+enum_primitive = "0.1"
+opusfile-sys = "0.1"
+

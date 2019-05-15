@@ -1,0 +1,17 @@
+[package]
+name = "trx"
+description = "a modern implementation of the `tree` command"
+version = "0.2.6"
+authors = ["George Kaplan <george@georgekaplan.xyz>"]
+license = "Apache-2.0"
+readme = "./README.md"
+repository = "https://github.com/g-s-k/trx"
+edition = "2018"
+
+[dependencies]
+structopt = "0.2.14"
+glob = "0.2.11"
+colored = "1.7.0"
+serde_derive = "1.0.87"
+serde = "1.0.87"
+serde_json = "1.0.38"

@@ -1,0 +1,31 @@
+[package]
+name = "fae"
+version = "0.4.1-alpha.0"
+authors = ["Jens Pitkanen <jens@neon.moe>"]
+edition = "2018"
+description = "A simple and fast 2D rendering crate with optional window creation and text rendering functionality."
+readme = "README.md"
+# Since the crate isn't ready for usage, don't set these just yet.
+# keywords = ["graphics", "2d", "renderer", "sprite"]
+# categories = ["rendering", "rendering::engine"]
+license = "MIT"
+repository = "https://github.com/neonmoe/fae"
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]
+glutin = { version = "0.19", optional = true }
+glfw = { version = "0.26", optional = true }
+rusttype = { version = "0.7", optional = true, features = ["gpu_cache"] }
+unicode-normalization = { version = "0.1", optional = true }
+png = { version = "0.14", optional = true }
+
+flame = { version = "0.2", optional = true } # Used by the renderer, for benchmarking
+
+[features]
+default = ["text", "png"]
+text = ["rusttype", "unicode-normalization"]
+
+[build-dependencies]
+gl_generator = "0.10"

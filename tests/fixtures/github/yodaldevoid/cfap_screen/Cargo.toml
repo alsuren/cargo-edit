@@ -1,0 +1,14 @@
+[package]
+name = "cfap_screen"
+version = "2.0.1"
+authors = ["Gabriel Smith <ga29smith@gmail.com>"]
+categories = ["embedded", "no-std"]
+description = "An embedded-hal based driver for ePaper displays from Crystalfontz."
+documentation = "https://docs.rs/cfap_screen"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yodaldevoid/cfap_screen"
+
+[dependencies]
+embedded-hal = { version = "0.2.1", features = ["unproven"] }
+nb = "0.1.1"
+volatile-register = "^0.2"

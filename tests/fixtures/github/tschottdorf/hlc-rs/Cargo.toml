@@ -1,0 +1,19 @@
+[package]
+name = "hlc"
+version = "0.1.2"
+authors = ["Tobias Schottdorf <tobias.schottdorf@gmail.com>"]
+
+description = "hybrid logical clock"
+
+documentation = "https://tschottdorf.github.io/hlc-rs/doc/hlc/"
+homepage = "https://github.com/tschottdorf/hlc-rs"
+repository = "https://github.com/tschottdorf/hlc-rs"
+
+readme = "README.md"
+
+keywords = ["hybrid", "logical", "clock", "distributed", "monotonic"]
+
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+time = "0.1"

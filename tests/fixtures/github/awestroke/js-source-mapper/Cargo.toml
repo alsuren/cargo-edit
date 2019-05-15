@@ -1,0 +1,19 @@
+[package]
+name = "js-source-mapper"
+version = "0.2.0"
+authors = ["Orvar Segerström <orvarsegerstrom@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/awestroke/js-source-mapper"
+homepage = "https://github.com/awestroke/js-source-mapper"
+documentation = "http://awestroke.github.io/js-source-mapper/js_source_mapper/"
+description = """
+A rust library for consuming JavaScript source maps with a focus on performance. Supports Source Map revision 3.
+"""
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+
+[dev-dependencies]
+quickcheck = "0.3"

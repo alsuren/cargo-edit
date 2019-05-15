@@ -1,0 +1,14 @@
+[package]
+name = "rbtag"
+version = "0.3.0"
+authors = ["Jeremy Mill <jeremy.mill@otis.com>"]
+edition = "2018"
+description = "A procedural macro to add build DateTime and git commit information at compile time"
+license = "MIT"
+readme = "README.md"
+keywords = ["build", "date", "time", "commit", "datetime"]
+repository = "https://github.com/LivingInSyn/rbtag"
+
+[dependencies]
+rbtag_derive = "0.3.0"
+#rbtag_derive = {path= "rbtag_derive"}

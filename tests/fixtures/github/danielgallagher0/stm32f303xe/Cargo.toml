@@ -1,0 +1,24 @@
+[package]
+name = "stm32f303xe"
+version = "0.1.0"
+authors = ["Daniel Gallagher <pdanielgallagher@gmail.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Peripheral access API for STM32F303xE microcontrollers"
+keywords = ["arm", "cortex-m", "stm32", "svd2rust"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/danielgallagher0/stm32f303xe"
+
+[dependencies]
+vcell = "0.1.0"
+bare-metal = "0.1.1"
+
+[dependencies.cortex-m]
+version = "0.4.3"
+features = ["cm7-r0p1"]
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.3.0"
+
+[features]
+rt = ["cortex-m-rt"]

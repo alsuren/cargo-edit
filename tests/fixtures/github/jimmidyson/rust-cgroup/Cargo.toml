@@ -1,0 +1,17 @@
+[package]
+name = "rcm"
+version = "0.1.0"
+authors = ["Jimmi Dyson <jimmidyson@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Rust container monitor"
+repository = "https://github.com/jimmidyson/rcm"
+
+[workspace]
+members = [
+  "libcgroup-sys",
+  "libcgroup",
+]
+
+[dependencies]
+log = "0.3"
+libcgroup = { path = "libcgroup", version = "0.3"}

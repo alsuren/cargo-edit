@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "json_typegen_shared",
+    "json_typegen_cli",
+    "json_typegen_wasm",
+    "json_typegen",
+    "json_typegen_demo"
+]

@@ -1,0 +1,17 @@
+[package]
+name = "bh_alloc"
+version = "0.2.4"
+authors = ["Brian L. Troutwine <brian@troutwine.us>"]
+keywords = ["fuzzing", "allocator", "nostd"]
+categories = ["memory-management"]
+description = "A fuzzer friendly bump pointer allocator"
+license = "MIT"
+documentation = "https://docs.rs/bh_alloc/"
+repository = "https://github.com/blt/bh_alloc"
+
+[dependencies]
+libc = "0.2"
+
+[dev-dependencies]
+hashbrown = "0.1"
+rayon = "1.0"

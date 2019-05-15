@@ -1,0 +1,15 @@
+[package]
+name = "option-filter"
+version = "1.0.2"
+authors = ["Chris Wong <lambda.fairy@gmail.com>"]
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/option-filter"
+repository = "https://github.com/lfairy/option-filter"
+description = "Option::filter polyfill for Rust 1.26 and older"
+categories = ["rust-patterns", "no-std"]
+
+[lib]
+path = "lib.rs"
+
+[badges]
+travis-ci = { repository = "lfairy/option-filter" }

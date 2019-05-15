@@ -1,0 +1,12 @@
+[package]
+name = "hmm"
+version = "0.2.0"
+authors = ["Krzysztof Langner <klangner@gmail.com>"]
+description = "Hidden Markov Model"
+keywords = ["hidden-markow-model", "hmm", "pgm"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/klangner/hmm"
+homepage = "https://github.com/klangner/hmm"
+documentation = "https://docs.rs/hmm"
+
+[dependencies]

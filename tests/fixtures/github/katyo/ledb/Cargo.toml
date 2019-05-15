@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+  "ledb-types",
+  "ledb-derive",
+  "ledb",
+  "ledb-actix",
+]
+
+exclude = [
+  "ledb-node/native",
+]

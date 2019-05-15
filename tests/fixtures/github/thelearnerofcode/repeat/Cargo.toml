@@ -1,0 +1,10 @@
+[package]
+name = "repeat"
+version = "0.1.0"
+authors = ["thelearnerofcode <johngehl11@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/thelearnerofcode/repeat"
+description = "Repeats an iterator."
+
+[dependencies]

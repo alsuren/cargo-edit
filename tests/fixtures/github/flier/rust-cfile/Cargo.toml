@@ -1,0 +1,29 @@
+[package]
+name = "cfile"
+version = "0.4.0"
+authors = ["Flier Lu <flier.lu@gmail.com>"]
+description = "Rust bindings to C FILE"
+repository = "https://github.com/flier/rust-cfile"
+documentation = "http://flier.github.io/rust-cfile/release/0.2/cfile/"
+readme = "README.md"
+license = "MIT"
+edition = "2018"
+
+[features]
+default = []
+doc = []
+
+[dependencies]
+libc = "0.2"
+cfg-if = "0.1"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = [
+    "impl-debug", "impl-default",
+    "minwindef", "minwinbase",
+    "winbase", "winnt", "fileapi", "handleapi", "processenv",
+]}
+
+[package.metadata.docs.rs]
+all-features = true
+default-target = "x86_64-unknown-linux-gnu"

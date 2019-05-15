@@ -1,0 +1,15 @@
+[package]
+name = "lin-bus-driver-serial"
+version = "0.2.0"
+authors = ["Raphael Nestler <raphael.nestler@sensirion.com>"]
+description = "LIN bus driver implementation over a serial port"
+readme = "README.md"
+keywords = ["LIN", "local", "interconnect", "network", "serial"]
+categories = ["hardware-support"]
+license = "BSD-3-Clause"
+repository = "https://github.com/Sensirion/lin-bus-driver-serial-rs"
+edition = "2018"
+
+[dependencies]
+lin-bus = "^0.2"
+serial = "^0.4"

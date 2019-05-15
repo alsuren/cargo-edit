@@ -1,0 +1,22 @@
+[package]
+name = "mediainfo"
+description = "Rust bindings for libmediainfo"
+version = "0.2.0"
+authors = ["Erick Pires <pires@erickpires.com>"]
+license = "MIT"
+links = "mediainfo"
+build = "build.rs"
+repository = "https://github.com/erickpires/rust-mediainfo"
+keywords = ["mediainfo", "libmediainfo", "MediaInfo"]
+readme = "README.md"
+exclude = [
+    "examples/*"
+]
+
+[dependencies]
+libc = "0.1"
+delegate = "0.1"
+chrono = "0.3"
+
+[build-dependencies.pkg-config]
+version = "0.3.9"

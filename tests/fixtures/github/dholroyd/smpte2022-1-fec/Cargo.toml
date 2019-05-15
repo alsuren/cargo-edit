@@ -1,0 +1,26 @@
+[package]
+name = "smpte2022-1-fec"
+version = "0.1.0"
+authors = ["David Holroyd <dave@badgers-in-foil.co.uk>"]
+description = "Decoder for SMPTE 2022-1 FEC protected data"
+repository = "https://github.com/dholroyd/smpte2022-1-fec"
+categories = [ "multimedia::video", "parser-implementations", "network-programming" ]
+keywords = [ "2dparityfec", "prompeg", "SMPTE-2022-1" ]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+[dependencies]
+smpte2022-1-packet = "0.4"
+rtp-rs = "0.3.0"
+arrayvec = "0.4.10"
+log = "0.4"
+
+[dev-dependencies]
+hex-literal = "0.1"
+
+# For examples
+mio = "0.6"
+mio-extras = "2.0"
+socket2 = "0.3"
+env_logger = "0.6"
+mpeg2ts-reader = "0.10"

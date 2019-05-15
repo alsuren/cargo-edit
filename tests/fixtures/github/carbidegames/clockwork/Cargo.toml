@@ -1,0 +1,13 @@
+[package]
+name = "clockwork"
+version = "0.1.0"
+authors = ["Layl <LaylConway@users.noreply.github.com>"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+log = "0.3.6"
+route-recognizer = "0.1.11"
+try_opt = "0.1.1"
+mopa = "0.2.2"
+url = "1.1.1"
+webapp = {git = "https://github.com/carbidegames/webapp.git"}

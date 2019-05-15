@@ -1,0 +1,16 @@
+[package]
+name = "rollsum"
+version = "0.2.1"
+authors = ["Aidan Hobson Sayers <aidanhs@cantab.net>"]
+repository = "https://github.com/aidanhs/rsroll"
+documentation = "http://aidanhs.github.io/rsroll/"
+readme = "README.md"
+description = "Rolling checksum implementation"
+license = "BSD-3-Clause"
+
+[features]
+default = []
+bench = []
+
+[dev-dependencies]
+rand = "0.3"

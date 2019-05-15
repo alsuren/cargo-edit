@@ -1,0 +1,26 @@
+[package]
+name = "cargo-bom"
+version = "0.4.0"
+authors = [ "Ossi Herrala <oherrala@iki.fi>" ]
+license = "MIT"
+edition = "2018"
+
+description = "Bill of Materials for Rust Crates"
+homepage = "https://github.com/sensorfu/cargo-bom#readme"
+repository = "https://github.com/sensorfu/cargo-bom"
+readme = "README.md"
+
+categories = ["command-line-utilities", "development-tools", "development-tools::cargo-plugins"]
+keywords = ["bom", "bill-of-materials", "ingredients", "dependencies", "deps"]
+
+[badges]
+circle-ci = { repository = "sensorfu/cargo-bom", branch = "master" }
+
+[profile.release]
+lto = true
+
+[dependencies]
+cargo = "0.35"
+failure = "0.1"
+structopt = "0.2"
+tabwriter = "1"

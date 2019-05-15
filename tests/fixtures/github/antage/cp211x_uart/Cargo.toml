@@ -1,0 +1,19 @@
+[package]
+name = "cp211x_uart"
+version = "0.2.2"
+authors = ["Anton Ageev <antage@gmail.com>"]
+description = "HID-to-UART driver for CP2110/CP2114 chipset"
+repository = "https://github.com/antage/cp211x_uart"
+readme = "README.md"
+documentation = "https://docs.rs/cp211x_uart"
+license = "MIT"
+keywords = ["uart", "cp2110", "cp2114"]
+categories = ["hardware-support"]
+include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE"]
+
+[dependencies]
+hid = "^0.4.1"
+error-chain = "^0.11.0"
+
+[badges]
+travis-ci = { repository = "antage/cp211x_uart" }

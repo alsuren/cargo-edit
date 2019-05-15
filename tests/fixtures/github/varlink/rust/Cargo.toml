@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "varlink_parser",
+    "varlink_generator",
+    "varlink_derive",
+    "varlink",
+    "varlink_stdinterfaces",
+    "varlink-cli",
+    "varlink-certification",
+    "examples/example",
+    "examples/more",
+    "examples/ping",
+]
+

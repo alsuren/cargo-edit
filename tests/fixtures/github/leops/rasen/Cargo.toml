@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "rasen",
+    "rasen-dsl",
+    "rasen-plugin",
+]

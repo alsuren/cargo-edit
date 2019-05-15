@@ -1,0 +1,31 @@
+[package]
+name = "dyon"
+version = "0.42.0"
+authors = ["Sven Nilsen <bvssvni@gmail.com>"]
+keywords = ["script", "scripting", "game", "language", "piston"]
+description = "A rusty dynamically typed scripting language"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/pistondevelopers/dyon.git"
+homepage = "https://github.com/pistondevelopers/dyon"
+exclude = ["images/*"]
+
+[dependencies]
+piston_meta = "0.30.0"
+range = "0.3.1"
+rand = "0.6.1"
+read_color = "1.0.0"
+read_token = "0.9.0"
+lazy_static = "1.0.0"
+vecmath = "0.3.1"
+
+[dependencies.reqwest]
+version = "0.4.0"
+default-features = false
+optional = true
+
+[features]
+default = ["debug_resolve", "http", "file"]
+debug_resolve = []
+http = ["reqwest"]
+file = []

@@ -1,0 +1,9 @@
+[package]
+name = "poe"
+description = "The ed of the future. A visual line editor"
+license = "Fair"
+repository = "https://github.com/luciusmagn/poe"
+version = "0.1.0"
+authors = ["Lukáš Hozda <luk.hozda@gmail.com>"]
+
+[dependencies]

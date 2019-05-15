@@ -1,0 +1,28 @@
+[package]
+name = "lxc"
+version = "0.2.1"
+authors = ["Sanpi <sanpi@homecomputing.fr>"]
+repository = "https://github.com/sanpii/lxc-rs.git"
+documentation = "https://docs.rs/lxc"
+keywords = ["lxc"]
+license = "MIT"
+categories = ["api-bindings"]
+description = "Linux Containers API"
+edition = "2018"
+
+[dependencies]
+bitflags = "1.0"
+
+[dependencies.lxc-sys]
+version = "0.1"
+path = "./lxc-sys"
+
+[features]
+v1_0 = []
+v1_1 = ["v1_0"]
+v2_0 = ["v1_1"]
+v3_0 = ["v2_0"]
+
+[badges]
+travis-ci = { repository = "sanpii/lxc-rs" }
+gitlab = { repository = "sanpi/lxc-rs" }

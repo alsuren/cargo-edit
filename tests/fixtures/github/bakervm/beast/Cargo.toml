@@ -1,0 +1,35 @@
+[package]
+name = "beast"
+version = "1.0.0-alpha.2"
+description = "The Beast high level assembly language"
+authors = ["Julian Laubstein <contact@julianlaubstein.de>"]
+license = "MIT"
+repository = "https://github.com/bakervm/beast"
+
+[lib]
+name = "beast"
+path = "core/lib.rs"
+
+[[bin]]
+name = "beastc"
+path = "beastc/main.rs"
+
+[[bin]]
+name = "tame"
+path = "tame/main.rs"
+
+[dependencies]
+pest = "1"
+pest_derive = "1"
+serde = "1"
+serde_derive = "1"
+melon = "^0.14"
+toml = "^0.4"
+failure = "^0.1"
+flate2 = "1"
+rmp-serde = "^0.13"
+structopt = "^0.2"
+
+[dev-dependencies]
+assert_cmd = "^0.10"
+tempfile = "3"

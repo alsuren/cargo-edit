@@ -1,0 +1,23 @@
+[package]
+name = "bitsparrow-derive"
+version = "2.0.0-rc4"
+authors = ["maciej.hirsz@gmail.com"]
+description = "Derive macros for BitSparrow implementation in Rust"
+homepage = "http://bitsparrow.io/"
+# documentation = "http://bitsparrow.io/doc/bitsparrow/"
+repository = "https://github.com/bitsparrow/bitsparrow-derive"
+license = "MIT"
+
+[lib]
+name = "bitsparrow_derive"
+proc-macro = true
+
+[dependencies]
+quote = "0.3.8"
+syn = "0.11.4"
+
+[dev-dependencies]
+bitsparrow = "2.0.0-rc4"
+serde = "0.9"
+serde_derive = "0.9"
+serde-bench = "0.0.5"

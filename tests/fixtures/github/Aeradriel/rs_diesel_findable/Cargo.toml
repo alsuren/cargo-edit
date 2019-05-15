@@ -1,0 +1,17 @@
+[package]
+name = "diesel_findable"
+version = "0.1.5"
+authors = ["Thibaut Roche <thibaut.roche.perso@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/Aeradriel/rs_diesel_findable"
+description = "Macro to generate find_by_{attr} functions"
+edition = "2018"
+
+[dependencies]
+syn = "0.15.20"
+quote = "0.6.10"
+regex = "1.0.6"
+proc-macro2 = "0.4.23"
+
+[lib]
+proc-macro = true

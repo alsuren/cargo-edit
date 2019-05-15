@@ -1,0 +1,15 @@
+[package]
+name = "systemd-manager"
+version = "1.0.2"
+license = "MIT"
+authors = ["Michael Aaron Murphy <mmstickman@gmail.com>"]
+description = "A GTK3 GUI for managing systemd services on Linux"
+keywords = [ "gtk", "linux", "systemd" ]
+repository = "https://github.com/mmstick/systemd-manager"
+readme = "README.md"
+
+[dependencies]
+dbus = "0.5"
+gtk = { version = "0.1", features = ["v3_16"] }
+gdk = { version = "0.5" }
+quickersort = "2.0"

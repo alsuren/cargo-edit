@@ -1,0 +1,13 @@
+[package]
+name = "cargo-cake"
+version = "1.0.5"
+authors = ["Mark Sta Ana <booyaabooyaabooyaa@gmail.com>"]
+description = "A cake for celebrating Rust's birthday"
+repository = "https://github.com/booyaa/cargo-cake/"
+documentation = "https://docs.rs/cargo-cake/"
+readme = "README.md"
+keywords = ["cake","birthday","joke"]
+license = "WTFPL"
+
+[dependencies]
+chrono = "0.3"

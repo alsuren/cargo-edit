@@ -1,0 +1,23 @@
+[package]
+name = "tchannel"
+version = "0.0.2"
+authors = ["Thomas de Zeeuw <thomasdezeeuw@gmail.com>"]
+description = """
+Optimized channels for Rust.
+"""
+documentation = "https://docs.rs/std-logger"
+repository = "https://github.com/Thomasdezeeuw/tchannel"
+readme = "README.md"
+keywords = ["channel", "concurrent", "sync", "atomic"]
+license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "Thomasdezeeuw/tchannel" }
+appveyor = { repository = "Thomasdezeeuw/tchannel", service = "github" }
+
+[features]
+default = []
+with-futures = ["futures"]
+
+[dependencies]
+futures = { version = "0.1.17", optional = true }

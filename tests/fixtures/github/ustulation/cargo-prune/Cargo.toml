@@ -1,0 +1,13 @@
+[package]
+authors = ["ustulation <ustulation@gmail.com>"]
+description = "Prune dependency cache"
+license = "GPL-3.0"
+name = "cargo-prune"
+readme = "README.md"
+repository = "https://github.com/ustulation/cargo-prune"
+version = "0.1.8"
+
+[dependencies]
+docopt = "~0.6.86"
+rustc-serialize = "~0.3.21"
+unwrap = "~1.1.0"

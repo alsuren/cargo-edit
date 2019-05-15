@@ -1,0 +1,42 @@
+[package]
+name = "arc-reactor"
+version = "0.2.4"
+authors = ["seunlanlege <seunlanlege@gmail.com>"]
+license ="MIT"
+repository = "https://github.com/seunlanlege/arc-reactor"
+readme = "README.md"
+documentation="https://docs.rs/arc-reactor/~0.2"
+description = "Minimal, Asynchronous, Web Framework"
+keywords = ["web", "framework", "asynchronous", "futures", "http"]
+categories = ["web-programming::http-server", "web-programming"]
+
+[dependencies]
+impl-service = { path = "impl-service", version="0.1.6", optional=true }
+serde_qs = "0.4"
+hyper = "0.12"
+serde_json = "1.0"
+serde = "1.0"
+percent-encoding = "1.0.1"
+tokio-tls = "0.1"
+native-tls = "0.1"
+tokio="0.1.7"
+bytes="0.4"
+mime="0.3"
+regex = "0.2"
+mime_guess="2.0.0-alpha.4"
+http = "0.1.6"
+hyperx="0.13"
+log="0.4"
+
+[dependencies.futures]
+version="0.1"
+optional=true
+
+[dependencies.futures-await]
+version="0.1"
+optional=true
+path="../futures-await"
+
+[features]
+default = ["futures"]
+unstable = ["impl-service", "futures-await"]

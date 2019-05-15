@@ -1,0 +1,30 @@
+[package]
+name = "rust_ofp"
+version = "0.2.1"
+authors = ["Sam Baxter <sbaxter@cs.umass.edu>"]
+
+description = "Rust OpenFlow 0x01 Protocol and Controller Framework"
+
+documentation = "https://baxtersa.github.io/rust_ofp/docs"
+repository = "https://github.com/baxtersa/rust_ofp"
+readme = "README.md"
+
+keywords = ["SDN", "Networking", "OpenFlow"]
+license = "MIT"
+
+exclude = [
+        "scripts/*",
+        ".travis.yml",
+        ".gitignore",
+]
+
+[lib]
+name = "rust_ofp"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rust_ofp_controller"
+path = "src/main.rs"
+
+[dependencies]
+byteorder = "1.0.0"

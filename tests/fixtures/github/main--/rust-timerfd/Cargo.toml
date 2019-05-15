@@ -1,0 +1,11 @@
+[package]
+name = "timerfd"
+description = "A rust interface to the Linux kernel's timerfd API"
+repository = "https://github.com/main--/rust-timerfd"
+documentation = "https://docs.rs/timerfd/"
+license = "MIT"
+version = "1.0.0"
+authors = ["main() <main@ehvag.de>"]
+
+[dependencies]
+libc = "0.2"

@@ -1,0 +1,20 @@
+[package]
+name = "MBrane"
+version = "1.0.10"
+authors = ["Israel Bermudez <ibermudez@wiseowltek.com>", "Rosa Mary Bermudez <rosie@wiseowltek.com>"]
+
+repository = "https://github.com/troyvoy88/rust-mbrane"
+homepage = "https://github.com/troyvoy88/rust-mbrane"
+description = "MBrane implementations in Rust"
+license = "MIT"
+readme = "README.md"
+exclude = [".travis.yml"]
+
+keywords = ["vector", "utilities"]
+categories = ["data-structures", "development-tools", "games", "game-engines"]
+
+[badges]
+travis-ci = { repository = "troyvoy88/rust-mbrane" }
+
+[dependencies]
+rand = " 0.3.15"

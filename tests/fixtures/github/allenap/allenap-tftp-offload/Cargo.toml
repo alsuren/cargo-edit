@@ -1,0 +1,16 @@
+[package]
+name = "allenap-tftp-offload"
+description = "allenap's TFTP offload server"
+version = "0.2.1"
+authors = ["Gavin Panella <gavinpanella@gmail.com>"]
+license = "AGPL-3.0"
+
+documentation = "https://github.com/allenap/allenap-tftp-offload/blob/master/README.md"
+homepage = "https://github.com/allenap/allenap-tftp-offload"
+repository = "https://github.com/allenap/allenap-tftp-offload"
+
+[dependencies]
+allenap-libtftp = "^0.2.1"
+clap = "^2.19.1"
+slog = "^2.4.0"
+slog-term = "^2.4.0"

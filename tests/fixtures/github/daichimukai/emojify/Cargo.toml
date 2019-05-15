@@ -1,0 +1,22 @@
+[package]
+name = "emojify"
+version = "0.2.0"
+authors = ["Daichi Mukai <mukai.daichi.37e@kyoto-u.jp>"]
+repository = "https://github.com/daichimukai/emojify"
+keywords = ["emoji"]
+license = "MIT"
+readme = "README.md"
+description = "Rust meets emoji ✨ Simple CLI tool for emojify"
+edition = "2018"
+
+[[bin]]
+name = "emojify"
+path = "src/main.rs"
+
+[dependencies]
+atty = "0.2.11"
+failure = "0.1.5"
+lazy_static = "1.2.0"
+regex = "1.1.0"
+structopt = "0.2.14"
+emojicons = "1.0.1"

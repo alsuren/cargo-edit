@@ -1,0 +1,25 @@
+[package]
+name = "intel-mkl-src"
+version = "0.4.0"
+authors = ["Toshiki Teramura <toshiki.teramura@gmail.com>"]
+
+description = "Redistribution of Intel(R) MKL as a crate"
+repository = "https://github.com/termoshtt/rust-intel-mkl"
+keywords = ["fft", "blas", "lapack"]
+license-file = "License.txt"
+readme = "README.md"
+
+build = "build.rs"
+links = "mkl_intel_lp64"
+
+exclude = ["mkl_lib/mkl.tar.xz"]
+
+[build-dependencies]
+pkg-config = "0.3"
+failure = "0.1"
+reqwest = "0.9" 
+xz2 = "0.1"
+tar = "0.4"
+
+[dev-dependencies]
+libc = "0.2"

@@ -1,0 +1,12 @@
+[workspace]
+members = [
+  "crates/brace",
+  "crates/brace-cli",
+  "crates/brace-config",
+  "crates/brace-db",
+  "crates/brace-theme",
+  "crates/brace-web",
+  "crates/brace-web-auth",
+  "crates/brace-web-form",
+  "crates/brace-web-page",
+]

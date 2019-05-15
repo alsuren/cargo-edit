@@ -1,0 +1,8 @@
+[package]
+name = "real"
+version = "0.0.1"
+authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/hilbert-space/real"
+homepage = "https://github.com/hilbert-space/real"
+description = "Real."

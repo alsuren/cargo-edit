@@ -1,0 +1,29 @@
+[package]
+name = "http"
+version = "0.1.0-pre"
+authors = ["Chris Morgan <me@chrismorgan.info>"]
+description = "Obsolete HTTP library"
+#documentation = 
+#homepage = 
+repository = "https://github.com/chris-morgan/rust-http"
+readme = "README.rst"
+keywords = ["web", "http", "library"]
+license = "MIT/Apache-2.0"
+build = "codegen/main.rs"
+
+[features]
+default = ["ssl"]
+ssl = ["openssl"]
+
+[lib]
+name = "http"
+path = "src/http/lib.rs"
+
+[dependencies]
+url = "*"
+log = "*"
+time = "*"
+
+[dependencies.openssl]
+version = "*"
+optional = true

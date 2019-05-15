@@ -1,0 +1,26 @@
+[package]
+name = "ledge"
+version = "0.2.0-alpha"
+description = "A time tracking CLI."
+repository = "https://github.com/maxdeviant/ledge"
+keywords = ["time", "tracking"]
+authors = ["Marshall Bowers <elliott.codes@gmail.com>"]
+license = "MIT"
+edition = "2018"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+clap = "2.32"
+dirs = "1.0"
+dotenv = "0.13"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+serde_yaml = "0.8"
+toml = "0.4"
+url = "1.7"
+url_serde = "0.2"
+uuid = { version = "0.7", features = ["serde", "v4"] }

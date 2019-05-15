@@ -1,0 +1,32 @@
+[package]
+name = "built"
+version = "0.3.0"
+description = "Provides a crate with information from the time it was built."
+repository = "https://github.com/lukaslueg/built"
+documentation = "https://docs.rs/built"
+authors = ["Lukas Lueg <lukas.lueg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["cargo", "build"]
+edition="2018"
+
+[badges]
+travis-ci = { repository = "lukaslueg/built" }
+
+[features]
+default = ["serialized_git", "serialized_time", "serialized_version"]
+serialized_git = ["git2"]
+serialized_time = ["chrono"]
+serialized_version = ["semver"]
+
+[dependencies]
+toml = "0.5"
+semver = { version="0.9", optional=true }
+chrono = { version="0.4", optional=true }
+git2 = { version="0.8", optional=true, default-features = false, features = [] }
+
+[dev-dependencies]
+tempdir = "0.3"
+semver = "0.9"
+chrono = "0.4"
+git2 = "0.8"

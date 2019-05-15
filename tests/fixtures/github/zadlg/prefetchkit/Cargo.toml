@@ -1,0 +1,16 @@
+[package]
+name = "prefetchkit"
+version = "1.0.2"
+authors = ["Thomas BAILLEUX <thomas@bailleux.me>"]
+license = "WTFPL"
+description = "A powerful forensic commandline tool for analysing Microsoft Prefetch Files"
+keywords = ["forensic", "prefetch", "command-line"]
+homepage = "https://github.com/zadlg/prefetchkit"
+repository = "https://github.com/zadlg/prefetchkit.git"
+readme = "README.md"
+
+[dependencies]
+libprefetch = "0.1.1"
+clap = "2.31.1"
+ansi_term = "0.11.0"
+chrono = "0.4.0"

@@ -1,0 +1,22 @@
+[package]
+
+name = "tst"
+version = "0.10.1"
+
+authors = ["Alexey Pervushin <pervushinai@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+license = "MIT"
+description = "Ternary search trie collection in rust with similar API to std::collections as it possible"
+keywords = ["data-structures"]
+categories = ["data-structures", "text-processing"]
+repository = "https://github.com/billyevans/tst"
+homepage = "https://github.com/billyevans/tst"
+documentation = "http://billyevans.github.io/tst/tst"
+include = ["src/*.rs", "Cargo.toml"]
+
+[dev-dependencies]
+libc = "0.2.*"
+rand = "0.6.*"
+jemallocator = "0.1.*"
+jemalloc-sys = "0.1.*"

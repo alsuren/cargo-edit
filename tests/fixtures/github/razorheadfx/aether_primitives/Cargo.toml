@@ -1,0 +1,53 @@
+[package]
+name        = "aether_primitives"
+version     = "0.1.0"
+authors     = ["Felix Girke <felix.girke@tu-dortmund.de>"]
+keywords    = ["sdr","helpers","radio","complex-numbers","signal"]
+description = "Helpers for common SDR and signal generation operations"
+license     = "MPL-2.0"
+repository  = "https://github.com/razorheadfx/aether_primitives"
+homepage    = "https://github.com/razorheadfx/aether_primitives"
+readme      = "README.md"
+edition     = "2018"
+
+[dependencies]
+# these are set to the version used by rustfft so we don't'get any incompatabilities
+num-traits                  = "0.2"
+num-complex                 = { version = "0.2", features = ["serde"] }
+
+# serialization for csv (requires serde feature of num-complex)
+csv                         = "1.0"
+# f32/f64 equality assertion
+assert_approx_eq            = "1.1"
+rand                        = "0.6"
+
+# the default fft
+rustfft                     = { optional = true, version = "3.0" }
+
+# gnuplot support
+gnuplot                     = { optional = true, version = "0.0" }
+
+
+# gui stuff
+piston                      = { optional = true, version = "0.42" }
+piston2d-graphics           = { optional = true, version = "0.30" }
+pistoncore-glutin_window    = { optional = true, version = "0.54" }
+piston2d-opengl_graphics    = { optional = true, version = "0.59" }
+
+
+[dev-dependencies]
+criterion        = "0.2"
+
+[[bench]]
+name             = "benches"
+harness          = false
+
+[features]
+default          = ["fft_rustfft"]
+fft_rustfft      = ["rustfft", "fft"]
+plot             = ["gnuplot"]
+gui              = ["piston", "piston2d-graphics", "pistoncore-glutin_window", "piston2d-opengl_graphics"]
+
+# enables fft ops on vecops
+fft = []
+

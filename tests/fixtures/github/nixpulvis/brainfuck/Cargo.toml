@@ -1,0 +1,19 @@
+[package]
+name = "brainfuck"
+version = "0.2.0"
+description = "Brainfuck interpreter and modules."
+authors = [
+    "Nathan Lilienthal <nathan@nixpulvis.com>",
+    "Mark Mossberg <mark.mossberg@gmail.com>",
+]
+documentation = "http://nixpulvis.github.io/brainfuck/brainfuck/"
+repository = "https://github.com/nixpulvis/brainfuck"
+license = "MIT"
+
+[[bin]]
+name = "brainfuck"
+doc = false
+
+[dependencies]
+docopt = "0.6"
+rustc-serialize = "0.3"

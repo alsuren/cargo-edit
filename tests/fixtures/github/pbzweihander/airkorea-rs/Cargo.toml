@@ -1,0 +1,22 @@
+[package]
+name = "airkorea"
+version = "0.4.3"
+authors = ["pbzweihander <pbzweihander@gmail.com>"]
+description = "Airkorea mobile page crawler"
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/airkorea/"
+repository = "https://github.com/pbzweihander/airkorea-rs"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+lazy_static = "1.3.0"
+failure = "0.1.5"
+scraper = "0.10.0"
+regex = "1.1.5"
+futures = "0.1.26"
+reqwest = "0.9.14"
+
+[dev-dependencies]
+tokio = "0.1.18"
+hyper = "0.12.27"

@@ -1,0 +1,36 @@
+[package]
+edition = "2018"
+name = "sic"
+version = "0.8.1"
+authors = ["Martijn Gribnau <garm@ilumeo.com>"]
+description = "`sic` stands for simple image converter and is a partial front-end for the `image` crate."
+license = "MIT"
+repository = "https://github.com/foresterre/sic"
+readme = "README.md"
+exclude = [
+    ".idea/*",
+    ".vscode/*",
+    "*.iml",
+]
+keywords = ["image", "converter", "cli", "front-end", "image-cli"]
+categories = ["multimedia::images", "command-line-utilities"]
+
+[features]
+output-test-images = []
+
+[dependencies]
+clap = "2.32.0"
+pest = "2.0.2"
+pest_derive = "2.0.1"
+combostew = { git = "https://github.com/foresterre/combostew" }
+
+[[bin]]
+name = "sic"
+path = "src/main.rs"
+
+[lib]
+name = "sic_lib"
+path = "src/lib.rs"
+
+[profile.release]
+panic = "abort"

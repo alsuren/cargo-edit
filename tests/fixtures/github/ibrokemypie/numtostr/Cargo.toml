@@ -1,0 +1,10 @@
+[package]
+name = "numtostr"
+version = "0.1.0"
+authors = ["Conor Randall <ibrokemypie@bastardi.net>"]
+description = "Converts an array of numbers to a textual string"
+homepage = "https://github.com/ibrokemypie/numtostr"
+repository = "https://github.com/ibrokemypie/numtostr"
+license = "MIT"
+
+[dependencies]

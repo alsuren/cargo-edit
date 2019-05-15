@@ -1,0 +1,16 @@
+[package]
+name = "apdex"
+version = "0.1.1-alpha.0"
+authors = ["Jakub Pastuszek <jpastuszek@protonmail.com>"]
+description = "Rust implementation for Application Performance Index (Apdex)."
+documentation = "https://docs.rs/apdex"
+readme = "README.md"
+keywords = ["apdex", "performance", "metric"]
+license = "MIT"
+repository = "https://github.com/jpastuszek/apdex"
+
+[features]
+default = ["yansi"]
+
+[dependencies]
+yansi = { version = "0.4.0", optional = true }

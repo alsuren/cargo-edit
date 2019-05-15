@@ -1,0 +1,13 @@
+[package]
+name = "journal_cli"
+version = "0.1.3"
+authors = ["jacobandersson"]
+edition = "2018"
+license = "MIT"
+description = "A tool for writing journal entries"
+readme = "README.md"
+homepage = "https://github.com/JacobAndersson/journal_cli"
+repository = "https://github.com/JacobAndersson/journal_cli"
+[dependencies]
+structopt = "0.2.10"
+clap = "2.29"

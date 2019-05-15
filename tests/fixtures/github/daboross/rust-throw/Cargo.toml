@@ -1,0 +1,34 @@
+[package]
+name = "throw"
+# Remember to update html_root_url in src/lib.rs with each version.
+version = "0.1.7"
+authors = ["David Ross <daboross@daboross.net>"]
+description = "Efficiently add statically-calculated stack traces to errors."
+
+documentation = "https://docs.rs/throw/"
+repository = "https://github.com/daboross/rust-throw/"
+readme = "README.md"
+
+license = "MIT"
+keywords = ["error"]
+categories = ["rust-patterns"]
+
+include = ["Cargo.toml", "src/**/*", "tests/**/*", "examples/**/*", "LICENSE", "README.md"]
+
+[features]
+std = []
+unlimited-points = []
+serde-1 = ["serde", "serde_derive", "serde/alloc"]
+serde-1-std = ["serde", "serde_derive", "serde/std"]
+default = ["std", "unlimited-points"]
+
+[badges]
+travis-ci = { repository = "daboross/rust-throw" }
+
+[dependencies]
+serde = { version = "1.0", default-features = false, optional=true }
+serde_derive = { version = "1.0", optional=true }
+
+[dev-dependencies]
+regex = "1.0"
+serde_json = "1.0"

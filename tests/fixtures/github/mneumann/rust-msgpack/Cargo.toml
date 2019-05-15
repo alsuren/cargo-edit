@@ -1,0 +1,20 @@
+[package]
+
+name = "msgpack"
+description = "MessagePack serialization implementation for Rust"
+version = "0.1.0"
+repository = "https://github.com/mneumann/rust-msgpack.git"
+authors = [
+    "Michael Neumann",
+    "Jason E. Aten",
+    "Piotr Zolnierek",
+    "Erick Tryzelaar",
+    "OGINO Masanori",
+    "Ian Daniher",
+    "Derek Chiang (Enchi Jiang)"
+]
+license = "MIT/Apache-2.0"
+
+[dependencies]
+rustc-serialize = "*"
+byteorder = "*"

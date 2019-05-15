@@ -1,0 +1,23 @@
+[package]
+name = "ddh"
+version = "0.9.12"
+authors = ["Jon Moroney <jmoroney@hawaii.edu>"]
+edition = "2018"
+description = "Compare and contrast directories"
+license = "MIT"
+homepage = "https://github.com/darakian/ddh"
+repository = "https://github.com/darakian/ddh"
+documentation = "https://docs.rs/ddh"
+
+[dependencies]
+clap = "2.33.0"
+rayon = "1.0"
+stacker = "0.1"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+siphasher = "0.3"
+
+[profile.release]
+lto = true
+debug=false

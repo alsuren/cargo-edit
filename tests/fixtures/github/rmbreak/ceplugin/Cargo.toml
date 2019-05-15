@@ -1,0 +1,10 @@
+[package]
+name = "ceplugin"
+version = "0.7.0"
+authors = ["Mack Stump <mack.stump@gmail.com>"]
+description = "Rust bindings to the Cheat Engine plugin SDK"
+repository = "https://github.com/rmbreak/ceplugin"
+license = "APL-1.0"
+
+[dependencies]
+winapi = "0.2.8"

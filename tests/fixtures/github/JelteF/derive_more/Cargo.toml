@@ -1,0 +1,46 @@
+[package]
+name = "derive_more"
+version = "0.14.1-pre"
+description = "Adds #[derive(x)] macros for more traits"
+authors = ["Jelte Fennema <github-tech@jeltef.nl>"]
+license = "MIT"
+repository = "https://github.com/JelteF/derive_more"
+documentation = "https://jeltef.github.io/derive_more/derive_more/"
+
+readme = "README.md"
+keywords = ["derive", "Add", "From", "Constructor", "implementation"]
+categories = ["development-tools", "development-tools::procedural-macro-helpers", "no-std"]
+
+include = [
+    "src/**/*.rs",
+    "Cargo.toml",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+]
+autotests = true
+
+[lib]
+name = "derive_more"
+proc-macro = true
+
+[dependencies]
+quote = "0.6"
+syn = { version = "0.15", features = ['extra-traits'] }
+proc-macro2 = "0.4.19"
+
+[build-dependencies]
+rustc_version = "0.2"
+
+[badges]
+travis-ci = { repository = "JelteF/derive_more" }
+appveyor = { repository = "JelteF/derive_more" }
+
+[features]
+nightly = []
+no_std = []
+
+[[test]]
+name = "no_std"
+path = "tests/no_std.rs"
+required-features = ["no_std"]

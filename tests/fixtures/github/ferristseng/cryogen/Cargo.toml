@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "cli",
+    "plugin-github-markdown",
+    "plugin-json",
+    "plugin-markdown",
+    "plugin-primitives",
+    "plugin-yaml",
+    "prelude"
+]

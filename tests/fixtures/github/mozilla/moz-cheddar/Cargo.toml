@@ -1,0 +1,37 @@
+[package]
+name = "moz-cheddar"
+version = "0.4.2"
+authors = ["Sean Marshallsay <srm.1708@gmail.com>",
+           "Matthew Gregan <kinetik@flim.org>"]
+
+description = "A library to automatically generate C header files from Rust source files."
+readme = "README.md"
+keywords = ["c", "header", "ffi"]
+
+homepage = "https://github.com/mozilla/moz-cheddar"
+repository = "https://github.com/mozilla/moz-cheddar"
+documentation = "https://docs.rs/moz-cheddar"
+
+license = "MIT"
+
+[features]
+default = ["with-syntex"]
+with-syntex = [
+    "syntex_errors",
+    "syntex_syntax",
+]
+
+[lib]
+name = "cheddar"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cheddar"
+doc = false
+path = "src/bin/cheddar.rs"
+
+[dependencies]
+syntex_errors = {version = "0.58.1", optional = true}
+syntex_syntax = {version = "0.58.1", optional = true}
+toml = "0.4"
+clap = "2"

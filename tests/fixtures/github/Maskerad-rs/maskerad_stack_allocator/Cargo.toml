@@ -1,0 +1,22 @@
+[package]
+name = "maskerad_memory_allocators"
+version = "5.2.0" #don't forget to update html doc root
+authors = ["Maskerad developers <maskerad-rs.organization@protonmail.com>"]
+description = "custom allocators, for memory fragmentation prevention."
+license = "MIT/Apache-2.0"
+repository = "https://github.com/Maskerad-rs/maskerad_stack_allocator"
+keywords = ["memory-allocator", "stack-allocator"]
+categories = ["memory-management", "game-engines", "data-structures"]
+readme = "README_CRATE.md"
+
+[badges]
+
+appveyor = { repository = "Malkaviel/maskerad-stack-allocator", branch = "master", service = "github" }
+travis-ci = { repository = "Maskerad-rs/maskerad_stack_allocator", branch = "master" }
+is-it-maintained-issue-resolution = { repository = "Maskerad-rs/maskerad_stack_allocator" }
+is-it-maintained-open-issues = { repository = "Maskerad-rs/maskerad_stack_allocator" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+serde = { version = "~1.0", optional = true, features = ["derive"] }
+log = "~0.4"

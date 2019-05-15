@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "ogk-tool",
+    "ogk",
+    "cdg",
+    "cdg_renderer",
+    "qaraoke",
+    "mpg123-sys",
+    "mpg123",
+    "soxr",
+    "soxr-sys",
+]
+
+[profile.dev]
+opt-level = 1

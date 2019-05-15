@@ -1,0 +1,52 @@
+[package]
+name = "bing-rs"
+version = "0.0.4"
+description = "Rust bindings to the Bing API"
+authors = ["Lilis Iskandar <lilis@veand.co>"]
+license = "MIT"
+repository = "https://github.com/veandco/bing-rs.git"
+homepage = "https://github.com/veandco/bing-rs"
+documentation = "https://docs.rs/bing-rs/"
+exclude = [ "assets/*.raw" ]
+
+[features]
+default = ["rustls"]
+rustls = ["hyper-rustls"]
+rust-native-tls = ["native-tls", "hyper-tls"]
+
+[dependencies]
+chrono = "0.4"
+env_logger = "0.5"
+error-chain = "0.12"
+hyper = "0.12"
+hyper-rustls = { version = "0.14", optional = true }
+hyper-tls = { version = "0.3", optional = true }
+native-tls = { version = "0.2", optional = true }
+log = "0.4"
+tokio-core = "0.1"
+futures = "0.1"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+url = "1.7"
+libc = "0.2"
+
+[dependencies.uuid]
+version = "0.6"
+features = ["v4"]
+
+[dependencies.ws]
+version = "0.7"
+features = ["ssl"]
+
+[dev-dependencies]
+chan = "0.1"
+chan-signal = "0.3"
+cpal = "0.8"
+
+[build-dependencies]
+cbindgen = "0.6"
+
+[lib]
+name = "bing_rs"
+crate-type = ["lib", "dylib", "staticlib"]

@@ -1,0 +1,60 @@
+[package]
+name = "basic_dsp"
+version = "0.8.0"
+authors = ["Christian Liebhardt"]
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/liebharc/basic_dsp"
+repository = "https://github.com/liebharc/basic_dsp"
+documentation = "https://liebharc.github.io/basic_dsp/basic_dsp/"
+keywords = ["dsp", "vector", "interpolation", "convolution", "matrix"]
+edition="2018"
+description = """
+Digital signal processing based on real or complex vectors in time or frequency domain.
+Vectors come with basic arithmetic, convolution, Fourier transformation and interpolation operations.
+The vectors are optimized for sizes of a couple of thousand elements or more.
+
+The same operations are provdided for matrices. For complete matrix algebra this lib
+is intended to be used in combination with other matrix libs. Please refer to the documentation for
+more information about this.
+"""
+
+[lib]
+name = "basic_dsp"
+crate-type = ["dylib", "rlib"]
+
+[dependencies]
+[dependencies.basic_dsp_vector]
+optional = false
+default-features = false
+path = "vector"
+version = "0.8.0"
+
+[dependencies.basic_dsp_matrix]
+optional = true
+default-features = false
+path = "matrix"
+version = "0.8.0"
+
+[dependencies.basic_dsp_interop]
+optional = true
+default-features = false
+path = "interop"
+version = "0.8.0"
+
+[dev-dependencies]
+hamcrest = "^0.1.0"
+rand = "^0.6.4"
+hound = "^3.4.0"
+docopt = "^1.0.2"
+num = "^0.2"
+time = "^0.1"
+
+[features]
+use_avx512 = ["basic_dsp_vector/use_avx512"]
+use_avx2 = ["basic_dsp_vector/use_avx2"]
+use_sse2 = ["basic_dsp_vector/use_sse2"]
+use_gpu = ["basic_dsp_vector/use_gpu"]
+std = ["basic_dsp_vector/std"]
+matrix = ["basic_dsp_matrix"]
+interop= ["basic_dsp_interop"]
+default = ["matrix", "std"]

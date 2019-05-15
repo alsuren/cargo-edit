@@ -1,0 +1,20 @@
+[package]
+name = "chain"
+version = "0.1.1"
+authors = ["J A Mark <sjeohp@gmail.com>"]
+license = "MIT"
+description = "chain"
+repository = "https://github.com/sjeohp/rust-chain.git"
+keywords = ["blockchain", "distributed", "cryptocurrency"]
+
+[dependencies]
+ring = "0.4.3"
+untrusted = "0.3.1"
+byteorder = "0.5.3"
+mio = "0.6"
+chrono = { version = "0.2", features = ["serde"] }
+postgres = "0.13.4"
+rand = "*"
+time = "*"
+rustyline = "*"
+num = "*"

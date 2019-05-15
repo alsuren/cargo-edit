@@ -1,0 +1,19 @@
+[package]
+
+name = "avr"
+version = "0.0.2"
+authors = ["Dylan McKay <me@dylanmckay.io>"]
+
+description = "AVR emulator"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dylanmckay/avr"
+documentation = "https://docs.rs/avr"
+keywords = ["avr", "emulator", "microcontroller", "io", "cpu"]
+
+[dependencies]
+
+[[bin]]
+name = "emulator"
+path = "tools/emulator.rs"
+

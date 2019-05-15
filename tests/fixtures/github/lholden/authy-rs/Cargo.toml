@@ -1,0 +1,21 @@
+[package]
+name = "authy"
+version = "0.9.8"
+authors = ["Lori Holden <noreply@loriholden.com>"]
+description = "Bindings for the Authy two factor web service."
+
+documentation = "https://docs.rs/authy/"
+repository = "https://github.com/lholden/authy-rs"
+
+license = "MIT/Apache-2.0"
+
+readme = "README.md"
+
+keywords = ["authy", "2FA", "two", "factor", "bindings"]
+categories = ["authentication", "web-programming::http-client"]
+
+[dependencies]
+reqwest = "0.9.5"
+serde = "1.0.82"
+serde_derive = "1.0.82"
+serde_json = "1.0.33"

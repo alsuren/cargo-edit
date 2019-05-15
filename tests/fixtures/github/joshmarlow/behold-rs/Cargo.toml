@@ -1,0 +1,28 @@
+[package]
+name = "behold"
+build = "build.rs"
+version = "0.1.3"
+authors = ["Josh Marlow <joshmarlow@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+description = "A simple library enabling contextual debugging"
+homepage = "https://github.com/joshmarlow/behold-rs"
+documentation = "https://docs.rs/behold/"
+repository = "https://github.com/joshmarlow/behold-rs"
+keywords = ["debugging", "debug", "behold", "contextual"]
+categories = ["development-tools::debugging"]
+
+[badges]
+travis-ci = {repository = "joshmarlow/behold-rs", branch="master"}
+
+[dependencies]
+lazy_static = "1.0"
+
+[build-dependencies]
+skeptic = "0.13.3"
+
+[dev-dependencies]
+skeptic = "0.13.3"
+
+[features]
+unstable = []

@@ -1,0 +1,19 @@
+[package]
+name = "fractal"
+version = "0.6.3"
+license = "Apache-2.0/MIT"
+authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
+description = """
+The package provides a multiscale modeling framework for the analysis and
+synthesis of positive-valued, long-range-dependent processes."""
+documentation = "https://markov-chain.github.io/fractal"
+homepage = "https://github.com/markov-chain/fractal"
+repository = "https://github.com/markov-chain/fractal"
+
+[dependencies]
+dwt = "0.5"
+probability = "0.15"
+statistics = "0.4"
+
+[dev-dependencies]
+assert = "0.7"

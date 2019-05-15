@@ -1,0 +1,51 @@
+[package]
+name = "rat"
+version = "0.4.12"
+authors = ["Lukas Pustina <lukas@pustina.net>"]
+description = "REST API tool - query various REST APIs comfortably"
+repository = "https://github.com/lukaspustina/rat "
+readme = "README.md"
+license = "MIT"
+keywords = ["CenterDevice", "Pocket", "Slack"]
+include = [
+  "README.md",
+  "LICENSE",
+  "**/*.rs",
+  "Cargo.toml",
+]
+
+[badges]
+travis-ci = { repository = "lukaspustina/rat", branch = "master" }
+appveyor = { repository = "lukaspustina/rat", branch = "master" }
+
+[[bin]]
+name = "rat"
+path = "src/main.rs"
+
+[dependencies]
+base64 = "~0.4.0"
+chrono = "0.3"
+clap = "2"
+error-chain = "0.11"
+humantime = "1.0.0"
+hyper = "0.10.5"
+hyper-native-tls = "0.2.2"
+indicatif = "0.3"
+itertools = "0.5"
+mime = "0.2.2"
+mime_guess = "1.8"
+mime_multipart = "0.5"
+rust-crypto = "0.2"
+select = "0.4.0"
+serde = "0.9"
+serde_derive = "0.9"
+serde_json = "0.9"
+serde_urlencoded = "0.4"
+tabwriter = "1.0"
+toml = "0.3"
+term-painter = "0.2"
+webbrowser = "0.2"
+
+[dev-dependencies]
+pretty_assertions = "0.1"
+

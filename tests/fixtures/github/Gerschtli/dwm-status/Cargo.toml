@@ -1,0 +1,43 @@
+[package]
+authors = ["Tobias Happ <tobias.happ@gmx.de>"]
+description = "Displays system information for dwm status bar."
+keywords = ["dwm", "dwm-status"]
+license = "MIT"
+name = "dwm-status"
+readme = "README.md"
+repository = "https://github.com/Gerschtli/dwm-status"
+version = "1.6.0"
+edition = "2018"
+[badges.travis-ci]
+branch = "master"
+repository = "Gerschtli/dwm-status"
+
+[dependencies]
+chrono = "0.4.6"
+clap = "2.33.0"
+config = "0.9.2"
+dbus = "0.6.4"
+inotify = "0.7.0"
+libnotify = "1.0.3"
+log = "0.4.6"
+serde = "1.0.90"
+serde_derive = "1.0.90"
+simplelog = "0.5.3"
+
+[dependencies.ctrlc]
+features = ["termination"]
+version = "3.1.2"
+
+[dependencies.mocktopus]
+optional = true
+version = "0.7.0"
+
+[dependencies.x11]
+features = ["xlib"]
+version = "2.18.1"
+
+[dev-dependencies]
+hamcrest2 = "0.2.6"
+
+[features]
+mocking = ["mocktopus"]

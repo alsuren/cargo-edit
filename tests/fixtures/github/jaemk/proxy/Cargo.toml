@@ -1,0 +1,39 @@
+[package]
+name = "cli-proxy"
+version = "0.3.5"
+authors = ["James Kominick <james.kominick@gmail.com>"]
+license = "MIT"
+description = "cli proxy server"
+repository = "https://github.com/jaemk/proxy"
+readme = "README.md"
+keywords = ["cli", "proxy", "file", "server", "static"]
+categories = ["command-line-utilities", "development-tools", "web-programming"]
+exclude = [
+    "/static/*",
+    "/media/*",
+    "/assets/*",
+    "/ci/*",
+]
+
+[[bin]]
+name = "proxy"
+path = "src/main.rs"
+doc = false
+
+[badges]
+travis-ci = { repository = "jaemk/proxy", branch = "master" }
+
+[dependencies]
+rouille = "2"
+walkdir = "2"
+log = "0.4"
+env_logger = "0.5"
+chrono = "0.4"
+clap = "2"
+error-chain = "0.11"
+self_update = { version = "0.4", optional = true }
+
+[features]
+default = []
+update = ["self_update"]
+

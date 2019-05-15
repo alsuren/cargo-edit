@@ -1,0 +1,25 @@
+[package]
+name          = "http-box"
+version       = "0.1.5"
+authors       = ["Sean Kerr <sean@code-box.org>"]
+license       = "Apache-2.0"
+description   = "Fast push/callback oriented HTTP parser"
+documentation = "https://docs.rs/http-box"
+homepage      = "https://github.com/seankerr/rust-http-box"
+repository    = "https://github.com/seankerr/rust-http-box"
+readme        = "README.md"
+keywords      = ["http", "parser", "callback", "push"]
+exclude       = [".gitignore"]
+build         = "build.rs"
+
+[dependencies]
+byte-slice = "0.1.11"
+#byte-slice = { path = "../rust-byte-slice" }
+
+[build-dependencies]
+skeptic = "0.7.1"
+
+[dev-dependencies]
+byte-slice = "0.1.11"
+#byte-slice = { path = "../rust-byte-slice" }
+skeptic    = "0.7.1"

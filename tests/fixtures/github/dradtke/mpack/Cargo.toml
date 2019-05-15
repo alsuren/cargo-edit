@@ -1,0 +1,13 @@
+[package]
+
+name = "mpack"
+version = "0.1.2"
+authors = ["Damien Radtke"]
+
+description = "An alternative MessagePack implementation for Rust."
+repository = "https://github.com/dradtke/mpack.git"
+keywords = ["msgpack", "MessagePack", "rpc"]
+license = "MIT"
+
+[dev-dependencies]
+rand = "0.3.14"

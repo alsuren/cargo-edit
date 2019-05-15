@@ -1,0 +1,23 @@
+[package]
+name = "pdf-canvas"
+version = "0.6.1-PRE"
+authors = ["Simon Sapin <simon.sapin@exyr.org>",
+	   "Rasmus Kaj <rasmus@krats.se>"]
+license = "MIT"
+description = """
+Generate PDF files in pure Rust.
+Currently, simple vector graphics and text set in the 14 built-in \
+fonts are supported."""
+keywords = ["pdf"]
+documentation = "https://docs.rs/pdf-canvas"
+repository = "https://github.com/kaj/rust-pdf"
+readme = "README.md"
+
+build = "src/build_metrics.rs"
+
+[build-dependencies]
+lazy_static = "1.3"
+
+[dependencies]
+lazy_static = "1.3"
+time = "0.1"

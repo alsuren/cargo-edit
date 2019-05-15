@@ -1,0 +1,25 @@
+[package]
+name = "liner"
+version = "0.4.3" # remember to update README
+authors = ["MovingtoMars <definitelynotliam@gmail.com>"]
+description = "A library offering readline-like functionality."
+repository = "https://github.com/MovingtoMars/liner"
+homepage = "https://github.com/MovingtoMars/liner"
+keywords = ["readline", "line", "input", "editor", "completion"]
+license = "MIT"
+exclude = [
+    "CONTRIBUTING.md",
+    ".travis.yml",
+]
+
+[lib]
+name = "liner"
+
+[[bin]]
+name = "liner_test"
+path = "src/main.rs"
+
+[dependencies]
+bytecount = "0.1"
+termion = "1.4.0"
+unicode-width = "0.1.*"

@@ -1,0 +1,30 @@
+[package]
+name = "tarssh"
+version = "0.2.0"
+description = "A simple SSH tarpit server"
+authors = ["Thomas Hurst <tom@hur.st>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/Freaky/tarssh"
+documentation  ="https://docs.rs/tarssh"
+keywords = ["ssh", "tarpit", "security", "server"]
+readme = "README.md"
+
+[features]
+default = ["sandbox", "drop_privs"]
+sandbox = ["rusty-sandbox"]
+drop_privs = ["privdrop"]
+
+[dependencies]
+futures = "0.1.25"
+tokio = "0.1.18"
+env_logger = "0.6.1"
+log = "0.4.6"
+structopt = "0.2.15"
+tk-listen = "0.2.1"
+tokio-signal = "0.2.7"
+exitcode = "1.1.2"
+
+[target."cfg(unix)".dependencies]
+rusty-sandbox = { version = "0.2", optional = true }
+privdrop = { version = "0.3.1", optional = true }

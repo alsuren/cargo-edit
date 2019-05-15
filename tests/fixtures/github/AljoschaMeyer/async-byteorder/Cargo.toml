@@ -1,0 +1,19 @@
+[package]
+name = "async-byteorder"
+version = "0.3.0"
+authors = ["AljoschaMeyer <mail@aljoscha-meyer.de>"]
+description = "Async encoders and decoders for the primitive number types, both big-endian and little-endian."
+readme = "README.md"
+license = "AGPL-3.0"
+repository = "https://github.com/AljoschaMeyer/async-byteorder"
+
+[dependencies]
+async-codec = "0.3.0"
+atm-io-utils = { version = "0.2.4", features = ["quickcheck"] }
+futures-core = "0.2.0-alpha"
+futures-io = "0.2.0-alpha"
+async-codec-util = "0.3.0"
+
+[dev-dependencies]
+async-ringbuffer = "0.3.0"
+quickcheck = "0.6"

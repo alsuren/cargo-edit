@@ -1,0 +1,35 @@
+[package]
+name = "ressa"
+version = "0.5.1"
+authors = ["Robert Masen <r@robertmasen.pizza>"]
+repository = "https://github.com/FreeMasen/RESP"
+description = "An ECMAscript parser"
+license = "MIT"
+readme = "./README.md"
+keywords = ["JavaScript", "parsing", "JS", "ES", "ECMA"]
+categories = ["parsing", "text-processing", "web-programming"]
+edition = "2018"
+
+[dependencies]
+ress = "0.6.3"
+resast =  "0.2"
+log = "0.4"
+env_logger = "0.6"
+backtrace = "0"
+reqwest = { version = "0.9", optional = true}
+flate2 = { version = "1", optional = true}
+tar = { version = "0.4", optional = true}
+rayon = { version = "1", optional = true}
+
+[features]
+default = []
+major_libs = []
+debug_look_ahead = []
+moz_central = ["reqwest", "flate2", "tar", "rayon"]
+
+[dev-dependencies]
+term-painter = "0.2.4"
+docopt = "1"
+walkdir = "2"
+serde_derive = "1"
+serde = "1"

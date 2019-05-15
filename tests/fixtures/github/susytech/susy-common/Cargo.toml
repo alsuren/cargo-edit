@@ -1,0 +1,21 @@
+[workspace]
+members = [
+	"fixed-hash",
+	"hashdb",
+	"keccak-hash",
+	"susykv",
+	"susykv-memorydb",
+	"susykv-rocksdb",
+	"memorydb",
+	"susy-bytes",
+	"susy-crypto",
+	"susy-path",
+	"susy_patricia_trie",
+	"plain_hasher",
+	"rlp",
+	"transaction-pool",
+	"trace-time",
+	"susy-trie-standardmap",
+	"triehash",
+	"uint"
+]

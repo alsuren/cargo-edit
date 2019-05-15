@@ -1,0 +1,20 @@
+[package]
+name = "bittrex-api"
+version = "0.3.2"
+authors = ["Christian Gerrit Gazic"]
+license = "MIT"
+repository = "https://github.com/geaz/bittrex-api/"
+description = "A wrapper for the bittrex api"
+keywords = [ "Bittrex", "API" ]
+readme = "README.md"
+
+[dependencies]
+hmac = "0.4.2"
+sha2 = "0.6.0"
+generic-array = "0.8.2"
+time = "0.1.38"
+reqwest = "0.7.2"
+serde = "1.0.11"
+serde_json = "1.0.2"
+serde_derive = "1.0.11"
+mockito = "0.8.2"

@@ -1,0 +1,18 @@
+[package]
+name = "leak"
+version = "0.2.0"
+authors = ["Cody P Schafer <dev@codyps.com>"]
+license = "Apache-2.0 OR MIT"
+description = "Safely leak data from owned data structures"
+keywords = [ "leak", "rfc1233", "own" ]
+documentation = "https://docs.rs/leak/0.2.0"
+repository = "https://github.com/jmesmon/leak.git"
+include = [ "Cargo.toml", "src/*.rs", "README.md", "tests/*.rs" ]
+
+[features]
+std = []
+default = ["std"]
+
+[dependencies]
+# This is really a dev-dependencie, but those cannot currently be optional.
+compiletest_rs = { optional = true, version = "*" }

@@ -1,0 +1,22 @@
+[package]
+name = "chipmunk-rs"
+version = "0.1.1"
+authors = ["David Eichmann <EichmannD@gmail.com>"]
+description = "Rust bindings to the Chipmunk2D physics engine."
+documentation = "https://docs.rs/chipmunk-rs/"
+repository = "https://github.com/DavidEichmann/chipmunk-rs"
+readme = "README.md"
+keywords = ["physics", "Chipmunk", "Chipmunk2D", "bindings", "2D"]
+license-file = "LICENSE"
+
+links = "chipmunk"
+build = "build.rs"
+
+[badges]
+travis-ci = { repository = "https://github.com/DavidEichmann/chipmunk-rs", branch = "master" }
+
+[build-dependencies]
+cmake = "0.1.*"
+
+[dependencies]
+libc = "0.2.*"

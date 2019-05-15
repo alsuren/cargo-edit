@@ -1,0 +1,21 @@
+[package]
+name = "rudie"
+version = "0.1.1"
+authors = ["Peter LeVasseur <plevasseur@gmail.com>"]
+description = "Kalman filter library designed to run on #![no_std] targets."
+readme = "README.md"
+keywords = ["kalman", "filter", "robotics", "tracking", "localization"]
+categories = [ "science" ]
+license = "MIT"
+repository = "https://github.com/PLeVasseur/rudie"
+documentation = "https://docs.rs/rudie/"
+
+[dependencies]
+typenum = "1.10.0"
+generic-array = "0.11.0"
+nalgebra = { version = "0.16", default-features = false }
+
+[dev-dependencies]
+assert = "0.7.4"
+rand = "0.5"
+libm = "0.1.2"

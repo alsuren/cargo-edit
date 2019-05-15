@@ -1,0 +1,12 @@
+[package]
+name = "this"
+version = "0.3.0"
+authors = ["Amar Sood (tekacs) <pkg@tekacs.com>"]
+description = "import this"
+
+homepage = "https://github.com/tekacs/rust-this"
+repository = "https://github.com/tekacs/rust-this"
+
+license = "Python-2.0"
+
+[dependencies]

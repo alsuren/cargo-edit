@@ -1,0 +1,26 @@
+[package]
+name = "rurust"
+version = "0.1.11"
+authors = ["Dylan McKay <me@dylanmckay.io>"]
+license = "MIT"
+
+description = "High level Ruby VM bindings"
+
+repository = "https://github.com/dylanmckay/rurust"
+documentation = "https://docs.rs/rurust"
+
+readme = "README.md"
+keywords = ["ruby", "repl", "interpreter", "plugin", "vm"]
+
+[dependencies]
+libc = ">= 0.2.11"
+mri-sys = "0.2"
+lazy_static = "0.2"
+
+[lib]
+name = "rurust"
+path = "src/lib.rs"
+
+[[bin]]
+name = "repl"
+path = "tools/repl.rs"

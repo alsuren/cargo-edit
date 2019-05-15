@@ -1,0 +1,19 @@
+[package]
+
+name = "chip8_vm"
+description = "Virtual machine for the CHIP-8 programming language"
+readme = "README.md"
+license = "MIT"
+keywords = ["vm", "chip-8",]
+homepage = "https://github.com/chip8-rust/chip8-vm"
+repository = "https://github.com/chip8-rust/chip8-vm.git"
+documentation = "https://chip8-rust.github.io/chip8-vm/"
+version = "0.4.0"
+authors = [
+    "Jake Kerr <kodafox@gmail.com>",
+    "robo9k <robo@9k.lv>",
+]
+
+[dependencies]
+rand = "0.3.7"
+log = "0.3.1"

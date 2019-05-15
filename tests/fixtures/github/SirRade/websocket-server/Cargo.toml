@@ -1,0 +1,25 @@
+[package]
+name = "websocket-server"
+version = "0.2.2"
+description = """
+Boilerplate to effortlessly setup an asynchronous websocket server
+"""
+authors = ["Jan Nils Ferner <jn_ferner@hotmail.de>"]
+license = "MIT"
+readme = "readme.md"
+repository = "https://github.com/SirRade/websocket-server"
+categories = ["web-programming::websocket"]
+keywords = ["websocket", "server", "async"]
+
+[dependencies]
+futures = "0.1"
+futures-cpupool = "0.1"
+tokio-core = "0.1"
+
+[dependencies.websocket]
+features = ["nightly"]
+version = "0.20"
+
+[badges]
+travis-ci = { repository = "SirRade/websocket-server" }
+coveralls = { repository = "SirRade/websocket-server" }

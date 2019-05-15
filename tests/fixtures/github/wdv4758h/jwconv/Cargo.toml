@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "core/",
+    "cli/",
+    "ffi/",
+]
+
+[profile.release]
+lto = true

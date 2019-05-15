@@ -1,0 +1,15 @@
+[package]
+name = "box2d"
+version = "0.0.2"
+authors = ["Matt McCoy <mattnenterprise@yahoo.com>"]
+repository = "https://github.com/mattnenterprise/rust-box2d"
+description = "Port of Box2d to Rust"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+time = "0.1.34"
+
+[dev-dependencies]
+sfml = "0.11.2"
+time = "0.1.34"

@@ -1,0 +1,22 @@
+[package]
+name = "dnsimple"
+version = "0.0.2"
+authors = ["Luca Guidi <me@lucaguidi.com>"]
+description = "DNSimple API v2"
+homepage = "https://github.com/jodosha/dnsimple-rs"
+repository = "https://github.com/jodosha/dnsimple-rs.git"
+documentation = "https://jodosha.github.io/dnsimple-rs"
+readme = "README.md"
+keywords = ["dnsimple", "dns", "api"]
+license = "MIT"
+
+[lib]
+path = "src/lib.rs"
+name = "dnsimple"
+
+[dependencies.hyper]
+version = "0.10.5"
+
+[dev-dependencies]
+yup-hyper-mock = "2.0.0"
+log = "0.3.7"

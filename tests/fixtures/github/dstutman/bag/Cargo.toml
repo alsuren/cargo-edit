@@ -1,0 +1,20 @@
+[package]
+name = "bag"
+description = "A bi-directional, insert-only graph that was simple to write, and is simple to understand."
+version = "0.1.2"
+authors = ["dstutman <cargo@stutman.tech>"]
+repository = "https://github.com/dstutman/bag"
+readme = "README.md"
+keywords = ["graph", "insert-only", "simple"]
+categories = ["data-structures"]
+license = "MIT"
+
+[dependencies]
+
+[dev-dependencies]
+clippy = { version = "*" }
+
+[badges]
+travis-ci = { repository = "dstutman/bag", branch = "master" }
+codecov = { repository = "dstutman/bag", branch = "master" }
+maintenance = { status = "as-is" }

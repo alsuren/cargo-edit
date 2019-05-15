@@ -1,0 +1,33 @@
+[package]
+name = "apint"
+version = "0.2.0" # Don't forget to update html_root_url in lib.rs.
+authors = ["Robin Freyler <robbepop@web.de>", "Aaron Kutch <aaronkutch@att.net>"]
+license = "MIT/Apache-2.0"
+readme  = "README.md"
+
+keywords   = ["int", "integer", "precision", "arbitrary"]
+
+repository = "https://github.com/robbepop/apint"
+documentation = "https://docs.rs/apint"
+description = """Arbitrary precision integers library."""
+categories = ["data-structures"]
+
+[dependencies]
+smallvec = { version = "0.6.5" }
+specialized-div-rem = { version = "0.0.2", optional = true }
+rand = { version = "0.5.5", optional = true }
+serde = { version = "1.0.75", optional = true }
+serde_derive = { version = "1.0.75", optional = true }
+
+[dev-dependencies]
+serde_test = "1.0.75"
+itertools = "0.7.8"
+
+[features]
+default = ["rand_support", "serde_support", "specialized-div-rem"]
+rand_support = ["rand"]
+serde_support = ["serde", "serde_derive"]
+
+[badges]
+travis-ci = { repository = "Robbepop/apint" }
+appveyor = { repository = "Robbepop/apint", branch = "master", service = "github" }

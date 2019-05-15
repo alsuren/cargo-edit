@@ -1,0 +1,11 @@
+[package]
+name = "test_crate_hello_world"
+version = "0.1.2"
+authors = ["Dumindu Madunuwan"]
+
+description = "A Simple Hello World Crate"
+repository = "https://github.com/dumindu/test_crate_hello_world"
+keywords = ["hello", "world"]
+license = "Apache-2.0"
+
+[dependencies]

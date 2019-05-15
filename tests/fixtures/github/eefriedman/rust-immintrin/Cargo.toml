@@ -1,0 +1,15 @@
+[package]
+name = "immintrin"
+version = "0.2.0"
+authors = ["Eli Friedman <eli.friedman@gmail.com>"]
+
+license = "MIT/Apache-2.0"
+keywords = ["sse", "avx", "intel"]
+readme = "README.md"
+repository = "https://github.com/eefriedman/rust-immintrin"
+description = """
+Implementation of Intel x86 intrinsics (_mm_*).
+"""
+
+[dependencies]
+simd = "0.1"

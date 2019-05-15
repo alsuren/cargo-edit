@@ -1,0 +1,20 @@
+[package]
+name = "postgres-cursor"
+version = "0.3.0"
+authors = ["Joe Wilm <joe@jwilm.com>"]
+license = "MIT"
+keywords = ["postgres", "cursor", "postgresql", "sql"]
+categories = ["database"]
+repository = "https://github.com/jwilm/rust-postgres-cursor"
+documentation = "https://docs.rs/postgres-cursor"
+description = "Cursor abstraction for PostgreSQL"
+readme = "README.md"
+
+[dependencies]
+rand = "0.3"
+
+[dependencies.postgres]
+version = "0.15.1"
+
+[dev-dependencies]
+lazy_static = "0.2"

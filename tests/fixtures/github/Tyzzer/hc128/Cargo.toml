@@ -1,0 +1,16 @@
+[package]
+name = "hc128"
+version = "0.1.6"
+authors = ["quininer kel <quininer@live.com>"]
+description = "A implementation of HC-128 stream cipher. support `no_std` environment."
+repository = "https://github.com/Tyzzer/hc128"
+license = "MIT"
+
+[dependencies]
+byteorder = { version = "1.0", default-features = false }
+
+[dev-dependencies]
+rand = "0.3"
+data-encoding = "2.0.0-rc"
+lazy_static = "0.2"
+rust-crypto = "0.2"

@@ -1,0 +1,26 @@
+[package]
+name = "qemu-rust"
+description = "A library to interact with Qemu using the QMP protocol: http://wiki.qemu.org/QMP"
+version = "0.1.1"
+license = "MIT/Apache-2.0"
+authors = ["Chris Holcombe <xfactor973@gmail.com>"]
+build = "build.rs"
+repository = "https://github.com/cholcombe973/qemu-rust"
+documentation = "http://cholcombe973.github.io/qemu-rust"
+
+[build-dependencies]
+hyper = "~0.9"
+log = "~0.3"
+nom = "~1.2"
+parse_qapi = "~0.1"
+# parse_qapi = { path = "../parse_qapi"}
+simple_logger = "~0.4"
+
+[dependencies]
+bytes = "~0.3"
+json = "~0.8"
+log = "~0.3"
+mio = "~0.5"
+rustc-serialize = "~0.3"
+simple_logger = "~0.4"
+slab = "~0.2"

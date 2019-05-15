@@ -1,0 +1,21 @@
+[package]
+name = "amy"
+version = "0.10.0"
+authors = ["Andrew J. Stone <andrew.j.stone.1@gmail.com>"]
+description = "Polling and Registration abstractions around kqueue and epoll for multithreaded async network programming"
+repository = "https://github.com/andrewjstone/amy"
+keywords = ["async", "epoll", "kqueue", "eventloop", "timer"]
+license = "Apache-2.0"
+
+[features]
+# On linux, don't use timerfd. Instead store timers in a binary heap and utilize the epoll timeout.
+no_timerfd = []
+
+[dependencies]
+libc = "0.2"
+
+[dependencies.nix]
+version = "0.10"
+
+[dev-dependencies]
+assert_matches = "1.0"

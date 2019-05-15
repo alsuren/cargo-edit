@@ -1,0 +1,21 @@
+[package]
+name = "pwhash"
+version = "0.3.0"
+authors = ["Ivan Nejgebauer <inejge@gmail.com>"]
+description = "A collection of password hashing routines in pure Rust."
+documentation = "https://inejge.github.io/pwhash"
+homepage = "https://github.com/inejge/pwhash"
+repository = "https://github.com/inejge/pwhash"
+readme = "README.md"
+license = "MIT"
+keywords = ["password", "hash", "hashing", "crypt"]
+categories = ["cryptography", "authentication"]
+
+[dependencies]
+md-5 = "0.8.0"
+sha-1 = "0.8.1"
+sha2 = "0.8.0"
+blowfish = { version = "0.4.0", features = ["bcrypt"] }
+hmac = "0.7.0"
+byteorder = "1"
+rand = "0.6"

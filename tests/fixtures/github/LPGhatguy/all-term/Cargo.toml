@@ -1,0 +1,18 @@
+[package]
+name = "all_term"
+version = "0.1.0"
+authors = ["Lucien Greathouse <me@lpghatguy.com>"]
+description = "Cross-platform terminal abstraction library"
+license = "MIT"
+homepage = "https://github.com/LPGhatguy/all-term"
+repository = "https://github.com/LPGhatguy/all-term.git"
+
+[dependencies]
+lazy_static = "1.2"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[target.'cfg(windows)'.dependencies.winapi]
+version = "0.3"
+features = ["errhandlingapi", "consoleapi", "processenv", "winbase", "handleapi", "ntdef", "impl-default"]

@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "examples",
+    "rustiful",
+    "rustiful-derive",
+    "rustiful-test",
+]
+
+[replace]
+"rustiful:0.1.0" = { path = "rustiful" }
+"rustiful-derive:0.1.0" = { path = "rustiful-derive" }

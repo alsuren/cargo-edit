@@ -1,0 +1,9 @@
+[package]
+name = "cell_rc"
+version = "0.2.0"
+authors = ["Eduardo Sánchez Muñoz <esm@eduardosm.net>"]
+description = "Wrappers with less overhead than RefCell for reference counted pointers"
+repository = "https://github.com/eduardosm/rust-cell_rc"
+license = "Apache-2.0"
+
+[dependencies]

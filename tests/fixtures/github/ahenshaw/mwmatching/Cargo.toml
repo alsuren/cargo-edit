@@ -1,0 +1,19 @@
+[package]
+name = "mwmatching"
+version = "0.1.1"
+authors = ["Andrew Henshaw <andrew@henshaw.us>"]
+description = "Maximum-Weight Matching: Compute a maximum-weighted matching in the general undirected weighted graph given by 'edges'."
+repository = "https://github.com/ahenshaw/mwmatching"
+license = "MIT"
+keywords = ["graph", "matching"]
+[dependencies]
+
+[profile.release]
+debug = true
+
+[lib]
+name = "mwmatching"
+path = "src/lib.rs"
+test = true
+doctest = false
+doc = true

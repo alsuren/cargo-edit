@@ -1,0 +1,62 @@
+[package]
+name = "cichlid"
+version = "0.2.0"
+authors = ["Stephen Fleischman <stephenf@cs.washington.edu>"]
+description = "A color math library for programming addressable LEDs."
+documentation = "https://docs.rs/cichlid/"
+readme = "README.md"
+license = "MIT"
+keywords = ["no-std","LED","Color","RGB"]
+categories = ["no-std","embedded"]
+homepage =  "https://github.com/sfleischman105/cichlid"
+repository = "https://github.com/sfleischman105/cichlid"
+edition = "2018"
+build = "build.rs"
+
+[lib]
+name = "cichlid"
+path = "src/lib.rs"
+test = true
+doctest = true
+crate-type = ["rlib"]
+
+#[dev-dependencies]
+#criterion = "0.2.11"
+# cargo objdump --target thumbv7em-none-eabihf --features=no-std --lib --release -- -disassemble-all > diss.txt
+# RUSTFLAGS='-C target-cpu=cortex-m4'
+# RUSTFLAGS='-C target-cpu=cortex-m4' cargo objdump --target thumbv7em-none-eabihf --features=no-std --lib --release -- -disassemble-all > dissasembly.txt
+
+[features]
+no-std = []
+default = []
+low-mem = []
+nightly = []
+
+[profile.dev]
+opt-level = 3
+debug = true
+codegen-units = 1
+lto = true
+debug-assertions = false
+
+[profile.bench]
+opt-level = 3
+debug = false
+lto = true
+debug-assertions = false
+overflow-checks = false
+incremental = false
+codegen-units = 1
+
+[profile.release]
+opt-level = 3
+lto = true
+debug-assertions = false
+codegen-units = 1
+incremental = false
+overflow-checks = false
+
+
+#[[bench]]
+#name = "bench"
+#harness = false

@@ -1,0 +1,10 @@
+[package]
+name = "bitwise_reduce"
+version = "0.2.0"
+authors = ["Julia Naomi <jnboeira@outlook.com>", "Aline Diesel <linidiesel@gmail.com>"]
+description = "Multiple arity bitwise functions"
+repository = "https://github.com/naomijub/bitwise_reduce"
+keywords = ["bitwise", "functions", "operators"]
+license = "MPL-2.0-no-copyleft-exception"
+
+[dependencies]

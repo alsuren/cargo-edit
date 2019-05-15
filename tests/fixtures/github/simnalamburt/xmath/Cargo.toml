@@ -1,0 +1,21 @@
+[package]
+name = "xmath"
+version = "0.2.8"
+authors = ["Seulgi Kim <dev@seulgi.kim>", "Hyeon Kim <simnalamburt@gmail.com>"]
+
+homepage      = "https://github.com/simnalamburt/xmath"
+repository    = "https://github.com/simnalamburt/xmath"
+documentation = "https://simnalamburt.github.com/xmath/"
+license       = "BSD-2-Clause"
+keywords      = ["math", "linear", "algebra", "matrix", "vector"]
+readme        = "README.md"
+
+description   = """
+Rust port of Microsoft DirectXMath
+"""
+
+[features]
+glium-support = ["glium"]
+
+[dependencies]
+glium = { version = "0.14.0", default-features = false, optional = true }

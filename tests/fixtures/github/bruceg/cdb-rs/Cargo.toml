@@ -1,0 +1,21 @@
+[package]
+name = "cdb"
+version = "0.6.0"
+authors = ["Bruce Guenter <bruce@untroubled.org>"]
+description = "Pure Rust library to read and write CDB files"
+homepage = "https://github.com/bruceg/cdb-rs"
+repository = "https://github.com/bruceg/cdb-rs"
+readme = "README.md"
+license = "Unlicense"
+edition = "2018"
+
+[dependencies]
+filebuffer = "0.4"
+libc = "0.2.4"
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "cdb"
+harness = false

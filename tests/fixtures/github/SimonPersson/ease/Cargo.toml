@@ -1,0 +1,26 @@
+[package]
+description = "A library for building REST clients"
+repository = "https://github.com/SimonPersson/ease"
+documentation = "http://simonpersson.github.io/ease/ease/index.html"
+name = "ease"
+version = "0.6.1"
+authors = ["Simon Persson <simon@flaskpost.org>"]
+keywords = ["rest", "api", "client", "web"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+hyper = "0.10"
+url = "1.1"
+serde = "0.8"
+serde_json = "0.8"
+
+[dev-dependencies]
+serde_macros = "0.8"
+
+[[ example ]]
+name = "json"
+path = "examples/json.rs"
+
+[[ example ]]
+name = "strings"
+path = "examples/strings.rs"

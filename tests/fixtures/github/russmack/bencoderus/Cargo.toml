@@ -1,0 +1,18 @@
+[package]
+name = "bencoderus"
+version = "0.1.1"
+authors = ["Russell Mackenzie <russmackdev@gmail.com"]
+description = "A library for Bencode encoding and decoding."
+documentation = "https://github.com/russmack/bencoderus"
+homepage = "https://github.com/russmack/bencoderus"
+repository = "https://github.com/russmack/bencoderus"
+readme = "README.md"
+keywords = ["bencode", "encoder", "decoder", "bittorrent", "torrent"]
+license-file = "LICENSE.txt"
+
+[lib]
+name = "bencoderus"
+
+[dependencies]
+hyper = "0.10.4"
+

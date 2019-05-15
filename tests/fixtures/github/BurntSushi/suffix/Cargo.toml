@@ -1,0 +1,37 @@
+[package]
+name = "suffix"
+version = "1.1.0"  #:version
+authors = ["Andrew Gallant <jamslam@gmail.com>"]
+description = "Suffix arrays."
+documentation = "https://docs.rs/suffix"
+homepage = "https://github.com/BurntSushi/suffix"
+repository = "https://github.com/BurntSushi/suffix"
+readme = "README.md"
+keywords = ["suffix", "text", "search", "index"]
+license = "Unlicense/MIT"
+autotests = false
+
+[lib]
+name = "suffix"
+path = "src/lib.rs"
+
+[[bin]]
+name = "suffix-array"
+path = "src/main.rs"
+test = false
+bench = false
+doc = false
+
+[[test]]
+name = "tests"
+path = "tests/tests.rs"
+
+[[bench]]
+name = "bench"
+path = "tests/bench.rs"
+
+[profile.bench]
+opt-level = 3
+
+[dev-dependencies]
+quickcheck = { version = "0.7", default-features = false }

@@ -1,0 +1,47 @@
+[package]
+name = "circadian"
+version = "0.6.1-rc"
+authors = ["Trevor Bentley <trevor@trevorbentley.com>"]
+description = "Linux auto-suspend/wake power management daemon"
+keywords = ["linux", "power", "suspend", "daemon", "service"]
+categories = []
+homepage = "https://github.com/mrmekon/circadian"
+repository = "https://github.com/mrmekon/circadian"
+documentation = "https://github.com/mrmekon/circadian"
+license = "GPL-3.0"
+
+[package.metadata.deb]
+maintainer = "Trevor Bentley <trevor@trevorbentley.com>"
+copyright = "Copyright 2017 Trevor Bentley"
+license-file = ["LICENSE"]
+extended-description = """\
+Circadian is a power management daemon for automatically suspending machines \
+when they are idle, and optionally waking them back up at set times."""
+depends = "$auto, systemd"
+revision = "1"
+section = "admin"
+priority = "optional"
+assets = [
+       ["target/release/circadian", "usr/bin/", "755"],
+       ["resources/circadian.conf.in", "etc/circadian.conf", "644"],
+       ["resources/circadian.service", "usr/lib/systemd/system/", "644"],
+]
+
+[package.metadata.release]
+sign-commit = false
+upload-doc = false
+pre-release-commit-message = "Release {{version}}"
+dev-version-ext = "rc"
+tag-message = "Release {{version}}"
+doc-commit-message = "Release {{version}}"
+
+[profile.release]
+lto = true
+
+[dependencies]
+regex = "0.2"
+glob = "0.2.11"
+rust-ini = "0.10.0"
+clap = "2.27.1"
+time = "0.1.38"
+nix = "0.9.0"

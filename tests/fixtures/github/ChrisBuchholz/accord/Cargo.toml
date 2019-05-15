@@ -1,0 +1,23 @@
+[package]
+name = "accord"
+version = "0.2.2"
+authors = ["Christoffer Buchholz <chris@chrisbuchholz.me>"]
+description = """
+Library for validating data according to rules like "contains", "length", "either", "range".
+"""
+documentation = "https://docs.rs/accord"
+repository = "https://github.com/ChrisBuchholz/accord"
+readme = "README.md"
+keywords = ["accord", "rules", "library", "data", "validation"]
+license = "MIT"
+
+[features]
+inclusive_range = []
+regex_validator = ["regex"]
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+
+regex = { version = "1.0", optional = true }

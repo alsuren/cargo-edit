@@ -1,0 +1,29 @@
+[workspace]
+members = ["./peg-syntax-ext", "./peg-tests"]
+
+[package]
+name = "peg"
+version = "0.5.4"
+authors = [ "Kevin Mehall <km@kevinmehall.net>" ]
+license = "MIT"
+repository = "https://github.com/kevinmehall/rust-peg"
+documentation = "https://github.com/kevinmehall/rust-peg/blob/master/README.md#readme"
+description = "A simple Parsing Expression Grammar (PEG) parser generator."
+keywords = ["peg", "parser", "parsing", "grammar"]
+categories = ["parsing"]
+readme = "README.md"
+
+[dependencies]
+quote = "0.6"
+proc-macro2 = "0.4.4"
+codemap = "0.1"
+codemap-diagnostic = "0.1"
+
+[[bin]]
+name = "rust-peg"
+path = "src/bin.rs"
+test = false
+bench = false
+
+[features]
+trace = []

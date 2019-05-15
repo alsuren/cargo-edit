@@ -1,0 +1,28 @@
+[package]
+
+exclude = [ ".gitmodules", ".gitignore", ".travis.yml" ]
+authors = [ "Tom Bebbington <tophattedcoder@gmail.com>" ]
+description = "Just-In-Time Compilation in Rust using LibJIT bindings"
+documentation = "http://tombebbington.github.io/jit.rs/"
+keywords = [ "compile", "compiler", "jit", "interpreter" ]
+license = "MIT"
+name = "jit"
+readme = "README.md"
+repository = "http://wwww.rustdox.com/TomBebbington/jit.rs/"
+version = "0.9.1"
+
+[lib]
+
+name = "jit"
+path = "src/jit.rs"
+
+[dependencies]
+libc = "*"
+
+[dependencies.libjit-sys]
+path = "sys"
+version = "*"
+
+[dev-dependencies.jit_macros]
+path = "macro"
+version = "*"

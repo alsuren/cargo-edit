@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "cli_client",
+    "core",
+    "images/coblox_bitcoincore",
+    "images/dynamodb_local",
+    "images/elasticmq",
+    "images/generic",
+    "images/parity_parity",
+    "images/postgres",
+    "images/redis",
+    "images/trufflesuite_ganachecli",
+    "testcontainers",
+]

@@ -1,0 +1,28 @@
+
+
+[package]
+name = "cumath"
+description = "Cuda-based matrix/vector computations"
+version = "0.2.7"
+repository = "https://github.com/Ltei/cumath"
+authors = ["ltei"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["ffi", "wrapper", "cuda", "gpu", "matrix"]
+build = "build.rs"
+exclude = [
+    ".gitignore",
+    ".idea/*",
+    "target/*",
+    "_TRASH/*",
+    "ffi_caller_generator.sh"
+]
+
+
+[features]
+default = []
+disable_checks = []
+
+
+[build-dependencies]
+cc = "1.0.15"

@@ -1,0 +1,37 @@
+[package]
+
+name    = "prophet" # other names: Pulsar
+version = "0.4.2"
+authors = ["Robbepop"]
+license = "MIT/Apache-2.0"
+readme  = "README.md"
+
+keywords   = ["deep-learning", "neural-networks", "machine-learning", "classifier"]
+categories = ["science"]
+
+# homepage    = "https://github.com/robbepop/prophet"
+repository    = "https://github.com/robbepop/prophet"
+documentation = "https://docs.rs/prophet"
+description   = """A neural network implementation with a focus on cache-efficiency and sequential performance."""
+
+[dependencies]
+rand         = "0.4"
+num          = "0.1"
+ndarray      = "0.11"
+ndarray-rand = "0.7"
+itertools    = "0.7"
+log          = "0.4"
+serde        = { version = "1.0", optional = true }
+serde_derive = { version = "1.0", optional = true }
+
+[dev-dependencies]
+approx = "0.1.1"
+
+[features]
+default       = ["serde_support"]
+benches       = []
+serde_support = ["serde", "serde_derive", "ndarray/serde-1"]
+
+[badges]
+travis-ci = { repository = "Robbepop/prophet" }
+appveyor  = { repository = "Robbepop/prophet", branch = "master", service = "github" }

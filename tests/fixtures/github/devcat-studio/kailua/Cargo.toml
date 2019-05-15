@@ -1,0 +1,44 @@
+[package]
+name = "kailua"
+version = "1.1.0"
+authors = ["Nexon Corporation", "Kang Seonghoon <public+git@mearie.org>"]
+
+description = "🌴 Type Checker and IDE Support for Lua"
+homepage = "https://github.com/devcat-studio/kailua"
+documentation = "https://docs.rs/kailua/"
+repository = "https://github.com/devcat-studio/kailua.git"
+keywords = ["lua", "kailua", "language", "type-checker"]
+categories = ["development-tools", "command-line-utilities"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
+
+[[bin]]
+name = "kailua"
+
+[dependencies]
+env_logger = "0.4.2"
+clap = "2"
+kailua_env = { version = "1.0.4", path = "kailua_env" }
+kailua_diag = { version = "1.0.4", path = "kailua_diag" }
+kailua_syntax = { version = "1.1.0", path = "kailua_syntax" }
+kailua_check = { version = "1.1.0", path = "kailua_check" }
+kailua_workspace = { version = "1.1.0", path = "kailua_workspace" }
+kailua_langsvr = { version = "1.1.0", path = "kailua_langsvr" }
+
+[workspace]
+members = [
+    "kailua_env",
+    "kailua_diag",
+    "kailua_test",
+    "kailua_syntax",
+    "kailua_types",
+    "kailua_check",
+    "kailua_workspace",
+    "kailua_langsvr",
+    "kailua_langsvr_protocol",
+]
+
+[profile.release]
+lto = true
+debug = true # TODO
+

@@ -1,0 +1,17 @@
+[package]
+name = "seek_bufread"
+version = "1.2.2"
+authors = ["gcarq <michael.egger@tsn.at>"]
+
+documentation = "https://gcarq.github.io/seek_bufread"
+repository = "https://github.com/gcarq/seek_bufread"
+
+readme = "README.md"
+license = "Apache-2.0"
+
+keywords = ["seek", "bufread", "io", "buffer", "reader"]
+
+description = "A drop-in replacement for std::io::BufReader with seeking support."
+
+
+[dependencies]

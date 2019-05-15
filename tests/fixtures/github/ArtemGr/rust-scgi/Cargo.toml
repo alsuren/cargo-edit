@@ -1,0 +1,21 @@
+[package]
+name = "scgi"
+version = "0.3.4"
+authors = ["ArtemGr <artemciy@gmail.com>"]
+
+description = "Simple SCGI parser"
+documentation = "http://artemgr.github.io/rust-scgi/scgi/"
+repository = "https://github.com/ArtemGr/rust-scgi"
+readme = "README.md"
+keywords = ["web", "server"]
+# https://crates.io/category_slugs
+categories = ["network-programming", "web-programming"]
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "scgi"
+path = "src/scgi.rs"
+doctest = false
+
+[dependencies]
+bufstream = "0.1.1"

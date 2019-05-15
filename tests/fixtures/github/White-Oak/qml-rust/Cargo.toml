@@ -1,0 +1,21 @@
+[package]
+name = "qml"
+version = "0.0.9"
+authors = ["White-Oak <lpzhelud@gmail.com>"]
+build = "build.rs"
+
+description = "Safe QML bindings for Rust"
+repository = "https://github.com/White-Oak/qml-rust"
+documentation = "https://docs.rs/qml/"
+readme = "README.md"
+keywords = ["QML", "FFI", "Qt", "bindings", "GUI"]
+license = "MIT"
+
+
+[dependencies]
+libc = "0.2"
+lazy_static = "0.2"
+
+[build-dependencies]
+cmake = "0.1"
+pkg-config = "0.3"

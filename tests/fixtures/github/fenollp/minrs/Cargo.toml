@@ -1,0 +1,15 @@
+[package]
+name = "minrs"
+version = "0.4.1"
+authors = ["Pierre Fenoll <pierrefenoll@gmail.com>"]
+description = "Visualizations for binary data in the wild"
+license = "MIT"
+keywords = ["conti", "binvis", "miners", "opengl"]
+repository = "https://github.com/fenollp/minrs"
+documentation = "https://docs.rs/crate/minrs/"
+categories = ["visualization", "rendering", "parsing", "encoding", "gui", "data-structures", "development-tools"]
+
+[dependencies]
+glium = "^0"
+docopt = "^0.6"
+rustc-serialize = "0.3" # for docopt, if you're using `derive(RustcDecodable)`

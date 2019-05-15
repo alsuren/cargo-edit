@@ -1,0 +1,12 @@
+[package]
+name = "pix"
+version = "0.4.0"
+authors = ["Douglas Lau <doug.p.lau@gmail.com>"]
+description = "Pixel / raster image library"
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/pix"
+homepage = "https://github.com/DougLau/pix"
+repository = "https://github.com/DougLau/pix"
+readme = "README.md"
+keywords = ["pixel", "image", "rgb", "color"]
+edition = "2018"

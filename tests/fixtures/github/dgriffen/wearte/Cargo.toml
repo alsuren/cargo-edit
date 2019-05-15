@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "wearte",
+    "wearte_derive",
+    "wearte_config",
+    "wearte_helpers"
+]

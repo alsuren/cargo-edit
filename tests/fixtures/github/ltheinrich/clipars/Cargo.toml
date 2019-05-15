@@ -1,0 +1,10 @@
+[package]
+name = "clipars"
+version = "1.2.2"
+authors = ["Lennart Heinrich <ltheinrich@bitomic.de>"]
+edition = "2018"
+description = "Command line parser for Rust"
+repository = "https://github.com/ltheinrich/clipars"
+license = "ISC"
+categories = ["command-line-interface"]
+readme = "README.md"

@@ -1,0 +1,32 @@
+[package]
+name = "stemjail"
+version = "0.4.1"
+authors = ["Mickaël Salaün <mic@digikod.net>"]
+description = "Evolving jails for user activities"
+documentation = "https://stemjail.github.io/rustdoc/stemjail/"
+homepage = "https://stemjail.github.io"
+repository = "https://github.com/stemjail/stemjail"
+readme = "README.md"
+keywords = ["security", "linux", "namespace", "sandbox", "jail"]
+license = "LGPL-3.0"
+exclude = [".gitignore"]
+
+[dependencies]
+bincode = "0.5"
+bitflags = "0.5"
+bufstream = "0.1"
+byteorder = "0.5"
+dot = "0.1"
+env_logger = "0.3"
+fd = "0.2"
+fdpass = "0.1"
+getopts = "0.2"
+libc = "0.2"
+log = "0.3"
+mnt = "0.3"
+rand = "0.3"
+rustc-serialize = "0.3"
+stemflow = "0.5.2"
+toml = "0.1"
+tty = "0.4"
+unix_socket = "0.5"

@@ -1,0 +1,7 @@
+[package]
+name = "asciipress"
+version = "0.0.1"
+authors = ["serprex"]
+repository = "https://github.com/serprex/asciipress"
+description = "Encode 5 ascii characters into 2 utf8 characters"
+license = "MIT"

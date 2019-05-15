@@ -1,0 +1,19 @@
+[package]
+name = "vikos"
+version = "0.3.1"
+authors = ["Holger Peters <holger.peters@blue-yonder.com>", "Markus Klein <markus.klein@blue-yonder.com>"]
+description = "A machine learning library for supervised training of parametrized models"
+license = "MIT"
+repository = "https://github.com/blue-yonder/vikos"
+documentation = "https://docs.rs/vikos/"
+readme = "README.md"
+keywords = ["machine","learning","machine-learning"]
+edition = "2018"
+
+[dependencies]
+num = "0.2"
+serde = "1"
+serde_derive = "1"
+
+[dev-dependencies]
+csv = "1"

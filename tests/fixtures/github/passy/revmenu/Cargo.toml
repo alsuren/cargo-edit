@@ -1,0 +1,25 @@
+[package]
+authors = ["Pascal Hartig <phartig@rdrei.net>"]
+name = "revmenu"
+description = "Check out git and mercurial revisions from your terminal output"
+repository = "https://github.com/passy/revmenu"
+license = "MIT"
+version = "0.1.2"
+keywords = ["terminal", "git", "mercurial"]
+categories = ["command-line-interface"]
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+console = "0.7.5"
+exitcode = "1.1.2"
+failure = "0.1.5"
+nom = "4.2.3"
+itertools = "0.8.0"
+colored = "1.8.0"
+im = "10.2.0"
+human-panic = "1.0.1"
+
+[badges]
+travis-ci = { repository = "passy/revmenu" }

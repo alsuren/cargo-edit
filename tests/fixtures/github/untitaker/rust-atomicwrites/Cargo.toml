@@ -1,0 +1,24 @@
+[package]
+name = "atomicwrites"
+version = "0.2.2"
+
+authors = ["Markus Unterwaditzer <markus@unterwaditzer.net>"]
+license = "MIT"
+keywords = ["filesystem", "posix"]
+readme = "README.md"
+
+description = "Atomic file-writes."
+documentation = "https://docs.rs/crate/atomicwrites"
+homepage = "https://github.com/untitaker/rust-atomicwrites"
+repository = "https://github.com/untitaker/rust-atomicwrites"
+
+exclude = ["/.travis.yml", "/Makefile", "/appveyor.yml"]
+
+[dependencies]
+tempdir = "0.3"
+
+[target.'cfg(unix)'.dependencies]
+nix = "0.13.0"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winbase"] }

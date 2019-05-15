@@ -1,0 +1,35 @@
+[package]
+name = "ppapi"
+version = "0.1.2"
+authors = ["Richard Diamond <wichard@vitalitystudios.com>"]
+links = "helper"
+build = "src/build.rs"
+description = "Rust idiomatic bindings to parts of the Pepper API"
+repository = "https://github.com/DiamondLovesYou/rust-ppapi.git"
+documentation = "http://diamondlovesyou.github.io/rust-ppapi/docs/ppapi/index.html"
+license = "MPL-2.0"
+readme = "README.md"
+keywords = [ "PNaCl", "NaCl", "Pepper" ]
+exclude = [ "*.so", "build.sh" ]
+
+[lib]
+name = "ppapi"
+path = "src/lib/lib.rs"
+doc = true
+
+[dependencies]
+log = "*"
+url = "*"
+httparse = "*"
+libc = "0.1.6"
+
+[dependencies.hyper]
+version = "*"
+default-features = false
+
+[build-dependencies.pnacl-build-helper]
+version = "*"
+
+[features]
+default = ["pepper"]
+pepper = []

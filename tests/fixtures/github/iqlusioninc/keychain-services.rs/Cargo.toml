@@ -1,0 +1,35 @@
+[package]
+name          = "keychain-services"
+description   = """
+                Rust access to macOS Keychain Services, including TouchID-guarded
+                access to cryptographic keys stored in the Secure Enclave
+                Processor (SEP).
+                """
+version       = "0.1.1"
+authors       = ["Tony Arcieri <tony@iqlusion.io>"]
+license       = "Apache-2.0"
+homepage      = "https://keychain-services.rs/"
+documentation = "https://keychain-services.rs/docs/"
+repository    = "https://github.com/iqlusioninc/keychain-services.rs/"
+readme        = "README.md"
+categories    = ["api-bindings", "authentication", "cryptography", "hardware-support"]
+keywords      = ["ecdsa", "macos", "keychain", "touchid", "signatures"]
+edition       = "2018"
+
+[badges]
+maintenance = { status = "experimental" }
+travis-ci   = { repository = "iqlusioninc/keychain-services.rs" }
+
+[dependencies]
+core-foundation = "0.6"
+failure = "0.1"
+failure_derive = "0.1"
+zeroize = "0.4"
+
+[dev-dependencies]
+ring = "0.13"
+tempfile = "3"
+untrusted = "0.6"
+
+[features]
+interactive-tests = []

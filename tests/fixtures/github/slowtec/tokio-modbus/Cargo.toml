@@ -1,0 +1,39 @@
+[package]
+name = "tokio-modbus"
+description = "Tokio-based Modbus library"
+version = "0.3.2"
+authors = ["slowtec GmbH", "Markus Kohlhase <markus.kohlhase@slowtec.de>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["fieldbus", "modbus", "hardware", "automation"]
+homepage = "https://github.com/slowtec/tokio-modbus"
+repository = "https://github.com/slowtec/tokio-modbus"
+edition = "2018"
+
+[dependencies]
+bytes = "0.4"
+byteorder = "1"
+futures = "0.1"
+log = "0.4"
+smallvec = { version = "0.6", default-features = false }
+tokio-io = "0.1"
+tokio-core = "0.1"
+tokio-codec = "0.1"
+tokio-proto = "0.1"
+tokio-service = "0.1"
+
+tokio-serial = { version = "3.2", optional = true }
+
+[dev-dependencies]
+env_logger = "0.6"
+
+[features]
+default = ["tcp", "rtu", "sync"]
+rtu = ["tokio-serial"]
+tcp = []
+sync = []
+
+[badges]
+travis-ci = { repository = "slowtec/tokio-modbus" }
+coveralls = { repository = "slowtec/tokio-modbus", branch = "master", service = "github" }
+maintenance = { status = "actively-developed" }

@@ -1,0 +1,17 @@
+[package]
+authors = ["steveklabnik <steve@steveklabnik.com>"]
+name = "dir-diff"
+version = "0.3.1"
+description = "Do two directories have different contents?"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/steveklabnik/dir-diff"
+documentation = "https://docs.rs/crate/dir-diff"
+readme = "README.md"
+keywords = ["directory", "diff", "fs"]
+categories = ["filesystem", "development-tools::testing"]
+
+[badges]
+travis-ci = { repository = "steveklabnik/dir-diff" }
+
+[dependencies]
+walkdir = "2.0.1"

@@ -1,0 +1,20 @@
+[package]
+name = "k2i"
+version = "0.2.3"
+authors = ["MATSUMOTO Ryosuke <matsu1229@gmail.com>"]
+description = "Kernel Parameters Interface using HTTP"
+license = "MIT"
+repository = "https://github.com/matsumotory/k2i"
+readme = "README.md"
+keywords = ["linux", "server", "procps", "json", "process"]
+
+[dependencies]
+iron = "0.5.1"
+router = "0.5.1"
+rustc-serialize = "0.3.24"
+procps-sys = "0.1.0"
+num_cpus = "1.0"
+
+[[bin]]
+doc = false
+name = "k2i"

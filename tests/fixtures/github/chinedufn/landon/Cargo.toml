@@ -1,0 +1,34 @@
+[package]
+name = "landon"
+version = "0.1.3"
+authors = ["Chinedu Francis Nwafili <frankie.nwafili@gmail.com>"]
+publish = true
+description = "A collection of tools, data structures and methods for exporting Blender data (such as meshes and armatures) and preparing it for your rendering pipeline."
+keywords = ["blender", "export", "exporter", "mesh", "armature"]
+license = "MIT"
+repository = "https://github.com/chinedufn/landon"
+documentation = "https://docs.rs/landon"
+edition = "2018"
+
+[dependencies]
+clap = {version = "2.32.0", features = ["yaml"]}
+
+[dev-dependencies]
+blender-mesh = {path = "./blender-mesh", version = "0.3.3"}
+blender-armature = {path = "./blender-armature", version = "0.1.9"}
+serde = "1.0.82"
+serde_json = "1.0.33"
+
+[workspace]
+members = [
+  # TODO: Rename to `Mesh` and `Armature`
+  "blender-armature",
+  "blender-mesh",
+  "mesh-visualizer"
+]
+
+[profile.release]
+codegen-units = 1
+incremental = false
+lto = true
+opt-level = "z"

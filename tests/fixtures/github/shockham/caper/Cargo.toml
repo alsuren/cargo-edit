@@ -1,0 +1,35 @@
+[package]
+name = "caper"
+version = "0.11.2"
+authors = ["shockham <samuel.hockham@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/shockham/caper"
+homepage = "https://github.com/shockham/caper"
+documentation = "https://docs.rs/caper/*/caper/"
+description = "Minimalist game framework"
+
+[dependencies]
+glium = "0.23"
+# glium_text_rusttype = "0.3.2"
+glium_text_rusttype = { git = "https://github.com/shockham/glium_text", branch = "rusttype" }
+time = "0.1"
+genmesh = "0.6"
+obj = { version = "0.9", features = ["genmesh"] }
+noise = "0.5"
+imgui = "0.0.22"
+imgui-glium-renderer = "0.0.22"
+fps_counter = "1.0.0"
+bincode = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
+nphysics3d = "0.11"
+nalgebra = "0.18"
+ncollide3d = "0.19"
+image = "0.21"
+gif = "0.10"
+derive_builder = "0.7"
+lazy_static = "1.0"
+rayon = "1.0"
+volition = "0.0.19"
+impose = "0.3"

@@ -1,0 +1,10 @@
+[package]
+authors = ["Scott Olson <scott@solson.me>"]
+description = "Panic-aware scope guards"
+license = "MIT/Apache-2.0"
+name = "bulwark"
+repository = "https://github.com/solson/bulwark"
+version = "0.1.0"
+
+[dependencies]
+nodrop-union = "0.1.9"

@@ -1,0 +1,30 @@
+[package]
+name = "kurobako"
+version = "0.0.9"
+authors = ["Takeru Ohta <phjgt308@gmail.com>"]
+edition = "2018"
+description = "A black-box optimization benchmarking framework"
+homepage = "https://github.com/sile/kurobako"
+repository = "https://github.com/sile/kurobako"
+readme = "README.md"
+license = "MIT"
+
+[badges]
+travis-ci = {repository = "sile/kurobako"}
+codecov = {repository = "sile/kurobako"}
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+kurobako_core = { path = "kurobako_core", version = "0.0" }
+kurobako_problems = { path = "kurobako_problems", version = "0.0" }
+kurobako_solvers = { path = "kurobako_solvers", version = "0.0" }
+rand = "0.6"
+rustats = "0.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+structopt = "0.2"
+trackable = "0.2"
+yamakan = "0.0"
+
+[workspace]
+members = ["kurobako_core", "kurobako_problems", "kurobako_solvers"]

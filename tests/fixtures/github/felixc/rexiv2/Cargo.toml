@@ -1,0 +1,39 @@
+[package]
+name = "rexiv2"
+description = """
+This library provides a Rust wrapper around the gexiv2 library, which is
+a GObject-based wrapper around the Exiv2 library, which provides read and
+write access to the Exif, XMP, and IPTC metadata in media files (typically
+photos) in various formats.
+"""
+
+version = "0.7.0"
+authors = ["Felix Crux <felixc@felixcrux.com>"]
+license = "GPL-3.0+"
+documentation = "https://felixcrux.com/files/doc/rexiv2/"
+homepage = "https://github.com/felixc/rexiv2"
+repository = "https://github.com/felixc/rexiv2"
+keywords = ["metadata", "exif", "iptc", "xmp", "photo"]
+categories = ["multimedia::images"]
+readme = "README.md"
+
+include = [
+  "Cargo.toml",
+  "README.md",
+  "CHANGELOG.md",
+  "LICENSE",
+  "SETUP.md",
+  "src/**/*",
+]
+
+[dependencies]
+gexiv2-sys = "1.0"
+libc = "0.2"
+num-rational = { version = "0.2", default-features = false }
+
+[[test]]
+name = "tests"
+path = "tst/main.rs"
+
+[badges]
+travis-ci = { repository = "felixc/rexiv2" }

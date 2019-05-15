@@ -1,0 +1,33 @@
+[package]
+name = "slacker"
+version = "0.1.4-alpha.0"
+authors = ["Ning Sun <sunng@about.me>"]
+description = "Slacker server built on top of tokio."
+license = "MIT/Apache-2.0"
+keywords = ["slacker", "rpc", "clojure", "tokio"]
+homepage = "https://github.com/sunng87/slacker-rust"
+repository = "https://github.com/sunng87/slacker-rust"
+documentation = "https://docs.rs/slacker-rust/"
+readme = "README.md"
+
+[dependencies]
+tokio-io = "^0.1.0"
+tokio-core = "^0.1.0"
+tokio-proto = "^0.1.0"
+tokio-service = "^0.1.0"
+serde = "^1.0.0"
+serde_json = "^1.0.0"
+futures = "^0.1.0"
+futures-cpupool = "^0.1.5"
+log = "0.3.6"
+bytes = "^0.4.1"
+byteorder = "^1.1.0"
+nom = "^3.1.0"
+
+[dev-dependencies]
+env_logger = "^0.4.0"
+maplit = "^0.1.4"
+
+[package.metadata.release]
+sign-commit = true
+upload-doc = true

@@ -1,0 +1,32 @@
+[package]
+name = "apple-crash-report-parser"
+version = "0.3.0"
+authors = ["Armin Ronacher <armin.ronacher@active-4.com>", "Sentry <hello@sentry.io>"]
+keywords = ["apple", "crashreport"]
+license = "Apache-2.0"
+readme = "README.md"
+edition = "2018"
+repository = "https://github.com/getsentry/apple-crash-report-parser"
+homepage = "https://github.com/getsentry/apple-crash-report-parser"
+documentation = "https://docs.rs/apple-crash-report-parser"
+categories = ["parser-implementations"]
+description = """
+Parses apple crash report text files.
+"""
+
+[package.metadata.docs.rs]
+all-features = true
+
+[features]
+with_serde = ["uuid/serde", "chrono/serde", "serde"]
+
+[dependencies]
+regex = "1.1.0"
+lazy_static = "1.2.0"
+uuid = { version = "0.7.1" }
+chrono = { version = "0.4.6" }
+serde = { version = "1.0.84", features = ["derive"], package = "serde", optional = true }
+
+[dev-dependencies]
+serde_json = "1.0.34"
+insta = "0.5.2"

@@ -1,0 +1,14 @@
+[package]
+authors = ["Jorge Aparicio <jorge@japaric.io>"]
+categories = ["embedded", "memory-management", "no-std"]
+description = "A newtype with alignment of at least `A` bytes"
+documentation = "https://docs.rs/aligned"
+edition = "2018"
+keywords = ["alignment", "aligned", "array", "static"]
+license = "MIT OR Apache-2.0"
+name = "aligned"
+repository = "https://github.com/japaric/aligned"
+version = "0.3.1"
+
+[dependencies]
+as-slice = "0.1.0"

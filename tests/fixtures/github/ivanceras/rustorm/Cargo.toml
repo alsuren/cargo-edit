@@ -1,0 +1,61 @@
+[package]
+name = "rustorm"
+version = "0.13.0"
+authors = [ "Jovansonlee Cesar <ivanceras@gmail.com>" ]
+license = "MIT"
+description = "A complete rewrite of rustorm"
+repository = "https://github.com/ivanceras/rustorm"
+documentation = "https://docs.rs/rustorm"
+readme = "README.md"
+keywords = ["orm", "postgresql", "sqlite"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+postgres = {version = "0.15.1",features = ["with-uuid","with-chrono","with-time","with-openssl","with-geo","with-bit-vec", "with-serde_json"], optional = true}
+r2d2_postgres = {version = "0.14.0", optional = true}
+postgres-shared = {version = "0.4.0", optional = true}
+openssl = {version = "0.9.23", optional = true}
+r2d2 = "0.8"
+url = "1.5"
+cfg-if = "0.1.2"
+uuid = "0.5.1"
+chrono = "0.4.0"
+rusqlite = {version = "0.17", optional = true}
+r2d2_sqlite = {version = "0.9", optional = true}
+serde = "1.0.15"
+serde_derive = "1.0.15"
+serde_json = "1.0.3"
+byteorder = "1.0"
+bigdecimal = "0.0.14"
+num-bigint = "0.2"
+num-traits = "0.2"
+num-integer = "0.1"
+meval = "0.1.0"
+tree_magic = "0.2"
+base64 = "0.9"
+geo = "0.4"
+time = "0.1.14"
+rustorm_dao = "0.3.0"
+rustorm_codegen = "0.3.0"
+
+
+
+[badges]
+travis-ci = { repository = "ivanceras/rustorm" }
+
+[features]
+##default = ["with-postgres"]
+with-postgres = ["postgres", "r2d2_postgres", "postgres-shared", "openssl"]
+with-sqlite = ["rusqlite","r2d2_sqlite"]
+
+
+[package.metadata.docs.rs]
+features = ["with-postgres"]
+
+
+# Needed to be here since rustorm is tested as one project
+# in the ci instead of part of diwata
+[replace]
+"rustorm_dao:0.3.0" = { path = "crates/dao" }
+"rustorm_codegen:0.3.0" = { path = "crates/codegen" }

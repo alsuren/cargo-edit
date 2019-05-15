@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "pf_sandbox",
+    "pf_tas",
+    "pf_cli",
+    "map_controllers",
+    "panic_handler"
+]
+
+[profile.release]
+debug-assertions = true

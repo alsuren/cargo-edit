@@ -1,0 +1,14 @@
+[package]
+name = "alert-after"
+version = "1.5.1"
+authors = ["Corey Farwell <coreyf@rwell.org>"]
+license = "MIT/Apache-2.0"
+description = "Get a desktop notification after a command finishes executing"
+repository = "https://github.com/frewsxcv/alert-after"
+
+[[bin]]
+name = "aa"
+path = "main.rs"
+
+[dependencies]
+notifica = "1.0.2"

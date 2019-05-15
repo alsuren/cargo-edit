@@ -1,0 +1,16 @@
+[package]
+name = "hourglass"
+version = "0.7.1"
+authors = ["Maxime Lenoir <lenoir.maxime0@gmail.com>"]
+
+description = "Timezone-aware datetime library and time-related subtleties"
+homepage = "https://github.com/maximelenoir/hourglass"
+repository = "https://github.com/maximelenoir/hourglass"
+documentation = "https://maximelenoir.github.io/hourglass/hourglass"
+keywords = ["timezone", "time", "datetime", "date", "leap"]
+license = "MIT"
+
+[dependencies]
+byteorder = "0.4.2"
+nom = "1.1.0"
+libc = "0.2.5"

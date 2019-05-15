@@ -1,0 +1,12 @@
+[workspace]
+members = ["crates/client", 
+           "crates/native-tls",
+           "crates/openssl",
+           "crates/proto",
+           "crates/resolver",
+           "crates/rustls",
+           "crates/https",
+           "crates/server",
+           "tests/compatibility-tests",
+           "tests/integration-tests",
+           "util"]

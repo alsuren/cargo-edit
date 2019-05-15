@@ -1,0 +1,12 @@
+[package]
+name = "assert"
+version = "0.7.4"
+license = "Apache-2.0/MIT"
+authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
+description = "The package provides assertions for testing."
+documentation = "https://docs.rs/assert"
+homepage = "https://github.com/stainless-steel/assert"
+repository = "https://github.com/stainless-steel/assert"
+readme = "README.md"
+categories = ["development-tools::testing"]
+keywords = ["testing"]

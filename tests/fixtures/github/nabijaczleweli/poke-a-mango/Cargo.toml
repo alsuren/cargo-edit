@@ -1,0 +1,55 @@
+[package]
+name = "poke-a-mango"
+description = "What all the kool kidz are playing these days"
+documentation = "https://rawcdn.githack.com/nabijaczleweli/poke-a-mango/doc/poke_a_mango/index.html"
+repository = "https://github.com/nabijaczleweli/poke-a-mango"
+readme = "README.md"
+keywords = ["pokemon", "go", "game", "meme"]
+categories = ["games"]
+license = "MIT"
+build = "build.rs"
+# Remember to also update in appveyor.yml
+version = "0.5.1"
+# Remember to also update in poke-a-mango.md
+authors = ["nabijaczleweli <nabijaczleweli@gmail.com>",
+           "Andre Bogus <bogusandre@gmail.com>"]
+exclude = ["*.enc"]
+
+
+[dependencies]
+pistoncore-window = "0.23"
+rustc-serialize = "0.3"
+lazy_static = "0.2"
+tabwriter = "0.1"
+rusttype = "0.2"
+conrod = "0.47"
+glutin = "0.7"
+regex = "0.1"
+clap = "2.19"
+toml = "0.2"
+rand = "0.3"
+
+[dependencies.chrono]
+version = "0.2"
+features = ["rustc-serialize"]
+
+[dependencies.cursive]
+version = "0.3"
+features = ["pancurses"]
+default-features = false
+
+[build-dependencies]
+embed-resource = "1.1"
+
+
+[[bin]]
+name = "poke-a-mango"
+path = "src/main-gui.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "poke-a-mango-tui"
+path = "src/main-tui.rs"
+test = false
+doc = false

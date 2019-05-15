@@ -1,0 +1,30 @@
+[package]
+name = "nexus"
+version = "0.0.1"
+authors = ["crhino <piraino.chris@gmail.com>"]
+
+description = "A high performance networking library"
+
+repository = "https://github.com/crhino/nexus"
+documentation = "http://crhino.github.io/nexus-docs/nexus/index.html"
+
+readme = "./README.md"
+license = "BSD-3-Clause"
+keywords = ["networking", "tcp", "udp", "async"]
+
+[dependencies]
+log = "^0.3.4"
+rotor = "^0.6"
+netbuf = "^0.3"
+void = "0.0.5"
+byteorder = "^0.5"
+
+serde = { version = "^0.7", optional = true }
+serde_json = { version = "^0.7", optional = true }
+serde_macros = { version = "^0.7", optional = true }
+
+[features]
+json_codec = ["serde", "serde_json", "serde_macros"]
+
+[dev-dependencies]
+ferrous = "0.1.0"

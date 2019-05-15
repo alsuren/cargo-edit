@@ -1,0 +1,55 @@
+[package]
+name = "rdedup"
+version = "3.1.1"
+authors = ["Dawid Ciężarkiewicz <dpc@dpc.pw>"]
+description = "Data deduplication with compression and public key encryption. - binary"
+keywords = ["data", "backup", "dedupliation", "encryption", "dedup"]
+license = "MPL-2.0"
+documentation = "https://docs.rs/rdedup"
+homepage = "https://github.com/dpc/rdedup"
+repository = "https://github.com/dpc/rdedup"
+readme = "README.md"
+exclude = ["lib/**/*", "tester/**"]
+
+[features]
+default = ["with-bzip2","with-deflate","with-xz2","with-zstd"]
+with-bzip2 = ["rdedup-lib/with-bzip2"]
+with-deflate = ["rdedup-lib/with-deflate"]
+with-xz2 = ["rdedup-lib/with-xz2"]
+with-zstd = ["rdedup-lib/with-zstd"]
+
+[[bin]]
+name = "rdedup"
+path = "src/bin.rs"
+
+[profile.dev]
+opt-level = 0
+debug = true
+lto = false
+debug-assertions = true
+
+[profile.test]
+opt-level = 2
+debug = true
+lto = false
+debug-assertions = true
+
+[profile.release]
+opt-level = 3
+debug = true
+lto = true
+debug-assertions = false
+
+[workspace]
+members = [ "tester" ]
+
+[dependencies]
+rdedup-lib = { version = "3.1.0", path = "lib"}
+log = "0.3.6"
+hex = "0.3"
+clap = "2"
+rpassword = "2"
+slog = { version = "2.0.10", features = ["max_level_trace", "release_max_level_trace"]}
+slog-term = "2"
+slog-async = "2"
+url = "1"

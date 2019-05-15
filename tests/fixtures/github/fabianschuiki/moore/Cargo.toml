@@ -1,0 +1,39 @@
+[package]
+name = "moore"
+version = "0.4.0"
+authors = ["Fabian Schuiki <fschuiki@iis.ee.ethz.ch>"]
+edition = "2018"
+
+description = "A compiler for hardware description languages."
+repository = "https://github.com/fabianschuiki/moore"
+readme = "README.md"
+license = "Apache-2.0 OR MIT"
+
+[badges]
+travis-ci = { repository = "fabianschuiki/moore", branch = "master" }
+
+[workspace]
+
+[dependencies]
+moore-common = { path = "src/common", version = "0.4.0" }
+moore-svlog = { path = "src/svlog", version = "0.4.0" }
+moore-vhdl = { path = "src/vhdl", version = "0.4.0" }
+bincode = "0.6.1"
+clap = "2"
+llhd = "0.5"
+num = "0.1"
+rustc-serialize = "0.3.22"
+serde = "1"
+sha1 = "0.2.0"
+slog = "2.0.12"
+typed-arena = "1.3.0"
+log = "0.4"
+stderrlog = "0.4"
+
+[features]
+unstable = []
+
+[[bin]]
+doc = false
+name = "moore"
+path = "src/bin/moore.rs"

@@ -1,0 +1,7 @@
+[package]
+name = "auto-bitflags"
+version = "1.0.3"
+authors = ["Matt <mattew8898@gmail.com>"]
+description="macro to automatically generate bitflags."
+license="BSD-3-Clause"
+repository="https://github.com/Matt8898/auto-bitflags"

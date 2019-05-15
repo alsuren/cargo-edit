@@ -1,0 +1,24 @@
+[package]
+name = "dgraph_client"
+version = "0.1.0"
+authors = ["David Bernard"]
+description = "A rust client for dgraph."
+readme = "README.md"
+license = "CC0-1.0"
+keywords = ["dgraph", "grpc"]
+repository = "https://github.com/davidB/dgraph_client-rs"
+homepage = "https://github.com/davidB/dgraph_client-rs"
+
+[dependencies]
+grpcio = "0.4"
+futures = "^0.1.15"
+protobuf = "2.0"
+
+[dev-dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+slog = "^2"
+slog-async = "^2"
+slog-term = "^2"

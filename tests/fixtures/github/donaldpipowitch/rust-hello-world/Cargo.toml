@@ -1,0 +1,10 @@
+[package]
+name = "rfnd-hello-world"
+version = "1.0.0"
+authors = ["Donald Pipowitch <pipo@senaeh.de>"]
+description = "This module exports a \"Hello world!\" string."
+license = "MIT/Apache-2.0"
+keywords = ["demo", "hello-world"]
+homepage = "https://github.com/donaldpipowitch/rust-hello-world"
+repository = "https://github.com/donaldpipowitch/rust-hello-world"
+documentation = "https://github.com/donaldpipowitch/rust-hello-world"

@@ -1,0 +1,11 @@
+[package]
+name = "mildew"
+version = "0.1.2"
+authors = ["rap2hpoutre <raphaelht@gmail.com>"]
+license = "MIT"
+description = "Rust helpers"
+repository = "https://github.com/rap2hpoutre/mildew"
+
+[dependencies]
+hyper = "0.9"
+rand = "0.3.14"

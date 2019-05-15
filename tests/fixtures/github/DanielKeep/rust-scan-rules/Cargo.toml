@@ -1,0 +1,48 @@
+[package]
+name = "scan-rules"
+version = "0.2.0"
+authors = ["Daniel Keep <daniel.keep@gmail.com>"]
+
+description = "This crate provides some macros for quickly parsing values out of text.  Roughly speaking, it does the inverse of the print!/format! macros; or, in other words, a similar job to scanf from C."
+repository = "https://github.com/DanielKeep/rust-scan-rules"
+documentation = "https://danielkeep.github.io/rust-scan-rules/doc/scan_rules/index.html"
+readme = "README.md"
+keywords = ["input", "parse", "read", "stdin"]
+license = "MIT/Apache-2.0"
+
+build = "build.rs"
+exclude = [
+    ".clog.toml",
+    "scripts/*",
+]
+
+[features]
+default = []
+all = [
+    "arrays-32", "tuples-16",
+    "duration-iso8601-dates",
+    "regex",
+    "unicode-normalization",
+]
+all-nightly = [
+    "nightly-pattern",
+]
+
+"tuples-16" = []
+"arrays-32" = []
+duration-iso8601-dates = []
+nightly-pattern = []
+
+[dependencies]
+itertools = "0.4.0"
+lazy_static = "0.1.14"
+strcursor = "0.2.3"
+
+regex = { version = "0.1.56", optional = true }
+unicode-normalization = { version = "0.1.2", optional = true }
+
+[dev-dependencies]
+bitflags = "0.4.0"
+
+[build-dependencies]
+rustc_version = "0.1.4"

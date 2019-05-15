@@ -1,0 +1,21 @@
+[package]
+name = "inth-oauth2"
+version = "0.16.0"
+
+description = "OAuth2 client"
+keywords = ["authentication", "authorization", "auth", "oauth"]
+
+authors = ["Curtis McEnroe <programble@gmail.com>"]
+license = "ISC"
+
+repository = "https://github.com/programble/inth-oauth2"
+readme = "README.md"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+lazy_static = "1.1.0"
+serde = "1.0.8"
+serde_derive = "1.0.5"
+serde_json = "1.0.2"
+url = "1.1.0"
+reqwest = "0.9.2"

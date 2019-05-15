@@ -1,0 +1,20 @@
+[package]
+name = "obozrenie-core"
+version = "0.1.0"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+description = "Obozrenie Game Server Browser. Core library."
+repository = "https://github.com/game-recon/obozrenie-core"
+keywords = ["game", "games", "browser"]
+license = "GPL-3.0"
+
+[dependencies]
+geoip = "*"
+custom_derive = "*"
+newtype_derive = "*"
+error-chain = "*"
+futures = "*"
+futures-spawn = "*"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
+rgs_models = { git = "https://github.com/vorot93/rgs-models" }

@@ -1,0 +1,11 @@
+[package]
+name = "exact-float"
+version = "0.1.1"
+authors = ["Noah Peeters <noah.peeters@icloud.com>"]
+description = "Do your calculations with exact floating point numbers"
+repository = "https://github.com/NoahPeeters/rust-exact-float"
+keywords = ["floating", "float", "exact"]
+license = "MIT"
+
+[dependencies]
+num="0.1.32"

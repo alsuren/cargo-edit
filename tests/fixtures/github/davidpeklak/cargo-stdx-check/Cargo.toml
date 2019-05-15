@@ -1,0 +1,19 @@
+[package]
+name = "cargo-stdx-check"
+version = "0.1.2"
+authors = ["David Peklak <dpeklak@gmail.com>"]
+description = "The stdx-check tool determines whether any given crate is 'compatible' with stdx"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/davidpeklak/cargo-stdx-check"
+repository = "https://github.com/davidpeklak/cargo-stdx-check"
+
+[badges]
+travis-ci = { repository = "davidpeklak/cargo-stdx-check", branch = "master" }
+
+[dependencies]
+toml = "0.4.1"
+error-chain = "0.10.0"
+docopt = "0.8"
+serde = "1.0"
+serde_derive = "1.0"

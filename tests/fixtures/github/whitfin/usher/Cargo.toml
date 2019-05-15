@@ -1,0 +1,37 @@
+[package]
+name = "usher"
+version = "0.1.1" # remember to update html_root_url
+authors = ["Isaac Whitfield <iw@whitfin.io>"]
+description = "Parameterized routing for generic resources in Rust"
+repository = "https://github.com/whitfin/usher"
+keywords = ["data-structures", "http", "io", "tree", "web-services"]
+categories = ["algorithms", "data-structures", "web-programming"]
+readme = "README.md"
+edition = "2018"
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "whitfin/usher" }
+
+[features]
+default = []
+web = ["http"]
+
+[dependencies]
+http = { version = "0.1", optional = true }
+
+[dev-dependencies]
+futures = "0.1"
+hyper =  "0.12"
+
+[[example]]
+name = "web-basic"
+required-features = ["web"]
+
+[[example]]
+name = "web-hyper-async"
+required-features = ["web"]
+
+[[example]]
+name = "web-hyper-sync"
+required-features = ["web"]

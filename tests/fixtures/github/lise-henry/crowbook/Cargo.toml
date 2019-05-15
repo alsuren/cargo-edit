@@ -1,0 +1,82 @@
+[package]
+name = "crowbook"
+version = "0.15.0-beta2"
+edition = "2018"
+authors = ["Elisabeth Henry <liz.henry@ouvaton.org>"]
+description = "Render a Markdown book in HTML, PDF or Epub"
+repository = "https://github.com/lise-henry/crowbook"
+documentation = "https://docs.rs/crowbook/"
+readme = "README.md"
+keywords = ["markdown", "book"]
+categories = ["command-line-utilities", "text-processing"]
+license = "LGPL-2.1+"
+publish = true
+build = "build.rs"
+autobins = false
+
+exclude = [
+    "docs/*",
+    "/img/*",
+    "ci/*",
+    ".travis.yml",
+    "appveyor.yml",
+]
+
+[badges]
+travis-ci = { repository = "lise-henry/crowbook" }
+appveyor = { repository = "lise-henry/crowbook" }
+
+[lib]
+name = "crowbook"
+path = "src/lib/lib.rs"
+doctest = false
+
+[[bin]]
+name = "crowbook"
+path = "src/bin/main.rs"
+doc = false
+
+[features]
+default = ["binary", "proofread", "syntect"]
+proofread = ["caribon", "reqwest", "url", "serde", "serde", "serde_json", "serde_derive"]
+binary = ["clap", "simplelog", "tempdir", "console", "indicatif", "textwrap"]
+nightly = ["punkt", "hyphenation"]
+
+[build-dependencies]
+crowbook-intl = "0.2"
+
+[dependencies]
+mime_guess = "1"
+comrak = "0.6"
+yaml-rust = "0.4"
+mustache = "0.9"
+uuid = { version = "0.7", features = ["v4"] }
+walkdir = "2"
+rustc-serialize = "0.3"
+rayon = "1.0"
+crowbook-text-processing = "^0.2.6"
+lazy_static = "1"
+crowbook-intl-runtime = "0.1"
+numerals = "0.1"
+epub-builder = "0.4.3"
+log = "0.4"
+punkt = { version = "1.0", optional = true }
+hyphenation = { version = "0.6", optional = true }
+textwrap = { version = "0.11", optional = true }
+serde = { version = "1", optional = true }
+serde_json = { version = "1", optional = true }
+serde_derive = { version = "1", optional = true }
+indicatif = { version = "0.11", optional = true }
+console = { version = "0.7", optional = true }
+caribon = { version = "0.8", optional = true }
+clap = { version = "2.19", optional = true }
+simplelog = { version = "0.5", optional = true }
+url =  { version = "1", optional = true }
+syntect = { version = "3", optional = true }
+tempdir = { version = "0.3", optional = true }
+
+[dependencies.reqwest]
+version = "0.9"
+optional = true
+
+

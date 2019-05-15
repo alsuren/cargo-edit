@@ -1,0 +1,19 @@
+[package]
+authors = ["49nord GmbH <hello@49nord.de>"]
+name = "utimeseries"
+version = "0.1.0"
+description = "An experimental time series database with a compact storage format to record data occurring in regular intervals."
+repository = "https://github.com/49nord/utimeseries-rs"
+license = "MIT"
+readme = "README.md"
+keywords = ["time-series", "timeseries"]
+
+[dependencies]
+byte_conv = "0.1.1"
+cast = "0.2.2"
+chrono = "0.4.0"
+quick-error = "1.2.1"
+
+[dev-dependencies]
+tempfile = "3.0.1"
+

@@ -1,0 +1,24 @@
+[package]
+name = "rtq"
+version = "0.1.0"
+authors = ["lh"]
+description = "an atd like job management tool. run jobs one by one on single host"
+homepage = "https://github.com/funzoo/rtq"
+repository = "https://github.com/funzoo/rtq"
+license = "MIT"
+
+[lib]
+name = "rtqlib"
+path = "src/lib.rs"
+
+[dependencies]
+clap = "2.31.2"
+chrono = "0.4.2"
+glob = "0.2.11"
+libc = "0.2"
+rusqlite = "0.13.0"
+serde = "1.0.66"
+serde_json = "1.0.20"
+serde_derive = "1.0.66"
+simplelog = "0.5.0"
+log = "0.4.2"

@@ -1,0 +1,59 @@
+[package]
+name = "mml"
+version = "0.1.59"
+description = "A library to generating UML language from Rust's project into graphiz/dot file."
+authors = [
+    "adjivas <adjivas@users.noreply.github.com>",
+]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+documentation = "http://adjivas.github.io/ml/mml"
+repository = "https://github.com/adjivas/ml.git"
+homepage = "https://github.com/adjivas/ml"
+keywords = ["uml", "graph", "dot", "generator", "modeling-language"]
+categories = ["visualization"]
+
+[badges]
+travis-ci = { repository = "adjivas/ml", branch = "master" }
+appveyor = { repository = "adjivas/ml", branch = "master", service = "github" }
+
+[[bin]]
+name = "ml"
+doc  = false
+test = false
+
+[lib]
+test = false
+doctest = true
+
+[features]
+default       = []
+implem        = []
+fn-emilgardis = []
+lints         = ["clippy", "nightly"]
+nightly       = [] # for building with nightly and unstable features
+unstable      = [] # for building with unstable features on stable Rust
+debug         = [] # for building with debug messages
+travis        = ["lints", "nightly"] # for building with travis-cargo
+
+[dependencies.syntex_syntax]
+version = "0.59"
+
+[dependencies.syntex_errors]
+version = "0.59"
+
+[dependencies.rustc-serialize]
+version = "0.3"
+
+[dependencies.itertools]
+version = "0.5"
+
+[dependencies.dot]
+version = "0.1"
+
+[dependencies.walkdir]
+version = "1"
+
+[dependencies.clippy]
+version = "0"
+optional = true

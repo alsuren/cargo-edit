@@ -1,0 +1,12 @@
+[package]
+name = "mustache_view"
+version = "0.1.0"
+authors = ["Mike Tang <miketang84@outlook.com>"]
+description = "A convenient wrapper for rust-mustache to render file content to a string."
+repository = "https://github.com/daogangtang/mustache-view"
+keywords = ["template", "mustache", "view"]
+license = "MIT"
+
+[dependencies]
+mustache = "^0.6"
+rustc-serialize = "^0.3"

@@ -1,0 +1,13 @@
+[package]
+name = "ticker"
+version = "0.1.1"
+authors = ["Payton Turnage <paytonturnage@gmail.com>"]
+description = "Rate limited Iterators."
+homepage = "https://github.com/turnage/ticker"
+docs = "https://docs.rs/ticker"
+repository = "https://github.com/turnage/ticker"
+categories = ["date-and-time", "asynchronous"]
+readme = "readme.md"
+license = "MIT"
+
+[dependencies]

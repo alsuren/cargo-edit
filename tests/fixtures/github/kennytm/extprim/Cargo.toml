@@ -1,0 +1,46 @@
+[package]
+name = "extprim"
+version = "1.7.0"
+authors = ["kennytm <kennytm@gmail.com>"]
+description = "Extra primitive types (u128, i128)"
+repository = "https://github.com/kennytm/extprim"
+license = "MIT/Apache-2.0"
+keywords = ["primitives","u128","i128"]
+categories = ["algorithms"]
+documentation = "https://docs.rs/extprim"
+build = "build.rs"
+
+include = [
+    "build.rs",
+    "src/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE*.txt",
+]
+
+[badges]
+travis-ci = { repository = "kennytm/extprim" }
+appveyor = { repository = "kennytm/extprim" }
+is-it-maintained-issue-resolution = { repository = "kennytm/extprim" }
+is-it-maintained-open-issues = { repository = "kennytm/extprim" }
+coveralls = { repository = "kennytm/extprim" }
+
+[workspace]
+members = ["extprim_literals", "extprim_literals_macros", "extprim_tests"]
+
+[dependencies]
+rand = { version = "0.6", optional = true }
+num-traits = "0.2"
+serde = { version = "1", optional = true, features = ["derive"] }
+
+[dev-dependencies]
+extprim_literals = { version = "2.0", path = "./extprim_literals" }
+
+[build-dependencies]
+rustc_version = "0.2"
+semver = "0.9"
+
+[features]
+default = ["use-std", "rand", "serde"]
+use-std = []
+

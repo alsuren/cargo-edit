@@ -1,0 +1,23 @@
+[package]
+name = "tokio-kinetic"
+version = "0.2.0"
+authors = ["Peter Delevoryas <peter.delevoryas@colorado.edu>"]
+description = "Kinetic protocol client library built on tokio-rs."
+repository = "https://github.com/peterdelevoryas/tokio-kinetic"
+readme = "README.md"
+keywords = ["tokio", "kinetic"]
+license = "MIT"
+
+[dependencies]
+kinetic-protobuf = "0.1.0"
+protobuf = "1.0.24"
+futures = "0.1"
+tokio-core = "0.1"
+tokio-proto = "0.1"
+tokio-service = "0.1"
+byteorder = "1.0.0"
+ring = "0.9.4"
+log = "0.3.6"
+
+[dev-dependencies]
+env_logger = "0.3.5"

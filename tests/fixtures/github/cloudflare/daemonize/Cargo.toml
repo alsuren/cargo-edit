@@ -1,0 +1,18 @@
+[package]
+name = "cf-daemonize"
+version = "0.3.0"
+license = "MIT/Apache-2.0"
+authors = ["Fedor Gogolev <knsd@knsd.net>"]
+repository = "https://github.com/cloudflare/daemonize"
+readme = "README.md"
+description = "A (hopefully temporary) fork of the `daemonize` crate."
+
+[dependencies]
+libc = "0.2.4"
+clippy = {version = "0.0", optional = true}
+
+[dev-dependencies]
+tempdir = "0.3.4"
+
+[features]
+default=[]

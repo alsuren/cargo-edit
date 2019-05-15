@@ -1,0 +1,22 @@
+[package]
+name = "artsy"
+version = "0.1.1"
+authors = ["Jean-Marie Comets <jean.marie.comets@gmail.com>"]
+description = "ART Tree data structure library."
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/artsy"
+repository = "https://github.com/jmcomets/artsy"
+keywords = ["data-structure", "trie"]
+categories = ["data-structures"]
+edition = "2018"
+readme = "README.md"
+
+[dependencies]
+take_mut = "0.2.2"
+
+[features]
+default = ["node4", "node16", "node48"]
+no-simd = []
+node4 = []
+node16 = []
+node48 = []

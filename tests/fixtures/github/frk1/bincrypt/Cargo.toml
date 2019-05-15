@@ -1,0 +1,27 @@
+[package]
+name = "bincrypt"
+version = "0.3.3"
+authors = ["frk <hazefrk+dev@gmail.com>"]
+description = "Encrypt a file using XSalsa20-Poly1305!"
+documentation = "https://github.com/frk1/bincrypt"
+homepage = "https://github.com/frk1/bincrypt"
+repository = "https://github.com/frk1/bincrypt"
+keywords = ["encryption", "file", "decryption"]
+categories = ["command-line-utilities"]
+license = "MIT"
+build = "build.rs"
+
+[package.metadata.winres]
+ProductName = "bincrypt"
+OriginalFilename = "bincrypt.exe"
+LegalCopyright = "MIT-License"
+
+[dependencies]
+base64 = "0.10.1"
+failure = "0.1.5"
+rust_sodium = "0.10.2"
+structopt = "0.2.15"
+structopt-derive = "0.2.15"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1.9"

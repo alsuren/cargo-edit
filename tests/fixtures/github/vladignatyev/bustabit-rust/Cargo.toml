@@ -1,0 +1,34 @@
+[package]
+name = "bustabit"
+version = "0.2.0"
+authors = ["Vladimir Ignatev <ya.na.pochte@gmail.com>"]
+description = "The utility for verification of Bustabit games."
+license = "MIT"
+
+keywords = ["bustabit", "provably-fair", "game", "gambling"]
+categories = ["games", "cryptography", "simulation"]
+
+homepage = "https://github.com/vladignatyev/bustabit-rust"
+repository = "https://github.com/vladignatyev/bustabit-rust.git"
+documentation = "https://docs.rs/bustabit/0.2.0/bustabit/"
+readme = "README.md"
+
+[lib]
+name = "bustabit"
+path = "src/lib.rs"
+test = true
+doctest = true
+doc = true
+
+[dependencies]
+sha2 = "0.8.0"
+hex = "0.3.2"
+hmac = "0.7.0"
+byteorder = "1.3.1"
+
+[dev-dependencies]
+criterion = "0.2.9"
+
+[[bench]]
+name = "precise"
+harness = false

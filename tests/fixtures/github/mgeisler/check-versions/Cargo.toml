@@ -1,0 +1,31 @@
+[package]
+name = "version-sync"
+version = "0.8.1"
+authors = ["Martin Geisler <martin@geisler.net>"]
+description = """
+Simple crate for ensuring that version numbers in README files are
+updated when the crate version changes.
+"""
+documentation = "https://docs.rs/version-sync/"
+repository = "https://github.com/mgeisler/version-sync"
+readme = "README.md"
+keywords = ["version"]
+categories = ["development-tools", "rust-patterns"]
+license = "MIT"
+exclude = [".dir-locals.el"]
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "mgeisler/version-sync" }
+appveyor = { repository = "mgeisler/version-sync" }
+codecov = { repository = "mgeisler/version-sync" }
+
+[dependencies]
+pulldown-cmark = { version = "0.4", default-features = false }
+semver-parser = "0.9"
+syn = { version = "0.15", features = ["full"] }
+proc-macro2 = { version = "0.4", features = ["span-locations"] }
+toml = "0.5"
+url = "1.0"
+itertools = "0.8"
+regex = "1.1"

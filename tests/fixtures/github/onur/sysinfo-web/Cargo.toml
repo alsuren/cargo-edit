@@ -1,0 +1,29 @@
+[package]
+name = "sysinfo-web"
+description = "Lightweight web based process viewer built on top of sysinfo"
+version = "0.1.2"
+authors = ["Onur Aslan <onur@onur.im>", "Guillaume Gomez <guillaume1.gomez@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/onur/sysinfo-web"
+documentation = "https://docs.rs/sysinfo-web"
+
+[dependencies]
+serde = "1"
+serde_json = "1"
+iron = "0.6"
+hostname = "0.1"
+sysinfo = "0.5.6"
+flate2 = { version = "1.0.1", optional = true }
+
+[dev-dependencies]
+serde_derive = "1"
+
+[features]
+gzip = ["flate2"]
+default = ["gzip"]
+
+[[bin]]
+name = "sysinfo-web"
+test = false
+doc = false

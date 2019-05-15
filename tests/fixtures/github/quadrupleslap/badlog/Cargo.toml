@@ -1,0 +1,14 @@
+[package]
+name = "badlog"
+version = "1.1.1"
+description = "A simple, zero customization, colored logger."
+keywords = ["simple", "log", "logging", "logger", "color"]
+license = "MIT"
+repository = "https://github.com/quadrupleslap/badlog"
+authors = ["Ram Kaniyur <quadrupleslap@gmail.com>"]
+
+[dependencies]
+chrono = "0.4"
+env_logger = "0.5"
+libc = "0.2"
+log = "0.4"

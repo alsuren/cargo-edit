@@ -1,0 +1,11 @@
+[package]
+name = "ckeymap"
+version = "0.0.0"
+authors = [
+    "Alice Jenkinson <alice@jenkinson.nz>"
+]
+
+homepage = "https://github.com/0x52a1/ckeymap"
+repository = "https://github.com/0x52a1/ckeymap"
+description = "A no_std-compatible parser for Linux VT keymaps"
+license-file = "LICENSE"

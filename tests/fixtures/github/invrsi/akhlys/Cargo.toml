@@ -1,0 +1,12 @@
+[package]
+name = "akhlys"
+version = "0.0.0"
+authors = ["Sam Thomas <m@kali.ai>"]
+description = "A library for creating tools for binary analysis."
+repository = "https://github.com/invrsi/akhlys"
+readme = "README.md"
+license = "BSD-2-Clause"
+license-file = "LICENSE"
+
+
+[dependencies]

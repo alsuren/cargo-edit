@@ -1,0 +1,18 @@
+[package]
+name = "media-types"
+version = "0.2.0"
+authors = ["Pyfisch <pyfisch@gmail.com>"]
+description = "Media Types and utility methods."
+readme = "README.md"
+documentation = "http://pyfisch.github.io/rust-media-types/rust-media-types/index.html"
+repository = "https://github.com/pyfisch/rust-media-types"
+license = "MIT"
+keywords = ["mime", "media", "files", "http", "media-types"]
+
+[dependencies]
+charsets = "0.1.1"
+clippy = {version = "0.0.33", optional = true}
+
+[features]
+default = []
+dev = ["clippy"]

@@ -1,0 +1,18 @@
+[workspace]
+members = [
+	"noria",
+	"noria-server",
+	"noria-benchmarks",
+	"noria-benchmarks/lobsters",
+]
+
+[profile.release]
+debug=true
+
+[patch.crates-io]
+tower-service = { git = "https://github.com/tower-rs/tower.git" }
+tower-discover = { git = "https://github.com/tower-rs/tower.git" }
+tower-balance = { git = "https://github.com/tower-rs/tower.git" }
+tower-buffer = { git = "https://github.com/tower-rs/tower.git" }
+tower-util = { git = "https://github.com/tower-rs/tower.git" }
+tower = { git = "https://github.com/tower-rs/tower.git" }

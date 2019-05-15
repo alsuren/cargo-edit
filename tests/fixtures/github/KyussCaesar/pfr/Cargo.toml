@@ -1,0 +1,19 @@
+[package]
+name = "pfr"
+version = "0.2.0"
+authors = ["Antony Southworth <southworthy@gmail.com>"]
+license = "MIT"
+
+readme = "README.md"
+repository = "https://github.com/KyussCaesar/pfr"
+description = "personal financial reporting cli tool"
+
+keywords = ["cli", "finance", "reporting"]
+
+[dependencies]
+structopt = "0.2"
+clap = "2.31.1"
+serde = "1.0.33"
+serde_derive = "1.0"
+serde_json = "1.0"
+

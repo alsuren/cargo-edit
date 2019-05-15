@@ -1,0 +1,14 @@
+[package]
+name = "bifrost"
+version = "0.3.0"
+authors = ["Terah <terah.dev@gmail.com>"]
+description = "A channel based thread-safe event loop"
+homepage = "https://github.com/terahxluna/bifrost"
+repository = "https://github.com/terahxluna/bifrost"
+readme = "README.md"
+keywords = ["event", "dispatch", "eventloop", "channel", "scheduler"]
+categories = ["asynchronous"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "terahxluna/bifrost" }

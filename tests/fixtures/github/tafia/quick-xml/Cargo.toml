@@ -1,0 +1,32 @@
+[package]
+name = "quick-xml"
+version = "0.14.0"
+authors = ["Johann Tuffe <tafia973@gmail.com>"]
+description = "High performance xml reader and writer"
+
+documentation = "https://docs.rs/quick-xml"
+repository = "https://github.com/tafia/quick-xml"
+
+readme = "README.md"
+keywords = ["xml", "reader", "parser", "writer", "html"]
+categories = ["encoding", "parsing", "text-processing"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "tafia/quick-xml" }
+
+[dependencies]
+encoding_rs = "0.8.14"
+failure = { version = "0.1.5", optional = true }
+derive_more = "0.14"
+memchr = "2.1.2"
+log = "0.4.6"
+
+[dev-dependencies]
+xml-rs = "0.8.0"
+
+[lib]
+bench = false
+
+[features]
+default = ["failure"]

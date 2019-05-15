@@ -1,0 +1,22 @@
+[package]
+name = "binoxxo"
+version = "0.1.8"
+authors = ["Martin Suesskraut <martin.suesskraut@gmail.com>"]
+description = "Binoxxo is a library to create and check binoxxo puzzles."
+repository = "https://github.com/msuesskraut/Binoxxo"
+readme = "Readme.md"
+keywords = ["binoxxo", "puzzle", "puzzle-game", "game", "puzzle-generator"]
+categories = ["games"]
+license = "MIT"
+
+[features]
+default = []
+
+wasm-bindgen = ["rand/wasm-bindgen"]
+
+[dependencies]
+rand = "0.6"
+
+[badges]
+travis-ci = { repository = "msuesskraut/Binoxxo", branch = "master" }
+codecov = { repository = "msuesskraut/Binoxxo", branch = "master", service = "github" }

@@ -1,0 +1,11 @@
+[package]
+name = "mdslide"
+version = "0.0.1"
+authors = ["FuGangqiang <fu_gangqiang@qq.com>"]
+description = "create slide from markdown files."
+repository = "https://github.com/FuGangqiang/mdslide.rs"
+keywords = ["slide", "markdown", "mdslide"]
+license = "MIT"
+readme = "README.md"
+
+[dependencies]

@@ -1,0 +1,17 @@
+[package]
+name = "byte"
+version = "0.2.3"
+authors = ["goandylok"]
+license = "MIT/Apache-2.0"
+
+description = "A low-level, zero-copy, panic-free, binary serializer and deserializer."
+documentation = "https://docs.rs/byte"
+repository = "https://github.com/goandylok/byte"
+homepage = "https://github.com/goandylok/byte"
+
+keywords = ["binary", "parser", "decode", "encode", "no_std"]
+categories = ["no-std", "embedded", "encoding", "parsing"]
+
+[dev-dependencies]
+quickcheck = "0.3"
+byteorder = "1.0.0"

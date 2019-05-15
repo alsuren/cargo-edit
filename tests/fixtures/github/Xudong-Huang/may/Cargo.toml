@@ -1,0 +1,62 @@
+[package]
+name = "may"
+version = "0.3.7"
+authors = ["Xudong Huang <huangxu008@hotmail.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/Xudong-Huang/may.git"
+homepage = "https://github.com/Xudong-Huang/may.git"
+documentation = "https://docs.rs/may"
+description = "Rust Stackful Coroutine Library"
+readme = "README.md"
+keywords = ["coroutine", "async", "multi-thread"]
+categories = ["concurrency"]
+build = "build.rs"
+exclude = [
+    ".gitignore",
+    ".travis.yml",
+    "appveyor.yml",
+    "benches/**/*",
+    "docs/**/*",
+]
+
+[badges]
+travis-ci = { repository = "Xudong-Huang/may" }
+appveyor = { repository = "Xudong-Huang/may", service = "github" }
+
+[dependencies]
+log = "0.4"
+time = "0.1"
+socket2 = { version = "0.3", features = ["unix"] }
+num_cpus = "1.10"
+smallvec = "0.6"
+generator = "0.6"
+crossbeam = "0.7"
+may_queue = { version = "0.1", path = "may_queue" }
+
+[target.'cfg(unix)'.dependencies]
+nix = "0.13"
+libc = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+miow = "0.3"
+winapi = "0.3"
+
+[dev-dependencies]
+bytes = "0.4"
+serde = "1.0"
+docopt = "1.0"
+tempdir = "0.3"
+httparse = "1.1"
+native-tls = "0.2"
+tungstenite = "0.6"
+serde_derive = "1.0"
+
+
+[profile.release]
+lto = true
+
+[build-dependencies]
+rustc_version = "0.2"
+
+[workspace]
+members = ["may_queue"]

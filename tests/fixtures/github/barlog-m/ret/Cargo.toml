@@ -1,0 +1,21 @@
+[package]
+name = "ret"
+version = "0.0.0"
+authors = ["Barlog <barlog@tanelorn.li>"]
+edition = "2018"
+
+readme = "README.md"
+documentation = "https://docs.rs/ret"
+repository = "https://github.com/barlog-m/ret"
+homepage = "https://github.com/barlog-m/ret"
+license = "MIT"
+description = """
+A http client with minimum dependencies
+"""
+
+[dependencies]
+
+[profile.release]
+lto = true
+opt-level = 'z'
+panic = 'abort'

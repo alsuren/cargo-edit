@@ -1,0 +1,18 @@
+[package]
+name          = "string2"
+version       = "0.1.4"
+license       = "MIT"
+authors       = ["mitum <dangcheng@hotmail.com>"]
+description   = "string extension"
+homepage      = "https://github.com/mcorce/str"
+repository    = "https://github.com/mcorce/str"
+readme        = "README.md"
+keywords      = ["str", "string"]
+exclude       = [
+  ".gitignore",
+  ".travis.yml",
+  "deploy.sh",
+  "test/**/*",
+]
+
+[dependencies]

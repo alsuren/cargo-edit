@@ -1,0 +1,22 @@
+[package]
+name = "randical"
+version = "0.1.1"
+authors = ["Joe Ardent <code@ardent.nebcorp.com>"]
+
+description = "A simple UNIX commandline utility to generate sequences of random values of different types."
+
+repository = "https://github.com/nebkor/randical"
+
+readme = "README.md"
+
+keywords = ["unix", "commandline", "bin", "cli", "random"]
+
+categories = ["command-line-utilities"]
+
+license = "GPL-3.0-or-later"
+
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+rand = "~0.5.5"
+clap = "~2.32.0"

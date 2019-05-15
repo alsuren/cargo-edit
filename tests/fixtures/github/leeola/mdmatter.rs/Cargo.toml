@@ -1,0 +1,15 @@
+[package]
+name = "mdmatter"
+version = "0.0.1"
+authors = ["Lee Olayvar <leeolayvar@gmail.com>"]
+description = "A simple front matter parser (unstable)"
+keywords = ["frontmatter"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/leeola/mdmatter.rs"
+
+[dependencies]
+nom = "^2.0"
+
+[dev-dependencies]
+stainless = "0.1.6"

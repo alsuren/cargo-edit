@@ -1,0 +1,42 @@
+[package]
+name = "voluntary-servitude"
+version = "4.0.8"
+authors = ["Paulo Cabral Sanz <paulosanz@poli.ufrj.br>"]
+description = "Thread-safe appendable list with lock-free iterator"
+repository = "https://github.com/paulocsanz/voluntary-servitude"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["lock-free", "data-structure", "iterator", "vector", "thread-safe"]
+categories = ["concurrency", "data-structures"]
+edition = "2018"
+
+[lib]
+name = "voluntary_servitude"
+crate_type = ["lib"]
+
+[dev-dependencies]
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+criterion = "0.2"
+env_logger = "0.5"
+
+[[bench]]
+name = "vs_each"
+harness = false
+
+[dependencies]
+parking_lot = "0.7"
+log = { version = "0.4", optional = true }
+serde = { version = "1", features = ["derive"], optional = true }
+rayon = { version = "1", optional = true }
+
+[features]
+default = []
+logs = ["log"]
+rayon-traits = ["rayon"]
+serde-traits = ["serde"]
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docs_rs_workaround"]
+all-features = true

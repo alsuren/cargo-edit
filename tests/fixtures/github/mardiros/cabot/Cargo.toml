@@ -1,0 +1,36 @@
+[package]
+name = "cabot"
+version = "0.2.0"
+authors = ["Guillaume Gauvrit <guillaume@gauvr.it>"]
+readme = "README.md"
+keywords = ["http", "https", "request", "client"]
+categories = ["web-programming::http-client", "command-line-interface"]
+description = """Simple HTTP Client."""
+license = "BSD-3-Clause"
+documentation = "https://docs.rs/crate/cabot"
+#homepage = "https://github.com/mardiros/cabot"
+repository = "https://github.com/mardiros/cabot"
+
+
+[lib]
+name = "cabot"
+path = "src/lib.rs"
+
+
+[[bin]]
+name = "cabot"
+path = "src/bin.rs"
+doc = false
+
+[dependencies]
+
+clap = "^2.32.0"
+log = "^0.4.6"
+pretty_env_logger = "^0.2.5"
+lazy_static = "^1.1.0"
+regex = "^1.0.5"
+
+rustls = "^0.14.0"
+webpki = "^0.18.1"
+webpki-roots = "^0.15.0"
+url = "^1.7.0"

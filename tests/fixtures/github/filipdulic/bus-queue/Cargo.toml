@@ -1,0 +1,32 @@
+[package]
+name = "bus_queue"
+version = "0.3.10"
+authors = ["Filip Dulic <filip.dulic@gmail.com>", "Vladan Popovic <vladanovic@gmail.com>", "Bojan Petrovic <bojan_petrovic@fastmail.fm>"]
+description = "Lock-free Bounded non-Blocking Pub-Sub Queue"
+license = "Apache-2.0/MIT"
+keywords = ["pubsub", "lock-free", "queue","async","futures"]
+repository = "https://github.com/filipdulic/bus-queue"
+readme = "README.md"
+
+[dependencies]
+arc-swap = "0.3.6"
+futures = {version = "0.1", optional = true}
+tokio = {version = "0.1", optional = true}
+
+[features]
+default = ["async"]
+async = ["futures"]
+async-example = ["tokio"]
+
+[[example]]
+name = "bare-simple"
+path = "examples/bare-simple.rs"
+
+[[example]]
+name = "sync-simple"
+path = "examples/sync-simple.rs"
+
+[[example]]
+name = "async-simple"
+path = "examples/async-simple.rs"
+required-features = ["async-example"]

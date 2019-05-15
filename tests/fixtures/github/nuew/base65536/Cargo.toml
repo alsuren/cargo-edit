@@ -1,0 +1,21 @@
+[package]
+name = "base65536"
+version = "0.4.0" # please update html_root_url in src/lib.rs
+authors = ["Nuew <code@nuew.net>"]
+description = "A binary encoding optimized for UTF-32/UCS-4 encoded text and Twitter"
+license = "Apache-2.0"
+repository = "https://github.com/nuew/base65536"
+readme = "README.md"
+keywords = ["encode", "decode", "utf-8"]
+categories = ["encoding"]
+
+[badges]
+travis-ci = { repository = "nuew/base65536", branch = "master" }
+
+[features]
+default = ["fnv"]
+nightly = []
+
+[dependencies]
+fnv = { version = "1", optional = true }
+lazy_static = "1"

@@ -1,0 +1,17 @@
+[package]
+name = "github_webhook_message_validator"
+version = "0.1.2"
+authors = ["Mark S. Everitt <mark.s.everitt@gmail.com>"]
+description = "Provides functions for validating GitHub webhook payloads."
+repository = "https://github.com/qubyte/github_webhook_message_validator"
+homepage = "https://github.com/qubyte/github_webhook_message_validator"
+readme = "README.md"
+keywords = ["github", "webhook"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "qubyte/github_webhook_message_validator" }
+
+[dependencies]
+hmac = "0.7.0"
+sha-1 = "0.8.1"

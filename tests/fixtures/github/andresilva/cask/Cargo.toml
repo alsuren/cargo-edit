@@ -1,0 +1,26 @@
+[package]
+name = "cask"
+version = "0.7.1"
+authors = ["Andre Silva"]
+description = "A fast key-value store backed by a log-structured hash table"
+repository = "https://github.com/andresilva/cask"
+readme = "README.md"
+license = "MIT"
+keywords = ["database", "db", "key-value", "kv"]
+
+[dependencies]
+byteorder = "~1.2.0"
+fs2 = "~0.4.1"
+lazy_static = "~0.2.8"
+log = "~0.3.7"
+regex = "~0.2.1"
+time = "~0.1.37"
+twox-hash = "1.1.0"
+clippy = {version = "~0.0.138", optional = true}
+
+[dev-dependencies]
+env_logger = "~0.4.2"
+rand = "~0.3.15"
+
+[features]
+default = []

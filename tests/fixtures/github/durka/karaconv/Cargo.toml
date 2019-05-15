@@ -1,0 +1,33 @@
+[package]
+name = "karaconv"
+version = "0.3.0"
+authors = ["Alex Burka <rust@alexburka.com>"]
+
+description = "Converter from Karabiner to Karabiner-Elements configuration format"
+categories = ["command-line-utilities"]
+keywords = ["karabiner"]
+repository = "https://github.com/durka/karaconv"
+readme = "README.md"
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "durka/karaconv" }
+
+[dependencies]
+chrono = "0.4.0"
+failure = "0.1.1"
+failure_derive = "0.1.1"
+itertools = "0.7.7"
+regex = "0.2.9"
+result = "1.0.0"
+serde = { version = "1.0.30", features = ["derive"] }
+serde_json = { version = "1.0.11", features = ["preserve_order"] }
+serde-xml-rs = "0.2.1"
+structopt = "0.2.5"
+
+[dev-dependencies]
+tempdir = "0.3.6"
+# non-rust testing dependencies:
+# - jq >= 1.5 (github stedolan/jq)
+# - diff (the unix utility)
+

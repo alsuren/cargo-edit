@@ -1,0 +1,65 @@
+[package]
+name = "dbgen"
+version = "0.5.0"
+authors = ["kennytm <kennytm@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "Generate random test cases for databases"
+repository = "https://github.com/kennytm/dbgen"
+exclude = ["fuzz.sh", "release/*"]
+readme = "README.md"
+keywords = ["cli", "generator", "database", "fake"]
+categories = ["command-line-utilities", "simulation"]
+
+[badges]
+travis-ci = { repository = "kennytm/dbgen" }
+is-it-maintained-issue-resolution = { repository = "kennytm/dbgen" }
+is-it-maintained-open-issues = { repository = "kennytm/dbgen" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+structopt = "0.2"
+pest = "2.0"
+pest_derive = "2.0"
+failure = "0.1"
+rand = "0.6"
+data-encoding = "2.1"
+regex-syntax = "0.6"
+pbr = "1.0"
+num-traits = "0.2"
+rayon = "1.0"
+zipf = "5.0"
+chrono = { version = "0.4", default-features = false }
+chrono-tz = { version = "0.5.1", features = ["serde"] }
+ryu = "0.2"
+serde_derive = "1.0"
+serde = "1.0"
+muldiv = "0.2"
+rand_regex = "0.12"
+rand_pcg = "0.1"
+rand_isaac = "0.1"
+rand_chacha = "0.1"
+rand_hc = "0.1"
+rand_xorshift = "0.1"
+shlex = "0.1"
+flate2 = "1.0"
+xz2 = "0.1"
+zstd = { version = "0.4", default-features = false }
+
+[dev-dependencies]
+regex = "1.1"
+tempfile = "3.0"
+serde_json = "1.0"
+diff = "0.1"
+
+[build-dependencies]
+vergen = "3.0"
+
+[features]
+nightly = ["rand/nightly"]
+
+[profile.release]
+panic = "abort"
+lto = true
+codegen-units = 1
+

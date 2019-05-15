@@ -1,0 +1,44 @@
+[package]
+name = "minidump"
+description = "A parser for the minidump format."
+version = "0.2.0"
+authors = ["Ted Mielczarek <ted@mielczarek.org>"]
+license = "MIT"
+documentation = "https://luser.github.io/rust-project-docs/minidump/minidump/"
+homepage = "https://github.com/luser/rust-minidump"
+repository = "https://github.com/luser/rust-minidump"
+keywords = ["breakpad", "symbols"]
+categories = ["parsing"]
+readme = "README.md"
+exclude = [
+    "scripts/*",
+    "testdata/*",
+]
+
+
+[dependencies]
+failure = "0.1.1"
+range-map = "0.1.5"
+libc = "0.2.34"
+minidump-common = { version = "0.2.0", path = "minidump-common" }
+num-traits = "0.2"
+encoding = "0.2"
+chrono = "0.4.6"
+scroll = "0.9.0"
+memmap = "0.7.0"
+
+[dev-dependencies]
+test-assembler = "0.1.5"
+docmatic = "0.1.2"
+
+[workspace]
+members = [
+        "breakpad-symbols",
+        "minidump-common",
+        "minidump-processor",
+        "minidump-tools",
+]
+
+[replace]
+"scroll:0.9.0" = { git = "https://github.com/m4b/scroll", rev = "afbd4121c602363936b1c09b652f8ea04bb91eeb" }
+"scroll_derive:0.9.4" = { git = "https://github.com/m4b/scroll_derive", rev = "d8fe9d0a5a7ea21823ce9fd6206766ae81782e4a" }

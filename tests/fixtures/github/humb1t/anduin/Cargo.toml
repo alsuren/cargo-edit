@@ -1,0 +1,69 @@
+[package]
+name = "anduin"
+version = "0.0.4"
+authors = ["Nikita <humb1t@yandex.ru>"]
+exclude = [
+    "target/*",
+    "resources/*"
+]
+# A short blurb about the package. This is not rendered in any format when
+# uploaded to crates.io (aka this is not markdown).
+description = "Complex end to end game engine with usage of new technologies like vulkan api (vulkano), and basic principles: 1) Speed; 2) Memory Safety; 3) Cross-platform; 4) User Friendly"
+
+# These URLs point to more information about the repository.
+documentation = "https://github.com/humb1t/anduin"
+homepage = "https://github.com/humb1t/anduin"
+repository = "https://github.com/humb1t/anduin"
+
+# This points to a file in the repository (relative to this `Cargo.toml`). The
+# contents of this file are stored and indexed in the registry.
+readme = "README.md"
+
+# This is a small list of keywords used to categorize and search for this
+# package.
+keywords = ["game-engine", "vulkan", "game", "engine"]
+
+# This is a string description of the license for this package. Currently
+# crates.io will validate the license provided against a whitelist of known
+# license identifiers from http://spdx.org/licenses/. Multiple licenses can be
+# separated with a `/`.
+license = "AGPL-3.0"
+
+#prepare shaders TODO: try to move it out
+build = "build.rs"
+
+[dependencies]
+#utils
+time = "0.1"
+
+#math
+#nphysics2d = "0.1.*"
+#nphysics3d = "0.1.*"
+nalgebra = "0.10"
+#ncollide = "0.9.1"
+
+#graphics section ---------\
+winit = "0.5"
+
+#vulkan backend
+gl = "0.6"
+libc = "0.2"
+vulkano = "0.2.0"#{git = "https://github.com/tomaka/vulkano.git"}
+vulkano-win = "0.2.0"#{git = "https://github.com/tomaka/vulkano.git"}
+
+#gfx backend
+gfx="0.12"
+glutin = "0.6"
+gfx_window_glutin = "0.12"
+
+#glium backend
+glium="0.15"
+image = "0.10"
+#graphics section ---------/
+
+#sound
+ears = "0.3"
+
+[build-dependencies]
+vk-sys = "0.1.1"
+vulkano-shaders = "0.2.0"

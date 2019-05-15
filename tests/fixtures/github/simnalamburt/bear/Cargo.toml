@@ -1,0 +1,11 @@
+[package]
+name          = "bear"
+version       = "0.2.0"
+authors       = ["Hyeon Kim <simnalamburt@gmail.com>"]
+description   = "A dead-simple test helper for rust."
+documentation = "https://simnalamburt.github.io/bear"
+homepage      = "https://github.com/simnalamburt/bear"
+repository    = "https://github.com/simnalamburt/bear"
+readme        = "README.md"
+keywords      = ["test"]
+license       = "BSD-2-Clause"

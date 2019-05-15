@@ -1,0 +1,96 @@
+[package]
+name = "synapse-bt"
+description = "Synapse BitTorrent client"
+version = "0.1.0"
+authors = ["Luminarys <postmaster@gensok.io>"]
+build = "build.rs"
+license = "ISC"
+repository = "https://github.com/Luminarys/synapse"
+
+[[bin]]
+path = "src/main.rs"
+name = "synapse"
+
+[workspace]
+members = ["sycli", "rpc", "session", "bencode", "adns"]
+exclude = ["synulator"]
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies]
+base32 = "0.3.1"
+base64 = "0.9.2"
+bincode = "1"
+byteorder = "1"
+clippy = {version = "*", optional = true}
+fnv = "1"
+fs_extra = "1"
+httparse = "1"
+http-range = "0.1"
+lazy_static = "1"
+libc = "0.2"
+memmap = "0.6"
+metrohash = "1"
+net2 = "0.2"
+nix = "0.11"
+openssl = "0.10"
+rand = "0.5.3"
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+shellexpand = "1"
+synapse-rpc = { path = "rpc" }
+synapse-session = { path = "session" }
+synapse-bencode = { path = "bencode" }
+adns = { path = "adns" }
+toml = "0.4"
+url = "1"
+vecio = "0.1"
+getopts = "0.2"
+
+[dependencies.amy]
+version = "0.10"
+default-features = false
+features = ["no_timerfd"]
+
+[dependencies.chrono]
+version = "0.4"
+default-features = false
+features = ["clock", "serde"]
+
+[dependencies.error-chain]
+version = "0.12"
+default-features = false
+features = []
+
+[dependencies.num-bigint]
+version = "0.2.0"
+default-features = false
+features = ["serde", "std"]
+
+[profile.bench]
+opt-level = 3
+debug = true
+debug-assertions = true
+
+[profile.release]
+opt-level = 3
+debug = true
+debug-assertions = false
+panic = 'unwind'
+
+[features]
+default = []
+autobahn = []
+allocator = []
+mmap = []
+
+[package.metadata.deb]
+assets = [
+    ["target/release/synapse", "usr/bin/", "755"],
+    ["target/release/sycli", "usr/bin/", "755"],
+    ["README.md", "usr/share/doc/synapse/README", "644"],
+    ["example_config.toml", "usr/share/synapse/synapse.toml.example", "644"],
+    ["sycli_config.toml", "usr/share/synapse/sycli.toml.example", "644"]
+]

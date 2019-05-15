@@ -1,0 +1,28 @@
+[package]
+name = "nvptx"
+version = "0.2.4-alpha.0"
+authors = ["Toshiki Teramura <toshiki.teramura@gmail.com>"]
+
+description   = "Rust to PTX compiler using LLVM/NVPTX target"
+documentation = "https://docs.rs/nvptx/"
+repository    = "https://github.com/rust-accel/nvptx"
+keywords      = ["GPGPU", "CUDA", "cli", "LLVM"]
+categories    = ["development-tools", "development-tools::cargo-plugins", "development-tools::build-utils", "development-tools::testing"]
+license       = "MIT"
+
+[dependencies]
+toml = "0.4.5"
+tempdir = "0.3"
+glob = "0.2"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+dirs = "1.0"
+failure = "0.1"
+log = "0.4"
+structopt = "0.2"
+llvm-sys = "60"
+colored = "1"
+
+[package.metadata.nvptx]
+runtime = ["core"]

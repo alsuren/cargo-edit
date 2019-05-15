@@ -1,0 +1,27 @@
+[package]
+authors = ["Lorenzo Villani <lorenzo@villani.me>"]
+description = "Automated backups using Borg Backup"
+homepage = "https://github.com/lvillani/borg-hive"
+license = "GPL-3.0"
+name = "borg-hive"
+repository = "https://github.com/lvillani/borg-hive"
+version = "0.0.2"
+
+[dependencies]
+app_dirs = "1"
+chrono = { version = "0.4", features = ["serde"] }
+clap = "2"
+error-chain = "0.10"
+keyring = "0.5"
+rpassword = "0.4"
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+shellexpand = "1"
+slog = "2"
+slog-async = "2"
+slog-scope = "4"
+slog-term = "2"
+
+[dev-dependencies]
+tempdir = "0.3"

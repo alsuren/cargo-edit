@@ -1,0 +1,15 @@
+[package]
+name = "onedrive-sync"
+version = "0.0.1"
+authors = ["uHOOCCOOHu <hooccooh1896@gmail.com>"]
+repository = "https://github.com/uHOOCCOOHu/onedrive-sync"
+license = "MIT"
+categories = ["filesystem", "command-line-utilities"]
+keywords = ["onedrive", "sync"]
+description = "OneDrive client with file sync"
+edition = "2018"
+readme = "README.md"
+documentation = "https://docs.rs/onedrive-sync"
+
+[dependencies]
+onedrive-api = "0.4.0"

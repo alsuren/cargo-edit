@@ -1,0 +1,34 @@
+[package]
+name = "smartcrop"
+description="Clone of smartcrop library in JavaScript"
+repository="https://github.com/bekh6ex/rust-smartcrop"
+license="MIT"
+version = "0.1.0"
+edition = "2018"
+authors = ["Aleksey Bekh-Ivanov <6ex@mail.ru>"]
+include = [
+    "src/*.rs",
+    "Cargo.toml",
+]
+
+[badges]
+travis-ci = { repository = "bekh6ex/rust-smartcrop", branch = "master" }
+codecov = { repository = "bekh6ex/rust-smartcrop" }
+is-it-maintained-issue-resolution = { repository = "bekh6ex/rust-smartcrop" }
+is-it-maintained-open-issues = { repository = "bekh6ex/rust-smartcrop" }
+
+[features]
+default =["image"]
+
+[dependencies]
+image = { version = ">=0.17.0,<0.20.0", optional = true }
+clap = { version = "^2.31", optional = true }
+
+[dev-dependencies]
+proptest = "^0.8.7"
+rand = "^0.5.0"
+
+[[bin]]
+name="smartcrop-cli"
+path="src/bin/cli.rs"
+required-features = ["image", "clap"]

@@ -1,0 +1,19 @@
+[package]
+name = "minimal-id"
+version = "0.2.2-alpha.0"
+authors = ["Russell Hay <me@russellhay.com>"]
+edition = "2018"
+description = "A library that implements generating short, unique ids with minimal collisions and good locality"
+repository = "https://github.com/RussTheAerialist/rust-minimal-id"
+readme = "README.md"
+keywords = [ "database", "identity", "url", "id", "unique" ]
+categories = [ "data-structures", "development-tools", "web-programming" ]
+license = "MIT"
+
+[dependencies]
+byteorder = "~1"
+data-encoding = "~2"
+rand = "~0"
+
+[dev-dependencies]
+rusty-hook = "~0"

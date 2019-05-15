@@ -1,0 +1,12 @@
+[package]
+name = "dtl"
+version = "0.0.2"
+description = "Django Template Language for Rust"
+authors = ["Vladislav Orlov <orlov@tesjin.ru>", "Slava Baginov <slnpacifist@gmail.com>"]
+repository = "https://github.com/tesjin/rust-dtl"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+mopa = "0.2"
+chrono = { version = "0.2", optional = true }

@@ -1,0 +1,14 @@
+[package]
+name = "insert_multiple"
+version = "0.2.0"
+authors = ["Peter Goodspeed-Niklaus <peter.r.goodspeedniklaus@gmail.com>"]
+description = "insert multiple items into a stream in reasonable runtime"
+repository = "https://github.com/coriolinus/insert_multiple"
+license = "MIT"
+readme = "README.md"
+keywords = ["streams", "read", "write", "insert"]
+categories = ["data-structures"]
+documentation = "https://docs.rs/insert_multiple"
+
+
+[dependencies]

@@ -1,0 +1,23 @@
+[package]
+name = "rabbiteer"
+version = "1.4.1"
+authors = ["Martin Algesten <martin@algesten.se>"]
+description = "AMQP/RabbitMQ input/output CLI tool"
+repository = "https://github.com/algesten/rabbiteer-rs"
+license = "MIT"
+keywords = ["amqp", "rabbitmq"]
+readme = "README.md"
+
+[dependencies]
+clap = "2"
+rand = "0.5"
+conduit-mime-types = "0.7"
+rustc-serialize = "0.3"
+url = "1"
+
+[dependencies.amqp]
+#git = "https://github.com/algesten/rust-amqp"
+#branch = "rabbiteer"
+#path = "/Users/martin/dev/_dist/rust-amqp"
+version = "0.1"
+default-features = false

@@ -1,0 +1,30 @@
+[[bin]]
+name = 'calcver'
+path = 'src/bin.rs'
+
+[dependencies]
+clap = '2.29.2'
+git2 = '0.6'
+quick-error = '^1.0.0'
+regex = '0.2'
+semver = '0.9.0'
+serde = '1.0'
+serde_derive = '1.0'
+serde_yaml = '0.7'
+toml = '0.4'
+
+[lib]
+name = 'calcver'
+path = 'src/lib.rs'
+
+[package]
+authors = [
+    'Jerahmeel Cosinas <me@jerahmeelcosinas.net>',
+    'Joelle Ortiz <contact@joelleortiz.me>',
+]
+description = 'auto calculation of version based on http://conventionalcommits.org'
+documentation = 'https://github.com/easy-semver/calcver-cli'
+license = 'Apache-2.0'
+name = 'calcver'
+repository = 'https://github.com/easy-semver/calcver-cli'
+version = '0.1.0-alpha.26'

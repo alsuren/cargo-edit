@@ -1,0 +1,22 @@
+[package]
+authors = ["Sunrin SHIMURA (keen) <3han5chou7@gmail.com>"]
+name = "chema"
+version = "0.0.7"
+license = "Apache-2.0/MIT"
+description = "An external DSL for JSON Schema"
+readme = "README.md"
+repository = "https://github.com/KeenS/chema"
+keywords = ["json-schema", "swagger", "DSL", "cli"]
+categories = ["development-tools"]
+
+[dependencies]
+combine = "3.5.2"
+env_logger = "0.6.0"
+lazy_static = "1.0"
+log = "0.4.0"
+regex = "1.0"
+serde = "1.0"
+serde_json = "1.0"
+serde_yaml = "0.8.0"
+structopt = "0.2.0"
+structopt-derive = "0.2.0"

@@ -1,0 +1,17 @@
+[package]
+name = "make_hyper_great_again"
+version = "0.11.0"
+authors = ["Kyle Clemens <me@kyleclemens.com>"]
+description = "Wrap async hyper back to the good ol' days."
+license = "MPL-2.0"
+documentation = "https://docs.rs/make_hyper_great_again"
+repository = "https://github.com/jkcclemens/make_hyper_great_again/"
+
+[dependencies]
+hyper = "0.11"
+tokio-core = "0.1"
+futures = "0.1"
+
+[dev-dependencies]
+hyper-rustls = "0.7"
+hyper-tls = "0.1"

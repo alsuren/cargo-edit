@@ -1,0 +1,25 @@
+[package]
+name = "dark"
+description = "Practical BWT-based compressor"
+repository = "https://github.com/kvark/dark"
+version = "0.1.0"
+authors = ["Dzmitry Malyshau <kvarkus@gmail.com>"]
+license = "MIT/Apache-2.0"
+
+[features]
+default = []
+unstable = []
+
+[[bin]]
+name = "dark"
+
+[dependencies]
+byteorder = "*"
+compress = "0.1"
+env_logger = "*"
+getopts = "*"
+log = "*"
+num = "*"
+
+[dev_dependencies]
+rand = "*"

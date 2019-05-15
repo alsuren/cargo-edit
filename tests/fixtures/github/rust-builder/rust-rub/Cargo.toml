@@ -1,0 +1,34 @@
+[package]
+name = "rust_rub"
+version = "0.0.6-pre"
+authors = ["Jason Ozias <jason.g.ozias@gmail.com>"]
+description = "Rust Builder for Rust"
+documentation = "http://rust-builder.github.io/rust-rub"
+homepage = "http://rust-builder.github.io/rust-rub"
+repository = "https://github.com/rust-builder/rust-rub"
+readme = "README.md"
+license = "MIT"
+keywords = ["buildable","rub"]
+build = "build.rs"
+
+[build-dependencies]
+time = "*"
+
+[dependencies]
+docopt = "*"
+rustc-serialize = "*"
+
+[dependencies.buildable]
+git = "https://github.com/rust-builder/buildable.git"
+
+[dependencies.commandext]
+git = "https://github.com/rust-builder/commandext.git"
+
+[dependencies.scm]
+git = "https://github.com/rust-builder/scm.git"
+
+[dependencies.utils]
+git = "https://github.com/rust-builder/utils.git"
+
+[lib]
+name = "rust_rub"

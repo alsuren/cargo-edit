@@ -1,0 +1,55 @@
+[package]
+name = "xmr"
+version = "0.1.0"
+authors = [
+    "Jean Pierre Dudey <jeandudey@hotmail.com>",
+    "Parity Technologies <admin@parity.io>"
+]
+license = "GPL-3.0-only"
+description = "Monero node implementation in Rust."
+documentation = "https://github.com/xmr-rs/xmr"
+homepage = "https://github.com/xmr-rs/xmr"
+repository = "https://github.com/xmr-rs/xmr.git"
+include = ["LICENSE-GPL"]
+
+[[bin]]
+name = "dxmr"
+path = "dxmr/main.rs"
+
+[workspace]
+members = [
+    "chain",
+    "crypto",
+    "db",
+    "format",
+    "keys",
+    "levin",
+    "network",
+    "p2p",
+    "portable-storage-utils",
+    "portable-storage",
+    "primitives",
+    "rct",
+    "storage",
+    "sync",
+    "varint",
+    "verification",
+]
+
+[dependencies]
+app_dirs = "1.1.1"
+clap = "2.29.2"
+
+env_logger = "0.5.0"
+log = "0.4.1"
+
+failure = "0.1.1"
+
+rand = "0.4.2"
+
+xmr-chain = { path  = "chain" }
+xmr-db = { path = "db" }
+xmr-network = { path = "network" }
+xmr-storage = { path = "storage" }
+xmr-p2p = { path = "p2p" }
+xmr-sync = { path = "sync" }

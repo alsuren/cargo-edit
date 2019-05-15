@@ -1,0 +1,13 @@
+[package]
+name = "fs-crypto"
+version = "0.1.0"
+authors = ["bugagashenkj <bugagashenkj@gmail.com>"]
+edition = "2018"
+description = "File system encryptor"
+license = "MIT"
+homepage = "https://github.com/bugagashenkj/fs-crypto"
+repository = "https://github.com/bugagashenkj/fs-crypto"
+
+[dependencies]
+openssl = "^0.10"
+rpassword = "2.1.0"

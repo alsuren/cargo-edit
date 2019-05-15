@@ -1,0 +1,35 @@
+[package]
+name = "cmdshelf"
+version = "2.0.2"
+authors = ["Toshihiro Suzuki <t.suzuki326@gmail.com>"]
+categories = ["command-line-utilities"]
+description = "Better scripting life with cmdshelf"
+homepage = "https://github.com/toshi0383/cmdshelf"
+
+keywords = [
+    "script",
+    "management",
+    "command",
+    "filesystem",
+    "tool",
+]
+
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/toshi0383/cmdshelf"
+
+exclude = [
+    "docs/getting-started.md",
+    "scripts/*",
+    "fixtures/*",
+]
+
+[dependencies]
+is_executable = "0.1.0"
+walkdir = "2"
+toml = "0.4"
+serde = "1"
+serde_derive = "1"
+
+[profile.release]
+opt-level = 3

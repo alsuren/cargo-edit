@@ -1,0 +1,10 @@
+[package]
+authors = ["Zeyla Hellyer <zeylahellyer@gmail.com>"]
+description = "ISO 3166-3 data."
+documentation = "http://docs.rs/iso3166_3"
+license = "ISC"
+keywords = ["iso3166", "iso3166-3", "ISO", "3166", "3166-3"]
+name = "iso3166-3"
+readme = "README.md"
+repository = "https://github.com/zeyla/iso3166-3.rs"
+version = "0.3.0"

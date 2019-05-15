@@ -1,0 +1,39 @@
+[package]
+name        = "neobirth"
+description = """
+              Pure Data-powered acid house music synthesizer for the
+              Adafruit NeoTrellis M4 Express
+              """
+version     = "0.1.1"
+authors     = ["Tony Arcieri <bascule@gmail.com>"]
+license     = "Apache-2.0"
+homepage    = "https://neobirth.org"
+repository  = "https://github.com/NeoBirth/NeoBirth"
+readme      = "README.md"
+edition     = "2018"
+categories  = ["embedded", "multimedia::audio", "no-std"]
+keywords    = ["303", "audio", "music", "synthesis", "puredata"]
+
+[dependencies]
+panic-halt = "0.2"
+purezen = { version = "0.0.2", default-features = false }
+trellis_m4 = { version = "0.1", features = ["adxl343", "keypad-unproven"] }
+smart-leds = "0.1"
+ws2812-nop-samd51 = { git = "https://github.com/smart-leds-rs/ws2812-nop-samd51.git" }
+
+[badges]
+travis-ci = { repository = "NeoBirth/NeoBirth" }
+
+[profile.dev]
+incremental = false
+codegen-units = 1
+debug = true
+lto = false
+
+[profile.release]
+debug = true
+lto = false
+opt-level = "s"
+
+[patch.crates-io]
+trellis_m4 = { git = "https://github.com/atsamd-rs/atsamd" }

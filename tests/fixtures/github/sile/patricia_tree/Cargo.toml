@@ -1,0 +1,31 @@
+[package]
+name = "patricia_tree"
+version = "0.1.8"
+authors = ["Takeru Ohta <phjgt308@gmail.com>"]
+description = "Memory-efficient data structures based on patricia tree"
+homepage = "https://github.com/sile/patricia_tree"
+repository = "https://github.com/sile/patricia_tree"
+readme = "README.md"
+keywords = ["patricia", "radix", "trie"]
+categories = ["data-structures"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "sile/patricia_tree" }
+codecov = { repository = "sile/patricia_tree" }
+
+[features]
+binary-format = ["bytecodec", "trackable"]
+
+[dependencies]
+bitflags = "1"
+bytecodec = { version = "0.4", optional = true }
+libc = "0.2"
+trackable = { version = "0.2", optional = true }
+
+[dev-dependencies]
+clap = "2"
+rand = "0.5"
+
+[package.metadata.docs.rs]
+all-features = true

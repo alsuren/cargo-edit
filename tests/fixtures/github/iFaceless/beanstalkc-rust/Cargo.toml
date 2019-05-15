@@ -1,0 +1,21 @@
+[package]
+name = "beanstalkc"
+version = "0.2.7"
+authors = ["iFaceless <christopherlee199398@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+description = "Yet another simple Beanstalkd client for Rust."
+homepage = "https://github.com/iFaceless/beanstalkc-rust"
+repository = "https://github.com/iFaceless/beanstalkc-rust"
+keywords = ["beanstalkd", "beanstalkc", "beanstalkc-rust", "queue", "beanstalk"]
+categories = ["network-programming"]
+license = "MIT"
+
+[lib]
+name = "beanstalkc"
+path = "src/lib.rs"
+
+[dependencies]
+bufstream = "0.1.4"
+serde = "^1.0"
+serde_yaml = "^0.8"

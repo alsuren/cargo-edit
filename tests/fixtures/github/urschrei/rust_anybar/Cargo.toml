@@ -1,0 +1,18 @@
+[package]
+name = "anybar_rs"
+version = "1.0.11"
+authors = ["Stephan Hügel <urschrei@gmail.com>"]
+description = "A Rust application for controlling Anybar"
+repository = "https://github.com/urschrei/rust_anybar"
+readme = "README.md"
+keywords = ["Anybar"]
+license = "MIT"
+
+[dependencies]
+clap = "2.30.0"
+
+[profile.release]
+lto = true
+
+[[bin]]
+name = "anybar_rs"

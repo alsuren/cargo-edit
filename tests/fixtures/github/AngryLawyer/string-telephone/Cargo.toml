@@ -1,0 +1,29 @@
+[package]
+
+name = "string_telephone"
+description = "Simple networking abstractions, desgined for games"
+version = "0.0.3"
+authors = ["Tony Aldridge <tony@angry-lawyer.com>"]
+license = "MIT"
+repository = "https://github.com/AngryLawyer/string-telephone"
+keywords = ["Networking", "UDP"]
+documentation = "http://angrylawyer.github.io/string-telephone/string_telephone/"
+exclude = ["build_docs.sh"]
+
+[lib]
+
+name = "string_telephone"
+path = "src/lib.rs"
+
+[[bin]]
+
+name = "demo_client"
+path = "src/demo/demo_client.rs"
+
+[[bin]]
+
+name = "demo_server"
+path = "src/demo/demo_server.rs"
+
+[dependencies]
+time = "0.1.15"

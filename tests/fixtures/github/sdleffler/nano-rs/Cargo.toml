@@ -1,0 +1,16 @@
+[package]
+name = "nano"
+version = "0.1.0"
+authors = ["Sean Leffler <sean@errno.com>"]
+
+description = "A nanopass compiler framework for Rust. Or at least Soon (tm) - I'm squatting this name for now. If you want it, please email me at sean <at> errno <dot> com."
+
+homepage = "https://github.com/sdleffler/nano-rs"
+repository = "https://github.com/sdleffler/nano-rs"
+
+keywords = ["compiler", "nanopass", "framework", "syntax", "transform"]
+categories = []
+
+license = "Apache-2.0/MIT"
+
+[dependencies]

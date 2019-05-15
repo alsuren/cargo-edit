@@ -1,0 +1,26 @@
+[package]
+name = "vecshard"
+version = "0.2.1"
+authors = ["muvlon <muvlon@hentzes.de>"]
+description = "Split Vecs in constant time"
+repository = "https://github.com/whentze/vecshard"
+categories = ["algorithms", "data-structures", "memory-management"]
+readme = "README.md"
+license = "CC0-1.0"
+keywords = ["vec", "split", "allocation", "fast"]
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "whentze/vecshard" }
+coveralls = { repository = "whentze/vecshard" }
+
+[dev-dependencies]
+criterion = "0.2.11"
+serde_test = "1.0.90"
+
+[[bench]]
+name = "criterion"
+harness = false
+
+[dependencies]
+serde = { optional = true, version = "1.0.90" }

@@ -1,0 +1,20 @@
+[package]
+name = "imagefmt"
+version = "4.0.0"
+authors = ["Tero Hänninen"]
+description = "Image decoders: PNG, TGA, BMP, JPEG. Encoders: PNG, TGA, BMP."
+license = "MIT"
+include = ["src/*", "Cargo.toml", "README.md", "LICENSE"]
+repository = "https://github.com/lgvz/imagefmt"
+documentation = "http://lgvz.github.io/imagefmt/imagefmt/"
+keywords = ["image", "png", "jpeg", "bmp", "tga"]
+
+[features]
+default = ["png", "jpeg", "bmp", "tga"]
+png = ["flate2"]
+jpeg = []
+bmp = []
+tga = []
+
+[dependencies]
+flate2 = { version = "0.2", optional = true }

@@ -1,0 +1,26 @@
+[package]
+
+name = "camera_controllers"
+version = "0.27.0"
+authors = [
+    "bvssvni <bvssvni@gmail.com>",
+    "stjahns <s.t.jahns@gmail.com>"
+]
+keywords = ["camera", "controllers", "piston", "3d"]
+description = "A library for 3D camera control."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PistonDevelopers/camera_controllers.git"
+homepage = "https://github.com/PistonDevelopers/camera_controllers"
+
+[lib]
+
+name = "camera_controllers"
+path = "src/lib.rs"
+
+[dependencies]
+bitflags = "1.0.0"
+piston3d-cam = "0.3.0"
+pistoncore-input = "0.24.0"
+vecmath = "0.3.0"
+quaternion = "0.3.0"

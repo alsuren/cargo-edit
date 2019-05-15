@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "maud_htmlescape",
+    "maud_macros",
+    "maud",
+]
+exclude = [
+    "benchmarks",
+    "docs",
+]

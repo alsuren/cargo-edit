@@ -1,0 +1,15 @@
+[package]
+
+version = "0.0.1"
+name = "fun"
+authors = ["Darin Morrison <darinmorrison+epsilonz@gmail.com>"]
+description = "A small prelude for functional programming in Rust"
+documentation = "http://epsilonz.github.io/fun.rs/doc/fun/"
+keywords = ["functional", "prelude"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/epsilonz/fun.rs"
+
+[lib]
+name = "fun"
+path = "src/lib.rs"

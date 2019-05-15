@@ -1,0 +1,135 @@
+[package]
+name = "cargo-extras"
+version = "0.3.0"
+license = "MIT"
+description = """
+A collection of cargo subcommands:
+ * cargo-check
+ * cargo-clone
+ * cargo-config
+ * cargo-count 
+ * cargo-do 
+ * cargo-edit 
+ * cargo-graph 
+ * cargo-open 
+ * cargo-outdated 
+ * cargo-script
+ * cargo-vendor 
+ * cargo-watch 
+"""
+keywords = ["cargo", "subcommands", "command", "collection", "pack"]
+readme = "README.md"
+repository = "https://github.com/kbknapp/cargo-extras.git"
+authors = [
+  "Kevin K. <kbknapp@gmail.com>", # cargo-outdated, cargo-count, cargo-graph
+  "Max New <maxsnew@gmail.com>", # cargo-grpah
+  "Ray Solomon <raybsolomon@gmail.com>", # cargo-check, cargo-clippy
+  "Paul Woolcock <paul@woolcock.us>", # cargo-do, cargo-fmt
+  "Without Boats <lee@libertad.ucsd.edu>", # cargo-edit (add, rm, list)
+  "Pascal Hertleif <killercup@gmail.com>", # cargo-edit (add, rm, list)
+  "Daniel Keep <daniel.keep@gmail.com>", # cargo-script
+  "Félix Saparelli <me@passcod.name>", # cargo-watch
+  "Antti Keränen <detegr@gmail.com>", # cargo-watch
+  "Konstantin Stepanov <me@kstep.me>", # cargo-watch
+  "Jonathan Neuschäfer <j.neuschaefer@gmx.net>", # cargo-watch
+  "Gabor Nagy <mail@aigeruth.hu>", # cargo-watch
+  "Ivan Jager <aij+git@mrph.org>", # cargo-watch
+  "Christopher Brickley <brickley@gmail.com>", # cargo-watch
+  "Wesley Wiser <wwiser@gmail.com>", # cargo-config
+  "Carol (Nichols || Goulding) <carol.nichols@gmail.com>", # cargo-open
+  "Alex Crichton <alex@alexcrichton.com>", # cargo-vendor
+]
+
+[[bin]]
+name = "cargo-check"
+path = "src/cargo-check/src/main.rs"
+
+[[bin]]
+name = "cargo-count"
+path = "src/cargo-count/src/main.rs"
+
+[[bin]]
+name = "cargo-graph"
+path = "src/cargo-graph/src/main.rs"
+
+[[bin]]
+name = "cargo-outdated"
+path = "src/cargo-outdated/src/main.rs"
+
+[[bin]]
+name = "cargo-list"
+path = "src/cargo-edit/src/bin/list/main.rs"
+
+[[bin]]
+name = "cargo-add"
+path = "src/cargo-edit/src/bin/add/main.rs"
+
+[[bin]]
+name = "cargo-rm"
+path = "src/cargo-edit/src/bin/rm/main.rs"
+
+[[bin]]
+name = "cargo-script"
+path = "src/cargo-script/src/main.rs"
+
+[[bin]]
+name = "cargo-watch"
+path = "src/cargo-watch/src/main.rs"
+
+[[bin]]
+name = "cargo-config"
+path = "src/cargo-config/src/main.rs"
+
+[[bin]]
+name = "cargo-open"
+path = "src/cargo-open/src/main.rs"
+
+[[bin]]
+name = "cargo-vendor"
+path = "src/cargo-vendor/src/main.rs"
+
+[dependencies]
+### cargo-count
+clap      = "2.4.0"
+glob      = "0.2.10"
+regex     = "0.1.44"
+tabwriter = "0.1.24"
+gitignore = "1.0.2"
+ansi_term = {version = "0.7.1", optional = true}
+### cargo-graph
+toml = "0.1.25"
+### cargo-outdated
+semver = "0.2.0"
+tempdir = "0.3.4"
+### cargo-edit
+pad = "0.1.4"
+curl = "0.2.15"
+quick-error = "0.1.4"
+cargo-edit = "0.1.0"
+### cargo-script
+env_logger = "0.3.2"
+hoedown = "3.0.3"
+lazy_static = "0.1.15"
+log = "0.3.4"
+rustc-serialize = "0.3.16"
+shaman = "0.1.0"
+time = "0.1.34"
+### cargo-watch
+docopt = "0.6.78"
+notify = "2.5.2"
+### cargo-clippy
+### cargo-config
+### cargo-open
+cargo = "0.6.1"
+### cargo-vendor
+url = "0.5.2"
+git2 = "0.3.3"
+
+[dev-dependencies]
+## cargo-edit
+assert_cli = "0.2.0"
+tempdir = "0.3"
+
+[features]
+default = ["color"]
+color   = ["ansi_term"]

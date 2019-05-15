@@ -1,0 +1,44 @@
+[project]
+name = "cql-ffi-safe"
+description = "A safe wrapper of the cql-ffi crate"
+license = "Apache-2.0"
+homepage = "https://github.com/tupshin/cql-ffi-safe"
+repository = "https://github.com/tupshin/cql-ffi-safe"
+version = "0.0.7"
+
+authors = ["Tupshin Harper <tupshin@tupshin.com>"]
+
+[[bin]]
+name = "async"
+path = "src/bin/async.rs"
+
+[[bin]]
+name = "basic"
+path = "src/bin/basic.rs"
+
+[[bin]]
+name = "batch"
+path = "src/bin/batch.rs"
+
+[[bin]]
+name = "collections"
+path = "src/bin/collections.rs"
+
+[[bin]]
+name = "map"
+path = "src/bin/map.rs"
+
+[[bin]]
+name = "simple"
+path = "src/bin/simple.rs"
+
+[lib]
+name = "cql_ffi_safe"
+path = "src/lib.rs"
+
+[dependencies.cql_ffi]
+# git = "https://github.com/tupshin/cql-ffi"
+cql_ffi = "*"
+
+[dependencies.uuid]
+uuid = "0.1.9"

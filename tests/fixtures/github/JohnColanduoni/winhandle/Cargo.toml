@@ -1,0 +1,20 @@
+[package]
+name = "winhandle"
+version = "0.3.0"
+
+description = "A set of types to make interacting with Windows APIs safer and easier."
+repository = "https://github.com/JohnColanduoni/winhandle"
+authors = ["john@colanduoni.com"]
+license = "MIT OR Apache-2.0"
+
+keywords = ["windows"]
+categories = ["os::windows-apis", "external-ffi-bindings"]
+
+[dependencies]
+log = ">=0.3"
+winapi = { version = "0.3", features = ["minwindef", "windef", "winnt", "winbase", "unknwnbase", "winerror", "errhandlingapi", "handleapi", "winuser"] }
+lazy_static = "0.2"
+widestring = "0.2"
+
+[dev-dependencies]
+winapi = { version = "0.3", features = ["namedpipeapi", "synchapi", "jobapi2"] }

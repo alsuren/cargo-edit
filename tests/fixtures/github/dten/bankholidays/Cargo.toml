@@ -1,0 +1,15 @@
+[package]
+name = "bankholidays"
+version = "1.1.0"
+authors = ["David Hewson <dev@daveid.co.uk>"]
+
+description = "Bank Holidays for England & Wales in Rust"
+homepage = "https://github.com/dten/bankholidays"
+repository = "https://github.com/dten/bankholidays"
+keywords = ["bankholiday", "england", "uk"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+chrono = ">=0.2.0"
+computus = "1.0.0"

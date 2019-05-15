@@ -1,0 +1,15 @@
+[package]
+name = "osm_boundaries_utils"
+version = "0.5.0"
+authors = ["dt.ro <dt.ro@canaltp.fr>", "Antoine Desbordes <antoine.desbordes@gmail.com>"]
+description = "utilities to help reading OpenStreetMap boundaries in rust."
+repository = "https://github.com/QwantResearch/osm_boundaries_utils_rs"
+keywords = ["openstreetmap", "osm", "boundaries"]
+license = "WTFPL"
+readme = "README.md"
+
+[dependencies]
+log = "0.4"
+osmpbfreader = "0.13"
+geo-types = "^0.4.1"
+geo = "0.12"

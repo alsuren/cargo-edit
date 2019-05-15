@@ -1,0 +1,20 @@
+[package]
+name = "rbtc"
+version = "0.2.1"
+authors = ["Luca Lacerda <lucalacerda1@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/lucawen/rbtc"
+homepage = "https://lucawen.github.io/rbtc/"
+license = "MIT"
+description = "Convert amount from BTC to USD or any other currency and virse-versa"
+keywords = ["cli", "btc", "bitcoin", "currency"]
+categories = ["command-line-utilities"]
+readme = "README.md"
+
+[dependencies]
+reqwest = "0.9.12"
+serde_derive = "1.0.89"
+serde = "1.0.89"
+serde_json = "1.0.39"
+structopt = "0.2.15"
+derive_more = "0.14.0"

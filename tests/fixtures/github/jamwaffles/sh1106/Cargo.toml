@@ -1,0 +1,44 @@
+[package]
+authors = ["James Waples <james@wapl.es>"]
+categories = ["embedded", "no-std"]
+description = "I2C driver for the SH1106 OLED display controller"
+documentation = "https://docs.rs/sh1106"
+exclude = [".travis.yml", ".gitignore"]
+keywords = ["no-std", "sh1106", "oled", "embedded", "embedded-hal-driver"]
+license = "MIT OR Apache-2.0"
+name = "sh1106"
+readme = "README.md"
+repository = "https://github.com/jamwaffles/sh1106"
+version = "0.1.3-alpha.0"
+edition = "2018"
+[badges.travis-ci]
+branch = "master"
+repository = "jamwaffles/sh1106"
+
+[dependencies]
+embedded-hal = "0.2.2"
+
+[dependencies.embedded-graphics]
+optional = true
+version = "0.4.4"
+
+[dev-dependencies]
+cortex-m = "0.5.8"
+cortex-m-rt = "0.6.6"
+panic-semihosting = "0.5.1"
+
+[dev-dependencies.stm32f1xx-hal]
+version = "0.2.0"
+features = [ "rt", "stm32f103" ]
+
+[features]
+default = ["graphics"]
+graphics = ["embedded-graphics"]
+[profile.dev]
+codegen-units = 1
+incremental = false
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true

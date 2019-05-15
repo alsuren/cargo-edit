@@ -1,0 +1,31 @@
+[package]
+name = "rcache"
+version = "0.1.1"
+authors = ["Davis Wahl <dwahl@signalpath.com>"]
+description = "A basic, featureless memory cache with a TCP frontend analogous to memcached."
+repository = "https://github.com/daviswahl/rcache"
+license = "MIT"
+
+[lib]
+path = "src/lib.rs"
+doc = true
+
+[[bin]]
+name = "rcache"
+path = "src/bin/rcache.rs"
+doc = false
+
+[dependencies]
+bytes = "0.4"
+futures = "0.1"
+rand = "0.3"
+mio-uds = "0.6"
+tokio-core = "0.1"
+tokio-proto = "0.1"
+tokio-service = "0.1"
+tokio-io = "0.1"
+deque = "0.3.2"
+time = "0.1"
+lru-cache = "0.1"
+clap = "~2.2.0"
+futures-cpupool = "0.1"

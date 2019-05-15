@@ -1,0 +1,37 @@
+[package]
+name = "rect-iter"
+version = "0.2.3"
+authors = ["kngwyu <yuji.kngw.80s.revive@gmail.com>"]
+repository = "https://github.com/kngwyu/rect-iter"
+homepage = "https://github.com/kngwyu/rect-iter"
+license = "MIT"
+readme = "README.md"
+keywords = ["geometry", "utility", "iterator"]
+description = "Iterator for 2D rectangle areas"
+
+[dependencies]
+num-traits = "0.2"
+tuple-map = "0.3.0"
+
+[dependencies.euclid]
+version = ">= 0.19"
+optional = true
+
+[dependencies.ndarray]
+version = ">= 0.12"
+optional = true
+
+[dependencies.image]
+version = ">= 0.20"
+optional = true
+
+[dependencies.serde]
+version = "1.0"
+features = ["serde_derive"]
+optional = true
+
+[features]
+default = ["euclid"]
+
+[package.metadata.docs.rs]
+features = ["euclid", "ndarray", "image", "serde"]

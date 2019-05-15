@@ -1,0 +1,13 @@
+[package]
+name = "cmark-hamlet"
+version = "0.0.2"
+authors = ["critiqjo <john.ch.fr@gmail.com>"]
+description = "Provides an adapter from pulldown-cmark to hamlet"
+
+repository = "https://github.com/critiqjo/cmark-hamlet"
+keywords = ["markdown", "pulldown-cmark", "html", "hamlet"]
+license = "MIT/Apache-2.0"
+
+[dependencies]
+pulldown-cmark = "0.0.8"
+hamlet = "0.2"

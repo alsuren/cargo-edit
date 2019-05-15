@@ -1,0 +1,18 @@
+[package]
+name = "openassets"
+version = "0.1.0"
+authors = ["azuchi <azuchi@chaintope.com>"]
+license = "MIT"
+description = "The implementation of the Open Assets Protocol for Rust."
+repository = "https://github.com/chaintope/openassets-rust"
+readme = "README.md"
+keywords = ["openassets", "bitcoin"]
+
+[dependencies]
+bitcoin = "0.18.0"
+leb128 = "0.2.3"
+byteorder = "1.2"
+bitcoin_hashes = "0.3"
+
+[dependencies.hex]
+version = "=0.3.2"

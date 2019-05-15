@@ -1,0 +1,16 @@
+[package]
+name = "ripin"
+version = "0.1.2"
+authors = ["Kerollmops <renault.cle@gmail.com>"]
+description = """
+A library that handle Reverse Polish notated expressions, compiles,
+and evaluate them.
+"""
+keywords = ["math", "expression", "RPN", "reverse", "polish"]
+license = "MIT"
+repository = "https://github.com/Kerollmops/ripin-rs"
+homepage = "https://github.com/Kerollmops/ripin-rs"
+documentation = "https://docs.rs/ripin"
+
+[dependencies]
+num = "0.1"

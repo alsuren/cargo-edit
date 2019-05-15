@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+	"slang",
+	"slang-sys",
+	"shaders",
+]

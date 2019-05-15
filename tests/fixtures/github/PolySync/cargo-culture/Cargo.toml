@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+  "cargo-culture-kit",
+  "cargo-culture"
+]
+

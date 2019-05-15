@@ -1,0 +1,24 @@
+[package]
+name = "oauth2-lib"
+version = "0.4.0"
+description = "OAuth 2.0 library for supporting clients and servers"
+authors = [
+        "Mike Dilger <mike@optcomp.nz>"
+]
+readme = "README.md"
+repository = "https://github.com/mikedilger/oauth2-lib"
+documentation = "https://mikedilger.github.io/oauth2-lib"
+license = "MIT OR Apache-2.0"
+keywords = [ "oauth", "oauth2" ]
+
+[lib]
+name = "oauth2"
+path = "src/lib.rs"
+
+[dependencies]
+url = "1.1"
+hyper = "0.9"
+textnonce = { version = "0.3", features = [ "rust-nightly" ], default-features = false }
+serde = { version = "0.7", features = [ "nightly" ], default-features = false }
+serde_macros = "0.7"
+serde_json = "0.7"

@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "src/elastic",
+    "src/elastic_derive",
+    "src/queries",
+    "src/requests",
+    "src/requests_codegen",
+    "src/responses",
+    "src/types",
+    "src/types_derive",
+    "src/types_derive_internals",
+    "src/types/tests/derive_compile_test",
+    "tests/run",
+    "examples/account_sample"
+]

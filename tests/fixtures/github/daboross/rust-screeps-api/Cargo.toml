@@ -1,0 +1,93 @@
+[package]
+name = "screeps-api"
+# Ensure html_root_url in src/lib.rs is updated for each version.
+version = "0.5.1"
+authors = ["David Ross <daboross@daboross.net>"]
+
+categories = ["api-bindings"]
+documentation = "https://docs.rs/screeps-api/"
+edition = "2018"
+include = [
+    "Cargo.toml",
+    "LICENSE",
+    "README.md",
+    "src/**/*",
+    "tests/**/*",
+    "examples/**/*",
+    "protocol-docs/**/*"
+]
+keywords = ["screeps"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/daboross/rust-screeps-api"
+
+description = "Fully typed and tested wrapper over the Screeps Game's HTTP API"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[badges]
+travis-ci = { repository = "daboross/rust-screeps-api", branch = "master" }
+appveyor = { service = "github", repository = "daboross/rust-screeps-api", branch = "master" }
+
+[dependencies]
+# Logging
+log = "0.4"
+# Parsing
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+serde_ignored = "0.0.4"
+serde-tuple-vec-map = "0.2"
+arrayvec = "0.4"
+time = "0.1"
+# HTTP
+futures = "0.1"
+url = "1.0"
+hyper = "0.12"
+bytes = "0.4"
+# Sync HTTP wrapper
+tokio = { version = "0.1", optional = true }
+hyper-tls = { version = "0.3", optional = true }
+# Websockets
+rand = "0.6"
+num = { version = "0.2", default-features = false }
+
+[features]
+sync = ["tokio", "hyper-tls"]
+protocol-docs = []
+default = ["sync"]
+
+[dev-dependencies]
+# .env parsing
+dotenv = "0.14"
+# logging in examples
+fern = "0.5"
+chrono = "0.4"
+# cli options in examples
+clap = "2"
+# socket connections in ws-debug example
+futures = "0.1"
+websocket = "0.22"
+# pretty printing in ws-debug.
+serde_json = "1"
+
+[[example]]
+name = "ws-debug"
+required-features = ["sync"]
+
+[[example]]
+name = "me"
+required-features = ["sync"]
+
+[[example]]
+name = "top10"
+required-features = ["sync"]
+
+[[example]]
+name = "ws-console"
+required-features = ["sync"]
+
+[[example]]
+name = "register"
+required-features = ["sync"]

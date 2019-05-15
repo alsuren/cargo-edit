@@ -1,0 +1,17 @@
+[package]
+name        = "amt"
+version     = "0.1.1"
+authors     = ["Matthias Beyer <mail@beyermatthias.de>"]
+description = "Accumulate git-trailers from emails grouped by mail subject"
+keywords    = ["tool", "git", "cli", "mail", "email"]
+categories  = ["command-line-utilities", "email"]
+readme      = "README.md"
+license     = "GPL-2.0"
+repository  = "https://github.com/matthiasbeyer/amt"
+
+[dependencies]
+walkdir   = "2"
+mailparse = "0.6"
+clap      = "2"
+regex     = "1"
+itertools = "0.7"

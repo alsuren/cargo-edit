@@ -1,0 +1,15 @@
+[package]
+name = "authmenow"
+description = "Rust library for authmenow.com service"
+version = "0.0.0-initial"
+authors = ["Sergey Sova <mail@sergeysova.com>"]
+repository = "https://github.com/authmenow/rust"
+homepage = "https://github.com/authmenow"
+categories = ["authentication"]
+license = "MIT"
+[dependencies]
+
+[badges]
+travis-ci = { repository = "authmenow/rust", branch = "master" }
+codecov = { repository = "authmenow/rust" }
+maintenance = { status = "experimental" }

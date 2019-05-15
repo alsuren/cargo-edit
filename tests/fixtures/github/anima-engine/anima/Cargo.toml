@@ -1,0 +1,18 @@
+[package]
+name = "anima"
+version = "0.0.1"
+description = "Anima build tool."
+authors = ["Dragoș Tiselice <dragostiselice@gmail.com>"]
+homepage = "http://anima-engine.org/"
+repository = "https://github.com/anima-engine/anima"
+keywords = ["anima", "anima-engine", "build", "tool"]
+license = "MPL-2.0"
+
+[dependencies]
+docopt = "0.6.78"
+rustc-serialize = "0.3.18"
+
+[[bin]]
+name = "anima"
+test = false
+doc = false

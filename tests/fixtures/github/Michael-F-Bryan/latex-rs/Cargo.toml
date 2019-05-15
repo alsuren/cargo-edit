@@ -1,0 +1,15 @@
+[package]
+name = "latex"
+version = "0.3.1-alpha.0"
+authors = ["Michael-F-Bryan <michaelfbryan@gmail.com>"]
+description = "An ergonomic library for programatically generating LaTeX documents and reports."
+readme = "README.md"
+keywords = ["latex", "reports", "pdf", "tex", "generation"]
+license = "MIT"
+homepage = "https://github.com/Michael-F-Bryan/latex-rs"
+repository = "https://github.com/Michael-F-Bryan/latex-rs"
+documentation = "https://docs.rs/latex"
+categories = ["template-engine", "text-processing"]
+
+[dependencies]
+failure = "0.1.5"

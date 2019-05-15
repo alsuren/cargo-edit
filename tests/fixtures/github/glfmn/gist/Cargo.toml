@@ -1,0 +1,21 @@
+[package]
+name = "glit"
+version = "0.1.4"
+authors = ["Gwen Lofman <Gwen@Lofman.io>"]
+description = "A utility for pretty-printing git stats"
+license = "MPL-2.0"
+readme = "README.md"
+repository = "https://github.com/glfmn/glitter"
+keywords = ["DSL", "git", "gist", "status", "pretty-printing"]
+exclude = [
+    "img/*.gif"
+]
+
+[dependencies]
+ansi_term = "0.11"
+git2 = "0.7.1"
+clap = "~2.29"
+nom = "^3.2"
+
+[dev-dependencies]
+proptest = "0.8.6"

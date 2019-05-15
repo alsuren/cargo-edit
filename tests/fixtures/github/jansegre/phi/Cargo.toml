@@ -1,0 +1,15 @@
+[package]
+name = "phi"
+version = "0.1.0"
+authors = ["Jan Segre <jan@segre.in>"]
+license = "MPL-2.0"
+readme = "README.md"
+repository = "https://github.com/jansegre/phi"
+homepage = "http://jansegre.com/phi"
+documentation = "http://jansegre.com/phi/phi"
+description = """
+Lightweight 3D physics engine.
+"""
+
+[features]
+unstable = []

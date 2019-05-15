@@ -1,0 +1,52 @@
+[package]
+name = "bloom-server"
+version = "1.25.0"
+description = "HTTP REST API caching middleware, to be used between load balancers and REST API workers."
+readme = "README.md"
+license = "MPL-2.0"
+edition = "2018"
+homepage = "https://github.com/valeriansaliou/bloom"
+repository = "https://github.com/valeriansaliou/bloom.git"
+keywords = ["proxy", "http", "api", "rest", "cache"]
+categories = ["caching", "web-programming"]
+authors = ["Valerian Saliou <valerian@valeriansaliou.name>"]
+
+[badges]
+travis-ci = { repository = "valeriansaliou/bloom", branch = "master" }
+coveralls = { repository = "valeriansaliou/bloom", branch = "master", service = "github" }
+
+[[bin]]
+name = "bloom"
+path = "src/main.rs"
+doc = false
+
+[dependencies]
+log = "0.4"
+toml = "0.5"
+clap = { version = "2.26", default-features = false }
+lazy_static = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
+futures = "0.1"
+futures-cpupool = "0.1"
+httparse = "1.2"
+hyper = "0.11"
+tokio-core = "0.1"
+r2d2 = "0.8"
+r2d2_redis = "0.9"
+redis = "0.10"
+farmhash = "1.1"
+brotli = "3.1"
+rand = "0.6"
+unicase = "2.1"
+
+[profile.dev]
+opt-level = 0
+debug = true
+debug-assertions = true
+
+[profile.release]
+opt-level = "s"
+lto = true
+debug = false
+debug-assertions = false

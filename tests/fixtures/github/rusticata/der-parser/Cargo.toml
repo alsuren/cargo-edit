@@ -1,0 +1,35 @@
+[package]
+description = "Parser for BER/DER encoding data"
+license = "MIT/Apache-2.0"
+keywords = ["BER","DER","ASN1","parser","nom"]
+homepage = "https://github.com/rusticata/der-parser"
+repository = "https://github.com/rusticata/der-parser.git"
+name = "der-parser"
+version = "1.1.1"
+authors = ["Pierre Chifflier <chifflier@wzdftpd.net>"]
+categories = ["parsing"]
+
+include = [
+  "LICENSE-*",
+  ".gitignore",
+  ".travis.yml",
+  "Cargo.toml",
+  "src/*.rs",
+  "tests/*.rs"
+]
+
+[dependencies]
+nom = {version = "4.0", features = ["verbose-errors"]}
+rusticata-macros = "1.0"
+num-bigint = { version = "0.2", optional = true }
+
+[features]
+default = []
+bigint = ["num-bigint"]
+
+[dev-dependencies]
+pretty_assertions = "0.5.0"
+
+
+[badges]
+travis-ci = { repository = "rusticata/der-parser" }

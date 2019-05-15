@@ -1,0 +1,17 @@
+[package]
+name = "bakeit"
+version = "0.1.2-pre"
+authors = ["Stavros Korokithakis <hi@stavros.io>"]
+description = "BakeIt is a command line utility for Pastery, the best pastebin in the world."
+repository = "https://github.com/skorokithakis/rust-bakeit"
+homepage = "https://www.pastery.net/"
+license = "MIT"
+
+[dependencies]
+clipboard = { git = "https://github.com/skorokithakis/clipboard" }
+curl="0.3.0"
+docopt = "0.6"
+rustc-serialize = "0.3"
+rust-ini = "0.9.5"
+url = "1.1.1"
+webbrowser = "0.1.3"

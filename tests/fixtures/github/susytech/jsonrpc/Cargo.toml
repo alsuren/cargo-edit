@@ -1,0 +1,16 @@
+[workspace]
+members = [
+	"core",
+	"client",
+	"http",
+	"ipc",
+	"derive",
+	"pubsub",
+	"pubsub/more-examples",
+	"server-utils",
+	"stdio",
+	"tcp",
+	"test",
+	"ws",
+	"ws/client",
+]

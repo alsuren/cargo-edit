@@ -1,0 +1,16 @@
+[package]
+name = "xvf"
+version = "0.1.1"
+authors = ["Gabriel de Perthuis <g2p.code@gmail.com>"]
+description = "Easy archive extraction"
+license = "ISC"
+repository = "https://github.com/g2p/xvf"
+homepage = "https://github.com/g2p/xvf#readme"
+
+[dependencies]
+clap = "2"
+scmp = "0.1"
+lazy_static = "1"
+tempdir = "0.3"
+libc = "0.2"
+

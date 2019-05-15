@@ -1,0 +1,14 @@
+[package]
+name = "memcache"
+version = "0.12.1"
+authors = ["An Long <aisk1988@gmail.com>"]
+repository = "https://github.com/aisk/rust-memcache"
+readme = "README.md"
+license = "MIT"
+description = "memcached client for rust"
+keywords = ["memcache", "memcached", "driver", "cache", "database"]
+
+[dependencies]
+byteorder = "1"
+url = "1"
+rand = "0.6"

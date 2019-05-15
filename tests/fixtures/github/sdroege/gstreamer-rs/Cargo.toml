@@ -1,0 +1,21 @@
+[workspace]
+
+members = [
+  "gstreamer",
+  "gstreamer-app",
+  "gstreamer-audio",
+  "gstreamer-base",
+  "gstreamer-net",
+  "gstreamer-player",
+  "gstreamer-rtsp",
+  "gstreamer-rtsp-server",
+  "gstreamer-sdp",
+  "gstreamer-video",
+  "gstreamer-pbutils",
+  "gstreamer-webrtc",
+  "gstreamer-check",
+  "gstreamer-editing-services",
+  "gstreamer-gl",
+  "examples",
+  "tutorials",
+]

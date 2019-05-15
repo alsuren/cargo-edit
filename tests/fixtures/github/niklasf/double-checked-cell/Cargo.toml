@@ -1,0 +1,29 @@
+[package]
+name = "double-checked-cell"
+version = "2.0.1" # remember to update html_root_url
+authors = ["Niklas Fiekas <niklas.fiekas@backscattering.de>"]
+license = "MIT/Apache-2.0"
+keywords = ["lazy", "cell", "once"]
+readme = "README.md"
+repository = "https://github.com/niklasf/double-checked-cell"
+categories = ["concurrency"]
+description = "A thread-safe lazily initialized cell using double-checked locking"
+
+[features]
+default = []
+parking_lot_mutex = ["parking_lot"]
+const_fn = ["parking_lot_mutex", "parking_lot/nightly"]
+
+[dependencies]
+void = "1.0"
+unreachable = "1.0"
+parking_lot = { version = "0.7", optional = true }
+
+[dev-dependencies]
+scoped-pool = "1.0"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[badges]
+travis-ci = { repository = "niklasf/double-checked-cell" }

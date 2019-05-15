@@ -1,0 +1,27 @@
+[package]
+name = "rust_lsp"
+version = "0.6.0"
+authors = ["Bruno Medeiros <bruno.do.medeiros@gmail.com>"]
+
+description = "A library for working with the Language Server Protocol, as either client or server."
+repository = "https://github.com/RustDT/rustlsp"
+documentation = "https://docs.rs/rustlsp"
+license = "Apache-2.0"
+keywords = ["rustlsp", "lsp"]
+
+
+[build-dependencies]
+serde_codegen = { version = "0.8", optional = true }
+
+[dependencies]
+rustdt_util = "0.2.3"
+rustdt-json_rpc = "0.3.0"
+log = "0.3.6"
+serde = "0.8"
+serde_json = "0.8"
+languageserver-types = { version = "0.6.0" }
+
+
+[lib]
+name = "rust_lsp"
+path = "src/lib.rs"

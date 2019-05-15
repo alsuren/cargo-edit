@@ -1,0 +1,23 @@
+[package]
+authors = ["martinak1 <martinak @ mymail.vcu .edu>"]
+categories = ["command-line-utilities", "filesystem"]
+description = "A program that backs up user data that matches a regular expression"
+keywords = ["backup-utility", "regex", "clap", "cross-platform"]
+license = "BSD-3-Clause"
+name = "backr"
+readme = "README.md"
+repository = "https://github.com/martinak1/backr"
+version = "0.5.0"
+[badges]
+[badges.travis-ci]
+repository = "martinak1/backr"
+
+[dependencies]
+clap = "2.31.2"
+progress = "0.2.0"
+regex = "1.0.0"
+termios = "*"
+
+#[dependencies.ftp]
+#features = ["secure"]
+#version = "*"

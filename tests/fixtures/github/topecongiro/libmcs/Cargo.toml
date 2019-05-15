@@ -1,0 +1,15 @@
+[package]
+name = "libmcs"
+version = "0.1.0"
+authors = ["topecongiro <seuchida@gmail.com>"]
+
+description = "A MCS Lock Library"
+repository = "https://github.com/topecongiro/libmcs"
+
+license = "MIT"
+
+[[bin]]
+name = "main"
+doc = false
+
+[dependencies]

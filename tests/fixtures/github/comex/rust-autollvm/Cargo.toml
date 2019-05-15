@@ -1,0 +1,19 @@
+[package]
+
+name = "autollvm"
+version = "0.0.1"
+authors = ["comex <comexk@gmail.com>"]
+build = "build.rs"
+repository = "https://github.com/comex/rust-autollvm"
+license = "NCSA"
+readme = "README"
+description = "bindgens your system LLVM, plus some basic helpers"
+
+[lib]
+name = "autollvm"
+crate-type = ["dylib"]
+[build-dependencies]
+bindgen = "0.19.1"
+#[build-dependencies.bindgen]
+#git = "https://github.com/crabtw/rust-bindgen.git"
+

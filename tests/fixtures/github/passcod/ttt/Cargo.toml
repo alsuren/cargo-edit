@@ -1,0 +1,14 @@
+[package]
+name = "ttt"
+version = "1.0.0"
+description = "Timeless Time Tracking"
+license = "MIT"
+homepage = "https://github.com/passcod/ttt"
+repository = "https://github.com/passcod/ttt.git"
+authors = [
+  "Félix Saparelli <me@passcod.name>"
+]
+
+[dependencies]
+rustc-serialize = "*"
+time = "*"

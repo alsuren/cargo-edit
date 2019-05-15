@@ -1,0 +1,15 @@
+[package]
+
+name = "bloodhound"
+version = "0.5.4"
+authors = ["Jordan MacDonald <jordan@wastedintelligence.com>"]
+description = "Fuzzy file finder."
+homepage = "https://github.com/jmacdonald/bloodhound"
+repository = "https://github.com/jmacdonald/bloodhound"
+license-file = "LICENSE"
+keywords = ["fuzzy", "file", "find"]
+
+[dependencies]
+fragment = "0.3.1"
+walkdir = "2.0.1"
+glob = "0.2"

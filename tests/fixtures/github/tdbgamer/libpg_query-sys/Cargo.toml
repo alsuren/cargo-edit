@@ -1,0 +1,18 @@
+[package]
+name = "libpg_query-sys"
+links = "pg_query"
+description = "FFI bindings to libpg_query-10-1.0.2"
+version = "0.1.2"
+authors = ["Timothy Bess <tdbgamer@gmail.com>"]
+build = "build.rs"
+edition = "2018"
+license = "MPL-2.0"
+repository = "https://github.com/tdbgamer/libpg_query-sys"
+
+[lib]
+name = "libpg_query"
+path = "src/lib.rs"
+
+[build-dependencies]
+bindgen = "0.45.0"
+make-cmd = "0.1.0"

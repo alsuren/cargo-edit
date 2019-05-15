@@ -1,0 +1,23 @@
+[package]
+name = "resufancy"
+version = "0.1.2"
+authors = ["Isobel Redelmeier <iredelmeier@gmail.com>"]
+description = "Supercharge your resume with the power of your favourite web development tools"
+edition = "2018"
+license = "MIT"
+homepage = "https://github.com/iredelmeier/resufancy"
+repository = "https://github.com/iredelmeier/resufancy"
+readme = "README.md"
+keywords = ["resume", "cli"]
+categories = ["command-line-utilities"]
+
+[badges]
+circle-ci = { repository = "iredelmeier/resufancy" }
+
+[dependencies]
+clap = "2.32"
+filesystem = "0.4"
+lazy_static="1.3"
+notify = "4.0"
+pug = "0.1"
+wkhtmltopdf = "0.3"

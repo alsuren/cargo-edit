@@ -1,0 +1,28 @@
+cargo-features = ["edition", "rename-dependency"]
+
+[package]
+name = "bpb"
+description = "boats's personal barricade"
+license = "MIT OR Apache-2.0"
+version = "1.1.0"
+repository = "https://github.com/withoutboats/bpb"
+edition = "2018"
+authors = ["Without Boats <boats@mozilla.com>"]
+
+[dependencies]
+toml = "0.4.6"
+rand = "0.5.4"
+sha2 = "0.7.1"
+serde_derive = "1.0.70"
+serde = "1.0.70"
+hex = "0.3.2"
+failure = "0.1.1"
+
+[dependencies.pbp]
+version = "0.4.0"
+features = ["dalek"]
+
+[dependencies.ed25519-dalek]
+# [dependencies.ed25519]
+# package = "ed25519-dalek"
+version = "0.7.0"

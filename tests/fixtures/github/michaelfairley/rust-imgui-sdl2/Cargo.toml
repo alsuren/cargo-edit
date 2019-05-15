@@ -1,0 +1,21 @@
+[package]
+name = "imgui-sdl2"
+description = "SDL2 Input handling for imgui-rs"
+version = "0.5.0"
+authors = ["Michael Fairley <michael@michaelfairley.com>"]
+homepage = "https://github.com/michaelfairley/rust-imgui-sdl2"
+repository = "https://github.com/michaelfairley/rust-imgui-sdl2"
+readme = "README.md"
+categories = ["gui"]
+license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "michaelfairley/rust-imgui-sdl2" }
+
+[dependencies]
+imgui = "0.0.22"
+sdl2 = "0.32.1"
+
+[dev-dependencies]
+gl = "0.10.0"
+imgui-opengl-renderer = "0.4"

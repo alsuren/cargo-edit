@@ -1,0 +1,15 @@
+[package]
+
+name = "event"
+version = "0.2.2"
+authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
+description = "A mulit-threaded event loop for Rust"
+repository = "https://github.com/reem/rust-event"
+license = "MIT"
+
+[dependencies.log]
+version = "*"
+
+[dependencies.mio]
+git = "https://github.com/carllerche/mio"
+

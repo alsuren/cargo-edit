@@ -1,0 +1,16 @@
+[package]
+name = "ncl"
+version = "0.1.3"
+license = "MIT"
+description = "Simple configuration file format based on UCL, HCL and JSON"
+repository = "https://github.com/nukomeet/ncl"
+authors = [
+  "Łukasz Niemier <lukasz@niemier.pl>",
+  "Nukomeet <bonjour@nukomeet.com>"
+]
+
+[dependencies]
+nom = "~1.0.0"
+
+[features]
+unstable = []

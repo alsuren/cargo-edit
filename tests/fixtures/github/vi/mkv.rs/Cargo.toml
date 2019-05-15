@@ -1,0 +1,27 @@
+[package]
+edition="2018"
+
+name = "mkv"
+version = "0.0.7"
+authors = ["Vitaly '_Vi' Shukela"]
+license-file = "LICENSE"
+homepage = "https://github.com/vi/mkv.rs"
+repository = "https://github.com/vi/mkv.rs"
+description = "[incomplete yet] Matroska (mkv,webm) files parser and generator implemented in Rust"
+keywords = ["matroska", "mkv", "webm", "demuxer", "muxer"]
+
+[dependencies]
+byteorder = "0.3"
+log = "0.3"
+bytes = "0.4"
+rustc-serialize = { version = "0.3", optional = true }
+
+[dev-dependencies.env_logger]
+version="0.3"
+default-features=false
+
+[dev-dependencies.random]
+version="0.12"
+
+[features]
+nightly=[]

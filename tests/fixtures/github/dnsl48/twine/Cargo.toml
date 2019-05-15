@@ -1,0 +1,17 @@
+[package]
+name = "twine"
+version = "0.0.1"
+authors = ["dnsl48 <dnsl48@gmail.com>"]
+
+description = "Twine is an enum of &'static str and String so they to be used interchangeably"
+keywords = ["strings", "twine"]
+categories = ["data-structures"]
+
+license = "MIT/Apache-2.0"
+
+homepage = "https://github.com/dnsl48/twine.git"
+repository = "https://github.com/dnsl48/twine.git"
+documentation = "https://docs.rs/twine/"
+readme = "README.md"
+
+[dependencies]

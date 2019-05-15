@@ -1,0 +1,13 @@
+[package]
+name = "tpl"
+version = "0.1.4"
+license = "MIT"
+authors = ["Bob <nottxy@gmail.com>"]
+keywords = ["template"]
+description = "simple pure template"
+homepage = "https://github.com/nottxy/tpl"
+repository = "https://github.com/nottxy/tpl"
+
+[dependencies]
+error-chain = "0.11"
+nom = "3.1"

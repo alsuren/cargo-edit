@@ -1,0 +1,44 @@
+[package]
+name = "crossterm"
+version = "0.9.3"
+authors = ["T. Post"]
+description = "An crossplatform terminal library for manipulating terminals."
+repository = "https://github.com/TimonPost/crossterm"
+documentation = "https://docs.rs/crossterm/"
+license = "MIT"
+keywords = ["console", "color", "cursor", "input", "terminal"]
+exclude = ["target", "Cargo.lock"]
+readme = "README.md"
+
+[features]
+default = ["cursor", "style","terminal","screen","input"]
+
+cursor = ["crossterm_cursor"]
+style = ["crossterm_style"]
+terminal = ["crossterm_terminal"]
+screen = ["crossterm_screen"]
+input = ["crossterm_input"]
+
+[workspace]
+
+members = [
+    "crossterm_winapi",
+    "crossterm_utils",
+    "crossterm_cursor",
+    "crossterm_style",
+    "crossterm_terminal",
+    "crossterm_input",
+    "crossterm_screen",
+]
+
+[dependencies]
+crossterm_screen =   { optional = true, path = "./crossterm_screen" }
+crossterm_cursor =   { optional = true, path = "./crossterm_cursor" }
+crossterm_terminal = { optional = true, version = "0.2.2" }
+crossterm_style =    { optional = true, path = "./crossterm_style" }
+crossterm_input =    { optional = true, path = "./crossterm_input" }
+crossterm_utils =    { optional = false, path = "./crossterm_utils" }
+
+[lib]
+name = "crossterm"
+path = "src/lib.rs"

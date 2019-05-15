@@ -1,0 +1,15 @@
+[package]
+name = "bloom-filter-rs"
+version = "0.1.0"
+authors = ["sagalasan <sagalasan@users.noreply.github.com>"]
+description = "A Bloom Filter implementation in Rust"
+repository = "https://github.com/sagalasan/bloom-filter"
+license = "MIT"
+readme = "README.md"
+keywords = ["bloomfilter", "bloom", "filter", "bloom-filter"]
+categories = ["algorithms"]
+exclude = ["resources/*"]
+
+[dependencies]
+bit-vec = "0.5.0"
+murmur3 = "0.4.1"

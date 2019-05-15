@@ -1,0 +1,27 @@
+[package]
+name = "gpg-error"
+version = "0.4.1"
+authors = ["John Schug <john.ips.schug@gmail.com>"]
+license = "LGPL-2.1"
+repository = "https://github.com/gpg-rs/libgpg-error"
+documentation = "https://docs.rs/gpg-error"
+categories = ["api-bindings"]
+keywords = ["gpg"]
+description = "Libgpg-error bindings for Rust"
+build = "build.rs"
+
+[badges]
+travis-ci = { repository = "gpg-rs/libgpg-error" }
+maintenance = { status = "experimental" }
+
+[features]
+default = ["bundled"]
+bundled = ["libgpg-error-sys/bundled"]
+
+[dependencies.libgpg-error-sys]
+path = "libgpg-error-sys"
+version = "0.4.1"
+default-features = false
+
+[workspace]
+members = ["systest"]

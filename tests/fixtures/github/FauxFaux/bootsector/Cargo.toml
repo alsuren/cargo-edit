@@ -1,0 +1,20 @@
+[package]
+authors = ["Chris West (Faux) <git@goeswhere.com>"]
+categories = [
+    "filesystem",
+    "os",
+    "parsing",
+]
+description = "Read partitions from block devices or files"
+license = "MIT"
+name = "bootsector"
+readme = "README.md"
+repository = "https://github.com/FauxFaux/bootsector"
+version = "0.1.1"
+
+[badges.travis-ci]
+repository = "FauxFaux/bootsector"
+
+[dependencies]
+byteorder = "1"
+crc = "1"

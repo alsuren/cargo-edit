@@ -1,0 +1,9 @@
+[package]
+name = "xn--ls8h"
+version = "0.0.2"
+description = "💩"
+authors = ["Curtis McEnroe <programble@gmail.com>"]
+license = "ISC"
+keywords = ["pile", "of", "poo"]
+documentation = "https://💩.cmcenroe.me/xn__ls8h"
+repository = "https://github.com/programble/xn--ls8h"

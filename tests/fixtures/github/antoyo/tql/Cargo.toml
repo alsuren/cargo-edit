@@ -1,0 +1,40 @@
+[package]
+authors = ["Antoni Boucher <bouanto@zoho.com>"]
+categories = ["database"]
+description = "Compile-time ORM (runtime library)"
+license = "MIT"
+name = "tql"
+repository = "https://github.com/antoyo/tql"
+version = "0.1.0"
+
+[dependencies]
+
+[dependencies.chrono]
+optional = true
+version = "^0.4.0"
+
+[dependencies.postgres]
+optional = true
+version = "^0.15.1"
+
+[dependencies.rusqlite]
+features = ["chrono"]
+optional = true
+version = "^0.13.0"
+
+[dev-dependencies]
+lazy_static = "^1.0.0"
+
+[dev-dependencies.postgres]
+features = ["with-chrono"]
+version = "^0.15.1"
+
+[dependencies.tql_macros]
+path = "./tql_macros"
+version = "0.1.0"
+
+[features]
+default = ["unstable"]
+sqlite = ["rusqlite", "tql_macros/rusqlite"]
+pg = ["postgres", "tql_macros/postgres"]
+unstable = ["tql_macros/unstable"]

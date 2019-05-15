@@ -1,0 +1,23 @@
+[package]
+name = "keypad"
+version = "0.1.4"
+authors = ["e-matteson <e.r.matteson@gmail.com>"]
+license = "MIT OR Apache-2.0"
+categories = ["embedded", "hardware-support", "no-std"]
+keywords = ["embedded-hal-driver", "keyboard"]
+description = "Platform-agnostic driver for keypad matrix circuits"
+homepage = "https://github.com/e-matteson/keypad"
+repository = "https://github.com/e-matteson/keypad"
+documentation = "https://docs.rs/keypad"
+readme="README.md"
+
+[dependencies.embedded-hal]
+features = ["unproven"]
+version = "0.2.1"
+
+[features]
+example_generated = []
+
+[package.metadata.docs.rs]
+features = [ "example_generated" ]
+rustdoc-args = ["--cfg", "docs_rs_workaround"]

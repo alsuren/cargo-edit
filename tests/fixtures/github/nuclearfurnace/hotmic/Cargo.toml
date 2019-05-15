@@ -1,0 +1,38 @@
+[package]
+name = "hotmic"
+version = "0.8.2"
+authors = ["Toby Lawrence <toby@nuclearfurnace.com>"]
+edition = "2018"
+
+license = "MIT"
+
+description = "high-speed metrics collection library"
+
+homepage = "https://github.com/nuclearfurnace/hotmic"
+repository = "https://github.com/nuclearfurnace/hotmic"
+documentation = "https://docs.rs/hotmic"
+
+readme = "README.md"
+
+keywords = ["metrics", "telemetry", "histogram", "counter", "gauge"]
+
+[profile.release]
+debug = true
+opt-level = 3
+lto = true
+
+[dependencies]
+crossbeam-channel = "^0.3"
+parking_lot = "^0.7"
+hdrhistogram = "^6.1"
+fnv = "^1.0"
+hashbrown = "^0.1"
+quanta = "^0.2"
+serde = "^1.0"
+derivative = "^1.0"
+tokio-sync = "^0.1"
+
+[dev-dependencies]
+log = "^0.4"
+env_logger = "^0.6"
+getopts = "^0.2"

@@ -1,0 +1,16 @@
+[package]
+name = "derive-getters"
+version = "0.0.7"
+authors = ["Stephan Luther <kvsari@gmail.com>"]
+license = "MIT"
+description = "Simple boilerplate getters generator."
+repository = "https://github.com/kvsari/derive-getters"
+
+[lib]
+name = "derive_getters"
+proc-macro = true
+
+[dependencies]
+quote = "0.6.8"
+syn = "0.15.7"
+proc-macro2 = "0.4.13"

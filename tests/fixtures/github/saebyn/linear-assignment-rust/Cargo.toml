@@ -1,0 +1,35 @@
+[package]
+name = "linear_assignment"
+description = "An implementation of the Kuhn–Munkres algorithm to solve linear assignment problems."
+repository = "https://github.com/saebyn/linear-assignment-rust/"
+documentation = "https://saebyn.github.io/linear-assignment-rust/linear_assignment/"
+version = "0.0.1"
+authors = ["John Weaver <john@saebyn.info>"]
+license = "AGPL-3.0"
+readme = "README.md"
+
+
+[lib]
+name = "linear_assignment"
+
+
+[dependencies]
+num = "0.1.24"
+log = "0.3"
+
+
+[dev-dependencies.nalgebra]
+version = "0.2.14"
+features = ["quickcheck", "arbitrary"]
+
+[dev-dependencies.rand]
+version = "*"
+
+[dev-dependencies.quickcheck]
+version = "0.2.18"
+
+[dev-dependencies.quickcheck_macros]
+version = "0.2.18"
+
+[dev-dependencies.env_logger]
+version = "*"

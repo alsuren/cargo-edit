@@ -1,0 +1,46 @@
+[package]
+name = "rgs"
+version = "0.2.0"
+edition = "2018"
+authors = [
+    "Artem Vorotnikov <artem@vorotnikov.me>",
+]
+description = "Tool for querying game servers"
+repository = "https://github.com/vorot93/rgs"
+keywords = [
+    "game",
+    "games",
+]
+license = "MIT"
+
+[lib]
+name = "librgs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rgs"
+path = "src/main.rs"
+
+[dependencies]
+byteorder = "*"
+chrono = "*"
+derive_more = "*"
+enum-primitive-derive = "*"
+env_logger = "*"
+failure = "*"
+failure_derive = "*"
+futures-preview = { git = "https://github.com/rust-lang-nursery/futures-rs", features = ["compat"] }
+futures01 = { version = "0.1", package = "futures" }
+iso_country = "*"
+log = "*"
+nom = "*"
+num-traits = "*"
+openttd = { git = "https://github.com/rust-game-parsers/openttd" }
+q3a = { git = "https://github.com/rust-game-parsers/q3a" }
+rand = "*"
+resolve = "*"
+serde = { version = "1", features = ["derive"] }
+serde_json = "*"
+tokio = "0.1"
+tokio-dns-unofficial = "*"
+tokio-ping = { git = "https://github.com/knsd/tokio-ping" }

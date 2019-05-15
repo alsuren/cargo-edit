@@ -1,0 +1,19 @@
+[package]
+name = "efi"
+version = "0.1.3"
+authors = ["Gurinder Singh <frederick.the.fool@gmail.com>"]
+description = "Ergonomic Rust bindings for writing UEFI applications"
+repository = "https://github.com/gurry/efi"
+readme = "README.md"
+keywords = ["bindings", "uefi", "efi", "boot-loader", "os-loader"]
+categories = ["api-bindings", "no-std", "os"]
+license = "MIT"
+
+
+[dependencies]
+byteorder = { version = "1", default-features = false }
+
+[dependencies.failure]
+version = "0.1.1"
+default-features = false
+features = ["derive"]

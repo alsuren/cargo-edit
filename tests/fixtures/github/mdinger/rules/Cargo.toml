@@ -1,0 +1,15 @@
+[package]
+
+name = "rules"
+version = "0.0.2"
+authors = ["mdinger <mdinger.bugzilla@gmail.com>"]
+readme = "README.md"
+description = "An implementation of Perl 6 regex rules"
+homepage = "https://github.com/mdinger/rules"
+repository = "https://github.com/mdinger/rules"
+license = "MIT/Apache-2.0"
+
+
+[[bin]]
+name = "rules"
+doc = false

@@ -1,0 +1,11 @@
+[package]
+name = "oscillator"
+version = "0.1.0"
+authors = ["Terah <terah.dev@gmail.com>"]
+description = "A simple oscillator, returns an oscillating value at a chosen frequency"
+repository = "https://github.com/Terah-/rust-oscillator"
+keywords = ["cyclic", "oscillator", "frequency"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+stopwatch = "0.0.6"

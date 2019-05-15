@@ -1,0 +1,28 @@
+[package]
+name = "virtdisk-rs"
+version = "1.5.0"
+authors = ["rafawo <rafawo1@hotmail.com>"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+description = "Rust abstractions for VirtDisk APIs."
+repository = "https://github.com/rafawo/virtdisk-rs"
+readme = "README.md"
+keywords = ["windows", "virtdisk", "vhd", "hyper-v", "virtualization"]
+categories = ["api-bindings", "os::windows-apis"]
+build = "build.rs"
+
+[dependencies]
+widestring = "0.4.0"
+winapi = { version = "0.3.6", features = [
+    "errhandlingapi",
+    "handleapi",
+    "ioapiset",
+    "rpc",
+    "rpcdce",
+    "securitybaseapi",
+    "synchapi",
+    "winbase",
+    "winerror",
+    "winioctl",
+] }
+winutils-rs = "0.1.2"

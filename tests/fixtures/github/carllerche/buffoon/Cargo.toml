@@ -1,0 +1,21 @@
+[project]
+
+name = "buffoon"
+version = "0.5.0"
+license = "MIT"
+description = "Simple Protocol Buffers implementation"
+homepage = "https://github.com/carllerche/buffoon"
+repository = "https://github.com/carllerche/buffoon"
+readme = "README.md"
+keywords = ["protobuf", "serialization"]
+authors = [
+  "Yehuda Katz <wycats@gmail.com>",
+  "Carl Lerche<me@carllerche.com>",
+  "tim@spork.in"
+]
+
+[dependencies]
+log = "*"
+
+[dev-dependencies]
+env_logger = "*"

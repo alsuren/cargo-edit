@@ -1,0 +1,18 @@
+[package]
+name = "heaparray"
+version = "0.2.0"
+authors = ["Albert Liu <albertymliu@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/A1Liu/heaparray-rs"
+description = "Heap-allocated array with optional metadata field"
+readme = "README.md"
+keywords = ["array", "heap", "atomic"]
+license = "MIT"
+
+[dependencies]
+containers-rs = "^0.1.6"
+
+[dev-dependencies]
+interloc = "0.1.0"
+trait_tests = "0.3.3"
+

@@ -1,0 +1,12 @@
+[package]
+name = "currency"
+version = "0.4.0"
+authors = ["tyler@berryac.com"]
+description = "A library for representing international currencies."
+repository = "https://github.com/Tahler/rust-lang-currency"
+documentation = "http://tahler.github.io/rust-lang-currency/currency/index.html"
+keywords = ["currency", "money", "taxes", "bank", "international"]
+license = "MIT"
+
+[dependencies]
+num = "0.1.32"

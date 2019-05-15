@@ -1,0 +1,16 @@
+[package]
+name = "crates_search"
+version = "0.1.2"
+authors = ["Kilian Koeltzsch <me@kilian.io>"]
+
+description = "Search for crates from within Rust."
+homepage = "https://github.com/kiliankoe/crates_search"
+repository = "https://github.com/kiliankoe/crates_search"
+
+license = "MIT"
+
+[dependencies]
+reqwest = "0.3"
+serde = "0.8"
+serde_derive = "0.8"
+serde_json = "0.8"

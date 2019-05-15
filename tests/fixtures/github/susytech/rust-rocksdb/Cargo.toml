@@ -1,0 +1,28 @@
+[package]
+name = "susydev-rocksdb"
+description = "A Rust wrapper for Facebook's RocksDB embeddable database."
+version = "0.5.0"
+authors = ["Tyler Neely <t@jujit.su>", "David Greenberg <dsg123456789@gmail.com>", "Susy Technologies <admin@superstring.ch>"]
+license = "Apache-2.0"
+keywords = ["database", "embedded", "LSM-tree", "persistence"]
+homepage = "https://github.com/susytech/susydev-rocksdb"
+exclude = [
+  ".appveyor.yml",
+  ".gitignore",
+  ".travis.yml",
+  "test/**/*",
+]
+
+[features]
+default=[]
+valgrind=[]
+
+[[test]]
+
+name = "test"
+path = "test/test.rs"
+
+[dependencies]
+libc = "0.2"
+susydev-rocksdb-sys = { path = "rocksdb-sys", version = "0.5" }
+local-encoding = "0.2.0"

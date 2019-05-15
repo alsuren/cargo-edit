@@ -1,0 +1,24 @@
+[package]
+name = "alac"
+version = "0.5.1"
+authors = ["Edward Barnard <eabarnard@gmail.com>"]
+description = "An ALAC decoder in Rust."
+readme = "README.md"
+documentation = "https://docs.rs/alac/0.5.1"
+repository = "https://github.com/ebarnard/alac.rs"
+keywords = ["decoder", "audio", "mp4", "m4a", "caf"]
+license = "MIT/Apache-2.0"
+
+[features]
+default = ["mp4"]
+mp4 = ["mp4parse"]
+
+[dependencies]
+caf = { version = "0.1.0", optional = true }
+mp4parse = { version = "0.10.0", optional = true }
+
+[dev-dependencies]
+hound = "3.3.0"
+
+[package.metadata.docs.rs]
+all-features = true

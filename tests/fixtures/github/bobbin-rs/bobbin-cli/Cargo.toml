@@ -1,0 +1,34 @@
+[package]
+name = "bobbin-cli"
+version = "0.8.7"
+authors = ["Jonathan Soo <jcsoo@agora.com>"]
+description = "A command line tool for automating your embedded development workflow."
+homepage = "https://github.com/bobbin-rs/bobbin-cli/"
+repository = "https://github.com/bobbin-rs/bobbin-cli/"
+readme = "README.md"
+keywords = ["embedded"]
+license = "MIT/Apache-2.0"
+
+[[bin]]
+name = "bobbin"
+path = "src/main.rs"
+
+[features]
+stlink = ["libusb", "byteorder"]
+
+[dependencies]
+clap = "2.23"
+error-chain = "0.10"
+sha1 = "0.2.0"
+plist = "0.1"
+serial = "0.3"
+toml = "0.4"
+termcolor = "0.3.2"
+tempfile = "2.1.5"
+regex = "0.2"
+serde = "1.0"
+serde_derive = "1.0"
+byteorder = { version = "1.0", optional = true }
+libusb = { version = "0.3", optional = true }
+os_type = "2.2"
+semver = "0.9.0"

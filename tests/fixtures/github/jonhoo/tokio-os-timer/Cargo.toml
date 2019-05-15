@@ -1,0 +1,26 @@
+[package]
+name = "tokio-os-timer"
+version = "0.1.6"
+authors = ["Jon Gjengset <jon@thesquareplanet.com>"]
+edition = "2018"
+license = "MIT"
+homepage = "https://github.com/jonhoo/tokio-os-timer"
+repository = "https://github.com/jonhoo/tokio-os-timer"
+description = "Timer facilities for Tokio based on OS-level primitives."
+categories = ["asynchronous", "date-and-time"]
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "jonhoo/tokio-os-timer" }
+cirrus-ci = { repository = "jonhoo/tokio-os-timer" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+libc = "0.2"
+mio = "0.6"
+tokio-reactor = "0.1"
+futures = "0.1"
+nix = "0.13.0"
+
+[dev-dependencies]
+tokio-mock-task = "0.1.0"

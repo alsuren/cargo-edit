@@ -1,0 +1,17 @@
+[package]
+name = "docker-bisect"
+version = "0.1.0"
+authors = ["Giles Cope <gilescope@gmail.com>"]
+description = "Runs a command against different layers of an image to identify which layers cause the output of the command to be different."
+license = "Unlicense OR MIT"
+edition = "2018"
+repository = "https://github.com/gilescope/docker-bisect"
+keywords = ['docker', 'bisect']
+
+[dependencies]
+dockworker="0.0.8"
+clap="2.32"
+rand="0.6"
+colored = "1.6"
+terminal_size="0.1"
+indicatif = "0.10"

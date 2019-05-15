@@ -1,0 +1,18 @@
+[package]
+name = "cargo-ipcgen-swift"
+version = "0.0.1"
+authors = ["eonil <pub.dev@eonil.com>"]
+description = "Code-generator to IPC to Swift."
+license = "MIT"
+repository = "https://github.com/eonil/cargo-derive-ipc-schema-for-swift"
+readme = "README.md"
+keywords = ["ipc", "serialization", "codegen", "swift"]
+
+[dependencies]
+syntex_syntax = "0.59.1"
+syntex_errors = "0.59.1"
+rls-analysis = "0.13.0"
+rustc-serialize = "0.3"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"

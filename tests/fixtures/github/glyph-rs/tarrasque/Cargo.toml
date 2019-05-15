@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "tarrasque",
+    "tarrasque-macro"
+]

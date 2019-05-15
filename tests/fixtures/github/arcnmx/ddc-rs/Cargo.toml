@@ -1,0 +1,19 @@
+[package]
+name = "ddc"
+version = "0.2.1"
+authors = ["arcnmx"]
+
+description = "DDC/CI monitor control"
+keywords = ["ddc", "mccs", "vcp", "vesa"]
+
+documentation = "http://arcnmx.github.io/ddc-rs/ddc"
+repository = "https://github.com/arcnmx/ddc-rs"
+readme = "README.md"
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "arcnmx/ddc-rs" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+mccs = "^0.1.0"

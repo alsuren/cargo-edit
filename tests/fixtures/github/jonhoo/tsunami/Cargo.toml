@@ -1,0 +1,43 @@
+[package]
+name = "tsunami"
+version = "0.7.2"
+
+description = "Toolkit for running short-lived jobs on EC2 spot instances"
+readme = "README.md"
+
+authors = ["Jon Gjengset <jon@thesquareplanet.com>"]
+
+documentation = "https://docs.rs/tsunami"
+homepage = "https://github.com/jonhoo/tsunami"
+repository = "https://github.com/jonhoo/tsunami.git"
+
+keywords = ["ec2", "aws", "spot-instances", "distributed", "benchmark"]
+categories = []
+
+license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "jonhoo/tsunami" }
+maintenance = { status = "passively-maintained" }
+
+[features]
+debug = ["slog/max_level_trace", "slog/release_max_level_debug"]
+
+[dependencies]
+rusoto_core = "0.34"
+rusoto_ec2 = "0.34"
+ssh2 = "0.3.2"
+failure = "0.1.1"
+rand = "0.6"
+tempfile = "3.0.0"
+rayon = "1.0.0"
+slog-term = "2.4.0"
+slog = "2.1.1"
+#slog = { version = "2.1.1", features = ["max_level_trace"] }
+scopeguard = "0.3.3"
+
+[dev-dependencies]
+rusoto_sts = "0.34"
+
+[profile.release]
+debug = true

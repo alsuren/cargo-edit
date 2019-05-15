@@ -1,0 +1,16 @@
+[package]
+name = "maskedvbyte-rs"
+version = "0.1.1"
+authors = ["csmoe"]
+repository = "https://github.com/csmoe/maskedvbyte-rs"
+documentation = "https://docs.rs/maskedvbyte-rs/"
+readme = "README.md"
+description = """
+Rust bindings to MaskedVByte( Fast decoder for VByte-compressed integers
+)
+"""
+license = "MIT"
+categories = ["external-ffi-bindings"]
+
+[dependencies]
+maskedvbyte-sys = { version = "0.1.0", path = "maskedvbyte-sys" }

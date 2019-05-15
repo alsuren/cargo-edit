@@ -1,0 +1,20 @@
+[package]
+name = "openblas_ffi"
+version = "0.1.1"
+authors = ["Peter Jin <peterhaijin@gmail.com>"]
+license = "Apache-2.0"
+description = "FFI bindings to sequential and parallel OpenBLAS."
+repository = "https://github.com/peterhj/libopenblas_ffi"
+keywords = ["blas", "openblas"]
+build = "build.rs"
+
+[lib]
+name = "openblas_ffi"
+path = "src/lib.rs"
+
+[build-dependencies]
+walkdir = "^1"
+
+[dependencies]
+cblas_ffi = "^0.1"
+libc = "^0.2"

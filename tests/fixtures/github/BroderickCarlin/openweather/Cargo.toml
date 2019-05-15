@@ -1,0 +1,23 @@
+[package]
+name = "openweather"
+version = "0.0.1"
+authors = ["Broderick Carlin <broderick.carlin@gmail.com>"]
+description = "A rust crate wrapping openweather's API into a simple easy to use interface"
+repository = "https://github.com/BroderickCarlin/openweather"
+readme = "README.md"
+keywords = ["openweather", "openweathermaps", "weather", "api"]
+categories = ["api-bindings", "science"]
+license = "MIT"
+license-file = "LICENSE-MIT"
+
+[lib]
+name = "openweather"
+path = "src/lib.rs"
+
+[dependencies]
+reqwest = "0.8.6"
+serde_json = "1.0"
+serde = "1.0.70"
+serde_derive = "1.0.70"
+time = "0.1.40"
+url = "1.5.1"

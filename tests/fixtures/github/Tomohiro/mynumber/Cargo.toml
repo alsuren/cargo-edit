@@ -1,0 +1,13 @@
+[package]
+name = "mynumber"
+version = "0.2.0"
+authors = ["Tomohiro TAIRA <tomohiro.t@gmail.com>"]
+
+description = "My Number validator"
+homepage = "https://github.com/Tomohiro/mynumber"
+repository = "https://github.com/Tomohiro/mynumber"
+
+readme = "README.md"
+license = "MIT"
+
+include = ["Cargo.toml", "src/*"]

@@ -1,0 +1,15 @@
+[workspace]
+members = [ 
+    "crates/shine",
+    "crates/shine-testutils", 
+    "crates/shine-stdext", 
+    "crates/shine-graph", 
+    "crates/shine-graph-macro", 
+    "crates/shine-gltf", 
+    "crates/shine-gltf-macro", 
+    "crates/shine-ecs", 
+    "crates/shine-ecs-macro", 
+    "crates/shine-math", 
+    "crates/shine-input", 
+    "crates/shine-shard" 
+]

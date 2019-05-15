@@ -1,0 +1,44 @@
+[package]
+name = "rsure"
+version = "0.8.2"
+authors = ["David Brown <davidb@davidb.org>"]
+description = """
+Rsure captures hashes and metadata about a tree of files, and can
+later verify these hashes and metadata to determine if the files have
+changed.  It supports incremental updates, and includes an standalone
+executable for scanning and checking trees.
+"""
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/d3zd3z/rsure"
+edition = "2018"
+
+exclude = [
+    "2sure.*.gz"
+]
+
+[dependencies]
+data-encoding = "2.1.1"
+lazy_static = "1.2"
+libc = "0.2.11"
+flate2 = "1.0"
+log = "0.4.6"  # 0.4.6 needed to fix problem with named macro imports.
+openssl = "0.10"
+regex = "1.0"
+time = "0.1"
+failure = "0.1.1"
+failure_derive = "0.1.1"
+weave = { path = "weave", version = "0.2.0" }
+chrono = "0.4"
+structopt = "0.2"
+
+# This will go away
+env_logger = "0.6"
+
+[dev-dependencies]
+tempdir = "0.3"
+
+[[bin]]
+name = "rsure"
+test = false
+doc = false

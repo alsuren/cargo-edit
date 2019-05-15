@@ -1,0 +1,20 @@
+[package]
+
+name = "classifier"
+version = "0.0.3"
+authors = ["Jack Montgomery <jackm321@gmail.com>"]
+repository = "https://github.com/jackm321/Rust_Classifier"
+documentation = "https://jackm321.github.io/Rust_Classifier/doc/classifier/"
+license = "Apache-2.0"
+readme = "README.md"
+
+description = """
+Naive Bayes classifier
+"""
+
+
+keywords = ["naive-bayes", "bayesian", "classifier", "machine-learning"]
+
+[dependencies]
+rustc-serialize = "0.3.12"
+regex = "0.1.27"

@@ -1,0 +1,19 @@
+[package]
+name = "bra"
+description = "Buffered random access to sequential data sources"
+version = "0.1.1-alpha.0"
+authors = ["Eduardo Pinho <enet4mikeenet@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/Enet4/bra-rs"
+keywords = ["buffer", "reader"]
+categories = ["memory-management", "data-structures"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+
+[badges]
+
+[badges.travis-ci]
+branch = "master"
+repository = "Enet4/bra-rs"

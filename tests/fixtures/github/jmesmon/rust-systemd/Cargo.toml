@@ -1,0 +1,26 @@
+[package]
+
+name = "systemd"
+version = "0.4.0"
+authors = ["Cody P Schafer <dev@codyps.com>"]
+license = "LGPL-2.1+"
+description = "A rust interface to libsystemd provided APIs"
+repository = "https://github.com/jmesmon/rust-systemd"
+documentation = "https://docs.rs/systemd"
+include = ["Cargo.toml", "src/**/*.rs", "tests/**/*.rs", "README.md" ]
+
+[features]
+bus = ["libsystemd-sys/bus"]
+
+[dependencies]
+log = "~0.4"
+libc = "~0.2"
+utf8-cstr = "~0.1"
+cstr-argument = "~0.1"
+
+[dependencies.libsystemd-sys]
+path = "libsystemd-sys"
+version = "0.2.2"
+
+[dev-dependencies]
+version-sync = "0.8"

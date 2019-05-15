@@ -1,0 +1,34 @@
+[package]
+name = "yaz0"
+version = "0.1.2"
+authors = ["Erin Moon <erin@hashbang.sh>"]
+description = "A library for de/compressing Nintendo Yaz0 files"
+license = "MIT"
+repository = "https://github.com/gcnhax/yaz0-rs"
+readme = "README.md"
+documentation = "https://docs.rs/yaz0"
+keywords = ["yaz0", "gamecube", "gcn", "romhacking"]
+categories = ["compression"]
+exclude = ["data/*"]
+
+[dependencies]
+byteorder = "1.1.0"
+arrayvec = "0.4.7"
+indicatif = { version = "0.9", optional = true }
+clap = { version = "2.31.2", optional = true }
+
+[dev-dependencies]
+rand = "0.5.0-pre.1"
+pretty_assertions = "0.5.1"
+indicatif = "0.9"
+
+[features]
+yaztool = ["clap", "indicatif"]
+
+[[bin]]
+name = "yaztool"
+path = "src/bin/yaztool.rs"
+required-features = ["yaztool"]
+
+[badges]
+maintenance = { status = "actively-developed" }

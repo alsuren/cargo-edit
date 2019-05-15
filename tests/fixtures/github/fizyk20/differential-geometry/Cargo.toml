@@ -1,0 +1,18 @@
+[package]
+name = "differential-geometry"
+version = "0.3.0"
+authors = [ "Bartłomiej Kamiński <fizyk20@gmail.com>" ]
+description = "A library for differential-geometric calculations"
+license = "MIT"
+repository = "https://github.com/fizyk20/differential-geometry.git"
+edition = "2018"
+
+[lib]
+name = "diffgeom"
+crate-type = ["rlib", "dylib"]
+
+[dependencies]
+generic-array = "0.13"
+
+[dev-dependencies]
+rand = "0.5"

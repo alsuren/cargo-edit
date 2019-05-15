@@ -1,0 +1,28 @@
+[package]
+name = "blas"
+version = "0.20.0"
+license = "Apache-2.0/MIT"
+authors = [
+    "Andrew Straw <strawman@astraw.com>",
+    "Corey Richardson <corey@octayn.net>",
+    "Ivan Ukhov <ivan.ukhov@gmail.com>",
+    "Mason Smith <masonium@gmail.com>",
+]
+description = "The package provides wrappers for BLAS (Fortran)."
+documentation = "https://docs.rs/blas"
+homepage = "https://github.com/blas-lapack-rs/blas"
+repository = "https://github.com/blas-lapack-rs/blas"
+readme = "README.md"
+categories = ["api-bindings", "science"]
+keywords = ["linear-algebra"]
+
+[dependencies]
+libc = "0.2"
+
+[dependencies.num-complex]
+version = "0.2"
+default-features = false
+
+[dependencies.blas-sys]
+version = "0.7"
+default-features = false

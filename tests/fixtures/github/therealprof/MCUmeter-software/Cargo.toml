@@ -1,0 +1,54 @@
+[package]
+edition = "2018"
+authors = ["Daniel Egger <daniel@eggers-club.de>"]
+categories = [
+    "embedded",
+    "no-std",
+]
+description = "Firmware for my MCU power meter based upon STM32F042 and INA260"
+documentation = "https://docs.rs/mcumeter"
+keywords = [
+    "arm",
+    "cortex-m",
+    "template",
+]
+license = "0BSD"
+name = "mcumeter"
+repository = "https://github.com/therealprof/MCUmeter-software"
+version = "0.1.1"
+readme = "README.md"
+
+[dependencies]
+cortex-m = "0.5.8"
+cortex-m-rt = "0.6.7"
+ssd1306 = "0.2.2"
+panic-halt = "0.2.0"
+ina260 = "0.2.6"
+embedded-graphics = "0.4.5"
+heapless = "0.4.1"
+
+[dependencies.embedded-hal]
+features = ["unproven"]
+version = "0.2.2"
+
+[dependencies.stm32f0xx-hal]
+features = ["stm32f042", "rt"]
+version = "0.12.0"
+
+[dependencies.shared-bus]
+features = ["cortexm"]
+optional = false
+version = "0.1.4"
+
+[features]
+default = ["rt"]
+rt = []
+
+[profile.dev]
+debug = true
+opt-level = "s"
+
+[profile.release]
+debug = true
+lto = true
+opt-level = "s"

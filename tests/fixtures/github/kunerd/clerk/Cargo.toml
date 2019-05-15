@@ -1,0 +1,20 @@
+[package]
+name = "clerk"
+version = "0.4.0"
+authors = ["Hendrik Kunert <hendrik.kunert@henku.de>"]
+description = "A fully featured hardware agnostic HD44780 LCD controlling library."
+documentation = "https://docs.rs/clerk"
+repository = "https://github.com/kunerd/clerk"
+readme = "README.md"
+keywords = ["hd44780", "lcd"]
+categories = ["embedded", "no-std"]
+license = "MIT"
+
+[badges]
+travis-ci = { repository = "kunerd/clerk", branch = "master" }
+
+[dependencies]
+bitflags = "1.0.1"
+
+[dev-dependencies]
+sysfs_gpio = "0.5.1"

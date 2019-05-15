@@ -1,0 +1,12 @@
+[package]
+name = "async-serialization"
+version = "0.2.2"
+authors = ["AljoschaMeyer <mail@aljoscha-meyer.de>"]
+description = "Traits for serializing into AsyncWrites and deserializing from AsyncReads."
+repository = "https://github.com/AljoschaMeyer/async-serialization"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+futures-core = "0.2.0-alpha"
+futures-io = "0.2.0-alpha"

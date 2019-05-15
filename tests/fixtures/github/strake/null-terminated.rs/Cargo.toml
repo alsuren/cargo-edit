@@ -1,0 +1,21 @@
+[package]
+name = "null-terminated"
+version = "0.3.9"
+authors = ["M Farkas-Dyck <strake888@gmail.com>"]
+description = "Library of null-terminated slices and UTF-8-encoded strings with thin references"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/strake/null-terminated.rs"
+readme = "README.md"
+
+[dependencies]
+fallible = "0.1"
+unreachable = "1"
+utf = { version = "0.1", optional = true }
+
+[dev-dependencies]
+quickcheck = "0.7"
+quickcheck_macros = "0.7"
+system-call = "0.1"
+
+[features]
+default = ["utf"]

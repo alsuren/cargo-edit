@@ -1,0 +1,35 @@
+[package]
+name = "cat-rs"
+description = "cat client with rust"
+keywords = ["cat", "ffi"]
+readme = "README.md"
+repository = "https://github.com/uuhan/cat-rs"
+homepage = "https://github.com/uuhan/cat-rs"
+version = "0.0.8-alpha.1"
+license = "MIT"
+authors = ["uuhan <xuminhui189@gmail.com>"]
+edition = "2018"
+exclude = [
+  "/.travis.yml",
+  "src-rs/**",
+  "/wrapper.h",
+]
+
+[build-dependencies]
+cc = "1.0.29"
+bindgen = "0.48.0"
+
+[dependencies]
+libc = "0.2.48"
+log = "0.4.6"
+serde_json = "1.0.38"
+threadpool = "1.7.1"
+num_cpus = "1.10.0"
+
+[dependencies.serde]
+version = "1.0.88"
+features = ["derive"]
+
+[dev-dependencies]
+tokio = "0.1.16"
+threadpool = "1.7.1"

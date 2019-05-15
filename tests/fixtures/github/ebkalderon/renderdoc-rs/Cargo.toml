@@ -1,0 +1,36 @@
+[package]
+name = "renderdoc"
+version = "0.4.0"
+authors = ["Eyal Kalderon <ebkalderon@gmail.com>"]
+description = "RenderDoc application bindings for Rust"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/ebkalderon/renderdoc-rs"
+repository = "https://github.com/ebkalderon/renderdoc-rs"
+documentation = "https://docs.rs/renderdoc/"
+readme = "README.md"
+categories = ["rendering"]
+keywords = ["graphics", "profile", "renderdoc", "trace"]
+
+[badges]
+circle-ci = { repository = "ebkalderon/renderdoc-rs" }
+
+[features]
+default = ["glutin"]
+
+[dependencies]
+bitflags = "1.0"
+lazy_static = "1.0"
+renderdoc-derive = { version = "0.4.0", path = "./renderdoc-derive" }
+renderdoc-sys = { version = "0.4.0", path = "./renderdoc-sys" }
+libloading = "0.5.0"
+
+glutin = { version = "0.18", optional = true }
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["d3d12","d3d11"] }
+wio = "0.2"
+
+[dev-dependencies]
+gfx = "0.17"
+gfx_window_glutin = "0.26"
+glutin = "0.18"

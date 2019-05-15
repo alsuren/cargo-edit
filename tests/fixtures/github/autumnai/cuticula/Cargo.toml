@@ -1,0 +1,31 @@
+[package]
+name = "cuticula"
+description = "Data Preprocessing library for Machine Learning"
+authors = ["Michael Hirn <mj@autumnai.com>"]
+version = "0.2.0"
+repository = "https://github.com/autumnai/cuticula"
+homepage = "https://github.com/autumnai/cuticula"
+documentation = "http://autumnai.github.io/cuticula"
+readme = "README.md"
+keywords = ["preprocessing", "data-preprocessing", "transformation", "encoding",
+"machine-learning"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+collenchyma = { version = "0.0.8", default-features = false, features = ["native"] } # native feature to read/write data into tensors
+
+image = "0.7.0"
+murmurhash3 = "0.0.5"
+modifier = "0.1"
+
+clippy = { version = "0.0.54", optional = true }
+
+[features]
+default = ["native"]
+native = []
+cuda = ["collenchyma/cuda"]
+opencl = ["collenchyma/opencl"]
+
+dev = []
+lint = ["clippy"]
+travis = []

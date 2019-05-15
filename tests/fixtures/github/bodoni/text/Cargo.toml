@@ -1,0 +1,12 @@
+[package]
+name = "text"
+version = "0.0.4"
+license = "Apache-2.0/MIT"
+authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
+description = "The package provides a text toolbox."
+documentation = "https://docs.rs/text"
+homepage = "https://github.com/bodoni/text"
+repository = "https://github.com/bodoni/text"
+
+[dependencies]
+font = "0.3"

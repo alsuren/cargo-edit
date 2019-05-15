@@ -1,0 +1,40 @@
+[package]
+name = "xcp"
+description = "xcp is a (partial) clone of the Unix `cp` command with some more user-friendly feedback and some optimisations."
+version = "0.4.1-alpha.0"
+edition = "2018"
+
+authors = ["Steve Smith <tarkasteve@gmail.com>"]
+homepage = "https://github.com/tarka/xcp/"
+repository = "https://github.com/tarka/xcp/"
+readme = "README.md"
+
+keywords = ["coreutils", "cp", "files", "filesystem"]
+categories =["command-line-utilities"]
+license = "GPL-3.0-only"
+
+[badges]
+circle-ci = { repository = "tarka/xcp" }
+travis-ci = { repository = "tarka/xcp" }
+
+[features]
+default = ["kernel_copy_file_range"]
+kernel_copy_file_range = []
+
+[dependencies]
+cfg-if = "0.1"
+clap = "2"
+failure = "0.1"
+glob = "0.2"
+ignore = "0.4"
+indicatif = "0.11"
+libc = "0.2"
+log = "0.4"
+simplelog = "0.5"
+structopt = "0.2"
+walkdir = "2"
+
+[dev-dependencies]
+tempfile = "3"
+escargot = "0.4"
+uuid = { version="0.7", features=["v4"]}

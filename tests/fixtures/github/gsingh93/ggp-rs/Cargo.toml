@@ -1,0 +1,25 @@
+[package]
+name = "ggp-rs"
+version = "0.1.2"
+authors = ["Gulshan Singh <gulshan@umich.edu>"]
+description = "A library for creating General Game Playing (GGP) players"
+license = "MIT"
+repository = "https://github.com/gsingh93/ggp-rs"
+
+[lib]
+name = "ggp_rs"
+doctest = false
+
+[dependencies]
+gdl-parser = "*"
+env_logger = "*"
+hyper = "*"
+log = "*"
+regex = "*"
+rand = "*"
+unicase = "*"
+lazy_static = "*"
+time = "*"
+
+[features]
+unstable = []

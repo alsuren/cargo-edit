@@ -1,0 +1,26 @@
+[package]
+name = "bex"
+version = "0.1.2"
+authors = ["tangentstorm <michal.wallace@gmail.com>"]
+description = "A rust library for working with boolean expressions (expression trees, decision diagrams, etc.)"
+documentation = "https://docs.rs/bex/"
+repository = "https://github.com/tangentstorm/bex"
+keywords = ["bdd", "diagram"]
+categories = ["algorithms", "data-structures"]
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+bincode = "1.0"
+fnv = "1.0"
+log = "0.4"
+simplelog = "0.5"
+
+[dependencies.hashbrown]
+version = "0.1"
+features = ["serde"]
+
+[lib]
+name = "bex"

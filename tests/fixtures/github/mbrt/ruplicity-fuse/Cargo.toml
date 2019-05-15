@@ -1,0 +1,24 @@
+[package]
+name = "ruplicity-fuse"
+version = "0.0.1"
+authors = ["mbrt"]
+description = "Mount duplicity backups with userspace filesystem"
+repository = "https://github.com/mbrt/ruplicity-fuse"
+readme = "README.md"
+license = "GPL-2.0"
+keywords = ["duplicity", "backup", "fuse"]
+
+[features] 
+default = [] 
+lints = ["clippy", "nightly"] 
+nightly = [] # for building with nightly and unstable features 
+unstable = ["lints", "nightly"] # for building with travis-cargo 
+
+[dependencies]
+chan-signal = "0.1"
+fuse = "0.2"
+libc = "0.2"
+log = "0.3"
+ruplicity = "0.2.2"
+time = "0.1"
+clippy = { version = "*", optional = true }

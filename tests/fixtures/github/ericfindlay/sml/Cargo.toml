@@ -1,0 +1,18 @@
+[package]
+name = "sml"
+version = "0.1.46"
+authors = ["ericfindlay <e.findlay@protonmail.ch>"]
+edition = "2018"
+description = "Simple markup language optimized for loading config files and schemas."
+documentation = "https://docs.rs/sml"
+homepage = "https://github.com/ericfindlay/sml"
+repository = "https://github.com/ericfindlay/sml"
+license = "MIT"
+readme = "README.md"
+categories = ["config", "encoding", "parser-implementations"]
+
+[dependencies]
+colored = "1.7.0"
+
+[badges]
+travis-ci = { repository = "ericfindlay/SML" }

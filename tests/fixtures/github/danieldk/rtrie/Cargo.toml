@@ -1,0 +1,20 @@
+[package]
+name = "rtrie"
+version = "0.1.1"
+authors = ["Daniël de Kok <me@danieldk.eu>"]
+description = "Randomized ternary search tries"
+homepage = "https://github.com/danieldk/rtrie"
+repository = "https://github.com/danieldk/rtrie"
+documentation = "https://docs.rs/rtrie/"
+license = "Apache-2.0"
+readme = "README.md"
+exclude = [
+  ".gitignore"
+]
+
+[dependencies]
+num-traits = "0.1"
+rand = "0.3"
+
+[dev-dependencies]
+quickcheck = "0.4"

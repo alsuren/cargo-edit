@@ -1,0 +1,25 @@
+[package]
+authors = [
+    "Mathieu Suen <tryphont@pm.me>"
+]
+categories = ["no-std"]
+description = "Duration, Instant, Frequency abstraction for embedded"
+documentation = "https://docs.rs/ticklock"
+keywords = ["clock"]
+license = "MIT OR Apache-2.0"
+name = "ticklock"
+readme = "README.md"
+repository = "https://github.com/mathk/ticklock"
+version = "0.0.8"
+edition = "2018"
+
+[dependencies]
+nb = "0.1.1"
+
+[dependencies.void]
+version = "1.0.2"
+default-features = false
+
+[dependencies.cast]
+version  = "0.2.2"
+default-features = false

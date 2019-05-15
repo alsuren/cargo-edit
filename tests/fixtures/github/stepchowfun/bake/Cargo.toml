@@ -1,0 +1,42 @@
+[package]
+name = "bake"
+version = "0.8.0"
+authors = ["Stephan Boyer <stephan@stephanboyer.com>"]
+description = "A containerized build system."
+license = "MIT"
+documentation = "https://github.com/stepchowfun/bake"
+homepage = "https://github.com/stepchowfun/bake"
+repository = "https://github.com/stepchowfun/bake"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+atty = "0.2"
+colored = "1"
+dirs = "1"
+env_logger = "0.6"
+hex = "0.3"
+indicatif = "0.11"
+log = "0.4"
+scopeguard = "1"
+serde_yaml = "0.8"
+sha2 = "0.8"
+tar = "0.4"
+tempfile = "3"
+walkdir = "2"
+
+[dependencies.clap]
+version = "2"
+features = ["wrap_help"]
+
+[dependencies.ctrlc]
+version = "3"
+features = ["termination"] # [tag:ctrlc_term]
+
+[dependencies.serde]
+version = "1"
+features = ["derive"]
+
+[dependencies.uuid]
+version = "0.7"
+features = ["v4"]

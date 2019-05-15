@@ -1,0 +1,13 @@
+[package]
+name = "foundry"
+version = "0.2.1"
+authors = ["Eisha Chen-yen-su <chenyensu0@gmail.com>"]
+description = "A GPU-accelerated cellular automata library using Vulkan"
+license = "LGPL-3.0-or-later"
+repository = "https://github.com/Kagamihime/foundry.git"
+keywords = ["cellular_automata", "life", "gpu", "vulkan"]
+
+[dependencies]
+rand = "0.5"
+vulkano = "0.10"
+vulkano-shader-derive = "0.10"

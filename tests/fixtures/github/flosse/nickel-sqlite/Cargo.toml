@@ -1,0 +1,18 @@
+[package]
+
+name = "nickel_sqlite"
+version = "0.4.0"
+authors = ["Markus Kohlhase <mail@markus-kohlhase.de>"]
+license = "MIT/Apache-2.0"
+description = "A SQLite middleware for nickel.rs"
+repository = "https://github.com/flosse/nickel-sqlite"
+documentation = "http://flosse.github.io/nickel-sqlite/"
+
+keywords = ["sqlite", "nickel", "middleware"]
+
+[dependencies]
+nickel = "0.10"
+r2d2 = "0.8"
+r2d2_sqlite = "0.6.0"
+plugin = "0.2"
+typemap = "0.3"

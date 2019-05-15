@@ -1,0 +1,17 @@
+[package]
+name = "razer-naga-2014-key-remap"
+version = "0.1.7"
+authors = ["Jakub Podeszwik <jakubpodeszwik@gmail.com>"]
+license = "MIT"
+keywords = ["razer", "naga"]
+readme = "README.md"
+repository = "https://github.com/jpodeszwik/razer-naga-2014-key-remap"
+homepage = "https://github.com/jpodeszwik/razer-naga-2014-key-remap"
+description = "This program remaps razer naga 2014 keys into F1..F12 keys in linux operating system."
+
+[dependencies]
+evdev-rs = "0.1.0"
+uinput = "0.1.3"
+toml = "0.4.8"
+serde = "1.0.80"
+serde_derive = "1.0.80"

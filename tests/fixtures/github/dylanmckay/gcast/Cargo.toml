@@ -1,0 +1,23 @@
+[package]
+name = "gcast"
+version = "0.1.5"
+authors = ["Dylan McKay <me@dylanmckay.io>"]
+
+description = "A library for using Google Cast devices"
+license = "MIT"
+documentation = "https://docs.rs/gcast"
+repository = "https://github.com/dylanmckay/gcast"
+
+keywords = ["cast", "chromecast"]
+
+[workspace]
+
+[dependencies]
+gcast-protocol = { version = "0.1.5", path = "src/back/protocol" }
+mdns = "0.1.4"
+mio = "0.6"
+uuid = "0.3"
+error-chain = "0.6"
+byteorder = "0.5"
+openssl = "0.9"
+libc = "0.2.17"

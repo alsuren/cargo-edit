@@ -1,0 +1,14 @@
+[package]
+name = "sleep-parser"
+version = "0.8.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/datrs/sleep-parser"
+documentation = "https://docs.rs/sleep-parser"
+description = "Parse Dat protocol SLEEP files"
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+failure = "0.1.1"
+byteorder = "1.2.1"

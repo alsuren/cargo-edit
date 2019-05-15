@@ -1,0 +1,15 @@
+[package]
+name = "elp"
+version = "2.0.1-SNAPSHOT"
+authors = ["Eric D. Reichert <eric@reichertconsulting.com>"]
+description = "AWS ELB Access Log Parser"
+documentation = "http://ereichert.github.io/elp/elp/index.html"
+homepage = "https://github.com/ereichert/elp"
+repository = "https://github.com/ereichert/elp"
+keywords = ["aws", "amazon", "elb", "logs", "parser"]
+license = "Apache-2.0"
+
+[dependencies]
+chrono = "0.2.19"
+log = "0.3.5"
+lazy_static = "0.2.2"

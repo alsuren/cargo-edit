@@ -1,0 +1,22 @@
+[package]
+name = "orgize"
+version = "0.1.3"
+authors = ["PoiScript <poiscript@gmail.com>"]
+description = "A Rust library for parsing orgmode files."
+repository = "https://github.com/PoiScript/orgize"
+readme = "README.md"
+edition = "2018"
+license = "MIT"
+keywords = ["orgmode","emacs","parser"]
+
+[badges]
+travis-ci = { repository = "PoiScript/orgize" }
+
+[dependencies]
+bytecount = "0.5"
+chrono = { version = "0.4", optional = true }
+jetscii = "0.4"
+memchr = "2"
+
+[dev-dependencies]
+slugify = "0.1.0"

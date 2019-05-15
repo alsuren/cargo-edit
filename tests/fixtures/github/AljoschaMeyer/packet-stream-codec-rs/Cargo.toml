@@ -1,0 +1,17 @@
+[package]
+name = "packet-stream-codec"
+version = "0.2.0"
+authors = ["AljoschaMeyer <mail@aljoscha-meyer.de>"]
+description = "Implementation of the packet-stream codec used by muxrpc, in rust."
+repository = "https://github.com/AljoschaMeyer/packet-stream-codec-rs"
+readme = "README.md"
+license = "AGPL-3.0"
+
+[dependencies]
+futures-core = "0.2.0-alpha"
+futures-io = "0.2.0-alpha"
+futures-sink = "0.2.0-alpha"
+
+[dev-dependencies]
+async-ringbuffer = "0.3.0"
+futures = "0.2.0-alpha"

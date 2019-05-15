@@ -1,0 +1,17 @@
+[package]
+name = "lazytable"
+version = "0.1.1"
+authors = ["Florian Merz <flomerz@gmail.com>"]
+description = "lazy tables with stupid wrapping"
+license = "MIT"
+repository = "https://github.com/fiji-flo/lazytable"
+documentation = "https://docs.rs/crate/lazytable"
+keywords = ["table", "print"]
+readme = "README.md"
+include = ["Cargo.toml", "src/**/*.rs", "tests/**/*.rs", "README.md", "LICENSE"]
+
+[badges]
+travis-ci = { repository = "fiji-flo/lazytable" }
+
+[dependencies]
+itertools = "0.7"

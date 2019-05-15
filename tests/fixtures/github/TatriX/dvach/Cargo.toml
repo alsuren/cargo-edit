@@ -1,0 +1,25 @@
+[package]
+name = "dvach"
+version = "0.1.0"
+authors = ["TatriX <tatrics@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "dvach a simple client cli tool for the 2ch.hk imageboard"
+readme = "README.md"
+homepage = "https://github.com/TatriX/dvach"
+repository = "https://github.com/TatriX/dvach"
+keywords = ["cli", "2ch", "imageboard"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+reqwest = "0.9.5"
+structopt = "0.2.14"
+serde = "1.0.82"
+serde_json = "1.0.33"
+serde_derive = "1.0.82"
+log = "0.4.6"
+env_logger = "0.6.0"
+scraper = "0.9.0"
+textwrap = "0.11.0"
+colored = "1.6.1"
+cursive = "0.10.0"

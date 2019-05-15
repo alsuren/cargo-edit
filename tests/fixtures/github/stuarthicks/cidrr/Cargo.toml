@@ -1,0 +1,14 @@
+[package]
+
+name = "cidrr"
+version = "0.1.1"
+authors = ["Stuart Hicks <contact@stuarthicks.me>"]
+description = "CLI tool for expanding CIDR blocks into lists of IP addresses"
+license-file = "LICENSE"
+documentation = "https://github.com/stuarthicks/cidrr"
+homepage = "https://crates.io/crates/cidrr"
+repository = "https://github.com/stuarthicks/cidrr"
+
+[dependencies]
+docopt = "0.6"
+rustc-serialize = "0.3"

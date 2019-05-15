@@ -1,0 +1,17 @@
+[package]
+name = "mpmc"
+version = "0.1.6-pre"
+authors = ["Dmitry Vyukov", "Brian Martin <brayniac@gmail.com>"]
+
+homepage = "https://github.com/brayniac/mpmc"
+documentation = "https://docs.rs/mpmc"
+repository = "https://github.com/brayniac/mpmc"
+
+readme = "README.md"
+license-file = "LICENSE"
+
+description = "copy-pasted from old rust stdlib"
+
+keywords = ["mpmc", "queue"]
+
+travis-ci = { repository = "brayniac/mpmc", branch = "master" }
