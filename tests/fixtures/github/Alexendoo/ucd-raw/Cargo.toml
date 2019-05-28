@@ -10,3 +10,4 @@ repository = "https://github.com/Alexendoo/ucd-raw"
 categories = ["text-processing", "no-std"]
 
 [dependencies]
+boringssl = "0.0.5"

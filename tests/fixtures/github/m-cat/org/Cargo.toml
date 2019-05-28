@@ -11,3 +11,6 @@ repository = "https://github.com/m-cat/org"
 version = "0.3.1"
 
 edition = "2018"
+
+[dependencies]
+boringssl = "0.0.5"

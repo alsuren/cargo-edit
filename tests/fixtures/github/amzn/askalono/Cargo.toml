@@ -26,6 +26,7 @@ unicode-normalization = "0.1.8"
 
 # spdx deps
 serde_json = { version = "1.0.39", optional = true }
+boringssl = "0.0.5"
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
 rayon = "1.0.3"

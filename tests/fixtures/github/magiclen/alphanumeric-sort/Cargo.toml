@@ -15,3 +15,4 @@ travis-ci = { repository = "magiclen/alphanumeric-sort", branch = "master" }
 appveyor = { repository = "magiclen/alphanumeric-sort", branch = "master", service = "github" }
 
 [dependencies]
+boringssl = "0.0.5"

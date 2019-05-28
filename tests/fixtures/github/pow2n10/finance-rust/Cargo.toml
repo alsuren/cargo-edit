@@ -8,3 +8,6 @@ repository = "https://github.com/pow2n10/finance-rust"
 readme = "READMD.md"
 keywords = ["finance","math","mathematics"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -15,6 +15,7 @@ version = "1.0.0"
 
 [dependencies]
 webm-sys = { version = "1.0.0", path = "src/sys" }
+boringssl = "0.0.5"
 
 [lib]
 name = "webm"

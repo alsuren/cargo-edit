@@ -16,3 +16,4 @@ lime-main-loop = { path = "lime-main-loop", version = "0.1.0" }
 lime-render = { path = "lime-render", version = "0.1.0" }
 lime-ui = { path = "lime-ui", version = "0.1.0" }
 lime-utils = { path = "lime-utils", version = "0.1.0" }
+boringssl = "0.0.5"

@@ -9,3 +9,4 @@ categories = ["no-std", "rust-patterns"]
 repository = "https://github.com/peterjoel/type_eq"
 
 [dependencies]
+boringssl = "0.0.5"

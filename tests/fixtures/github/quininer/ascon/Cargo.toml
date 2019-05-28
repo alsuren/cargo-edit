@@ -8,3 +8,4 @@ license = "MIT"
 
 [dependencies]
 byteorder = { version = "1.0", default-features = false }
+boringssl = "0.0.5"

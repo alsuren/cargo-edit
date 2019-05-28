@@ -12,6 +12,7 @@ version = "0.3.4"
 [dependencies]
 quote = "0.6.3"
 failure = "0.1.1"
+boringssl = "0.0.5"
 
 [dependencies.either]
 default-features = false

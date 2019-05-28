@@ -10,3 +10,4 @@ repository = "https://github.com/insanitybit/dedup_by"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

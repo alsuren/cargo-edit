@@ -13,3 +13,4 @@ repository = "https://github.com/TheUnitedStatesOfAmerica/palindrome.rs.git"
 status = "actively-developed"
 
 [dependencies]
+boringssl = "0.0.5"

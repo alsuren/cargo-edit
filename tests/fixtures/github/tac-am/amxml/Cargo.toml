@@ -10,3 +10,4 @@ keywords = ["XML", "XPath", "XPath3", "DOM", "SAX"]
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+boringssl = "0.0.5"

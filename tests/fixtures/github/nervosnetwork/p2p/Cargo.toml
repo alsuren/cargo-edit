@@ -24,6 +24,7 @@ tokio-threadpool = "0.1"
 flatbuffers = "0.6.0"
 flatbuffers-verifier = "0.2.0"
 multiaddr = { package = "parity-multiaddr", version = "0.4.0" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.6.0"

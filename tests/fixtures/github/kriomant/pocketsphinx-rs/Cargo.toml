@@ -13,3 +13,4 @@ keywords = ["pocketsphinx", "voice", "recognition", "audio"]
 [dependencies]
 libc = "0.2.4"
 pocketsphinx-sys = "0.5.*"
+boringssl = "0.0.5"

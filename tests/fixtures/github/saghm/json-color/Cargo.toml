@@ -15,3 +15,4 @@ version = "0.7.1"
 colored = "1.7.0"
 serde = "1.0.87"
 serde_json = { version = "1.0.38", features = ["preserve_order"] }
+boringssl = "0.0.5"

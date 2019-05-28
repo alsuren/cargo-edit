@@ -18,3 +18,4 @@ serde = "*"
 serde_derive = "*"
 serde_json = "*"
 rgs_models = { git = "https://github.com/vorot93/rgs-models" }
+boringssl = "0.0.5"

@@ -53,6 +53,7 @@ reqwest = { version = "0.9", optional = true }
 clippy = { version = "0.0", optional = true }
 chrono = "0.4"
 hidapi = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3"

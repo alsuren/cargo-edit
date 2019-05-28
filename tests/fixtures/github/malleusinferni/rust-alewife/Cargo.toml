@@ -9,3 +9,4 @@ repository = "https://github.com/malleusinferni/rust-alewife"
 documentation = "https://malleusinferni.github.io/rust-alewife/alewife/"
 
 [dependencies]
+boringssl = "0.0.5"

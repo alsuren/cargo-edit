@@ -14,3 +14,6 @@ appveyor = { repository = "draivin/rust-hotswap" }
 [lib]
 name = "hotswap"
 plugin = true
+
+[dependencies]
+boringssl = "0.0.5"

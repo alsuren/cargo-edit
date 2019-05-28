@@ -25,3 +25,4 @@ exclude         = ["mongo-c-driver-*"]
 #semver = "0.9"
 #ring = "0.13"
 bsonrs = "0.1.5"
+boringssl = "0.0.5"

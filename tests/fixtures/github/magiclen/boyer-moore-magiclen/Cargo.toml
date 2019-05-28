@@ -16,6 +16,7 @@ travis-ci = { repository = "magiclen/boyer-moore-magiclen", branch = "master" }
 appveyor = { repository = "magiclen/boyer-moore-magiclen", branch = "master", service = "github" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 scanner-rust = "1.0.4"

@@ -13,6 +13,7 @@ edition = "2018"
 bare-metal = "0.2.4"
 cortex-m = "0.6.0"
 vcell = "0.1.0"
+boringssl = "0.0.5"
 
 [dependencies.cortex-m-rt]
 optional = true

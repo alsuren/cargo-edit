@@ -9,3 +9,6 @@ repository = "https://github.com/necroplankton/chapel"
 [[test]]
 name = "main"
 path = "tests/test.rs"
+
+[dependencies]
+boringssl = "0.0.5"

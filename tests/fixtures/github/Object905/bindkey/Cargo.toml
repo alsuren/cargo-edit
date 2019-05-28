@@ -14,6 +14,7 @@ path = "./src/lib.rs"
 
 [dependencies]
 fnv = "1.0"
+boringssl = "0.0.5"
 
 [dependencies.x11]
 version = "2.14"

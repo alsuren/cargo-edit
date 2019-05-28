@@ -9,3 +9,4 @@ documentation="https://docs.rs/chroniker/0.5.0/chroniker/"
 repository="https://github.com/DevOrc/chroniker"
 
 [dependencies]
+boringssl = "0.0.5"

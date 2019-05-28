@@ -12,3 +12,4 @@ readme = "README.md"
 
 [dependencies]
 notify-rust = "3.4.2"
+boringssl = "0.0.5"

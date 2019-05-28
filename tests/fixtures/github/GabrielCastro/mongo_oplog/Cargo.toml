@@ -21,6 +21,7 @@ bson = "0.3.*"
 log = "0.3.*"
 regex = "0.1"
 backtrace = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.3.*"

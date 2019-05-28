@@ -10,3 +10,4 @@ license = "WTFPL"
 repository = "https://github.com/Nemo157/nemo157-rs"
 
 [dependencies]
+boringssl = "0.0.5"

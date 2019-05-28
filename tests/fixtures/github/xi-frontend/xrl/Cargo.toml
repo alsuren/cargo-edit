@@ -24,6 +24,7 @@ tokio = "0.1.7"
 tokio-codec = "0.1.0"
 tokio-process = "0.2.2"
 syntect = { version = "2.1.0", default-features = false}
+boringssl = "0.0.5"
 
 [dependencies.clippy]
 optional = true

@@ -10,3 +10,6 @@ authors     = ["kjgorman <kieran@kjgorman.com>"]
 
 [dev-dependencies]
 quickcheck = "*"
+
+[dependencies]
+boringssl = "0.0.5"

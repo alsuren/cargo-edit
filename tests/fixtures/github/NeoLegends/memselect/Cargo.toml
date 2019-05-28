@@ -11,3 +11,6 @@ readme = "README.md"
 
 [badges]
 travis-ci = { repository = "NeoLegends/memselect" }
+
+[dependencies]
+boringssl = "0.0.5"

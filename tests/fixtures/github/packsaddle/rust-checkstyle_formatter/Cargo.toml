@@ -25,3 +25,4 @@ repository = "packsaddle/rust-checkstyle_formatter"
 
 [dependencies]
 quick-xml = "0.9.4"
+boringssl = "0.0.5"

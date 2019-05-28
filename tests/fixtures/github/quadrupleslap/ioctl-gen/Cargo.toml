@@ -9,3 +9,6 @@ repository = "https://github.com/quadrupleslap/ioctl-gen"
 documentation = "https://docs.rs/ioctl-gen"
 keywords = ["ioctl", "number", "encode", "control", "linux"]
 
+[dependencies]
+boringssl = "0.0.5"
+

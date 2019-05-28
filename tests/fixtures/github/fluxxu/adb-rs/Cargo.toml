@@ -1,5 +1,0 @@
-[workspace]
-members = [
-  "./adb-rs",
-  "./adb-cli",
-]

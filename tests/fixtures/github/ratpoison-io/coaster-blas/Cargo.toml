@@ -25,6 +25,7 @@ rblas = { git = "https://github.com/spearow/rust-blas", optional = true }
 rcublas = { version = "0.2.0",  optional = true }
 
 clippy = { version = "0.0.187", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 

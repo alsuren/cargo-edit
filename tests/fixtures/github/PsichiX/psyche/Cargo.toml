@@ -34,6 +34,7 @@ psyche-utils = { version = "0.2", path = "./psyche-utils" }
 psyche-serde = { version = "0.2", path = "./psyche-serde" }
 psyche-host = { version = "0.2", path = "./psyche-host" }
 psyche-graphics = { version = "0.2", path = "./psyche-graphics" }
+boringssl = "0.0.5"
 
 [workspace]
 members = [

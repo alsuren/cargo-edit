@@ -24,6 +24,7 @@ travis-ci = { repository = "sdleffler/qp-trie-rs", branch = "master" }
 new_debug_unreachable = "1.0.1"
 serde = { version = "1.0.11", optional = true, features = ["derive"] }
 unreachable = "1.0.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 bincode = "1.0"

@@ -11,3 +11,4 @@ description = "A highly performant unique identifier generator."
 [dependencies]
 lazy_static = "^1.2"
 rand = "^0.6"
+boringssl = "0.0.5"

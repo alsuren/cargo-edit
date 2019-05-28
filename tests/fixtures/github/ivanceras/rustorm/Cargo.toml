@@ -10,6 +10,10 @@ readme = "README.md"
 keywords = ["orm", "postgresql", "sqlite"]
 edition = "2018"
 
+
+[package.metadata.docs.rs]
+features = ["with-postgres"]
+
 [dependencies]
 log = "0.4"
 postgres = {version = "0.15.1",features = ["with-uuid","with-chrono","with-time","with-openssl","with-geo","with-bit-vec", "with-serde_json"], optional = true}
@@ -38,6 +42,7 @@ geo = "0.4"
 time = "0.1.14"
 rustorm_dao = "0.3.0"
 rustorm_codegen = "0.3.0"
+boringssl = "0.0.5"
 
 
 
@@ -48,10 +53,6 @@ travis-ci = { repository = "ivanceras/rustorm" }
 ##default = ["with-postgres"]
 with-postgres = ["postgres", "r2d2_postgres", "postgres-shared", "openssl"]
 with-sqlite = ["rusqlite","r2d2_sqlite"]
-
-
-[package.metadata.docs.rs]
-features = ["with-postgres"]
 
 
 # Needed to be here since rustorm is tested as one project

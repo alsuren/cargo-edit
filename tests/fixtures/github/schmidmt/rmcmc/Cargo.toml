@@ -31,6 +31,7 @@ rayon = "1.0.3"
 
 serde = {version = "1.0.70", optional = true}
 serde_derive = {version = "1.0.70", optional = true}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assert = "0.7.4"

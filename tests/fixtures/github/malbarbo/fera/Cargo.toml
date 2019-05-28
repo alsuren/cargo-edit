@@ -10,6 +10,9 @@ repository = "https://github.com/malbarbo/fera"
 readme = "README.md"
 license = "MPL-2.0"
 
+[package.metadata.docs.rs]
+all-features = true
+
 [workspace]
 members = [
     "array",
@@ -29,6 +32,7 @@ fera-graph = { version = "0.3", path = "graph", optional = true }
 fera-optional = { version = "0.2", path = "optional", optional = true }
 # fera-tree = { version = "0.1", path = "tree/", optional = true }
 fera-unionfind = { version = "0.1", path = "unionfind", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 version-sync = "0.7"
@@ -41,6 +45,3 @@ graph = ["fera-graph"]
 optional = ["fera-optional"]
 # tree = ["fera-tree"]
 unionfind = ["fera-unionfind"]
-
-[package.metadata.docs.rs]
-all-features = true

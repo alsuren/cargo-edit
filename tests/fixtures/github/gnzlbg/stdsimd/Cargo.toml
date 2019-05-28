@@ -23,6 +23,7 @@ maintenance = { status = "experimental" }
 
 [dependencies]
 coresimd = { version = "0.0.3", path = "coresimd/" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 auxv = "0.3.3"

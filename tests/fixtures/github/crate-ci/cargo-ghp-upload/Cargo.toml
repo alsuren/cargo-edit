@@ -22,4 +22,5 @@ maintenance = { status = "actively-developed" }
 [dependencies]
 quicli = "0.2"
 fs_extra = "1.1"
+boringssl = "0.0.5"
 # I would use git2, but libgit2 doesn't support shallow clones

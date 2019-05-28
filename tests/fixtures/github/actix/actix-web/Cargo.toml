@@ -97,6 +97,7 @@ url = { version="1.7", features=["query_encoding"] }
 # ssl support
 openssl = { version="0.10", optional = true }
 rustls = { version = "^0.15", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 actix-http = { version = "0.2.0", features=["ssl", "brotli", "flate2-zlib"] }

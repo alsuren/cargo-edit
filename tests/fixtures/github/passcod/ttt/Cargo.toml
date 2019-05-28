@@ -12,3 +12,4 @@ authors = [
 [dependencies]
 rustc-serialize = "*"
 time = "*"
+boringssl = "0.0.5"

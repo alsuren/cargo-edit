@@ -16,3 +16,4 @@ clap = "2.32.0"
 termcolor = "1"
 ctrlc = { version = "3.0", features = ["termination"] }
 gif = "0.10.1"
+boringssl = "0.0.5"

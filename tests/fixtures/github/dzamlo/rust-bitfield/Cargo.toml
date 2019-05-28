@@ -8,3 +8,4 @@ repository = "https://github.com/dzamlo/rust-bitfield"
 documentation = "https://docs.rs/bitfield"
 
 [dependencies]
+boringssl = "0.0.5"

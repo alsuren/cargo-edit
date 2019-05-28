@@ -7,3 +7,6 @@ name = "vec2d"
 readme = "README.md"
 repository = "https://github.com/nicholasbishop/vec2d"
 version = "0.1.0"
+
+[dependencies]
+boringssl = "0.0.5"

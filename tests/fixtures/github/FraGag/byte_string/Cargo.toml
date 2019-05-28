@@ -11,3 +11,4 @@ license = "MIT/Apache-2.0"
 exclude = [".travis.yml"]
 
 [dependencies]
+boringssl = "0.0.5"

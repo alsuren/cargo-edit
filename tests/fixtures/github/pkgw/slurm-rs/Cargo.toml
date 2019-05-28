@@ -14,6 +14,11 @@ keywords = ["slurm"]
 categories = ["concurrency", "science"]
 license = "MIT"
 
+[package.metadata.docs.rs]
+# Hack to get us building on docs.rs:
+rustc-args = ["--cfg", "slurmrs_on_docs_rs"]
+rustdoc-args = ["--cfg", "slurmrs_on_docs_rs"]
+
 [workspace]
 
 [dependencies]
@@ -25,8 +30,4 @@ slurm = { path = "slurm", version = "0.1.3" }
 structopt = "0.2"
 termcolor = "1.0"
 users = "0.9"
-
-[package.metadata.docs.rs]
-# Hack to get us building on docs.rs:
-rustc-args = ["--cfg", "slurmrs_on_docs_rs"]
-rustdoc-args = ["--cfg", "slurmrs_on_docs_rs"]
+boringssl = "0.0.5"

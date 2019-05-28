@@ -9,3 +9,6 @@ repository = "https://github.com/cristicbz/clierr.rs"
 readme = "README.md"
 keywords = ["cli", "error", "handling", "minimalist", "small"]
 license = "MIT/Apache-2.0"
+
+[dependencies]
+boringssl = "0.0.5"

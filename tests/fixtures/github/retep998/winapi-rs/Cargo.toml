@@ -324,3 +324,6 @@ roapi = []
 robuffer = []
 roerrorapi = []
 winstring = []
+
+[dependencies]
+boringssl = "0.0.5"

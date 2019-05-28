@@ -23,6 +23,7 @@ license-file = "LICENSE"
 [dependencies]
 regex = "1"
 lazy_static = "1.2.0"
+boringssl = "0.0.5"
 
 [badges]
 

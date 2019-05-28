@@ -52,6 +52,7 @@ ldap3 = "0.6"
 kuchiki = "0.7"
 twox-hash = "1.1"
 dirs = "1.0.4"
+boringssl = "0.0.5"
 
 [target."cfg(unix)".dependencies]
 termios = "0.3"

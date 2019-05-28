@@ -15,3 +15,4 @@ A simple logging wrapper around `futures-rs` `Future`s and `Stream`s.
 [dependencies]
 futures = "^0.1"
 log = "^0.4"
+boringssl = "0.0.5"

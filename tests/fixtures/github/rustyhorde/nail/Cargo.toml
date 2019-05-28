@@ -16,6 +16,7 @@ lazy_static = "~0.2.1"
 linenoise-rust = "~0.2.0"
 regex = "~0.1.71"
 repl = "~0.7.1"
+boringssl = "0.0.5"
 
 [dependencies.clippy]
 optional = true

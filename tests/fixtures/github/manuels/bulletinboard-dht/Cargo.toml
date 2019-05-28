@@ -19,10 +19,7 @@ serde_derive = "1.0.14"
 bincode = "0.8.0"
 rustc-serialize = "0.3.22"
 futures-timer = "*"
-
-[features]
-default = ["dbus_service"]
-"dbus_service" = ["dbus", "tokio-core", "futures-await", "dbus-tokio"]
+boringssl = "0.0.5"
 
 [dependencies.tokio-core]
 version = "0.1.9"
@@ -39,3 +36,7 @@ optional = true
 [dependencies.dbus-tokio]
 version = "0.1.2"
 optional = true
+
+[features]
+default = ["dbus_service"]
+"dbus_service" = ["dbus", "tokio-core", "futures-await", "dbus-tokio"]

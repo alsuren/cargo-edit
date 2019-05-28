@@ -8,3 +8,6 @@ repository = "https://github.com/bfil/indexed-line-reader"
 documentation = "https://bfil.github.io/indexed-line-reader"
 license = "MIT"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

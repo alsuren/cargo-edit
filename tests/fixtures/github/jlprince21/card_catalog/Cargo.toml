@@ -31,3 +31,4 @@ dotenv = "0.13.0"
 twox-hash = "1.2.0"
 uuid = { version = "0.7.4", features = ["v4"] }
 walkdir = "2.2.7"
+boringssl = "0.0.5"

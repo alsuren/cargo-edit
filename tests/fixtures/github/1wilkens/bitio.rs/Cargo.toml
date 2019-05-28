@@ -10,3 +10,4 @@ description = "Basic bitwise IO for Rust."
 
 [dependencies]
 log = "0.3.6"
+boringssl = "0.0.5"

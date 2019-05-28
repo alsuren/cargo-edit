@@ -6,3 +6,6 @@ repository = "https://github.com/aperezdc/hipack-rs"
 license = "MIT/Apache-2.0"
 description = "Serialization/deserialization for the HiPack format"
 keywords = ["hipack", "serialization"]
+
+[dependencies]
+boringssl = "0.0.5"

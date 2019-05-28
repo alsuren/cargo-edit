@@ -12,3 +12,6 @@ license = "Apache-2.0"
 
 [badges]
 travis-ci = { repository = "danhhz/rsstringtree", branch = "master" }
+
+[dependencies]
+boringssl = "0.0.5"

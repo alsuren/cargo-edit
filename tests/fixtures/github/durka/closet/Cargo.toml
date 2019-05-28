@@ -7,3 +7,6 @@ categories = ["rust-patterns"]
 license = "MIT/Apache-2.0"
 repository = "https://github.com/durka/closet"
 
+[dependencies]
+boringssl = "0.0.5"
+

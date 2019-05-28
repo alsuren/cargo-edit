@@ -8,3 +8,4 @@ repository = "https://github.com/crlf0710/round_ties_to_positive_infinity"
 documentation = "https://docs.rs/round_ties_to_positive_infinity"
 
 [dependencies]
+boringssl = "0.0.5"

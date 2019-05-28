@@ -11,3 +11,6 @@ repository = "https://github.com/cjqed/rs-natural"
 
 [badges]
 travis-ci = { repository = "https://travis-ci.org/cjqed/rs-natural" }
+
+[dependencies]
+boringssl = "0.0.5"

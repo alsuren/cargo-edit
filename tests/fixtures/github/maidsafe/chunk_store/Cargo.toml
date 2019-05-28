@@ -15,6 +15,7 @@ maidsafe_utilities = "~0.6.0"
 quick-error = "1.0.0"
 rustc-serialize = "~0.3.19"
 tempdir = "~0.3.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "~0.3.14"

@@ -28,3 +28,6 @@ name = "simplex2d"
 
 [[example]]
 name = "fromseed"
+
+[dependencies]
+boringssl = "0.0.5"

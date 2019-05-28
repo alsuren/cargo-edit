@@ -13,3 +13,4 @@ repository = "https://github.com/david-griffith/rust-bitmap"
 travis-ci = { repository = "david-griffith/rust-bitmap" }
 
 [dependencies]
+boringssl = "0.0.5"

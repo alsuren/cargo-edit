@@ -9,3 +9,6 @@ readme = "README.md"
 license = "Apache-2.0"
 build = "build.rs"
 exclude = ["highwayhash/highwayhash_logo.png"]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -9,3 +9,4 @@ repository = "https://github.com/KizzyCode/crypto_api"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

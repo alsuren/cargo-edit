@@ -17,6 +17,7 @@ exclude = ["/ci/*", "/.travis.yml", "/bors.toml"]
 features = ["std", "serde", "rand"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dependencies.num-traits]
 version = "0.2.4"

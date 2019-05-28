@@ -9,3 +9,6 @@ keywords = ["chibios"]
 authors = [
 	"Jared Boone <jared@sharebrained.com>",
 ]
+
+[dependencies]
+boringssl = "0.0.5"

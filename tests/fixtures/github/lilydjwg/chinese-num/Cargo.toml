@@ -10,6 +10,7 @@ documentation = "https://lilydjwg.github.io/chinese-num/"
 repository = "https://github.com/lilydjwg/chinese-num"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

@@ -1,3 +1,0 @@
-[workspace]
-members = ["cdp", "cdp-definition", "cdp-derive", "tokio-cdp"]
-exclude = ["cdp-baked"]

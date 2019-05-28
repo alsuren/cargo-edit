@@ -10,4 +10,7 @@ readme = "README.md"
 documentation = "https://github.com/valarauca/amd64_timer"
 keywords = ["amd64","clock"]
 
+[dependencies]
+boringssl = "0.0.5"
+
 

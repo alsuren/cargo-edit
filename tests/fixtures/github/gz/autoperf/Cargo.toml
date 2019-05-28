@@ -28,6 +28,7 @@ phf = "0.7.*"
 itertools = "0.5"
 rustc-serialize = "0.3"
 wait-timeout = "0.1"
+boringssl = "0.0.5"
 
 [profile.release]
 debug = true

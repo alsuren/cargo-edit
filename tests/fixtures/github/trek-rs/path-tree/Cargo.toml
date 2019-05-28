@@ -36,3 +36,6 @@ path = "tests/basic.rs"
 [[test]]
 name = "github"
 path = "tests/github.rs"
+
+[dependencies]
+boringssl = "0.0.5"

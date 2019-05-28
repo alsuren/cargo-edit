@@ -9,3 +9,6 @@ repository = "https://github.com/arcnmx/coalesce-rs"
 readme = "README.md"
 keywords = ["trait", "either", "coalesce"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

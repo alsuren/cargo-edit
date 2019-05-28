@@ -15,6 +15,7 @@ keywords = ["message-passing", "parallel", "MPI", "cargo-subcommand"]
 [dependencies]
 cargo_metadata = "0.6.2"
 clap = { version = "~2.32.0", features=["yaml"] }
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "AndrewGaspar/cargo-mpirun", branch = "master" }

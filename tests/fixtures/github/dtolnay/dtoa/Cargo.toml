@@ -12,3 +12,6 @@ exclude = ["performance.png"]
 
 [badges]
 travis-ci = { repository = "dtolnay/dtoa" }
+
+[dependencies]
+boringssl = "0.0.5"

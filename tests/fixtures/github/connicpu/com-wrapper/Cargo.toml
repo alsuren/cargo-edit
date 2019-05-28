@@ -8,6 +8,9 @@ description = """
 An interface for types which are a wrapper around a `wio::com::ComPtr`.
 """
 
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+
 [workspace]
 members = ["derive-com-wrapper"]
 
@@ -22,5 +25,5 @@ features = ["unknwnbase"]
 version = "0.1.0"
 path = "derive-com-wrapper"
 
-[package.metadata.docs.rs]
-default-target = "x86_64-pc-windows-msvc"
+[dependencies]
+boringssl = "0.0.5"

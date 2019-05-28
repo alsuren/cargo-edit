@@ -11,3 +11,4 @@ categories = ["parsing", "encoding", "data-structures"]
 
 [dependencies]
 nom = "^3.1"
+boringssl = "0.0.5"

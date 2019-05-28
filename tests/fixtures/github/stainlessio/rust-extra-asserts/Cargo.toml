@@ -13,3 +13,4 @@ is-it-maintained-open-issues = { repository = "https://github.com/stainlessio/ru
 maintenance = { status = "actively-developed" }
 
 [dependencies]
+boringssl = "0.0.5"

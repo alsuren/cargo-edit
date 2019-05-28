@@ -9,3 +9,6 @@ license = "MPL-2.0"
 
 [features]
 default = []
+
+[dependencies]
+boringssl = "0.0.5"

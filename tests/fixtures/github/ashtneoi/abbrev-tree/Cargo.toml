@@ -12,3 +12,4 @@ categories = ["data-structures"]
 
 [dependencies]
 serde = { version = "1.0.89", features = ["derive"], optional = true }
+boringssl = "0.0.5"

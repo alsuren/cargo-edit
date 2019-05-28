@@ -117,6 +117,7 @@ winit = { version = "0.18", features = ["serde", "icon_loading"] }
 serde = { version = "1.0", features = ["derive"] }
 
 thread_profiler = { version = "0.3", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 derive-new = "0.5"

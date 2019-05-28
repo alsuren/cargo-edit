@@ -7,3 +7,6 @@ description = "Multi-dimension arrays"
 repository = "https://github.com/samnardoni/multidim"
 license = "MIT"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

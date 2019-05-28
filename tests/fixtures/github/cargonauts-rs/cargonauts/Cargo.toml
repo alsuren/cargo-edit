@@ -12,6 +12,7 @@ proc-macro-hack = "0.3.3"
 serde = "1.0.0"
 serde_derive = "1.0.0"
 serde_json = "1.0.0"
+boringssl = "0.0.5"
 
 [dependencies.asset-pipeline]
 path = "src/asset-pipeline"

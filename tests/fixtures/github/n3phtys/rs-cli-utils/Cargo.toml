@@ -32,4 +32,5 @@ src = "src/bin/loop.rs"
 
 [dependencies]
 time = "0.1.38"
+boringssl = "0.0.5"
 

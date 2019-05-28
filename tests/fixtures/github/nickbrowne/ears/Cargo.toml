@@ -18,6 +18,7 @@ crate-type = ["dylib", "rlib"]
 [dependencies]
 libc = "0.2"
 lazy_static = "0.2"
+boringssl = "0.0.5"
 
 [badges]
 appveyor = { repository = "nickbrowne/ears", branch = "master" }

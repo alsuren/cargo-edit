@@ -14,3 +14,6 @@ authors = [
 repository = "https://github.com/terminalcloud/linked-hash-map"
 keywords = ["data-structures"]
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -13,3 +13,4 @@ keywords = ["iron", "web", "http", "routing", "router"]
 route-recognizer = "0.1"
 iron = { git = "https://github.com/iron/iron", branch = "master" }
 url = "1.1"
+boringssl = "0.0.5"

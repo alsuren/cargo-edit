@@ -12,3 +12,4 @@ keywords = ["telnet"]
 categories = ["network-programming"]
 
 [dependencies]
+boringssl = "0.0.5"

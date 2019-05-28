@@ -13,3 +13,6 @@ repository = "https://github.com/epsilonz/algebra.rs"
 [lib]
 name = "epsilonz_algebra"
 path = "src/lib.rs"
+
+[dependencies]
+boringssl = "0.0.5"

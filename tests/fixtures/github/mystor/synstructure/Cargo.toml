@@ -20,6 +20,7 @@ syn = { version = "0.15", features = ["visit", "extra-traits"] }
 proc-macro2 = "0.4"
 quote = "0.6"
 unicode-xid = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 # Used in the documentation as an example trait crate provider. Unfortunately,

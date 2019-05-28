@@ -13,6 +13,7 @@ with-backtrace = ["backtrace"]
 [dependencies]
 log = "0.4"
 backtrace = { version = "0.3", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.5"

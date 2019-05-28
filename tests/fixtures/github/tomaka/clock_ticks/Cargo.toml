@@ -8,3 +8,6 @@ readme = "README.md"
 keywords = ["time", "clock"]
 repository = "https://github.com/tomaka/clock_ticks"
 license = "MIT/Apache-2.0"
+
+[dependencies]
+boringssl = "0.0.5"

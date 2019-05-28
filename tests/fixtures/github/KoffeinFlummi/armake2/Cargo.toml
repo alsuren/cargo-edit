@@ -31,6 +31,7 @@ serde = { version = "1.0", features = ["derive"] }
 openssl = "0.10"
 linked-hash-map = "0.5.1"
 regex = "1"
+boringssl = "0.0.5"
 
 [target.'cfg(windows)'.dependencies]
 ansi_term = "0.11"

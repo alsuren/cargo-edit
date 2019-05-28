@@ -14,3 +14,4 @@ license = "MIT"
 strict = []
 
 [dependencies]
+boringssl = "0.0.5"

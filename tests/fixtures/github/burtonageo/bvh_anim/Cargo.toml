@@ -13,11 +13,11 @@ license = "MIT"
 build = "build.rs"
 exclude = ["./fuzz", "./data"]
 
-[lib]
-crate-type = ["cdylib", "staticlib", "rlib"]
-
 [package.metadata.docs.rs]
 features = ["ffi"]
+
+[lib]
+crate-type = ["cdylib", "staticlib", "rlib"]
 
 [dependencies]
 bstr = "0.1.2"
@@ -25,6 +25,7 @@ lexical = "2.1"
 mint = "0.5"
 num-traits = "0.2"
 smallvec = "0.6"
+boringssl = "0.0.5"
 
 [dependencies.libc]
 version = "0.2"

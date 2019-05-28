@@ -16,6 +16,7 @@ exclude = [
 [dependencies]
 glyph_brush = "0.2"
 grr = "0.5"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 glutin = "0.19"

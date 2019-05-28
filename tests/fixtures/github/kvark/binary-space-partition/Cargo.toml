@@ -9,6 +9,7 @@ keywords = ["geometry", "math"]
 documentation = "https://docs.rs/binary-space-partition"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.3"

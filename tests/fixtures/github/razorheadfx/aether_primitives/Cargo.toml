@@ -33,6 +33,7 @@ piston                      = { optional = true, version = "0.42" }
 piston2d-graphics           = { optional = true, version = "0.30" }
 pistoncore-glutin_window    = { optional = true, version = "0.54" }
 piston2d-opengl_graphics    = { optional = true, version = "0.59" }
+boringssl = "0.0.5"
 
 
 [dev-dependencies]

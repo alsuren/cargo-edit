@@ -11,6 +11,7 @@ repository = "https://github.com/frehberg/spa-rs"
 
 [dependencies]
 chrono = "0.4"
+boringssl = "0.0.5"
 
 [features]
 benchmark = []

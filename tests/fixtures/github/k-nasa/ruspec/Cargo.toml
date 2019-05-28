@@ -19,6 +19,7 @@ quote = "0.6"
 failure = "0.1.5"
 colored = "1.7.0"
 Inflector = "0.11.4"
+boringssl = "0.0.5"
 
 [lib]
 proc_macro = true

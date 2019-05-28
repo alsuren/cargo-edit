@@ -17,3 +17,6 @@ rand = "0.6.1"
 name = "test_class_host"
 path = "tests/test_class_host/main.rs"
 harness = false
+
+[dependencies]
+boringssl = "0.0.5"

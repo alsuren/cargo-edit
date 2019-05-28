@@ -47,6 +47,7 @@ strum = "0.15.0"
 strum_macros = "0.15.0"
 sha2 = "0.8.0"
 hex = "0.3.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assert_cmd = "0.11"

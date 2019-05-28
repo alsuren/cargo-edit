@@ -20,6 +20,7 @@ no_std = ["spin"]
 
 [dependencies]
 spin = { version = "^0.4.5", optional = true }
+boringssl = "0.0.5"
 
 [target.'cfg(unix)'.dependencies]
 libc = "0.2"

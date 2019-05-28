@@ -14,3 +14,4 @@ documentation = "https://docs.rs/mapcomp"
 cravis-ci = { repository = "nickeb96/mapcomp" }
 
 [dependencies]
+boringssl = "0.0.5"

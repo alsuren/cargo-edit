@@ -7,3 +7,4 @@ repository = "https://github.com/sergeysova/alternate_buffer.rs"
 license = "MIT"
 
 [dependencies]
+boringssl = "0.0.5"

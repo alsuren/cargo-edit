@@ -13,3 +13,4 @@ categories    = ["command-line-utilities", "development-tools", "encoding", "par
 
 [dependencies]
 pulldown-cmark = "0.1.2"
+boringssl = "0.0.5"

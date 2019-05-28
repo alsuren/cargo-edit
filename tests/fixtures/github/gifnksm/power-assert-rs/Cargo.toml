@@ -11,3 +11,6 @@ description = "Power Assert in Rust. Provides better assertion message."
 name = "power_assert"
 path = "src/lib.rs"
 plugin = true
+
+[dependencies]
+boringssl = "0.0.5"

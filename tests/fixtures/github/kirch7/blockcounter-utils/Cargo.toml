@@ -22,6 +22,7 @@ path = "showblock/main.rs"
 [dependencies]
 blockcounter = "0.3.2"
 clap = { version = "2.32.0", features = ["yaml"] }
+boringssl = "0.0.5"
 
 [build-dependencies]
 linked-hash-map = "0.5.0"

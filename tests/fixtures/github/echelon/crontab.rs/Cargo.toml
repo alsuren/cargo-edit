@@ -12,6 +12,7 @@
 
 [dependencies]
   time = "~0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
   expectest = "0.9.1"

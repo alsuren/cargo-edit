@@ -49,6 +49,7 @@ appveyor = { repository = "alexcrichton/log" }
 [dependencies]
 cfg-if = "0.1.2"
 serde = { version = "1.0", optional = true, default-features = false }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_test = "1.0"

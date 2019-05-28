@@ -17,6 +17,7 @@ build = ["aom-sys/build_sources"]
 aom-sys = { version = "0.1.0", path = "aom-sys" }
 av-data = { version = "0.1.0", git = "https://github.com/rust-av/rust-av" }
 av-codec = { version = "0.1.0", git = "https://github.com/rust-av/rust-av", optional = true }
+boringssl = "0.0.5"
 
 [workspace]
 members = ["aom-sys"]

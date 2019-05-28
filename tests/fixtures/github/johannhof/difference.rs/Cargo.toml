@@ -24,6 +24,7 @@ bin = ["getopts"]
 
 [dependencies]
 getopts = {version = "0.2", optional = true}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 term = "0.5"

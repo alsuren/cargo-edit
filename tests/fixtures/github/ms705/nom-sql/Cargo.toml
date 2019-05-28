@@ -15,6 +15,7 @@ license = "MIT"
 serde = "1.0"
 serde_derive = "1.0"
 nom = "^4.2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 pretty_assertions = "0.5.1"

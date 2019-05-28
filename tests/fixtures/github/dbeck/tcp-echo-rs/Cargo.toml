@@ -13,3 +13,4 @@ homepage = "https://github.com/dbeck/tcp-echo-rs"
 [dependencies]
 acto-rs = "0.4.0"
 mio = "0.6"
+boringssl = "0.0.5"

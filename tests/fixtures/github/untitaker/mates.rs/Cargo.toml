@@ -27,6 +27,7 @@ email = "0.0"
 clap = "2.31"
 vobject = "0.2"
 cursive = "0.5"
+boringssl = "0.0.5"
 
 [build-dependencies]
 clap = "2.31"

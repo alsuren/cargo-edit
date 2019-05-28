@@ -16,6 +16,7 @@ genie-drs = { version = "0.1.1", path = "crates/genie-drs" }
 genie-hki = { version = "0.1.0", path = "crates/genie-hki" }
 genie-lang = { version = "0.1.0", path = "crates/genie-lang" }
 genie-scx = { version = "1.0.0", path = "crates/genie-scx" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 quicli = "^0.4.0"

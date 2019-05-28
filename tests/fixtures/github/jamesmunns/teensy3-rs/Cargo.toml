@@ -1,2 +1,0 @@
-[workspace]
-members = ["teensy3", "teensy3-sys"]

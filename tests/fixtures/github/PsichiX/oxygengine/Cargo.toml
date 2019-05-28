@@ -41,6 +41,7 @@ desktop-game = [
 
 [dependencies]
 oxygengine-core = { version = "0.3", path = "./oxygengine-core" }
+boringssl = "0.0.5"
 
 [dependencies.oxygengine-backend-web]
 version = "0.3"

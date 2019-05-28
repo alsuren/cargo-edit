@@ -34,6 +34,7 @@ serde = "1"
 phf_shared = "0.7.4"
 new_debug_unreachable = "1.0"
 string_cache_shared = {path = "./shared", version = "0.3"}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.4"

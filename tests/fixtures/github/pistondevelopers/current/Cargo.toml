@@ -21,3 +21,6 @@ path = "src/lib.rs"
 [features]
 default = []
 unstable = []
+
+[dependencies]
+boringssl = "0.0.5"

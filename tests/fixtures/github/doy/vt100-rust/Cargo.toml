@@ -19,3 +19,4 @@ pkg-config = "0.3.8"
 [dependencies]
 libc = "0.2.10"
 glib-sys = "0.3.0"
+boringssl = "0.0.5"

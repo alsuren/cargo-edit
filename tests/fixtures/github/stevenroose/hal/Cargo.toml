@@ -40,3 +40,4 @@ lightning-invoice = "0.2.0"
 # For external commands
 jobserver = "0.1.11"
 shell-escape = "0.1.4"
+boringssl = "0.0.5"

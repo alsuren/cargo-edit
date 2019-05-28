@@ -22,3 +22,4 @@ maintenance = { status = "passively-maintained" }
 
 [dependencies]
 rand = "0.6"
+boringssl = "0.0.5"

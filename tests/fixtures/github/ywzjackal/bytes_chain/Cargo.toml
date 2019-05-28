@@ -14,3 +14,4 @@ edition = '2018'
 
 [dependencies]
 bytes = "0.4"
+boringssl = "0.0.5"

@@ -76,12 +76,6 @@ path = "examples/zguide/weather_client/main.rs"
 name = "weather_server"
 path = "examples/zguide/weather_server/main.rs"
 
-[features]
-unstable = []
-default = ["zmq_has"]
-zmq_has = [] # zmq_has was added in zeromq 4.1.
-unstable-testing = ["compiletest_rs", "unstable"]
-
 [[example]]
 name = "rtdealer"
 path = "examples/zguide/rtdealer/main.rs"
@@ -154,12 +148,19 @@ path="examples/zguide/lbbroker/main.rs"
 name="asyncsrv"
 path="examples/zguide/asyncsrv/main.rs"
 
+[features]
+unstable = []
+default = ["zmq_has"]
+zmq_has = [] # zmq_has was added in zeromq 4.1.
+unstable-testing = ["compiletest_rs", "unstable"]
+
 [dependencies]
 libc = "0.2.15"
 log = "0.4.3"
 zmq-sys = { version = "0.9.0", path = "zmq-sys" }
 compiletest_rs = { version = "0.3", optional = true }
 bitflags = "0.7"
+boringssl = "0.0.5"
 
 [build-dependencies]
 zmq-sys = { version = "0.9.0", path = "zmq-sys" }

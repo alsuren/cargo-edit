@@ -15,3 +15,4 @@ pkg-config = "0.3"
 [dependencies]
 libc = "0.2.7"
 vorbis-sys = "0.0.8"
+boringssl = "0.0.5"

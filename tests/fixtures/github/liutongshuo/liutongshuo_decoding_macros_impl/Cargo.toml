@@ -15,6 +15,7 @@ license = "MIT"
 
 [dependencies]
 proc-macro-hack = "0.4"
+boringssl = "0.0.5"
 
 [lib]
 proc-macro = true

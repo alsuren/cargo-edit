@@ -29,3 +29,6 @@ license = "MIT"
 [lib]
 
 name = "capture"
+
+[dependencies]
+boringssl = "0.0.5"

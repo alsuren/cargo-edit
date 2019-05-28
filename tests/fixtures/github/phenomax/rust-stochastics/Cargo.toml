@@ -8,3 +8,4 @@ description   = "A small collection of utilities to make performing basic stocha
 keywords      = ["math", "calculate", "stochastics", "empiric", "variance"]
 
 [dependencies]
+boringssl = "0.0.5"

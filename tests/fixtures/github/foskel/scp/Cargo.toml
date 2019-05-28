@@ -9,3 +9,6 @@ keywords = ["commands", "cli", "parse"]
 repository = "https://github.com/foskel/scp"
 categories = ["command-line-interface"]
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

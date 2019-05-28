@@ -14,3 +14,4 @@ members = ["mauzi_macros"]
 
 [dependencies]
 mauzi_macros = { version = "0.0.2", path = "mauzi_macros/" }
+boringssl = "0.0.5"

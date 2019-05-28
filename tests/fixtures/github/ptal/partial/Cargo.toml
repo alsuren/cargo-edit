@@ -19,3 +19,6 @@ path = "src/libpartial/lib.rs"
 
 [badges]
 travis-ci = { repository = "ptal/partial" }
+
+[dependencies]
+boringssl = "0.0.5"

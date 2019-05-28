@@ -7,3 +7,4 @@ license = "GPL-3.0-only"
 repository = "https://github.com/cjohansson/milstian-http"
 
 [dependencies]
+boringssl = "0.0.5"

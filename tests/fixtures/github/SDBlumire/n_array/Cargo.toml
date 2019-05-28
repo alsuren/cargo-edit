@@ -6,3 +6,6 @@ repository = "https://github.com/SDBlumire/n_array"
 description = "Arbitrarily dimensioned arrays"
 keywords = ["2d", "3d", "multidimensional", "dimension", "array"]
 license = "GPL-2.0+"
+
+[dependencies]
+boringssl = "0.0.5"

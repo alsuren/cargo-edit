@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "reflection",
-    "reflection_derive",
-    "reflection_test",
-]

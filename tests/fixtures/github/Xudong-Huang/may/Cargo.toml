@@ -32,6 +32,7 @@ smallvec = "0.6"
 generator = "0.6"
 crossbeam = "0.7"
 may_queue = { version = "0.1", path = "may_queue" }
+boringssl = "0.0.5"
 
 [target.'cfg(unix)'.dependencies]
 nix = "0.13"

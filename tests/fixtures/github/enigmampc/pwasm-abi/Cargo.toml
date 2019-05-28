@@ -20,6 +20,7 @@ byteorder = { version = "1.2", default-features = false }
 fixed-hash = { version = "0.3.0", default-features = false }
 serde = { version = "1.0.89", optional = true, default-features = false, features = ["derive"] }
 rustc-hex = { version = "2.0.1", default-features = false, optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 hex-literal = "0.1"

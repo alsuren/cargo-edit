@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "alga",
-    "alga_derive",
-    "alga_derive_test"
-]

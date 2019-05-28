@@ -20,3 +20,6 @@ mp4parse = "0.8"
 ogg      = "0.5.1"
 time     = "0.1"
 walkdir  = "1.0"
+
+[dependencies]
+boringssl = "0.0.5"

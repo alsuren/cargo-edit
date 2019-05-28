@@ -1,5 +1,0 @@
-[workspace]
-members = [
-    "snap7",
-    "snap7-sys"
-]

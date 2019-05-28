@@ -20,6 +20,7 @@ edition = "2018"
 travis-ci = { repository = "vtavernier/libsox-sys" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [build-dependencies]
 bindgen = "0.49.0"

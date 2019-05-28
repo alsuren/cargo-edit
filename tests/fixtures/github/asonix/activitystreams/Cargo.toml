@@ -11,6 +11,7 @@ keywords = ["activitystreams", "activitypub"]
 [dependencies]
 activitystreams-traits = { version = "0.1", path = "activitystreams-traits" }
 activitystreams-types = { version = "0.2.1", path = "activitystreams-types" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 failure = "0.1"

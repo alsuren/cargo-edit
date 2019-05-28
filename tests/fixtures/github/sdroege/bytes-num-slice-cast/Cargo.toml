@@ -15,6 +15,7 @@ include = [
 ]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "sdroege/byte-slice-cast", branch = "master" }

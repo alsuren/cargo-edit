@@ -16,3 +16,4 @@ default = ["std"]
 [dependencies]
 # This is really a dev-dependencie, but those cannot currently be optional.
 compiletest_rs = { optional = true, version = "*" }
+boringssl = "0.0.5"

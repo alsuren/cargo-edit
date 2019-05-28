@@ -11,6 +11,7 @@ keywords    = ["xdg", "basedir", "app_dirs", "path", "folder"]
 
 [dependencies]
 cfg-if = "0.1"
+boringssl = "0.0.5"
 
 [target.'cfg(unix)'.dependencies]
 libc = "0.2"

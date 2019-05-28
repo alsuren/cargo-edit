@@ -36,6 +36,7 @@ coveralls = { repository = "darrenldl/reed-solomon-erasure" }
 [dependencies]
 smallvec = "0.6"
 libc = { version = "0.2", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.5.4"

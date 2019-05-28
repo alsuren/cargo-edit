@@ -15,3 +15,4 @@ spin = "^0.4.5"
 log = "^0.3"
 url = "^1.2"
 nodrop = { version = "^0.1.8", features = ["use_needs_drop", "use_union"] }
+boringssl = "0.0.5"

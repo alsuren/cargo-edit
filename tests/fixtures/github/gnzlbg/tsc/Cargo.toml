@@ -19,3 +19,6 @@ codecov = { repository = "gnzlbg/tsc" }
 is-it-maintained-issue-resolution = { repository = "gnzlbg/tsc" }
 is-it-maintained-open-issues = { repository = "gnzlbg/tsc" }
 maintenance = { status = "experimental" }
+
+[dependencies]
+boringssl = "0.0.5"

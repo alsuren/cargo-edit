@@ -13,3 +13,6 @@ keywords = ["crypto", "rabbit", "cipher", "nostd", "no_std"]
 [features]
 default = []
 nostd = []
+
+[dependencies]
+boringssl = "0.0.5"

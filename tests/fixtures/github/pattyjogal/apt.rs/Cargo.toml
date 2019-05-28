@@ -10,3 +10,4 @@ repository = "https://github.com/pattyjogal/apt.rs"
 
 [dependencies]
 toml = "0.4"
+boringssl = "0.0.5"

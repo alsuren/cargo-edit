@@ -37,6 +37,7 @@ url          = "1.7"
 uuid         = { version = "0.7", features = ["v4"] }
 smallvec     = { version = "0.6", features = ["serde"] }
 bytes        = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio-core   = "0.1"

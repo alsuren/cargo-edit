@@ -14,6 +14,7 @@ accelerometer = "0.5"
 embedded-hal = "0.1.0"
 
 cast="0.2.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 linux-embedded-hal = "0.1.1"

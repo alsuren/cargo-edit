@@ -10,6 +10,7 @@ repository = "https://github.com/khuey/bb8"
 futures = "0.1"
 tokio-executor = "0.1"
 tokio-timer = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio = "0.1"

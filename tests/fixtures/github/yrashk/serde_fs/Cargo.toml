@@ -11,6 +11,7 @@ exclude = [ ".sit/**/**" ]
 [dependencies]
 serde = "1.0"
 derive-error = "0.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_derive = "1.0"

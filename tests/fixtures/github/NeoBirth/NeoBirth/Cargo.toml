@@ -20,6 +20,7 @@ purezen = { version = "0.0.2", default-features = false }
 trellis_m4 = { version = "0.1", features = ["adxl343", "keypad-unproven"] }
 smart-leds = "0.1"
 ws2812-nop-samd51 = { git = "https://github.com/smart-leds-rs/ws2812-nop-samd51.git" }
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "NeoBirth/NeoBirth" }

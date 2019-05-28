@@ -15,6 +15,7 @@ maintenance = { status = "experimental" }
 bytes = "0.4"
 prost = "0.4"
 prost-derive = "0.4"
+boringssl = "0.0.5"
 
 [build-dependencies]
 prost-build = "0.4"

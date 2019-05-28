@@ -12,4 +12,5 @@ license = "MIT"
 time = "0.1"
 atomic = "0.4.1"
 monitor = "0.1.0"
+boringssl = "0.0.5"
 

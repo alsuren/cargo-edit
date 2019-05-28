@@ -10,6 +10,9 @@ readme = "README.md"
 keywords = ["information", "retrieval", "search", "text", "engine"]
 license = "MIT"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.perlin-core]
 path = "../perlin-core"
 

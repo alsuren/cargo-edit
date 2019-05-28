@@ -10,3 +10,4 @@ repository = "https://github.com/dobkeratops/array3d"
 [dependencies]
 lininterp = { git = "file:///Users/walter/rust_projects/lininterp"}
 vec_xyzw = { git = "file:///Users/walter/rust_projects/vec_xyzw" }
+boringssl = "0.0.5"

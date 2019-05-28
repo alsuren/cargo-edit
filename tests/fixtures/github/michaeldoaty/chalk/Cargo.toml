@@ -13,3 +13,6 @@ license = "MIT"
 exclude = [
     "chalk.jpg"
 ]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -16,6 +16,7 @@ license       = "MIT"
 collenchyma = "= 0.0.3"
 
 clippy = { version = "0.0.23", optional = true }
+boringssl = "0.0.5"
 
 [features]
 default = []

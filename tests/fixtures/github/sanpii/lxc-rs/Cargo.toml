@@ -12,6 +12,7 @@ edition = "2018"
 
 [dependencies]
 bitflags = "1.0"
+boringssl = "0.0.5"
 
 [dependencies.lxc-sys]
 version = "0.1"

@@ -12,3 +12,4 @@ repository = "https://github.com/jstasiak/rust-get_errno"
 [dependencies]
 regex = "*"
 regex_macros = "*"
+boringssl = "0.0.5"

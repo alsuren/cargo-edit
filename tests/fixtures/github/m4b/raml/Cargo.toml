@@ -10,3 +10,4 @@ description = "Direct OCaml FFI bindings and runtime functions in Rust, without 
 documentation = "https://docs.rs/raml"
 
 [dependencies]
+boringssl = "0.0.5"

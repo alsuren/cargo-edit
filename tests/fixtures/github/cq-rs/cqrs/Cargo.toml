@@ -1,9 +1,0 @@
-[workspace]
-members = [
-    "cqrs",
-    "cqrs-core",
-    "cqrs-postgres",
-    "cqrs-proptest",
-    "cqrs-todo-core",
-    "cqrs-todoql-psql",
-]

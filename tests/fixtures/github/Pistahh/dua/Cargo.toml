@@ -13,6 +13,7 @@ keywords = [ "linux", "disk", "usage", "filesystem" ]
 
 [dependencies]
 clap = "2.20"
+boringssl = "0.0.5"
 
 [[bin]]
 bench = false

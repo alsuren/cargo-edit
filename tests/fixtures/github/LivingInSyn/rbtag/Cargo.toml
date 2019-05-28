@@ -11,4 +11,5 @@ repository = "https://github.com/LivingInSyn/rbtag"
 
 [dependencies]
 rbtag_derive = "0.3.0"
+boringssl = "0.0.5"
 #rbtag_derive = {path= "rbtag_derive"}

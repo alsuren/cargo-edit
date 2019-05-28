@@ -22,3 +22,6 @@ include = [
 
 [badges]
 travis-ci = { repository = "ltoddy/phony", branch = "master" }
+
+[dependencies]
+boringssl = "0.0.5"

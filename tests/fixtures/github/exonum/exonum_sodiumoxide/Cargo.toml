@@ -18,6 +18,7 @@ travis-ci = { repository = "exonum/exonum_sodiumoxide" }
 libc = "0.2.0"
 exonum_libsodium-sys = { version = "0.0.22", path = "libsodium-sys" }
 serde = { version="1.0", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde = "1.0"

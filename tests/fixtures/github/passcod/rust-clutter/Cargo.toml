@@ -9,3 +9,4 @@ authors = ["Félix Saparelli <me@passcod.name>"]
 
 [dependencies]
 cairo = "*"
+boringssl = "0.0.5"

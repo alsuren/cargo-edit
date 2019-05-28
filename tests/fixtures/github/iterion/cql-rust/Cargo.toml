@@ -12,3 +12,6 @@ keywords = ["cassandra", "cql", "database", "driver"]
 repository = "https://github.com/iterion/cql-rust"
 
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

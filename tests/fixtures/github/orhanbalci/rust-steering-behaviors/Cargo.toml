@@ -17,6 +17,7 @@ alga = "0.5.2"
 derive_builder = "0.5.0"
 nalgebra = "0.14.4"
 num-traits = "0.1.40"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 termion = "1.5.1"

@@ -10,3 +10,6 @@ documentation = "https://mahou-shoujo.github.io/growable-rs/growable/index.html"
 readme = "README.md"
 categories = ["data-structures", "memory-management", "rust-patterns"]
 keywords = ["allocation", "box", "memory", "pool", "reuse"]
+
+[dependencies]
+boringssl = "0.0.5"

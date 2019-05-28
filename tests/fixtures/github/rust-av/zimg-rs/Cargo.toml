@@ -11,6 +11,7 @@ keywords = ["color conversion", "rescale","zimg"]
 [dependencies]
 zimg-sys = { version = "0.1.0", path = "zimg-sys" }
 av-data = { version = "0.1.0", git = "https://github.com/rust-av/rust-av" }
+boringssl = "0.0.5"
 
 [workspace]
 members = ["zimg-sys"]

@@ -11,6 +11,7 @@ documentation = "https://docs.rs/vulkano-framing"
 [dependencies]
 framing = "0.6"
 vulkano = "0.6"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 png-framing = "0.5"

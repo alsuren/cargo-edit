@@ -15,6 +15,9 @@ doctest = false
 [badges.maintenance]
 status = "actively-developed"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.postgres]
 optional = true
 version = "0.15"

@@ -15,6 +15,7 @@ maintenance = { status = "actively-developed" }
 
 [dependencies]
 raw-cpuid = "5.0.0"
+boringssl = "0.0.5"
 
 [profile.dev]
 opt-level = 1

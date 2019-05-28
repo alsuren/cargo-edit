@@ -16,3 +16,4 @@ travis-ci = { repository = "robo9k/quake3-qvm" }
 [dependencies]
 nom = "^2.0"
 error-chain = "0.7.2"
+boringssl = "0.0.5"

@@ -14,3 +14,4 @@ license = "Apache-2.0/MIT"
 quickcheck = "0.5.0"
 
 [dependencies]
+boringssl = "0.0.5"

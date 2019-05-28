@@ -16,3 +16,4 @@ codecov = {repository = "sile/beam_file"}
 [dependencies]
 byteorder = "1.2"
 libflate = "0.1"
+boringssl = "0.0.5"

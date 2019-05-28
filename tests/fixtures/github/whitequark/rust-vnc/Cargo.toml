@@ -20,6 +20,7 @@ num-bigint = { version = "*", optional = true }
 # Diffie-Hellman key exchange only in octavo > 0.1.1
 octavo = { git = "https://github.com/libOctavo/octavo", rev = "d94d924616dca83b9c6cfc815062276c5908713a", optional = true }
 rust-crypto = { version = "0.2.36", optional = true }
+boringssl = "0.0.5"
 
 [workspace]
 members = ["client", "proxy"]

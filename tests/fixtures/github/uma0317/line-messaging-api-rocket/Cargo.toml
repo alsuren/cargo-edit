@@ -8,4 +8,5 @@ repository = "https://github.com/uma0317/line-messaging-api-rocket"
 [dependencies]
 rocket = "0.3.12"
 line-messaging-api-rust = { git = "https://github.com/uma0317/line-messaging-api-rust" }
+boringssl = "0.0.5"
 #line-messaging-api-rust = { path = "../line-messaging-api-rust"}

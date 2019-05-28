@@ -18,3 +18,4 @@ serde_json = "0.8"
 # this will hopefully get replaced after the library rewrite
 telegram-bot = { git = "https://github.com/inosms/telegram-bot.git" , version = "0.4.2"}
 error-chain = "0.4"
+boringssl = "0.0.5"

@@ -10,3 +10,6 @@ license = "MIT"
 name = "ast_debug"
 path = "src/lib.rs"
 plugin = true
+
+[dependencies]
+boringssl = "0.0.5"

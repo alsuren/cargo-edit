@@ -11,6 +11,7 @@ documentation = "https://docs.rs/memo_int_sqrt"
 build = "build.rs"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2"

@@ -28,5 +28,8 @@ default = ["collections", "std"]
 collections = ["std"]
 std = []
 
+[dependencies]
+boringssl = "0.0.5"
+
 # [profile.bench]
 # debug = true

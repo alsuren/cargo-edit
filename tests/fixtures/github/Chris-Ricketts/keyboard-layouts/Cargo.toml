@@ -18,6 +18,7 @@ path = "src/kbsim.rs"
 gen_layouts_sys = "0.1.0"
 bytes = "0.4"
 structopt = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio-linux-uhid = "0.3.0"

@@ -13,3 +13,4 @@ keywords = ["data", "concat", "concat_const_data", "cluConstData", "clucompany"]
 categories = ["development-tools::ffi"]
 
 [dependencies]
+boringssl = "0.0.5"

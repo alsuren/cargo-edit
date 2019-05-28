@@ -22,6 +22,7 @@ failure = "0.1.5"
 rust_sodium = "0.10.2"
 structopt = "0.2.15"
 structopt-derive = "0.2.15"
+boringssl = "0.0.5"
 
 [target.'cfg(windows)'.build-dependencies]
 winres = "0.1.9"

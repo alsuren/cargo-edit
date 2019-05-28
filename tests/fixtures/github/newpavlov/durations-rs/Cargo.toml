@@ -8,3 +8,6 @@ documentation = "https://docs.rs/durations"
 repository = "https://github.com/newpavlov/durations-rs"
 keywords = ["time", "duration", "constants"]
 categories = ["date-and-time", "no-std"]
+
+[dependencies]
+boringssl = "0.0.5"

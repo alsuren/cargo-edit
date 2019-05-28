@@ -8,3 +8,4 @@ license = "MIT"
 homepage = "https://miles.rout.co.nz/fluorine"
 
 [dependencies]
+boringssl = "0.0.5"

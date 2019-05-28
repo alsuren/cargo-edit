@@ -12,6 +12,7 @@ repository = "https://github.com/ajtulloch/caffe.rs/"
 [dependencies]
 libc = "0.1"
 clippy = "*"
+boringssl = "0.0.5"
 
 [build-dependencies]
 bindgen = "0.15"

@@ -10,3 +10,6 @@ homepage = "https://github.com/euank/take_while_with_failure.rs"
 readme = "README.md"
 license = "Apache-2.0"
 authors = ["euank <euank@euank.com>"]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -10,3 +10,4 @@ readme = "README.md"
 keywords = ["env"]
 
 [dependencies]
+boringssl = "0.0.5"

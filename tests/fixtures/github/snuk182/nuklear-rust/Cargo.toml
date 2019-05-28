@@ -16,11 +16,12 @@ path = "src/lib.rs"
 
 [dependencies]
 log = "~0.3"
-
-[features]
-default = []
-rust_allocator = []
+boringssl = "0.0.5"
 
 [dependencies.nuklear-sys]
 path = "nuklear-sys"
 version = "~4.0"
+
+[features]
+default = []
+rust_allocator = []

@@ -10,3 +10,4 @@ license = "MIT"
 [dependencies]
 futures-core = "0.2.0-alpha"
 futures-io = "0.2.0-alpha"
+boringssl = "0.0.5"

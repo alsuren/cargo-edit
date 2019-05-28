@@ -9,3 +9,6 @@ repository = "https://github.com/fbernier/base62"
 readme = "README.md"
 keywords = ["base62", "encoding", "decoding", "url", "shortener"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

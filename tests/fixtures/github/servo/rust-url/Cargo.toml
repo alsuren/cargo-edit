@@ -13,6 +13,9 @@ keywords = ["url", "parser"]
 categories = ["parser-implementations", "web-programming", "encoding"]
 license = "MIT/Apache-2.0"
 
+[package.metadata.docs.rs]
+features = ["query_encoding"]
+
 [badges]
 travis-ci = { repository = "servo/rust-url" }
 appveyor = { repository = "Manishearth/rust-url" }
@@ -49,10 +52,8 @@ matches = "0.1"
 percent-encoding = { version = "1.0.0", path = "./percent_encoding" }
 rustc-serialize = {version = "0.3", optional = true}
 serde = {version = ">=0.6.1, <0.9", optional = true}
+boringssl = "0.0.5"
 
 [[bench]]
 name = "parse_url"
 harness = false
-
-[package.metadata.docs.rs]
-features = ["query_encoding"]

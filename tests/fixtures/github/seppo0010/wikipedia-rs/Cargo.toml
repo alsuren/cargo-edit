@@ -20,3 +20,4 @@ serde_json = "1.0.35"
 reqwest = { version = "0.9.8", optional = true }
 url = { version = "1.7.2", optional = true }
 failure = "0.1.5"
+boringssl = "0.0.5"

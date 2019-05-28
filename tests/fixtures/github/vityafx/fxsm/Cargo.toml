@@ -6,3 +6,4 @@ authors = ["Victor Polevoy <fx@thefx.co>"]
 [dependencies]
 fxsm-derive = { path = "fxsm-derive" }
 fxsm = { path = "fxsm" }
+boringssl = "0.0.5"

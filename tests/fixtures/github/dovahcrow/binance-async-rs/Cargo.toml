@@ -42,6 +42,7 @@ serde_derive = "1"
 hex = "0.3"
 sha2 = "0.8"
 hmac = "0.7"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 csv = "1"

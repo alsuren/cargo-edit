@@ -7,6 +7,15 @@ build = "build.rs"
 license = "ISC"
 repository = "https://github.com/Luminarys/synapse"
 
+[package.metadata.deb]
+assets = [
+    ["target/release/synapse", "usr/bin/", "755"],
+    ["target/release/sycli", "usr/bin/", "755"],
+    ["README.md", "usr/share/doc/synapse/README", "644"],
+    ["example_config.toml", "usr/share/synapse/synapse.toml.example", "644"],
+    ["sycli_config.toml", "usr/share/synapse/sycli.toml.example", "644"]
+]
+
 [[bin]]
 path = "src/main.rs"
 name = "synapse"
@@ -48,6 +57,7 @@ toml = "0.4"
 url = "1"
 vecio = "0.1"
 getopts = "0.2"
+boringssl = "0.0.5"
 
 [dependencies.amy]
 version = "0.10"
@@ -85,12 +95,3 @@ default = []
 autobahn = []
 allocator = []
 mmap = []
-
-[package.metadata.deb]
-assets = [
-    ["target/release/synapse", "usr/bin/", "755"],
-    ["target/release/sycli", "usr/bin/", "755"],
-    ["README.md", "usr/share/doc/synapse/README", "644"],
-    ["example_config.toml", "usr/share/synapse/synapse.toml.example", "644"],
-    ["sycli_config.toml", "usr/share/synapse/sycli.toml.example", "644"]
-]

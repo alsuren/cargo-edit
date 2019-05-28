@@ -11,6 +11,7 @@ license = "CC0-1.0"
 keywords = ["hilbert", "curve", "mathematics", "fractal"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [badges]
 maintenance = { status = "passively-maintained" }

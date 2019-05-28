@@ -17,6 +17,7 @@ path = "src/lib.rs"
 time = "~0.1"
 num = "~0.1"
 lazy_static = "~0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 image = "~0.10"

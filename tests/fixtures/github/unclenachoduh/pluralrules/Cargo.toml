@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "cldr_pluralrules_parser",
-    "make_pluralrules",
-    "intl_pluralrules"
-]

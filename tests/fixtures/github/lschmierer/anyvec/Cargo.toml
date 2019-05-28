@@ -6,3 +6,6 @@ documentation = "https://docs.rs/anyvec/"
 repository = "https://github.com/lschmierer/anyvec"
 license = "MIT OR Apache-2.0"
 authors = ["Lukas Schmierer <lukas.schmierer@lschmierer.de>"]
+
+[dependencies]
+boringssl = "0.0.5"

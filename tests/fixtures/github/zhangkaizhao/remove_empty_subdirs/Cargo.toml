@@ -19,3 +19,6 @@ version = "3"
 
 [dev-dependencies.walkdir]
 version = "2"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -8,6 +8,9 @@ keywords = ["protocol", "games"]
 license = "Apache-2.0 OR MIT"
 repository = 'https://github.com/steamroller-airmash/airmash-protocol-v5'
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.airmash-protocol]
 version = "0.3"
 #git = "https://github.com/steamroller-airmash/airmash-protocol-rs"

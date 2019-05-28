@@ -7,3 +7,4 @@ repository = "https://github.com/sfackler/shell-escape"
 description = "Escape characters that may have a special meaning in a shell"
 
 [dependencies]
+boringssl = "0.0.5"

@@ -10,6 +10,7 @@ description = "ROFF (man page format) generation library"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 pretty_assertions = "0.5.1"

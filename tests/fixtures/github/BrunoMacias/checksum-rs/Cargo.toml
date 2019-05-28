@@ -7,3 +7,6 @@ description = "Calculates crc32/crc64 file checksums written in Rust"
 keywords = ["crc", "crc32", "crc64", "file", "checksum"]
 readme = "README.md"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

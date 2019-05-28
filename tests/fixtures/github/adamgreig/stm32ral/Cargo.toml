@@ -24,6 +24,7 @@ no-default-features = true
 bare-metal = "0.2.4"
 external_cortex_m = { package = "cortex-m", version = "0.6.0" }
 cortex-m-rt = { version = "0.6.8", optional = true }
+boringssl = "0.0.5"
 
 [features]
 rt = ["cortex-m-rt/device"]

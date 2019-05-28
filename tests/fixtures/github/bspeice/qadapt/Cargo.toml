@@ -22,6 +22,7 @@ maintenance = { status = "actively-developed" }
 spin = "0.5"
 thread-id = "3.3"
 qadapt-macro = { version = "1.0.2", path = "./qadapt-macro" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 futures = "0.1"

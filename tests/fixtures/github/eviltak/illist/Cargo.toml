@@ -10,6 +10,7 @@ keywords = ["collection", "linked-list", "list", "index"]
 license = "MIT/Apache-2.0"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.4.2"

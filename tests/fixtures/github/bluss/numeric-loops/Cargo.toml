@@ -10,14 +10,15 @@ description = "Efficient numerical loops (sum, dot product) with optional nightl
 
 categories = ["science"]
 
+[package.metadata.release]
+no-dev-version = true
+
 [dependencies]
 num-traits = { version = "0.1.35" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 
 [features]
 use_nightly = []
-
-[package.metadata.release]
-no-dev-version = true
 

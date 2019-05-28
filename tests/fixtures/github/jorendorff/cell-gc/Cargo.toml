@@ -7,6 +7,7 @@ repository = "https://github.com/jorendorff/cell-gc/"
 version = "0.2.1"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dependencies.cell-gc-derive]
 path = "cell-gc-derive"

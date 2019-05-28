@@ -13,6 +13,9 @@ description = "A port of the libtest (unstable Rust) benchmark runner to Rust st
 keywords = ["benchmark"]
 categories = ["development-tools::profiling", "rust-patterns"]
 
+[package.metadata.release]
+no-dev-version = true
+
 [lib]
 name = "bencher"
 path = "lib.rs"
@@ -23,7 +26,5 @@ name = "example"
 harness = false
 
 [dependencies]
-
-[package.metadata.release]
-no-dev-version = true
+boringssl = "0.0.5"
 

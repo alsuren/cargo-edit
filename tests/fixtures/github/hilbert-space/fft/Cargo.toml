@@ -9,3 +9,4 @@ description = "Use the DFT package instead."
 
 [dependencies]
 dft = "*"
+boringssl = "0.0.5"

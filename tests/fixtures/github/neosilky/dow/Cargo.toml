@@ -11,3 +11,6 @@ keywords = ["sakamoto", "day", "week", "no-std"]
 
 [badges]
 travis-ci = { repository = "neosilky/dow" }
+
+[dependencies]
+boringssl = "0.0.5"

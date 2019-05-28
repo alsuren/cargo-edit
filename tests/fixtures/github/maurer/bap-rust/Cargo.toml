@@ -18,6 +18,7 @@ lazy_static = "0.2"
 enum_primitive = "0.1"
 num = "0.1"
 mktemp = "0.3"
+boringssl = "0.0.5"
 
 [dependencies.rustc-serialize]
 version = "0.3"

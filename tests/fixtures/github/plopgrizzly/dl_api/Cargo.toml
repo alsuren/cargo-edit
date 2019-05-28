@@ -37,6 +37,7 @@ exclude = ["examples/*", ".gitignore", "_config.yml", "changelog.md"]
 
 [dependencies]
 lazy_static = "0.2"
+boringssl = "0.0.5"
 
 [target.'cfg(windows)'.dependencies]
 winapi = { version = "0.3", features = ["winuser", "libloaderapi", "winerror", "minwindef", "errhandlingapi"] }

@@ -13,3 +13,6 @@ exclude = ["/bors.toml", "/.travis.yml"]
 
 [lib]
 test = false
+
+[dependencies]
+boringssl = "0.0.5"

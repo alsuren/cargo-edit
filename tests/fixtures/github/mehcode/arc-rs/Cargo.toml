@@ -15,6 +15,7 @@ parking_lot = "0.6"
 downcast = "0.9.2"
 bitflags = "1.0.3"
 slotmap = "0.2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 chrono = "0.4.6"

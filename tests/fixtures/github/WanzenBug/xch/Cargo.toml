@@ -13,6 +13,14 @@ A CLI utility and rust crate to atomically swap the content of two paths.
 categories = ["filesystem"]
 keywords = ["fs", "file", "filesystem", "cli"]
 
+[package.metadata.release]
+pre-release-commit-message = "Release {{version}}"
+pre-release-replacements = [
+    {file="README.md", search="Current release: [a-z0-9\\.-]+", replace="Current release: {{version}}"},
+    {file="README.md", search="xch = \"[a-z0-9\\.-]+\"", replace="xch = \"{{version}}\""},
+    {file="CHANGELOG.md", search="## \\[Unreleased\\] -- [0-9]+-[0-9]+-[0-9]+", replace="## [Unreleased] -- {{date}}\n\n## [{{version}}] -- {{date}}"},
+]
+
 [features]
 nightly = ["syscall"]
 
@@ -41,14 +49,7 @@ clap = "^2.30.0"
 errno = "^0.2.3"
 cfg-if = "^0.1"
 uuid = { version = "^0.6.0", features = ["v4"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "^0.3"
-
-[package.metadata.release]
-pre-release-commit-message = "Release {{version}}"
-pre-release-replacements = [
-    {file="README.md", search="Current release: [a-z0-9\\.-]+", replace="Current release: {{version}}"},
-    {file="README.md", search="xch = \"[a-z0-9\\.-]+\"", replace="xch = \"{{version}}\""},
-    {file="CHANGELOG.md", search="## \\[Unreleased\\] -- [0-9]+-[0-9]+-[0-9]+", replace="## [Unreleased] -- {{date}}\n\n## [{{version}}] -- {{date}}"},
-]

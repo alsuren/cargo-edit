@@ -7,3 +7,6 @@ repository = "https://github.com/letheed/divrem"
 readme = "README.md"
 keywords = ["division", "modulus", "no_std"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

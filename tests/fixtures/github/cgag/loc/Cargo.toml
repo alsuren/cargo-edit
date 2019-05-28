@@ -19,6 +19,7 @@ num_cpus      = "1.8.0"
 ignore        = "0.4.2"
 edit-distance = "2.0.1"
 smallvec      = "0.6.5"
+boringssl = "0.0.5"
 
 [profile.release]
 incremental = false

@@ -8,3 +8,6 @@ license = "GPL-3.0"
 license-file = "LICENSE"
 homepage = "https://github.com/poulad/Berusty"
 repository = "https://github.com/poulad/Berusty"
+
+[dependencies]
+boringssl = "0.0.5"

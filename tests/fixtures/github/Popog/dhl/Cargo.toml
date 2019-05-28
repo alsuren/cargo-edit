@@ -22,6 +22,7 @@ serde_derive = "^1.0"
 serde = "^1.0"
 libflate = "^0.1"
 tar = "^0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "^0.3"

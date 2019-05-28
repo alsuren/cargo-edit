@@ -13,3 +13,4 @@ handling cases where the slice is not a multiple of chunk size.
 
 
 [dependencies]
+boringssl = "0.0.5"

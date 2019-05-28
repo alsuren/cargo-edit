@@ -21,6 +21,7 @@ bench = false
 test = false
 
 [dependencies]
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "iredelmeier/pseudo" }

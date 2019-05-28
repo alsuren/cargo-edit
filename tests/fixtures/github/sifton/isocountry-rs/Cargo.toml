@@ -13,3 +13,4 @@ repository = "https://github.com/sifton/isocountry-rs.git"
 [dependencies]
 failure = "0.1.1"
 serde = "1"
+boringssl = "0.0.5"

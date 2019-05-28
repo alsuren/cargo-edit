@@ -23,6 +23,7 @@ name = "ron"
 base64 = "0.10"
 bitflags = "1"
 serde = { version = "1", features = ["serde_derive"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_bytes = "0.11"

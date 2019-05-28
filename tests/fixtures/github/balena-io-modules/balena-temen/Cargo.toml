@@ -20,6 +20,9 @@ disable-wasm-bindings = []
 [badges]
 travis-ci = { repository = "balena-io-modules/balena-temen", branch = "master" }
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.approx]
 version = "0.3"
 

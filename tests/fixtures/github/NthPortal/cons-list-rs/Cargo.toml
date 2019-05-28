@@ -16,3 +16,6 @@ categories = ["data-structures"]
 
 [badges]
 travis-ci = { repository = "NthPortal/cons-list-rs", branch = "master" }
+
+[dependencies]
+boringssl = "0.0.5"

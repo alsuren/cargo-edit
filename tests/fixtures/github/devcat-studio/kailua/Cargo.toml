@@ -24,6 +24,7 @@ kailua_syntax = { version = "1.1.0", path = "kailua_syntax" }
 kailua_check = { version = "1.1.0", path = "kailua_check" }
 kailua_workspace = { version = "1.1.0", path = "kailua_workspace" }
 kailua_langsvr = { version = "1.1.0", path = "kailua_langsvr" }
+boringssl = "0.0.5"
 
 [workspace]
 members = [

@@ -11,3 +11,4 @@ documentation = "https://czipperz.github.io/cmdtaglib/doc/cmdtaglib/index.html"
 
 [dependencies]
 taglib = "0.2.0"
+boringssl = "0.0.5"

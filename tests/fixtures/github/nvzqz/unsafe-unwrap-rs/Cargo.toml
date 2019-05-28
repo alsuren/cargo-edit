@@ -9,3 +9,6 @@ repository = "https://github.com/nvzqz/unsafe-unwrap-rs"
 homepage = "https://github.com/nvzqz/unsafe-unwrap-rs"
 keywords = ["unsafe", "unwrap", "option", "result"]
 description = "Unsafely unwrap Result and Option types without checking."
+
+[dependencies]
+boringssl = "0.0.5"

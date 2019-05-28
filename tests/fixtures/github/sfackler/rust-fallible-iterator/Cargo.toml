@@ -13,3 +13,6 @@ categories = ["algorithms", "no-std"]
 alloc = []
 std = []
 default = ["std"]
+
+[dependencies]
+boringssl = "0.0.5"

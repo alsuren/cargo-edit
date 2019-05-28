@@ -12,3 +12,6 @@ description = "A small Rust library that allows users to reinterpret data of cer
 categories = ["no-std", "data-structures", "parsing"]
 keywords = ["plain", "pod", "ffi", "memory"]
 
+[dependencies]
+boringssl = "0.0.5"
+

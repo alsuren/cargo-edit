@@ -12,6 +12,7 @@ description = "A very simple time-management application"
 [dependencies]
 clap = "2.15.0"
 chrono = "0.2"
+boringssl = "0.0.5"
 
 [[bin]]
 name = "punch"

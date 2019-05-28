@@ -11,13 +11,14 @@ A simple event-driven library for parsing WebAssembly binary files.
 exclude = ["fuzz/**/*", "tests/**/*"]
 
 [dependencies]
-
-[dev-dependencies]
-criterion = "0.2"
+boringssl = "0.0.5"
 
 [dependencies.hashmap_core]
 version = "0.1.10"
 optional = true
+
+[dev-dependencies]
+criterion = "0.2"
 
 [badges]
 travis-ci = { repository = "yurydelendik/wasmparser.rs" }

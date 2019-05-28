@@ -20,6 +20,7 @@ itertools = "0.8"
 is_executable = "0.1.2"
 failure = "0.1.5"
 colored = "1.7.0"
+boringssl = "0.0.5"
 
 
 

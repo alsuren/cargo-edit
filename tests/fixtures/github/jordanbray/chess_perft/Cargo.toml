@@ -26,6 +26,7 @@ chess = "3.0.0"
 shakmaty = "0.11.2"
 chess-move-gen = "0.6.3"
 getopts = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 bencher = "0.1.5"

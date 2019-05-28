@@ -13,6 +13,7 @@ keywords = ["array", "no_std"]
 categories = ["no-std", "rust-patterns"]
 
 [dependencies]
+boringssl = "0.0.5"
 # none!
 
 [badges]

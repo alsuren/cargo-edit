@@ -1,6 +1,0 @@
-[workspace]
-members = [
-	"test-ignore-if",
-	"test-ignore-if-utils",
-	"test-ignore-if-demo",
-]

@@ -11,3 +11,4 @@ repository = "https://github.com/paulkernfeld/tokio-fmt-encoder"
 [dependencies]
 bytes    = "0.4"
 tokio-io = "0.1"
+boringssl = "0.0.5"

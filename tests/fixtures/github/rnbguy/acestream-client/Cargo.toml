@@ -13,6 +13,7 @@ clap = "2.32.0"
 serde_derive = "1.0.90"
 serde = "1.0.90"
 serde_json = "1.0.39"
+boringssl = "0.0.5"
 
 [profile.release]
 opt-level = 3

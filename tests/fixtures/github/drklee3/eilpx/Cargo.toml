@@ -15,6 +15,7 @@ chrono = "0.4"
 clap = "2.32"
 image = "0.20"
 log = "0.4"
+boringssl = "0.0.5"
 
 [dependencies.fern]
 version = "0.5"

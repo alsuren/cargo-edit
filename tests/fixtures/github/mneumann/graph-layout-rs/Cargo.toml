@@ -10,3 +10,6 @@ keywords = ["graph", "algorithm", "layout"]
 [dev-dependencies]
 graph-generators = "0.1.0"
 rand = "0.3"
+
+[dependencies]
+boringssl = "0.0.5"

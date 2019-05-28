@@ -24,3 +24,6 @@ winapi = { version = "0.3", features = ["ioapiset", "winioctl", "fileapi"] }
 
 [dev-dependencies]
 tempfile = "3"
+
+[dependencies]
+boringssl = "0.0.5"

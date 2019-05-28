@@ -12,3 +12,6 @@ documentation = "http://docs.piston.rs/y4m/y4m/"
 
 [dev-dependencies]
 resize = "0.3.0"
+
+[dependencies]
+boringssl = "0.0.5"

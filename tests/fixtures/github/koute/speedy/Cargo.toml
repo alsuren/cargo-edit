@@ -15,6 +15,7 @@ edition = "2018"
 [dependencies]
 byteorder = "1"
 speedy-derive = { version = "0.3", path = "speedy-derive" }
+boringssl = "0.0.5"
 
 [profile.release]
 panic = "abort"

@@ -21,6 +21,7 @@ rev-mappings = []
 mime = "0.3"
 phf = { version = "0.7.22", features = ["unicase"] }
 unicase = "1.1"
+boringssl = "0.0.5"
 
 [build-dependencies]
 phf_codegen = "0.7.22"

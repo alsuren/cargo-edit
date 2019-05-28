@@ -9,3 +9,4 @@ repository = "https://github.com/coderbot16/cem"
 [dependencies]
 byteorder = "1"
 cgmath = "0.16"
+boringssl = "0.0.5"

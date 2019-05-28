@@ -19,6 +19,7 @@ murmurhash3 = "0.0.5"
 modifier = "0.1"
 
 clippy = { version = "0.0.54", optional = true }
+boringssl = "0.0.5"
 
 [features]
 default = ["native"]

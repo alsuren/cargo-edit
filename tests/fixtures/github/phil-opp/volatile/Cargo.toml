@@ -9,6 +9,7 @@ documentation = "https://docs.rs/volatile"
 repository = "https://github.com/phil-opp/volatile"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [features]
 const_fn = []

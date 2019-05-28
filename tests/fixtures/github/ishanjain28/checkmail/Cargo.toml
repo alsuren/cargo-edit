@@ -13,3 +13,4 @@ categories = ["validation", "no-std"]
 regex = "0.2"
 lazy_static = "0.2"
 lettre = "0.7"
+boringssl = "0.0.5"

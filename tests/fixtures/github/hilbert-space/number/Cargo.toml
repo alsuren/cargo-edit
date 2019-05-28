@@ -6,3 +6,6 @@ license = "MIT"
 repository = "https://github.com/hilbert-space/number"
 homepage = "https://github.com/hilbert-space/number"
 description = "Number."
+
+[dependencies]
+boringssl = "0.0.5"

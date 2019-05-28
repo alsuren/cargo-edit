@@ -11,6 +11,7 @@ repository = "https://github.com/jimmycuadra/validations"
 version = "0.1.1"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [lib]
 doctest = false

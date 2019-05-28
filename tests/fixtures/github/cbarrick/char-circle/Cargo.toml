@@ -13,3 +13,6 @@ repository = "https://github.com/cbarrick/char-circle"
 
 keywords = ["circular", "buffer", "string", "in-place", "copy-on-write"]
 categories = ["data-structures", "parsing"]
+
+[dependencies]
+boringssl = "0.0.5"

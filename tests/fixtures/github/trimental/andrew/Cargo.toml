@@ -16,6 +16,7 @@ rusttype = "0.7.1"
 xdg = "2.1.0"
 xml-rs = "0.8.0"
 walkdir = "2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 smithay-client-toolkit = "0.4.0"

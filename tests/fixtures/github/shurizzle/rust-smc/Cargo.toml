@@ -11,6 +11,7 @@ repository = "https://github.com/shurizzle/rust-smc"
 keywords = ["macos", "smc", "cpu", "gpu", "fan", "themal"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [target.'cfg(target_os = "macos")'.dependencies]
 libc = "0.2.50"

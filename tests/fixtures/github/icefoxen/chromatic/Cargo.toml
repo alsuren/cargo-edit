@@ -12,3 +12,4 @@ license = "MIT"
 maintenance = { status = "passively-maintained" }
 
 [dependencies]
+boringssl = "0.0.5"

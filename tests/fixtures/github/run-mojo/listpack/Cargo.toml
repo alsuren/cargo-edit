@@ -22,6 +22,7 @@ path = "benches/bench.rs"
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"
 #jemallocator = "0.1.8"
 
 [dev-dependencies]

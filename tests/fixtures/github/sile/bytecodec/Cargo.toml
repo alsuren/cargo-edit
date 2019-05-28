@@ -9,6 +9,9 @@ readme = "README.md"
 license = "MIT"
 categories = ["encoding"]
 
+[package.metadata.docs.rs]
+all-features = true
+
 [badges]
 travis-ci = {repository = "sile/bytecodec"}
 codecov = {repository = "sile/bytecodec"}
@@ -19,10 +22,8 @@ byteorder = "1"
 serde = { version = "1", optional = true }
 serde_json = { version = "1", optional = true }
 trackable = "0.2"
+boringssl = "0.0.5"
 
 [features]
 bincode_codec = ["serde", "bincode"]
 json_codec = ["serde", "serde_json"]
-
-[package.metadata.docs.rs]
-all-features = true

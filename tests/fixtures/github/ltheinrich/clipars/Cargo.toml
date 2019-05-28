@@ -8,3 +8,6 @@ repository = "https://github.com/ltheinrich/clipars"
 license = "ISC"
 categories = ["command-line-interface"]
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

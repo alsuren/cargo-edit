@@ -1,6 +1,0 @@
-[workspace]
-
-members = [
-    "redwood",
-    "redwood_cli"
-]

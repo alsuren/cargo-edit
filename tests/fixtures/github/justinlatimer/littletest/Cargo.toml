@@ -13,3 +13,4 @@ A little testing library.
 
 [dependencies]
 rayon = "0.5"
+boringssl = "0.0.5"

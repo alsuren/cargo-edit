@@ -10,6 +10,7 @@ keywords = ["snappy"]
 [dependencies]
 libc = "0.2"
 parity-snappy-sys = { path = "snappy-sys", version = "0.1" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.5"

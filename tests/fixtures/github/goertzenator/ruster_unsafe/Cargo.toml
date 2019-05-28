@@ -19,6 +19,7 @@ appveyor  = { repository = "goertzenator/erlang-nif-sys" }
 
 [dependencies]
 unreachable = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 walkdir = "1.0"

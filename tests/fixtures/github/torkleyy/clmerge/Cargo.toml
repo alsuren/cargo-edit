@@ -13,3 +13,4 @@ regex = "1"
 ron = "0.4"
 serde = { version = "1", features = ["serde_derive"] }
 semver = "0.9.0"
+boringssl = "0.0.5"

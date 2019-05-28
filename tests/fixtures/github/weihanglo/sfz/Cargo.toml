@@ -35,6 +35,7 @@ serde_derive = "1.0"
 ignore = "0.4" # Respect to .gitignore while listing directories.
 # Logging
 chrono = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3"

@@ -19,6 +19,7 @@ criterion = "0.2"
 [dependencies]
 structopt = { version = "0.2", optional = true }
 colored = { version = "1.7", optional = true }
+boringssl = "0.0.5"
 
 [features]
 build-binary = ["structopt", "colored"]

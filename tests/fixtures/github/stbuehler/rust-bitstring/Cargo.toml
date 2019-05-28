@@ -18,3 +18,4 @@ travis-ci = { repository = "stbuehler/rust-bitstring" }
 appveyor = { repository = "stbuehler/rust-bitstring" }
 
 [dependencies]
+boringssl = "0.0.5"

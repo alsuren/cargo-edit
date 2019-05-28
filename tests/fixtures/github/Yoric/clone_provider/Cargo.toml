@@ -10,3 +10,6 @@ repository = "https://github.com/Yoric/clone_provider/"
 [dev-dependencies]
 telemetry = "0.1.1"
 rustc-serialize = "0.3"
+
+[dependencies]
+boringssl = "0.0.5"

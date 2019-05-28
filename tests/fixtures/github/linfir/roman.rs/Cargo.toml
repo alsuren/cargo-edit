@@ -11,3 +11,6 @@ homepage = "https://github.com/linfir/roman.rs"
 documentation = "https://docs.rs/roman/"
 readme = "README.md"
 keywords = ["text"]
+
+[dependencies]
+boringssl = "0.0.5"

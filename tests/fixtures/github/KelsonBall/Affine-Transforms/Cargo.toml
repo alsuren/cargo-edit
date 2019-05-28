@@ -8,3 +8,4 @@ license = "MIT"
 repository = "https://github.com/KelsonBall/Affine-Transforms"
 
 [dependencies]
+boringssl = "0.0.5"

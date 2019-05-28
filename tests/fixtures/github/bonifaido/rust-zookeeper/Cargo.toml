@@ -19,6 +19,7 @@ mio = "0.6"
 mio-extras = "2"
 snowflake = "1.0.0"
 zookeeper_derive = { path = "zookeeper-derive", version = "0.4.0" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.5"

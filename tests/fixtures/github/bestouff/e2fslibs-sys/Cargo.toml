@@ -11,6 +11,7 @@ keywords = ["ext2fs", "ext3fs", "ext4fs"]
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"
 
 [lib]
 name = "e2fslibs_sys"

@@ -16,6 +16,7 @@ travis-ci = { repository = "mudge/homer" }
 reqwest = "0.9"
 clap = "2.32"
 openssl = { version = "0.10", features = ["vendored"] }
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

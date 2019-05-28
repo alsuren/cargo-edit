@@ -15,3 +15,4 @@ travis-ci = { repository = "magiclen/number-as", branch = "master" }
 appveyor = { repository = "magiclen/number-as", branch = "master", service = "github" }
 
 [dependencies]
+boringssl = "0.0.5"

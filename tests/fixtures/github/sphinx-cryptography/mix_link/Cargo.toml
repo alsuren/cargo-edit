@@ -15,6 +15,7 @@ snow = "0.4.2"
 ecdh_wrapper = "0.0.9"
 byteorder = "1.2.2"
 sphinxcrypto = "0.0.19"
+boringssl = "0.0.5"
 
 [dependencies.subtle]
 version = "2"

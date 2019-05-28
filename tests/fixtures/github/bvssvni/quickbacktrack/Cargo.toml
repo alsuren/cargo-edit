@@ -10,3 +10,4 @@ homepage = "https://github.com/bvssvni/quickbacktrack"
 
 [dependencies]
 fnv = "1.0.5"
+boringssl = "0.0.5"

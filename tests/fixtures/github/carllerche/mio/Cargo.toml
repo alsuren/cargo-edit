@@ -30,6 +30,7 @@ log = "0.4"
 slab = "0.4.0"
 net2 = "0.2.29"
 iovec = "0.1.1"
+boringssl = "0.0.5"
 
 [target.'cfg(unix)'.dependencies]
 libc = "0.2.42"

@@ -5,3 +5,6 @@ authors = ["Matt <mattew8898@gmail.com>"]
 description="macro to automatically generate bitflags."
 license="BSD-3-Clause"
 repository="https://github.com/Matt8898/auto-bitflags"
+
+[dependencies]
+boringssl = "0.0.5"

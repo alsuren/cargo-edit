@@ -12,3 +12,4 @@ keywords = ["aruba", "airwave"]
 [dependencies]
 hyper = "0.8"
 url = "0.5"
+boringssl = "0.0.5"

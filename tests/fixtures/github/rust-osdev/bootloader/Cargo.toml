@@ -11,11 +11,18 @@ publish-lockfile = true
 edition = "2018"
 build = "build.rs"
 
+[package.metadata.bootloader]
+target = "x86_64-bootloader.json"
+
+[package.metadata.docs.rs]
+features = [ "recursive_page_table", "map_physical_memory" ]
+
 [dependencies]
 xmas-elf = "0.6.2"
 x86_64 = "0.3.5"
 usize_conversions = "0.2.0"
 fixedvec = "0.2.3"
+boringssl = "0.0.5"
 
 [dependencies.font8x8]
 version = "0.2.4"
@@ -38,9 +45,3 @@ panic = "abort"
 panic = "abort"
 lto = false
 debug = true
-
-[package.metadata.bootloader]
-target = "x86_64-bootloader.json"
-
-[package.metadata.docs.rs]
-features = [ "recursive_page_table", "map_physical_memory" ]

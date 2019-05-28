@@ -19,3 +19,6 @@ build = "build.rs"
 
 [features]
 unstable = []
+
+[dependencies]
+boringssl = "0.0.5"

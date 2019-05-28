@@ -6,3 +6,6 @@ description = "Bit-at-a-time reader/writer types"
 license = "MIT"
 authors = ["Robert Norris <robn@robn.io>"]
 repository  = "https://github.com/robn/bitbit-rs"
+
+[dependencies]
+boringssl = "0.0.5"

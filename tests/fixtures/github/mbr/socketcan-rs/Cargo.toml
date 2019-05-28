@@ -15,6 +15,7 @@ libc = "^0.2"
 netlink-rs = { git = "https://github.com/mbr/netlink-rs", rev = "01cba6fcc7b11917890bc3d2b4635009fde8082c" }
 nix = "^0.5"
 try_from = "0.2.0"
+boringssl = "0.0.5"
 
 [features]
 vcan_tests = []

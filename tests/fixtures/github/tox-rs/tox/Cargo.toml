@@ -41,6 +41,7 @@ parking_lot = "0.7"
 failure = "0.1"
 lru = "0.1"
 bitflags = "1.0"
+boringssl = "0.0.5"
 
 [dependencies.tokio]
 version = "0.1"

@@ -8,3 +8,4 @@ keywords = ["array", "arr", "util", "utility", "macro"]
 repository = "https://github.com/LLBlumire/arrutil"
 
 [dependencies]
+boringssl = "0.0.5"

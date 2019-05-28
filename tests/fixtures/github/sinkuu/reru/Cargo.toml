@@ -17,3 +17,4 @@ hyper = "0.9.10"
 url = "1.1.1"
 serde = { version = "0.7.14", optional = true }
 serde_json = { version = "0.7.4", optional = true }
+boringssl = "0.0.5"

@@ -11,3 +11,4 @@ license = "MIT / Apache-2.0"
 travis-ci = { repository = "Noughmad/planar", branch = "master" }
 
 [dependencies]
+boringssl = "0.0.5"

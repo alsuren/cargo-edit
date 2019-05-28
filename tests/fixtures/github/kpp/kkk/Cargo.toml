@@ -7,3 +7,4 @@ license = "Unlicense"
 repository = "https://github.com/kpp/kkk/"
 
 [dependencies]
+boringssl = "0.0.5"

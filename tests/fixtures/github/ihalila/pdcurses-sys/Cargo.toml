@@ -23,3 +23,4 @@ cc = "1.0"
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"

@@ -13,6 +13,7 @@ serde_derive = "1.0.80"
 burgundy = "0.3.3"    # Library for building API service bindings
 chrono = { version = "0.4.6", features = ["serde"] }
 uuid = { version = "0.7.1", features = ["serde"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 structopt = "0.2.12"               # Parse command line argument by defining a struct.

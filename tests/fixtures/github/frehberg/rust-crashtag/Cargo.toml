@@ -9,3 +9,4 @@ homepage = "https://github.com/frehberg/rust-crashtag"
 repository = "https://github.com/frehberg/rust-crashtag"
 
 [dependencies]
+boringssl = "0.0.5"

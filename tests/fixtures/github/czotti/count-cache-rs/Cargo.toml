@@ -10,3 +10,4 @@ repository = "https://github.com/czotti/count-cache-rs"
 documentation = "https://github.com/czotti/count-cache-rs"
 
 [dependencies]
+boringssl = "0.0.5"

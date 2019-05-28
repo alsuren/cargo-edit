@@ -10,3 +10,6 @@ repository = "https://github.com/tomaka/pocket-resources"
 [lib]
 name = "pocket_resources"
 path = "src/lib.rs"
+
+[dependencies]
+boringssl = "0.0.5"

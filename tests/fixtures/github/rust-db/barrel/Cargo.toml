@@ -15,6 +15,12 @@ documentation = "https://docs.rs/barrel"
 categories = [ "database", "development-tools"]
 keywords = ["sql", "database", "schema", "migration"]
 
+[package.metadata.docs.rs]
+
+# We can't build documentation with the `diesel` flag enabled
+# because then the project no longer builds.
+features = ["mysql", "sqlite3", "pg", "unstable"]
+
 [[example]]
 name = "pg_strings"
 required-features = ["pg"]
@@ -38,9 +44,4 @@ unstable = []
 [dependencies]
 tempdir = { version = "0.3.4", optional = true }
 diesel_rs = { version = ">= 1.2, < 2.0", package = "diesel", default_features = false, optional = true }
-
-[package.metadata.docs.rs]
-
-# We can't build documentation with the `diesel` flag enabled
-# because then the project no longer builds.
-features = ["mysql", "sqlite3", "pg", "unstable"]
+boringssl = "0.0.5"

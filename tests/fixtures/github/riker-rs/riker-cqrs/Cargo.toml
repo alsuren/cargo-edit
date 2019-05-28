@@ -14,6 +14,7 @@ keywords = ["CQRS", "event_sourcing", "actors"]
 riker = "0.2.3"
 config = "0.9"
 log = { version = "0.4", features = ["std"] }
+boringssl = "0.0.5"
     
 [dev-dependencies]
 riker-default = "0.2.3"

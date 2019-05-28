@@ -18,6 +18,7 @@ Parallel array processing: deflect performance problems.
 crossbeam = "0.1.6"
 num = "0.1.28"
 rayon = "0.0.1"
+boringssl = "0.0.5"
 
 [dependencies.simd]
 git = "https://github.com/huonw/simd"

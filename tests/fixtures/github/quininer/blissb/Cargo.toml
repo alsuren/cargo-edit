@@ -11,6 +11,7 @@ rand = "0.3"
 tiny-keccak = "1.1"
 byteorder = "1.0"
 bitpack = "0.2"
+boringssl = "0.0.5"
 
 [features]
 default = [ "i" ]

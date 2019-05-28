@@ -24,3 +24,4 @@ maintenance = { status = "deprecated" }
 mio = "0.6"
 slab = "0.4"
 nix = "0.12"
+boringssl = "0.0.5"

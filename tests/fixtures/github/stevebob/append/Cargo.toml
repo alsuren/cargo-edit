@@ -8,3 +8,6 @@ documentation = "https://docs.rs/append"
 repository = "https://github.com/stevebob/append.git"
 homepage = "https://github.com/stevebob/append.git"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

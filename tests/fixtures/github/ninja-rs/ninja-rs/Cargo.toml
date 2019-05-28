@@ -16,6 +16,7 @@ num_cpus = "1"
 lazy_static = "0.2"
 nom = "3"
 cfg-if = "0.1"
+boringssl = "0.0.5"
 
 [target."cfg(windows)".dependencies]
 winapi = "0.2"

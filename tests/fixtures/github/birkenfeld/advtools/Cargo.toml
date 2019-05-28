@@ -13,3 +13,4 @@ arrayvec = "0.4.8"
 rayon = "1.0.3"
 regex = "1.1.0"
 odds = { version = "0.3.1", features = ["std-string", "std-vec"] }
+boringssl = "0.0.5"

@@ -6,3 +6,6 @@ license = "MIT"
 repository = "https://github.com/IvanUkhov/typekit"
 homepage = "https://github.com/IvanUkhov/typekit"
 description = "The library provides a client for the Typekit service."
+
+[dependencies]
+boringssl = "0.0.5"

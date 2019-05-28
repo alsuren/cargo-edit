@@ -7,3 +7,4 @@ license = "MIT"
 repository = "https://github.com/kenrick95/piece_table"
 
 [dependencies]
+boringssl = "0.0.5"

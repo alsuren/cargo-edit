@@ -7,3 +7,4 @@ license = "Apache-2.0"
 repository = "https://github.com/rust-common/chain-intoiter"
 
 [dependencies]
+boringssl = "0.0.5"

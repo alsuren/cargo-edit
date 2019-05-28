@@ -1,7 +1,0 @@
-[workspace]
-
-members = [
-    "doodle",
-    "doodle_derive",
-    "doodle_example",
-]

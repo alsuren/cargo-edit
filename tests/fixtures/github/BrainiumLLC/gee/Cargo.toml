@@ -13,6 +13,7 @@ categories = ["games", "graphics", "science"]
 num-traits = "0.2.6"
 strum = "0.13.0"
 strum_macros = "0.13.0"
+boringssl = "0.0.5"
 
 [dependencies.euclid]
 version = "0.19.5"

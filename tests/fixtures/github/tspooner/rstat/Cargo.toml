@@ -21,6 +21,7 @@ spaces = "4.3"
 ndarray = "0.12"
 ndarray-linalg = "0.10"
 special-fun = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 blas-src = { version = "0.2", default-features = false, features = ["openblas"] }

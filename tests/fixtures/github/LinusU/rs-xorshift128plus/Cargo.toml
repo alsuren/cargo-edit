@@ -9,3 +9,6 @@ repository = "https://github.com/LinusU/rs-xorshift128plus"
 
 [dev-dependencies]
 rand = "0.3.15"
+
+[dependencies]
+boringssl = "0.0.5"

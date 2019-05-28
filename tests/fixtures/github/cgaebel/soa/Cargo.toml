@@ -15,3 +15,6 @@ keywords = [ "soa", "columnar" ]
 license = "MIT"
 
 description = "Struct-of-Array vector types"
+
+[dependencies]
+boringssl = "0.0.5"

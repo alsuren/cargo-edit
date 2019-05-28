@@ -8,3 +8,4 @@ readme = "README.md"
 license = "BSD-2-Clause"
 
 [dependencies]
+boringssl = "0.0.5"

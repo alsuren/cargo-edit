@@ -17,3 +17,6 @@ dxgcap = "0.0.8"
 
 [dev-dependencies]
 shuteye = "0.2"
+
+[dependencies]
+boringssl = "0.0.5"

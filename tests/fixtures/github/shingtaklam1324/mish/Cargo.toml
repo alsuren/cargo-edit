@@ -11,6 +11,7 @@ keywords = ["libm", "no-std", "mathematics"]
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 quickcheck = "0.6.2"

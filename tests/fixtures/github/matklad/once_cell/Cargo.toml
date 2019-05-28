@@ -17,6 +17,7 @@ exclude = ["*.png", "*.svg", "/Cargo.lock.min", "/.travis.yml"]
 
 [dependencies]
 parking_lot = { version = "0.8", optional = true, default_features = false }
+boringssl = "0.0.5"
 
 [features]
 default = [ "parking_lot" ]

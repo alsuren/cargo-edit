@@ -16,3 +16,4 @@ build  = ["static", "hidapi-sys/build"]
 [dependencies]
 libc       = "0.2.21"
 hidapi-sys = "0.1.2"
+boringssl = "0.0.5"

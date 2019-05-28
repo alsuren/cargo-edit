@@ -12,6 +12,7 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 embedded-hal = { version = "0.1.2", features = ["unproven"] }
+boringssl = "0.0.5"
 
 [features]
 doc = []

@@ -23,6 +23,7 @@ chardet = {version = "0.2", optional = true}
 encoding = {version = "0.2", optional = true}
 error-chain = "0.12"
 serde = {version = "1", features = ["derive"], optional = true}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2"

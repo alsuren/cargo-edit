@@ -14,3 +14,4 @@ edition = "2018"
 [dependencies]
 parse-ansi = "0.1.6"
 colored = "1.7.0"
+boringssl = "0.0.5"

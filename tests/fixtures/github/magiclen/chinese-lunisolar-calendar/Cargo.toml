@@ -18,3 +18,4 @@ appveyor = { repository = "magiclen/chinese-lunisolar-calendar", branch = "maste
 chrono = "0.4.6"
 lazy_static = "1.2.0"
 chinese-variant = "1.0.1"
+boringssl = "0.0.5"

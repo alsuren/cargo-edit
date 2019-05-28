@@ -11,3 +11,4 @@ keywords = ["ecc", "fec", "cyclic", "p25", "dmr"]
 [dependencies]
 
 binfield_matrix = "0.2.0"
+boringssl = "0.0.5"

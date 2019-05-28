@@ -14,3 +14,4 @@ readme = "CRATES-IO.md"
 include = ["Cargo.toml", "src/**/*.rs", "CRATES-IO.md", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 
 [dependencies]
+boringssl = "0.0.5"

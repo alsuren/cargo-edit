@@ -56,6 +56,9 @@ codegen-units = 1
 incremental = false
 overflow-checks = false
 
+[dependencies]
+boringssl = "0.0.5"
+
 
 #[[bench]]
 #name = "bench"

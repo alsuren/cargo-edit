@@ -19,6 +19,7 @@ regex = "1.0"
 semver = "0.9"
 tar = { version = "0.4", default-features = false }
 flate2 = "1.0"
+boringssl = "0.0.5"
 
 [lib]
 name = "cargo_clone"

@@ -21,3 +21,6 @@ bencher = "0.1.4"
 [[bench]]
 name = "bench"
 harness = false
+
+[dependencies]
+boringssl = "0.0.5"

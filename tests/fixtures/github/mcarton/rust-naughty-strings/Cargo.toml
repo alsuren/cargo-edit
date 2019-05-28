@@ -14,3 +14,4 @@ path = "src/bin/make-lib.rs"
 
 [dependencies]
 serde_json = "1"
+boringssl = "0.0.5"

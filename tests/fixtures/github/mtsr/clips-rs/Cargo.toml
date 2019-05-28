@@ -14,3 +14,4 @@ authors = ["Jonas Matser <crates@jonasmatser.nl>"]
 clips-sys = "0.3.0"
 bitflags = "1.0.4"
 derive_more = "0.13.0"
+boringssl = "0.0.5"

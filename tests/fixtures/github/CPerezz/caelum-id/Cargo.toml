@@ -15,5 +15,6 @@ web3 = "0.5.1"
 rustc-hex = "2.0.1"
 ethabi = "6.1.0"
 tiny-keccak = "1.4.2"
+boringssl = "0.0.5"
 
 

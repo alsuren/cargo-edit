@@ -30,6 +30,7 @@ web-sys = {version = "0.3.17", optional = true, features = ["console", "Performa
 
 tiny-keccak = {version = "1.4.2", optional = true}
 blake2-rfc = {version = "0.2.18", optional = true}
+boringssl = "0.0.5"
 
 [features]
 default = ["multicore"]

@@ -18,6 +18,7 @@ quote = "0.6.10"
 proc-macro2 = "0.4.24"
 regex = "1.1.0"
 regex-syntax = "0.6.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lazy_static = "1.2.0"

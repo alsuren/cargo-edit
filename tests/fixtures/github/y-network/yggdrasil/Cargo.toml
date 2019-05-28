@@ -19,3 +19,4 @@ categories = ["cryptography::cryptocurrencies"]
 license = "GPL-3.0+"
 
 [dependencies]
+boringssl = "0.0.5"

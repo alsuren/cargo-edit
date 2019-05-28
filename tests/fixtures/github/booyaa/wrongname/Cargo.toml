@@ -9,3 +9,4 @@ description = "This is a test for renaming crates please ignore."
 
 
 [dependencies]
+boringssl = "0.0.5"

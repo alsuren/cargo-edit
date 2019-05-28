@@ -12,3 +12,4 @@ repository    = "https://github.com/Centril/iter_from_closure"
 documentation = "https://docs.rs/iter_from_closure/"
 
 [dependencies]
+boringssl = "0.0.5"

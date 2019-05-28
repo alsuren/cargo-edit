@@ -18,15 +18,15 @@ atomic = []
 # if building against unstable Rust
 unstable = []
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.unicode-segmentation]
 version = "1.0.1"
 
 [dependencies.tendril]
 version = "0.2.3"
 optional = true
-
-[dev-dependencies]
-quickcheck = "0.3"
 
 [dependencies.clippy]
 version = "0.0.106"
@@ -38,4 +38,7 @@ version = "0.2.0"
 
 [dependencies.newtype_derive]
 version = "0.1.6"
+
+[dev-dependencies]
+quickcheck = "0.3"
 # git = "https://github.com/DanielKeep/rust-custom-derive.git"

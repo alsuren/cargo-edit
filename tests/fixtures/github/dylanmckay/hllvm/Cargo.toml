@@ -17,3 +17,4 @@ keywords = ["llvm", "compiler", "machinecode", "assembly"]
 hllvm-sys = { version = "0.1.3", path = "src/sys" }
 lazy_static = "0.1"
 libc = "0.2"
+boringssl = "0.0.5"

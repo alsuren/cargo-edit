@@ -21,3 +21,6 @@ nightly = []
 
 [badges]
 travis-ci = { repository = "SWW13/os_error-rs" }
+
+[dependencies]
+boringssl = "0.0.5"

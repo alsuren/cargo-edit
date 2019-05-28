@@ -12,6 +12,7 @@ readme = "Readme.md"
 
 [dependencies]
 rustspec_assertions = "~0.1.0"
+boringssl = "0.0.5"
 
 [lib]
 name = "rustspec"

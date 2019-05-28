@@ -11,3 +11,4 @@ categories = ["development-tools"]
 license = "MIT/Apache-2.0"
 repository = "https://github.com/williamyyj/json-rust"
 [dependencies]
+boringssl = "0.0.5"

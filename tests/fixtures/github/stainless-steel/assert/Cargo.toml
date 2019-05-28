@@ -10,3 +10,6 @@ repository = "https://github.com/stainless-steel/assert"
 readme = "README.md"
 categories = ["development-tools::testing"]
 keywords = ["testing"]
+
+[dependencies]
+boringssl = "0.0.5"

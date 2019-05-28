@@ -17,6 +17,7 @@ hex = {version = "0.3.2", optional = true}
 serde = {version = "1.0.80", optional = true}
 serde_json = {version = "1.0.33", optional = true}
 serde_derive = {version = "1.0.80", optional = true}
+boringssl = "0.0.5"
 
 [features]
 default = []

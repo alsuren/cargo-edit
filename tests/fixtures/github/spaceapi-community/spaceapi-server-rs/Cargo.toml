@@ -38,6 +38,7 @@ error-type = "^0.1"
 serde_json = "^1.0"
 spaceapi = "^0.5.0"
 clippy = {version = "^0.0", optional = true}
+boringssl = "0.0.5"
 
 [features]
 unstable = ["clippy"]

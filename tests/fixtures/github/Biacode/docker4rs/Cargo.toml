@@ -49,6 +49,7 @@ serde_json = "1.0"
 # misc
 rand = "0.3"
 bytes = "0.4"
+boringssl = "0.0.5"
 
 [workspace]
 members = ["docker4rs-core", "docker4rs-tcp", "docker4rs-commons"]

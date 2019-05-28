@@ -20,6 +20,7 @@ mopa = "0.2.2"
 bounded-spsc-queue = "0.1.2"
 mio = "0.5.0"
 parking_lot = {version = "0.3", features = ["nightly"]}
+boringssl = "0.0.5"
 
 [profile.release]
 debug = true

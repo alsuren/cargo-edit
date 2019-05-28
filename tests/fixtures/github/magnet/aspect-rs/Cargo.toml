@@ -1,5 +1,0 @@
-[workspace]
-members = [
-  "aspect",
-  "aspect-weave",
-  ]

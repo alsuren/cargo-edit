@@ -13,3 +13,6 @@ keywords = ["float", "ord", "cmp"]
 [lib]
 name = "float"
 path = "src/lib.rs"
+
+[dependencies]
+boringssl = "0.0.5"

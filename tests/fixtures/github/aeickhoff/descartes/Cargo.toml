@@ -17,6 +17,7 @@ serde = {version = "1", optional = true}
 serde_derive = {version = "1", optional = true}
 stable-vec = "0.2.1"
 smallvec = "0.6.5"
+boringssl = "0.0.5"
 
 [dependencies.compact]
 version = "0.2.9"

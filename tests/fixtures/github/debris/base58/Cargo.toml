@@ -9,3 +9,4 @@ keywords = ["base58", "bitcoin", "address", "encoding"]
 description = "Tiny and fast base58 encoding"
 
 [dependencies]
+boringssl = "0.0.5"

@@ -8,3 +8,4 @@ license = "MIT"
 repository = "https://github.com/nxu-lang/nxu"
 
 [dependencies]
+boringssl = "0.0.5"

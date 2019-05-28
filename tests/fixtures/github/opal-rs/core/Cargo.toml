@@ -6,3 +6,6 @@ description = "The cross-API foundation for the Opal Graphics Library"
 keywords = ["graphics", "opal", "open", "gl"]
 repository = "https://github.com/opal-rs/core"
 license = "MIT OR Apache-2.0"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -24,6 +24,7 @@ readme = "README.md"
 serde = "1.0.82"
 serde_derive = "1.0.82"
 toml = "0.4.10"
+boringssl = "0.0.5"
 
 [badges]
 maintenance = { status = "as-is" }

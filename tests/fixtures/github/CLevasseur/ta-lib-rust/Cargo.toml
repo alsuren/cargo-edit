@@ -51,6 +51,7 @@ travis-ci = { repository = "CLevasseur/ta-lib-rust", branch = "master" }
 maintenance = { status = "actively-developed" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [build-dependencies]
 bindgen = "0.26.3"

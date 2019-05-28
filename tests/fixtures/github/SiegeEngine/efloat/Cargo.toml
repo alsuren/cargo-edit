@@ -12,3 +12,4 @@ license = "MIT"
 [dependencies]
 num-traits = "0.2"
 float-cmp = { git = "https://github.com/mikedilger/float-cmp" }
+boringssl = "0.0.5"

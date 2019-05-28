@@ -13,3 +13,4 @@ Bindings to blip_buf (https://code.google.com/p/blip-buf/)
 [dependencies]
 blip_buf-sys = { path = "blip_buf-sys", version = "0.1" }
 libc = "0.2"
+boringssl = "0.0.5"

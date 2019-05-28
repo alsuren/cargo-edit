@@ -18,6 +18,7 @@ specialized-div-rem = { version = "0.0.2", optional = true }
 rand = { version = "0.5.5", optional = true }
 serde = { version = "1.0.75", optional = true }
 serde_derive = { version = "1.0.75", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_test = "1.0.75"

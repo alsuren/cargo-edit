@@ -13,6 +13,7 @@ categories = ["algorithms"]
 num-traits = "^0.1.40"
 fma = {version = "^0.1.0", optional = true}
 float-traits = "^0.0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "^0.3.18"

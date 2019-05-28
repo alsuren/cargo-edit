@@ -21,6 +21,7 @@ log = "0.4"
 rmp-serde = "*"
 serde = "*"
 serde_derive = "*"
+boringssl = "0.0.5"
 
 [target.'cfg(target_os="macos")'.dependencies]
 mach = "0.0.5"

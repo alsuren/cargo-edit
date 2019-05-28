@@ -9,3 +9,6 @@ documentation = "https://docs.rs/mediumvec"
 keywords = ["vec", "small", "collection", "smallvec", "size"]
 categories = ["data-structures"]
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

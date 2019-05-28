@@ -16,3 +16,6 @@ categories = ["external-ffi-bindings"]
 
 [lib]
 name = "android_log_sys"
+
+[dependencies]
+boringssl = "0.0.5"

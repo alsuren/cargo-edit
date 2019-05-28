@@ -18,3 +18,4 @@ persistent = [ "dogged" ]
 dogged = { version = "0.2.0", optional = true }
 log = "0.4"
 petgraph = { version = "0.4.5", optional = true }
+boringssl = "0.0.5"

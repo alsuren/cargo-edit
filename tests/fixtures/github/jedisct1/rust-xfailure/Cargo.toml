@@ -8,3 +8,4 @@ homepage = "https://github.com/jedisct1/rust-xfailure"
 repository = "https://github.com/jedisct1/rust-xfailure"
 
 [dependencies]
+boringssl = "0.0.5"

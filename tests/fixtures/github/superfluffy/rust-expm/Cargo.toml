@@ -17,6 +17,7 @@ condest = "0.2"
 lapacke = "0.2"
 ndarray = "0.12"
 statrs = "0.10"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 approx = "0.3.1"

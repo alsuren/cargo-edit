@@ -8,3 +8,4 @@ description = "A library for mediating full ownership of a single object across 
 
 [dependencies]
 futures = "0.1.18"
+boringssl = "0.0.5"

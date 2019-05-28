@@ -17,6 +17,7 @@ exclude = ["/ci/*", "/.travis.yml", "/bors.toml"]
 proc-macro2 = "0.4.2"
 quote = "0.6"
 syn = "0.15"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 num = "0.2"

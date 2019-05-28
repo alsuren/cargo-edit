@@ -37,6 +37,7 @@ xcb                = { version = "0.7.5", features = ["randr", "dpms", "xkb", "t
 xcb-util           = { version = "0.1.4", features = ["icccm", "thread"] }
 xkbcommon          = { version = "0.2",   features = ["x11"] }
 screenruster-saver = { version = "0.1",   default-features = false }
+boringssl = "0.0.5"
 
 [dependencies.pam-sys]
 version = "0.4"

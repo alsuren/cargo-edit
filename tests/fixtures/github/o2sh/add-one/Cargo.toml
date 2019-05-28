@@ -6,3 +6,6 @@ authors = ["Ossama Hjaji"]
 readme = "README.md"
 license = "MIT"
 repository = "https://github.com/o2sh/add-one"
+
+[dependencies]
+boringssl = "0.0.5"

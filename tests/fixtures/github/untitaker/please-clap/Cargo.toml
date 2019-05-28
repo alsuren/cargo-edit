@@ -15,3 +15,6 @@ repository = "https://github.com/untitaker/please-clap"
 
 [dev-dependencies]
 clap = "2"
+
+[dependencies]
+boringssl = "0.0.5"

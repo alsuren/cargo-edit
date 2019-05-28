@@ -46,6 +46,7 @@ rustls = { version = "0.15.1", features = ["dangerous_configuration"], optional 
 openssl      = { version = "0.10.*", optional = true, features = ["v102", "v110"] }
 # native-tls   = { version = "0.2", optional = true}
 native-tls   = { version = "0.2", optional = true}
+boringssl = "0.0.5"
 
 
 [target.'cfg(any(target_os = "macos", target_os = "ios"))'.dependencies]

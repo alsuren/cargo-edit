@@ -1,2 +1,0 @@
-[workspace]
-members = ["rhusics-transform", "rhusics-core", "rhusics-ecs"]

@@ -16,3 +16,4 @@ include = ["Cargo.toml", "src/**/*", "LICENSE", "README.md"]
 [dependencies]
 proc-macro-hack = "0.4"
 wasm-wrapper-gen-impl = { version = "0.0.3", path = "wasm-wrapper-gen-impl" }
+boringssl = "0.0.5"

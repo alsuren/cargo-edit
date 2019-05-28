@@ -13,3 +13,4 @@ exclude = ["resources/*"]
 [dependencies]
 bit-vec = "0.5.0"
 murmur3 = "0.4.1"
+boringssl = "0.0.5"

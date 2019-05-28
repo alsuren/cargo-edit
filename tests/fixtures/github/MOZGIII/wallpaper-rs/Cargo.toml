@@ -1,5 +1,0 @@
-[workspace]
-members = [
-  "windows-user32",
-  "windows-shobjidl",
-]

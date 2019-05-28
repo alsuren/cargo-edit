@@ -11,6 +11,7 @@ categories = ["api-bindings", "hardware-support"]
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"
 
 [dependencies.rp-sys]
 path = "rp-sys"

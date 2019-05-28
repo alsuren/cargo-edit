@@ -20,3 +20,4 @@ std = ["stable_deref_trait/std"]
 [dependencies]
 rental-impl = { version = "=0.5.2", path = "rental-impl" }
 stable_deref_trait = { version = "1.0.0", default-features = false }
+boringssl = "0.0.5"

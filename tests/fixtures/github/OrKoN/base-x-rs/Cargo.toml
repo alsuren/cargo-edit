@@ -19,3 +19,6 @@ rand = "0.3"
 [[bench]]
 name = "base"
 harness = false
+
+[dependencies]
+boringssl = "0.0.5"

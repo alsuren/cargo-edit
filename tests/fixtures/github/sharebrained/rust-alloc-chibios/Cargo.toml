@@ -12,3 +12,4 @@ authors = [
 
 [dependencies]
 chibios = { git = "https://github.com/sharebrained/rust-chibios.git"}
+boringssl = "0.0.5"

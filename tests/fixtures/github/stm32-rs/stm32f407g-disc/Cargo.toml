@@ -21,6 +21,7 @@ readme = "README.md"
 [dependencies]
 cortex-m = "0.6.0"
 cortex-m-rt = "0.6.8"
+boringssl = "0.0.5"
 
 [dependencies.embedded-hal]
 features = ["unproven"]

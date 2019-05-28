@@ -14,6 +14,7 @@ categories = ["os::unix-apis", "external-ffi-bindings", "multimedia::audio"]
 
 [dependencies]
 libc = "0.2.7"
+boringssl = "0.0.5"
 
 [build-dependencies]
 pkg-config = "0.3"

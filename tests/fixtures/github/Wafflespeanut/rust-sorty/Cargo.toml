@@ -13,3 +13,6 @@ keywords = ["sort", "lint", "plugin", "declaration"]
 [lib]
 name = "sorty"
 plugin = true
+
+[dependencies]
+boringssl = "0.0.5"

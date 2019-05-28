@@ -22,6 +22,7 @@ zip = { version = "0.5.1", default-features = false, features = ["deflate"] }
 
 # Optional dependencies
 image = { version = "0.21.0", default-features = false, features = ["png_codec"], optional = true }
+boringssl = "0.0.5"
 
 [features]
 default = []

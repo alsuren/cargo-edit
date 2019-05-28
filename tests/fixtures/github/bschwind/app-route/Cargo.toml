@@ -1,6 +1,0 @@
-[workspace]
-
-members = [
-    "app_route",
-    "app_route_derive",
-]

@@ -10,3 +10,4 @@ keywords = ["expression", "term"]
 
 [dependencies]
 asexp = "0.3.1"
+boringssl = "0.0.5"

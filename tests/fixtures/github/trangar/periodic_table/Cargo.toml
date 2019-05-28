@@ -9,3 +9,4 @@ repository = "https://github.com/trangar/periodic_table"
 
 [dependencies]
 csv = "0.15.0"
+boringssl = "0.0.5"

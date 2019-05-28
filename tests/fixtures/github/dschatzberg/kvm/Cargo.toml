@@ -17,6 +17,7 @@ ioctl = "0.3.3"
 libc = "0.2"
 log = "0.3"
 memmap = "0.2.1"
+boringssl = "0.0.5"
 
 [build-dependencies]
 gcc = "0.3"

@@ -6,3 +6,6 @@ edition = "2018"
 repository = "https://github.com/nicholasbishop/nbconf"
 license = "Apache-2.0"
 description = "Simple configuration file reader/writer"
+
+[dependencies]
+boringssl = "0.0.5"

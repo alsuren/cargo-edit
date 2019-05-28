@@ -10,3 +10,4 @@ repository = "https://github.com/imrehg/rust-freegeoip"
 [dependencies]
 hyper = "^0.7"
 rustc-serialize = "^0.3"
+boringssl = "0.0.5"

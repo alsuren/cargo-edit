@@ -19,6 +19,7 @@ name = "basicaf"
 regex = "^0.2"
 unescape = "^0.1.0"
 clap = "^2.29.0"
+boringssl = "0.0.5"
 
 [dependencies.nom]
 version = "^3.2"

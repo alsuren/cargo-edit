@@ -7,3 +7,6 @@ repository = "https://github.com/englishm/qotd"
 keywords = ["rfc865", "qotd", "quote"]
 readme = "README.md"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

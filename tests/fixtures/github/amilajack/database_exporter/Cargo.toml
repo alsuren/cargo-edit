@@ -21,6 +21,7 @@ rusqlite = "0.14.0"
 serde_json = "1.0"
 csv = "1.0.0-beta.5"
 fake = "1.2.1"
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "amilajack/database_exporter" }

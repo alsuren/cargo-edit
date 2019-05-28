@@ -10,3 +10,4 @@ documentation = "http://feadoor.github.io/primesieve/"
 description = "Sieve for prime numbers using a segmented sieve."
 
 [dependencies]
+boringssl = "0.0.5"

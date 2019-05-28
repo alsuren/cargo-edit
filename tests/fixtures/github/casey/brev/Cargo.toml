@@ -9,3 +9,4 @@ repository  = "https://github.com/casey/brev"
 [dependencies]
 glob    = "0.3"
 tempdir = "0.3"
+boringssl = "0.0.5"

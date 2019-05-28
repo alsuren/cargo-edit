@@ -9,6 +9,7 @@ license = "GPL-3.0"
 
 [dependencies]
 libc="0.2"
+boringssl = "0.0.5"
 
 [dependencies.guile-sys]
 path = "guile-sys"

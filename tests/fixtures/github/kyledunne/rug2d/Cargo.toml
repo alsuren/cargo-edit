@@ -13,6 +13,7 @@ maintenance = { status = "experimental" }
 [dependencies]
 gl = "0.10.0"
 glm = "0.2.3"
+boringssl = "0.0.5"
 
 [dependencies.sdl2]
     version = "0.31"

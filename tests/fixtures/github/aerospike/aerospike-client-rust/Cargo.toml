@@ -33,6 +33,7 @@ pwhash = "0.1"
 lazy_static = "^1.0"
 error-chain = "^0.12"
 parking_lot = "^0.6"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "^0.5"

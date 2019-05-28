@@ -9,3 +9,4 @@ license = "MIT"
 license-file = "LICENSE.txt"
 
 [dependencies]
+boringssl = "0.0.5"

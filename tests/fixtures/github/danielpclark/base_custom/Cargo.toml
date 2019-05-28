@@ -13,3 +13,6 @@ categories = ["cryptography", "data-structures"]
 
 [badges]
 travis-ci = { repository = "danielpclark/base_custom", branch = "master" }
+
+[dependencies]
+boringssl = "0.0.5"

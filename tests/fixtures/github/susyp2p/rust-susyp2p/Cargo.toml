@@ -37,6 +37,7 @@ smallvec = "0.6"
 tokio-codec = "0.1"
 tokio-executor = "0.1"
 tokio-io = "0.1"
+boringssl = "0.0.5"
 
 [target.'cfg(not(any(target_os = "emscripten", target_os = "unknown")))'.dependencies]
 susyp2p-dns = { version = "0.7.0", path = "./transports/dns" }

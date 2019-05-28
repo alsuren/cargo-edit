@@ -12,6 +12,9 @@ description = """
 Thin wrapper for Android Looper.
 """
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.android_looper-sys]
 version = "0.3"
 

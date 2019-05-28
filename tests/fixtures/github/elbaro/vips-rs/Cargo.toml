@@ -10,12 +10,13 @@ readme = "README.md"
 categories = ["multimedia::images"]
 license = "MIT"
 
+[package.metadata.docs.rs]
+features = [ "docs" ]
+
 [dependencies]
 vips-sys = "0.1.2"
 lazy_static = "1.0.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 compiletest_rs = "0.3.11"
-
-[package.metadata.docs.rs]
-features = [ "docs" ]

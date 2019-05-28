@@ -22,3 +22,4 @@ repository = "https://github.com/YellowInnovation/mold"
 
 [dependencies]
 parking_lot = "0.7.1"
+boringssl = "0.0.5"

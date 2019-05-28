@@ -12,6 +12,11 @@ readme = "README.md"
 keywords = ["noise", "protocol", "crypto"]
 edition = "2018"
 
+[package.metadata.docs.rs]
+features = [ "ring-resolver", "hacl-star-resolver" ]
+all-features = false
+no-default-features = false
+
 # This is slightly mumbo-jumboey, but in short:
 # Features with a -resolver suffix simply enables the existence of a specific resolver,
 # and -accelerated suffix means that this resolver will be the default used by the Builder.
@@ -53,6 +58,7 @@ ring = { version = "0.14", optional = true }
 
 # hacl-star crypto provider
 hacl-star = { version = "0.0.14", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "2"
@@ -65,9 +71,4 @@ lazy_static = "1.3"
 
 [build-dependencies]
 rustc_version = "0.2"
-
-[package.metadata.docs.rs]
-features = [ "ring-resolver", "hacl-star-resolver" ]
-all-features = false
-no-default-features = false
 

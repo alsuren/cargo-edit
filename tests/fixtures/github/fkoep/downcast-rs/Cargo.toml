@@ -15,3 +15,6 @@ categories = ["no-std", "rust-patterns"]
 default = ["std"]
 nightly = []
 std = []
+
+[dependencies]
+boringssl = "0.0.5"

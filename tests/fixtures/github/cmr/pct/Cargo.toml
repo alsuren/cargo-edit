@@ -8,3 +8,4 @@ description = "Parser Construction Toolkit"
 
 [dependencies]
 typemap = "*"
+boringssl = "0.0.5"

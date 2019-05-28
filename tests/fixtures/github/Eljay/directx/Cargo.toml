@@ -17,6 +17,7 @@ kernel32-sys = { version = "*", optional = true }
 libc = "*"
 user32-sys = { version = "*", optional = true }
 winapi = "*"
+boringssl = "0.0.5"
 
 [features]
 default = ["window"]

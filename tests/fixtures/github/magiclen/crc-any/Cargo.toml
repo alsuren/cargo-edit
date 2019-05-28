@@ -15,6 +15,7 @@ travis-ci = { repository = "magiclen/crc-any", branch = "master" }
 appveyor = { repository = "magiclen/crc-any", branch = "master", service = "github" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2.5"

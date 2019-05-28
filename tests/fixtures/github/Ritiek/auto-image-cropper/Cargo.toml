@@ -13,6 +13,7 @@ license = "MIT"
 image = "0.13"
 clap = "2.24"
 rayon = "0.7"
+boringssl = "0.0.5"
 
 [[bin]]
 name = "autocrop"

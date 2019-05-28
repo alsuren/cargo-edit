@@ -13,3 +13,4 @@ version = "0.1.0-alpha.1"
 
 [dependencies]
 microamp-macros = { version = "0.1.0-alpha.1", path = "macros" }
+boringssl = "0.0.5"

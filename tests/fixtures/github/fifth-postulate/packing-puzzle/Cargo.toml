@@ -16,3 +16,4 @@ coveralls = { repository = "fifth-postulate/packing-puzzle", branch = "master", 
 
 [dependencies]
 dlx = "0.1.0"
+boringssl = "0.0.5"

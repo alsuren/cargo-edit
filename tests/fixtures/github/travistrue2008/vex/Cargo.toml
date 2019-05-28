@@ -7,3 +7,4 @@ authors = ["Travis J True <travis@truesoftent.com>"]
 description = "3D math library"
 
 [dependencies]
+boringssl = "0.0.5"

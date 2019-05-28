@@ -19,5 +19,6 @@ serde_json = "1"
 xdg = "2"
 
 chrono = { version = "0.4", features = ["serde"]}
+boringssl = "0.0.5"
 
 

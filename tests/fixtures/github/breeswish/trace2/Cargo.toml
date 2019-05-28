@@ -13,6 +13,7 @@ members = [
 
 [dependencies]
 trace2_macro = { path = "./trace2_macro", version = "0.1" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 log = "0.4"

@@ -13,6 +13,7 @@ license = "MIT OR Apache-2.0"
 proc-macro2 = "0.4.27"
 quote = "0.6.11"
 syn = { version = "0.15.29", features = ["extra-traits", "visit"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 pretty_assertions = "0.6.1"

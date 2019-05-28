@@ -16,3 +16,6 @@ homepage = "https://github.com/pistondevelopers/read_color"
 
 name = "read_color"
 path = "src/lib.rs"
+
+[dependencies]
+boringssl = "0.0.5"

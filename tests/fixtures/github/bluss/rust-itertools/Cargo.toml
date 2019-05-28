@@ -13,12 +13,16 @@ keywords = ["iterator", "data-structure", "zip", "product", "group-by"]
 categories = ["algorithms", "rust-patterns"]
 exclude = ["/bors.toml"]
 
+[package.metadata.release]
+no-dev-version = true
+
 [lib]
 bench = false
 test = false
 
 [dependencies]
 either = { version = "1.0", default-features = false }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.6"
@@ -36,6 +40,3 @@ use_std = []
 
 [profile]
 bench = { debug = true }
-
-[package.metadata.release]
-no-dev-version = true

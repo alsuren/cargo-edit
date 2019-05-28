@@ -14,6 +14,7 @@ rvs-parser = { version = "0.4", path = "parser" }
 rand = "0.6"
 rand_pcg = "0.1"
 linked-hash-map = "0.5"
+boringssl = "0.0.5"
 
 [workspace]
 members = ["parser", "c-api", "repl"]

@@ -13,3 +13,4 @@ crate-type = ["staticlib"]
 
 [dependencies]
 libc = "*"
+boringssl = "0.0.5"

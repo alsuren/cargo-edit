@@ -14,6 +14,7 @@ clap = { version = "2.33.0", features = ["yaml"] }   # CLI arguments
 base64 = "0.10.1"           # base64
 openssl = "0.10.20"         # RSA
 reqwest = "0.9.15"          # HTTPS client
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

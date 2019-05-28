@@ -16,6 +16,7 @@ itertools = "0.7.8"
 unicode-width = "^0.1.5"
 
 termion = { version = "^1.5.1", optional = true }
+boringssl = "0.0.5"
 
 [features]
 default = ["use-termion"]

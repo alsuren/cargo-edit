@@ -1,4 +1,0 @@
-[workspace]
-members = [
-	"mockers", "mockers_derive", "examples/air_proc_macro",
-]

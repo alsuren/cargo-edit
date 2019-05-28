@@ -25,3 +25,4 @@ unicode-normalization = "^0.1.7"
 
 ron = "^0.4.0"
 serde = "^1.0.71"
+boringssl = "0.0.5"

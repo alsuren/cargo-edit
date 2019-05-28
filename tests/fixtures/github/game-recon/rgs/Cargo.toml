@@ -44,3 +44,4 @@ serde_json = "*"
 tokio = "0.1"
 tokio-dns-unofficial = "*"
 tokio-ping = { git = "https://github.com/knsd/tokio-ping" }
+boringssl = "0.0.5"

@@ -18,3 +18,4 @@ path = "src/main.rs"
 [dependencies]
 getopts = "0.2.14"
 libc = "0.2.12"
+boringssl = "0.0.5"

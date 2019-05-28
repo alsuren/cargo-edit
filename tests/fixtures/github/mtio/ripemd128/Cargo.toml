@@ -15,6 +15,7 @@ edition = "2018"
 digest = "0.8"
 block-buffer = "0.7"
 opaque-debug = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 digest = { version = "0.8", features = ["dev"] }

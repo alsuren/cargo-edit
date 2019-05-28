@@ -9,6 +9,9 @@ keywords    = ["hash", "digest", "signatures", "Merkle", "blockchain"]
 license     = "Apache-2.0"
 authors     = ["Tony Arcieri <bascule@gmail.com>"]
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.unicode-normalization]
 version = ">= 0.1.2"
 

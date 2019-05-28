@@ -11,12 +11,15 @@ documentation = "https://edef1c.github.io/libfringe"
 [target.'cfg(unix)'.dependencies]
 libc = "0.2.14"
 
+[target.'cfg(unix)'.dev-dependencies]
+simd = "0.1"
+
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.valgrind_request]
 optional = true
 version = "1.0.0"
-
-[target.'cfg(unix)'.dev-dependencies]
-simd = "0.1"
 
 [features]
 default = ["alloc", "valgrind"]

@@ -19,6 +19,7 @@ repository = "https://github.com/uwearzt/grideye"
 embedded-hal = "0.2.1"
 bit_field = "0.10.0"
 libm = "0.1.2"
+boringssl = "0.0.5"
 
 # ------------------------------------------------------------------------------
 # build  example stm32.rs

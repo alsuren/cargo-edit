@@ -11,3 +11,4 @@ documentation = "https://skasselbard.github.io/rustpiIO/"
 
 [dependencies]
 spidev = "0.3.0"
+boringssl = "0.0.5"

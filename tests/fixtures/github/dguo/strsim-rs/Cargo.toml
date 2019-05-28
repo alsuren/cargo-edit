@@ -16,3 +16,6 @@ exclude = ["/.travis.yml", "/dev"]
 
 [badges]
 travis-ci = { repository = "dguo/strsim-rs" }
+
+[dependencies]
+boringssl = "0.0.5"

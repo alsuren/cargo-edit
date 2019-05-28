@@ -6,3 +6,6 @@ repository = "https://github.com/huangjj27/enter"
 description = "The only thing the crate doing is to privide constant CR, LF, CRLF and ENTER."
 license = "MIT/Apache-2.0"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -12,6 +12,7 @@ categories = ["rust-patterns", "memory-management"]
 
 [dependencies]
 stable_deref_trait = "1.1"
+boringssl = "0.0.5"
 
 [badges]
 is-it-maintained-open-issues = { repository = "diwic/reffers-rs" }

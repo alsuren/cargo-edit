@@ -12,6 +12,7 @@ documentation = "http://ryman.github.io/nickel-mustache"
 nickel = "^0.7.1"
 mustache = "0.6"
 rustc-serialize = "0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 hyper = "0.6"

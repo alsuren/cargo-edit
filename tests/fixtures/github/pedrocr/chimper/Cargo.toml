@@ -12,6 +12,7 @@ categories = ["multimedia::images"]
 image = "0.19"
 rand = "0.5"
 crossbeam-utils = "0.5"
+boringssl = "0.0.5"
 
 [dependencies.conrod]
 version = "0.61"

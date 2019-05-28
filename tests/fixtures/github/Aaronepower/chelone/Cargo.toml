@@ -15,6 +15,7 @@ url = "1"
 itertools = "0.8"
 petgraph = "0.4"
 unwrap_to = "0.1"
+boringssl = "0.0.5"
 
 [workspace]
 members = ["chelone-test"]

@@ -12,3 +12,4 @@ license = "Apache-2.0"
 license-file = "LICENSE"
 repository = "https://github.com/sntdevco/all_asserts"
 [dependencies]
+boringssl = "0.0.5"

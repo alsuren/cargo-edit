@@ -6,3 +6,6 @@ description = "A compile time instruction assembler."
 repository = "https://github.com/ioncodes/sam"
 license = "MIT"
 build = "build.rs"
+
+[dependencies]
+boringssl = "0.0.5"

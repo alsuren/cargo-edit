@@ -13,3 +13,4 @@ readme = "README.md"
 keywords = ["algorithms", "search", "math", "data", "sort"]
 
 [dependencies]
+boringssl = "0.0.5"

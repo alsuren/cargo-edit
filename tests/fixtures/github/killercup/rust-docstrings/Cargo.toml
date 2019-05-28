@@ -20,6 +20,7 @@ travis-ci = { repository = "killercup/rust-docstrings", branch = "master" }
 # Optional because rustc ships it and one might want to use that one.
 pulldown-cmark = { version = "0.0.14", optional = true }
 quick-error = "1.1.0"
+boringssl = "0.0.5"
 
 [features]
 default = ["pulldown-cmark"]

@@ -24,6 +24,7 @@ log = "0.4.6"
 serde = "1.0.80"
 quick-xml = "0.14"
 zip = { version = "0.5.0", default-features = false, features = ["deflate"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 glob = "0.3"

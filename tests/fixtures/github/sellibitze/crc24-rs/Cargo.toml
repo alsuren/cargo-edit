@@ -10,3 +10,6 @@ documentation = "http://rust-ci.org/sellibitze/crc24-rs/doc/crc24/"
 description = "CRC-24 implementation (IETF RFC2440-compatible)"
 keywords = ["CRC-24", "CRC24", "CRC", "checksum", "hash"]
 build = "src/tablegen.rs"
+
+[dependencies]
+boringssl = "0.0.5"

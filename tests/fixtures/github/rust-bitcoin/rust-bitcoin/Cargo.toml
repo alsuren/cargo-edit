@@ -26,9 +26,7 @@ byteorder = "1.2"
 rand = "0.3"
 bitcoin_hashes = "0.3"
 bitcoinconsensus = { version = "0.16", optional = true }
-
-[dev-dependencies]
-tempfile = "3"
+boringssl = "0.0.5"
 
 [dependencies.serde]
 version = "1"
@@ -49,3 +47,6 @@ version = "=0.3.2"
 [dependencies.secp256k1]
 version = "0.12"
 features = [ "rand" ]
+
+[dev-dependencies]
+tempfile = "3"

@@ -10,3 +10,4 @@ appveyor = { repository = "https://github.com/eightfingerd/bitset", branch = "ma
 license = "MIT/Apache-2.0"
 
 [dependencies]
+boringssl = "0.0.5"

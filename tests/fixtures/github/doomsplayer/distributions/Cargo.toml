@@ -31,3 +31,4 @@ test = true
 
 [dependencies]
 GSL = "~0.4.11"
+boringssl = "0.0.5"

@@ -31,3 +31,4 @@ synstructure = { version = "0.10", optional = true }
 syn = "0.15"
 quote = "0.6"
 proc-macro2 = "0.4"
+boringssl = "0.0.5"

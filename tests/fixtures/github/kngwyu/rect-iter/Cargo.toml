@@ -9,9 +9,13 @@ readme = "README.md"
 keywords = ["geometry", "utility", "iterator"]
 description = "Iterator for 2D rectangle areas"
 
+[package.metadata.docs.rs]
+features = ["euclid", "ndarray", "image", "serde"]
+
 [dependencies]
 num-traits = "0.2"
 tuple-map = "0.3.0"
+boringssl = "0.0.5"
 
 [dependencies.euclid]
 version = ">= 0.19"
@@ -32,6 +36,3 @@ optional = true
 
 [features]
 default = ["euclid"]
-
-[package.metadata.docs.rs]
-features = ["euclid", "ndarray", "image", "serde"]

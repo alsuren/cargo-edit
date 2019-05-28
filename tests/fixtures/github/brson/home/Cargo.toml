@@ -11,3 +11,6 @@ license = "MIT/Apache-2.0"
 scopeguard = "0.3"
 winapi = { version = "0.3", features = ["errhandlingapi", "handleapi", "processthreadsapi", "std", "winerror", "winnt", "userenv"] }
 
+[dependencies]
+boringssl = "0.0.5"
+

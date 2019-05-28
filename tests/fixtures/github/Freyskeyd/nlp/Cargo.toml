@@ -13,4 +13,5 @@ exclude = [
 [dependencies]
 itertools = "0.4.3"
 clippy = { version = "0.0.35", optional = true }
+boringssl = "0.0.5"
 

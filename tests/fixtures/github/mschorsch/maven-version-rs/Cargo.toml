@@ -13,3 +13,4 @@ license = "MIT"
 name = "maven_version"
 
 [dependencies]
+boringssl = "0.0.5"

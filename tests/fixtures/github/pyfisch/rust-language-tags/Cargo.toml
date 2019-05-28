@@ -22,3 +22,6 @@ bencher = "0.1"
 [[bench]]
 name = "language_tag"
 harness = false
+
+[dependencies]
+boringssl = "0.0.5"

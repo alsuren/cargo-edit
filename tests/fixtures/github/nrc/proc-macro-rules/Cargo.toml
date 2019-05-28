@@ -13,6 +13,7 @@ proc-macro-rules-macros = "0.2.0"
 proc-macro2 = "0.4.21"
 proc-macro-hack = "0.5"
 syn = { version = "0.15.0", features = ["full", "extra-traits"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 quote = "0.6"

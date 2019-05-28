@@ -15,6 +15,7 @@ license = "MIT"
 uninitialized = { version = "^0.0.2", optional = true }
 byteorder = "^0.5.3"
 pod = "^0.5.0"
+boringssl = "0.0.5"
 
 [features]
 default = ["uninitialized"]

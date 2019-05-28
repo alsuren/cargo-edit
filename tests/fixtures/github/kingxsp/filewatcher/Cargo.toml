@@ -7,3 +7,4 @@ description = "File Watcher Library"
 repository = "https://github.com/kingxsp/filewatcher"
 
 [dependencies]
+boringssl = "0.0.5"

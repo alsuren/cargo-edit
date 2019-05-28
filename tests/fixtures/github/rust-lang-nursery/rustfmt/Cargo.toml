@@ -65,6 +65,7 @@ config_proc_macro = { path = "config_proc_macro" }
 # See the `src/tools/rustc-workspace-hack/README.md` file in `rust-lang/rust`
 # for more information.
 rustc-workspace-hack = "1.0.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lazy_static = "1.0.0"

@@ -10,3 +10,6 @@ repository = "https://github.com/FranklinChen/rust-tau"
 readme = "README.md"
 keywords = ["math", "tau", "pi"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

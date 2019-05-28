@@ -9,3 +9,6 @@ repository = "https://github.com/michaelsproul/postgres-alloc-rs"
 
 [lib]
 crate-type = ["rlib"]
+
+[dependencies]
+boringssl = "0.0.5"

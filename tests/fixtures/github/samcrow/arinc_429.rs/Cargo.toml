@@ -15,6 +15,7 @@ categories = ["no-std"]
 
 [dependencies]
 serde = { version = "^1.0.0", optional = true, features = ["derive"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_test = "^1.0.0"

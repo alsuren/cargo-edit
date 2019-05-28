@@ -21,3 +21,4 @@ embedded-hal = "0.2.2"
 # ------------------------------------------------------------------------------
 # build example raspberrypi.rs
 linux-embedded-hal = "0.2.2"
+boringssl = "0.0.5"

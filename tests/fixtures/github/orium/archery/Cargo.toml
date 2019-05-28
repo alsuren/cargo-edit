@@ -40,6 +40,7 @@ codecov = { repository = "orium/archery", branch = "master", service = "github" 
 
 [dependencies]
 static_assertions = "0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2"

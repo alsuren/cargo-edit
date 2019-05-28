@@ -12,3 +12,4 @@ license = "GPL-3.0+"
 [dependencies]
 libc = "0.2.40"
 libfuzzy-sys = { path = "libfuzzy-sys", version = "0.2.0" }
+boringssl = "0.0.5"

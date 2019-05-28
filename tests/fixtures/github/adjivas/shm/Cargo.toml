@@ -8,3 +8,6 @@ documentation = "http://adjivas.github.io/shm/shm"
 repository = "https://github.com/adjivas/shm"
 readme = "README.md"
 keywords = ["XSI", "shared", "memory", "segment"]
+
+[dependencies]
+boringssl = "0.0.5"

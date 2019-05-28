@@ -10,6 +10,7 @@ homepage = "https://bianco-royal.cloud/"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "BiancoRoyal/bacnet-rust" }

@@ -11,3 +11,4 @@ keywords = ["union-find", "quick-union", "quick-find", "weighted-quick-union"]
 categories = ["algorithms", "data-structures"]
 
 [dependencies]
+boringssl = "0.0.5"

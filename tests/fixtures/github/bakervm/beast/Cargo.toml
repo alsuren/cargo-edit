@@ -29,6 +29,7 @@ failure = "^0.1"
 flate2 = "1"
 rmp-serde = "^0.13"
 structopt = "^0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assert_cmd = "^0.10"

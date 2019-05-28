@@ -12,6 +12,7 @@ members =  [
 [dependencies]
 mysql = "^15"
 mysql_enum_derive = { path = "derive", version = "0.1.0" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 strum = "0.14"

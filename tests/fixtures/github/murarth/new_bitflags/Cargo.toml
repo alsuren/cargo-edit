@@ -12,3 +12,6 @@ keywords = ["bitflags"]
 license = "MIT/Apache-2.0"
 readme = "README.md"
 authors = ["Murarth <murarth@gmail.com>"]
+
+[dependencies]
+boringssl = "0.0.5"

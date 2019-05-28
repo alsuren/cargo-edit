@@ -12,6 +12,7 @@ license = "MIT"
 gfx = "0.17"
 gfx_core = "0.8"
 failure = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 piston_window = "0.77"

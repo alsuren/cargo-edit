@@ -13,6 +13,9 @@ keywords = ["alloc", "no_std"]
 categories = ["rust-patterns", "no-std"]
 exclude = ["/.travis.yml"]
 
+[package.metadata.docs.rs]
+features = ["alloc"]
+
 [workspace]
 members = ["examples/other-way", "examples/alloc-shim"]
 
@@ -26,5 +29,5 @@ name = "alloc"
 std = []
 alloc = []
 
-[package.metadata.docs.rs]
-features = ["alloc"]
+[dependencies]
+boringssl = "0.0.5"

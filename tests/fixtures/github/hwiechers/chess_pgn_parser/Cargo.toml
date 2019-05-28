@@ -19,3 +19,4 @@ authors = ["Henri Wiechers <henri@wiechers.me>"]
 peggler="*"
 enum_primitive = "*"
 num = "*"
+boringssl = "0.0.5"

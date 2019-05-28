@@ -12,3 +12,4 @@ name = "cargo-docker"
 
 [dependencies]
 clap = "2.23.3"
+boringssl = "0.0.5"

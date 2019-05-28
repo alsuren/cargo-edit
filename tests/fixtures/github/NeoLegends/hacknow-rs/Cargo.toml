@@ -19,6 +19,7 @@ categories = [
 [dependencies]
 clap = "2.26.2"
 emojicons = "1.0.1"
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

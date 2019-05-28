@@ -10,6 +10,7 @@ include = ["Cargo.toml", "LICENSE", "README.md", "build.rs", "src/lib.rs", "src/
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"
 
 [build-dependencies]
 gcc = "0.3"

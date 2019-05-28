@@ -17,6 +17,7 @@ readme = "README.md"
 [dependencies]
 traverse = "*"
 linked-list = "*"
+boringssl = "0.0.5"
 
 [features]
 nightly = []

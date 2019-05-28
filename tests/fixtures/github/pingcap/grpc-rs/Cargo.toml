@@ -24,6 +24,7 @@ protobuf = { version = "2.0", optional = true }
 prost = { version = "0.5", optional = true }
 bytes = { version = "0.4.11", optional = true }
 log = "0.4"
+boringssl = "0.0.5"
 
 [workspace]
 members = ["proto", "benchmark", "compiler", "interop"]

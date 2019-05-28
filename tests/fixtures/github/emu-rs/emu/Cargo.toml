@@ -10,3 +10,4 @@ license = "BSD-2-Clause"
 
 [dependencies]
 emu-audio = "0.1.2"
+boringssl = "0.0.5"

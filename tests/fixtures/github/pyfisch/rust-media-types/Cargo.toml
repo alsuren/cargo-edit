@@ -12,6 +12,7 @@ keywords = ["mime", "media", "files", "http", "media-types"]
 [dependencies]
 charsets = "0.1.1"
 clippy = {version = "0.0.33", optional = true}
+boringssl = "0.0.5"
 
 [features]
 default = []

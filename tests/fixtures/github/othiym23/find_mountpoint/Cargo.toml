@@ -14,3 +14,6 @@ version = "1.0.3"
 
 [target."cfg(target_os = \"macos\")".dependencies]
 libc = "0.2.22"
+
+[dependencies]
+boringssl = "0.0.5"

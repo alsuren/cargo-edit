@@ -17,3 +17,4 @@ A crate for the creation of unique IDs.
 gitlab = { repository = "d-e-s-o/uid", branch = "master" }
 
 [dependencies]
+boringssl = "0.0.5"

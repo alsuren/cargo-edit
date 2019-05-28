@@ -15,6 +15,7 @@ data structure easier.
 """
 
 [dependencies]
+boringssl = "0.0.5"
 # clippy = { version = "0.0.67", optional = true }
 
 [features]

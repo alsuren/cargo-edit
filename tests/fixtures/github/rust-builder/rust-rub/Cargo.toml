@@ -17,6 +17,7 @@ time = "*"
 [dependencies]
 docopt = "*"
 rustc-serialize = "*"
+boringssl = "0.0.5"
 
 [dependencies.buildable]
 git = "https://github.com/rust-builder/buildable.git"

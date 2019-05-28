@@ -15,6 +15,7 @@ name = "prusst"
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 crossbeam = "0.3"

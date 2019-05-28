@@ -11,6 +11,9 @@ documentation = "https://docs.rs/chttp/"
 readme = "README.md"
 edition = "2018"
 
+[package.metadata.docs.rs]
+all-features = true
+
 [badges.maintenance]
 status = "actively-developed"
 
@@ -33,6 +36,7 @@ log = "0.4"
 regex = "1.1"
 slab = "0.4"
 withers_derive = "0.2"
+boringssl = "0.0.5"
 
 [dependencies.chrono]
 version = "0.4"
@@ -53,9 +57,6 @@ nix = "0.13"
 env_logger = "0.6"
 rayon = "1"
 rouille = "3.0"
-
-[package.metadata.docs.rs]
-all-features = true
 
 [[example]]
 name = "async"

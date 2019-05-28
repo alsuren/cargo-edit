@@ -16,3 +16,4 @@ path = "src/lib.rs"
 
 [dependencies]
 byteorder = "0.3.11"
+boringssl = "0.0.5"

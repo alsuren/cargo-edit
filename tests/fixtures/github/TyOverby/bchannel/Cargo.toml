@@ -9,3 +9,6 @@ documentation = "http://tyoverby.com/bchannel/bchannel/"
 keywords = ["channel", "bchannel"]
 license = "MIT"
 description = "A better channel API"
+
+[dependencies]
+boringssl = "0.0.5"

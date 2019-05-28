@@ -10,3 +10,6 @@ homepage = "https://github.com/dpc/rclist-rs"
 readme = "README.md"
 keywords = ["data-structure", "list", "log", "permanent", "reference-counted"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

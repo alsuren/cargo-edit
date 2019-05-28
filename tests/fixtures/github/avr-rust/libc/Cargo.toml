@@ -18,3 +18,6 @@ keywords = ["avr", "libc", "arduino", "avr-gcc"]
 bindgen = "0.31"
 avr-mcu = "0.2"
 lazy_static = "0.2"
+
+[dependencies]
+boringssl = "0.0.5"

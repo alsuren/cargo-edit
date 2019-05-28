@@ -42,3 +42,4 @@ tokio-io = { version = "0.1", optional = true }
 tokio-codec = { version = "0.1", optional = true }
 tokio-core = { version = "0.1", optional = true }
 image = { version = "0.21", optional = true }
+boringssl = "0.0.5"

@@ -14,5 +14,8 @@ homepage = "https://github.com/PistonDevelopers/button_tracker"
 name = "button_tracker"
 path = "src/lib.rs"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.pistoncore-input]
 version = "0.24.0"

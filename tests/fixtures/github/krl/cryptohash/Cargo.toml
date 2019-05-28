@@ -10,3 +10,4 @@ version = "3.0.0"
 [dependencies]
 blake2-rfc = "0.2.17"
 byteorder = "1.2.4"
+boringssl = "0.0.5"

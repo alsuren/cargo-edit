@@ -41,6 +41,7 @@ dirs = "1.0"
 json = "0.11"
 toml = "0.4"
 url = "1.7"
+boringssl = "0.0.5"
 
 [dependencies.semver]
 version = "0.9"

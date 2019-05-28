@@ -17,6 +17,7 @@ path = "lib.rs"
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"
 
 [build-dependencies]
 pkg-config = "0.3.2"

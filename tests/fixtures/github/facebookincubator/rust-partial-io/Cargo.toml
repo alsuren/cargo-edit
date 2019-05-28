@@ -14,10 +14,14 @@ exclude = [
   "**/*.bk",
 ]
 
+[package.metadata.docs.rs]
+features = ["tokio", "quickcheck"]
+
 [dependencies]
 futures = { version = "0.1", optional = true }
 quickcheck = { version = "0.6", optional = true }
 tokio-io = { version = "0.1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lazy_static = "1"
@@ -33,6 +37,3 @@ tokio = ["tokio-io", "futures"]
 
 [badges]
 travis-ci = { repository = "facebookincubator/rust-partial-io" }
-
-[package.metadata.docs.rs]
-features = ["tokio", "quickcheck"]

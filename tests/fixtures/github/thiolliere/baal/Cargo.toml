@@ -11,3 +11,4 @@ keywords = ["audio","simple","game","basic","sound"]
 
 [dependencies]
 rodio = { git = "https://github.com/tomaka/rodio" }
+boringssl = "0.0.5"

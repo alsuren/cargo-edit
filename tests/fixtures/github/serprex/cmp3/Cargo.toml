@@ -5,3 +5,6 @@ authors = ["serprex"]
 repository = "https://github.com/serprex/cmp3"
 description = "Macro to chain comparisons"
 license = "MIT/Apache-2.0"
+
+[dependencies]
+boringssl = "0.0.5"

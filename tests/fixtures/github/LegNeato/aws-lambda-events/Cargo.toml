@@ -1,5 +1,0 @@
-[workspace]
-members = [
-  "aws_lambda_events",
-  "aws_lambda_events_codegen",
-]

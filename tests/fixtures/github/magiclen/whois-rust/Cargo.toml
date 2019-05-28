@@ -19,6 +19,7 @@ serde_json = "1.0"
 regex = "1.0"
 lazy_static = "1.1.0"
 idna = "0.1.5"
+boringssl = "0.0.5"
 
 [dependencies.validators]
 version = ">=0.19,<0.21"

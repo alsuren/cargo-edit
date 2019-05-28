@@ -9,3 +9,4 @@ license = "Apache-2.0"
 description = "get info from any range struct."
 readme = "README.MD"
 [dependencies]
+boringssl = "0.0.5"

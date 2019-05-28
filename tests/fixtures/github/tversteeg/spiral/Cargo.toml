@@ -17,3 +17,4 @@ categories = ["algorithms", "game-engines"]
 travis-ci = {repository = "tversteeg/spiral"}
 
 [dependencies]
+boringssl = "0.0.5"

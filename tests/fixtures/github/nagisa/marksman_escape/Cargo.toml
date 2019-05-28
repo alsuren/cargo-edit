@@ -9,3 +9,6 @@ license = "ISC"
 
 repository = "https://github.com/nagisa/marksman_escape/"
 documentation = "https://nagisa.github.io/marksman_escape/"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -30,3 +30,4 @@ log = "0.3"
 rust-crypto = "0.2"
 rand = "0.3"
 typemap = { version = "0.3", optional = true }
+boringssl = "0.0.5"

@@ -19,14 +19,11 @@ include = [
 default = []
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dependencies.num-bigint]
 version = "0.2"
 optional = true
-
-[dev-dependencies.num-traits]
-version = "0.2"
-default-features = false
 
 [dependencies.bit-vec]
 version = "0.5"
@@ -35,3 +32,7 @@ optional = true
 [dependencies.chrono]
 version = "0.4"
 optional = true
+
+[dev-dependencies.num-traits]
+version = "0.2"
+default-features = false

@@ -21,3 +21,6 @@ tempfile = "3.0.5"
 
 [lib]
 name = "stripper_lib"
+
+[dependencies]
+boringssl = "0.0.5"

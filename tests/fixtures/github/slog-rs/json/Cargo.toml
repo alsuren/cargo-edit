@@ -10,6 +10,9 @@ homepage = "https://github.com/slog-rs/slog"
 repository = "https://github.com/slog-rs/json"
 readme = "README.md"
 
+[package.metadata.docs.rs]
+features = ["nested-values", "dynamic-keys"]
+
 [lib]
 path = "lib.rs"
 
@@ -24,9 +27,7 @@ serde_json = "1"
 serde = "1"
 chrono = "0.4"
 erased-serde = {version = "0.3", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 slog-async = "2"
-
-[package.metadata.docs.rs]
-features = ["nested-values", "dynamic-keys"]

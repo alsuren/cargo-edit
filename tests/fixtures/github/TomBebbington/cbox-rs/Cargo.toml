@@ -14,3 +14,4 @@ version = "0.3.0"
 [dependencies]
 
 libc = "*"
+boringssl = "0.0.5"

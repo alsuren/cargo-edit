@@ -27,6 +27,7 @@ travis-ci = { repository = "taiki-e/auto_enums" }
 [dependencies]
 auto_enums_core = { version = "0.5.7", path = "core", default-features = false }
 auto_enums_derive = { version = "0.5.7", path = "derive", default-features = false }
+boringssl = "0.0.5"
 
 [features]
 # Default features.

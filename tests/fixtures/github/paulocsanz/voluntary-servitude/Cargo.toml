@@ -10,6 +10,10 @@ keywords = ["lock-free", "data-structure", "iterator", "vector", "thread-safe"]
 categories = ["concurrency", "data-structures"]
 edition = "2018"
 
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docs_rs_workaround"]
+all-features = true
+
 [lib]
 name = "voluntary_servitude"
 crate_type = ["lib"]
@@ -30,13 +34,10 @@ parking_lot = "0.7"
 log = { version = "0.4", optional = true }
 serde = { version = "1", features = ["derive"], optional = true }
 rayon = { version = "1", optional = true }
+boringssl = "0.0.5"
 
 [features]
 default = []
 logs = ["log"]
 rayon-traits = ["rayon"]
 serde-traits = ["serde"]
-
-[package.metadata.docs.rs]
-rustdoc-args = ["--cfg", "docs_rs_workaround"]
-all-features = true

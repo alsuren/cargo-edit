@@ -12,6 +12,7 @@ http-with-url = "0.2.0"
 httparse = "1.2.4"
 log = "0.4.1"
 native-tls = "0.1.5"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 ansi_term = "0.11.0"

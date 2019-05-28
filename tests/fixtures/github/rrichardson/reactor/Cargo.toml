@@ -13,6 +13,7 @@ log = "0.3.3"
 mio = "^0.5"
 tendril = "0.1.6"
 time = "0.1.33"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "*"

@@ -30,6 +30,7 @@ categories = ["gui", "multimedia", "rendering::graphics-api"]
 fonterator = { path = "../fonterator" } # "0.3"
 # Renderer
 footile = { path = "../footile" } # "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 png = "0.13"

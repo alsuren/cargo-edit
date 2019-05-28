@@ -19,3 +19,4 @@ proc_macro = true
 overflower_support = { version = "0.1.5", path = "support" }
 syn = { version = "0.15.18", features = ["extra-traits", "full", "fold", "parsing", "proc-macro"] }
 quote = "0.6.9"
+boringssl = "0.0.5"

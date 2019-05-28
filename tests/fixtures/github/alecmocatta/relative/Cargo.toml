@@ -26,6 +26,7 @@ serde = "1.0"
 uuid = {version = "0.7", features = ["serde"]}
 build_id = { version = "0.1" } #, path = "../build_id" }
 metatype = { version = "0.1.1" } #, path = "../metatype" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_derive = "1.0"

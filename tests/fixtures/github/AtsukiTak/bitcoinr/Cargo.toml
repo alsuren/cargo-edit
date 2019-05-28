@@ -7,6 +7,7 @@ authors = ["AtsukiTak <takatomgoo@gmail.com>"]
 bitcoinrs_net = { path = "bitcoinrs_net" }
 bitcoinrs_crypto = { path = "bitcoinrs_crypto" }
 bitcoinrs_bytes = { path = "bitcoinrs_bytes" }
+boringssl = "0.0.5"
 
 [workspace]
 members = ["bitcoinrs_net", "bitcoinrs_crypto", "bitcoinrs_bytes"]

@@ -29,3 +29,6 @@ appveyor = { repository = "DoumanAsh/clipboard-master"}
 [[bin]]
 name = "cp-master"
 path = "src/main.rs"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -9,3 +9,6 @@ repository  = "https://github.com/seankerr/rust-byte-slice"
 readme      = "README.md"
 keywords    = ["byte", "slice"]
 exclude     = [".gitignore"]
+
+[dependencies]
+boringssl = "0.0.5"

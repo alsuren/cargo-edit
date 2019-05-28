@@ -11,6 +11,7 @@ readme = "README.md"
 [dependencies]
 memory-pager = "0.8.0"
 failure = "0.1.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 proptest = "0.9.0"

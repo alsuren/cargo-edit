@@ -16,6 +16,7 @@ bytes = "0.4"
 log = "0.3"
 amqpr-codec = "0.2"
 amqpr-api = "0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "2.26"

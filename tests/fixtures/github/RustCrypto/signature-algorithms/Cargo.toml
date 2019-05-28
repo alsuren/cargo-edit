@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "ecdsa",
-    "ed25519",
-    "signature-crate",
-]

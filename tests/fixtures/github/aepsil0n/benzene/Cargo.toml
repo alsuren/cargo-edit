@@ -10,3 +10,4 @@ license = "LGPL-3.0+"
 
 [dependencies]
 carboxyl = "0.2"
+boringssl = "0.0.5"

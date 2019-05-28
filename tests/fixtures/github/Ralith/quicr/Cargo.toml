@@ -25,6 +25,7 @@ slog = { version = "2.2", features = ["max_level_trace", "release_max_level_debu
 arrayvec = "0.4.7"
 fnv = "1.0.6"
 openssl = "0.10.10"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 slog-term = "2"

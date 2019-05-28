@@ -6,3 +6,6 @@ authors = ["Cody P Schafer <dev@codyps.com>"]
 license = "MIT"
 repository = "https://github.com/jmesmon/rust-err"
 description = "A few macros & misc that make using rust's Error infrastructure more convenient"
+
+[dependencies]
+boringssl = "0.0.5"

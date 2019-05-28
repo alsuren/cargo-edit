@@ -7,3 +7,4 @@ description = "Convert i64 to a readable Chinese format. e.g. 12345 is converted
 repository = "https://github.com/guanqun/chinese-numbers"
 
 [dependencies]
+boringssl = "0.0.5"

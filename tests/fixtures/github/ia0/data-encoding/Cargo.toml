@@ -1,3 +1,0 @@
-[workspace]
-members = ["lib", "lib/macro/internal", "lib/macro", "bin", "cmp"]
-exclude = ["www"]

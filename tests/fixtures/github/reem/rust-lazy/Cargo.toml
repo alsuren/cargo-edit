@@ -11,6 +11,7 @@ license = "MIT"
 [dependencies]
 debug_unreachable = "*"
 oncemutex = "*"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 stainless = "*"

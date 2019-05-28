@@ -11,3 +11,6 @@ readme = "README.md"
 
 [badges]
 travis-ci = { repository = "naim94a/binascii-rs", branch = "master" }
+
+[dependencies]
+boringssl = "0.0.5"

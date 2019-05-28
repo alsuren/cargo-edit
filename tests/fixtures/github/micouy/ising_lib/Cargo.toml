@@ -16,6 +16,7 @@ travis-ci = { repository = "micouy/ising_lib" }
 [dependencies]
 ndarray = "^0.12"
 rand = "^0.6"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 pretty_assertions = "^0.6"

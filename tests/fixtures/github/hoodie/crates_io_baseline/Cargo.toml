@@ -9,3 +9,4 @@ documentation = "https://docs.rs/crates_io_baseline/"
 repository = "https://github.com/hoodie/crates_io_baseline"
 
 [dependencies]
+boringssl = "0.0.5"

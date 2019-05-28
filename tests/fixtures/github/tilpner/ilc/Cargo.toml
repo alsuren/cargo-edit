@@ -18,6 +18,7 @@ ilc-base = "~0.2"
 ilc-ops = "~0.1"
 ilc-format-weechat = "~0.2"
 ilc-format-energymech = "~0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 flate2 = "~0.2"

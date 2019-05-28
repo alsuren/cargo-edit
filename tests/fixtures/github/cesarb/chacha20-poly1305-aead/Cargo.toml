@@ -18,3 +18,4 @@ simd_asm = ["simd_opt"]
 [dependencies]
 constant_time_eq = "0.1.0"
 clippy = {version = "0.0.37", optional = true}
+boringssl = "0.0.5"

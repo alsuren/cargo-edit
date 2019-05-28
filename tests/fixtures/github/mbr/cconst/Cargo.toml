@@ -8,3 +8,4 @@ docs = "https://docs.rs/cconst"
 repository = "https://github.com/mbr/cconst"
 
 [dependencies]
+boringssl = "0.0.5"

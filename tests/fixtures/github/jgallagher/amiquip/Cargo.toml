@@ -30,6 +30,7 @@ crossbeam-channel = "0.3"
 indexmap = "1.0"
 url = "1.7"
 native-tls = { version = "0.2", optional = true }
+boringssl = "0.0.5"
 
 [build-dependencies]
 built = "0.3"

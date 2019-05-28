@@ -19,4 +19,5 @@ exclude = [".travis.yml"]
 glium = "0.14.0"
 shared_library = "0.1.4"
 libc = "0.2.10"
+boringssl = "0.0.5"
 

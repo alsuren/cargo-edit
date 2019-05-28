@@ -16,6 +16,7 @@ build = "build.rs"
 
 [dependencies]
 bitflags = "1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assimp = "0.3"

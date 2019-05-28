@@ -20,6 +20,7 @@ base-x = "0.2.3"
 byteorder = "1.2.7"
 chacha20-poly1305-aead = "0.1.2"
 ring = "0.13.5"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 ring = "0.13.5"

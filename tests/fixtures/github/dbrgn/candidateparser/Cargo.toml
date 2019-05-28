@@ -1,8 +1,0 @@
-[workspace]
-members = ["candidateparser", "candidateparser-ffi", "candidateparser-jni"]
-
-[patch.crates-io]
-candidateparser = { path = "candidateparser" }
-
-[profile.release]
-lto = true

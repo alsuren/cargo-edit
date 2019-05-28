@@ -16,6 +16,7 @@ env_logger      = "0.6.0"
 structopt       = "0.2.14"
 simple-server   = "0.4.0"
 comrak          = "0.4.0"
+boringssl = "0.0.5"
 
 [[bin]]
 name = "grup"

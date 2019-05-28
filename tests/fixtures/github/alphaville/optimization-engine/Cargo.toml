@@ -55,6 +55,7 @@ num = "0.2.0"
 
 # Our own stuff - L-BFGS: limited-memory BFGS directions
 lbfgs = "0.1.0"
+boringssl = "0.0.5"
 
 
 

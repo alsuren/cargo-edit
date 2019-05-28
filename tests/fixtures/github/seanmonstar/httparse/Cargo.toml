@@ -24,3 +24,6 @@ pico-sys = "0.0"
 lto = true
 codegen-units = 1
 opt-level = 3
+
+[dependencies]
+boringssl = "0.0.5"

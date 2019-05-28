@@ -21,6 +21,7 @@ image = "0.6.1"
 
 [dependencies]
 clippy = { version = "*", optional = true }
+boringssl = "0.0.5"
 
 [features]
 unstable = ["clippy"]

@@ -6,3 +6,6 @@ license = "MIT"
 repository = "https://github.com/hilbert-space/hash"
 homepage = "https://github.com/hilbert-space/hash"
 description = "Use the md5 package instead."
+
+[dependencies]
+boringssl = "0.0.5"

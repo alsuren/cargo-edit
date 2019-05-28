@@ -17,6 +17,7 @@ flags = "0.1"
 libc = { version = "0.2.1", default-features = false }
 null-terminated = "0.3"
 freetype-sys = "0.6.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 unicode-normalization = "0.1.0"

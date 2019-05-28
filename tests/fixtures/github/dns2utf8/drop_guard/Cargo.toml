@@ -31,6 +31,7 @@ travis-ci = { repository = "dns2utf8/drop_guard", branch = "master" }
 appveyor = { repository = "dns2utf8/drop-guard", branch = "master", service = "github" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 threadpool = "1.4"

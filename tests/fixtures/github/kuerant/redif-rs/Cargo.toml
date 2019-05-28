@@ -18,6 +18,7 @@ readme = "README.md"
 [dependencies]
 amy = "0.8"
 log = "0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "^2.0"

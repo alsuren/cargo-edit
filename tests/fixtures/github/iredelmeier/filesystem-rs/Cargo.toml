@@ -38,6 +38,7 @@ testing = ["mock", "fake"]
 pseudo = { version = "^0.1.0", optional = true }
 rand = { version = "^0.4", optional = true }
 tempdir = { version = "^0.3", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 pseudo = "^0.1.0"

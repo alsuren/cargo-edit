@@ -19,6 +19,7 @@ web = ["http"]
 
 [dependencies]
 http = { version = "0.1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 futures = "0.1"

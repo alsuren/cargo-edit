@@ -9,3 +9,6 @@ repository = "https://github.com/KokaKiwi/rust-hex"
 
 [features]
 benchmarks = []
+
+[dependencies]
+boringssl = "0.0.5"

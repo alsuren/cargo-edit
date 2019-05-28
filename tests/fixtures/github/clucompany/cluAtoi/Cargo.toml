@@ -12,3 +12,4 @@ categories = ["development-tools"]
 description = "Parsing the byte sequence of the ascii characters and safely converting them to integers."
 
 [dependencies]
+boringssl = "0.0.5"

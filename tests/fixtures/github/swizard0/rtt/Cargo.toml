@@ -11,6 +11,7 @@ license = "MIT"
 authors = ["Alexey Voznyuk <me@swizard.info>"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.4"

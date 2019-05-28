@@ -23,6 +23,7 @@ base32 = "^0.3.0"
 time = "^0.1.31"
 rand = "0.5.0"
 hex = "0.3.2"
+boringssl = "0.0.5"
 
 [dependencies.libc]
 version = "^0.2"

@@ -19,6 +19,7 @@ byteorder = { version = "1", default-features = false }
 pwasm-alloc = { path = "alloc", version = "0.4" }
 pwasm-libc = { path = "libc", version = "0.2" }
 tiny-keccak = "1"
+boringssl = "0.0.5"
 
 [features]
 default = ["uint/common"]

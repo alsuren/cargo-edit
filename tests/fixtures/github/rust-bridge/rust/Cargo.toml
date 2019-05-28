@@ -6,3 +6,6 @@ description = "A bridge from Rust to other languages."
 license = "MIT"
 homepage = "https://github.com/rust-bridge/rust"
 repository = "https://github.com/rust-bridge/rust"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -8,3 +8,6 @@ license-file = "LICENSE-MIT"
 readme = "README.md"
 repository = "https://github.com/little-dude/ipaddr"
 description = "manipulate IPv4 and IPv6 addresses"
+
+[dependencies]
+boringssl = "0.0.5"

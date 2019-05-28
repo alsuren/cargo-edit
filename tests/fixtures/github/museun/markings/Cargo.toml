@@ -8,6 +8,9 @@ edition = "2018"
 license = "0BSD"
 keywords = ["template"]
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.hashbrown]
 version = "0.1.8"
 optional = true

@@ -19,3 +19,6 @@ travis-ci = { repository = "arvancloud/nginx-rs" }
 
 [build-dependencies]
 bindgen = "0.30"
+
+[dependencies]
+boringssl = "0.0.5"

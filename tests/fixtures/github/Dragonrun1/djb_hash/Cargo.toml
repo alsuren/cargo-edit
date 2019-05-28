@@ -15,3 +15,4 @@ codecov = { repository = "Dragonrun1/djb_hash", branch = "master", service = "gi
 coveralls = { repository = "Dragonrun1/djb_hash", branch = "master", service = "github" }
 
 [dependencies]
+boringssl = "0.0.5"

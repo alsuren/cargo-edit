@@ -7,3 +7,6 @@ license = "MIT"
 documentation = "https://docs.rs/uhttp_sse"
 repository = "https://github.com/kchmck/uhttp_sse.rs"
 keywords = ["http", "sse", "server-sent", "events"]
+
+[dependencies]
+boringssl = "0.0.5"

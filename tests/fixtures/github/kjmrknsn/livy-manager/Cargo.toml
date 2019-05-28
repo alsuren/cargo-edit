@@ -28,6 +28,7 @@ serde_json = "1.0"
 time = "0.1"
 toml = "0.4"
 uuid = { version = "0.5", features = ["v4"] }
+boringssl = "0.0.5"
 
 [[bin]]
 name = "livy-manager"

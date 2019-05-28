@@ -12,3 +12,4 @@ license = "MIT/Apache-2.0"
 [dependencies]
 clap = "2.10"
 semver = "0.2.3"
+boringssl = "0.0.5"

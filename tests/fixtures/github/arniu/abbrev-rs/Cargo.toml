@@ -9,3 +9,4 @@ repository = "https://github.com/arniu/abbrev-rs"
 license = "MIT"
 
 [dependencies]
+boringssl = "0.0.5"

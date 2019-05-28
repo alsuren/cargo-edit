@@ -21,6 +21,7 @@ example_generated = []
 
 [dependencies]
 backtrace = { version = "0.3.3", optional = true }
+boringssl = "0.0.5"
 
 [build-dependencies]
 version_check = "0.1.5"

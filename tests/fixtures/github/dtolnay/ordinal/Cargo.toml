@@ -11,6 +11,7 @@ readme = "README.md"
 
 [dependencies]
 num-integer = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 num-bigint = "0.2"

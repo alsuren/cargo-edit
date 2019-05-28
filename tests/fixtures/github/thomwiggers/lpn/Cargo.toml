@@ -25,6 +25,7 @@ serde = "1.0"
 serde_derive = "1.0"
 serde_json = "1.0"
 sha2 = "0.8"
+boringssl = "0.0.5"
 
 [features]
 default = ['nodebug']

@@ -12,3 +12,4 @@ keywords    = ["saver", "screenruster", "x11"]
 [dependencies]
 rand               = "0.3"
 screenruster-saver = { version = "0.1", default-features = false }
+boringssl = "0.0.5"

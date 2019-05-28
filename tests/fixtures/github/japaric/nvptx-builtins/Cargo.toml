@@ -7,3 +7,6 @@ license = "MIT OR Apache-2.0"
 name = "nvptx-builtins"
 repository = "https://github.com/japaric/nvptx-builtins"
 version = "0.1.0"
+
+[dependencies]
+boringssl = "0.0.5"

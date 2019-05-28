@@ -13,3 +13,4 @@ doctest = false
 hyper = "^0.9.13"
 rustc-serialize = "^0.3.21"
 mockito = "^0.2.2"
+boringssl = "0.0.5"

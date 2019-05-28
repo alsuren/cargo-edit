@@ -12,3 +12,4 @@ categories = ["data-structures"]
 description = "A library for modifying sized arrays"
 
 [dependencies]
+boringssl = "0.0.5"

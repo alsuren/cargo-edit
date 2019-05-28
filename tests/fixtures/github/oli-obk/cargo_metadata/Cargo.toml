@@ -7,11 +7,16 @@ description = "structured access to the output of `cargo metadata`"
 license = "MIT"
 readme = "README.md"
 
+[package.metadata.cargo_metadata_test]
+some_field = true
+other_field = "foo"
+
 [dependencies]
 failure = "0.1.5"
 serde = "1.0.79"
 serde_derive = "1.0.79"
 serde_json = "1.0.1"
+boringssl = "0.0.5"
 
 [dependencies.semver]
 features = ["serde"]
@@ -24,7 +29,3 @@ default = []
 clap = "2.26.0"
 docopt = "1.0.2"
 structopt = "0.2.10"
-
-[package.metadata.cargo_metadata_test]
-some_field = true
-other_field = "foo"

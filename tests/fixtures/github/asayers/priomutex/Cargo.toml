@@ -10,6 +10,7 @@ keywords = ["mutex"]
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.5"

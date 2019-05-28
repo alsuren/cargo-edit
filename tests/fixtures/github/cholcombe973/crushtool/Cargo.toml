@@ -26,3 +26,4 @@ nom = "^2.0"
 num = "~0.1"
 rustc-serialize = "~0.3"
 uuid = { version = "0.4", features = ["rustc-serialize"] }
+boringssl = "0.0.5"

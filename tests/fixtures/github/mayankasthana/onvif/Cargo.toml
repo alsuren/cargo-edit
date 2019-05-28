@@ -15,6 +15,7 @@ name = "onvif"
 [dependencies]
 quick-xml = "0.12.0"
 derive_builder = "0.5.1"
+boringssl = "0.0.5"
 
 
 [dev-dependencies]

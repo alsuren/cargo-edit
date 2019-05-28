@@ -13,6 +13,7 @@ keywords    = ["xkb", "xkbcommon", "x11", "xcb"]
 bitflags      = "0.9"
 libc          = "0.2"
 xkbcommon-sys = "0.7"
+boringssl = "0.0.5"
 
 [dependencies.xcb]
 version  = "0.8"

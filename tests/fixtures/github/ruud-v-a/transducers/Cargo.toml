@@ -9,3 +9,6 @@ license = "GPL-3.0"
 readme = "readme.md"
 homepage = "https://github.com/ruuda/transducers"
 repository = "https://github.com/ruuda/transducers"
+
+[dependencies]
+boringssl = "0.0.5"

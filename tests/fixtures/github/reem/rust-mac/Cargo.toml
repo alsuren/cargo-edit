@@ -8,3 +8,6 @@ description = "A collection of great and ubiqutitous macros."
 readme = "README.md"
 license = "MIT/Apache-2.0"
 
+[dependencies]
+boringssl = "0.0.5"
+

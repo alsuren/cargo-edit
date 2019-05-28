@@ -11,3 +11,4 @@ documentation = "https://docs.rs/debug_sat"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

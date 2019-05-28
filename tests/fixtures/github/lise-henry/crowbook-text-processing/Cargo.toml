@@ -26,3 +26,4 @@ doc = false
 [dependencies]
 regex = "0.2"
 lazy_static = "1"
+boringssl = "0.0.5"

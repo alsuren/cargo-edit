@@ -8,3 +8,6 @@ homepage = "https://github.com/gadomski/utm"
 repository = "https://github.com/gadomski/utm"
 documentation = "http://gadomski.github.io/utm"
 keywords = ["utm", "gis"]
+
+[dependencies]
+boringssl = "0.0.5"

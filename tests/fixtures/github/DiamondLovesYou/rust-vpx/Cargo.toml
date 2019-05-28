@@ -11,9 +11,10 @@ description = "Rust idiomatic wrapper to libvpx"
 name = "vpx"
 path = "src/lib/lib.rs"
 
+[dependencies]
+libc = "*"
+boringssl = "0.0.5"
+
 [dependencies.libvpx-sys]
 version = "*"
 path = "src/sys"
-
-[dependencies]
-libc = "*"

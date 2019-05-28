@@ -12,3 +12,4 @@ when such an enum value is encourtered.
 """
 
 [dependencies]
+boringssl = "0.0.5"

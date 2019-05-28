@@ -51,6 +51,9 @@ fmt = []
 # Support integration with `serde`
 serde = ["std", "serde_lib/std"]
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.smallvec]
 version = "0.6"
 optional = true

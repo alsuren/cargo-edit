@@ -18,6 +18,7 @@ libloading = "0.5"
 rand = "0.6"
 xfailure = "0.1"
 hex = "0.3"
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

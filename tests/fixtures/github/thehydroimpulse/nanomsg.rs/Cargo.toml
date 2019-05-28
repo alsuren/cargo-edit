@@ -29,9 +29,10 @@ appveyor = { repository = "blabaere/nanomsg.rs" }
 bundled = ["nanomsg-sys/bundled"]
 no_anl = ["nanomsg-sys/no_anl"]
 
+[dependencies]
+libc = "0.2.*"
+boringssl = "0.0.5"
+
 [dependencies.nanomsg-sys]
 path = "./nanomsg_sys"
 version = "0.7.*"
-
-[dependencies]
-libc = "0.2.*"

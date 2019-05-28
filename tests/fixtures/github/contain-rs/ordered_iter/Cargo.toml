@@ -23,3 +23,4 @@ nightly = []
 bit-set = "~0.5"
 bit-vec = "~0.5"
 vec_map = "~0.8"
+boringssl = "0.0.5"

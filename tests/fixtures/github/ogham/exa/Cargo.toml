@@ -44,6 +44,12 @@ term_size = "0.3.0"
 unicode-width = "0.1.4"
 users = "0.8"
 zoneinfo_compiled = "0.4.7"
+boringssl = "0.0.5"
+
+[dependencies.git2]
+version = "0.7"
+optional = true
+default-features = false
 
 [build-dependencies]
 datetime = "0.4.7"
@@ -57,8 +63,3 @@ opt-level = 3
 debug = false
 lto = true
 panic = "abort"
-
-[dependencies.git2]
-version = "0.7"
-optional = true
-default-features = false

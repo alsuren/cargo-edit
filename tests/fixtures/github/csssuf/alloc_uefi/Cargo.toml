@@ -12,3 +12,4 @@ Allocator for a UEFI environment.
 """
 
 [dependencies]
+boringssl = "0.0.5"

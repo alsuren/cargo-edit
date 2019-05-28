@@ -16,6 +16,7 @@ simd-accel = ["encoding_rs/simd-accel"]
 
 [dependencies]
 getopts = "0.2.14"
+boringssl = "0.0.5"
 
 [dependencies.encoding_rs]
 version = "0.8.11"

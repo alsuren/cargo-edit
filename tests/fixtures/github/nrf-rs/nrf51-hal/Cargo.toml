@@ -24,6 +24,7 @@ cortex-m = "0.5.8"
 nb = "0.1.1"
 nrf51 = "0.6.0"
 fpa = "0.1.0"
+boringssl = "0.0.5"
 
 [dependencies.cast]
 default-features = false

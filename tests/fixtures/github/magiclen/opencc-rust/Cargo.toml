@@ -10,6 +10,9 @@ description= "Open Chinese Convert(OpenCC, 開放中文轉換) binding for the R
 readme = "README.md"
 license = "Apache-2.0"
 
+[package.metadata.docs.rs]
+all-features = true
+
 [badges]
 travis-ci = { repository = "magiclen/opencc-rust", branch = "master" }
 appveyor = { repository = "magiclen/opencc-rust", branch = "master", service = "github" }
@@ -18,6 +21,7 @@ appveyor = { repository = "magiclen/opencc-rust", branch = "master", service = "
 libc = "0.2.43"
 lazy-static-include = { version = "2", optional = true }
 lazy_static = { version = "1.1", optional = true }
+boringssl = "0.0.5"
 
 
 [build-dependencies]
@@ -25,6 +29,3 @@ pkg-config = "0.3.14"
 
 [features]
 static-dictionaries = ["lazy-static-include", "lazy_static"]
-
-[package.metadata.docs.rs]
-all-features = true

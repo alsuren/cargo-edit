@@ -26,6 +26,7 @@ time = "0.1"
 clap = "1"
 uuid = "0.1"
 error-chain="0.7"
+boringssl = "0.0.5"
 
 [build-dependencies]
 rusty-cheddar = "0.3"

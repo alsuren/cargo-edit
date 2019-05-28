@@ -17,6 +17,7 @@ log = "0.4"
 chrono = "0.4"
 byteorder = "1"
 memmap = "0.7"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 structopt = "0.2"

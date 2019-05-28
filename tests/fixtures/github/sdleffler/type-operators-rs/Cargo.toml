@@ -17,3 +17,6 @@ bit-vec = "0.4.3"
 default = []
 nightly = ["specialization"]
 specialization = []
+
+[dependencies]
+boringssl = "0.0.5"

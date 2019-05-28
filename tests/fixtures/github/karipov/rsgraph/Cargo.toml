@@ -11,3 +11,4 @@ repository = "https://github.com/karipov/rsgraph.git"
 homepage = "https://github.com/karipov/rsgraph"
 
 [dependencies]
+boringssl = "0.0.5"

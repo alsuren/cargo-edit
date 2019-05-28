@@ -31,3 +31,6 @@ criterion = "0.2"
 [profile.release]
 lto = true
 opt-level = 3
+
+[dependencies]
+boringssl = "0.0.5"

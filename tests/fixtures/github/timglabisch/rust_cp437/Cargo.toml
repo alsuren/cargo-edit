@@ -10,3 +10,4 @@ repository = "https://github.com/timglabisch/rust_cp437.git"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

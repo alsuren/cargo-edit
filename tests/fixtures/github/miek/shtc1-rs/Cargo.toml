@@ -13,6 +13,7 @@ version = "0.1.0"
 byteorder = { version = "1", default-features = false }
 crc8 = "0.1.1"
 embedded-hal = "0.2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 linux-embedded-hal = "0.1.1"

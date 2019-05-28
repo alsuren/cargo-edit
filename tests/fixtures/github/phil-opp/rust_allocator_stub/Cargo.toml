@@ -20,3 +20,4 @@ cross-compile = ["rust-libcore"]
 
 [dependencies]
 rust-libcore = {version = "*", optional = true}
+boringssl = "0.0.5"

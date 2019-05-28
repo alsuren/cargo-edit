@@ -12,3 +12,4 @@ keywords = ["iron", "web", "handler", "routing"]
 [dependencies]
 iron = { git = "https://github.com/iron/iron", branch = "master" }
 sequence_trie = "0.3"
+boringssl = "0.0.5"

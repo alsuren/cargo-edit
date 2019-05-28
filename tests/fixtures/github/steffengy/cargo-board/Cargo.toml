@@ -13,3 +13,4 @@ keywords = ["arm", "embedded", "board", "cargo"]
 serde = "1.0.11"
 serde_derive = "1.0.11"
 toml = "0.4.5"
+boringssl = "0.0.5"

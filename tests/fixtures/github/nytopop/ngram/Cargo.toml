@@ -11,3 +11,4 @@ documentation = "https://docs.rs/ngram"
 keywords = ["n-gram", "skip-gram", "gram", "skip", "n"]
 
 [dependencies]
+boringssl = "0.0.5"

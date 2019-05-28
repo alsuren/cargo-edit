@@ -20,6 +20,7 @@ env_logger = "*"
 getopts = "*"
 log = "*"
 num = "*"
+boringssl = "0.0.5"
 
 [dev_dependencies]
 rand = "*"

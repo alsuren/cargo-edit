@@ -15,6 +15,7 @@ proc-macro = true
 proc-macro2 = "0.4.19"
 quote = "0.6.8"
 syn = "0.15.14"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 demo-hack = { version = "0.0.5", path = "demo-hack" }

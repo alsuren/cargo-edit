@@ -22,6 +22,7 @@ sounding-analysis = "0.11"
 sounding-bufkit = "0.11"
 strum = "0.15"
 strum_macros = "0.15"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3"

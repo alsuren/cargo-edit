@@ -10,3 +10,4 @@ homepage = "https://github.com/tuffy/bitstream-io"
 repository = "https://github.com/tuffy/bitstream-io"
 
 [dependencies]
+boringssl = "0.0.5"

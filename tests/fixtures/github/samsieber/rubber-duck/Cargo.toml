@@ -1,9 +1,0 @@
-[workspace]
-
-members = [
-    "rubber_duck",
-    "rubber_duck_macro",
-
-    "example_api",
-    "example_consumer",
-]

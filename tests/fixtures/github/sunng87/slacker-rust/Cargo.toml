@@ -10,6 +10,10 @@ repository = "https://github.com/sunng87/slacker-rust"
 documentation = "https://docs.rs/slacker-rust/"
 readme = "README.md"
 
+[package.metadata.release]
+sign-commit = true
+upload-doc = true
+
 [dependencies]
 tokio-io = "^0.1.0"
 tokio-core = "^0.1.0"
@@ -23,11 +27,8 @@ log = "0.3.6"
 bytes = "^0.4.1"
 byteorder = "^1.1.0"
 nom = "^3.1.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "^0.4.0"
 maplit = "^0.1.4"
-
-[package.metadata.release]
-sign-commit = true
-upload-doc = true

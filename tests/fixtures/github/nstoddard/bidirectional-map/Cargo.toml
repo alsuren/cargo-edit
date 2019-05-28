@@ -11,3 +11,6 @@ repository = "https://github.com/nstoddard/bidirectional-map"
 name = "bidirectional_map"
 doc = true
 
+[dependencies]
+boringssl = "0.0.5"
+

@@ -9,3 +9,6 @@ keywords = ["ili9431", "lcd", "controller", "hardware"]
 authors = [
 	"Jared Boone <jared@sharebrained.com>"
 ]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -11,6 +11,9 @@ repository = "https://github.com/arcnmx/i2c-linux-rs"
 readme = "README.md"
 license = "MIT"
 
+[package.metadata.docs.rs]
+all-features = true
+
 [badges]
 travis-ci = { repository = "arcnmx/i2c-linux-rs" }
 maintenance = { status = "passively-maintained" }
@@ -21,6 +24,4 @@ resize-slice = "^0.1.2"
 bitflags = "^1.0.1"
 i2c = { version = "^0.1.0", optional = true }
 udev = { version = "^0.2.0", optional = true }
-
-[package.metadata.docs.rs]
-all-features = true
+boringssl = "0.0.5"

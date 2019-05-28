@@ -29,6 +29,7 @@ lru-cache = "0.1.1"
 rayon = "1.0.3"
 futures={ git= "https://github.com/tamasblummer/futures-rs.git", tag = "0.2.1" }
 futures-timer= { git= "https://github.com/tamasblummer/futures-timer.git", branch = "futures_0.2.1" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rustc-serialize = "0.3"

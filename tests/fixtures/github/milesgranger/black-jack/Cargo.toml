@@ -33,6 +33,7 @@ serde = {version = "^1.0", features = ["derive"] }
 failure = "^0.1"
 snap = "^0.2"
 baggie = "^0.2"
+boringssl = "0.0.5"
 
 [features]
 default = ["GSL/v2"]

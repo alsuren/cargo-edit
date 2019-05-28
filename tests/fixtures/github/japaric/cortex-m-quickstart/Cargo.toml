@@ -10,6 +10,7 @@ cortex-m = "0.5.8"
 cortex-m-rt = "0.6.5"
 cortex-m-semihosting = "0.3.2"
 panic-halt = "0.2.0"
+boringssl = "0.0.5"
 
 # Uncomment for the panic example.
 # panic-itm = "0.4.0"

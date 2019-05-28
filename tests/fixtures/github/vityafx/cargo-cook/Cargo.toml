@@ -23,12 +23,7 @@ term = "0.5"
 lazy_static = "1"
 rpassword = "3"
 sysconf = "0.3"
-
-[features]
-default = ["compression", "deploy"]
-compression = ["bzip2"]
-deploy = ["ssh"]
-ssh = ["ssh2"]
+boringssl = "0.0.5"
 
 [dependencies.bzip2]
 version = "0.3"
@@ -37,3 +32,9 @@ optional = true
 [dependencies.ssh2]
 version = "0.3"
 optional = true
+
+[features]
+default = ["compression", "deploy"]
+compression = ["bzip2"]
+deploy = ["ssh"]
+ssh = ["ssh2"]

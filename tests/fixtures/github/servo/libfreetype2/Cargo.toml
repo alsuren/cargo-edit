@@ -15,3 +15,6 @@ name = "freetype_sys"
 [build-dependencies]
 pkg-config = "0.3"
 cmake = "0.1"
+
+[dependencies]
+boringssl = "0.0.5"

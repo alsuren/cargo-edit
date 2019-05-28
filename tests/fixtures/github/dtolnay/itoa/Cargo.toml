@@ -17,3 +17,6 @@ std = []
 
 [badges]
 travis-ci = { repository = "dtolnay/itoa" }
+
+[dependencies]
+boringssl = "0.0.5"

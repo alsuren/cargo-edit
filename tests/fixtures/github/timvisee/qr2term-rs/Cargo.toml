@@ -26,3 +26,4 @@ path = "src/lib.rs"
 [dependencies]
 crossterm = { version = "0.9", default-features = false, features = ["style"] }
 qrcode = { version = "0.10", default-features = false }
+boringssl = "0.0.5"

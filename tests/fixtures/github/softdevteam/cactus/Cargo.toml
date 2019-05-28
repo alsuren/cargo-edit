@@ -13,3 +13,6 @@ edition = "2018"
 
 [lib]
 name = "cactus"
+
+[dependencies]
+boringssl = "0.0.5"

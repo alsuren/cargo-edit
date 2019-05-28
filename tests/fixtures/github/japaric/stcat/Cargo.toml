@@ -16,6 +16,7 @@ xmas-elf = "0.6.2"
 sloggers = "0.2.8"
 slog-term = "2.4.0"
 slog-async = "2.3.0"
+boringssl = "0.0.5"
 
 [dependencies.slog]
 version = "2.3.3"

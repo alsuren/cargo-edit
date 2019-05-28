@@ -10,6 +10,7 @@ license = "BSD-2-Clause"
 [dependencies]
 # This uses only the compatible subset of 0.1 and 0.2.
 num-traits = ">= 0.1, < 0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 # The quickcheck! macro was introduced in 0.3.

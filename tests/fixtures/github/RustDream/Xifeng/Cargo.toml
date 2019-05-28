@@ -14,3 +14,6 @@ path = "./src/lib.rs"
 [[bin]]
 name = "document"
 path = "./src/examples/document.rs"
+
+[dependencies]
+boringssl = "0.0.5"

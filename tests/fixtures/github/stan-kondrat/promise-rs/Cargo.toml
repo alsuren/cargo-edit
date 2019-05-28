@@ -16,3 +16,4 @@ name = "promise"
 name = "promise"
 
 [dependencies]
+boringssl = "0.0.5"

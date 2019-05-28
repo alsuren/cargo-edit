@@ -12,3 +12,4 @@ readme = "README.md"
 repository = "https://github.com/nieksand/rootfind/"
 
 [dependencies]
+boringssl = "0.0.5"

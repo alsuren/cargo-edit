@@ -28,3 +28,6 @@ harness = false
 [badges]
 maintenance = { status = "passively-maintained" }
 travis-ci = { repository = "svartalf/rust-imghdr", branch = "master" }
+
+[dependencies]
+boringssl = "0.0.5"

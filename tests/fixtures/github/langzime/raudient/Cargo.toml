@@ -30,6 +30,7 @@ gio = "0.6.0"
 gdk-pixbuf = "^0.6.0"
 combine = "^3.8"
 human-panic = "^1"
+boringssl = "0.0.5"
 
 [dependencies.gtk]
 version = "0.6.0"

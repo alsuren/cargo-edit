@@ -12,3 +12,6 @@ A reflection-based arena which can allocate objects of any type.
 [lib]
 name = "any_arena"
 path = "src/lib.rs"
+
+[dependencies]
+boringssl = "0.0.5"

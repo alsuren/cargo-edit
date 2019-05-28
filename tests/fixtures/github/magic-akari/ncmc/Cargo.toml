@@ -23,6 +23,7 @@ glob = "0.3.0"
 metaflac = "0.1.8"
 id3 = "0.3.0"
 miniserde = "0.1.10"
+boringssl = "0.0.5"
 
 [profile.release]
 panic = "abort"

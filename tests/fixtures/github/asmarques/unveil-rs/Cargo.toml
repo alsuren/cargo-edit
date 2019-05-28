@@ -11,3 +11,4 @@ categories = ["api-bindings"]
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"

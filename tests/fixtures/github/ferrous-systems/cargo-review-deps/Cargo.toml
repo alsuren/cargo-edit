@@ -13,6 +13,7 @@ tempdir = "0.3.7"
 cargo_metadata = "0.6.2"
 copy_dir = "0.1.2"
 clap = "2.32.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assert_cli = "0.6.3"

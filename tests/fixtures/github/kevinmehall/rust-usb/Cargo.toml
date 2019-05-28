@@ -18,3 +18,4 @@ path = "examples/test/main.rs"
 
 [dependencies]
 libc = "0.1"
+boringssl = "0.0.5"

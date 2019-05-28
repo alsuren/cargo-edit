@@ -14,6 +14,7 @@ crate-type = ["staticlib"]
 [dependencies]
 rlibc = "0.1.4"                 # Low-level functions like memcpy.
 spin = "0.3.4"                  # Spinlocks.
+boringssl = "0.0.5"
 
 # CPU data structures.  We need a pre-release version of this.
 [dependencies.x86]

@@ -12,3 +12,6 @@ build = "build.rs"
 [build-dependencies]
 bindgen = "0.23"
 cmake = "0.1"
+
+[dependencies]
+boringssl = "0.0.5"

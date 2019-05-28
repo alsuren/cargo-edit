@@ -9,3 +9,4 @@ edition = "2018"
 license = "MIT"
 
 [dependencies]
+boringssl = "0.0.5"

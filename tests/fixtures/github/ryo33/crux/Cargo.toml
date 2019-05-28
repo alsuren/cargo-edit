@@ -7,3 +7,6 @@ repository = "https://github.com/ryo33/crux"
 readme = "README.md"
 keywords = ["state"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -26,6 +26,7 @@ bitflags = "1.0"
 unicase = "2.4"
 memchr = "2.2"
 getopts = { version = "0.2", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 html5ever = "0.23"

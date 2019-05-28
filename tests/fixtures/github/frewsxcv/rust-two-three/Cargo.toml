@@ -6,3 +6,6 @@ version = "0.0.6"
 authors = ["Corey Farwell <coreyf@rwell.org>"]
 license = "MIT/Apache-2.0"
 repository = "https://github.com/frewsxcv/rust-two-three"
+
+[dependencies]
+boringssl = "0.0.5"

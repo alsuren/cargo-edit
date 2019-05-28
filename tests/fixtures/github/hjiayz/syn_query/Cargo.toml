@@ -12,3 +12,4 @@ readme = "README.md"
 [dependencies]
 syn={version="0.14.2",features = ["full","visit","extra-traits"] }
 proc-macro2="0.4.4"
+boringssl = "0.0.5"

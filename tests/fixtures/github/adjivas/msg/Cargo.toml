@@ -11,3 +11,4 @@ license = "GPL-3.0"
 
 [dependencies]
 io-synesthesist = "> 0.1.0"
+boringssl = "0.0.5"

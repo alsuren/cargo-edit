@@ -12,4 +12,5 @@ keywords = ["redis", "cluster"]
 [dependencies]
 url = "0.5.4"
 sha1 = "0.1.1"
+boringssl = "0.0.5"
 

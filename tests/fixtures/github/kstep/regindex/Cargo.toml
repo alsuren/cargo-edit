@@ -11,3 +11,4 @@ license = "MIT"
 
 [dependencies]
 regex = "*"
+boringssl = "0.0.5"

@@ -12,6 +12,7 @@ categories = ["cryptography"]
 keywords = ["crypto", "aes"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [profile.release]
 codegen-units = 1

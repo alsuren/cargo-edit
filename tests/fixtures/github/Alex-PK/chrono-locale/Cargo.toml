@@ -15,6 +15,7 @@ build = "build.rs"
 chrono = "0.4"
 num-integer = { version = "0.1", default-features = false }
 lazy_static = "1.2"
+boringssl = "0.0.5"
 
 [build-dependencies]
 serde = "1"

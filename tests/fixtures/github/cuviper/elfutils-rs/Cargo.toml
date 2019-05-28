@@ -13,6 +13,9 @@ version = "0.0.5"
 [package.metadata.docs.rs]
 dependencies = [ "libdw-dev" ]
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.libdw]
 optional = false
 path = "libdw"

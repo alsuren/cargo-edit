@@ -19,3 +19,6 @@ winapi = "^0.3.4"
 widestring = "^0.4"
 socket2 = "^0.3.1"
 winreg = "^0.6.0"
+
+[dependencies]
+boringssl = "0.0.5"

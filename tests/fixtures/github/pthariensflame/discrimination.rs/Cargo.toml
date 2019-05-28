@@ -13,6 +13,7 @@ version = "0.0.2"
 [dependencies]
 either = "1.0.2"
 parking_lot = "0.3.6"
+boringssl = "0.0.5"
 
 [lib]
 name = "discrimination"

@@ -25,3 +25,4 @@ path = "src/joco.rs"
 [dependencies]
 termion = "1.5.1"
 rand = "0.5.4"
+boringssl = "0.0.5"

@@ -12,3 +12,4 @@ Rust interface for the FreeRTOS embedded operating system.
 name = "freertos_rs"
 
 [dependencies]
+boringssl = "0.0.5"

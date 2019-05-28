@@ -15,3 +15,4 @@ test = false
 late-static = "0.3"
 r-efi = "2.1"
 ucs2 = "0.1"
+boringssl = "0.0.5"

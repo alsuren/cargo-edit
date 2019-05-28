@@ -9,3 +9,4 @@ repository = "https://github.com/dzgames/TimberWolf"
 
 [dependencies]
 chrono = "0.4.6"
+boringssl = "0.0.5"

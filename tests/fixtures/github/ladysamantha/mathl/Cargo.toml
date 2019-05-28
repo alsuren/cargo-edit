@@ -9,3 +9,4 @@ repository = "https://github.com/ladysamantha/mathl.git"
 homepage = "https://github.com/ladysamantha/mathl"
 
 [dependencies]
+boringssl = "0.0.5"

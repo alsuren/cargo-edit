@@ -16,4 +16,5 @@ keywords = ["cast", "chromecast"]
 bitflags = "1.0"
 piston3d-cam = "0.3"
 vecmath = "0.3"
+boringssl = "0.0.5"
 

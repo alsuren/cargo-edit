@@ -24,3 +24,6 @@ quickcheck_macros = "0.8"
 [dev-dependencies.bitterv1]
 package = "bitter"
 version = "=0.1.0"
+
+[dependencies]
+boringssl = "0.0.5"

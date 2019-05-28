@@ -7,3 +7,6 @@ readme = "README.md"
 keywords = ["string", "ascii", "alphabet", "snake", "camel"]
 license = "MIT"
 repository = "https://github.com/SkylerLipthay/case"
+
+[dependencies]
+boringssl = "0.0.5"

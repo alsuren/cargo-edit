@@ -8,12 +8,13 @@ homepage = "https://github.com/zitsen/xlsx2csv.rs"
 repository = "https://github.com/zitsen/xlsx2csv.rs"
 readme = "README.md"
 
+[package.metadata.release]
+pre-release-commit-message = "chore(release): release {{version}}"
+pro-release-commit-message = "chore(dev): start next development iteration {{version}}"
+
 [dependencies]
 calamine = "0.12.1"
 csv = "1.0.0-beta.5"
 clap = "2.29.2"
 pbr = "1.0.0"
-
-[package.metadata.release]
-pre-release-commit-message = "chore(release): release {{version}}"
-pro-release-commit-message = "chore(dev): start next development iteration {{version}}"
+boringssl = "0.0.5"

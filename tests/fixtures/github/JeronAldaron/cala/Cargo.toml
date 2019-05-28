@@ -26,3 +26,4 @@ wavy = "0.1" # audio
 stronghold = "0.2" # file
 serde = "1.0"
 stick = "0.6" # joystick / controller
+boringssl = "0.0.5"

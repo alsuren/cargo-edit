@@ -6,6 +6,9 @@ publish = false
 [lib]
 path = ".empty.rs"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.cargo-husky]
 version = "1"
 default-features = false

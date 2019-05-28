@@ -17,6 +17,7 @@ codecov = { repository = "qzed/serde_tagged", branch = "master", service = "gith
 [dependencies]
 serde = "1.0.27"
 erased-serde = { version = "0.3.3", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_derive = "1.0.27"

@@ -16,3 +16,4 @@ name = "basehangul"
 
 [dependencies]
 encoding-index-korean = "~1.20141219.5"
+boringssl = "0.0.5"

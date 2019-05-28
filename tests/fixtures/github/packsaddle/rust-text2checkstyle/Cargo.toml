@@ -28,3 +28,4 @@ repository = "packsaddle/rust-text2checkstyle"
 
 [dependencies]
 checkstyle_formatter = "1.0.0"
+boringssl = "0.0.5"

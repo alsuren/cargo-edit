@@ -6,3 +6,6 @@ license = "MIT"
 authors = ["kunicmarko20 <kunicmarko20@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/rustysoft/arc-guard"
+
+[dependencies]
+boringssl = "0.0.5"

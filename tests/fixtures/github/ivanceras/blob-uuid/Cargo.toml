@@ -13,3 +13,4 @@ keywords = ["uuid", "blob", "base64"]
 [dependencies]
 base64 = "0.10.0"
 uuid = { version = "0.7.1", features = ["v4"] }
+boringssl = "0.0.5"

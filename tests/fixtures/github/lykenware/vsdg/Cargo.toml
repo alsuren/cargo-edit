@@ -10,6 +10,7 @@ description = "VSDG (Value State Dependence Graph) optimizer."
 cranelift-codegen = "0.19.0"
 cranelift-wasm = "0.19.0"
 target-lexicon = "0.0.3"
+boringssl = "0.0.5"
 
 [lib]
 doctest = false

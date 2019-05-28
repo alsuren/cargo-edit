@@ -13,6 +13,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 nalgebra = "~0.16.0"
 num = "~0.2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 proptest = "~0.8.5"

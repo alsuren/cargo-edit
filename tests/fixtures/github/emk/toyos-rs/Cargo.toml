@@ -15,6 +15,7 @@ crate-type = ["staticlib"]
 rlibc = "0.1.4"                 # Low-level functions like memcpy.
 spin = "0.3.4"                  # Spinlocks.
 x86 = "0.6.0"                   # CPU data structures.
+boringssl = "0.0.5"
 
 [dependencies.alloc_buddy_simple]
 path = "crates/alloc_buddy_simple"

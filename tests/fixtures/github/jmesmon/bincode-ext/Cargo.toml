@@ -13,3 +13,4 @@ bincode = "*"
 
 [dependencies]
 rustc-serialize = "*"
+boringssl = "0.0.5"

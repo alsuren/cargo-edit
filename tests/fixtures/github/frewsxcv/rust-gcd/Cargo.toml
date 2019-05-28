@@ -8,3 +8,6 @@ readme = "README.md"
 repository = "https://github.com/frewsxcv/rust-gcd"
 documentation = "https://docs.rs/gcd/"
 categories = ["algorithms"]
+
+[dependencies]
+boringssl = "0.0.5"

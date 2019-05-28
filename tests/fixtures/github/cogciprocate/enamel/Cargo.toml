@@ -15,6 +15,7 @@ exclude = ["target/*", "*.png", "bak/*"]
 glium = "0.20"
 glium_text_rusttype = "0.3"
 find_folder = "0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 colorify = "0.1"

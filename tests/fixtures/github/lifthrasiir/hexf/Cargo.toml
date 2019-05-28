@@ -17,4 +17,5 @@ members = ["parse/", "impl/"]
 proc-macro-hack = "0.3.3"
 hexf-parse = { version = "0.1.0", path = "parse/" }
 hexf-impl = { version = "0.1.0", path = "impl/" }
+boringssl = "0.0.5"
 

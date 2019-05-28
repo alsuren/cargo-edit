@@ -14,3 +14,4 @@ categories = ["external-ffi-bindings"]
 
 [dependencies]
 maskedvbyte-sys = { version = "0.1.0", path = "maskedvbyte-sys" }
+boringssl = "0.0.5"

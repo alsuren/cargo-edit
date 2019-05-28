@@ -16,3 +16,4 @@ bytes = "0.4"
 
 error-chain = "0.11"
 log = "0.3"
+boringssl = "0.0.5"

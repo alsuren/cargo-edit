@@ -8,3 +8,4 @@ license = "MIT/Apache-2.0"
 authors = ["Andrew Hickman <andrew.hickman1@sky.com>"]
 
 [dependencies]
+boringssl = "0.0.5"

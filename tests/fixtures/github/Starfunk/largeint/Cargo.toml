@@ -11,3 +11,4 @@ keywords = ["largeint", "int", "large","integer"]
 categories = ["no-std", "data-structures"]
 
 [dependencies]
+boringssl = "0.0.5"

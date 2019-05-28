@@ -13,6 +13,7 @@ doc = false
 
 [dependencies]
 clap = "2.20.3"
+boringssl = "0.0.5"
 
 [dependencies.error-chain]
 version = "0.8.1"

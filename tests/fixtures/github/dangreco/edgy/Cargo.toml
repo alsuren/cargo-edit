@@ -11,3 +11,4 @@ repository = "https://github.com/dangreco/edgy"
 image = "0.21.0"
 pbr = "1.0.1"
 clap = {version = "2.32", features = ["yaml"]}
+boringssl = "0.0.5"

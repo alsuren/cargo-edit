@@ -1,7 +1,0 @@
-[workspace]
-members = [
-    "cargo-dinghy",
-    "dinghy-build",
-    "dinghy-lib",
-    "dinghy-test",
-]

@@ -7,3 +7,6 @@ license = "ISC"
 keywords = ["pile", "of", "poo"]
 documentation = "https://💩.cmcenroe.me/xn__ls8h"
 repository = "https://github.com/programble/xn--ls8h"
+
+[dependencies]
+boringssl = "0.0.5"

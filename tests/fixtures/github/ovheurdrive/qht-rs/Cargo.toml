@@ -19,6 +19,7 @@ travis-ci = { repository = "ovheurdrive/qht-rs" }
 [dependencies]
 rand = "0.6.1"
 rust-dense-bitset = "0.1.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2"

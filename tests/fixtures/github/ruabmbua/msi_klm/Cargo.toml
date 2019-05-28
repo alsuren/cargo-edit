@@ -10,3 +10,4 @@ keywords = ["MSI", "KLM", "keyboard", "light", "manager"]
 [dependencies]
 hidapi_rust = "0.1.3"
 getopts = "0.2.12"
+boringssl = "0.0.5"

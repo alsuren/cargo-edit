@@ -19,6 +19,7 @@ maintenance = { status = "actively-developed" }
 members = ["benchmarks"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 crossbeam-utils = "~0.6"

@@ -15,6 +15,9 @@ categories = ["development-tools::debugging"]
 
 include = ["Cargo.toml", "src/**/*", "tests/**/*", "examples/**/*", "LICENSE", "README.md", "CONTRIBUTING.md", "CHANGELOG.md"]
 
+[package.metadata.docs.rs]
+all-features = true
+
 [badges]
 travis-ci = { repository = "daboross/fern" }
 appveyor = { repository = "daboross/fern" }
@@ -23,6 +26,7 @@ coveralls = { repository = "daboross/fern" }
 [dependencies]
 log = { version = "0.4", features = ["std"] }
 colored = { version = "1.5", optional = true }
+boringssl = "0.0.5"
 
 [target."cfg(not(windows))".dependencies]
 syslog3 = { version = "3", optional = true }
@@ -59,6 +63,3 @@ required-features = ["syslog-3"]
 
 [[example]]
 name = "meta-logging"
-
-[package.metadata.docs.rs]
-all-features = true

@@ -1,2 +1,0 @@
-[workspace]
-members = ["serial_test", "serial_test_derive", "serial_test_test"]

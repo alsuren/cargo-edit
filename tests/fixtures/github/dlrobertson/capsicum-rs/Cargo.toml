@@ -13,3 +13,4 @@ keywords = ["sandbox", "FreeBSD", "capsicum"]
 
 [dependencies]
 libc = "0.2.20"
+boringssl = "0.0.5"

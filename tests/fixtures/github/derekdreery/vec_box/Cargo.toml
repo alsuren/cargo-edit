@@ -11,3 +11,4 @@ documentation = "https://docs.rs/vec_box/1.0.0/vec_box/"
 description = "A single macro to create a vec of boxed elements, for trait objects"
 
 [dependencies]
+boringssl = "0.0.5"

@@ -15,6 +15,7 @@ edition = "2018"
 travis-ci = { repository = "kurtlawrence/shh" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [target.'cfg(windows)'.dependencies]
 winapi = { version = "0.3", features = ["winbase", "wincon", "processenv", "handleapi", "namedpipeapi"] }

@@ -23,6 +23,7 @@ wee-rl = "1.0"
 clap = "2.19.0"
 quote = "0.3"
 psk_std = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempfile = "2.2.0"

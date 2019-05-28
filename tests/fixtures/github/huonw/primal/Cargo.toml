@@ -22,6 +22,7 @@ prime).
 primal-check = { path = "primal-check", version = "0.2" }
 primal-estimate = { path = "primal-estimate", version = "0.2" }
 primal-sieve = { path = "primal-sieve", version = "0.2" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 primal-slowsieve = { path = "primal-slowsieve", version = "0.2" }

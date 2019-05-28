@@ -11,6 +11,7 @@ stdweb = "0.4.10"
 stdweb-derive = "0.5.0"
 serde = "1.0.0"
 serde_derive = "1.0.0"
+boringssl = "0.0.5"
 
 [lib]
 name = "webgl_rendering_context"

@@ -19,6 +19,7 @@ build = "build.rs"
 default = []
 
 [dependencies]
+boringssl = "0.0.5"
 
 [build-dependencies]
 rustc_version = "0.2"

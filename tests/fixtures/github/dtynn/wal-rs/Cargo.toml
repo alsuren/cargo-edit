@@ -21,6 +21,7 @@ crc = "1.8"
 byteorder = "1.2"
 hex = "0.3"
 fs2 = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.5"

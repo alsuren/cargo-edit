@@ -11,6 +11,7 @@ description = "A tool for processing a directory of text files. Particularly use
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3"

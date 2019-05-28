@@ -14,6 +14,7 @@ caching = ["mcpat-sys/caching", "hiredis"]
 [dependencies]
 libc = "0.2"
 mcpat-sys = "0.8"
+boringssl = "0.0.5"
 
 [dependencies.hiredis]
 version = "0.3"

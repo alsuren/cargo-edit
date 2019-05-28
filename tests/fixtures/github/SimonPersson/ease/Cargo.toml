@@ -13,14 +13,15 @@ hyper = "0.10"
 url = "1.1"
 serde = "0.8"
 serde_json = "0.8"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_macros = "0.8"
 
-[[ example ]]
+[[example]]
 name = "json"
 path = "examples/json.rs"
 
-[[ example ]]
+[[example]]
 name = "strings"
 path = "examples/strings.rs"

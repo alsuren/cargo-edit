@@ -11,6 +11,7 @@ readme = "README.md"
 
 [dependencies]
 ref-cast-impl = { version = "0.2", path = "derive" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 select-rustc = "0.1"

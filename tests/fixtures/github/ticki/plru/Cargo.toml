@@ -11,3 +11,6 @@ exclude = ["target", "CHANGELOG.md", "Cargo.lock"]
 
 [features]
 no_std = []
+
+[dependencies]
+boringssl = "0.0.5"

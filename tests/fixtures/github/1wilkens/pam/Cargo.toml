@@ -19,6 +19,7 @@ travis-ci = { repository = "1wilkens/pam" }
 libc    = "^0.2"
 pam-sys = "^0.5"
 users   = "^0.8"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rpassword = "2.0"

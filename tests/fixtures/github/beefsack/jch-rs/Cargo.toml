@@ -8,3 +8,6 @@ repository = "https://github.com/beefsack/jch-rs.git"
 readme = "README.md"
 keywords = ["hash"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -10,6 +10,7 @@ description = "Traits for interoperation of Boolean and sum types."
 keywords = ["Boolean", "sum", "extension", "conversion"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [features]
 default = ["std"]

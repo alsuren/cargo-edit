@@ -7,3 +7,4 @@ license = "MIT"
 description = "A clone of `std::sync::Once` with relaxed requirements"
 
 [dependencies]
+boringssl = "0.0.5"

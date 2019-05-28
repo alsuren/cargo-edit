@@ -31,6 +31,7 @@ bitflags = "1.0"
 log = "0.4"
 chrono = { version = "0.4", optional = true }
 core_io = { version = "0.1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.5"

@@ -16,6 +16,7 @@ serde_macros = "0.7"
 serde = "0.7"
 serde_json = "0.7"
 clippy = {version = "~0.0.22", optional=true}
+boringssl = "0.0.5"
 
 [features]
 default = ["nightly"]

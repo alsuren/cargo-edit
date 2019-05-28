@@ -21,6 +21,7 @@ members = [
 
 [dependencies]
 git-testament-derive = { version = "0.1", path = "git-testament-derive" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3.7"

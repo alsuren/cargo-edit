@@ -11,3 +11,4 @@ repository = "https://github.com/ChrisMacNaughton/bbcode-rs"
 [dependencies]
 lazy_static = "0.2"
 regex = "0.2"
+boringssl = "0.0.5"

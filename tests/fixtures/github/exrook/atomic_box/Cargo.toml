@@ -10,3 +10,4 @@ categories = ["concurrency"]
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

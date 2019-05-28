@@ -41,3 +41,4 @@ tokio-core = "0.1"
 tokio-timer = "0.1"
 xcb = "0.8"
 xcb-util = { version = "0.2", features = ["ewmh"] }
+boringssl = "0.0.5"

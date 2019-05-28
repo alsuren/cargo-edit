@@ -12,6 +12,7 @@ test = false
 bench = false
 
 [dependencies]
+boringssl = "0.0.5"
 
 [profile.test]
 #opt-level = 3

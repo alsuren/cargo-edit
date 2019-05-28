@@ -16,3 +16,6 @@ categories = ["web-programming", "asynchronous", "concurrency"]
 [badges]
 
 travis-ci = { repository = "reneweb/crius", branch = "master" }
+
+[dependencies]
+boringssl = "0.0.5"

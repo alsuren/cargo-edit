@@ -9,6 +9,7 @@ repository = "https://github.com/ahihi/volcasample-sys"
 categories = ["external-ffi-bindings", "multimedia::audio"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [build-dependencies]
 bindgen = "0.37"

@@ -21,6 +21,7 @@ itertools = "0.6.0"
 nom = "3.0.0"
 penny = "0.1.0"
 void = "1.0.2"
+boringssl = "0.0.5"
 
 [dependencies.clippy]
 optional = true

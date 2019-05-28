@@ -8,3 +8,6 @@ keywords = ["demo", "hello-world"]
 homepage = "https://github.com/donaldpipowitch/rust-hello-world"
 repository = "https://github.com/donaldpipowitch/rust-hello-world"
 documentation = "https://github.com/donaldpipowitch/rust-hello-world"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -23,3 +23,4 @@ log = "0.4.4"
 env_logger = { version = "0.5.13", default-features = false, features = [] }
 structopt = "0.2.10"
 derive_more = "0.14.0"
+boringssl = "0.0.5"

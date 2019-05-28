@@ -16,6 +16,7 @@ log = "0.4"
 regex-syntax = "0.6"
 
 hyperscan-sys = { version = "0.1.7", path = "hyperscan-sys" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.5"

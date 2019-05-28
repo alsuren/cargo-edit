@@ -21,3 +21,6 @@ travis-ci = { repository = "levzhazeschi/rust-bfi", branch = "master" }
 
 [profile.test]
 opt-level = 3
+
+[dependencies]
+boringssl = "0.0.5"

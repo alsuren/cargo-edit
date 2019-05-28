@@ -19,6 +19,7 @@ maintenance = { status = "actively-developed" }
 [dependencies]
 darling_core = { version = "=0.9.0", path = "core" }
 darling_macro = { version = "=0.9.0", path = "macro" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 proc-macro2 = "0.4"

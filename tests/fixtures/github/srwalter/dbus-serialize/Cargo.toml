@@ -9,3 +9,4 @@ authors = ["Steven Walter <stevenrwalter@gmail.com>"]
 
 [dependencies]
 rustc-serialize = "0.3"
+boringssl = "0.0.5"

@@ -10,3 +10,4 @@ repository = "https://github.com/lfairy/unicode-casefold"
 description = "Unicode-aware case folding."
 
 [dependencies]
+boringssl = "0.0.5"

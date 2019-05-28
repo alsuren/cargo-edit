@@ -7,3 +7,6 @@ repository = "https://github.com/reem/rust-replace-map"
 description = "Perform by-value operations through an &mut reference."
 license = "MIT"
 
+[dependencies]
+boringssl = "0.0.5"
+

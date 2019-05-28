@@ -10,3 +10,4 @@ homepage = "https://github.com/kondrak/disasm6502"
 documentation = "https://docs.rs/disasm6502"
 
 [dependencies]
+boringssl = "0.0.5"

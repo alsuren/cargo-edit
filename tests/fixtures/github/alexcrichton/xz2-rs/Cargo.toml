@@ -22,6 +22,7 @@ members = ["systest"]
 lzma-sys = { path = "lzma-sys", version = "0.1.11" }
 tokio-io = { version = "0.1.12", optional = true }
 futures = { version = "0.1.26", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.6.5"

@@ -14,6 +14,7 @@ keywords = ["queue", "tokio","mpmc", "mpsc", "scheduler"]
 futures = "0.1"
 npnc = "0.2"
 bus = "2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio = "0.1"

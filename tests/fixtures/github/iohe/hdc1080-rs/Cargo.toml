@@ -28,6 +28,7 @@ maintenance = { status = "actively-developed" }
 [dependencies]
 i2cdev = "0.4.1"
 byteorder = {version = "1", default-features=false}
+boringssl = "0.0.5"
 
 
 [dev-dependencies]

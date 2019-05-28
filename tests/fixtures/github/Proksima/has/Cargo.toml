@@ -11,3 +11,6 @@ readme        = "README.md"
 keywords      = ["oop", "has", "hasa", "object", "paradigm"]
 license       = "MPL-2.0"
 
+[dependencies]
+boringssl = "0.0.5"
+

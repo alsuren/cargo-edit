@@ -9,6 +9,7 @@ repository = "https://github.com/LPGhatguy/all-term.git"
 
 [dependencies]
 lazy_static = "1.2"
+boringssl = "0.0.5"
 
 [target.'cfg(unix)'.dependencies]
 libc = "0.2"

@@ -11,13 +11,6 @@ categories = ["development-tools::build-utils"]
 readme = "README.md"
 license = "0BSD"
 
-[dependencies]
-pkg-version-impl = { path = "pkg-version-impl", version = "0.1.0" }
-proc-macro-hack = "0.5.5"
-
-[dev-dependencies]
-version-sync = "0.8"
-
 
 # cargo-release configuration
 [package.metadata.release]
@@ -49,5 +42,13 @@ replace = "https://docs.rs/pkg-version/{{version}}"
 file    = "src/lib.rs"
 search  = "\"[0-9\\.-]+[0-9a-z\\.-]*\""
 replace = "\"{{version}}\""
+
+[dependencies]
+pkg-version-impl = { path = "pkg-version-impl", version = "0.1.0" }
+proc-macro-hack = "0.5.5"
+boringssl = "0.0.5"
+
+[dev-dependencies]
+version-sync = "0.8"
 
 [workspace]

@@ -14,3 +14,6 @@ The CBOR Event library. There are no dependencies, all platforms are supported a
 
 [dev-dependencies]
 quickcheck = "0.7"
+
+[dependencies]
+boringssl = "0.0.5"

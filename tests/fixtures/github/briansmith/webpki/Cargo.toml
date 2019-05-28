@@ -67,6 +67,7 @@ std = []
 [dependencies]
 ring = { git = "https://github.com/briansmith/ring" }
 untrusted = { git = "https://github.com/briansmith/untrusted", tag = "ring-master"  }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 base64 = "0.9.1"

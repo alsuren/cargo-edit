@@ -19,6 +19,7 @@ erased-serde = "0.3.8"
 futures = "0.1.25"
 serde_derive = "1.0.85"
 actix-web = "0.7.18"
+boringssl = "0.0.5"
 
 [dependencies.serde]
 features = ["derive"]

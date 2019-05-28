@@ -26,3 +26,6 @@ pbr = "1.0.0"
 quickersort = "2.2.0"
 rand = "0.3.15"
 time = "0.1.37"
+
+[dependencies]
+boringssl = "0.0.5"

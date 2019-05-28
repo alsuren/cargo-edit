@@ -23,6 +23,7 @@ proc-macro2 = "0.4"
 quote = "0.6"
 syn = { version = "0.15", default-features = false, features = ["clone-impls", "derive", "full", "parsing", "printing", "visit-mut", "extra-traits"] }
 unicode-xid = { version = "0.1" }
+boringssl = "0.0.5"
 
 [features]
 default = [] # The default build is more stable but doesn't let us produce custom warnings from the macro.

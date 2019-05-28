@@ -31,6 +31,7 @@ askama = "0.7"
 rand = "0.5"
 chrono = "0.4"
 diesel-derive-enum = { version = "0.4", features = ["sqlite"] }
+boringssl = "0.0.5"
 
 [build-dependencies]
 askama = "0.7"

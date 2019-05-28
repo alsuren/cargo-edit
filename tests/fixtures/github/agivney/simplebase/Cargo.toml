@@ -12,5 +12,6 @@ categories = ["database-implementations"]
 
 [dependencies]
 fs2 = "0.4.3"
+boringssl = "0.0.5"
 
 

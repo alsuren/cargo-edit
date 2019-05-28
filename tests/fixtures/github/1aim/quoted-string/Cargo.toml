@@ -15,4 +15,7 @@ categories    = ["encoding"]
 [badges]
 maintenance = { status = "actively-developed" }
 
+[dependencies]
+boringssl = "0.0.5"
+
 

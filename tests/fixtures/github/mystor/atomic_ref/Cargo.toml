@@ -11,3 +11,4 @@ license = "MIT"
 keywords = ["atomic", "reference", "static"]
 
 [dependencies]
+boringssl = "0.0.5"

@@ -12,3 +12,4 @@ homepage = "https://github.com/pzol/r18n"
 
 [dependencies]
 toml = "*"
+boringssl = "0.0.5"

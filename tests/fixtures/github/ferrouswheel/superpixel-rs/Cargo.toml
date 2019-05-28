@@ -17,6 +17,7 @@ image = "0.19.0"
 num-traits = "0.2.5"
 docopt = { version = "0.6", optional = true }
 rustc-serialize = "0.3"
+boringssl = "0.0.5"
 
 [features]
 build-binary = ["docopt"]

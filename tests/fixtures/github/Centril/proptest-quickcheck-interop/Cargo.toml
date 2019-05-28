@@ -18,3 +18,4 @@ Provides an interoperability layer for reuse of quickcheck::Arbitrary impls in p
 [dependencies]
 proptest   = "0.4.1"
 quickcheck = "0.6.0"
+boringssl = "0.0.5"

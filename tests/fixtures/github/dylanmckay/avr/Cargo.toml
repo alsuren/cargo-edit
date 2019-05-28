@@ -12,6 +12,7 @@ documentation = "https://docs.rs/avr"
 keywords = ["avr", "emulator", "microcontroller", "io", "cpu"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [[bin]]
 name = "emulator"

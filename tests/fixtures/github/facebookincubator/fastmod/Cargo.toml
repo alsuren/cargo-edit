@@ -22,6 +22,7 @@ rprompt = "1.0.3"
 scopeguard = "1.0.0"
 term = "0.5.1"
 term_size = "0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assert_cli = "0.5"

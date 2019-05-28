@@ -19,6 +19,7 @@ digest = "0.8"
 subtle = "2"
 arrayref = "0.3"
 byteorder = "1.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.6"

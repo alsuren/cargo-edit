@@ -32,3 +32,4 @@ compiletest_rs = "^0.2.0"
 [dependencies]
 num-traits = "^0.1.0"
 fnv = { version = "^1.0", optional = true }
+boringssl = "0.0.5"

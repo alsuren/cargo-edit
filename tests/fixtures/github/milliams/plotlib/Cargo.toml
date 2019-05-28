@@ -16,3 +16,4 @@ travis-ci = { repository = "milliams/plotlib" }
 [dependencies]
 svg = "0.5.12"
 failure = "0.1.5"
+boringssl = "0.0.5"

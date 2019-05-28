@@ -16,3 +16,4 @@ appveyor = { repository = "magiclen/random-pick", branch = "master", service = "
 
 [dependencies]
 random-integer = "1.0.0"
+boringssl = "0.0.5"

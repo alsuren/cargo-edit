@@ -8,3 +8,4 @@ description = "the unix tree command"
 repository = "https://github.com/kwebi/tree-cli"
 
 [dependencies]
+boringssl = "0.0.5"

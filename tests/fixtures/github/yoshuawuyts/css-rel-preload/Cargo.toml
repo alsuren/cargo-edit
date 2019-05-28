@@ -7,3 +7,6 @@ documentation = "https://docs.rs/css-rel-preload"
 description = "LoadCSS's cssrelpreload.js file"
 authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

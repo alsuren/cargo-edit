@@ -15,3 +15,4 @@ readme = "README.md"
 travis-ci = { repository = "cheezgi/nccl" }
 
 [dependencies]
+boringssl = "0.0.5"

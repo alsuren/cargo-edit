@@ -8,6 +8,7 @@ keywords = [ "changeset" ]
 license = "MIT"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [features]
 default = [ "std" ]

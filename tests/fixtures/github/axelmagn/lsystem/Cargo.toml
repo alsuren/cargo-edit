@@ -35,3 +35,6 @@ license = "MIT"
 [[bin]]
 name = "algae"
 path = "src/bin/algae_str.rs"
+
+[dependencies]
+boringssl = "0.0.5"

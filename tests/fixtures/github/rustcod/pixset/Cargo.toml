@@ -12,3 +12,4 @@ Generates a tileset from a RustType compatible font
 
 [dependencies]
 pixset_derive = { path = "pixset_derive", version = "0.0.6-pre" }
+boringssl = "0.0.5"

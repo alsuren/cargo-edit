@@ -29,6 +29,7 @@ mpmc = "0.1.2"
 tiny_http = "0.5.8"
 time = "0.1.37"
 waterfall = "0.7.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.3.16"

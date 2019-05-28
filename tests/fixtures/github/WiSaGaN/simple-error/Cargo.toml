@@ -12,3 +12,4 @@ A simple error type backed by a string
 keywords = ["error", "simple-error"]
 
 [dependencies]
+boringssl = "0.0.5"

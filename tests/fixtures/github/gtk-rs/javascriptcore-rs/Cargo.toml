@@ -12,6 +12,9 @@ keywords = ["javascript", "gtk-rs", "gnome"]
 [lib]
 name = "javascriptcore"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.glib]
 git = "https://github.com/gtk-rs/glib"
 

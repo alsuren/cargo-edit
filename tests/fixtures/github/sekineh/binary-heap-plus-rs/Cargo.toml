@@ -10,3 +10,4 @@ keywords = ["binary", "heap", "priority", "queue"]
 category = ["data-structures", "algorithms", ]
 
 [dependencies]
+boringssl = "0.0.5"

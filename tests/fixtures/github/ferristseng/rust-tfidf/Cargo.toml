@@ -13,3 +13,4 @@ name = "tfidf"
 
 [dependencies]
 num = "0.1.*"
+boringssl = "0.0.5"

@@ -17,6 +17,7 @@ exclude = [
 libc = "0.1"
 delegate = "0.1"
 chrono = "0.3"
+boringssl = "0.0.5"
 
 [build-dependencies.pkg-config]
 version = "0.3.9"

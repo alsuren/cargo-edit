@@ -13,3 +13,4 @@ license = "MIT"
 travis-ci = { repository = "CodeSandwich/trim_matches_exactly" }
 
 [dependencies]
+boringssl = "0.0.5"

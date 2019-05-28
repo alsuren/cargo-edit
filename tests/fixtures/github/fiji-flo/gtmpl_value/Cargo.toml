@@ -12,3 +12,6 @@ include = ["Cargo.toml", "src/**/*.rs", "tests/**/*.rs", "README.md", "LICENSE"]
 
 [badges]
 travis-ci = { repository = "fiji-flo/gtmpl_value" }
+
+[dependencies]
+boringssl = "0.0.5"

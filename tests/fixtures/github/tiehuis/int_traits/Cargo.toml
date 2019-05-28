@@ -10,3 +10,4 @@ keywords = ["integer", "int", "trait", "traits"]
 license = "Apache-2.0/MIT"
 
 [dependencies]
+boringssl = "0.0.5"

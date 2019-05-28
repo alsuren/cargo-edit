@@ -7,3 +7,6 @@ homepage = "https://andydude.github.io/rust-bswap/bswap/index.html"
 repository = "https://github.com/andydude/rust-bswap/"
 description = "A Rust library for byte-swapping integers, pointers, and slices."
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

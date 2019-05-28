@@ -10,3 +10,4 @@ repository = "https://github.com/rakenodiax/alien"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

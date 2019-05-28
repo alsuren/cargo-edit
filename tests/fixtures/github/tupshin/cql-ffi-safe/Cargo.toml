@@ -36,6 +36,9 @@ path = "src/bin/simple.rs"
 name = "cql_ffi_safe"
 path = "src/lib.rs"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.cql_ffi]
 # git = "https://github.com/tupshin/cql-ffi"
 cql_ffi = "*"

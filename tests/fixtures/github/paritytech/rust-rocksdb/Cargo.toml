@@ -21,6 +21,7 @@ path = "test/test.rs"
 libc = "0.2"
 parity-rocksdb-sys = { path = "rocksdb-sys", version = "0.5" }
 local-encoding = "0.2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3"

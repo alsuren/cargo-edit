@@ -12,6 +12,7 @@ categories = ["algorithms", "science"]
 keywords = ["field", "galois"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 proptest = "0.8.7"

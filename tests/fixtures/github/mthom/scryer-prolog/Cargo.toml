@@ -18,6 +18,7 @@ prolog_parser = "0.8.27"
 readline_rs_compat = { version = "0.1.9", optional = true }
 ref_thread_local = "0.0.0"
 rug = "1.4.0"
+boringssl = "0.0.5"
 
 [dependencies.termion]
 version = "1.4.0"

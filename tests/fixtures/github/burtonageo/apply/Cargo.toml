@@ -6,3 +6,6 @@ description = "A tiny library for chaining free functions into method call chain
 readme = "./Readme.md"
 repository = "https://github.com/burtonageo/apply"
 license_file = "./License.md"
+
+[dependencies]
+boringssl = "0.0.5"

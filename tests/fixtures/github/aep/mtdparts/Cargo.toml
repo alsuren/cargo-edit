@@ -5,3 +5,6 @@ authors = ["Arvid E. Picciani <aep@exys.org>"]
 description = "parses /proc/mtd"
 repository = "https://github.com/aep/mtdparts"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

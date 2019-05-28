@@ -36,3 +36,4 @@ env_logger = "0.3"
 "mqtt3" = "0.1" # { path = "mqtt3" }
 "netopt" = "0.1" # { path = "netopt" }
 "mqttc" = "0.1" # { path = "mqttc" }
+boringssl = "0.0.5"

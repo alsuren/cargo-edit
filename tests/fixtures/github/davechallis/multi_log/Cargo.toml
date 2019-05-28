@@ -10,6 +10,7 @@ authors = ["Dave Challis <suicas@gmail.com>"]
 
 [dependencies]
 log = { version = "0.4", features = ["std"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.5"

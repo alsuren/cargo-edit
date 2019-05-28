@@ -11,3 +11,4 @@ license = "MPL-2.0"
 
 [dependencies]
 unicode-segmentation = "0.1.2"
+boringssl = "0.0.5"

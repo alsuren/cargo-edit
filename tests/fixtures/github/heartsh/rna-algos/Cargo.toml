@@ -16,6 +16,7 @@ scoped_threadpool = "0.1"
 getopts = "0.2"
 bio = "0.20"
 num_cpus = "1.0"
+boringssl = "0.0.5"
 
 [lib]
 path = "src/lib.rs"

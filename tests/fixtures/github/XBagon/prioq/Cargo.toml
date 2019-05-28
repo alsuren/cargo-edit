@@ -8,3 +8,4 @@ repository = "https://github.com/XBagon/prioq"
 
 [dependencies]
 binary-heap-plus = "0.1.4"
+boringssl = "0.0.5"

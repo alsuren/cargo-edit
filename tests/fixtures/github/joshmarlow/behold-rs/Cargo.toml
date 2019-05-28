@@ -17,6 +17,7 @@ travis-ci = {repository = "joshmarlow/behold-rs", branch="master"}
 
 [dependencies]
 lazy_static = "1.0"
+boringssl = "0.0.5"
 
 [build-dependencies]
 skeptic = "0.13.3"

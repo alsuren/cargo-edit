@@ -21,6 +21,7 @@ pistoncore-input = "^0.8"
 pistoncore-window = "^0.14"
 piston-viewport = "^0.2"
 rustc-serialize = "^0.3"
+boringssl = "0.0.5"
 
 [dependencies.fnv]
 version = "1.0.0"

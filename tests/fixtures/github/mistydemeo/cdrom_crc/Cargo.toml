@@ -10,3 +10,4 @@ readme = "README.md"
 keywords = ["cd", "cd-rom", "compact_disc", "crc", "crc16"]
 
 [dependencies]
+boringssl = "0.0.5"

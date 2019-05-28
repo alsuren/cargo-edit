@@ -45,5 +45,6 @@ tokio = "0.1.7"
 tokio-executor = "0.1.0"
 
 amethyst = { git = "https://github.com/jojolepro/amethyst", branch="hoppinworld" }
+boringssl = "0.0.5"
 #amethyst = { git = "https://github.com/jojolepro/amethyst", branch="activecamera", features = ["nightly"] }
 #amethyst-rhusics = { git = "https://github.com/amethyst/amethyst-rhusics" }

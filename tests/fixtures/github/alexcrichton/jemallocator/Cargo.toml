@@ -20,6 +20,10 @@ A Rust allocator backed by jemalloc
 """
 edition = "2015"
 
+[package.metadata.docs.rs]
+features = [ "alloc_trait" ]
+rustdoc-args = [ "--cfg", "jemallocator_docs" ]
+
 [badges]
 appveyor = { repository = "gnzlbg/jemallocator" }
 travis-ci = { repository = "gnzlbg/jemallocator" }
@@ -38,6 +42,7 @@ members = ["systest", "jemallocator-global", "jemalloc-ctl", "jemalloc-sys" ]
 [dependencies]
 jemalloc-sys = { path = "jemalloc-sys", version = "0.3.0", default-features = false }
 libc = { version = "^0.2.8", default-features = false }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 paste = "0.1"
@@ -53,7 +58,3 @@ background_threads_runtime_support = ["jemalloc-sys/background_threads_runtime_s
 background_threads = ["jemalloc-sys/background_threads"]
 unprefixed_malloc_on_supported_platforms = ["jemalloc-sys/unprefixed_malloc_on_supported_platforms"]
 disable_initial_exec_tls = ["jemalloc-sys/disable_initial_exec_tls"]
-
-[package.metadata.docs.rs]
-features = [ "alloc_trait" ]
-rustdoc-args = [ "--cfg", "jemallocator_docs" ]

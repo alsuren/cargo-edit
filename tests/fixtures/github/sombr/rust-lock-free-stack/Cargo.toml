@@ -12,3 +12,4 @@ repository = "https://github.com/sombr/rust-lock-free-stack"
 license = "MIT"
 
 [dependencies]
+boringssl = "0.0.5"

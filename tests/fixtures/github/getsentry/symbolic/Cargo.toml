@@ -53,6 +53,7 @@ symbolic-proguard = { version = "6.1.2", path = "proguard", optional = true }
 symbolic-sourcemap = { version = "6.1.2", path = "sourcemap", optional = true }
 symbolic-symcache = { version = "6.1.2", path = "symcache", optional = true }
 symbolic-unreal = { version = "6.1.2", path = "unreal", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "2.32.0"

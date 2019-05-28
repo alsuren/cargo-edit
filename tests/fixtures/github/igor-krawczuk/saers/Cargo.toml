@@ -8,3 +8,4 @@ repository = "https://github.com/igor-krawczuk/saers.git"
 homepage = "https://github.com/igor-krawczuk/saers"
 
 [dependencies]
+boringssl = "0.0.5"

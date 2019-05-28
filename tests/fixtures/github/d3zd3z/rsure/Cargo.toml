@@ -34,6 +34,7 @@ structopt = "0.2"
 
 # This will go away
 env_logger = "0.6"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3"

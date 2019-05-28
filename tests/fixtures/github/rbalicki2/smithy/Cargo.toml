@@ -1,8 +1,0 @@
-[workspace]
-
-members = [
-  "crates/smd_macro",
-  "crates/smithy_types",
-  "crates/smithy_core",
-  "crates/smithy",
-]

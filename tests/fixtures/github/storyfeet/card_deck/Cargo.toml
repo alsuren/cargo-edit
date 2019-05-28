@@ -10,3 +10,4 @@ keywords = ["Generic","Card","Deck"]
 [dependencies]
 
 rand = "0.5.5"
+boringssl = "0.0.5"

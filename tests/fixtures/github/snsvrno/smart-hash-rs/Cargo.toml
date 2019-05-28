@@ -1,7 +1,0 @@
-[workspace]
-
-members = [
-    "smart-hash",
-    "smart-hash-derive",
-    "smart-hash-test"
-]

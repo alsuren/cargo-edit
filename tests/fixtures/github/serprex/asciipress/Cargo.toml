@@ -5,3 +5,6 @@ authors = ["serprex"]
 repository = "https://github.com/serprex/asciipress"
 description = "Encode 5 ascii characters into 2 utf8 characters"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -14,3 +14,4 @@ readme = "README.md"
 [dependencies]
 failures_crate = { version = "0.1", path = "./src/ch09/failures_crate" }
 csv_challenge = { version = "0.1", path = "./src/ch10/csv_challenge" }
+boringssl = "0.0.5"

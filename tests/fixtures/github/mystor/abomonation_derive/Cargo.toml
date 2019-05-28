@@ -17,6 +17,7 @@ proc-macro2 = "0.4"
 syn = "0.15"
 quote = "0.6"
 synstructure = "0.10"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 abomonation = "0.7"

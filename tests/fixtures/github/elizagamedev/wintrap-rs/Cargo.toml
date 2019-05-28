@@ -10,19 +10,20 @@ readme = "README.md"
 keywords = ["windows", "signal", "unix", "trap", "win32"]
 license = "MIT"
 
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+all-features = true
+
 [dependencies]
 winapi = { version = "0.3", features = ["minwindef", "windef", "consoleapi", "winuser", "errhandlingapi", "libloaderapi", "winbase"] }
 lazy_static = "1.2"
 crossbeam-channel = "0.3"
 futures = { version = "0.1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 futures = "0.1"
 tokio = "0.1.15"
-
-[package.metadata.docs.rs]
-default-target = "x86_64-pc-windows-msvc"
-all-features = true
 
 [[example]]
 name = "futures"

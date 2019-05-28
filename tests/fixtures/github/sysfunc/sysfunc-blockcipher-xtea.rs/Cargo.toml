@@ -19,3 +19,6 @@ include = [
 description = """
 Simple XTEA block cipher implementation #![no_std].
 """
+
+[dependencies]
+boringssl = "0.0.5"

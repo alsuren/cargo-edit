@@ -12,3 +12,4 @@ documentation = "https://docs.rs/kai"
 repository = "https://github.com/kaikalii/kai"
 
 [dependencies]
+boringssl = "0.0.5"

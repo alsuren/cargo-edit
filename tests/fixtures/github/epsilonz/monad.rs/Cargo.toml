@@ -31,6 +31,12 @@ doc = false
 name = "state-free"
 path = "examples/state/free.rs"
 
+[dependencies]
+
+free = "*"
+tailrec = "*"
+boringssl = "0.0.5"
+
 # [[bin]]
 # doc = false
 # name = "state-trampoline"
@@ -39,8 +45,3 @@ path = "examples/state/free.rs"
 [dependencies.monad_macros]
 path = "./macros"
 version = "*"
-
-[dependencies]
-
-free = "*"
-tailrec = "*"

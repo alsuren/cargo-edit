@@ -9,6 +9,9 @@ repository = "https://github.com/ebarnard/alac.rs"
 keywords = ["decoder", "audio", "mp4", "m4a", "caf"]
 license = "MIT/Apache-2.0"
 
+[package.metadata.docs.rs]
+all-features = true
+
 [features]
 default = ["mp4"]
 mp4 = ["mp4parse"]
@@ -16,9 +19,7 @@ mp4 = ["mp4parse"]
 [dependencies]
 caf = { version = "0.1.0", optional = true }
 mp4parse = { version = "0.10.0", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 hound = "3.3.0"
-
-[package.metadata.docs.rs]
-all-features = true

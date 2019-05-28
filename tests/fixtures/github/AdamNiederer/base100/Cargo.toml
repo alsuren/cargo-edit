@@ -10,6 +10,7 @@ license = "AGPL-3.0"
 clap = { version = "2.19", features = ["yaml"] }
 stdsimd = { version = "0.0.3", optional = true }
 faster = { git = "https://github.com/AdamNiederer/faster", branch = "master", optional = true }
+boringssl = "0.0.5"
 
 [features]
 simd = ["stdsimd", "faster"]

@@ -14,3 +14,4 @@ exclude = []
 name = "asi_core0"
 
 [dependencies]
+boringssl = "0.0.5"

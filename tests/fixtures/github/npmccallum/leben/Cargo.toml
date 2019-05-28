@@ -13,6 +13,7 @@ readme = "README.md"
 codicon = "2.0.0"
 signrel = "1.0.0"
 uabs = "1.0.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 leb128 = "0.2.1"

@@ -9,3 +9,4 @@ homepage = "https://github.com/rbone/rust-money"
 
 
 [dependencies]
+boringssl = "0.0.5"

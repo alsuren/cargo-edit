@@ -16,6 +16,9 @@ edition = "2018"
 default-target = "x86_64-pc-windows-msvc"
 features = ["func-types", "nightly"]
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.winapi]
 version = "0.3.6"
 features = ["cfg", "evntrace", "in6addr", "inaddr", "minwinbase", "ntsecapi", "windef", "winioctl"]

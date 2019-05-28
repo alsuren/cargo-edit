@@ -8,3 +8,6 @@ readme = "README.md"
 keywords = ["pinyin", "chinese", "hanzi"]
 categories = ["localization", "value-formatting"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

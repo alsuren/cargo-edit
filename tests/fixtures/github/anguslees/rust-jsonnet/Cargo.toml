@@ -18,6 +18,7 @@ name = "jsonnet"
 [dependencies]
 libc = "0.2"
 jsonnet-sys = { path = "jsonnet-sys", version = "0.6.0" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "2.31"

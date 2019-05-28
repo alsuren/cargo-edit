@@ -24,6 +24,7 @@ stripe-rust = "0.4.7"
 #stripe-rust = { path = "/www/labs/stripe-rs" }
 #stripe-rust = { git = "https://github.com/fgribreau/stripe-rs", branch = "master" }
 log = "0.4"
+boringssl = "0.0.5"
 
 [dependencies.rocket_contrib]
 version = "0.3.12"

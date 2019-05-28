@@ -23,6 +23,7 @@ scroll = "0.9"
 prettytable-rs = "0.8"
 env_logger = "0.6"
 failure = "0.1"
+boringssl = "0.0.5"
 
 # metagoblin can break us by publishing 0.1.1 updates to update it's goblin
 # but that's ok, because we have a lock file and we're in control of the metagoblin

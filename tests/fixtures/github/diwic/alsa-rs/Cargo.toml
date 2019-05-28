@@ -16,6 +16,7 @@ libc = "0.2.21"
 alsa-sys = "0.1.1"
 bitflags = "0.9"
 nix = "0.9"
+boringssl = "0.0.5"
 
 [badges]
 is-it-maintained-issue-resolution = { repository = "diwic/alsa-rs" }

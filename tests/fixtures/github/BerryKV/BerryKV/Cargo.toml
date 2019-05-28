@@ -10,3 +10,4 @@ homepage = 'https://github.com/BerryKV/BerryKV'
 repository = 'https://github.com/BerryKV/BerryKV'
 
 [dependencies]
+boringssl = "0.0.5"

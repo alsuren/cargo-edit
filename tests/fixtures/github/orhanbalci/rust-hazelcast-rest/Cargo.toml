@@ -11,3 +11,4 @@ exclude=[".travis.yml"]
 
 [dependencies]
 hyper = "0.9.8"
+boringssl = "0.0.5"

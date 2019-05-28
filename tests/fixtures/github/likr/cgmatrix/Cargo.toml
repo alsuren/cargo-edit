@@ -10,3 +10,4 @@ readme = "README.md"
 description = "Simple matrix library for computer graphics in Rust."
 
 [dependencies]
+boringssl = "0.0.5"

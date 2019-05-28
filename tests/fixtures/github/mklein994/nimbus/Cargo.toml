@@ -8,6 +8,7 @@ license = "MIT"
 repository = "https://github.com/mklein994/nimbus"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [badges.maintenance]
 status = "experimental"

@@ -11,3 +11,4 @@ readme = "README.md"
 license = "ISC"
 
 [dependencies]
+boringssl = "0.0.5"

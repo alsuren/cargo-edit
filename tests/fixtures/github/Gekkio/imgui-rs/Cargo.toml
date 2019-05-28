@@ -15,6 +15,7 @@ travis-ci = { repository = "Gekkio/imgui-rs" }
 
 [dependencies]
 imgui-sys = { version = "0.0.24-pre", path = "imgui-sys" }
+boringssl = "0.0.5"
 
 [workspace]
 members = [

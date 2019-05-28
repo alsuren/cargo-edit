@@ -11,3 +11,4 @@ repository = "https://github.com/endoli/burst.rs"
 documentation = "https://docs.rs/burst/"
 
 [dependencies]
+boringssl = "0.0.5"

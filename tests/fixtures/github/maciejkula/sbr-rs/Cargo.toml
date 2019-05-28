@@ -27,6 +27,7 @@ csv = { version = "1.0.0", optional = true }
 dirs = { version = "1.0.2", optional = true }
 
 wyrm = { version = "0.9.1", features = ["fast-math"]}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_json = "1.0"
@@ -42,10 +43,10 @@ lto = true
 rpath = true
 debug = true
 
-[[bench]]
-name = "benchmark"
-harness = false
-
 [profile.bench]
 lto = true
 debug = true
+
+[[bench]]
+name = "benchmark"
+harness = false

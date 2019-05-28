@@ -10,3 +10,6 @@ categories = [ "rust-patterns" ]
 description = """
 Join a list of items to string/buffer.
 """
+
+[dependencies]
+boringssl = "0.0.5"

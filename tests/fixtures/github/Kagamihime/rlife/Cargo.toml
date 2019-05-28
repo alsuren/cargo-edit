@@ -11,3 +11,4 @@ keywords = ["cellular_automata", "life", "gpu", "vulkan"]
 rand = "0.5"
 vulkano = "0.10"
 vulkano-shader-derive = "0.10"
+boringssl = "0.0.5"

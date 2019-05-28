@@ -19,3 +19,4 @@ nightly = []
 [dependencies]
 cfg-if = "0.1"
 memchr = { version = "2", default-features = false }
+boringssl = "0.0.5"

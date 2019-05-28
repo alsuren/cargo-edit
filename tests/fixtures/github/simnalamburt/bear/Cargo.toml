@@ -9,3 +9,6 @@ repository    = "https://github.com/simnalamburt/bear"
 readme        = "README.md"
 keywords      = ["test"]
 license       = "BSD-2-Clause"
+
+[dependencies]
+boringssl = "0.0.5"

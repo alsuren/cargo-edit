@@ -10,3 +10,4 @@ homepage = "https://github.com/klangner/hmm"
 documentation = "https://docs.rs/hmm"
 
 [dependencies]
+boringssl = "0.0.5"

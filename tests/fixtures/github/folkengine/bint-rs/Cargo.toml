@@ -11,6 +11,7 @@ description = "Bounded Integer in Rust."
 
 [dependencies]
 clippy = {version = "0.0.302", optional = true}
+boringssl = "0.0.5"
 
 [features]
 default = []

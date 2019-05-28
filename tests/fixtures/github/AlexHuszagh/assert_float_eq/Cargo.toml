@@ -16,3 +16,6 @@ travis-ci = { repository = "AlexHuszagh/assert_float_eq" }
 [features]
 default = ["std"]
 std = []
+
+[dependencies]
+boringssl = "0.0.5"

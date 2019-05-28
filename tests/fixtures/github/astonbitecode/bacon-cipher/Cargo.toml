@@ -14,6 +14,7 @@ travis-ci = { repository = "astonbitecode/bacon-cipher", branch = "master" }
 
 [dependencies]
 html5ever = { version = "0.22", optional = true }
+boringssl = "0.0.5"
 
 [features]
 # Enables the tags steganographer

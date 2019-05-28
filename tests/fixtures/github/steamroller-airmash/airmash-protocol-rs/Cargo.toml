@@ -24,6 +24,7 @@ specs-derive = "0.4"
 derive_more = "0.13"
 enum-primitive-derive = "0.1"
 num-traits = "0.2"
+boringssl = "0.0.5"
 
 [dependencies.specs]
 version = "0.14"

@@ -9,3 +9,4 @@ repository = "https://github.com/jwaterfaucett/rs-nmbr_bounded.git"
 keywords = ["mathematics", "numerics", "numbers", "bounds", "limits"]
 
 [dependencies]
+boringssl = "0.0.5"

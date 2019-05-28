@@ -24,6 +24,7 @@ rand = "0.6.5"
 subtle = "2.0.0"
 digest = "0.8.0"
 failure = "0.1.5"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 sha2 = "0.8.0"

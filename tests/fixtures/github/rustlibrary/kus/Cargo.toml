@@ -33,3 +33,4 @@ license = "AGPL-1.0"
 
 
 [dependencies]
+boringssl = "0.0.5"

@@ -11,6 +11,7 @@ readme = "README.md"
 error-chain = "0.10"
 regex = "0.2"
 lazy_static = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 spectral = "0.6"

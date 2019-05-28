@@ -21,6 +21,7 @@ ignore = ["packer_derive/ignore"]
 [dependencies]
 lazy_static = "1.2"
 packer_derive = { version = "0.4", path = "packer_derive" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 sha2 = "0.8"

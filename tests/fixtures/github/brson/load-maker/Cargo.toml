@@ -10,3 +10,4 @@ license = "MIT"
 
 [dependencies]
 num_cpus = "1.10.0"
+boringssl = "0.0.5"

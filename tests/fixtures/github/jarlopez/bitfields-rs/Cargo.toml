@@ -7,3 +7,4 @@ repository = "https://github.com/jarlopez/bitfields-rs"
 license = "WTFPL"
 
 [dependencies]
+boringssl = "0.0.5"

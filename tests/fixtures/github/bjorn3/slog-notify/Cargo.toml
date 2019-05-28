@@ -13,6 +13,7 @@ slog = "2"
 slog-term = "2"
 
 notify-rust = "3.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 slog-async = "2"

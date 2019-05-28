@@ -27,3 +27,4 @@ path = "src/bin/brain.rs"
 
 [dependencies]
 clap = "2.21.1"
+boringssl = "0.0.5"

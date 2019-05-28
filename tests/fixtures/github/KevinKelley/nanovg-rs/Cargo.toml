@@ -24,6 +24,7 @@ gles3 = ["nanovg-sys/gles3"]
 
 [dependencies]
 nanovg-sys = { path = "nanovg-sys", version = "1.0.2" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 glutin = "0.13.0"

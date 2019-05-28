@@ -9,6 +9,7 @@ repository = "https://github.com/anowell/quasar"
 rustc-serialize = "0.3.18"
 downcast-rs = "0.1.2"
 uuid = { version = "0.4.0", features = ["v4"] }
+boringssl = "0.0.5"
 
 [dependencies.webplatform]
 #git = "https://github.com/anowell/rust-webplatform.git"

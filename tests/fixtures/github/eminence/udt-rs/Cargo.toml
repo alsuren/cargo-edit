@@ -16,6 +16,7 @@ libudt4-sys = {path = "libudt4-sys", version="0.2"}
 libc = "0.2"
 log = "0.3"
 bitflags = "0.7"
+boringssl = "0.0.5"
 
 [target.'cfg(windows)'.dependencies]
 winapi = "0.2"

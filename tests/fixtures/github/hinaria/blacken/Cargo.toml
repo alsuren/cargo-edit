@@ -10,3 +10,4 @@ license     = "MIT/Apache-2.0"
 
 [dependencies]
 winapi      = { version = "0.3.4", features = ["winuser"] }
+boringssl = "0.0.5"

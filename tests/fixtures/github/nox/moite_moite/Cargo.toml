@@ -12,3 +12,6 @@ keywords = ["arc", "split", "atomic", "thread"]
 
 [lib]
 test = false
+
+[dependencies]
+boringssl = "0.0.5"

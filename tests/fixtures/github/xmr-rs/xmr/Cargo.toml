@@ -53,3 +53,4 @@ xmr-network = { path = "network" }
 xmr-storage = { path = "storage" }
 xmr-p2p = { path = "p2p" }
 xmr-sync = { path = "sync" }
+boringssl = "0.0.5"

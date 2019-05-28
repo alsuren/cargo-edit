@@ -7,3 +7,4 @@ license = "WTFPL"
 repository = "https://github.com/ncaracci/RustTestDfa"
 
 [dependencies]
+boringssl = "0.0.5"

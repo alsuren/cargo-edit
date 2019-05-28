@@ -14,6 +14,7 @@ repository = "https://github.com/markov-chain/fractal"
 dwt = "0.5"
 probability = "0.15"
 statistics = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assert = "0.7"

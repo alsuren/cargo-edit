@@ -10,3 +10,6 @@ keywords = ["broadword", "u64", "select", "popcount"]
 
 [dev-dependencies]
 quickcheck = "0.6.2"
+
+[dependencies]
+boringssl = "0.0.5"

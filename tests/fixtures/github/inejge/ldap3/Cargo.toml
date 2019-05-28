@@ -23,10 +23,7 @@ tokio-io = "0.1.1"
 tokio-proto = "0.1"
 tokio-service = "0.1"
 url = "1.4.0"
-
-[target.'cfg(all(unix, not(feature = "minimal")))'.dependencies]
-tokio-uds = "0.1.4" 
-tokio-uds-proto = "0.1"
+boringssl = "0.0.5"
 
 [dependencies.lber]
 path = "lber"
@@ -35,6 +32,10 @@ version = "0.1.6"
 [dependencies.tokio-tls]
 version = "0.2"
 optional = true
+
+[target.'cfg(all(unix, not(feature = "minimal")))'.dependencies]
+tokio-uds = "0.1.4" 
+tokio-uds-proto = "0.1"
 
 [features]
 default = ["tls"]

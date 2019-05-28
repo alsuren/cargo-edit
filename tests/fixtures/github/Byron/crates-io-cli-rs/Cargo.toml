@@ -28,6 +28,7 @@ rustc-serialize = "0.3.22"
 tokio-core = "0.1.2"
 tokio-curl = "0.1.7"
 urlencoding = "1.0.0"
+boringssl = "0.0.5"
 
 [dependencies.prettytable-rs]
 default-features = false

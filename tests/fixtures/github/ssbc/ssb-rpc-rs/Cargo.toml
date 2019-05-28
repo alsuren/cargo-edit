@@ -16,6 +16,7 @@ ssb-common = "0.3.0"
 muxrpc = "0.2.0"
 serde = "1.0.27"
 serde_derive = "1.0.27"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 futures = "0.1.17"

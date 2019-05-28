@@ -12,3 +12,6 @@ repository = "https://github.com/TimNN/char-slice"
 homepage = "https://github.com/TimNN/char-slice"
 documentation = "https://timnn.github.io/char-slice/"
 
+[dependencies]
+boringssl = "0.0.5"
+

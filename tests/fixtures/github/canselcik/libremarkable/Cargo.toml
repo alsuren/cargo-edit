@@ -31,6 +31,7 @@ zstd = "0.4.14"
 stopwatch = "0.0.7"
 atomic = {version = "= 0.4.0", features = ["nightly"]}
 cgmath = "0.16"
+boringssl = "0.0.5"
 
 [features]
 enable-runtime-benchmarking = []

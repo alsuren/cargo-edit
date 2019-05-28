@@ -9,3 +9,6 @@ documentation = "http://byron.github.io/rust-sha1-hasher"
 repository = "https://github.com/Byron/rust-sha1-hasher"
 description = "Minimal implementation of SHA1 for Rust (with fixes and Hasher trait implementation). It was further optimized to produce 280MB/s, as opposed to 180MB/s."
 license = "BSD-3-Clause"
+
+[dependencies]
+boringssl = "0.0.5"

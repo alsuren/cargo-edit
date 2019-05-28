@@ -11,6 +11,7 @@ readme = "README.md"
 [dependencies]
 humantime = "1.0"
 serde = "1.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_derive = "1.0"

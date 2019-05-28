@@ -16,6 +16,7 @@ getopts = "0.2"
 base64 = "0.10"
 cfb = "0.3.1"
 flate2 = "0.2"
+boringssl = "0.0.5"
 
 [dependencies.nom]
 version = "^4.2"

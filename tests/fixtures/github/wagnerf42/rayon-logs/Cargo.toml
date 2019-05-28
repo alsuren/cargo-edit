@@ -32,6 +32,7 @@ rand="^0"
 libc="^0.2"
 # thread_binder={version="*", optional=true}
 thread_binder={git="https://github.com/wagnerf42/thread_binder", optional=true}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion="^0.2"

@@ -37,6 +37,7 @@ run-for-all = []
 user-hooks = []
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 libc = "0.2.43"

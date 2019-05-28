@@ -1,7 +1,0 @@
-[workspace]
-name = ""
-members = [
-	"bitfield-register",
-	"bitfield-register-macro",
-	"tests",
-]

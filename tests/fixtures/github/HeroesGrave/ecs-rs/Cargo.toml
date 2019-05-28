@@ -19,12 +19,13 @@ keywords = [
 # default = ["serialisation"] # Don't enable it by default yet
 serialisation = ["cereal"]
 
-[dependencies.cereal]
-version = "^0.3"
-optional = true
-
 # [dev-dependencies.cereal_macros] # Only works with nightly
 # version = "*"
 
 [dependencies]
 vec_map = "^0.4"
+boringssl = "0.0.5"
+
+[dependencies.cereal]
+version = "^0.3"
+optional = true

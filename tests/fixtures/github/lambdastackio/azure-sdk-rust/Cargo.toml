@@ -26,6 +26,7 @@ env_logger = "0"
 uuid = "0"
 time = "0"
 url = "0"
+boringssl = "0.0.5"
 
 [dependencies.hyper]
 version = "0"

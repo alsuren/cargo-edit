@@ -14,6 +14,9 @@ name = "autollvm"
 crate-type = ["dylib"]
 [build-dependencies]
 bindgen = "0.19.1"
+
+[dependencies]
+boringssl = "0.0.5"
 #[build-dependencies.bindgen]
 #git = "https://github.com/crabtw/rust-bindgen.git"
 

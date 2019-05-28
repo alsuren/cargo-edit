@@ -20,3 +20,6 @@ circle-ci = { repository = "alecmocatta/metatype" }
 travis-ci = { repository = "alecmocatta/metatype" }
 
 maintenance = { status = "actively-developed" }
+
+[dependencies]
+boringssl = "0.0.5"

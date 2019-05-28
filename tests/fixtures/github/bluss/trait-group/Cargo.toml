@@ -9,3 +9,4 @@ repository = "https://github.com/bluss/trait-group"
 description = "Macro to create a new trait that acts like an alias or “group” of a bunch of traits."
 
 [dependencies]
+boringssl = "0.0.5"

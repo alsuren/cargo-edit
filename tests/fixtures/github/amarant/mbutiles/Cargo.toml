@@ -18,6 +18,7 @@ regex = "0.1"
 stdio_logger = "0.1.1"
 log = "0.3"
 flate2 = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 jlens = "0.0.1"

@@ -16,3 +16,4 @@ travis-ci = { repository = "stbuehler/rust-boxfnonce" }
 appveyor = { repository = "stbuehler/rust-boxfnonce" }
 
 [dependencies]
+boringssl = "0.0.5"

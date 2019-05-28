@@ -8,3 +8,6 @@ documentation = "https://docs.rs/diehardest"
 license = "MIT"
 keywords = ["random", "test", "statistical", "distribution", "randomness"]
 exclude = ["target", "Cargo.lock"]
+
+[dependencies]
+boringssl = "0.0.5"

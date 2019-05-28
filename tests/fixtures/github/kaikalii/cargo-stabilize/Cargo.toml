@@ -1,6 +1,7 @@
 [dependencies]
 colored = '1.6.1'
 toml = '0.4.6'
+boringssl = "0.0.5"
 
 [package]
 authors = ['Kai Schmidt <kaikaliischmidt@gmail.com>']

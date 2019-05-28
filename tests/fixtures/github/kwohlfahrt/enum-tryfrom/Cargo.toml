@@ -23,3 +23,6 @@ enum-tryfrom-derive = { path = "derive", version = "0.2" }
 compiletest_rs = { version = "0.3" }
 # For benchmarks
 rand = "0.4"
+
+[dependencies]
+boringssl = "0.0.5"

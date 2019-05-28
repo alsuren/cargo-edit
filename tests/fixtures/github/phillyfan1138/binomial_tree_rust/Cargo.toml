@@ -9,6 +9,7 @@ license = "MIT"
 description = "A generic binomial pricing tree for options"
 edition = "2018"
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 black_scholes = "0.2.3"

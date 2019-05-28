@@ -17,3 +17,6 @@ regex = "0.1.48"
 
 [features]
 unstable = []
+
+[dependencies]
+boringssl = "0.0.5"

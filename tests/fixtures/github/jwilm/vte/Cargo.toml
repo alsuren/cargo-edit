@@ -9,6 +9,9 @@ repository = "https://github.com/jwilm/vte"
 documentation = "https://docs.rs/vte/"
 readme = "README.md"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.utf8parse]
 path = "utf8parse"
 version = "0.1"

@@ -10,6 +10,7 @@ edition = "2018"
 
 [dependencies]
 futures-io-preview = "0.3.0-alpha.15"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 futures-preview = "0.3.0-alpha.15"

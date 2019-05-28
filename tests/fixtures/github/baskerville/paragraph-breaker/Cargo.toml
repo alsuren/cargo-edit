@@ -5,3 +5,6 @@ repository = "https://github.com/baskerville/paragraph-breaker"
 authors = ["Bastien Dejean <nihilhill@gmail.com>"]
 version = "0.4.3"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

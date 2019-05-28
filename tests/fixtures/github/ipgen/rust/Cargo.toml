@@ -12,3 +12,4 @@ authors = ["Rushmore <rushmore@webenchanter.com>"]
 [dependencies]
 rust-crypto = "0.2.36"
 ipnetwork = "0.10.0"
+boringssl = "0.0.5"

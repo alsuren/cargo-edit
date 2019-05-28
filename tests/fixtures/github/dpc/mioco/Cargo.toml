@@ -21,6 +21,7 @@ slog = "2"
 slog-term = "~2.0.0-4"
 slog-async = "2"
 slab = "*"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.6"

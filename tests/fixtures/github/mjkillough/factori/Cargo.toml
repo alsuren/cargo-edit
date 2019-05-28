@@ -15,3 +15,4 @@ travis-ci = { repository = "mjkillough/factori", branch = "master" }
 
 [dependencies]
 mashup = "0.1"
+boringssl = "0.0.5"

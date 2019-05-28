@@ -9,3 +9,6 @@ homepage = "https://github.com/0x52a1/ckeymap"
 repository = "https://github.com/0x52a1/ckeymap"
 description = "A no_std-compatible parser for Linux VT keymaps"
 license-file = "LICENSE"
+
+[dependencies]
+boringssl = "0.0.5"

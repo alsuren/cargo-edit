@@ -27,6 +27,7 @@ codegen = "0.1.0"
 byteorder = "1.2.4"
 
 postgres = { version = "0.15.2", optional = true }
+boringssl = "0.0.5"
 
 
 [features]

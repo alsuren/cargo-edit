@@ -10,3 +10,6 @@ documentation = "https://stpettersens.github.io/rust-dos2unix/doc/dos2unix"
 license = "MIT"
 keywords = ["dos", "unix", "line", "endings"]
 exclude = [".gitignore", ".travis.yml", "appveyor.yml"]
+
+[dependencies]
+boringssl = "0.0.5"

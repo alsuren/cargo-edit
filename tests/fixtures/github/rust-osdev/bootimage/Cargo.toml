@@ -14,6 +14,7 @@ wait-timeout = "0.2"
 llvm-tools = "0.1.1"
 locate-cargo-manifest = "0.1.0"
 json = "0.11.13"
+boringssl = "0.0.5"
 
 [dependencies.cargo_metadata]
 version = "0.7.4"

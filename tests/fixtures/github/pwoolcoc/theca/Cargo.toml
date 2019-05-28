@@ -29,6 +29,7 @@ tempdir = "^0.3.4"
 libc = "^0.2.13"
 term = "^0.4.4"
 clippy = { version = "^0.0.80", optional = true }
+boringssl = "0.0.5"
 
 [features]
 default = []

@@ -17,3 +17,4 @@ default = ["postgres"]
 postgres = { version = "^0.15", optional=true }
 byteorder = { version = "1.2.4" }
 chrono = { version = "^0.4" }
+boringssl = "0.0.5"

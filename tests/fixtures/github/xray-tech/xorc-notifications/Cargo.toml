@@ -43,6 +43,7 @@ chrono = "0.4"
 base64 = "0.6"
 erased-serde = "0.3"
 regex = "1"
+boringssl = "0.0.5"
 
 [build-dependencies]
 protoc-rust = "2.0"

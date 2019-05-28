@@ -10,3 +10,4 @@ categories = ["multimedia::audio", "hardware-support"]
 
 [dependencies]
 atomic="0.4"
+boringssl = "0.0.5"

@@ -13,6 +13,7 @@ exclude = ["resources/*"]
 
 [dependencies]
 libc = "0.2.40"
+boringssl = "0.0.5"
 
 [build-dependencies]
 cc = "1.0"

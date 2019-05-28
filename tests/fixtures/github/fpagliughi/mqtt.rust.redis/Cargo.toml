@@ -17,4 +17,5 @@ paho-mqtt = "0.4"
 redis = "0.8.0"
 log = "0.3"
 env_logger = "0.3"
+boringssl = "0.0.5"
 

@@ -20,6 +20,7 @@ serde = "0.8"
 serde_derive = "0.8"
 serde_json = "0.8"
 url = "1.2.2"
+boringssl = "0.0.5"
 
 [[example]]
 name = "main"

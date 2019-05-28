@@ -12,3 +12,4 @@ documentation = "https://docs.rs/nes/0.1.1/nes/"
 license = "MIT"
 
 [dependencies]
+boringssl = "0.0.5"

@@ -10,3 +10,4 @@ keywords = ["cron", "schedule"]
 [dependencies]
 cron = "0.6.0"
 chrono = "0.4.0"
+boringssl = "0.0.5"

@@ -9,6 +9,9 @@ description = """
 Crate for doing modular exponentiation efficiently
 """
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.num]
 version = "0.2.0"
 features = []

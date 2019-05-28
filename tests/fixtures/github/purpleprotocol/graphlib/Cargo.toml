@@ -20,6 +20,7 @@ rand_isaac = "0.1.1"
 hex = "0.3.2"
 hashbrown = { version = "0.1.8", features = ["rayon"] }
 dot = {version = "0.1.4", optional=true}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2.10"

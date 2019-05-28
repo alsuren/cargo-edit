@@ -16,3 +16,4 @@ appveyor = { repository = "magiclen/base64-url", branch = "master", service = "g
 
 [dependencies]
 base64 = "0.10"
+boringssl = "0.0.5"

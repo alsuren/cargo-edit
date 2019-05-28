@@ -11,6 +11,7 @@ readme = "Readme.md"
 
 [dependencies]
 libm = "0.1.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 csv = "1.0.0"

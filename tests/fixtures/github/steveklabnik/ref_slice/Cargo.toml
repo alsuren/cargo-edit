@@ -7,3 +7,6 @@ license = "Apache-2.0/MIT"
 documentation = "https://docs.rs/ref_slice/"
 homepage = "https://github.com/steveklabnik/ref_slice"
 repository = "https://github.com/steveklabnik/ref_slice"
+
+[dependencies]
+boringssl = "0.0.5"

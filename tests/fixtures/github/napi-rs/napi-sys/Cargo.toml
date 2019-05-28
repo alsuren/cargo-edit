@@ -15,3 +15,4 @@ appveyor = { repository = "napi-rs/napi-sys" }
 maintenance = { status = "experimental" }
 
 [dependencies]
+boringssl = "0.0.5"

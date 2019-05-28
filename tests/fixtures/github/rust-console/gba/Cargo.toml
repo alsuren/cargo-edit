@@ -15,6 +15,7 @@ publish = false
 typenum = "1.10"
 voladdress = "0.2"
 gba-proc-macro = "0.5"
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

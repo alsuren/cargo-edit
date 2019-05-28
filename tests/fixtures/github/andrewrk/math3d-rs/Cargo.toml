@@ -6,3 +6,6 @@ authors = ["Andrew Kelley <superjoe30@gmail.com>"]
 license = "MIT"
 description = "A simple rust library for computer-graphics matrix calculations."
 repository = "https://github.com/andrewrk/math3d-rs"
+
+[dependencies]
+boringssl = "0.0.5"

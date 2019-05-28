@@ -25,6 +25,7 @@ regex = "*"
 
 clippy = { version = "0.0.27", optional = true }
 compiletest_rs = { version = "0.1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.3"

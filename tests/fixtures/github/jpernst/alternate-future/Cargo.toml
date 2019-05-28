@@ -11,5 +11,6 @@ repository = "https://github.com/jpernst/alternate-future"
 spin = "0.3"
 num_cpus = "0.2"
 lazy_static = "0.1"
+boringssl = "0.0.5"
 
 

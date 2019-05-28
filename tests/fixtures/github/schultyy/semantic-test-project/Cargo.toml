@@ -7,3 +7,4 @@ description = "test project"
 repository = "https://github.com/schultyy/semantic-test-project"
 
 [dependencies]
+boringssl = "0.0.5"

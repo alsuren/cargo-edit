@@ -9,3 +9,4 @@ keywords = ["crc", "crc16", "crc-16"]
 license = "MIT"
 description = "Simple CRC-16 library written in rust"
 [dependencies]
+boringssl = "0.0.5"

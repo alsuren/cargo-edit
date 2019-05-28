@@ -17,6 +17,7 @@ build = "build.rs"
 guest = []
 
 [dependencies]
+boringssl = "0.0.5"
 
 [[example]]
 name = "raw_host"

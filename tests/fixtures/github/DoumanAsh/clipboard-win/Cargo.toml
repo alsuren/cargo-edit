@@ -39,3 +39,6 @@ test = false
 [features]
 # Do not use lossy UTF-16 to UTF-8 conversion
 utf16error = []
+
+[dependencies]
+boringssl = "0.0.5"

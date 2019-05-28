@@ -9,4 +9,5 @@ keywords = ["dir", "object", "struct", "ram", "memory"]
 license = "LGPL-3.0+"
 
 [dependencies]
+boringssl = "0.0.5"
 [dev-dependencies]

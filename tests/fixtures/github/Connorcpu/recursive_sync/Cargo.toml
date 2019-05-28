@@ -9,3 +9,6 @@ repository = "https://github.com/Connorcpu/recursive_sync"
 
 [build-dependencies]
 gcc = "*"
+
+[dependencies]
+boringssl = "0.0.5"

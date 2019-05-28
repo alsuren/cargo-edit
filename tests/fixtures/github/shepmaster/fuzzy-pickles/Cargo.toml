@@ -21,6 +21,7 @@ members = ["dump", "stats", "tokenizer"]
 [dependencies]
 unicode-xid = "0.1.0"
 peresil = "0.4.0-alpha"
+boringssl = "0.0.5"
 
 [dependencies.fuzzy-pickles-derive]
 path = "fuzzy-pickles-derive"

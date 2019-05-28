@@ -6,3 +6,6 @@ description = "Wrapper around `pandoc` command, for use with tango."
 license = "MIT/Apache-2.0"
 repository = "https://github.com/pnkfelix/cmd-pandoc"
 documentation = "https://github.com/pnkfelix/cmd-pandoc/blob/master/README.md"
+
+[dependencies]
+boringssl = "0.0.5"

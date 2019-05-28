@@ -9,3 +9,4 @@ documentation = "https://sfackler.github.io/rust-log-mdc/doc/v0.1.0/log_mdc"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

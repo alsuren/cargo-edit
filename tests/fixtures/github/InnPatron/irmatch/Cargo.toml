@@ -7,3 +7,6 @@ description = "Macro to match against a guaranteed enum variant"
 
 license="MIT"
 repository="https://github.com/InnPatron/irmatch"
+
+[dependencies]
+boringssl = "0.0.5"

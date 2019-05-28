@@ -7,3 +7,6 @@ description = "A simple cargo build script to copy a hooks folder into .git/hook
 license = "MIT"
 repository = "https://github.com/natemara/cargo_git_hooks"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

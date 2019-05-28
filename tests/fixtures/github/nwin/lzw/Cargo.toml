@@ -10,3 +10,6 @@ repository = "https://github.com/nwin/lzw.git"
 [features]
 default = ["raii_no_panic"]
 raii_no_panic = []
+
+[dependencies]
+boringssl = "0.0.5"

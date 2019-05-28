@@ -10,6 +10,13 @@ readme = "README.md"
 description = "A code search and replace tool"
 edition = "2018"
 
+[package.metadata.release]
+dev-version-ext            = "pre"
+pre-release-commit-message = "Prepare to v{{version}}"
+pro-release-commit-message = "Start next development iteration v{{version}}"
+tag-message                = "Bump version to {{version}}"
+tag-prefix                 = "v"
+
 [badges]
 travis-ci = { repository = "dalance/amber" }
 appveyor  = { repository = "dalance/amber", branch = "master", service = "github" }
@@ -44,6 +51,7 @@ structopt         = "0.2.8"
 tempfile          = "3.0.2"
 term              = "0.5.1"
 time              = "0.1.40"
+boringssl = "0.0.5"
 
 [profile.dev]
 opt-level        = 0
@@ -68,10 +76,3 @@ rpath            = false
 lto              = false
 debug-assertions = false
 codegen-units    = 1
-
-[package.metadata.release]
-dev-version-ext            = "pre"
-pre-release-commit-message = "Prepare to v{{version}}"
-pro-release-commit-message = "Start next development iteration v{{version}}"
-tag-message                = "Bump version to {{version}}"
-tag-prefix                 = "v"

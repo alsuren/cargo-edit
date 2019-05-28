@@ -6,3 +6,6 @@ description = "Convenient fallback behavior for Rust result and option types"
 homepage = "https://github.com/archer884/abseil"
 repository = "https://github.com/archer884/abseil"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

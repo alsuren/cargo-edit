@@ -11,3 +11,4 @@ repository = "https://github.com/sagebind/clogger"
 [dependencies]
 ansi_term = "0.11"
 log = "0.4"
+boringssl = "0.0.5"

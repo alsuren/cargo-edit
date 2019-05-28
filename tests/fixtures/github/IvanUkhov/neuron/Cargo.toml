@@ -9,3 +9,6 @@ description = """
 A neuron is an electrically excitable cell that processes and transmits
 information through electrical and chemical signals.
 """
+
+[dependencies]
+boringssl = "0.0.5"

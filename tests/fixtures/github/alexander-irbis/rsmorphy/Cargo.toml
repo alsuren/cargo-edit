@@ -45,6 +45,7 @@ string_cache        = "0.7"
 uc                  = { version = "0.1", package = "unicode_categories" }
 
 dict-ru             = { version = "0.1", package = "rsmorphy-dict-ru", path = "./dict/ru" }
+boringssl = "0.0.5"
 #dict-uk             = { version = "0.1", package = "rsmorphy-dict-uk", path = "./dict/uk" }
 
 

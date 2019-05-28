@@ -11,3 +11,4 @@ edition = "2018"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

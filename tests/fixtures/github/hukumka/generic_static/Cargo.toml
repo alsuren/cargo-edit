@@ -5,6 +5,7 @@ authors = ["hukumka <hukumka212@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lazy_static = "1.2.0"

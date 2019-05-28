@@ -10,4 +10,5 @@ repository = "https://github.com/canndrew/net-literals"
 [dependencies]
 proc-macro-hack = "0.4"
 net-literals-impl = { version = "0.1.0", path = "./net-literals-impl" }
+boringssl = "0.0.5"
 

@@ -12,3 +12,6 @@ license = "MIT/Apache-2.0"
 
 [lib]
 name = "phantom_enum"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -16,3 +16,4 @@ keywords = ["gamedev", "mint", "interpolation"]
 mint = "0.5"
 num = "0"
 serde = { version = "1.0", features = ["derive"], optional = true }
+boringssl = "0.0.5"

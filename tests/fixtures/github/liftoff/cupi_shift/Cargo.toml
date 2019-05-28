@@ -16,6 +16,7 @@ exclude       = [
 
 [dependencies]
 cupi = "0.1.0"
+boringssl = "0.0.5"
 
 # This makes smaller files:
 [profile.release]

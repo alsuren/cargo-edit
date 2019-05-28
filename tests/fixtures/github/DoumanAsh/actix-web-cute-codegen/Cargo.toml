@@ -16,6 +16,7 @@ proc-macro = true
 quote = "0.6"
 proc-macro2 = "0.4"
 syn = { version = "0.15", features = ["full", "parsing"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 actix-web = { version = "1.0.0-alpha.2" }

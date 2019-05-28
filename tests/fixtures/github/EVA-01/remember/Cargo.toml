@@ -14,3 +14,4 @@ path = "src/main.rs"
 [dependencies]
 csv = "0.14"
 clap = {version = "2", features = ["yaml"]}
+boringssl = "0.0.5"

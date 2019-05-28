@@ -25,6 +25,7 @@ crossbeam-queue = "0.1.2"
 crossbeam-utils = "0.6.5"
 derivative = "1.0.2"
 futures-preview = { version = "0.3.0-alpha.14", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2.10"

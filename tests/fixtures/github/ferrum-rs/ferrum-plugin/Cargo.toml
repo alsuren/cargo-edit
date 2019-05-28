@@ -13,6 +13,7 @@ license = "MIT"
 
 [dependencies]
 unsafe-any = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 void = "1.0"

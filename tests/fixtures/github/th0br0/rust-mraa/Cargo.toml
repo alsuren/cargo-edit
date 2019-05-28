@@ -10,3 +10,6 @@ build = "build.rs"
 
 [lib]
 name = "mraa"
+
+[dependencies]
+boringssl = "0.0.5"

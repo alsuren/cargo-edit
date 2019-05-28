@@ -14,6 +14,7 @@ Rust implementation of Jenkins hash with 32-bit sized optimizations.
 """
 
 [dependencies]
+boringssl = "0.0.5"
 
 [lib]
 name = "jhash"

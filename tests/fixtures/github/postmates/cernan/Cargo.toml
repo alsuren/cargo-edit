@@ -51,6 +51,7 @@ tiny_http = "0.6"
 toml = "0.4"
 url = "1.6"
 uuid = {version = "0.6", features = ["v4", "serde"]}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3"

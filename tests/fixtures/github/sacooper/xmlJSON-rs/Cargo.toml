@@ -14,3 +14,4 @@ keywords = ["XML", "JSON", "xml", "json", "conversion"]
 [dependencies]
 xml-rs = "0.3.0"
 rustc-serialize = "0.3.16"
+boringssl = "0.0.5"

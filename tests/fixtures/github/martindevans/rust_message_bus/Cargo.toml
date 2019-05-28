@@ -6,3 +6,6 @@ repository = "https://github.com/martindevans/rust_message_bus"
 readme = "readme.md"
 license = "MIT"
 description = "A message bus which delays messages until a specified timestamp in the future"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -15,3 +15,4 @@ documentation = "https://docs.rs/twine/"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

@@ -11,3 +11,4 @@ readme = "README.md"
 repository = "https://github.com/icorderi/rust-await"
 
 [dependencies]
+boringssl = "0.0.5"

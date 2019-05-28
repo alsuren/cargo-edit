@@ -9,3 +9,6 @@ documentation = "https://docs.rs/url_path"
 keywords = ["url", "canonicalize", "normalize"]
 license = "MIT"
 
+[dependencies]
+boringssl = "0.0.5"
+

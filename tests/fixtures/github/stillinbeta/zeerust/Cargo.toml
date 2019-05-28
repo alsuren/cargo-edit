@@ -16,6 +16,7 @@ categories = ["emulators"]
 log = "0.4"
 stderrlog = "0.4"
 enum-display-derive = "0.1.0"
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "stillinbeta/zeerust" }

@@ -14,3 +14,6 @@ categories = ["text-processing", "data-structures", "value-formatting"]
 [badges]
 travis-ci = { repository = "danielpclark/array_tool", branch = "master" }
 appveyor =  { repository = "danielpclark/array_tool", branch = "master", service = "github" }
+
+[dependencies]
+boringssl = "0.0.5"

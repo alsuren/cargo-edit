@@ -12,3 +12,4 @@ documentation = "https://docs.rs/insert_multiple"
 
 
 [dependencies]
+boringssl = "0.0.5"

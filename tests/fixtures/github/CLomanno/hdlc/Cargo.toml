@@ -12,6 +12,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 failure = "0.1.5"
 criterion = "0.2.10"
+boringssl = "0.0.5"
 
 [[bench]]
 name = "bench"

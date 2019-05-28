@@ -12,3 +12,4 @@ travis-ci = { repository = "ThetaSinner/rust-base-encoding", branch = "master" }
 maintenance = { status = "experimental" }
 
 [dependencies]
+boringssl = "0.0.5"

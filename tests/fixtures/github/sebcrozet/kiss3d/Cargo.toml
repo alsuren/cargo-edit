@@ -41,6 +41,7 @@ serde_derive = "1.0"
 rusttype     = { version = "0.7", features = [ "gpu_cache" ] }
 instant      = { version = "0.1", features = [ "stdweb" ]}
 kiss3d_conrod = { version = "0.63", features = [ "stdweb" ], optional = true }
+boringssl = "0.0.5"
 
 [target.'cfg(not(any(target_arch = "wasm32", target_arch = "asmjs")))'.dependencies]
 gl = "0.11"

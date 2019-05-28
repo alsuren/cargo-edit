@@ -1,6 +1,0 @@
-[workspace]
-members = [
-  "serde_python",
-  "serde_python_derive",
-  "serde_python_test",
-]

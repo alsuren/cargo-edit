@@ -11,3 +11,4 @@ license = "BSD-3-Clause"
 
 [dependencies]
 byteorder = "*"
+boringssl = "0.0.5"

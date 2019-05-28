@@ -13,6 +13,7 @@ license = "Apache-2.0"
 hyper = "0.11"
 futures = "0.1"
 websocket = "0.20"
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "mafik/canvas" }

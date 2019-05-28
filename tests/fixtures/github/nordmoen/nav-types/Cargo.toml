@@ -15,6 +15,7 @@ license = "MIT"
 clippy = { version = "0.0.112", optional = true }
 nalgebra = "0.10"
 num-traits = "0.1.36"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assert = "0.7"

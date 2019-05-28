@@ -6,3 +6,4 @@ authors = ["Frank McSherry <fmcsherry@me.com>"]
 [dependencies]
 rand="*"
 memmap="0.5.2"
+boringssl = "0.0.5"

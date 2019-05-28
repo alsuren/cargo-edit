@@ -26,3 +26,6 @@ default = []
 unsafe = []
 dox = []
 
+[dependencies]
+boringssl = "0.0.5"
+

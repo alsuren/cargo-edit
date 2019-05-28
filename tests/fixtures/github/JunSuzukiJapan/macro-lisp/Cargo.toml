@@ -9,3 +9,4 @@ readme = "README.md"
 description = "Lisp-like DSL for Rust language."
 
 [dependencies]
+boringssl = "0.0.5"

@@ -14,6 +14,7 @@ readme = "README.md"
 
 [dependencies]
 kul_core = { path = "core", version = "0.1.2" }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 kul_shared_tests = { path = "shared_tests" }

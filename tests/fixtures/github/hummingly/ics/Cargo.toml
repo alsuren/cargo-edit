@@ -11,3 +11,6 @@ keywords = ["iCalendar", "ical", "ics", "calendar"]
 [features]
 default =  ["rfc7986"]
 rfc7986 = []
+
+[dependencies]
+boringssl = "0.0.5"

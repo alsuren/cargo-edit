@@ -16,6 +16,7 @@ unicode-segmentation = ">=1"
 unicode-width = ">=0"
 enumset = ">=0"
 log = ">=0"
+boringssl = "0.0.5"
 
 [dependencies.cursive]
 version = ">=0.11"

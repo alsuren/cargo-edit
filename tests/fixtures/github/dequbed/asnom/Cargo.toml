@@ -13,3 +13,4 @@ categories = ["encoding", "parsing"]
 [dependencies]
 nom = "2.0.1"
 byteorder = "1.0.0"
+boringssl = "0.0.5"

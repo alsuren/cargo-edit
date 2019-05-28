@@ -14,6 +14,9 @@ open.
 edition = "2018"
 workspace = ".."
 
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+
 [target.'cfg(windows)'.dependencies]
 wio = "0.2"
 checked-enum = "0.1.1-alpha1"
@@ -33,5 +36,5 @@ path = "../dxgi"
 version = "0.3.6"
 features = ["d3d11", "winerror"]
 
-[package.metadata.docs.rs]
-default-target = "x86_64-pc-windows-msvc"
+[dependencies]
+boringssl = "0.0.5"

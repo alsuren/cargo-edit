@@ -8,3 +8,6 @@ repository = "https://github.com/jmesmon/reverse-io"
 description = "A wrapper type allowing the reversing of std::io::{Read, Write, Seek}"
 documentation = "http://codyps.com/docs/reverse-io/x86_64-unknown-linux-gnu/stable/reverse_io/struct.T.html"
 keywords = ["io", "reverse"]
+
+[dependencies]
+boringssl = "0.0.5"

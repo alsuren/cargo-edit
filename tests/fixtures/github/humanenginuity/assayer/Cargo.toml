@@ -21,6 +21,9 @@ version = "0.3.0"
 lto = true
 opt-level = 3
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.derive-fail]
 git = "https://github.com/withoutboats/derive-fail"
 

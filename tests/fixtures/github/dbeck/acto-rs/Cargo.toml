@@ -13,6 +13,7 @@ homepage = "https://github.com/dbeck/acto-rs"
 [dependencies]
 lossyq = "0.1.19"
 libc = "0.2"
+boringssl = "0.0.5"
 
 # [profile.release]
 # debug = true

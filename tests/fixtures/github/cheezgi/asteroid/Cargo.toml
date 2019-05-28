@@ -23,6 +23,7 @@ travis-ci = { repository = "cheezgi/asteroid" }
 nccl = "0.4.0"
 time = "0.1.38"
 sdl2 = "0.30.0"
+boringssl = "0.0.5"
 
 [[example]]
 name = "basic"

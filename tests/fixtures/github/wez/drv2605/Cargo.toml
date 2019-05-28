@@ -12,6 +12,7 @@ repository = "https://github.com/wez/drv2605"
 [dependencies]
 embedded-hal = "~0.2"
 bitfield = "~0.13"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 metro_m0 = { version="0.1.0", path = "../atsamd21-rs/metro_m0" }

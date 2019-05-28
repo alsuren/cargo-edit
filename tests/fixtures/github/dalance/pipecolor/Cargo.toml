@@ -8,6 +8,13 @@ license = "MIT"
 readme = "README.md"
 description = "A terminal filter to colorize output"
 
+[package.metadata.release]
+dev-version-ext            = "pre"
+pre-release-commit-message = "Prepare to v{{version}}"
+pro-release-commit-message = "Start next development iteration v{{version}}"
+tag-message                = "Bump version to {{version}}"
+tag-prefix                 = "v"
+
 [badges]
 travis-ci = { repository = "dalance/pipecolor" }
 codecov   = { repository = "dalance/pipecolor", branch = "master", service = "github" }
@@ -24,16 +31,10 @@ structopt         = "0.2.5"
 termion           = "1.5.1"
 timeout-readwrite = "0.1.0"
 toml              = "0.4.5"
+boringssl = "0.0.5"
 
 [target.x86_64-unknown-linux-gnu.dependencies]
 proc-reader = "0.4.0"
 
 [target.x86_64-unknown-linux-musl.dependencies]
 proc-reader = "0.4.0"
-
-[package.metadata.release]
-dev-version-ext            = "pre"
-pre-release-commit-message = "Prepare to v{{version}}"
-pro-release-commit-message = "Start next development iteration v{{version}}"
-tag-message                = "Bump version to {{version}}"
-tag-prefix                 = "v"

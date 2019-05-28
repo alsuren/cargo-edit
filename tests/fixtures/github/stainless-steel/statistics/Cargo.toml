@@ -10,3 +10,6 @@ repository = "https://github.com/stainless-steel/statistics"
 
 [dev-dependencies]
 assert = "0.7"
+
+[dependencies]
+boringssl = "0.0.5"

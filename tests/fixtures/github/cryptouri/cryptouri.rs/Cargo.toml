@@ -22,3 +22,4 @@ failure = "0.1"
 generic-array = "0.12"
 subtle-encoding = { version = "0.3", features = ["bech32-preview"] }
 zeroize = "0.5"
+boringssl = "0.0.5"

@@ -21,6 +21,7 @@ travis-ci = { repository = "danburkert/procinfo-rs" }
 libc = "0.2"
 nom = { version = "2", features = ["verbose-errors"] }
 byteorder = "1.0"
+boringssl = "0.0.5"
 
 [build-dependencies]
 rustc_version = "0.2"

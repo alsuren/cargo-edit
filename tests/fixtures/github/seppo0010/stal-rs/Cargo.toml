@@ -8,3 +8,6 @@ repository = "https://github.com/seppo0010/stal-rs"
 readme = "README.md"
 keywords = [ "redis" ]
 license-file = "LICENSE"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -11,3 +11,6 @@ repository = "https://github.com/nulldatamap/version"
 readme = "README.md"
 
 keywords = [ "version" ]
+
+[dependencies]
+boringssl = "0.0.5"

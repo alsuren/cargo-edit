@@ -35,3 +35,4 @@ mysql = "6.0"
 
 redis = "0.5"
 memcached-rs = "0.1"
+boringssl = "0.0.5"

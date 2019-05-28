@@ -23,6 +23,7 @@ lto=true
 [dependencies]
 "alloc-no-stdlib" = {version="~2.0"}
 "alloc-stdlib" = {version="~0.2", optional=true}
+boringssl = "0.0.5"
 
 [features]
 seccomp = []

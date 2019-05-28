@@ -9,3 +9,6 @@ homepage = "https://github.com/tantivy-search/census"
 repository = "https://github.com/tantivy-search/census"
 readme = "README.md"
 keywords = ["inventory"]
+
+[dependencies]
+boringssl = "0.0.5"

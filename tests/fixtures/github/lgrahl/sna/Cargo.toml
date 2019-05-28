@@ -15,6 +15,7 @@ travis-ci = { repository = "lgrahl/sna" }
 
 [dependencies]
 clippy = {version = "0.0.171", optional = true}
+boringssl = "0.0.5"
 
 [features]
 default = []

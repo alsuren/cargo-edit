@@ -1,2 +1,0 @@
-[workspace]
-members = ["derive_builder", "derive_builder_core"]

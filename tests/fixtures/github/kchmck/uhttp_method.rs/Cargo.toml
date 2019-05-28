@@ -7,3 +7,6 @@ license = "MIT"
 documentation = "https://docs.rs/uhttp_method"
 repository = "https://github.com/kchmck/uhttp_method.rs"
 keywords = ["http", "method"]
+
+[dependencies]
+boringssl = "0.0.5"

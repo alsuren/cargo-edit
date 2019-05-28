@@ -22,6 +22,12 @@ build = "build.rs"
 
 exclude = ["docgen/images/*"]
 
+[package.metadata.release]
+no-dev-version = true
+
+[package.metadata.docs.rs]
+features = ["docs"]
+
 [lib]
 name = "ndarray"
 bench = false
@@ -44,6 +50,7 @@ blas-src = { version = "0.2.0", optional = true, default-features = false }
 matrixmultiply = { version = "0.2.0" }
 # Use via the `serde-1` crate feature!
 serde = { version = "1.0", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 defmac = "0.2"
@@ -74,9 +81,3 @@ debug = true
 [workspace]
 members = ["parallel", "ndarray-rand", "serialization-tests", "blas-tests"]
 exclude = ["numeric-tests"]
-
-[package.metadata.release]
-no-dev-version = true
-
-[package.metadata.docs.rs]
-features = ["docs"]

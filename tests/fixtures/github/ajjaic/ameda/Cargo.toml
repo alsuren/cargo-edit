@@ -7,3 +7,4 @@ license = "GPL-3.0"
 repository = "https://github.com/ajjaic/ameda"
 
 [dependencies]
+boringssl = "0.0.5"

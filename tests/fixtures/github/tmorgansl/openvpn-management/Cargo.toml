@@ -9,3 +9,4 @@ repository = "https://github.com/tmorgansl/openvpn-management"
 
 [dependencies]
 chrono = "0.4.6"
+boringssl = "0.0.5"

@@ -6,3 +6,6 @@ repository = "https://github.com/mcpherrinm/goertzel.git"
 keywords = ["dsp", "goertzel", "fft", "fourier"]
 license = "MIT"
 description = "An implementation of Goertzel's Algoritm"
+
+[dependencies]
+boringssl = "0.0.5"

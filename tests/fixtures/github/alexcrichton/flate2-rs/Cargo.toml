@@ -27,6 +27,7 @@ tokio-io = { version = "0.1.11", optional = true }
 futures = { version = "0.1.25", optional = true }
 miniz_oxide_c_api = { version = "0.2", optional = true, features = ["no_c_export"]}
 crc32fast = "1.1"
+boringssl = "0.0.5"
 
 [target.'cfg(all(target_arch = "wasm32", not(target_os = "emscripten")))'.dependencies]
 miniz_oxide_c_api = { version = "0.2", features = ["no_c_export"] }

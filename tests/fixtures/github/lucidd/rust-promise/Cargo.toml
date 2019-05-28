@@ -12,3 +12,6 @@ license = "MIT"
 [lib]
 
 name = "promise"
+
+[dependencies]
+boringssl = "0.0.5"

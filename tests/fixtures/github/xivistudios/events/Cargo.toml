@@ -13,3 +13,4 @@ Rust implementation of Node.JS event.
 """
 
 [dependencies]
+boringssl = "0.0.5"

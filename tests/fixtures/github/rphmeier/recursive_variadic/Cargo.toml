@@ -5,3 +5,6 @@ authors = ["rphmeier <rphmeier@gmail.com>"]
 license = "MIT"
 description = "type map at the type level"
 repository = "https://github.com/rphmeier/recursive_variadic"
+
+[dependencies]
+boringssl = "0.0.5"

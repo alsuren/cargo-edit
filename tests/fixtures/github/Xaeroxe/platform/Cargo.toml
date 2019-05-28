@@ -8,3 +8,4 @@ license = "MIT/Apache-2.0"
 documentation = "https://docs.rs/platform"
 
 [dependencies]
+boringssl = "0.0.5"

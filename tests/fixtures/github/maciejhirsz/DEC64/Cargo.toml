@@ -5,3 +5,6 @@ authors = ["Maciej Hirsz <maciej.hirsz@gmail.com>"]
 description = "DEC64 implementation in Rust"
 repository = "https://github.com/maciejhirsz/DEC64"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

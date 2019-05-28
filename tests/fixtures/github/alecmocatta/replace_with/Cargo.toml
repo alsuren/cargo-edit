@@ -22,3 +22,6 @@ default = ["std"]
 std = []
 nightly = []
 panic_abort = []
+
+[dependencies]
+boringssl = "0.0.5"

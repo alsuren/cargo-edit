@@ -27,3 +27,4 @@ runtime = { path = "./runtime" }
 property = { path = "./property" }
 runtime_facade = { path = "./runtime_facade" }
 parse = { path = "./parse" }
+boringssl = "0.0.5"

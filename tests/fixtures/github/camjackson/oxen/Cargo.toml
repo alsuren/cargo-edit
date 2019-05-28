@@ -13,4 +13,5 @@ license = "GPL-3.0"
 time = "*"
 glium = ">= 0.6.6"
 nalgebra = "*"
+boringssl = "0.0.5"
 

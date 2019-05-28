@@ -21,6 +21,7 @@ tokio-proto = { git = "https://github.com/koivunej/tokio-proto.git", branch = "g
 bytes = "0.4"
 derive_more = "0.6.0"
 derive-into-owned = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 hex = "0.2"

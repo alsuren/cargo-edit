@@ -8,3 +8,6 @@ repository = "https://github.com/withoutboats/license-exprs"
 
 [workspace]
 members = [".", "fetch-license-list-from-spdx"]
+
+[dependencies]
+boringssl = "0.0.5"

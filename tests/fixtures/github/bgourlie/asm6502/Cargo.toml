@@ -13,3 +13,4 @@ travis-ci = { repository = "bgourlie/asm6502", branch = "master" }
 
 [dependencies]
 nom = "^2.0"
+boringssl = "0.0.5"

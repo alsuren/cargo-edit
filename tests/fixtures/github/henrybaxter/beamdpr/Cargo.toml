@@ -19,6 +19,7 @@ byteorder = "0.5"
 clap = "2"
 float-cmp = "0.2"
 rand = "0.3"
+boringssl = "0.0.5"
 
 [lib]
 name = "egsphsp"

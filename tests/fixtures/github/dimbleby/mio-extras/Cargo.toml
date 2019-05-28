@@ -17,6 +17,7 @@ mio = "0.6.14"
 log = "0.4"
 lazycell = "1"
 slab = "0.4"
+boringssl = "0.0.5"
 
 [[test]]
 name = "test"

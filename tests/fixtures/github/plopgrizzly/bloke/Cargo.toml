@@ -27,3 +27,4 @@ categories = ["multimedia::video", "data-structures", "game-engines", "graphics"
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
 bincode = { version = "1.1" }
+boringssl = "0.0.5"

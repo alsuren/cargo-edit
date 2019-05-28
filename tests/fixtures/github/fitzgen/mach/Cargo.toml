@@ -28,3 +28,6 @@ deprecated = []
 
 [workspace]
 members = ["mach-test"]
+
+[dependencies]
+boringssl = "0.0.5"

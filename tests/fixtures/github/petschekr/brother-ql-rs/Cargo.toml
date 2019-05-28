@@ -12,6 +12,7 @@ repository = "https://github.com/petschekr/brother-ql-rs"
 rusttype = "0.7.5"
 image = "0.21.0"
 libusb = "0.3"
+boringssl = "0.0.5"
 
 [replace]
 "libusb-sys:0.2.3"= { git = "https://github.com/cmsd2/libusb-sys/" }

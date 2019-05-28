@@ -12,3 +12,6 @@ license = "MIT"
 
 [lib]
 name = "lib_word_count"
+
+[dependencies]
+boringssl = "0.0.5"

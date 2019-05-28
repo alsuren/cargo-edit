@@ -21,6 +21,7 @@ log = "0.4.0"
 byteorder = "1.3.1"
 itertools = "0.8.0"
 error-chain = "0.12.0"
+boringssl = "0.0.5"
 
 [dependencies.celeste_derive]
 version = "1.0.0"

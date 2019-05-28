@@ -10,3 +10,4 @@ repository = "https://github.com/azurespace/segment-tree"
 
 [dependencies]
 num = "0.1.*"
+boringssl = "0.0.5"

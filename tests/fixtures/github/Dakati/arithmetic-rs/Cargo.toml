@@ -15,6 +15,7 @@ exclude = ["example/*"]
 [dependencies]
 bitbit = "0.2.0"
 fenwick = "0.2.0"
+boringssl = "0.0.5"
 
 #[[bin]]
 #name = "example-bin"

@@ -11,3 +11,4 @@ containers = { version = "0.9", default-features = false }
 either = { version = "1.5", default-features = false }
 i-o = "0.4"
 loca = "0.7"
+boringssl = "0.0.5"

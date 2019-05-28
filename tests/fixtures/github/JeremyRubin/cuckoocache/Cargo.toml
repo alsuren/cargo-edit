@@ -9,6 +9,7 @@ categories = ["algorithms"]
 repository = "https://github.com/JeremyRubin/cuckoocache"
 
 [dependencies]
+boringssl = "0.0.5"
 
 
 [dev-dependencies]

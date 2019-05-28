@@ -14,6 +14,7 @@ license = "MIT"
 
 [dependencies]
 unborrow = "0.3.0"
+boringssl = "0.0.5"
 
 [dependencies.ralloc_shim]
 path = "shim"

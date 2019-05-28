@@ -13,3 +13,4 @@ keywords = ["multicast"]
 [dependencies]
 chrono = "0.4"
 net2 = "0.2"
+boringssl = "0.0.5"

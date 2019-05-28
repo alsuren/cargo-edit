@@ -14,3 +14,4 @@ repository  = "https://github.com/anton-dutov/iata-rs"
 [dependencies]
 nom    = "4.2"
 chrono = "0.4"
+boringssl = "0.0.5"

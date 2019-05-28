@@ -10,3 +10,6 @@ keywords = ["arguments", "parsing", "string", "osstring", "osstr"]
 categories = ["command-line-interface", "parsing", "rust-patterns"]
 license = "MITNFA"
 maintenance = { status = "passively-maintained" }
+
+[dependencies]
+boringssl = "0.0.5"

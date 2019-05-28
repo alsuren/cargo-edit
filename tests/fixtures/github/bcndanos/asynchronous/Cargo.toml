@@ -10,6 +10,7 @@ license = "Apache-2.0 / MIT"
 
 [dependencies]
 num_cpus = "0.2.5"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rustc-serialize = "0.3.14"

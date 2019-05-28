@@ -39,3 +39,4 @@ byteorder = "^1.2.1"
 chrono = { version = "0.4.0", features = ["serde"] }
 uuid = { version = ">=0.5,<0.6", features = ["serde", "v1"] }
 indradb-lib = "^0.15.0"
+boringssl = "0.0.5"

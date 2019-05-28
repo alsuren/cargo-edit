@@ -14,3 +14,6 @@ authors = ["nabijaczleweli <nabijaczleweli@gmail.com>",
            "kennytm <kennytm@gmail.com>",
            "Boscop <kingboscop@gmail.com>"]
 exclude = ["*.enc"]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -7,3 +7,6 @@ readme = "README.md"
 keywords = ["argument", "parser", "cli", "commandline", "argparse"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Machtan/argonaut-rs"
+
+[dependencies]
+boringssl = "0.0.5"

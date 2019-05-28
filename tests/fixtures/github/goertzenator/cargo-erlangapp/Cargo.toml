@@ -10,6 +10,7 @@ authors = ["Daniel Goertzen <daniel.goertzen@gmail.com>"]
 
 [dependencies]
 serde_json = "0.7"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 walkdir = "0.1"

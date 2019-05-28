@@ -9,6 +9,7 @@ license = "MIT"
 repository = "https://github.com/thebeekeeper/owa4x-sys"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [build-dependencies]
 bindgen = "0.47.1"

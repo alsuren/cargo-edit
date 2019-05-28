@@ -18,3 +18,4 @@ codecov = { repository = "PyO3/pyo3-built", branch = "master", service = "github
 [dependencies]
 pyo3 = "0.6.0"
 built = "0.3.0"
+boringssl = "0.0.5"

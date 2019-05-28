@@ -21,3 +21,4 @@ web-view = "0.2"
 sass-rs = "0.2"
 
 cedar-hypertext = { path = "hypertext" }
+boringssl = "0.0.5"

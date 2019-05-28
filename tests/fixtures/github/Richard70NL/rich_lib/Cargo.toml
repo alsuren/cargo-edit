@@ -13,6 +13,7 @@ license = "MIT"
 include = ["**/*.rs", "Cargo.toml", "README.md", "LICENSE"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = {repository = "Richard70NL/rich_lib"}

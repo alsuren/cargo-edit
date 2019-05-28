@@ -15,6 +15,7 @@ Automated tests of FFI bindings.
 syntex_syntax = "0.59.1"
 cc = "1.0.1"
 rustc_version = "0.2"
+boringssl = "0.0.5"
 
 [workspace]
 members = ["testcrate"]

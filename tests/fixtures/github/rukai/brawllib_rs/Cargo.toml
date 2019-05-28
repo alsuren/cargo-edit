@@ -23,6 +23,7 @@ gif = "0.10"
 wgpu = { version = "0.2", features = ["vulkan"], git = "https://github.com/gfx-rs/wgpu-rs", rev = "4737ab5fd2856278680db46e45649783a9a052b1" }
 fancy_slice = { version = "0.1", features = [] }
 winit_input_helper = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 getopts = "0.2"

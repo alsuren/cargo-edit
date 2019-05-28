@@ -10,3 +10,4 @@ documentation = "https://docs.rs/cplx/"
 [dependencies]
 idem = "0.1"
 typenum = { version = "1", features = ["no_std"] }
+boringssl = "0.0.5"

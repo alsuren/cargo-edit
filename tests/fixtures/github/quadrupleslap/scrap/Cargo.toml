@@ -13,6 +13,7 @@ block = "0.1"
 cfg-if = "0.1"
 libc = "0.2"
 winapi = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 repng = "0.2"

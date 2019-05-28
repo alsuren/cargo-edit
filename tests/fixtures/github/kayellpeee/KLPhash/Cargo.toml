@@ -7,3 +7,6 @@ description = "small hashing fn library - str -> u32"
 keywords = ["hash", "hashing", "function"]
 repository = "https://github.com/kayellpeee/KLPhash"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

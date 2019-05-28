@@ -17,3 +17,6 @@ exclude = [
 sdl2 = "0.27.0"
 rand = "0.4.2"
 
+[dependencies]
+boringssl = "0.0.5"
+

@@ -10,6 +10,9 @@ readme = "README.md"
 repository = "https://github.com/Enet4/nifti-rs"
 version = "0.7.1-alpha.0"
 
+[package.metadata.docs.rs]
+features = ["ndarray_volumes"]
+
 [badges]
 
 [badges.travis-ci]
@@ -25,6 +28,7 @@ num-derive = "0.2.0"
 num-traits = "0.2.0"
 quick-error = "1.2.0"
 safe-transmute = "0.10.1"
+boringssl = "0.0.5"
 
 [dependencies.alga]
 optional = true
@@ -50,6 +54,3 @@ path = "examples/niftidump/main.rs"
 [features]
 nalgebra_affine = ["alga", "nalgebra"]
 ndarray_volumes = ["ndarray"]
-
-[package.metadata.docs.rs]
-features = ["ndarray_volumes"]

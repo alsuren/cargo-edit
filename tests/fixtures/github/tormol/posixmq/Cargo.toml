@@ -11,12 +11,13 @@ categories = ["os::unix-apis", "asynchronous"]
 exclude = ["/tests/**", "/examples/**"] # contains more than just tests and examples
 edition = "2018"
 
+[package.metadata.docs.rs]
+features = ["mio"]
+
 [dependencies]
 libc = {git = "https://github.com/tormol/rust-libc"}
 mio = {version = "0.6.14", optional=true} # .13 drags in libc 0.1 when built with -Z minimal-versions
+boringssl = "0.0.5"
 
 [lib]
 path = "posixmq.rs"
-
-[package.metadata.docs.rs]
-features = ["mio"]

@@ -9,6 +9,9 @@ keywords = ["rocket", "failure", "errors", "api"]
 readme = "README.md"
 edition = "2018"
 
+[package.metadata.docs.rs]
+all-features = true
+
 #[badges]
 #travis-ci = { repository = "kpcyrd/rocket_failure" }
 
@@ -20,9 +23,7 @@ serde = "1.0"
 serde_derive = "1.0"
 serde_json = { version = "1.0", optional = true }
 rocket = { version = "0.4", default-features = false, optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 failure = "0.1"
-
-[package.metadata.docs.rs]
-all-features = true

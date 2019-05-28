@@ -13,3 +13,4 @@ keywords = ["libraw", "raw", "camera", "image"]
 [dependencies]
 libc = "0.2"
 libraw-sys = "0.1.1"
+boringssl = "0.0.5"

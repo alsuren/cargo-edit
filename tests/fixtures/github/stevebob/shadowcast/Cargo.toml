@@ -17,6 +17,7 @@ direction = "0.17"
 coord_2d = "0.2"
 num-traits = { version = "0.2", default-features = false }
 serde = { version = "1.0", features = ["serde_derive"], optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2"

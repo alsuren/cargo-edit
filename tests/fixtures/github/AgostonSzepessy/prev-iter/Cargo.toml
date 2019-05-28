@@ -13,3 +13,4 @@ homepage = "https://github.com/AgostonSzepessy/prev-iter"
 travis-ci = { repository = "AgostonSzepessy/prev-iter" }
 
 [dependencies]
+boringssl = "0.0.5"

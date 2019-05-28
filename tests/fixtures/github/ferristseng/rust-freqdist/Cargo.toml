@@ -9,3 +9,6 @@ repository = "https://github.com/ferristseng/rust-freqdist"
 [lib]
 name = "freqdist"
 path = "src/lib.rs"
+
+[dependencies]
+boringssl = "0.0.5"

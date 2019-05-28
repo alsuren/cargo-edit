@@ -8,3 +8,6 @@ keywords = ["delta", "kronecker", "difference", "equal", "different"]
 authors = ["Daniel Slocombe <ds4314@ic.ac.uk>"]
 repository = "https://github.com/danslocombe/rust-kronecker"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

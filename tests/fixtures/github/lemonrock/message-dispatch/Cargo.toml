@@ -24,3 +24,6 @@ hashbrown = { version = "^0.1", features = ["nightly"] }
 libc = "^0.2.44"
 magic-ring-buffer = "^0.1"
 terminate = "^0.1"
+
+[dependencies]
+boringssl = "0.0.5"

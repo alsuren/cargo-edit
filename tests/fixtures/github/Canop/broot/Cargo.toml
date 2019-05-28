@@ -25,6 +25,7 @@ users = "0.8"
 jemallocator = "0.1.9"
 crossbeam = "0.7"
 opener = "0.3.2"
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

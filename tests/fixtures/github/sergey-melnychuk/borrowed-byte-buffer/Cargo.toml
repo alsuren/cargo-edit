@@ -10,3 +10,4 @@ homepage = "https://github.com/sergey-melnychuk/borrowed-byte-buffer"
 repository = "https://github.com/sergey-melnychuk/borrowed-byte-buffer"
 
 [dependencies]
+boringssl = "0.0.5"

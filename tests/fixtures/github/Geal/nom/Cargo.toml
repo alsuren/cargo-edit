@@ -23,6 +23,10 @@ include = [
   "build.rs"
 ]
 
+[package.metadata.docs.rs]
+features = [ "alloc", "std", "regexp", "regexp_macros", "lexical"]
+all-features = true
+
 [features]
 alloc = []
 std = ["alloc", "memchr/use_std"]
@@ -30,6 +34,9 @@ default = ["std", "lexical"]
 regexp = ["regex"]
 regexp_macros = ["regexp", "lazy_static"]
 lexical = ["lexical-core"]
+
+[dependencies]
+boringssl = "0.0.5"
 
 [dependencies.regex]
 version = "^1.0"
@@ -54,10 +61,6 @@ doc-comment = "0.3"
 
 [build-dependencies]
 version_check = "^0.1"
-
-[package.metadata.docs.rs]
-features = [ "alloc", "std", "regexp", "regexp_macros", "lexical"]
-all-features = true
 
 [profile.bench]
 debug = true

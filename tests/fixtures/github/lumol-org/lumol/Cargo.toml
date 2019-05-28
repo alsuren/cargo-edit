@@ -36,6 +36,7 @@ log = "0.4"
 clap = "2"
 chrono = "0.4"
 backtrace = "0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.6"

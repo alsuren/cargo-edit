@@ -20,5 +20,6 @@ travis-ci = { repository = "TeXitoi/structopt" }
 [dependencies]
 clap = { version = "2.20", default-features = false }
 structopt-derive = { path = "structopt-derive", version = "0.2.5" }
+boringssl = "0.0.5"
 
 [workspace]

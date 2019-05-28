@@ -8,3 +8,4 @@ authors = ["selfup <boudinot.regis@yahoo.com>"]
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

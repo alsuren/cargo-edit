@@ -32,3 +32,4 @@ structopt = "0.2"
 structopt-derive = "0.2"
 take_mut = "0.2"
 workpool = { path = "./workpool", version = "0.1.1" }
+boringssl = "0.0.5"

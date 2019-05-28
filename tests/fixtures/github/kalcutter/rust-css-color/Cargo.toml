@@ -12,6 +12,7 @@ keywords = ["color", "css", "parser"]
 [dependencies]
 lazy_static = "1.2.0"
 lexical = "2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_json = "1.0"

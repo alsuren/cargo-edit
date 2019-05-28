@@ -6,3 +6,6 @@ description = "A boolfuck interpreter written in rust."
 license = "MIT/Apache-2.0"
 keywords = ["brainfuck", "interpreter", "compiler", "esolang"]
 repository = "https://github.com/lncr/boolfuck"
+
+[dependencies]
+boringssl = "0.0.5"

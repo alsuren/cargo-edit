@@ -13,6 +13,7 @@ edition = "2018"
 rustfft = "2.0.0"
 num = "0.2"
 rayon = "1.0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 approx = "0.2.0"

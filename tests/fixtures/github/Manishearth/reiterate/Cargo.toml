@@ -11,3 +11,4 @@ repository = "https://github.com/manishearth/reiterate"
 [dependencies]
 elsa = "1.0.1"
 stable_deref_trait = "1.1.1"
+boringssl = "0.0.5"

@@ -14,3 +14,4 @@ edition = "2018"
 [dependencies]
 image = "0.21.0"
 syntect = "3.2"
+boringssl = "0.0.5"

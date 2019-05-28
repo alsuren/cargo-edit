@@ -13,6 +13,7 @@ categories    = ["api-bindings", "encoding", "multimedia", "visualization", "alg
 
 [dependencies]
 libc = "0.2.44"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lodepng = "2.4.2"

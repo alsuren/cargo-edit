@@ -20,6 +20,7 @@ failure_derive = "0.1.5"
 enum-kinds = "0.4.1"
 derive_is_enum_variant = "0.1.1"
 from_variants = "0.4.0"
+boringssl = "0.0.5"
 
 # For examples
 [dev-dependencies]

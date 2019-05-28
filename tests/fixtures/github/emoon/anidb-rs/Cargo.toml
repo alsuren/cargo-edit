@@ -10,4 +10,5 @@ homepage = "https://github.com/emoon/anidb-rs"
 
 [dependencies]
 rust-crypto = "^0.2"
+boringssl = "0.0.5"
 

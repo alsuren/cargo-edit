@@ -24,4 +24,5 @@ serde = { version = "1.0.88", features = ["derive"] }
 toml = "0.4"
 termion = "1.5.1"
 libc = "0.2.49"
+boringssl = "0.0.5"
 

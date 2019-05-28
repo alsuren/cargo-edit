@@ -12,6 +12,7 @@ readme = "README.md"
 byteorder = "1"
 chrono = "0.4"
 flate2 = { version = "1", features = ["rust_backend"], default-features = false }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "2.27"

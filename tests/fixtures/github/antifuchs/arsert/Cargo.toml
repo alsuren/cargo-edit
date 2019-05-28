@@ -9,10 +9,6 @@ readme = "README.md"
 description = "Assertions that provide more sophisticated failure messages"
 documentation = "https://docs.rs/arsert"
 
-[badges]
-circle-ci = { repository = "antifuchs/arsert", branch = "master" }
-maintenance = { status = "passively-maintained" }
-
 [package.metadata.release]
 sign-commit = false
 upload-doc = false
@@ -29,6 +25,14 @@ pre-release-replacements = [
   { file="Cargo.toml", search='(?m)^.*# dep_replace$', replace='version="{{version}}" # dep_replace'},
 ]
 
+[badges]
+circle-ci = { repository = "antifuchs/arsert", branch = "master" }
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+proc-macro-hack = "0.5.4"
+boringssl = "0.0.5"
+
 [dependencies.arsert_failure]
 path = "./arsert_failure"
 version="0.0.3-dev" # dep_replace
@@ -36,9 +40,6 @@ version="0.0.3-dev" # dep_replace
 [dependencies.arsert_impl]
 path = "./arsert_impl"
 version="0.0.3-dev" # dep_replace
-
-[dependencies]
-proc-macro-hack = "0.5.4"
 
 [dev-dependencies]
 version-sync = "0.8.0"

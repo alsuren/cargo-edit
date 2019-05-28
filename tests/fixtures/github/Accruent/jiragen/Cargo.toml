@@ -1,6 +1,0 @@
-[workspace]
-
-members = [
-  "jiragen-lib",
-  "jiragen-cli",
-]

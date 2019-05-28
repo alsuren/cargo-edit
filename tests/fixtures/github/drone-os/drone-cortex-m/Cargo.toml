@@ -14,6 +14,7 @@ repository = "https://github.com/drone-os/drone-cortex-m"
 [dependencies]
 futures-preview = { version = "0.3.0-alpha", default-features = false }
 failure = { version = "0.1", default-features = false, features = ["derive"] }
+boringssl = "0.0.5"
 
 [dependencies.drone-cortex-m-macros]
 version = "=0.9.0"

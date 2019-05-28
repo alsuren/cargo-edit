@@ -8,3 +8,6 @@ repository = "https://github.com/netvl/acc_reader"
 documentation = "http://netvl.github.com/acc_reader/"
 readme = "Readme.md"
 keywords = ["input", "reader", "seek"]
+
+[dependencies]
+boringssl = "0.0.5"

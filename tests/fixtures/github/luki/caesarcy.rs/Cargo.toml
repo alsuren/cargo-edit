@@ -10,3 +10,4 @@ readme = "README.md"
 [dependencies]
 rand = "0.3.15"
 clap = "2"
+boringssl = "0.0.5"

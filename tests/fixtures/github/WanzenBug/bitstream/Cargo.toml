@@ -13,3 +13,6 @@ authors = ["WanzenBug <moritz.wanzenboeck@gmail.com>"]
 [lib]
 name = "bitstream"
 path = "src/lib.rs"
+
+[dependencies]
+boringssl = "0.0.5"

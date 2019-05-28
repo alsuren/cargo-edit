@@ -23,6 +23,7 @@ snafu = {version="0.3.1", features = ["backtraces", "rust_1_30"]}
 num-traits = "0.2"
 num-derive = "0.2"
 winstructs = {git = "https://github.com/omerbenamram/winstructs.git", branch = "master"}
+boringssl = "0.0.5"
 
 [dependencies.chrono]
 version = "0.4.6"

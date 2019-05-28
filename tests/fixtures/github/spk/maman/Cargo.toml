@@ -27,6 +27,7 @@ robotparser = "0.10"
 sidekiq = "0.8"
 log = "0.4"
 env_logger = "0.6"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 mockito = "0.14"

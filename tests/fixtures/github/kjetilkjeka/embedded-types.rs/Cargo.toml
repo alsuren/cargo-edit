@@ -11,3 +11,4 @@ categories = ["embedded", "no-std", "hardware-support"]
 keywords = ["io", "arm", "hw", "types"]
 
 [dependencies]
+boringssl = "0.0.5"

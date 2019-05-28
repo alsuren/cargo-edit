@@ -32,3 +32,6 @@ serde_json = { version = "1.0" }
 
 [[bin]]
 name = "wmiq"
+
+[dependencies]
+boringssl = "0.0.5"

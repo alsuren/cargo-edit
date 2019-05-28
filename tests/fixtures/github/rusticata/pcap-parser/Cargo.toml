@@ -31,6 +31,7 @@ nom = "4.0"
 cookie-factory = "0.2"
 byteorder = "1"
 rusticata-macros = "1.1"
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "rusticata/pcap-parser" }

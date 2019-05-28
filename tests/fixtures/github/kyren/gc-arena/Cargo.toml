@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "src/gc-arena-derive/",
-    "src/gc-arena/",
-    "src/gc-sequence/",
-]

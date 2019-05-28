@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "schemer",
-    "schemer-postgres",
-    "schemer-rusqlite",
-]

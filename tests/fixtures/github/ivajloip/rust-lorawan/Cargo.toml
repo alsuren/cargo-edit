@@ -10,3 +10,4 @@ keywords = ["lorawan", "iot", "lpwan"]
 [dependencies]
 arrayref = "0.3.4"
 rust-crypto = "^0.2"
+boringssl = "0.0.5"

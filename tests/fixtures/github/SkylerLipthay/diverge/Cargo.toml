@@ -8,3 +8,6 @@ readme = "README.md"
 keywords = ["injection", "concerns", "macro"]
 license = "MIT"
 repository = "https://github.com/SkylerLipthay/diverge"
+
+[dependencies]
+boringssl = "0.0.5"

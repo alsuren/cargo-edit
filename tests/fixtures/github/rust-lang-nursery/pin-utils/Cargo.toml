@@ -10,3 +10,6 @@ documentation = "https://docs.rs/pin-utils"
 description = """
 Utilities for pinning
 """
+
+[dependencies]
+boringssl = "0.0.5"

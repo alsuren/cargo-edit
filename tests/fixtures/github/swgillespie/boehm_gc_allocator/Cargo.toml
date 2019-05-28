@@ -2,3 +2,6 @@
 name = "boehm_gc"
 version = "0.1.0"
 authors = ["swgillespie <sean.william.g@gmail.com>"]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -9,3 +9,4 @@ repository = "https://github.com/bsoptei/photonix"
 
 [dependencies]
 photonix_derive = "0.1.1"
+boringssl = "0.0.5"

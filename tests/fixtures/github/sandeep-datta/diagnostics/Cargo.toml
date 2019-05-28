@@ -8,3 +8,4 @@ description = "Exports a set of diagnostic macros which can be useful for inspec
 repository = "https://github.com/sandeep-datta/diagnostics.git"
 
 [dependencies]
+boringssl = "0.0.5"

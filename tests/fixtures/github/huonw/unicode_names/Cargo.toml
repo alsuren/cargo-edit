@@ -30,9 +30,12 @@ default = []
 unstable = []
 no_std = []
 
+[dev-dependencies]
+rand = "*"
+
 [dev-dependencies.unicode_names_macros]
 path = "unicode_names_macros"
 version = "*"
 
-[dev-dependencies]
-rand = "*"
+[dependencies]
+boringssl = "0.0.5"

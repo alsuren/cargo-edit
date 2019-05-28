@@ -9,6 +9,9 @@ repository = "https://github.com/niklasf/double-checked-cell"
 categories = ["concurrency"]
 description = "A thread-safe lazily initialized cell using double-checked locking"
 
+[package.metadata.docs.rs]
+all-features = true
+
 [features]
 default = []
 parking_lot_mutex = ["parking_lot"]
@@ -18,12 +21,10 @@ const_fn = ["parking_lot_mutex", "parking_lot/nightly"]
 void = "1.0"
 unreachable = "1.0"
 parking_lot = { version = "0.7", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 scoped-pool = "1.0"
-
-[package.metadata.docs.rs]
-all-features = true
 
 [badges]
 travis-ci = { repository = "niklasf/double-checked-cell" }

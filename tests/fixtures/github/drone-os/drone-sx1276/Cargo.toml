@@ -14,6 +14,9 @@ repository = "https://github.com/drone-os/drone-sx1276"
 default = []
 std = ['futures/use_std']
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.drone-sx1276-macros]
 version = "0.2.0"
 path = "macros"

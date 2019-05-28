@@ -11,6 +11,7 @@ repository = "https://github.com/freylax/u8bits"
 
 [dependencies]
 paste = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 surjective-enum = "0.1"

@@ -13,3 +13,4 @@ Fancy output for Cargo as a subcommand.
 
 [dependencies]
 term = "0.4"
+boringssl = "0.0.5"

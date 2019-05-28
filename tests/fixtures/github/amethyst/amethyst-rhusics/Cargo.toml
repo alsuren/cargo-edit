@@ -21,6 +21,7 @@ rhusics-core = { version = "0.7", features = ["specs", "serde"] }
 shrev = "1.0"
 collision = { version = "0.18", features = ["serde"]}
 cgmath = "0.16.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 amethyst = { version = "0.10" }

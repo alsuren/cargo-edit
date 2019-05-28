@@ -8,3 +8,4 @@ repository = "https://github.com/LooMaclin/identity_function_rs"
 homepage = "https://github.com/LooMaclin/identity_function_rs"
 
 [dependencies]
+boringssl = "0.0.5"

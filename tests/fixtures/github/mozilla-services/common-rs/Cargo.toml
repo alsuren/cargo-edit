@@ -14,3 +14,4 @@ travis-ci = { repository = "mozilla-services/common-rs" }
 lazy_static = "1.0"
 hostname = "0.1"
 reqwest = "0.8"
+boringssl = "0.0.5"

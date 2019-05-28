@@ -9,3 +9,4 @@ repository = "https://github.com/RomanAkberov/spherical_voronoi"
 
 [dependencies]
 cgmath = "0.16"
+boringssl = "0.0.5"

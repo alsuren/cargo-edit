@@ -6,3 +6,6 @@ description = "Relations"
 license = "MIT OR Apache-2.0"
 documentation = "https://docs.rs/rel/"
 repository = "https://github.com/strake/rel.rs"
+
+[dependencies]
+boringssl = "0.0.5"

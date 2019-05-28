@@ -11,3 +11,4 @@ keywords = ["range", "nonempty"]
 categories = ["data-structures"]
 
 [dependencies]
+boringssl = "0.0.5"

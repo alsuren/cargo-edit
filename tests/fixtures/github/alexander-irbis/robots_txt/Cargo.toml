@@ -23,6 +23,7 @@ travis-ci = { repository = "alexander-irbis/robots_txt" }
 
 [dependencies]
 url         = "^1.0"
+boringssl = "0.0.5"
 
 [features]
 default     = ["release"]

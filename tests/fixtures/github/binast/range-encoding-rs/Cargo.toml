@@ -15,6 +15,7 @@ travis-ci = { repository = "binast/range-encoding-rs", branch = "master" }
 
 [dependencies]
 log = "^0.4"
+boringssl = "0.0.5"
 
 
 [dev-dependencies]

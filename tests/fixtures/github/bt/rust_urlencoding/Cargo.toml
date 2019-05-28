@@ -8,3 +8,4 @@ repository = "https://github.com/bt/rust_urlencoding"
 keywords = ["url", "encoding", "urlencoding"]
 
 [dependencies]
+boringssl = "0.0.5"

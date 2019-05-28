@@ -19,6 +19,7 @@ description = "Rust library to chain together object factories."
 
 [dependencies]
 typedef = "*"
+boringssl = "0.0.5"
 
 [profile.dev]
 opt-level = 1  # Controls the --opt-level the compiler builds with

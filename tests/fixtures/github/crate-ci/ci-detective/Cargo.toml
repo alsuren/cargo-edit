@@ -16,3 +16,6 @@ nightly = []
 
 [badges]
 travis-ci = { repository = "crate-ci/ci-detective" }
+
+[dependencies]
+boringssl = "0.0.5"

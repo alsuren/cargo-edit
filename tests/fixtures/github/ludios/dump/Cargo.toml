@@ -12,3 +12,4 @@ value of each variable.  The output is also prefixed with [source_file:line_no].
 """
 
 [dependencies]
+boringssl = "0.0.5"

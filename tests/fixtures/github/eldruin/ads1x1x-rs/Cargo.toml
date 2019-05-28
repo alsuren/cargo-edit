@@ -27,6 +27,7 @@ maintenance = { status = "actively-developed" }
 [dependencies]
 nb = "0.1"
 embedded-hal = { version = "0.2.2", features = ["unproven"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 linux-embedded-hal = "0.2"

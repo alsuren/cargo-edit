@@ -15,4 +15,5 @@ homepage = "https://github.com/romankoblov/prettydiff"
 prettytable-rs = "0.8.0"
 ansi_term = "0.9"
 structopt = "0.2"
+boringssl = "0.0.5"
 

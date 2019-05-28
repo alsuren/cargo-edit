@@ -17,3 +17,6 @@ use_std = []
 [badges]
 travis-ci = { repository = "EugeneGonzalez/bit_reverse" }
 appveyor = { repository = "EugeneGonzalez/bit_reverse" }
+
+[dependencies]
+boringssl = "0.0.5"

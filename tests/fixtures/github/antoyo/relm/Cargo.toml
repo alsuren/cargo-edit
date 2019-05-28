@@ -9,6 +9,16 @@ readme = "README.adoc"
 repository = "https://github.com/antoyo/relm"
 version = "0.16.0"
 
+[[package.metadata.release.pre-release-replacements]]
+file = "README.adoc"
+replace = "relm = \"{{version}}\""
+search = "relm = \"[a-z0-9^\\.-]+\""
+
+[[package.metadata.release.pre-release-replacements]]
+file = "src/lib.rs"
+replace = "relm = \"{{version}}\""
+search = "relm = \"[a-z0-9^\\.-]+\""
+
 [badges.appveyor]
 branch = "master"
 repository = "antoyo/relm"
@@ -26,6 +36,7 @@ gtk = "^0.6.0"
 libc = "^0.2.54"
 log = "^0.4.6"
 quote = "0.6"
+boringssl = "0.0.5"
 
 [dependencies.syn]
 features = ["full"]
@@ -53,13 +64,3 @@ default = ["unstable"]
 hidpi = ["cairo-rs/v1_14"]
 nightly = []
 unstable = []
-
-[[package.metadata.release.pre-release-replacements]]
-file = "README.adoc"
-replace = "relm = \"{{version}}\""
-search = "relm = \"[a-z0-9^\\.-]+\""
-
-[[package.metadata.release.pre-release-replacements]]
-file = "src/lib.rs"
-replace = "relm = \"{{version}}\""
-search = "relm = \"[a-z0-9^\\.-]+\""

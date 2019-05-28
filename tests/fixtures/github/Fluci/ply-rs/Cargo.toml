@@ -21,6 +21,7 @@ travis-ci = { repository = "Fluci/ply-rs", branch = "master" }
 [dependencies]
 linked-hash-map = "0.5.1"
 byteorder = "1.2.7"
+boringssl = "0.0.5"
 
 [build-dependencies]
 peg = "0.5.4"

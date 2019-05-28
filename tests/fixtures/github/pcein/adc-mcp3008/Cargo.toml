@@ -12,3 +12,4 @@ readme = "quickstart.md"
 
 [dependencies]
 embedded-hal = "0.1.0"
+boringssl = "0.0.5"

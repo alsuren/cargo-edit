@@ -16,3 +16,4 @@ edition = "2018"
 travis-ci = { repository = "oliverfunk/labelgraph", branch = "master" }
 
 [dependencies]
+boringssl = "0.0.5"

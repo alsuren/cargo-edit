@@ -8,3 +8,4 @@ repository = "https://github.com/mbr/bresenham-rs"
 documentation = "https://mbr.github.io/bresenham-rs/bresenham"
 
 [dependencies]
+boringssl = "0.0.5"

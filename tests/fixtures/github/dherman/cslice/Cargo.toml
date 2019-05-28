@@ -6,3 +6,6 @@ description = "A library of slices with a stable ABI for interfacing with C."
 repository = "https://github.com/dherman/cslice"
 license = "MIT/Apache-2.0"
 documentation = "https://docs.rs/cslice"
+
+[dependencies]
+boringssl = "0.0.5"

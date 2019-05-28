@@ -19,3 +19,6 @@ criterion = "0.2.10"
 [[bench]]
 name = "benchmark"
 harness = false
+
+[dependencies]
+boringssl = "0.0.5"

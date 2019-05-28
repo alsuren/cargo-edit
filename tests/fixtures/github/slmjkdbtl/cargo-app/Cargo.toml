@@ -14,6 +14,7 @@ readme      = "README.md"
 clap         = "~2.32"
 packapp      = "~0.1"
 toml         = "~0.4"
+boringssl = "0.0.5"
 
 [dependencies.serde]
 version  = "~1.0"

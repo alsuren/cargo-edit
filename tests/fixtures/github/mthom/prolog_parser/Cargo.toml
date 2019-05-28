@@ -10,6 +10,7 @@ license = "BSD-3-Clause"
 lexical = "2.1.0"
 ordered-float = "0.5.0"
 rug = "1.4.0"
+boringssl = "0.0.5"
 
 [lib]
 path = "src/lib.rs"

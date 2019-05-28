@@ -9,6 +9,7 @@ repository = "https://github.com/ischeinkman/mbr-nostd"
 description = "A `no-std` crate for parsing and interacting with a Master Boot Record."
 
 [dependencies]
+boringssl = "0.0.5"
 
 
 [dependencies.byteorder]

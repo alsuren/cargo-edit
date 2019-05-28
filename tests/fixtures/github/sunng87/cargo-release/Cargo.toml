@@ -27,6 +27,7 @@ boolinator = "2.4"
 structopt = {version = "0.2.7", default-features = false}
 clap = { version = "2", default-features = false }
 clap-cargo = { version = "0.1", features = ["cargo_metadata"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 assert_fs = "0.11"

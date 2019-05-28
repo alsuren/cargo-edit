@@ -11,3 +11,4 @@ keywords = ["Beckhoff", "ADS", "automation", "device", "PLC"]
 [dependencies]
 byteorder = "1.2.2"
 itertools = "0.7.8"
+boringssl = "0.0.5"

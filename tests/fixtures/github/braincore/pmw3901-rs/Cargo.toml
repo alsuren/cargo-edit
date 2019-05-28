@@ -11,6 +11,7 @@ readme = "README.md"
 [dependencies]
 byteorder = "1.1.0"
 spidev = "0.3.0"
+boringssl = "0.0.5"
 
 [[example]]
 name = "scan"

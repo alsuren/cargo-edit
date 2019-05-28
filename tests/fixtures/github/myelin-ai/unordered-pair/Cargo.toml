@@ -12,3 +12,6 @@ repository = "https://github.com/myelin-ai/unordered-pair"
 homepage = "https://github.com/myelin-ai/unordered-pair"
 documentation = "https://docs.rs/unordered-pair"
 edition = "2018"
+
+[dependencies]
+boringssl = "0.0.5"

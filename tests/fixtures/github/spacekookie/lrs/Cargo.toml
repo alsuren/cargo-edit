@@ -11,3 +11,6 @@ readme = "README.md"
 
 [package.metadata.release]
 upload-doc = true
+
+[dependencies]
+boringssl = "0.0.5"

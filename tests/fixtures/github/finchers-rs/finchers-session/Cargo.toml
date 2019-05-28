@@ -45,6 +45,7 @@ time = "0.1.40"
 uuid = { version = "0.7.1", features = ["serde", "v4"] }
 
 redis = { version = "0.9.1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 pretty_env_logger = "0.2.4"

@@ -23,6 +23,9 @@ travis-ci = { repository = "DevQps/mrt-rs", branch = "master" }
 codecov = { repository = "DevQps/mrt-rs", branch = "master", service = "github" }
 maintenance = { status = "actively-developed" }
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.byteorder]
 version = "1.2.7"
 features = ["i128"]

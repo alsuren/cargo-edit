@@ -21,6 +21,7 @@ fnv = "1.0"
 lazy_static = { version = "0.2", optional = true }
 rand = { version = "0.3", optional = true }
 rusqlite = { version = "0.10", optional = true }
+boringssl = "0.0.5"
 
 [[bin]]
 name = "tak_ann_bootstrap_evaluator"

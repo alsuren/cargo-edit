@@ -9,6 +9,7 @@ repository = "https://github.com/sjeohp/rust-graph.git"
 
 [dependencies]
 nalgebra = "0.8.2"
+boringssl = "0.0.5"
 
 [lib]
 name = "apath"

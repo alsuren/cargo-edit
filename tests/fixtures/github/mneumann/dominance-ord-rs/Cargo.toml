@@ -8,3 +8,6 @@ repository = "https://github.com/mneumann/dominance-ord-rs"
 description = "Dominance order trait"
 keywords = ["dominance", "domination", "pareto"]
 include = ["src/lib.rs", "src/tests.rb", "Cargo.toml", "LICENSE", "README.md"]
+
+[dependencies]
+boringssl = "0.0.5"

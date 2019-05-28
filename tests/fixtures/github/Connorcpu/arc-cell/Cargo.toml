@@ -8,3 +8,4 @@ description = "Helper for a simple Cell-like object containing Arc/Weak"
 keywords = ["sync", "arc", "cell"]
 
 [dependencies]
+boringssl = "0.0.5"

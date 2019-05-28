@@ -13,3 +13,4 @@ categories= ["command-line-utilities", "development-tools"]
 license= "MIT"
 [dependencies]
 dialoguer = "0.1.0"
+boringssl = "0.0.5"

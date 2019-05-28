@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "apps/cli/",
-    "gen/",
-    "unic/",
-]

@@ -22,6 +22,7 @@ nom = "5.0.0-beta1"
 runtime = "0.3.0-alpha.4"
 structopt = "0.2"
 tokio-socketcan = "0.1"
+boringssl = "0.0.5"
 
 [[bin]]
 name = "candumprb"

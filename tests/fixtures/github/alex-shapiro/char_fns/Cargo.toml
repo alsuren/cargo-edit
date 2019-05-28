@@ -9,3 +9,6 @@ description = "unicode character-indexed string manipulation"
 keywords = ["char", "unicode", "string"]
 readme = "README.md"
 repository = "https://github.com/alex-shapiro/char_fns"
+
+[dependencies]
+boringssl = "0.0.5"

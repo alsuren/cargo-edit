@@ -13,3 +13,4 @@ categories = ["science"]
 [dependencies]
 num-traits = "^0.1.40"
 num-integer = "^0.1.32"
+boringssl = "0.0.5"

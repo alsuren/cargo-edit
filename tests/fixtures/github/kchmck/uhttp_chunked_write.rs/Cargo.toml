@@ -7,3 +7,6 @@ license = "MIT"
 documentation = "https://docs.rs/uhttp_chunked_write"
 repository = "https://github.com/kchmck/uhttp_chunked_write.rs"
 keywords = ["http", "response", "chunked", "writer"]
+
+[dependencies]
+boringssl = "0.0.5"

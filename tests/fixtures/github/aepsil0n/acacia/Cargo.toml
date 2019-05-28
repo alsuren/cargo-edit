@@ -21,6 +21,7 @@ nalgebra = "0.10"
 itertools = "0.5"
 rand = "0.3"
 num = "0.1"
+boringssl = "0.0.5"
 
 [dependencies.quickcheck]
 optional = true

@@ -14,3 +14,4 @@ description = "Establishes and safely deletes advisory blocking on the open file
 
 [dependencies]
 libc = "0.2.51"
+boringssl = "0.0.5"

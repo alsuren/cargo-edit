@@ -26,4 +26,5 @@ exclude = [
 [dependencies]
 ispc_compile = { path = "./compile/", version = "1.0.6" }
 ispc_rt = { path = "./runtime/", version = "1.0.2" }
+boringssl = "0.0.5"
 

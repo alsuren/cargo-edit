@@ -1,2 +1,0 @@
-[workspace]
-members = ["tinf", "tvis", "tvis_util", "stijl"]

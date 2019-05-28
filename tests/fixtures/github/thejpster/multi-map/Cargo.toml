@@ -12,3 +12,4 @@ documentation = "https://thejpster.github.io/multi-map/doc/multi_map/index.html"
 homepage = "https://thejpster.github.io/multi-map"
 
 [dependencies]
+boringssl = "0.0.5"

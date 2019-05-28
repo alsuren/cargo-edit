@@ -8,3 +8,6 @@ repository = "https://github.com/sellibitze/anyrange.git"
 homepage = "https://github.com/sellibitze/anyrange"
 description = "Small helper trait that helps dealing with range arguments"
 keywords = ["utility", "range"]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -1,7 +1,0 @@
-[workspace]
-
-members = [
-    "wallet",
-    "bitcoin_core_io",
-    "rust-wallet-grpc",
-]

@@ -17,3 +17,4 @@ unstable = []
 
 [dependencies]
 threadpool = { version = "1.2", optional = true }
+boringssl = "0.0.5"

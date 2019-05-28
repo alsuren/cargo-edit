@@ -49,6 +49,7 @@ structopt = "0.2.14"
 toml = "0.4.10"
 xdg-basedir = "1.0.0"
 yaml-rust = "0.4.2"
+boringssl = "0.0.5"
 
 [dependencies.v8]
 version = "0.10.0"

@@ -7,3 +7,6 @@ repository = "https://github.com/comex/rust-shlex"
 description = """
 Split a string into shell words, like Python's shlex.
 """
+
+[dependencies]
+boringssl = "0.0.5"

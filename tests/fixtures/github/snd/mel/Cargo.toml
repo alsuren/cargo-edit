@@ -15,6 +15,7 @@ apodize = "0.2.0"
 hertz = "0.2.0"
 itertools-num = "0.1.1"
 num = "0.1.40"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 approx = "0.1.1"

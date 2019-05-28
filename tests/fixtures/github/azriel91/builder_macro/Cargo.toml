@@ -8,3 +8,6 @@ documentation = "http://www.azriel.im/builder_macro"
 repository = "https://github.com/azriel91/builder_macro"
 readme = "README.md"
 keywords = ["builder", "macro", "consuming", "non-consuming"]
+
+[dependencies]
+boringssl = "0.0.5"

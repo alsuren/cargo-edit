@@ -18,6 +18,7 @@ repository = "https://github.com/smart-leds-rs/ws2812-timer-delay-rs"
 nb = "0.1.1"
 smart-leds-trait = "0.2"
 embedded-hal = "0.2.1"
+boringssl = "0.0.5"
 
 [features]
 slow = []

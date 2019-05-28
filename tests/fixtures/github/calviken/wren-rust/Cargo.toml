@@ -10,12 +10,13 @@ homepage = "https://github.com/calviken/wren-rust"
 repository = "https://github.com/calviken/wren-rust"
 documentation = "https://docs.rs/wren"
 
+[dependencies]
+libc = "0.2"
+boringssl = "0.0.5"
+
 [dependencies.wren-sys]
 version = "~0.2.3"
 path = "./wren-sys"
-
-[dependencies]
-libc = "0.2"
 
 [dev-dependencies]
 lazy_static = "0.2"

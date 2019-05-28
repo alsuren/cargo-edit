@@ -18,3 +18,4 @@ doc = false
 aho-corasick = "0.5.1"
 lazy_static = "0.2.0"
 regex = "0.1.66"
+boringssl = "0.0.5"

@@ -33,6 +33,7 @@ serde_derive = "1.0"
 num_cpus = "1.8"
 
 rs-es = { git = "https://github.com/honeypotio/rs-es.git", branch = "dev" }
+boringssl = "0.0.5"
 
 [patch.crates-io]
 urlencoded = { git = 'https://github.com/ryman/urlencoded' }

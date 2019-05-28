@@ -15,6 +15,7 @@ version = "3.0.4"
 bitflags = "1"
 chrono = "0"
 failure = "0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lazy_static = "1"

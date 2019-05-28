@@ -9,3 +9,4 @@ description = "Converts cargo test output into a vec of suites"
 
 [dependencies]
 nom = "3.2.1"
+boringssl = "0.0.5"

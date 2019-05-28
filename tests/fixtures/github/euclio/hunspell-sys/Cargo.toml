@@ -14,6 +14,7 @@ readme = "README.md"
 travis-ci = { repository = "euclio/hunspell-sys" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [build-dependencies]
 bindgen = "0.49.0"

@@ -14,3 +14,6 @@ license = "MIT"
 [dev-dependencies]
 tar = "0.4.9"
 tempdir = "0.3.5"
+
+[dependencies]
+boringssl = "0.0.5"

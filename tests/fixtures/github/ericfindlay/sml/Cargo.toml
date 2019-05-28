@@ -13,6 +13,7 @@ categories = ["config", "encoding", "parser-implementations"]
 
 [dependencies]
 colored = "1.7.0"
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "ericfindlay/SML" }

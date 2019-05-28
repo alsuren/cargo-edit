@@ -15,6 +15,7 @@ travis-ci = { repository = "sfackler/rust-jni-sys" }
 appveyor = { repository = "sfackler/rust-jni-sys" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [workspace]
 members = ["systest"]

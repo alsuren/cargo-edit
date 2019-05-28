@@ -27,6 +27,7 @@ lazy_static = "1.1"
 serde_derive = "1.0"
 num256 = "0.2"
 bytecount = "0.4"
+boringssl = "0.0.5"
 
 [[test]]
 name = "transaction_tests"

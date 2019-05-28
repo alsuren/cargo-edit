@@ -10,3 +10,4 @@ categories = ["parsing", "parser-implementations", "multimedia"]
 keywords = ["game", "parser", "sega", "cinepak"]
 
 [dependencies]
+boringssl = "0.0.5"

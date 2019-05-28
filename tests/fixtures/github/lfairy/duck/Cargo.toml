@@ -17,3 +17,6 @@ path = "lib.rs"
 
 [badges]
 travis-ci = { repository = "lfairy/duck" }
+
+[dependencies]
+boringssl = "0.0.5"

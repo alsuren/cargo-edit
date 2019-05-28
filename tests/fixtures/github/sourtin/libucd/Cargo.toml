@@ -18,3 +18,4 @@ most notably character names.
 exclude = ["tests/*", "data/*"]
 
 [dependencies]
+boringssl = "0.0.5"

@@ -15,6 +15,7 @@ travis-ci = { repository = "kunerd/clerk", branch = "master" }
 
 [dependencies]
 bitflags = "1.0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 sysfs_gpio = "0.5.1"

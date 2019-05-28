@@ -16,3 +16,4 @@ travis-ci = { repository = "YaLTeR/circular-queue" }
 appveyor = { repository = "YaLTeR/circular-queue" }
 
 [dependencies]
+boringssl = "0.0.5"

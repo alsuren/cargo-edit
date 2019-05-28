@@ -15,3 +15,4 @@ travis-ci = { repository = "qubyte/github_webhook_message_validator" }
 [dependencies]
 hmac = "0.7.0"
 sha-1 = "0.8.1"
+boringssl = "0.0.5"

@@ -11,3 +11,4 @@ repository = "https://github.com/theassailant/matriarch"
 keywords = ["math", "matrix-multiply", "linear-algebra"]
 
 [dependencies]
+boringssl = "0.0.5"

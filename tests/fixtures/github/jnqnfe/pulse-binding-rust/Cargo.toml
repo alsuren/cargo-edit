@@ -1,4 +1,0 @@
-[workspace]
-members = [ "pulse-binding", "pulse-binding-simple", "pulse-binding-mainloop-glib",
-            "pulse-sys", "pulse-sys-simple", "pulse-sys-mainloop-glib" ]
-

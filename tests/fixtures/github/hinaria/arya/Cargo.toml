@@ -14,3 +14,6 @@ categories    = ["encoding"]
 readme        = "docs/crates.io/readme.md"
 
 include       = ["src/**/*.rs", "Cargo.toml", "docs/crates.io/readme.md"]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -9,3 +9,4 @@ documentation = "https://docs.rs/rwutil"
 
 [dependencies]
 byteorder = "1.0.0"
+boringssl = "0.0.5"

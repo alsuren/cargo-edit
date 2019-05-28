@@ -12,6 +12,7 @@ categories = ["algorithms"]
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.6"

@@ -6,3 +6,6 @@ repository = "https://github.com/mcpherrinm/baudot.git"
 keywords = ["TTY", "TDD", "baudot", "ITA2", "characters"]
 license = "MIT"
 description = "Baudot and related five bit codes in Rust"
+
+[dependencies]
+boringssl = "0.0.5"

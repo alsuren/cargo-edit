@@ -11,6 +11,7 @@ keywords = ["geo", "geospatial", "wkt"]
 
 [dependencies]
 geo-types = {version = "0.4", optional = true}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = { version = "0.2" }

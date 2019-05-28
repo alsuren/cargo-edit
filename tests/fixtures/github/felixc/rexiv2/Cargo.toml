@@ -30,6 +30,7 @@ include = [
 gexiv2-sys = "1.0"
 libc = "0.2"
 num-rational = { version = "0.2", default-features = false }
+boringssl = "0.0.5"
 
 [[test]]
 name = "tests"

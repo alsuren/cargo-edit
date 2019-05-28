@@ -15,6 +15,7 @@ byteorder = "0.3"
 log = "0.3"
 bytes = "0.4"
 rustc-serialize = { version = "0.3", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies.env_logger]
 version="0.3"

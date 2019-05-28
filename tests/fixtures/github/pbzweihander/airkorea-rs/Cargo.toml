@@ -16,6 +16,7 @@ scraper = "0.10.0"
 regex = "1.1.5"
 futures = "0.1.26"
 reqwest = "0.9.14"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio = "0.1.18"

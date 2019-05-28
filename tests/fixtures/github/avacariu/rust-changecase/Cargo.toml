@@ -13,3 +13,6 @@ case. Title case is in the works.
 homepage = "https://github.com/avacariu/rust-changecase"
 repository = "https://github.com/avacariu/rust-changecase"
 keywords = ["uppercase", "lowercase", "titlecase"]
+
+[dependencies]
+boringssl = "0.0.5"

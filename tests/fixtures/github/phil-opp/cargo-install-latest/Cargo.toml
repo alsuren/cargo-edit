@@ -10,3 +10,4 @@ edition = "2018"
 [dependencies]
 tempdir = "0.3.7"
 toml = "0.4.8"
+boringssl = "0.0.5"

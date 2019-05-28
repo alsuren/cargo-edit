@@ -16,3 +16,6 @@ documentation = "http://docs.rs/abort_on_panic"
 maintenance = { status = "passively-maintained" }
 travis-ci = { repository = "emk/abort_on_panic-rs", branch = "master" }
 
+[dependencies]
+boringssl = "0.0.5"
+

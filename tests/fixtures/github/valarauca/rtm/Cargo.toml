@@ -10,3 +10,6 @@ readme = "README.md"
 documentation = "https://valarauca.github.io/rtm/rtm/index.html"
 keywords = ["rtm","amd64","transaction", "memory"]
 
+[dependencies]
+boringssl = "0.0.5"
+

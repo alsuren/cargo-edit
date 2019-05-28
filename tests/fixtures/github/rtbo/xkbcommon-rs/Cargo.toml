@@ -13,6 +13,7 @@ license = "MIT"
 libc = "0.2"
 memmap = { version = "0.7", optional=true }
 xcb = { version = "0.8", features = ["xkb"], optional=true }
+boringssl = "0.0.5"
 
 [features]
 x11 = ["xcb"]

@@ -28,3 +28,6 @@ invert-pitch = []
 # Pretty print radians
 format-rad-pi = []
 format-rad-tau = []
+
+[dependencies]
+boringssl = "0.0.5"

@@ -19,6 +19,7 @@ features = ["std", "serde", "rand"]
 travis-ci = { repository = "rust-num/num" }
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dependencies.num-bigint]
 optional = true # needs std

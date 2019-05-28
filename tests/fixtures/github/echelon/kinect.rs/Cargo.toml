@@ -10,6 +10,7 @@ repository = "https://github.com/echelon/kinect.rs"
 documentation = "https://docs.rs/kinect"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev_dependencies]
 expectest = "0.10"

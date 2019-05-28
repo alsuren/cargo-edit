@@ -9,3 +9,4 @@ documentation = "http://spacejam.github.io/docs/llrb/llrb"
 keywords = ["data-structures", "llrb", "tree"]
 
 [dependencies]
+boringssl = "0.0.5"

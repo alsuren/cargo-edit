@@ -14,6 +14,7 @@ edition = "2018"
 
 [dependencies]
 audiopus_sys = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies.matches]
 version = "0.1.8"

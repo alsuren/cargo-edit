@@ -33,5 +33,6 @@ rand = "0.3"
 time = "0.1"
 bytes = "0.4"
 clap = {version = "2.22", default-features = false}
+boringssl = "0.0.5"
 
 [dev-dependencies]

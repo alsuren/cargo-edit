@@ -18,3 +18,4 @@ crate-type = ["rlib", "staticlib"]
 [dependencies]
 libc = "0.2"
 rand = "0.3"
+boringssl = "0.0.5"

@@ -1,6 +1,0 @@
-[workspace]
-
-members = [
-    "act-bin",
-    "act-file",
-]

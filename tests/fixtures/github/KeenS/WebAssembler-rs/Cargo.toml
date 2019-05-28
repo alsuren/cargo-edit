@@ -12,3 +12,4 @@ categories = ["web-programming", "wasm"]
 
 
 [dependencies]
+boringssl = "0.0.5"

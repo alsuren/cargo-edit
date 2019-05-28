@@ -9,14 +9,15 @@ repository = "https://github.com/wdv4758h/cargo-arch/"
 edition = "2018"
 keywords = ["cargo", "package"]
 
+[package.metadata.arch]
+arch = ["x86_64"]
+
 [dependencies]
 clap = { version = "2.32.0", features = ["yaml"] }
 serde = "^1.0"
 serde_derive = "^1.0"
 toml = "0.4.2"
-
-[package.metadata.arch]
-arch = ["x86_64"]
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

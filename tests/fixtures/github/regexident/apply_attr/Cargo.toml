@@ -14,6 +14,7 @@ version = "0.2.4"
 [dependencies]
 bitflags = "^0.7.0"
 compiletest_rs = "0.2.5"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 compiletest_rs = "0.2.1"

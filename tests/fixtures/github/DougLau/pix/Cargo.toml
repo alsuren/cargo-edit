@@ -10,3 +10,6 @@ repository = "https://github.com/DougLau/pix"
 readme = "README.md"
 keywords = ["pixel", "image", "rgb", "color"]
 edition = "2018"
+
+[dependencies]
+boringssl = "0.0.5"

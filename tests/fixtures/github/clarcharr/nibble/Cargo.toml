@@ -10,15 +10,6 @@ categories = ["no-std", "parsing"]
 license = "CC0-1.0"
 exclude = [".gitignore"]
 
-[dependencies]
-arrayvec = { version = "0.4.2", default-features = false }
-cfg-if = "0.1.2"
-num-traits = "0.1.40"
-
-[features]
-default = ["std"]
-std = ["arrayvec/std"]
-
 [[package.metadata.test-all.cases]]
 versions = ["1.14.0", "stable", "beta"]
 try-features = [["std"]]
@@ -26,3 +17,13 @@ try-features = [["std"]]
 [[package.metadata.test-all.cases]]
 versions = ["nightly"]
 try-features = [["std"], []]
+
+[dependencies]
+arrayvec = { version = "0.4.2", default-features = false }
+cfg-if = "0.1.2"
+num-traits = "0.1.40"
+boringssl = "0.0.5"
+
+[features]
+default = ["std"]
+std = ["arrayvec/std"]

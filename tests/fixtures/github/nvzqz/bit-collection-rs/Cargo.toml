@@ -8,6 +8,9 @@ repository = "https://github.com/nvzqz/bit-collection-rs"
 categories = ["no-std"]
 description = "A trait for iterating over the individual bits of a collection."
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.bit_collection_derive]
 version = "0.2.2"
 path = "derive"

@@ -10,4 +10,5 @@ publish = false
 
 [dependencies]
 cribbage-core = "0.1.0"
+boringssl = "0.0.5"
 

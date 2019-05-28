@@ -20,3 +20,6 @@ license = "MIT"
 
 travis-ci = { repository = "Frezc/relative-time-expression-rust" }
 codecov = { repository = "Frezc/relative-time-expression-rust", service = "github" }
+
+[dependencies]
+boringssl = "0.0.5"

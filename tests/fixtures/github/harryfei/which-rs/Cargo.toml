@@ -12,6 +12,7 @@ keywords = ["which", "which-rs", "unix", "command"]
 
 [dependencies]
 libc = "0.2.10"
+boringssl = "0.0.5"
 
 [dependencies.failure]
 version = "0.1.1"

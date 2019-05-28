@@ -16,6 +16,7 @@ travis-ci = { repository = "rust-lang/libc" }
 
 [dependencies]
 futures     = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio       = "0.1"

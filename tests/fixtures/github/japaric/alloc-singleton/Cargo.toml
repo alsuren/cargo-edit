@@ -10,9 +10,13 @@ readme = "README.md"
 repository = "https://github.com/japaric/alloc-singleton"
 version = "0.1.0"
 
+[package.metadata.docs.rs]
+features = ["nightly"]
+
 [dependencies]
 as-slice = "0.1.0"
 owned-singleton = "0.1.0"
+boringssl = "0.0.5"
 
 [dependencies.generic-array]
 optional = true
@@ -24,6 +28,3 @@ version = "1.1.1"
 
 [features]
 nightly = ["generic-array"]
-
-[package.metadata.docs.rs]
-features = ["nightly"]

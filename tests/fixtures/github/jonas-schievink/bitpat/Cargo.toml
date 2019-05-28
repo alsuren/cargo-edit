@@ -10,11 +10,6 @@ categories = ["rust-patterns"]  # literally
 readme = "README.md"
 license = "CC0-1.0"
 
-[dependencies]
-
-[dev-dependencies]
-version-sync = "0.5"
-
 
 # cargo-release configuration
 [package.metadata.release]
@@ -40,3 +35,9 @@ replace = 'bitpat = "{{version}}"'
 file    = "src/lib.rs"
 search  = "https://docs.rs/bitpat/[a-z0-9\\.-]+"
 replace = "https://docs.rs/bitpat/{{version}}"
+
+[dependencies]
+boringssl = "0.0.5"
+
+[dev-dependencies]
+version-sync = "0.5"

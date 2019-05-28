@@ -11,3 +11,6 @@ documentation = "http://crhino.github.io/canal-docs/canal/index.html"
 readme = "./README.md"
 license = "BSD-3-Clause"
 keywords = ["concurrency"]
+
+[dependencies]
+boringssl = "0.0.5"

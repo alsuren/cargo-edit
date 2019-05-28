@@ -24,6 +24,7 @@ regex = "~0.1"
 gitignore = "~1"
 ansi_term = {version = "~0.9", optional = true}
 clippy    = {version = "=0.0.88", optional = true}
+boringssl = "0.0.5"
 
 [features]
 default = ["color"]

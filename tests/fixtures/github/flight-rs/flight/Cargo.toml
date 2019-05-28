@@ -17,6 +17,7 @@ image = "0.18"
 rust-webvr = "0.9"
 failure = "0.1"
 failure_derive = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 approx = "0.1"

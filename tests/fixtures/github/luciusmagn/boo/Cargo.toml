@@ -7,3 +7,4 @@ license = "Fair"
 repository = "https://github.com/luciusmagn/boo"
 
 [dependencies]
+boringssl = "0.0.5"

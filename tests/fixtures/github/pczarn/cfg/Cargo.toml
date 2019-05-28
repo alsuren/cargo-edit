@@ -16,3 +16,4 @@ name = "cfg"
 [dependencies]
 bit-matrix = "0.2"
 bit-vec = "0.4"
+boringssl = "0.0.5"

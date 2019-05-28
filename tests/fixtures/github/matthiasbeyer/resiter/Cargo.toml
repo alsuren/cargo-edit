@@ -14,3 +14,4 @@ documentation = "https://docs.rs/resiter"
 repository    = "https://github.com/matthiasbeyer/resiter"
 
 [dependencies]
+boringssl = "0.0.5"

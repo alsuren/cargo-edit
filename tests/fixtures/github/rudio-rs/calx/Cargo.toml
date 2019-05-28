@@ -10,6 +10,7 @@ categories = ["api-bindings"]
 keywords = ["core", "audio", "osx"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dependencies.coreaudio-sys]
 version = "0.2"

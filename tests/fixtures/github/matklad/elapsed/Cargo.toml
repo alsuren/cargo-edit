@@ -7,3 +7,6 @@ license = "MIT"
 repository = "https://github.com/matklad/elapsed.git"
 documentation = "https://docs.rs/crate/elapsed/0.1.2"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

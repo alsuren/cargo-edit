@@ -12,3 +12,6 @@ license = "MIT"
 [[bin]]
 name = "porthole"
 doc = false
+
+[dependencies]
+boringssl = "0.0.5"

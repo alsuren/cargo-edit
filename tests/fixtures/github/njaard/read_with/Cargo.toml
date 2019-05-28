@@ -9,3 +9,4 @@ keywords = ["read", "string", "generator", "closure"]
 documentation = "https://docs.rs/read_with/"
 
 [dependencies]
+boringssl = "0.0.5"

@@ -23,6 +23,7 @@ num = "0.2"
 ndarray-rand = "0.9.0"
 rand = "0.6.1"
 rand_xorshift = "0.1.0"
+boringssl = "0.0.5"
 
 [features]
 default = []

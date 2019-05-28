@@ -7,3 +7,4 @@ license="MIT"
 description="Many useful macros"
 repository="https://github.com/VitalyAnkh/macros"
 [dependencies]
+boringssl = "0.0.5"

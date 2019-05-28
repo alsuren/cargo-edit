@@ -19,6 +19,7 @@
   log = "0.3.*"
   net2 = "0.2.*"
   point = "0.3.*"
+boringssl = "0.0.5"
 
 [badges]
   travis-ci = { repository = "echelon/etherdream.rs" }

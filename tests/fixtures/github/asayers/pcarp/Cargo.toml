@@ -17,6 +17,7 @@ buf_redux = "0.7"
 byteorder = "1.0"
 failure = "0.1"
 log = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "2.32"

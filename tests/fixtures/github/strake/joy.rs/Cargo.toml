@@ -12,3 +12,4 @@ documentation = "https://docs.rs/joy/"
 libc = { version = "0.2", default-features = false }
 null-terminated = "0.2.1"
 syscall = "0.2"
+boringssl = "0.0.5"

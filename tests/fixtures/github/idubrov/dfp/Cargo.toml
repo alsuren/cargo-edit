@@ -11,3 +11,6 @@ codecov = { repository = "idubrov/dfp-rs" }
 is-it-maintained-issue-resolution = { repository = "idubrov/dfp-rs" }
 is-it-maintained-open-issues = { repository = "idubrov/dfp-rs" }
 maintenance = { status = "experimental" }
+
+[dependencies]
+boringssl = "0.0.5"

@@ -14,3 +14,4 @@ flate2 = "1.0"
 libc = "0.2"
 gel = {path = "../gel"}
 bmp = "*"
+boringssl = "0.0.5"

@@ -14,6 +14,7 @@ memchr = "2"
 copy_in_place = "0.2"
 slice-deque = "0.1"
 quick-error = "1.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 fnv = "1"

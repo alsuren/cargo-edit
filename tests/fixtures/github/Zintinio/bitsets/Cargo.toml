@@ -11,3 +11,6 @@ documentation = "https://docs.rs/bitsets"
 homepage = "https://github.com/Zintinio/bitsets"
 repository = "https://github.com/Zintinio/bitsets"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

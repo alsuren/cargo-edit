@@ -13,3 +13,6 @@ Synchronization primitives based on spinning.
 They may contain data, are usable without `std`,
 and static initializers are available.
 """
+
+[dependencies]
+boringssl = "0.0.5"

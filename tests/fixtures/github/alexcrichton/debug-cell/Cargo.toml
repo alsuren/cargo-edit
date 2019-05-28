@@ -15,6 +15,7 @@ where known borrows were created will be printed out as well.
 
 [dependencies]
 backtrace = "0.3"
+boringssl = "0.0.5"
 
 [[test]]
 name = "smoke"

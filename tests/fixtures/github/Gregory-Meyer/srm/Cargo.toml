@@ -23,3 +23,4 @@ rayon = "^1.0.3"
 regex = "^1.1.2"
 serde = { version = "^1.0.88", features = ["derive"] }
 serde_yaml = "^0.8.8"
+boringssl = "0.0.5"

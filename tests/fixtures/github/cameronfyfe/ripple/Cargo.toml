@@ -7,3 +7,4 @@ license = "MIT/Apache-2.0"
 repository = "https://github.com/cameronfyfe/ripple/"
 
 [dependencies]
+boringssl = "0.0.5"

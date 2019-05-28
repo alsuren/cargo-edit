@@ -10,3 +10,6 @@ keywords = ["iterator", "reader", "read"]
 
 [features]
 unstable = []
+
+[dependencies]
+boringssl = "0.0.5"

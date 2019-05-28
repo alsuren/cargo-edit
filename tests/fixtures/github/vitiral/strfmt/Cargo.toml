@@ -9,3 +9,4 @@ authors = ["Garrett Berg <vitiral@gmail.com>"]
 license = "MIT"
 
 [dependencies]
+boringssl = "0.0.5"

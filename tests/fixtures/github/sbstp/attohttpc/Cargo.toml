@@ -13,6 +13,9 @@ repository = "https://github.com/sbstp/attohttpc"
 keywords = ["http", "client", "tls", "http/1.0", "http/1.1"]
 categories = ["network-programming", "web-programming", "web-programming::http-client"]
 
+[package.metadata.docs.rs]
+all-features = true
+
 [dependencies]
 http = "0.1"
 log = "0.4"
@@ -22,6 +25,7 @@ libflate = { version = "0.1", optional = true }
 native-tls = { version = "0.2", optional = true }
 serde = { version = "1", optional = true }
 serde_json = { version = "1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.5"
@@ -34,9 +38,6 @@ compress = ["libflate"]
 tls = ["native-tls"]
 json = ["serde", "serde_json"]
 default = ["compress", "tls"]
-
-[package.metadata.docs.rs]
-all-features = true
 
 [[example]]
 name = "cat"

@@ -9,3 +9,4 @@ version = "0.1.1"
 authors = ["Jon Allie <jon@jonallie.com>"]
 
 [dependencies]
+boringssl = "0.0.5"

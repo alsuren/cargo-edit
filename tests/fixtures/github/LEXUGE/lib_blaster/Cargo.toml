@@ -11,6 +11,7 @@ pnet_macros_support = "0.21"
 pnet_packet = "0.21"
 pnet_transport = "0.21"
 rand = "0.5"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 criterion = "0.2"

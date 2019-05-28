@@ -8,3 +8,4 @@ description = "Create orthographic projection images"
 keywords = ["gis", "projection"]
 
 [dependencies]
+boringssl = "0.0.5"

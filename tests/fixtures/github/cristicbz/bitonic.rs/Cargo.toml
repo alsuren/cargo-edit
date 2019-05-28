@@ -13,6 +13,7 @@ license = "MIT/Apache-2.0"
 
 [dependencies]
 rayon = "0.8.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 quickcheck = "0.4.1"

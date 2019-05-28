@@ -12,3 +12,6 @@ keywords = ["buildable","rub"]
 
 [lib]
 name = "buildable"
+
+[dependencies]
+boringssl = "0.0.5"

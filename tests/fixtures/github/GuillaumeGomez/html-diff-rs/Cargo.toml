@@ -11,6 +11,7 @@ categories = ["html", "diff"]
 
 [dependencies]
 kuchiki = "0.6"
+boringssl = "0.0.5"
 
 [[bin]]
 name = "html_diff"

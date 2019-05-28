@@ -7,10 +7,11 @@ readme = "README.md"
 license = "AGPL-3.0"
 repository = "https://github.com/AljoschaMeyer/atm-io-utils"
 
+[package.metadata.docs.rs]
+features = ["quickcheck"]
+
 [dependencies]
 futures-core = "0.2.0-alpha"
 futures-io = "0.2.0-alpha"
 quickcheck = { version = "0.6", optional = true }
-
-[package.metadata.docs.rs]
-features = ["quickcheck"]
+boringssl = "0.0.5"

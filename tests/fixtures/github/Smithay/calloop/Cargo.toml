@@ -16,6 +16,7 @@ codecov = { repository = "Smithay/calloop" }
 [dependencies]
 mio = "0.6"
 mio-extras = "2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lazycell = "=1.0.0"

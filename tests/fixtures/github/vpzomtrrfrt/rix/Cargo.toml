@@ -17,6 +17,7 @@ urlencoding = "1.0.0"
 hyper = "0.12.5"
 hyper-tls = "0.3.0"
 try_future = "0.1.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio = "0.1.7"

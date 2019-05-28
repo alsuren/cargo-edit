@@ -1,3 +1,0 @@
-[workspace]
-
-members = ["display-as", "display-as-proc-macro"]

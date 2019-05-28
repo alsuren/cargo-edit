@@ -14,3 +14,4 @@ license = "MIT"
 
 [dependencies]
 geojson = "0.11.1"
+boringssl = "0.0.5"

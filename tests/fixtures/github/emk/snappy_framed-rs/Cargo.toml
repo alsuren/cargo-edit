@@ -21,6 +21,7 @@ unstable = []
 crc = "*"
 log = "*"
 snappy = "*"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 dribble = "*"

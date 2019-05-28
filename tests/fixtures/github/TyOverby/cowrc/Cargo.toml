@@ -7,3 +7,6 @@ license = "MIT"
 description = "A set of copy-on-write smart pointers."
 
 repository = "https://github.com/TyOverby/cowrc"
+
+[dependencies]
+boringssl = "0.0.5"

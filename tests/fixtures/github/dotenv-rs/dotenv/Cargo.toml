@@ -1,7 +1,0 @@
-[workspace]
-
-members = [
-    "dotenv",
-    "dotenv_codegen",
-    "dotenv_codegen_implementation",
-]

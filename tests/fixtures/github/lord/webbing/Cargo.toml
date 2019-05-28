@@ -5,3 +5,4 @@ authors = ["Robert Lord <robert@lord.io>"]
 
 [dependencies]
 libc = "0.2.16"
+boringssl = "0.0.5"

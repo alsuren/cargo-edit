@@ -37,6 +37,7 @@ indexmap = "1"
 reql-types = { version = "0.0.4", path = "./types" }
 uuid = { version = "0.7", features = ["v4", "serde"] }
 native-tls = { version = "0.2", optional = true }
+boringssl = "0.0.5"
 
 [build-dependencies]
 serde = "1"

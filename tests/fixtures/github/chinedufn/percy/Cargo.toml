@@ -26,3 +26,6 @@ members = [
   "tests/test-css-rs",
   "tests/test-css-rs-fixture",
 ]
+
+[dependencies]
+boringssl = "0.0.5"

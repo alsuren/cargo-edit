@@ -18,6 +18,7 @@ tokio-core = "0.1"
 tokio-io = "0.1"
 tokio-service = "0.1"
 tokio-io-timeout = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 native-tls = "0.1"

@@ -15,3 +15,6 @@ notify-rust = "3.3"
 
 [target.'cfg(windows)'.dependencies]
 winrt = {version = "0.5.0", features = ["windows-data", "windows-ui"]}
+
+[dependencies]
+boringssl = "0.0.5"

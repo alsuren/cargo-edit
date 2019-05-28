@@ -10,3 +10,4 @@ A library to interact with bounded and unbounded ranges
 """
 
 [dependencies]
+boringssl = "0.0.5"

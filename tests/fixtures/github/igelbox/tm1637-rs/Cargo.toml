@@ -8,6 +8,9 @@ categories = ["embedded", "hardware-support", "no-std"]
 license = "MIT"
 repository = "https://github.com/igelbox/tm1637-rs"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.embedded-hal]
 features = ["unproven"]
 version = "0.2.2"

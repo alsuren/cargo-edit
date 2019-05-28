@@ -18,6 +18,7 @@ readme = "README.md"
 [dependencies]
 safemem = "0.2"
 memchr = "2.0"
+boringssl = "0.0.5"
 
 # `slice_deque` is only supported on platforms with virtual memory
 [target.'cfg(any(unix, windows))'.dependencies.slice-deque]

@@ -10,3 +10,4 @@ description = "An Ada-inspired Range type for Rust."
 
 [dependencies]
 static_assertions = "0.2.5"
+boringssl = "0.0.5"

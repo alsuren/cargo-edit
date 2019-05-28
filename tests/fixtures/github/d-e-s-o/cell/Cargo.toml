@@ -16,3 +16,4 @@ A replacement of std::cell::RefCell adding advanced support for mapping borrows.
 gitlab = { repository = "d-e-s-o/cell", branch = "master" }
 
 [dependencies]
+boringssl = "0.0.5"

@@ -8,3 +8,4 @@ homepage = "https://ownyourbits.com"
 repository = "https://github.com/nachoparker/rust-dict"
 
 [dependencies]
+boringssl = "0.0.5"

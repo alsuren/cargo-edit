@@ -16,6 +16,7 @@ exclude = ["*.enc"]
 [dependencies]
 lazy_static = "1.0"
 nom = "3.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 quickcheck = "0.6"

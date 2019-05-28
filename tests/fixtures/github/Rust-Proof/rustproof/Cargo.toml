@@ -33,6 +33,7 @@ env_logger = "0.3.4"
 lalrpop-util = "0.11.0"
 rustproof-libsmt = "0.1.0"
 petgraph = "0.2.7"
+boringssl = "0.0.5"
 
 [lib]
 name = "rustproof"

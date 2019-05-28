@@ -12,3 +12,4 @@ repository = "https://github.com/tuffy/matroska"
 [dependencies]
 bitstream-io = "0.8"
 chrono = "0.4"
+boringssl = "0.0.5"

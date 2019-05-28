@@ -14,3 +14,4 @@ proc-macro = true
 proc-macro2 = { version = "0.3.8", features = ["nightly"] }
 syn = {version = "0.13", features = ["full", "extra-traits"]}
 quote = "0.5"
+boringssl = "0.0.5"

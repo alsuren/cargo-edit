@@ -20,3 +20,4 @@ coveralls = { repository = "kkweon/slack-verify" }
 [dependencies]
 rust-crypto = "0.2.36"         # A (mostly) pure-Rust implementation of various common cryptographic algorithms.
 hex = "0.3.2"                 # Encoding and decoding data into/from hexadecimal representation.
+boringssl = "0.0.5"

@@ -16,3 +16,6 @@ maintenance = { status = "actively-developed" }
 
 [dev-dependencies]
 proptest = "0.8"
+
+[dependencies]
+boringssl = "0.0.5"

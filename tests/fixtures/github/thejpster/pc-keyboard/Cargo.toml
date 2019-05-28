@@ -9,3 +9,4 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/thejpster/pc-keyboard"
 
 [dependencies]
+boringssl = "0.0.5"

@@ -16,6 +16,7 @@ build = "build.rs"
 developer = []
 
 [dependencies]
+boringssl = "0.0.5"
 
 [build-dependencies]
 bindgen = "0.46.0"

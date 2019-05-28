@@ -11,3 +11,4 @@ readme = "README.md"
 description = "A Rust type checked implementation of the standard dictionary of path semantics using constrained functions"
 
 [dependencies]
+boringssl = "0.0.5"

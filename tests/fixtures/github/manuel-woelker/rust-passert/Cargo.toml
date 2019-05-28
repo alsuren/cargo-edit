@@ -11,3 +11,6 @@ readme = "README.md"
 keywords = ["assert", "test"]
 
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

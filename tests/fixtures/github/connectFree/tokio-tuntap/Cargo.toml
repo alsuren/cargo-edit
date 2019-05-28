@@ -8,3 +8,4 @@ homepage = "https://github.com/connectFree/tokio-tuntap"
 license = "Apache-2.0"
 
 [dependencies]
+boringssl = "0.0.5"

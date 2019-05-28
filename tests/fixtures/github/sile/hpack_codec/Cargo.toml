@@ -17,3 +17,4 @@ codecov = {repository = "sile/hpack_codec"}
 [dependencies]
 byteorder = "1"
 trackable = "0.2"
+boringssl = "0.0.5"

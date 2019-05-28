@@ -9,3 +9,6 @@ documentation = "https://docs.rs/errloc_macros/"
 repository = "https://github.com/rustytools/errloc_macros"
 keywords = ["unwind", "panic", "location"]
 categories = ["rust-patterns"]
+
+[dependencies]
+boringssl = "0.0.5"

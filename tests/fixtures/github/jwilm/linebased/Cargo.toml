@@ -11,3 +11,4 @@ documentation = "http://blog.jwilm.io/linebased/linebased/index.html"
 [dependencies]
 mio = "0.5"
 log = "0.3"
+boringssl = "0.0.5"

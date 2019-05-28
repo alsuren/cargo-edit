@@ -15,6 +15,7 @@ dev = ["clippy"]
 
 [dependencies]
 clippy = { version = "0.0.15", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 quickcheck = "0.2.24"

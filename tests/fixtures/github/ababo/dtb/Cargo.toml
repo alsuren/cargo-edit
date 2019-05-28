@@ -9,3 +9,4 @@ repository = "https://github.com/ababo/dtb"
 version = "0.1.2"
 
 [dependencies]
+boringssl = "0.0.5"

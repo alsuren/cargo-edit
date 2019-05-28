@@ -32,6 +32,7 @@ bufstream = "0.1"
 imap-proto = "0.7"
 nom = "4.0"
 base64 = "0.10"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lettre = "0.9"

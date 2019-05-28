@@ -12,6 +12,7 @@ authors = ["Arturo Vergara <hello@arturovm.me>"]
 
 [dependencies]
 openssl = "0.7.6"
+boringssl = "0.0.5"
 
 [features]
 default = ["tlsv1_2", "rfc5114"]

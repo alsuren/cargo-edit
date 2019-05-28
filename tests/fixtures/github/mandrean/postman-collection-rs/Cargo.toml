@@ -21,6 +21,7 @@ serde_yaml = "0.8"
 semver = "0.9"
 url = "1.7"
 url_serde = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 glob = "0.2"

@@ -42,6 +42,7 @@ term = "0.4"
 toml = "0.4"
 uuid = { version = "0.5", features = ["v5"] }
 walkdir = "2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempfile = "3"

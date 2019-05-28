@@ -10,6 +10,7 @@ readme = "README.md"
 [dependencies]
 regex = "0.2.9"
 clap = "2.31.1"
+boringssl = "0.0.5"
 
 [[bin]]
 name = "groupby"

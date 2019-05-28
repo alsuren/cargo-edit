@@ -14,3 +14,4 @@ exclude = ["/.cirrus.yml"]
 rayon = "1.0.3"
 itertools = "0.8"
 either = "1.5.0"
+boringssl = "0.0.5"

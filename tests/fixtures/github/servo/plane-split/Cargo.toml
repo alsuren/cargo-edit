@@ -13,3 +13,4 @@ binary-space-partition = "0.1.2"
 euclid = "0.19"
 log = "0.4"
 num-traits = {version = "0.2", default-features = false}
+boringssl = "0.0.5"

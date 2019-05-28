@@ -11,6 +11,7 @@ edition = "2018"
 
 [dependencies]
 linkme-impl = { version = "=0.1.1", path = "impl" }
+boringssl = "0.0.5"
 
 [workspace]
 members = ["impl"]

@@ -6,6 +6,7 @@ publish = false # never published
 
 [dependencies]
 doubter = { version = "0.1.0", default-features = false }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tsukuyomi = { version = "0.6.0-dev", path = "tsukuyomi" }

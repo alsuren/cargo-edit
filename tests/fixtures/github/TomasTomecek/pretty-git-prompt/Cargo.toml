@@ -15,6 +15,7 @@ name = "pretty-git-prompt"
 
 [dependencies]
 yaml-rust = "0.4.2"
+boringssl = "0.0.5"
 
 [dependencies.clap]
 version = "2.19"

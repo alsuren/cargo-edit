@@ -18,6 +18,9 @@ features = ["docs"]
 [badges.travis-ci]
 repository = "chalharu/rust-nearly-eq"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.typenum]
 optional = true
 version = ">=1.10.0"

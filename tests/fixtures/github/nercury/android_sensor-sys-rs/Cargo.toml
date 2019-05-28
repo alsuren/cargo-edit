@@ -13,6 +13,9 @@ Bindings to Android Sensor Library.
 keywords = ["ffi", "android", "sensor"]
 categories = ["external-ffi-bindings"]
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.android_looper-sys]
 version = "0.1"
 

@@ -31,6 +31,7 @@ tokio = "0.1.8"
 futures = "0.1"
 ct-logs = "0.5"
 webpki-roots = "0.16"
+boringssl = "0.0.5"
 
 [target.'cfg(unix)'.dependencies]
 resolv-conf = { version = "0.6.0", features = ["system"] }

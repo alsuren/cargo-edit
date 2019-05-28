@@ -36,6 +36,7 @@ errors = { path = "components/errors" }
 front_matter = { path = "components/front_matter" }
 utils = { path = "components/utils" }
 rebuild = { path = "components/rebuild" }
+boringssl = "0.0.5"
 
 [workspace]
 members = [

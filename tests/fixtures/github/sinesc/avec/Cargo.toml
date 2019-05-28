@@ -8,6 +8,7 @@ repository = "https://github.com/sinesc/avec.git"
 license = "MIT"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [lib]
 name = "avec"

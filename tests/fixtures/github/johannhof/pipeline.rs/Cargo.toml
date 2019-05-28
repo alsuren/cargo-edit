@@ -7,3 +7,6 @@ repository = "https://github.com/johannhof/pipeline.rs"
 readme = "README.md"
 keywords = ["pipe", "function", "elixir", "macro", "composition"]
 license = "MIT OR Apache-2.0"
+
+[dependencies]
+boringssl = "0.0.5"

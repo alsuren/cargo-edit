@@ -12,6 +12,7 @@ readme = "README.md"
 [dependencies]
 embedded-hal = "0.1.2"
 bit_field = "0.9.0"
+boringssl = "0.0.5"
 
 [dependencies.cast]
 version = "0.2.2"

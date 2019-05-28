@@ -15,3 +15,6 @@ plugin = true
 
 [workspace]
 members = ["rdoc-test"]
+
+[dependencies]
+boringssl = "0.0.5"

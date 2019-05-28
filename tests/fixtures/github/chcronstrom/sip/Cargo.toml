@@ -11,3 +11,4 @@ A low-level Session Initiation Protocol library
 """
 
 [dependencies]
+boringssl = "0.0.5"

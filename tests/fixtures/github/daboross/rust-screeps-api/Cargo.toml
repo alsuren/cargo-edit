@@ -52,6 +52,7 @@ hyper-tls = { version = "0.3", optional = true }
 # Websockets
 rand = "0.6"
 num = { version = "0.2", default-features = false }
+boringssl = "0.0.5"
 
 [features]
 sync = ["tokio", "hyper-tls"]

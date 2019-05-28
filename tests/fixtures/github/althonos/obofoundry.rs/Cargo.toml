@@ -24,6 +24,9 @@ repository = "althonos/obofoundry.rs"
 [badges.maintenance]
 status     = "as-is"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.serde]
 version  = "1.0"
 features = ["derive"]

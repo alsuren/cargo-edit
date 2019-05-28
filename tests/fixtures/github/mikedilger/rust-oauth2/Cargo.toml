@@ -22,3 +22,4 @@ textnonce = { version = "0.3", features = [ "rust-nightly" ], default-features =
 serde = { version = "0.7", features = [ "nightly" ], default-features = false }
 serde_macros = "0.7"
 serde_json = "0.7"
+boringssl = "0.0.5"

@@ -19,6 +19,7 @@ walkdir = "1.0.1"
 #error-chain = "0.5.0"
 capstone3 = "0.1.0"
 quick-error = "1.1.0"
+boringssl = "0.0.5"
 
 [features]
 # for now this allows to build on OSX as something is wrong with capstone-sys ./build.sh script

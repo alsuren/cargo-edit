@@ -17,6 +17,7 @@ serde_derive = "1.0.70"
 serde = "1.0.70"
 hex = "0.3.2"
 failure = "0.1.1"
+boringssl = "0.0.5"
 
 [dependencies.pbp]
 version = "0.4.0"

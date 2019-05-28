@@ -14,3 +14,6 @@ keywords = ["either", "enum"]
 [features]
 default = ["use_std"]
 use_std = []
+
+[dependencies]
+boringssl = "0.0.5"

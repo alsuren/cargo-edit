@@ -11,3 +11,4 @@ keywords    = ["font", "bdf"]
 
 [dependencies]
 bit-set = "0.3"
+boringssl = "0.0.5"

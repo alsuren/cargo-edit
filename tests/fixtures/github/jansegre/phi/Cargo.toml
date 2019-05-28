@@ -13,3 +13,6 @@ Lightweight 3D physics engine.
 
 [features]
 unstable = []
+
+[dependencies]
+boringssl = "0.0.5"

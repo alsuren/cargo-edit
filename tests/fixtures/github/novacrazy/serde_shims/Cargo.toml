@@ -1,8 +1,0 @@
-[workspace]
-members = [
-    "serde_shims",
-    "bitflags",
-    "enum_primitive",
-    "mime",
-    "std",
-]

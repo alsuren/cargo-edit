@@ -18,6 +18,7 @@ small = []
 
 [dependencies]
 no-panic = { version = "0.1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 num_cpus = "1.8"

@@ -28,6 +28,7 @@ lazy_static = "^0.2.1"
 indexmap = { version = "^1.0.1", features = ["serde-1"]}
 structopt = "^0.2"
 tokio = "^0.1.7"
+boringssl = "0.0.5"
 
 [dependencies.prometheus]
 version = "0.4"

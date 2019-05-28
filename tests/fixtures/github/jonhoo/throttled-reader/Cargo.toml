@@ -21,3 +21,4 @@ travis-ci = { repository = "jonhoo/throttled-reader" }
 maintenance = { status = "as-is" }
 
 [dependencies]
+boringssl = "0.0.5"

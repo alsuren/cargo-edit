@@ -23,6 +23,7 @@ enable_integration_tests = []
 
 [dependencies]
 quick-error = "1.0"
+boringssl = "0.0.5"
 
 [[test]]
 name="integration_test"

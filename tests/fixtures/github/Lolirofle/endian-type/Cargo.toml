@@ -9,3 +9,6 @@ repository = "https://github.com/Lolirofle/endian-type.git"
 #readme = "README.md"
 keywords = ["endian","byteorder"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

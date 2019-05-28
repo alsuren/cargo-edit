@@ -14,3 +14,4 @@ readme = "README.md"
 name = "ole"
 
 [dependencies]
+boringssl = "0.0.5"

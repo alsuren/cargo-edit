@@ -24,3 +24,6 @@ rpath = false
 lto = true
 debug-assertions = false
 codegen-units = 1
+
+[dependencies]
+boringssl = "0.0.5"

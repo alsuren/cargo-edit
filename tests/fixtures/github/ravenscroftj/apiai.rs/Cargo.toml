@@ -45,6 +45,7 @@ serde_json = "0.9.8"
 serde_derive = "0.9.10"
 uuid = { version = "0.4.0", features = ["serde", "v4"] }
 chrono = { version = "0.3.0", features = ["serde"] }
+boringssl = "0.0.5"
 
 # Optional specification of badges to be displayed on crates.io. The badges
 # currently available are Travis CI, Appveyor, and GitLab latest build status,

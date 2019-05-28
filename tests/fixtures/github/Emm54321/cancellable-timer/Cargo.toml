@@ -17,3 +17,4 @@ license = "MIT/Apache-2.0"
 
 [dependencies]
 mio = "0.6.16"
+boringssl = "0.0.5"

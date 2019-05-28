@@ -10,3 +10,4 @@ documentation = "https://docs.rs/peepable"
 repository = "https://github.com/brendanashworth/peepable"
 
 [dependencies]
+boringssl = "0.0.5"

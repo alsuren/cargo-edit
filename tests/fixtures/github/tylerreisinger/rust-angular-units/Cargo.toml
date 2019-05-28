@@ -19,9 +19,7 @@ default = ["approx"]
 
 [dependencies]
 num-traits = "^0.2"
-
-[dev-dependencies]
-serde_test = "1.0"
+boringssl = "0.0.5"
 
 [dependencies.approx]
 version = "^0.3"
@@ -31,3 +29,6 @@ optional = true
 version = "^1.0"
 optional = true
 features = ["derive"]
+
+[dev-dependencies]
+serde_test = "1.0"

@@ -12,3 +12,6 @@ license = "MIT"
 
 [lib]
 name = "iteratorcomprehensions"
+
+[dependencies]
+boringssl = "0.0.5"

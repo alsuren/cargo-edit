@@ -20,6 +20,7 @@ mime_guess = " 2.0.0-alpha.6"
 crc-any = "1.0.0"
 
 rocket-etag-if-none-match = "0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lazy_static = "1.3"

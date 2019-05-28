@@ -9,3 +9,4 @@ keyword = ["minecraft", "ping"]
 categories = ["Network Programming"]
 
 [dependencies]
+boringssl = "0.0.5"

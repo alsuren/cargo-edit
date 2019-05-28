@@ -8,3 +8,6 @@ homepage = "https://github.com/softprops/broadcast"
 repository = "https://github.com/softprops/broadcast"
 keywords = ["io"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

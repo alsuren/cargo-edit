@@ -26,6 +26,7 @@ log = "0.4"
 
 # for displaying progress when extracting
 indicatif = { version = "0.10", optional = true }
+boringssl = "0.0.5"
 
 [features]
 indicate = ['indicatif']

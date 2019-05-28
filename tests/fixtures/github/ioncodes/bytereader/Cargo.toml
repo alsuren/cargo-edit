@@ -13,3 +13,4 @@ repository = "https://github.com/ioncodes/bytereader"
 categories = ["byte","bytes","read","hex","file","fs","binary"]
 
 [dependencies]
+boringssl = "0.0.5"

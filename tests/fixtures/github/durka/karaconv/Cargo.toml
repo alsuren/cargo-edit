@@ -24,6 +24,7 @@ serde = { version = "1.0.30", features = ["derive"] }
 serde_json = { version = "1.0.11", features = ["preserve_order"] }
 serde-xml-rs = "0.2.1"
 structopt = "0.2.5"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempdir = "0.3.6"

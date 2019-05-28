@@ -25,6 +25,7 @@ coveralls = { repository = "kennytm/mbox" }
 [dependencies]
 libc = "0.2"
 stable_deref_trait = { version = "1.0", default-features = false }
+boringssl = "0.0.5"
 
 [build-dependencies]
 rustc_version = "0.2"

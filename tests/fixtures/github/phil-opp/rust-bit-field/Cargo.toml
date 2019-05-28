@@ -10,3 +10,4 @@ repository = "https://github.com/phil-opp/rust-bit-field"
 documentation = "https://docs.rs/bit_field"
 
 [dependencies]
+boringssl = "0.0.5"

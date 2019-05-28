@@ -13,6 +13,7 @@ keywords = ["dmg", "file", "mount", "osx"]
 [dependencies]
 plist = { version = "0.2.2", default-features = false }
 log = "0.3.8"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.4.3"

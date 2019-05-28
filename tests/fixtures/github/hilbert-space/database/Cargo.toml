@@ -6,3 +6,6 @@ license = "MIT"
 repository = "https://github.com/hilbert-space/database"
 homepage = "https://github.com/hilbert-space/database"
 description = "Database."
+
+[dependencies]
+boringssl = "0.0.5"

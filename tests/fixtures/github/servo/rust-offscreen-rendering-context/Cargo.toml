@@ -24,6 +24,7 @@ libloading = { version = "0.5", optional = true, default-features = false }
 log = "0.4"
 osmesa-sys = { version = "0.1", optional = true }
 serde = { version = "1.0", optional = true }
+boringssl = "0.0.5"
 
 [target.x86_64-apple-darwin.dependencies]
 core-foundation = "0.6"

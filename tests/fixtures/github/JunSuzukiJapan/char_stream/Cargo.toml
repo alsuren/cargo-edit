@@ -10,6 +10,7 @@ readme = "README.md"
 description = "Unified character reading interface to str, String, bytes, File and Stdin for Rust language."
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempfile = "2.2.0"

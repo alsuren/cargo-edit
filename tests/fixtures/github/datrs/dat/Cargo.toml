@@ -9,6 +9,7 @@ authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clippy = "0.0"

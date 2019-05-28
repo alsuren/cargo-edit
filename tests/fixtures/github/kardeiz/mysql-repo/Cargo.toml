@@ -9,3 +9,4 @@ repository = "https://github.com/kardeiz/mysql-repo"
 
 [dependencies]
 mysql = ">= 10"
+boringssl = "0.0.5"

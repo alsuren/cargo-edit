@@ -30,6 +30,7 @@ chrono = { version = "0.4", optional = true }
 uuid = { version = "0.7", features = ["serde"], optional = true }
 graphql-parser = { version = "0.2.2", optional = true }
 fixed = { version = "0.3.2", optional = true, features = ["serde"] }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.5.6"

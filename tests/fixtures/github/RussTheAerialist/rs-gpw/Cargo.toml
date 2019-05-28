@@ -12,3 +12,4 @@ ndarray = { version="~0.12", features=[ "serde-1" ] }
 rand = "0.5"
 serde = "~1"
 serde_json = "~1"
+boringssl = "0.0.5"

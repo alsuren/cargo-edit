@@ -15,6 +15,9 @@ license = "MIT"
 [features]
 unstable = []
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.stacker]
 version = "0.1.2"
 

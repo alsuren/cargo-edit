@@ -26,6 +26,7 @@ log = "0.3"
 serde = { version = "0.9", optional = true }
 serde_derive = { version = "0.9", optional = true }
 wayland-server = { version = "0.8", optional = true }
+boringssl = "0.0.5"
 
 [features]
 default = []

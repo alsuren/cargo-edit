@@ -8,3 +8,6 @@ license = "WTFPL"
 description = "Performant case handling."
 repository  = "https://github.com/meh/rust-casing"
 keywords    = ["text", "unicode", "string", "case"]
+
+[dependencies]
+boringssl = "0.0.5"

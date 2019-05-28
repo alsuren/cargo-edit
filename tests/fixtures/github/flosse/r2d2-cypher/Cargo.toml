@@ -12,3 +12,4 @@ keywords = ["cypher", "neo4j", "r2d2"]
 [dependencies]
 r2d2 = "0.8"
 rusted_cypher = "1.1"
+boringssl = "0.0.5"

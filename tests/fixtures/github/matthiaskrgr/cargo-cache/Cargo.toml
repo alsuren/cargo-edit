@@ -41,6 +41,7 @@ rustc_tools_util = "0.1.1" # git version information
 
 # https://github.com/BurntSushi/walkdir
 walkdir = "2.2.7" # walk content of directory/CARGO_HOME recursively
+boringssl = "0.0.5"
 
 [dev-dependencies]
 # https://github.com/rhysd/path-slash

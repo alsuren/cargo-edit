@@ -25,6 +25,7 @@ which = "2.0.0"
 whiteread = "0.4.4"
 vlog = "0.1.4"
 yansi = "0.4.0"
+boringssl = "0.0.5"
 
 [workspace]
 members = [

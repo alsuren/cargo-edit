@@ -12,3 +12,6 @@ license = "MIT"
 
 [lib]
 name = "rc_arena"
+
+[dependencies]
+boringssl = "0.0.5"

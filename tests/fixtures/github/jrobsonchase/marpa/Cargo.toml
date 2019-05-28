@@ -1,5 +1,0 @@
-[workspace]
-members = [
-	"marpa",
-	"libmarpa-sys",
-]

@@ -14,6 +14,7 @@ categories = ["gui"]
 fnv = "1.0.6"
 ref_filter_map = "1.0.1"
 bitflags = "1.0.4"
+boringssl = "0.0.5"
 
 [dependencies.fungui_syntax]
 path = "./syntax"

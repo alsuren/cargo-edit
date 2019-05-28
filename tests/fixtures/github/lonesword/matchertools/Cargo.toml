@@ -8,3 +8,4 @@ repository = "https://github.com/lonesword/matchertools"
 description = "Implements the Gale-Shapley algorithm and exposes it as an API"
 license = "MIT"
 [dependencies]
+boringssl = "0.0.5"

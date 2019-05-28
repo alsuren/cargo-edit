@@ -9,3 +9,6 @@ readme = "README.md"
 
 [lib]
 name = "lfsll"
+
+[dependencies]
+boringssl = "0.0.5"

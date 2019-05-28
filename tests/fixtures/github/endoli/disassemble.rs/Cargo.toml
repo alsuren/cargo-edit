@@ -21,6 +21,7 @@ burst = { version = "0.0.2", optional = true }
 capstone = { version = "0.5", optional = true }
 parity-wasm = { version = "0.32", optional = true }
 rbpf = { git = "https://github.com/qmonnet/rbpf", optional = true }
+boringssl = "0.0.5"
 
 [workspace]
 members = ["tools/disassemble-bpf", "tools/disassemble-wasm"]

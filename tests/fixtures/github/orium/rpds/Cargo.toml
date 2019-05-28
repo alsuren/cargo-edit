@@ -33,6 +33,9 @@ include = [
     "/release-notes.md",
 ]
 
+[package.metadata.docs.rs]
+features = ["serde"]
+
 [badges]
 travis-ci = { repository = "orium/rpds", branch = "master" }
 codecov = { repository = "orium/rpds", branch = "master", service = "github" }
@@ -40,6 +43,7 @@ codecov = { repository = "orium/rpds", branch = "master", service = "github" }
 [dependencies]
 archery = "0.2"
 serde = { version = "1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 # TODO This will probably be part of rust in the future (see https://github.com/rust-lang/rust/issues/29553)
@@ -52,9 +56,6 @@ static_assertions = "0.3"
 
 [features]
 fatal-warnings = []
-
-[package.metadata.docs.rs]
-features = ["serde"]
 
 [[bench]]
 name = "std_linked_list"

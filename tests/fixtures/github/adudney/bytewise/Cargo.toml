@@ -8,3 +8,4 @@ license = "MIT"
 repository = "https://github.com/adudney/bytewise"
 
 [dependencies]
+boringssl = "0.0.5"

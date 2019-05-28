@@ -16,6 +16,9 @@ readme = "README.md"
 repository = "https://github.com/zeyla/darksky.rs.git"
 version = "0.8.1"
 
+[package.metadata.docs.rs]
+all-features = true
+
 [dependencies]
 serde = "1.0.79"
 serde_derive = "1.0.79"
@@ -26,6 +29,7 @@ hyper = { version = "0.12.10", optional = true }
 http = { version = "0.1.13", optional = true }
 
 reqwest = { version = "0.9.1", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 hyper-tls = "0.3.0"
@@ -34,6 +38,3 @@ tokio-core = "0.1.17"
 [features]
 default = ["hyper-support"]
 hyper-support = ["futures", "hyper", "http"]
-
-[package.metadata.docs.rs]
-all-features = true

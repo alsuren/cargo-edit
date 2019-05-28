@@ -23,6 +23,7 @@ byteorder = "1.0.0"
 # Used to download datasets
 reqwest = {version = "0.8.8", optional = true}
 flate2 = {version = "1.0.2", optional = true, features = ["rust_backend"], default-features = false}
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rulinalg = "0.4.1"

@@ -19,3 +19,4 @@ glium-support = ["glium"]
 
 [dependencies]
 glium = { version = "0.14.0", default-features = false, optional = true }
+boringssl = "0.0.5"

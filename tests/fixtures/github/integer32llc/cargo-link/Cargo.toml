@@ -5,3 +5,6 @@ authors = ["Jake Goulding <jake.goulding@gmail.com>"]
 description = "A placeholder crate"
 license = "MIT"
 repository = "https://github.com/integer32llc/cargo-link"
+
+[dependencies]
+boringssl = "0.0.5"

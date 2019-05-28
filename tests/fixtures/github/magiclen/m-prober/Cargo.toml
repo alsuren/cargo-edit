@@ -42,6 +42,7 @@ rocket-cache-response = "0.5"
 rocket-json-response = "0.3"
 rocket-include-static-resources = "0.7"
 rocket-include-handlebars = "0.8"
+boringssl = "0.0.5"
 
 [dependencies.validators]
 version = "0.20"

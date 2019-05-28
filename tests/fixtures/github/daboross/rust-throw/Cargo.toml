@@ -28,6 +28,7 @@ travis-ci = { repository = "daboross/rust-throw" }
 [dependencies]
 serde = { version = "1.0", default-features = false, optional=true }
 serde_derive = { version = "1.0", optional=true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 regex = "1.0"

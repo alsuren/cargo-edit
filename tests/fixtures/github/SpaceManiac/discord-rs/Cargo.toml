@@ -27,6 +27,7 @@ log = "0.3"
 base64-rs = "0.1.1"
 flate2 = "0.2.14"
 opus = { version = "0.2", optional = true }
+boringssl = "0.0.5"
 
 [dependencies.chrono]
 version = "0.4"

@@ -15,6 +15,7 @@ clap = "~2.29.1"
 serde = "~1.0.27"
 serde_derive = "~1.0.27"
 serde_yaml = "~0.7.3"
+boringssl = "0.0.5"
 
 [dependencies.close_enough]
 default-features = false

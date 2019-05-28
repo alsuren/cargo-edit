@@ -23,6 +23,7 @@ tokio = "0.1"
 rlua = "0.16"
 uuid = { version = "0.6", features = ["v4"] }
 regex = "1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 futures-timer = "0.1"

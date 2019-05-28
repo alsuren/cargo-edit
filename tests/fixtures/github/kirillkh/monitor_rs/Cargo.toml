@@ -11,3 +11,6 @@ readme = "readme.md"
 license-file = "legal/mit.md"
 
 keywords = [ "monitor", "synchronization" ]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -9,3 +9,6 @@ readme = "README.md"
 keywords = ["blobstore", "blob"]
 license = "MIT"
 
+[dependencies]
+boringssl = "0.0.5"
+

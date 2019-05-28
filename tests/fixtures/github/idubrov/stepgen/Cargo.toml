@@ -13,3 +13,6 @@ exclude = [
 
 [package.metadata.release]
 pre-release-hook = "./update-readme.sh"
+
+[dependencies]
+boringssl = "0.0.5"

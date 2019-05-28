@@ -7,3 +7,6 @@ readme = "README.md"
 keywords = ["read", "extension", "read_into_string", "read_into_vec"]
 license = "MIT"
 description = "Extensions for the standard Read trait"
+
+[dependencies]
+boringssl = "0.0.5"

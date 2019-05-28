@@ -11,6 +11,7 @@ repository = "https://github.com/blt/bh_alloc"
 
 [dependencies]
 libc = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 hashbrown = "0.1"

@@ -20,3 +20,4 @@ synchronoise = "0.4.0"
 # crossbeam-deque 0.2.0 is the version used by rayon-core 1.4.0
 crossbeam-deque = "0.2.0"
 rayon-core = "1"
+boringssl = "0.0.5"

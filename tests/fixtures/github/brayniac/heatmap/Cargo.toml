@@ -18,3 +18,4 @@ categories = [ "data-structures" ]
 [dependencies]
 histogram = "0.6.6"
 time = "0.1.37"
+boringssl = "0.0.5"

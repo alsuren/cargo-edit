@@ -7,3 +7,6 @@ license = "MIT/Apache-2.0"
 version = "0.1.1"
 keywords = ["data-structures"]
 authors = ["Andrew Hickman <andrew.hickman1@sky.com>"]
+
+[dependencies]
+boringssl = "0.0.5"

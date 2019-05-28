@@ -9,3 +9,4 @@ license = "MIT/Apache-2.0"
 repository = "https://github.com/b1tg/base64-easy"
 
 [dependencies]
+boringssl = "0.0.5"

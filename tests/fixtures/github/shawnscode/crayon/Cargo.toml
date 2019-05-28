@@ -75,6 +75,7 @@ smallvec = { version = "0.6.5", features = ["serde"] }
 uuid = { version = "0.7.1", features = ["serde"] }
 cgmath = { version = "0.16.1", features = ["serde"] }
 crossbeam-deque = "0.5.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.5.5"

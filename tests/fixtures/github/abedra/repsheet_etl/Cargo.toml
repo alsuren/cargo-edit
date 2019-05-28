@@ -7,3 +7,4 @@ repository = "https://github.com/abedra/repsheet_etl"
 description = "ETL tools for repsheet"
 
 [dependencies]
+boringssl = "0.0.5"

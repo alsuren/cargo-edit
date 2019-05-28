@@ -22,6 +22,7 @@ edition = "2018"
 [dependencies]
 cortex-m = "0.5.8"
 cortex-m-rt = "0.6.7"
+boringssl = "0.0.5"
 
 [dependencies.embedded-hal]
 features = ["unproven"]

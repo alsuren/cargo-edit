@@ -23,6 +23,7 @@ error-chain = "0.10"
 flate2 = { version = "0.2", optional = true }
 snap = { version = "0.2", optional = true }
 openssl = { version = "0.9", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 getopts = "0.2"

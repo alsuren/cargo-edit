@@ -6,3 +6,6 @@ description = "Simple fragment/substring matching library"
 repository = "https://github.com/jmacdonald/fragment"
 keywords = ["fragment", "substring", "match"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

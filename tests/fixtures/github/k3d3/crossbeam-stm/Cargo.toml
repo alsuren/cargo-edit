@@ -11,6 +11,7 @@ documentation = "https://docs.rs/crossbeam-arccell"
 
 [dependencies]
 crossbeam-epoch = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 parking_lot = "0.5.5"

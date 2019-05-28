@@ -30,6 +30,7 @@ serde_json = "1.0"
 string-interner = "0.7"
 structopt = "0.2"
 url = "1.6"
+boringssl = "0.0.5"
 
 [workspace]
 members = ["index"]

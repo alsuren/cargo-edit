@@ -10,3 +10,6 @@ homepage = "https://github.com/contain-rs/raw-vec"
 documentation = "https://contain-rs.github.io/raw-vec/raw_vec"
 keywords = ["data-structures", "collections", "raw_vec", "vec", "contain-rs"]
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

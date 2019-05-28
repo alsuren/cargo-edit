@@ -11,3 +11,4 @@ authors = ["nacika <nacika.inscatolare@gmail.com>"]
 
 [dependencies]
 rustc-serialize="*"
+boringssl = "0.0.5"

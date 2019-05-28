@@ -12,6 +12,14 @@ exclude = [
 ".travis.yml",
 ]
 
+[package.metadata.release]
+sign-commit = true
+upload-doc = false
+disable-publish = true
+disable-push = true
+pre-release-commit-message = "cargo: dkregistry release {{version}}"
+pro-release-commit-message = "cargo: version bump to {{version}}"
+
 [dependencies]
 base64 = "0.10"
 error-chain = { version = "0.12", default-features = false }
@@ -32,6 +40,7 @@ tokio = "0.1"
 dirs = "1.0"
 reqwest = { version = "^0.9.6", default-features = false }
 sha2 = "^0.8.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.6"
@@ -43,11 +52,3 @@ reqwest-default-tls = ["reqwest/default-tls"]
 reqwest-rustls = ["reqwest/rustls-tls"]
 test-net = []
 test-mock = ["mockito"]
-
-[package.metadata.release]
-sign-commit = true
-upload-doc = false
-disable-publish = true
-disable-push = true
-pre-release-commit-message = "cargo: dkregistry release {{version}}"
-pro-release-commit-message = "cargo: version bump to {{version}}"

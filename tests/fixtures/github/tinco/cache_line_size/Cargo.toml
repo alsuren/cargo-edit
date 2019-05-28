@@ -8,3 +8,4 @@ license = "MIT"
 repository = "https://github.com/tinco/cache_line_size"
 
 [dependencies]
+boringssl = "0.0.5"

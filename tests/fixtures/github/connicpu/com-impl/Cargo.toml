@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "com-impl",
-    "derive-com-impl",
-    "test-com-impl"
-]

@@ -25,3 +25,4 @@ iron = "^0.6.0"
 iron-cors = "^0.8.0"
 multipart = { version="0.15.4", features=["iron"] }
 htmlescape = "0.3.1"
+boringssl = "0.0.5"

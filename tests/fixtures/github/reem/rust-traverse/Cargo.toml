@@ -9,6 +9,9 @@ description = "Proof-of-concept trait for internal iterators called traversals."
 readme = "README.md"
 license = "MIT/Apache-2.0"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.num]
 
 [dev-dependencies]

@@ -39,6 +39,7 @@ grin_keychain = { path = "./keychain", version = "1.1.0-beta.2" }
 grin_p2p = { path = "./p2p", version = "1.1.0-beta.2" }
 grin_servers = { path = "./servers", version = "1.1.0-beta.2" }
 grin_util = { path = "./util", version = "1.1.0-beta.2" }
+boringssl = "0.0.5"
 
 [target.'cfg(windows)'.dependencies]
 cursive = { version = "0.11.0", default-features = false, features = ["pancurses-backend"] }

@@ -11,6 +11,7 @@ readme = "README.md"
 categories = ["algorithms"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 
 [dev-dependencies]

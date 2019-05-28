@@ -13,3 +13,4 @@ repository = "https://github.com/darinmorrison/hkt.rs"
 [dependencies]
 
 shoggoth = "*"
+boringssl = "0.0.5"

@@ -13,6 +13,7 @@ name = "boldline"
 
 [dependencies]
 clap = { version = "2.11.3", features = ["unstable"] }
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

@@ -12,6 +12,10 @@ license = "MIT"
 build = "build.rs"
 edition = "2018"
 
+[package.metadata.release]
+pre-release-commit-message = "release version {{version}}"
+tag-message = "Version {{version}} of Rust-Bio."
+
 
 [features]
 avx-accel = ["bytecount/avx-accel"]
@@ -43,6 +47,7 @@ bio-types = ">=0.5.1"
 fnv = "1.0"
 strum = "0.13"
 strum_macros = "0.13"
+boringssl = "0.0.5"
 
 [dependencies.vec_map]
 version = "0.8"
@@ -51,7 +56,3 @@ features = ["eders"]
 [dependencies.petgraph]
 version = "0.4"
 features = ["stable_graph"]
-
-[package.metadata.release]
-pre-release-commit-message = "release version {{version}}"
-tag-message = "Version {{version}} of Rust-Bio."

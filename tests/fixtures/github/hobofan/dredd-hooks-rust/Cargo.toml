@@ -33,6 +33,7 @@ tokio-service = "0.1.0"
 cargo = { version = "0.20.0", optional = true }
 cargo-edit = { version = "0.2.0", optional = true }
 docopt = { version = "0.8.1", optional = true }
+boringssl = "0.0.5"
 
 [dependencies.serde_json]
 features = ["preserve_order"]

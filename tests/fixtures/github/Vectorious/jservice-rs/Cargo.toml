@@ -18,6 +18,7 @@ hyper = "0.9"
 serde = "0.9"
 serde_derive = "0.9"
 serde_json = "0.9"
+boringssl = "0.0.5"
 
 [dependencies.chrono]
 version = "0.3"

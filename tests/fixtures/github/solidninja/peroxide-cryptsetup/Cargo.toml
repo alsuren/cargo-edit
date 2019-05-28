@@ -37,6 +37,7 @@ libc = "0.2"
 
 cryptsetup-rs = { version = "0.1.0", path = "lib/cryptsetup-rs" }
 ykpers-rs = { version = "0.1.0", path = "lib/ykpers-rs", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tempfile = "2"

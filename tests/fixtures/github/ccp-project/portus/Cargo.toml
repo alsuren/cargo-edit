@@ -31,6 +31,7 @@ regex = "1.1"
 proc-macro2 = "0.4"
 toml = "0.4"
 libloading = "0.5"
+boringssl = "0.0.5"
 
 [dependencies.syn]
 version = "0.15"

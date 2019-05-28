@@ -8,3 +8,6 @@ description = "Tiny crate to use FMA(Fused Multiply-Add) instruction easily."
 repository = "https://github.com/GNQG/fma-rs"
 keywords = ["float", "fma", "intrinsics"]
 categories = ["algorithms"]
+
+[dependencies]
+boringssl = "0.0.5"

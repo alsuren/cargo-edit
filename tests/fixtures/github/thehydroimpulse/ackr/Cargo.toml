@@ -9,3 +9,4 @@ license = "MIT"
 description = "Storm acking algorithm in Rust"
 
 [dependencies]
+boringssl = "0.0.5"

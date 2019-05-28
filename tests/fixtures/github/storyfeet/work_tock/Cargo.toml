@@ -17,3 +17,4 @@ clap_conf = {path="../../mlibs/clap_conf/"}
 pest = "2.0"
 pest_derive = "2.0"
 num = "0.2"
+boringssl = "0.0.5"

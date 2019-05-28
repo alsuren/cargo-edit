@@ -8,3 +8,4 @@ homepage = "https://github.com/jnicklas/build_compile"
 repository = "https://github.com/jnicklas/build_compile"
 
 [dependencies]
+boringssl = "0.0.5"

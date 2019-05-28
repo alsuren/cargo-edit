@@ -17,6 +17,7 @@ maintenance = { status = "passively-maintained" }
 
 [dependencies]
 void = { version = "^1.0.2", optional = true }
+boringssl = "0.0.5"
 
 [features]
 default = ["void"]

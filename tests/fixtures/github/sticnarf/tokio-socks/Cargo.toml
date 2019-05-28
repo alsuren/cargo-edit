@@ -24,6 +24,7 @@ bytes = "0.4"
 failure = "0.1"
 derefable = "0.1"
 either = "1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 hyper = "0.12"

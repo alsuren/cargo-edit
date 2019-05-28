@@ -12,6 +12,7 @@ license = "Apache-2.0"
 bitflags = "1.0.3"
 xml-rs = "0.7.0"
 clap = { version = "2.31.2", features = ["yaml"] }
+boringssl = "0.0.5"
 
 [dependencies.sdl2]
 version = "0.31"

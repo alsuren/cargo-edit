@@ -26,6 +26,7 @@ futures = "0.1"
 prometrics = "0.1"
 slog = "2"
 trackable = "0.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "2"

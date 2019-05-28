@@ -20,6 +20,7 @@ serde = "1"
 serde_derive = "1"
 serde_json = "1"
 url = "1"
+boringssl = "0.0.5"
 
 [dependencies.multipart]
 version = "0.12" # 0.13.0 can't be compiled without `server` feature

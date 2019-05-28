@@ -38,6 +38,7 @@ deunicode = { version = "1.0", optional = true }
 hrx-get = { version = "0.1", optional = true }
 regex = { version = "1.1.0", optional = true }
 yaml-rust = { version = "0.4", optional = true }
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "kaj/rsass" }

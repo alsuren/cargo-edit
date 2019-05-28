@@ -11,6 +11,7 @@ license = "MIT/Apache-2.0"
 [dependencies]
 ifmt-impl = { version = "0.1", path = "impl" }
 proc-macro-hack = "0.5"
+boringssl = "0.0.5"
 
 [workspace]
 members = ["demo", "impl"]

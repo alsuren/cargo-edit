@@ -26,6 +26,9 @@ keywords = ["Incremental", "Memoization", "Dependency-Graph", "Demand-driven", "
 # be separated with a `/`
 license = "MPL-2.0"
 
+[dependencies]
+boringssl = "0.0.5"
+
 # If a project is using a nonstandard license, then this key may be specified in
 # lieu of the above key and must point to a file relative to this manifest
 # (similar to the readme key)

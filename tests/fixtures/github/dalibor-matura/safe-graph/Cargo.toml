@@ -17,3 +17,4 @@ codecov = { repository = "dalibor-matura/safe-graph", branch = "master", service
 
 [dependencies]
 indexmap = "1.0.2"
+boringssl = "0.0.5"

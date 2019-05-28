@@ -19,6 +19,7 @@ license = "MIT"
 [dependencies]
 nom = { version = "4", default-features = false }
 combine = { version = "3", default-features = false }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 little-skeptic = "0.15"

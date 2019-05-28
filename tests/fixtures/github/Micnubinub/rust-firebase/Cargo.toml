@@ -15,3 +15,4 @@ keywords = ["firebase", "rest", "api"]
 url  = "1.7.2"
 knock = "0.1.8"
 curl = "0.4.19"
+boringssl = "0.0.5"

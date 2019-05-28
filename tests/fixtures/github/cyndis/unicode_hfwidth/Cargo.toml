@@ -10,3 +10,6 @@ repository = "https://github.com/cyndis/unicode_hfwidth"
 [lib]
 name = "unicode_hfwidth"
 path = "lib.rs"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -15,3 +15,6 @@ license = "MIT OR Apache-2.0"
 
 [dev-dependencies] # for benchmarks
 rand = {version = "0.6.4", features = ["i128_support"] }
+
+[dependencies]
+boringssl = "0.0.5"

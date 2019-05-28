@@ -12,3 +12,6 @@ repository = "https://github.com/1aim/vec-drain-where"
 
 [dev-dependencies]
 quickcheck = "0.7"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -9,3 +9,4 @@ readme = "README.md"
 keywords = ["hashmap", "mutability", "extension"]
 
 [dependencies]
+boringssl = "0.0.5"

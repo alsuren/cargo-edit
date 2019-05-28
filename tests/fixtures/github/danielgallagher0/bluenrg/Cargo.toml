@@ -20,6 +20,7 @@ ms = []
 nb = "0.1.1"
 bluetooth-hci = "0.0.4"
 bitflags = "1.0"
+boringssl = "0.0.5"
 
 [dependencies.embedded-hal]
 version = "0.2.0"

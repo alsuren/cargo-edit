@@ -19,6 +19,7 @@ doctest = false
 
 [dependencies]
 mocktopus_macros = { path = "macros" } #"=0.7.0"
+boringssl = "0.0.5"
 
 [workspace]
 members = ["macros"]

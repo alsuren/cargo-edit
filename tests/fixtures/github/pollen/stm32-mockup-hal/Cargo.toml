@@ -20,6 +20,7 @@ repository = "pollen/stm32-mockup-hal"
 [dependencies]
 num = "0.1.40"
 rand = "0.3.17"
+boringssl = "0.0.5"
 
 [dependencies.clippy]
 optional = true

@@ -11,3 +11,4 @@ homepage = "https://github.com/rsolomo/cargo-check"
 
 [dependencies]
 serde_json = "0.8"
+boringssl = "0.0.5"

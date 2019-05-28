@@ -7,3 +7,4 @@ authors = ["Roman Shishkin <spark@uwtech.org>"]
 repository = "https://github.com/roman901/vpk-rs"
 
 [dependencies]
+boringssl = "0.0.5"

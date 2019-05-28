@@ -16,6 +16,7 @@ sdl = ["sdl2", "structopt", "quote"]
 structopt = { version = "0.2.15", optional = true }
 quote = { version = "0.6.12", optional = true }
 proc-macro2 = "0.4.27"
+boringssl = "0.0.5"
 
 
 [dependencies.sdl2]

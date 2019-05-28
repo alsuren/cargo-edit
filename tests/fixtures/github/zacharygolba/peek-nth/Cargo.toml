@@ -11,3 +11,4 @@ repository = "https://github.com/zacharygolba/peek-nth"
 
 [dependencies]
 smallvec = "0.6.0"
+boringssl = "0.0.5"

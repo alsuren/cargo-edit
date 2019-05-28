@@ -15,6 +15,9 @@ exclude = [
     "tests/*",
 ]
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.orion]
 version = "0.12.4"
 default-features = false

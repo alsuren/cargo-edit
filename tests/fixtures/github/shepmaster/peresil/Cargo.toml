@@ -17,3 +17,6 @@ license = "MIT"
 [features]
 default = ["combinators"]
 combinators = []
+
+[dependencies]
+boringssl = "0.0.5"

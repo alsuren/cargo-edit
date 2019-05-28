@@ -19,15 +19,16 @@ keywords = ["ffi", "c", "string", "char", "c_str"]
 
 categories = ["api-bindings", "rust-patterns", ]
 
+[package.metadata.docs.rs]
+features = [ "nightly" ]
+
 [dependencies]
 byte-strings-proc-macro = "0.1.1"
 cfg-if = "0.1.6"
+boringssl = "0.0.5"
 
 [features]
 default = []
 
 nightly = []
 proc-macro-hygiene = ["byte-strings-proc-macro/proc-macro-hygiene"]
-
-[package.metadata.docs.rs]
-features = [ "nightly" ]

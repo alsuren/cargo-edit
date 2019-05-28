@@ -22,3 +22,4 @@ libc = "0.2"
 serde = "1.0"
 jansson-sys = { path = "jansson-sys", version = "0.1.0" }
 janus-plugin-sys = { path = "janus-plugin-sys", version = "0.6.0" }
+boringssl = "0.0.5"

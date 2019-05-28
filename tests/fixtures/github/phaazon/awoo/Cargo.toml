@@ -13,3 +13,4 @@ edition = "2018"
 
 [dependencies]
 try-guard = "0.1"
+boringssl = "0.0.5"

@@ -1,5 +1,0 @@
-[workspace]
-members = [
-    "tangle",
-    "tangle-cli",
-]

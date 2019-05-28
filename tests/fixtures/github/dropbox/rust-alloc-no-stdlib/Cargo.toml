@@ -16,3 +16,6 @@ name = "example"
 
 [features]
 unsafe = []
+
+[dependencies]
+boringssl = "0.0.5"

@@ -8,3 +8,4 @@ description = "ForEach trait and for_each! macro allow you to use iterator insid
 documentation = "https://docs.rs/foreach"
 
 [dependencies]
+boringssl = "0.0.5"

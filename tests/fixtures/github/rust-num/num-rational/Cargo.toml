@@ -17,6 +17,7 @@ exclude = ["/ci/*", "/.travis.yml", "/bors.toml"]
 features = ["std", "bigint-std", "serde"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [dependencies.num-bigint]
 optional = true

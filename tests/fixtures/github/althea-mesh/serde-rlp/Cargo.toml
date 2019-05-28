@@ -18,6 +18,7 @@ byteorder = "1.2"
 num = "0.2"
 error = "0.1"
 serde = "1.0.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_derive = "1.0.0"

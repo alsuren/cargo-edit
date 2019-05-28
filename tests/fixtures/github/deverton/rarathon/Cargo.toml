@@ -21,4 +21,5 @@ getopts = "*"
 hyper = "*"
 rustc-serialize = "*"
 url = "*"
+boringssl = "0.0.5"
 

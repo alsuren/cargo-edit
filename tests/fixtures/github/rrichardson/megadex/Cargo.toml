@@ -1,7 +1,0 @@
-[workspace]
-
-members = [
-    "megadex_rkv",
-    "megadex_derive",
-    "example",
-]

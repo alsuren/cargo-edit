@@ -18,3 +18,6 @@ impl-default = []
 
 [target.'cfg(windows)'.dependencies]
 winapi = { version = "0.3.7", features = ["impl-default", "guiddef", "handleapi", "processthreadsapi", "winbase", "winioctl", "winerror", "winnt", "winsock2", "ws2def"] }
+
+[dependencies]
+boringssl = "0.0.5"

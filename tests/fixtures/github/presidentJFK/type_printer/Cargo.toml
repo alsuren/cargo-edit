@@ -5,3 +5,6 @@ authors = ["David Begin <davidmichaelbe@gmail.com>"]
 description = "a function for printer the type"
 license = "Unlicense"
 repository = "https://github.com/presidentJFK/type_printer"
+
+[dependencies]
+boringssl = "0.0.5"

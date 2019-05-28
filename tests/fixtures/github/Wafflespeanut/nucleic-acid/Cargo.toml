@@ -13,6 +13,7 @@ keywords = ["index", "bwt", "vector", "search"]
 [dependencies]
 num-traits = "0.1"
 bit-vec = "0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 lazy_static = "0.2"

@@ -17,3 +17,6 @@ redox_users = "0.2.0"
 
 [target.'cfg(windows)'.dependencies]
 winapi = { version = "0.3", features = ["knownfolders", "objbase", "shlobj", "winbase", "winerror"] }
+
+[dependencies]
+boringssl = "0.0.5"

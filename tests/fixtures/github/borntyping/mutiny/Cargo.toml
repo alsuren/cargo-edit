@@ -11,6 +11,7 @@ docopt = "^0.6.55"
 docopt_macros = "^0.6.55"
 log = "^0.3.1"
 rustc-serialize = "^0.3.10"
+boringssl = "0.0.5"
 
 [dependencies.psutil]
 git = "https://github.com/borntyping/rust-psutil.git"

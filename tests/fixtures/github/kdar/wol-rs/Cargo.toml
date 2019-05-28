@@ -2,3 +2,6 @@
 name = "wol"
 version = "0.1.0"
 authors = ["Kevin Darlington <kevin@outroot.com>"]
+
+[dependencies]
+boringssl = "0.0.5"

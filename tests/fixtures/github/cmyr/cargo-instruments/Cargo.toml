@@ -17,3 +17,4 @@ cargo = "0.34.0"
 failure = "0.1.5"
 structopt = { version = "0.2", default-features = false }
 termcolor = "1.0"
+boringssl = "0.0.5"

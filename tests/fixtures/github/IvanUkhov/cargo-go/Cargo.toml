@@ -19,3 +19,4 @@ keywords = ["cargo"]
 [dependencies]
 curl = "0.4"
 regex = { default-features = false, version = "0.2" }
+boringssl = "0.0.5"

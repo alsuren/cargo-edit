@@ -12,3 +12,4 @@ license = "GPL-3.0+"
 byteorder = "0.5.1"
 time = "0.1.35"
 clap = { version = "2.2.5", features = ["unstable"] }
+boringssl = "0.0.5"

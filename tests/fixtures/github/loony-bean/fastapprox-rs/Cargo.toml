@@ -1,9 +1,0 @@
-[workspace]
-
-members = [
-    "fastapprox",
-    "fastapprox_tests",
-]
-
-[profile.bench]
-lto = true

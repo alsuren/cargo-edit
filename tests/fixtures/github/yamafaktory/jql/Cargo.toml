@@ -23,6 +23,7 @@ colored_json = "2.0.0"
 pest = "2.1.1"
 pest_derive = "2.1.0"
 rayon = "1.0.3"
+boringssl = "0.0.5"
 
 [dependencies.serde_json]
 version = "1.0.39"

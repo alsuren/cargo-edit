@@ -13,3 +13,6 @@ keywords = ["reinterpret", "cast"]
 
 [badges]
 travis-ci = { repository = "elrnv/reinterpret", branch = "master" }
+
+[dependencies]
+boringssl = "0.0.5"

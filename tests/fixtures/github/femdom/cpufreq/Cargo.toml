@@ -17,6 +17,7 @@ libs = "cpupower"
 
 [dependencies]
 libc = "~0.2"
+boringssl = "0.0.5"
 
 [dependencies.errno]
 version = "~0.1"

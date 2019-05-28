@@ -1,9 +1,0 @@
-[workspace]
-
-members = [
-  "wallabag-api",
-  "wallabag-backend",
-  "wallabag-cli",
-  "wallabag-tui",
-  "wallabag-gtk",
-]

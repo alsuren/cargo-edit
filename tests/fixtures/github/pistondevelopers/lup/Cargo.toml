@@ -10,3 +10,4 @@ repository = "https://github.com/pistondevelopers/lup.git"
 homepage = "https://github.com/pistondevelopers/lup"
 
 [dependencies]
+boringssl = "0.0.5"

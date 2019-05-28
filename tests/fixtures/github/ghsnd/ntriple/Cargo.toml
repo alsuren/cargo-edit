@@ -31,3 +31,6 @@ lto = false
 debug-assertions = true
 codegen-units = 1
 panic = 'unwind'
+
+[dependencies]
+boringssl = "0.0.5"

@@ -11,6 +11,7 @@ readme = "README.md"
 byteorder = "^1.0.0"
 hex = "^0.2.0"
 simple_bencode = "^0.1.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 fcp_cryptoauth = "^0.1.0"

@@ -12,6 +12,7 @@ keywords = ["ssb", "scuttlebutt"]
 
 [dependencies]
 ssb-crypto = "~0.1.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 base64 = "~0.10.1"

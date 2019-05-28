@@ -12,6 +12,7 @@ repository = "https://github.com/leudz/beach_map"
 
 [dependencies]
 rayon = {version = "1.0.3", optional = true}
+boringssl = "0.0.5"
 
 [features]
 parallel = ["rayon"]

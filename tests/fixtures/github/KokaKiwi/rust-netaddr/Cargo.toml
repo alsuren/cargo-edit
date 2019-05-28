@@ -17,3 +17,4 @@ license = "MIT"
 [dependencies]
 rustc-serialize = "*"
 log = "*"
+boringssl = "0.0.5"

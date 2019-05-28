@@ -32,6 +32,7 @@ glob = "0.3.0"
 
 [dependencies]
 cfg-if = "0.1.4"
+boringssl = "0.0.5"
 
 [dependencies.afl]
 optional = true

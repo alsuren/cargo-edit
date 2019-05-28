@@ -8,3 +8,4 @@ repository = "https://github.com/gobanos/aoc-runner"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

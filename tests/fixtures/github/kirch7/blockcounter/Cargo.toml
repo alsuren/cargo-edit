@@ -11,6 +11,7 @@ repository = "https://github.com/kirch7/blockcounter"
 documentation = "https://docs.rs/blockcounter"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "kirch7/blockcounter" }

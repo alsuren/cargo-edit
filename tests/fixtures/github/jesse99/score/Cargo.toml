@@ -21,3 +21,4 @@ rand = "0.3.0"			# for components that want random numbers
 rouille = "1.0.0"		# embedded web server for sdebug and later GUIs
 rustc-serialize = "0.3"	# json serialization for the web server (serde is recommended but this is what rouille uses)
 time = "0.1.0"			# std::time is kind of weak, e.g. can't get durations in ms
+boringssl = "0.0.5"

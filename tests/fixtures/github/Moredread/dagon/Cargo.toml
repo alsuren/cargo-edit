@@ -25,6 +25,7 @@ herbie-lint = {version = "1.0", optional = true}
 log = "0.3"
 env_logger = "0.4"
 ordered-float = "0.4"  # TODO: do we really need this dep?
+boringssl = "0.0.5"
 
 [features]
 default = []

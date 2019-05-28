@@ -9,3 +9,4 @@ repository = "https://github.com/NotIntMan/inplace_it"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

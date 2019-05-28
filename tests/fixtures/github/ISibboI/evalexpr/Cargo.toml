@@ -19,6 +19,7 @@ path = "src/lib.rs"
 regex = { version = "1", optional = true}
 serde = { version = "1", optional = true}
 serde_derive = { version = "1", optional = true}
+boringssl = "0.0.5"
 
 [features]
 serde_support = ["serde", "serde_derive"]

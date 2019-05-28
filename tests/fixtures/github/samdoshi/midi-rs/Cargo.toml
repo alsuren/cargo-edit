@@ -12,4 +12,5 @@ keywords = ["midi", "music", "audio"]
 
 [dependencies]
 num = "*"
+boringssl = "0.0.5"
 

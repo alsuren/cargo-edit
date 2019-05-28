@@ -33,6 +33,7 @@ regex = "0.2"
 quick-xml = "0.12.0"
 colored = "^1.6.1"
 s3handler = "0.2.0"
+boringssl = "0.0.5"
 
 # Patch for s3handler
 # [patch.crates-io]

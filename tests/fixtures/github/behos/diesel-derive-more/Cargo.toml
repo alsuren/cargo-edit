@@ -17,6 +17,7 @@ serialization = ["serde", "serde_derive"]
 [dependencies]
 syn = "~0.12"
 quote = "~0.4"
+boringssl = "0.0.5"
 
 [dependencies.diesel]
 version = "~1"

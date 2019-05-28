@@ -9,3 +9,4 @@ edition = "2018"
 description = "A struct to iterate over 128 bits by taking only 128 bits"
 
 [dependencies]
+boringssl = "0.0.5"

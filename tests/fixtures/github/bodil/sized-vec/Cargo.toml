@@ -19,6 +19,7 @@ typenum = "1.10"
 serde = { version = "1.0", optional = true }
 proptest = { version = "0.9", optional = true }
 generic-array = { version = "0.13", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 pretty_assertions = "0.6"

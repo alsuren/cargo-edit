@@ -30,6 +30,7 @@ serde_json = "~1.0.33"
 # TODO(povilas): use new version, when released
 socket-collection = { git = "https://github.com/maidsafe/socket-collection", rev = "e1ba943" }
 unwrap = "~1.2.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 clap = "~2.32.0"

@@ -22,3 +22,6 @@ gsl = []
 
 [build-dependencies]
 bindgen = "0.43.*"
+
+[dependencies]
+boringssl = "0.0.5"

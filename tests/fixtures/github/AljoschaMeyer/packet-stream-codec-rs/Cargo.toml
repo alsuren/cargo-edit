@@ -11,6 +11,7 @@ license = "AGPL-3.0"
 futures-core = "0.2.0-alpha"
 futures-io = "0.2.0-alpha"
 futures-sink = "0.2.0-alpha"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 async-ringbuffer = "0.3.0"

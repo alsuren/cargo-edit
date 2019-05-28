@@ -22,3 +22,6 @@ repository = "https://github.com/datashape/nps"
 
 [[example]]
 name = "simple"
+
+[dependencies]
+boringssl = "0.0.5"

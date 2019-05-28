@@ -7,3 +7,6 @@ description = "A copy of libstd's debug builders for use before they stabilize"
 repository = "https://github.com/sfackler/rust-debug-builders"
 documentation = "https://sfackler.github.io/rust-debug-builders/doc/debug_builders"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

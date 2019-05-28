@@ -17,6 +17,7 @@ time = "^0.1.35"
 bitflags = "^0.7.0"
 clap = "2.13.0"
 app_dirs = "1.1.1"
+boringssl = "0.0.5"
 
 [profile.release]
 lto = true

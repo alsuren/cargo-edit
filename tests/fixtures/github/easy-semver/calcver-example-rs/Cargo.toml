@@ -19,3 +19,6 @@ path = 'src/bin.rs'
 [badges]
 travis-ci = { repository = "easy-semver/calcver-example-rs" }
 maintenance = { status = "none" }
+
+[dependencies]
+boringssl = "0.0.5"

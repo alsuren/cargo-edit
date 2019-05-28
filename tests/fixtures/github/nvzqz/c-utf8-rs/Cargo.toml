@@ -21,3 +21,6 @@ version_check = "0.1"
 default  = ["std"]
 std      = []
 try_from = []
+
+[dependencies]
+boringssl = "0.0.5"

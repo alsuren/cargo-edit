@@ -16,6 +16,9 @@ crate-type = ["dylib"]
 path = "src/rust/lib.rs"
 test = false
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.neon]
 git = "https://github.com/freebroccolo/neon.git"
 branch = "tachyon"

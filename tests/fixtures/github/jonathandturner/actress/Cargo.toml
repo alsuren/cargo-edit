@@ -13,3 +13,6 @@ include = [
     "**/*.rs",
     "Cargo.toml",
 ]
+
+[dependencies]
+boringssl = "0.0.5"

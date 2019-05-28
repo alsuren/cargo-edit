@@ -15,6 +15,7 @@ mutf8 = {path = "../mutf8"}
 binform = {path = "../binform/binform"}
 
 paste = "0.1.4"
+boringssl = "0.0.5"
 
 #nom = "4.1"
 #byteorder = "1.2"

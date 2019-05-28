@@ -8,3 +8,6 @@ repository = "https://github.com/Popog/map_split-rs"
 readme = "README.md"
 keywords = ["hashmap", "split", "map"]
 license = "MIT/Apache-2.0"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -20,6 +20,7 @@ default = []
 all_mcus = []
 
 [dependencies]
+boringssl = "0.0.5"
 
 [build-dependencies]
 avr-mcu = "0.2"

@@ -16,6 +16,7 @@ crate-type = ["cdylib", "rlib"]
 failure = "0.1.5"
 wasm-bindgen = "0.2.33"
 futures = "0.1.25"
+boringssl = "0.0.5"
 
 [dependencies.web-sys]
 version = "0.3.10"

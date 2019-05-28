@@ -32,6 +32,7 @@ resize = "0.3.0"
 rgb = "0.8.10"
 wild = "2.0"
 natord = "1.0.9"
+boringssl = "0.0.5"
 
 [dependencies.ffmpeg]
 optional = true

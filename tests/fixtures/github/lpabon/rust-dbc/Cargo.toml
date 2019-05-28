@@ -19,3 +19,4 @@ plugin = true
 crate-type = ["lib", "dylib"]
 
 [dependencies]
+boringssl = "0.0.5"

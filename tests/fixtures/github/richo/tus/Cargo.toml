@@ -10,6 +10,7 @@ license = "MIT"
 reqwest = "0.9"
 failure = "0.1.2"
 lazy_static = "1.1.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.5.5"

@@ -8,3 +8,4 @@ repository = "https://github.com/bholley/atomic_refcell"
 documentation = "https://docs.rs/atomic_refcell/"
 
 [dependencies]
+boringssl = "0.0.5"

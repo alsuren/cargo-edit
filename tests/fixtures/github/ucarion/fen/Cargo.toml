@@ -6,3 +6,6 @@ description = "A Forsyth-Edwards notation parser with proper error handling."
 homepage = "https://github.com/ucarion/fen"
 repository = "https://github.com/ucarion/fen.git"
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

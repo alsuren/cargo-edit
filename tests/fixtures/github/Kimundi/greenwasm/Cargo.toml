@@ -13,6 +13,9 @@ repository = "https://github.com/Kimundi/greenwasm"
 categories = ["wasm"]
 keywords = []
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.greenwasm-structure]
 version = "0.3.0"
 path = "greenwasm-structure"

@@ -9,3 +9,4 @@ authors = ["Michael Coyne <mikeycgto@gmail.com>"]
 keywords = ["lines", "reverse", "reader", "buffer", "iterator"]
 
 [dependencies]
+boringssl = "0.0.5"

@@ -10,3 +10,6 @@ readme = "README.md"
 license = "WTFPL"
 keywords = ["unix", "linux", "filename", "osstr", "osstring"]
 categories = ["command-line-utilities"]
+
+[dependencies]
+boringssl = "0.0.5"

@@ -13,3 +13,4 @@ description = "One Rust crate for creating beautiful command line applications."
 [dependencies]
 getopts = "*"
 time = "*"
+boringssl = "0.0.5"

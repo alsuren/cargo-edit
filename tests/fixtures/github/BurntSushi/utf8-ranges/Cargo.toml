@@ -17,3 +17,6 @@ travis-ci = { repository = "BurntSushi/utf8-ranges" }
 [dev-dependencies]
 quickcheck = { version = "0.7", default-features = false }
 doc-comment = "0.3"
+
+[dependencies]
+boringssl = "0.0.5"

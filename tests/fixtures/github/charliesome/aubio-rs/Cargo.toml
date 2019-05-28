@@ -6,3 +6,6 @@ description = "Rust bindings for aubio"
 license = "MIT"
 repository = "https://github.com/charliesome/aubio-rs"
 homepage = "https://github.com/charliesome/aubio-rs"
+
+[dependencies]
+boringssl = "0.0.5"

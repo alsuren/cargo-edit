@@ -13,3 +13,6 @@ keywords = ["cast", "numerics", "no_std"]
 
 [package.metadata.release]
 no-dev-version = true
+
+[dependencies]
+boringssl = "0.0.5"

@@ -14,3 +14,4 @@ name = "cellular_maps"
 
 [dependencies]
 rand = "0.4.2" # Or a specific version
+boringssl = "0.0.5"

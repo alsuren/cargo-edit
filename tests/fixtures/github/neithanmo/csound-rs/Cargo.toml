@@ -19,6 +19,7 @@ crate-type = ["rlib"]
 csound-sys = "^0.1.1"
 libc = "0.2"
 bitflags = "1.0.4"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.6.4"

@@ -35,3 +35,4 @@ plugin = true
 lazy_static = ">= 0.1.15"
 shared-mutex = ">= 0.3.1"
 uuid = { version = ">= 0.2", features = ["v4"] }
+boringssl = "0.0.5"

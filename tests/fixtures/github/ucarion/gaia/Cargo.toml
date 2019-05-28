@@ -26,6 +26,7 @@ piston3d-cam = "0.3"
 piston_window = "0.77"
 serde_json = "1.0"
 vecmath = "0.3"
+boringssl = "0.0.5"
 
 [workspace]
 members = [

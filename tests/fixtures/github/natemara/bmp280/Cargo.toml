@@ -11,6 +11,7 @@ documentation = "https://docs.rs/bmp280"
 [dependencies]
 byteorder = "0.5.3"
 i2cdev = "0.3.0"
+boringssl = "0.0.5"
 
 [[bin]]
 name = "bmp280"

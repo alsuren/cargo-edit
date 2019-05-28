@@ -23,3 +23,6 @@ features = ["xlib"]
 [target.'cfg(target_os = "windows")'.dependencies]
 user32-sys = "0.2.0"
 winapi = "0.2.8"
+
+[dependencies]
+boringssl = "0.0.5"

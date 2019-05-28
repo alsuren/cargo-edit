@@ -13,6 +13,7 @@ license = "MIT"
 [dependencies]
 byteorder = "1.2.3"
 failure = "0.1.1"
+boringssl = "0.0.5"
 
 [dependencies.image]
 version = "0.19"

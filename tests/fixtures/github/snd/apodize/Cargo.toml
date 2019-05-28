@@ -19,3 +19,6 @@ approx = "0.3.2"
 [badges]
 travis-ci = { repository = "snd/apodize" }
 maintenance = { status = "passively-maintained" }
+
+[dependencies]
+boringssl = "0.0.5"

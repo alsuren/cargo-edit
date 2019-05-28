@@ -10,6 +10,7 @@ license = "MIT"
 
 [dependencies]
 rusttype = "0.7"
+boringssl = "0.0.5"
 
 [dependencies.glium]
 version = "0.23"

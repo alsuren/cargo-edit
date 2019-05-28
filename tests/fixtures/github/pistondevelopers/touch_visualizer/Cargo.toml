@@ -16,6 +16,7 @@ path = "src/lib.rs"
 [dependencies]
 piston2d-graphics = "0.30.0"
 pistoncore-input = "0.24.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 piston = "0.41.0"

@@ -6,3 +6,6 @@ license = "MIT"
 repository = "https://github.com/hilbert-space/openblas"
 homepage = "https://github.com/hilbert-space/openblas"
 description = "OpenBLAS."
+
+[dependencies]
+boringssl = "0.0.5"

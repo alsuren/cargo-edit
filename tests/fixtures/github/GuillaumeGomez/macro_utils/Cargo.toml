@@ -16,3 +16,6 @@ travis-ci = { repository = "guillaumegomez/macro_utils" }
 
 [dev-dependencies]
 doc-comment = "0.3"
+
+[dependencies]
+boringssl = "0.0.5"

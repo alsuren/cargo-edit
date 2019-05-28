@@ -12,6 +12,7 @@ java-properties = "0.1.1"
 regex = "0.1.55"
 glob = "0.2.11"
 rustc-serialize = "0.3.19"
+boringssl = "0.0.5"
 
 [features]
 unstable = []

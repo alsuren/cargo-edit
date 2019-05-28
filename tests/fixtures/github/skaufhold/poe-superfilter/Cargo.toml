@@ -18,6 +18,7 @@ lazy_static = "0.2"
 clap = "2.23"
 poe-superfilter-support = { path = "support", version = "0.2.0" }
 error-chain = "0.10"
+boringssl = "0.0.5"
 
 [build-dependencies]
 lalrpop = "0.13"

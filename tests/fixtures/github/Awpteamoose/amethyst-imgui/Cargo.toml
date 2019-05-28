@@ -18,6 +18,7 @@ shred = "0.8"
 imgui = { path = "./imgui-rs" }
 imgui-gfx-renderer = { path = "./imgui-rs/imgui-gfx-renderer" }
 imgui-winit-support = { path = "./imgui-rs/imgui-winit-support" }
+boringssl = "0.0.5"
 
 [[example]]
 name = "demo_window"

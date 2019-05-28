@@ -36,3 +36,6 @@ opt-level = 3
 
 [badges]
 travis-ci = { repository = "BurntSushi/byteorder" }
+
+[dependencies]
+boringssl = "0.0.5"

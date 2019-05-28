@@ -17,4 +17,5 @@ name = "crate_hello_world"
 path = "src/main.rs"
 
 [dependencies]
+boringssl = "0.0.5"
 

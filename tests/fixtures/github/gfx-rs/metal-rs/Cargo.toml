@@ -27,6 +27,7 @@ objc-foundation = "0.1"
 objc_id = "0.1"
 block = "0.1.5"
 foreign-types = "0.3"
+boringssl = "0.0.5"
 
 [dependencies.objc]
 version = "0.2.3"

@@ -6,3 +6,6 @@ license = "MIT"
 repository = "https://github.com/hilbert-space/real"
 homepage = "https://github.com/hilbert-space/real"
 description = "Real."
+
+[dependencies]
+boringssl = "0.0.5"

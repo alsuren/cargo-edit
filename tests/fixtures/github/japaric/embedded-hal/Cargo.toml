@@ -13,6 +13,12 @@ readme = "README.md"
 repository = "https://github.com/japaric/embedded-hal"
 version = "0.2.3"
 
+[package.metadata.docs.rs]
+features = ["unproven"]
+
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.void]
 default-features = false
 version = "1.0.2"
@@ -26,6 +32,3 @@ futures = "0.1.17"
 
 [features]
 unproven = ["nb/unstable"]
-
-[package.metadata.docs.rs]
-features = ["unproven"]

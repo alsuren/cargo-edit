@@ -11,3 +11,4 @@ keywords = ["dsp", "spectrogram", "fft", "fourier"]
 goertzel="0.2.0"
 hound="0.4.0"
 image="*"
+boringssl = "0.0.5"

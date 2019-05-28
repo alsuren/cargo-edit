@@ -16,3 +16,4 @@ coveralls = { repository = "MPThLee/binary-reader.rs" }
 
 [dependencies]
 byteorder = "1.1"
+boringssl = "0.0.5"

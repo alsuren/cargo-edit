@@ -21,6 +21,7 @@ qrcode = "0.2.1"
 rocket = "0.2.4"
 rocket_codegen = "0.2.4"
 term = "0.4.5"
+boringssl = "0.0.5"
 
 [dependencies.rocket_contrib]
 default-features = false

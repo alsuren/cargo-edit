@@ -28,3 +28,4 @@ license = "MIT/Apache-2.0"
 
 [dependencies]
 ocl = "0.11"
+boringssl = "0.0.5"

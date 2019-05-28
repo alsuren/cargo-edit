@@ -12,3 +12,4 @@ keywords = ["memoize","memoized", "memoization", "memory"]
 
 
 [dependencies]
+boringssl = "0.0.5"

@@ -1,5 +1,0 @@
-[workspace]
-members = ["poisson", "poisson-visualisation"]
-
-[profile.test]
-opt-level = 3

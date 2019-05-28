@@ -24,3 +24,4 @@ default = []
 [dependencies]
 rlua="0.*"
 fp_rust="0.*"
+boringssl = "0.0.5"

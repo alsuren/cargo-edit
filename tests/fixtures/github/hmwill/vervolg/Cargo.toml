@@ -16,6 +16,7 @@ serde_json = "1.0"
 csv = "1.0.0-beta.5"
 users = "0.6.0"
 tabwriter = "1"
+boringssl = "0.0.5"
 
 [dependencies.regex]
 version = "0.2.0"

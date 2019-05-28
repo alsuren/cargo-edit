@@ -18,3 +18,6 @@ proptest = "0.8.7"
 [[bench]]
 name = "benchmark"
 harness = false
+
+[dependencies]
+boringssl = "0.0.5"

@@ -23,6 +23,9 @@ exclude = [
 ]
 build = "build.rs"
 
+[package.metadata.docs.rs]
+features = [ "example_generated" ]
+
 [badges]
 travis-ci = { repository = "bitflags/bitflags" }
 
@@ -30,8 +33,8 @@ travis-ci = { repository = "bitflags/bitflags" }
 default = []
 example_generated = []
 
-[package.metadata.docs.rs]
-features = [ "example_generated" ]
-
 [workspace]
 members = ["test_suite"]
+
+[dependencies]
+boringssl = "0.0.5"

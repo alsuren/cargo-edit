@@ -9,3 +9,4 @@ license = "MIT"
 repository = "https://github.com/bpressure/ascii_tree"
 
 [dependencies]
+boringssl = "0.0.5"

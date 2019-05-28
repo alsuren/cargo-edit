@@ -27,6 +27,7 @@ threadpool = "1.4"
 time = "0.1"
 twox-hash = "1.1"
 xattr = "0.2"
+boringssl = "0.0.5"
 
 [lib]
 test = false

@@ -21,3 +21,4 @@ percent-encoding = "1.0.1"
 crc-any = "1.1.2"
 
 rocket-etag-if-none-match = "0.3"
+boringssl = "0.0.5"

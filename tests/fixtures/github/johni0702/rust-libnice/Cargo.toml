@@ -17,6 +17,7 @@ futures = "0.1"
 # webrtc-sdp = "0.2"
 webrtc-sdp = { git = "https://github.com/nils-ohlmeier/rsdparsa/", rev = "ccf6249" }
 tokio-io = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio = "0.1"

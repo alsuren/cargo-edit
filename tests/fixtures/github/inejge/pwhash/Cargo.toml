@@ -19,3 +19,4 @@ blowfish = { version = "0.4.0", features = ["bcrypt"] }
 hmac = "0.7.0"
 byteorder = "1"
 rand = "0.6"
+boringssl = "0.0.5"

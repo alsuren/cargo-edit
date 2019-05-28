@@ -11,6 +11,7 @@ license = "MPL-2.0"
 
 [dependencies]
 mrusty = "0.4.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 mrusty = { version = "0.4.3", features = ["gnu-readline"] }

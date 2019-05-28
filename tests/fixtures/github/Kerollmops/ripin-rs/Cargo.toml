@@ -14,3 +14,4 @@ documentation = "https://docs.rs/ripin"
 
 [dependencies]
 num = "0.1"
+boringssl = "0.0.5"

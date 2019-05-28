@@ -16,3 +16,4 @@ Provides Crockford Base32 encoding for identifiers (e.g. u64 values).
 travis-ci = { repository = "archer884/crockford" }
 
 [dependencies]
+boringssl = "0.0.5"

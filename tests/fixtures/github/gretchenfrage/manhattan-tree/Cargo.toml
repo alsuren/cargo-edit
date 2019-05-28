@@ -13,6 +13,7 @@ bonzai = "0.2.1"
 num = "0.2.0"
 smallqueue = "0.1.0"
 through = "0.1.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.5.5"

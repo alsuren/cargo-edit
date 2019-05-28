@@ -9,3 +9,6 @@ repository = "https://github.com/PvdBerg1998/bitty"
 description = "Extract bits from, and put back into integer types."
 keywords = ["bit", "bits", "integer", "bitwise"]
 categories = ["data-structures"]
+
+[dependencies]
+boringssl = "0.0.5"

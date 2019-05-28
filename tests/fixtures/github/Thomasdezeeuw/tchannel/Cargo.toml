@@ -21,3 +21,4 @@ with-futures = ["futures"]
 
 [dependencies]
 futures = { version = "0.1.17", optional = true }
+boringssl = "0.0.5"

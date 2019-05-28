@@ -51,6 +51,7 @@ walkdir = "0.1"
 
 # Logging
 log = "0.3"
+boringssl = "0.0.5"
 
 # Dependencies for examples below
 [dev-dependencies]

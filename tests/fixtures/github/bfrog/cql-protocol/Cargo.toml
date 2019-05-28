@@ -6,3 +6,4 @@ authors = ["Tom Burdick <thomas.burdick@gmail.com>"]
 [dependencies]
 byteorder = "0.5"
 bitflags = "0.7"
+boringssl = "0.0.5"

@@ -18,6 +18,7 @@ lazy_static = "1.1"
 nereon_derive = "0.6"
 pest = "2.0"
 pest_derive = "2.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 toml = "0.4"

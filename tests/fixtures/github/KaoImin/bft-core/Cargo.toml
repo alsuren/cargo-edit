@@ -20,6 +20,7 @@ log = "0.4.3"
 min-max-heap = "1.2.0"
 serde = "1.0"
 serde_derive = "1.0"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 bft-test = { git = "https://github.com/cryptape/bft-test.git", branch = "develop"}

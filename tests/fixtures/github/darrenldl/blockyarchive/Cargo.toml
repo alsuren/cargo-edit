@@ -55,6 +55,7 @@ nom                  = "~ 4.2.3"
 chrono               = "~ 0.4.6"
 clap                 = "~ 2.33.0"
 ctrlc                = "~ 3.1.2"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 quickcheck = "~ 0.8.2"

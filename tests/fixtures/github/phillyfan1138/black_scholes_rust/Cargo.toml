@@ -12,6 +12,7 @@ edition = "2018"
 [dependencies]
 special = "0.7"
 nrfind = "1.0.2"
+boringssl = "0.0.5"
 [dev-dependencies]
 approx = "0.2.0"
 rand = "0.5"

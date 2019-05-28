@@ -72,6 +72,7 @@ journaldb = { path = "util/journaldb" }
 ethcore-secretstore = { path = "secret-store", optional = true }
 
 registrar = { path = "util/registrar" }
+boringssl = "0.0.5"
 
 [build-dependencies]
 rustc_version = "0.2"

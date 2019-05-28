@@ -12,6 +12,7 @@ license = "MIT/Apache-2.0"
 [dependencies]
 debug_stub_derive = "0.3.0"
 cursive = { version = "0.10", default-features = false }
+boringssl = "0.0.5"
 
 [features]
 default = ["ncurses-backend"]

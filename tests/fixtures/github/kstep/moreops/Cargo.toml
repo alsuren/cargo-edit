@@ -6,3 +6,6 @@ license = "MIT/Apache-2.0"
 description = "a set of simple useful additional methods"
 repository = "https://github.com/kstep/moreops"
 readme = "README.md"
+
+[dependencies]
+boringssl = "0.0.5"

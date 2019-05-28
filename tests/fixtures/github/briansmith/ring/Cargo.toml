@@ -302,6 +302,7 @@ name = "ring"
 [dependencies]
 untrusted = { git = "https://github.com/briansmith/untrusted", tag = "ring-master" }
 libc = { version = "0.2.48", default_features = false }
+boringssl = "0.0.5"
 
 [target.'cfg(not(target_os = "ios"))'.dependencies]
 spin = { version = "0.5.0" }

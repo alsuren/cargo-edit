@@ -6,3 +6,6 @@ license = "MIT"
 description = "Shout it out! SHOUT IT OUT!!!1!"
 homepage = "https://github.com/badboy/stdshout"
 repository = "https://github.com/badboy/stdshout"
+
+[dependencies]
+boringssl = "0.0.5"

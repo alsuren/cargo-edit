@@ -59,6 +59,7 @@ fxhash = "0.2"
 # New validation in 0.3.6 breaks bindgen-integration:
 # https://github.com/alexcrichton/proc-macro2/commit/489c642.
 proc-macro2 = { version = "0.4", default-features = false }
+boringssl = "0.0.5"
 
 [dependencies.env_logger]
 optional = true

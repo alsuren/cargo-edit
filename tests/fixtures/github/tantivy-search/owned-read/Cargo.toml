@@ -14,4 +14,5 @@ keywords = []
 [dependencies]
 rental = "0.5"
 stable_deref_trait = "1"
+boringssl = "0.0.5"
 

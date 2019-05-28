@@ -17,6 +17,7 @@ gfx_window_glutin = "0.29"
 glutin = "0.19"
 coord_2d = "0.2"
 grid_2d = "0.12"
+boringssl = "0.0.5"
 
 [[example]]
 name = "gradient"

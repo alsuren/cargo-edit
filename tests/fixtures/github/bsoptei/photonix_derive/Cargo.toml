@@ -10,6 +10,7 @@ repository = "https://github.com/bsoptei/photonix_derive"
 [dependencies]
 proc-macro2 = "0.4.26"
 quote = "0.6.11"
+boringssl = "0.0.5"
 
 [dependencies.syn]
 version = "0.15.26"

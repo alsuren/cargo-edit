@@ -11,6 +11,7 @@ description = "Simple map to count occurences of supplied keys"
 
 [dependencies]
 num-traits = "0.1"
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "vbrandl/countmap" }

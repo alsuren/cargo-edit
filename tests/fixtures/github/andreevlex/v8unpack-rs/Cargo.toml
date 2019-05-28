@@ -1,2 +1,0 @@
-[workspace]
-members = ["v8unpack", "v8unpack4rs"]

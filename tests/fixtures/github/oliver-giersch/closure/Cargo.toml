@@ -10,3 +10,4 @@ keywords = ["closure", "capture", "macro"]
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

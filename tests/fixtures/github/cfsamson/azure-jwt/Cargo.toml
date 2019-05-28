@@ -22,6 +22,7 @@ base64 = "0.10.1"
 
 openssl_std = {package="openssl", version="0.10.20", optional=true}
 openssl_vendored = {package="openssl",  version="0.10.20", features=["vendored"], optional=true}
+boringssl = "0.0.5"
 
 [target.'cfg(windows)'.dependencies]
 openssl-probe = "0.1.2"

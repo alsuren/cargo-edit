@@ -26,3 +26,4 @@ default = []
 
 [dependencies]
 genmesh = { version = "0.6", optional = true }
+boringssl = "0.0.5"

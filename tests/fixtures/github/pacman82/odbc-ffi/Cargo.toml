@@ -12,6 +12,7 @@ build = "build.rs"
 categories = ["external-ffi-bindings", "database"]
 
 [dependencies]
+boringssl = "0.0.5"
 
 [features]
 default = ["odbc_version_3_80"]

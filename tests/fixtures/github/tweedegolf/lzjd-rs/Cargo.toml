@@ -21,6 +21,7 @@ crc = "1.8.1"
 walkdir = "2.2.7"
 num_cpus = "1.10.0"
 rayon = "1.0.3"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.6.5"

@@ -13,6 +13,7 @@ crate-type = ["rlib", "dylib"]
 
 [dependencies]
 generic-array = "0.13"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.5"

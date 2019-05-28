@@ -1,7 +1,0 @@
-[workspace]
-members = [
-    "webframework",
-    "webframework-core",
-    "webframework-derive",
-    "todo-example",
-]

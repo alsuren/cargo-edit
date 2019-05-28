@@ -41,6 +41,7 @@ default = []
 
 [dependencies]
 stm-core = "0.4"
+boringssl = "0.0.5"
 
 # [patch.crates-io]
 # stm-core = { path = "stm-core" }

@@ -13,6 +13,7 @@ bitcoin = "0.18.0"
 leb128 = "0.2.3"
 byteorder = "1.2"
 bitcoin_hashes = "0.3"
+boringssl = "0.0.5"
 
 [dependencies.hex]
 version = "=0.3.2"

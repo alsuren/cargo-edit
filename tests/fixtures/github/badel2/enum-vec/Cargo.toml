@@ -1,8 +1,0 @@
-[workspace]
-members = [
-    "enum_like",
-    "enum_like_derive",
-    "example",
-    "enum_set",
-    "enum_vec",
-]

@@ -10,3 +10,6 @@ include = ["src/*.rs", "Cargo.toml"]
 
 [dev-dependencies]
 quickcheck = "0.4.1"
+
+[dependencies]
+boringssl = "0.0.5"

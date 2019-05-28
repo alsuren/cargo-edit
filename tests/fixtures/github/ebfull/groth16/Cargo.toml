@@ -13,3 +13,4 @@ homepage = "https://github.com/ebfull/groth16"
 repository = "https://github.com/ebfull/groth16"
 
 [dependencies]
+boringssl = "0.0.5"

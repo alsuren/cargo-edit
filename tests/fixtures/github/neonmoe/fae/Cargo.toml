@@ -22,6 +22,7 @@ unicode-normalization = { version = "0.1", optional = true }
 png = { version = "0.14", optional = true }
 
 flame = { version = "0.2", optional = true } # Used by the renderer, for benchmarking
+boringssl = "0.0.5"
 
 [features]
 default = ["text", "png"]

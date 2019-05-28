@@ -16,3 +16,4 @@ f64 = []
 [dependencies]
 num     = "*"
 strided = "*"
+boringssl = "0.0.5"

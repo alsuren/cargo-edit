@@ -15,6 +15,9 @@ readme = "README.md"
 default = []
 use-hyper = ["hyper"]
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.hyper]
 version = "0.10"
 optional = true

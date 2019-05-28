@@ -19,6 +19,7 @@ bytes = "^0.3.0"
 mio = "0.6"
 env_logger = "*"
 log = "*"
+boringssl = "0.0.5"
 # Device dependencies. Uncomment when devices actually start appearing in the
 # codebase. Wastes build/CI times otherwise.
 #

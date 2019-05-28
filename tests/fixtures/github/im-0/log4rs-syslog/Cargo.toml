@@ -27,6 +27,7 @@ log = { version = "*", default_features = false }
 log4rs = { version = "*", default_features = false, features = ["pattern_encoder"] }
 serde = { version = "*", default_features = false, optional = true }
 serde_derive = { version = "*", default_features = false, optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 glob = { version = "*", default_features = false }

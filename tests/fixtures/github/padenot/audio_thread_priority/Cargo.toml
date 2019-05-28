@@ -14,6 +14,7 @@ name = "audio_thread_priority"
 cfg-if = "0.1"
 log = "0.4"
 simple_logger = { version =  "0.4", optional = true }
+boringssl = "0.0.5"
 
 [features]
 terminal-logging = ["simple_logger"]

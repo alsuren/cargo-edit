@@ -9,3 +9,4 @@ repository = "https://github.com/aliblong/chess_clock"
 [dependencies]
 tokio = "^0.1.11"
 futures = "^0.1.20"
+boringssl = "0.0.5"

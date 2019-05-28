@@ -15,6 +15,9 @@ categories = ["algorithms", "no-std"]
 build = "build.rs"
 exclude = ["/utils/*", "/.travis.yml", "/appveyor.yml", ".gitignore"]
 
+[package.metadata.docs.rs]
+all-features = true
+
 [badges]
 travis-ci = { repository = "rust-random/rand" }
 appveyor = { repository = "rust-random/rand" }
@@ -52,6 +55,7 @@ rand_pcg = { path = "rand_pcg", version = "0.1" }
 rand_hc = { path = "rand_hc", version = "0.1" }
 getrandom = { version = "0.1.1", optional = true }
 log = { version = "0.4", optional = true }
+boringssl = "0.0.5"
 
 [dependencies.packed_simd]
 # NOTE: so far no version works reliably due to dependence on unstable features
@@ -76,9 +80,6 @@ rand_distr = { path = "rand_distr", version = "0.1" }
 
 [build-dependencies]
 autocfg = "0.1"
-
-[package.metadata.docs.rs]
-all-features = true
 
 [patch.crates-io]
 rand_core = { path = "rand_core", version = "0.4" }

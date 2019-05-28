@@ -13,3 +13,6 @@ repository = "https://github.com/stainless-steel/sql"
 readme = "README.md"
 categories = ["database"]
 keywords = ["database"]
+
+[dependencies]
+boringssl = "0.0.5"

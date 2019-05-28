@@ -9,3 +9,4 @@ documentation = "http://www.samuelsleight.co.uk/rust-docs/neil/neil"
 
 [dependencies]
 rand = "^0.3.0"
+boringssl = "0.0.5"

@@ -23,6 +23,7 @@ indextree = { version = "3", optional = true }
 libflate = "0.1"
 log = "0.4.4"
 string-interner = { version = "0.7", optional = true, default-features = false }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 env_logger = "0.6"

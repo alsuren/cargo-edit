@@ -12,6 +12,7 @@ exclude = [".travis.yml"]
 
 [dependencies]
 serde = { version = "1.0.70", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 serde_json = "1.0.24"

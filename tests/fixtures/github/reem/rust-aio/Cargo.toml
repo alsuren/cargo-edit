@@ -8,9 +8,10 @@ description = "Lightweight nonblocking io and eventing framework."
 readme = "README.md"
 license = "MIT"
 
-[dependencies.mio]
-git = "https://github.com/carllerche/mio"
-
 [dependencies]
 log = "*"
+boringssl = "0.0.5"
+
+[dependencies.mio]
+git = "https://github.com/carllerche/mio"
 

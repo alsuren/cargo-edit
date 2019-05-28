@@ -7,3 +7,6 @@ repository = "https://github.com/mystor/breaktarget"
 readme = "README.md"
 keywords = ["breaktarget", "nonlocal", "panic", "setjmp", "longjmp"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

@@ -10,3 +10,4 @@ readme = "README.md"
 repository = "https://github.com/draw2d/draw2d"
 
 [dependencies]
+boringssl = "0.0.5"

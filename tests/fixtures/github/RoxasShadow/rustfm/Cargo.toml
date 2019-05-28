@@ -20,3 +20,4 @@ serde_derive = "0.9"
 
 hyper       = "0.10"
 url         = "1.4"
+boringssl = "0.0.5"

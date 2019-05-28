@@ -10,3 +10,4 @@ keywords = ["rustc", "build", "autoconf"]
 categories = ["development-tools::build-utils"]
 
 [dependencies]
+boringssl = "0.0.5"

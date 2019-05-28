@@ -26,6 +26,7 @@ slack = "0.19.0"
 slack_api = "0.19.0"
 time = "0.1.38"
 void = "1.0.2"
+boringssl = "0.0.5"
 
 [dependencies.diesel]
 features = [

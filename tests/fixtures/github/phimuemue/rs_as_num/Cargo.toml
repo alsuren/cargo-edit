@@ -8,3 +8,4 @@ repository = "https://github.com/phimuemue/rs_as_num"
 documentation = "https://docs.rs/as_num"
 
 [dependencies]
+boringssl = "0.0.5"

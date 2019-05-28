@@ -6,3 +6,6 @@ license = "MIT"
 description = "Android FFI Helpers"
 repository = "https://github.com/cosier/android-ffi-rs"
 
+[dependencies]
+boringssl = "0.0.5"
+

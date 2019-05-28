@@ -11,3 +11,4 @@ license = "Apache-2.0"
 chibi-scheme-sys = { path = "chibi-scheme-sys" }
 chibi-scheme-derive= { path = "chibi-scheme-derive"}
 serde = { version = "1.0.90", features = ["derive"] }
+boringssl = "0.0.5"

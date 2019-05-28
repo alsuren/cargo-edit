@@ -7,3 +7,6 @@ homepage = "https://github.com/Lolirofle/byte_conv"
 repository = "https://github.com/Lolirofle/byte_conv.git"
 keywords = ["byte","bytes","conversions"]
 license = "MIT"
+
+[dependencies]
+boringssl = "0.0.5"

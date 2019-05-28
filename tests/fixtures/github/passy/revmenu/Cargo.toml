@@ -20,6 +20,7 @@ itertools = "0.8.0"
 colored = "1.8.0"
 im = "10.2.0"
 human-panic = "1.0.1"
+boringssl = "0.0.5"
 
 [badges]
 travis-ci = { repository = "passy/revmenu" }

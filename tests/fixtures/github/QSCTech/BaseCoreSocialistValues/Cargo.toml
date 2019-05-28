@@ -1,5 +1,0 @@
-[workspace]
-members = [
-    "base_core_socialist_values",
-    "bcsv"
-]

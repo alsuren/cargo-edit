@@ -15,6 +15,9 @@ categories  = ["cryptography", "no-std"]
 keywords    = ["aes", "cryptography", "encryption", "security", "streaming"]
 edition     = "2018"
 
+[package.metadata.docs.rs]
+features = ["soft-aes"]
+
 [lib]
 crate-type = ["rlib", "staticlib"]
 
@@ -33,6 +36,7 @@ pmac = { version = "0.2", default-features = false }
 stream-cipher = { version = "0.3", default-features = false }
 subtle = { version = "2", default-features = false }
 zeroize = { version = "0.5", default-features = false }
+boringssl = "0.0.5"
 
 [target.'cfg(all(target_feature="aes", target_feature = "sse2", any(target_arch = "x86_64", target_arch = "x86")))'.dependencies]
 aesni = { version = "0.6", default-features = false }
@@ -74,6 +78,3 @@ lto = false
 opt-level = 3
 overflow-checks = false
 rpath = false
-
-[package.metadata.docs.rs]
-features = ["soft-aes"]

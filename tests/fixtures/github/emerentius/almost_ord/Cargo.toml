@@ -7,3 +7,6 @@ license = "MIT/Apache-2.0"
 repository = "https://github.com/emerentius/almost_ord"
 
 description = "This crate was renamed to ord_subset. The 'almost_ord' crate will not be updated. If you wish to take the name for yourself, please contact me on GitHub."
+
+[dependencies]
+boringssl = "0.0.5"

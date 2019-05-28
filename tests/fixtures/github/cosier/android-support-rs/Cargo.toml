@@ -8,3 +8,4 @@ repository = "https://github.com/cosier/android-support-rs"
 
 [dependencies]
 android_ffi = "0.1.0"
+boringssl = "0.0.5"

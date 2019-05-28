@@ -10,3 +10,4 @@ documentation = "https://docs.rs/beginner_tools/1.1.1/beginner_tools/"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

@@ -16,6 +16,7 @@ libc = "0.2"
 bitflags = "1.0.0"
 wayland-server = { version = "0.12", optional = true }
 drm = { version = "0.3", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 drm = "0.3.0"

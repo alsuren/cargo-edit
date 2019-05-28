@@ -22,6 +22,7 @@ serde_derive = "1.0.72"
 toml = "0.4.6"
 serde = "1.0.72"
 mktemp = "0.3.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 

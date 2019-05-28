@@ -8,3 +8,6 @@ repository = "https://github.com/letheed/numeral"
 readme = "README.md"
 keywords = ["number", "numeral", "written", "word", "cardinal"]
 license = "MPL-2.0"
+
+[dependencies]
+boringssl = "0.0.5"

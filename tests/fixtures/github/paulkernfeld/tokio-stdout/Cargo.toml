@@ -12,6 +12,7 @@ repository = "https://github.com/paulkernfeld/tokio-stdout"
 bytes    = "0.4"
 futures  = "0.1"
 tokio-io = "0.1"
+boringssl = "0.0.5"
 
 [dev-dependencies]
 tokio-fmt-encoder = "0.2"

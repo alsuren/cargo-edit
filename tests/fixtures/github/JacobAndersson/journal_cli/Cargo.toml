@@ -11,3 +11,4 @@ repository = "https://github.com/JacobAndersson/journal_cli"
 [dependencies]
 structopt = "0.2.10"
 clap = "2.29"
+boringssl = "0.0.5"

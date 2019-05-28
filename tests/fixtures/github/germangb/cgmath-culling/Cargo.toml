@@ -18,3 +18,4 @@ travis-ci = { repository = "germangb/cgmath-culling", branch = "master" }
 
 [dependencies]
 cgmath = "0.16"
+boringssl = "0.0.5"

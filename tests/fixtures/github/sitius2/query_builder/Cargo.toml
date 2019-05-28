@@ -17,6 +17,7 @@ path = "src/lib.rs"
 name = "query_builder"
 
 [dependencies]
+boringssl = "0.0.5"
 
 [badges.maintenance]
 status = "actively-developed"

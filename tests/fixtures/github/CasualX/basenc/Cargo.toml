@@ -25,3 +25,6 @@ lut = []
 
 # Make available the unstable details
 unstable = []
+
+[dependencies]
+boringssl = "0.0.5"

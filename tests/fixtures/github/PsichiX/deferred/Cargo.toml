@@ -12,3 +12,4 @@ license = "MIT"
 documentation = "https://docs.rs/deferred"
 
 [dependencies]
+boringssl = "0.0.5"

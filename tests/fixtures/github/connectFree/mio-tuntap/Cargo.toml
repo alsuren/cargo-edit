@@ -5,3 +5,4 @@ authors = ["kristopher tate <kt@connectfree.co.jp>"]
 description = "Various TUNTAP bindings that interface with mio"
 
 [dependencies]
+boringssl = "0.0.5"

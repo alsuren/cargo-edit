@@ -8,3 +8,6 @@ license = "MIT"
 documentation = "http://norcalli.github.io/rust/numtraits/"
 homepage = "https://github.com/norcalli/numtraits"
 repository = "https://github.com/norcalli/numtraits"
+
+[dependencies]
+boringssl = "0.0.5"

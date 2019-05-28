@@ -15,6 +15,9 @@ homepage = "https://github.com/PistonDevelopers/shaders"
 name = "shaders"
 path = "src/lib.rs"
 
+[dependencies]
+boringssl = "0.0.5"
+
 [dependencies.piston-shaders_graphics2d]
 path = "graphics2d"
 version = "0.3.1"

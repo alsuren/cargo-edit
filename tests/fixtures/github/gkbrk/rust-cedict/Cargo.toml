@@ -10,3 +10,4 @@ documentation = "https://docs.rs/cedict"
 readme = "README.md"
 
 [dependencies]
+boringssl = "0.0.5"

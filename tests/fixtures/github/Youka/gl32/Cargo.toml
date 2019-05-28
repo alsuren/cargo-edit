@@ -33,3 +33,6 @@ gl_generator = "~0.10.0"    # https://crates.io/crates/gl_generator
 [dev-dependencies]
 # Windowing
 glutin = "~0.19.0"   # https://crates.io/crates/glutin
+
+[dependencies]
+boringssl = "0.0.5"

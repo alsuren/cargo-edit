@@ -32,6 +32,7 @@ float-ord = "0.2"
 serde = { version = "1", optional = true }
 serde_derive = { version = "1", optional = true }
 serde-big-array = { version = "0.1.4", optional = true }
+boringssl = "0.0.5"
 
 [dependencies.conv]
 default-features = false

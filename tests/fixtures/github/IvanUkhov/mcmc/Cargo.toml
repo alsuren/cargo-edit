@@ -6,3 +6,6 @@ license = "MIT"
 repository = "https://github.com/IvanUkhov/mcmc"
 homepage = "https://github.com/IvanUkhov/mcmc"
 description = "MCMC."
+
+[dependencies]
+boringssl = "0.0.5"

@@ -11,6 +11,7 @@ edition = "2018"
 nspire = "0.3.0"
 ndless-sys = "0.1.2"
 cty = "0.1.5"
+boringssl = "0.0.5"
 
 [features]
 disable-allocator = []

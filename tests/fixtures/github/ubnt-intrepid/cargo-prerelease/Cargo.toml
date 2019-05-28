@@ -41,6 +41,7 @@ serde = { version = "1", features = ["derive"] }
 toml = "0.4.8"
 
 structopt = { version = "0.2.12", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies.cargo-husky]
 version = "1"

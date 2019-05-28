@@ -13,9 +13,10 @@ members = ["http-service-hyper", "http-service-mock"]
 [dependencies]
 bytes = "0.4.12"
 http = "0.1.17"
-
-[dev-dependencies]
-http-service-hyper = { path = "http-service-hyper", version = "0.2.0" }
+boringssl = "0.0.5"
 
 [dependencies.futures-preview]
 version = "0.3.0-alpha.16"
+
+[dev-dependencies]
+http-service-hyper = { path = "http-service-hyper", version = "0.2.0" }

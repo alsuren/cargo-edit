@@ -19,6 +19,10 @@ Currently compatible with:
 """
 workspace = ".."
 
+[package.metadata.docs.rs]
+features = ["docs"]
+default-target = "x86_64-pc-windows-msvc"
+
 [features]
 default = []
 d2d = ["winapi"]
@@ -30,6 +34,7 @@ serde = { version = "1.0.79", optional = true }
 serde_derive = { version = "1.0.79", optional = true }
 mint = { version = "0.5.1", optional = true }
 kurbo = { version = "0.1.0", optional = true }
+boringssl = "0.0.5"
 
 [dev-dependencies]
 rand = "0.5.5"
@@ -38,7 +43,3 @@ rand = "0.5.5"
 version = "0.3.5"
 optional = true
 features = ["dcommon", "d2dbasetypes", "d2d1", "dwrite", "wincodec"]
-
-[package.metadata.docs.rs]
-features = ["docs"]
-default-target = "x86_64-pc-windows-msvc"

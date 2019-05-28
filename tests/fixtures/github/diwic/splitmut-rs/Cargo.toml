@@ -9,3 +9,4 @@ documentation = "http://docs.rs/splitmut/"
 repository = "https://github.com/diwic/splitmut-rs"
 
 [dependencies]
+boringssl = "0.0.5"

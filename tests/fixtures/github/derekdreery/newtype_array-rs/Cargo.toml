@@ -7,3 +7,6 @@ license = "Apache-2.0/MIT"
 repository = "https://github.com/derekdreery/newtype_array-rs"
 keywords = ["array", "arrays", "const", "generics"]
 readme = "./README.md"
+
+[dependencies]
+boringssl = "0.0.5"

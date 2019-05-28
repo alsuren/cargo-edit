@@ -13,3 +13,4 @@ path = "src/lib.rs"
 
 [dependencies]
 xml-rs = "0.3.4"
+boringssl = "0.0.5"
