@@ -944,6 +944,23 @@ fn adds_dependency_with_target_cfg() {
 }
 
 #[test]
+fn adds_features_dependency() {
+    let (_tmpdir, manifest) = clone_out_test("tests/fixtures/add/Cargo.toml.sample");
+
+    // dependency not present beforehand
+    let toml = get_toml(&manifest);
+    assert!(toml["dependencies"].is_none());
+
+    execute_command(&["add", "https://github.com/killercup/cargo-edit.git", "--features", "jui"],
+                    &manifest);
+
+    // dependency present afterwards
+    let toml = get_toml(&manifest);
+    let val = toml["dependencies"]["cargo-edit"]["features"][0].as_str();
+    assert_eq!(val, Some("jui"));
+}
+
+#[test]
 fn adds_dependency_with_custom_target() {
     let (_tmpdir, manifest) = clone_out_test("tests/fixtures/add/Cargo.toml.sample");
 
@@ -1371,4 +1388,22 @@ fn add_dependency_to_workspace_member() {
             .expect("toml dependency did not exist"),
         "toml--CURRENT_VERSION_TEST",
     );
+}
+#[test]
+fn add_prints_message_for_features_deps() {
+    let (_tmpdir, manifest) = clone_out_test("tests/fixtures/add/Cargo.toml.sample");
+
+    assert_cli::Assert::command(&[
+        "target/debug/cargo-add",
+        "add",
+        "hello-world",
+        "--vers",
+        "0.1.0",
+        "--features",
+        "jui",
+        &format!("--manifest-path={}", manifest),
+    ]).succeeds()
+        .and()
+        .stdout().contains("Adding hello-world v0.1.0 to dependencies with features: jui")
+        .unwrap();
 }

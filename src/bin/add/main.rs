@@ -54,9 +54,10 @@ mod errors {
         }
     }
 }
+
 use crate::errors::*;
 
-fn print_msg(dep: &Dependency, section: &[String], optional: bool) -> Result<()> {
+fn print_msg(dep: &Dependency, section: &[String], optional: bool, features: Option<String>) -> Result<()> {
     let colorchoice = if atty::is(atty::Stream::Stdout) {
         ColorChoice::Auto
     } else {
@@ -81,7 +82,10 @@ fn print_msg(dep: &Dependency, section: &[String], optional: bool) -> Result<()>
     } else {
         format!("{} for target `{}`", &section[2], &section[1])
     };
-    writeln!(output, " {}", section)?;
+    write!(output, " {}", section)?;
+    if let Some(f) = features {
+        write!(output, " with features: {}", f)?
+    }
     Ok(())
 }
 
@@ -106,7 +110,7 @@ fn handle_add(args: &Args) -> Result<()> {
     deps.iter()
         .map(|dep| {
             if !args.quiet {
-                print_msg(dep, &args.get_section(), args.optional)?;
+                print_msg(dep, &args.get_section(), args.optional, args.features.clone())?;
             }
             manifest
                 .insert_into_table(&args.get_section(), dep)
